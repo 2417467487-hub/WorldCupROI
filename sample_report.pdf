@@ -1,0 +1,85 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1007 >>
+stream
+BT
+/F1 14 Tf
+50 780 Td
+/F1 18 Tf
+(WorldCupROI Sample Report) Tj
+0 -22 Td
+/F1 11 Tf
+(Panel rows: 1,440) Tj
+0 -22 Td
+/F1 11 Tf
+(Teams: 24) Tj
+0 -22 Td
+/F1 11 Tf
+(Sponsors: 9) Tj
+0 -22 Td
+/F1 11 Tf
+(Average predicted ROI: 2.675x) Tj
+0 -22 Td
+/F1 11 Tf
+(Average commercial momentum: 0.408) Tj
+0 -22 Td
+/F1 11 Tf
+(Top opportunity: Spain x Pepsi vs Saudi Arabia) Tj
+0 -22 Td
+/F1 11 Tf
+(Top predicted ROI: 3.746x) Tj
+0 -22 Td
+/F1 11 Tf
+() Tj
+0 -22 Td
+/F1 11 Tf
+(A/B Simulation Summary:) Tj
+0 -22 Td
+/F1 11 Tf
+(- A_baseline: delta 0.000, lift 0.00%) Tj
+0 -22 Td
+/F1 11 Tf
+(- B_core_player_absent: delta -0.093, lift -2.89%) Tj
+0 -22 Td
+/F1 11 Tf
+(- C_sponsor_upgrade: delta -0.027, lift -0.90%) Tj
+0 -22 Td
+/F1 11 Tf
+(- D_media_cooling: delta -0.475, lift -14.87%) Tj
+0 -22 Td
+/F1 11 Tf
+() Tj
+0 -22 Td
+/F1 11 Tf
+(Dashboard modules: match probabilities, sponsor ROI, FanScore radar, weather impact heatmap.) Tj
+0 -22 Td
+/F1 11 Tf
+(Models: fallback ML pipeline with XGBoost/LightGBM/SHAP upgrade path.) Tj
+0 -22 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+1370
+%%EOF

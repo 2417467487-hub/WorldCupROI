@@ -1,0 +1,1441 @@
+panel_id,team,sponsor,predicted_roi,roi_formula_score,roi_per_million_spend
+1958_1_Saudi_Arabia,Saudi Arabia,Nike,3.157,2.8573,0.4
+2018_2_Argentina,Argentina,Nike,2.583,1.8498,0.275
+1942_3_Portugal,Portugal,Coca-Cola,2.799,2.5862,0.242
+1978_4_Morocco,Morocco,Emirates,2.517,1.8477,0.292
+2002_5_South_Korea,South Korea,Nike,2.371,1.8075,0.095
+1990_6_Uruguay,Uruguay,Pepsi,3.131,2.067,0.46
+1930_7_Spain,Spain,Pepsi,2.414,2.25,0.071
+1966_8_Croatia,Croatia,Qatar Airways,2.851,2.5402,0.328
+1930_9_Nigeria,Nigeria,Visa,2.619,2.0024,0.235
+1942_10_Argentina,Argentina,Nike,2.517,2.0062,0.268
+1938_11_Qatar,Qatar,Nike,2.802,2.3754,0.544
+1934_12_Belgium,Belgium,Mastercard,2.908,2.1772,0.511
+1986_13_Croatia,Croatia,Qatar Airways,2.932,2.0701,0.337
+1982_14_Nigeria,Nigeria,Visa,2.807,2.631,0.252
+1970_15_Mexico,Mexico,Emirates,2.673,2.543,0.649
+1942_16_Australia,Australia,Nike,2.789,2.182,0.604
+1942_17_Ghana,Ghana,Visa,2.576,1.7576,0.367
+1990_18_Saudi_Arabia,Saudi Arabia,Nike,3.19,2.3502,0.404
+1970_19_Germany,Germany,Pepsi,2.591,2.1438,0.336
+1978_20_USA,USA,Samsung,2.676,2.5416,0.398
+1998_21_Uruguay,Uruguay,Pepsi,2.699,1.8495,0.397
+1974_22_Portugal,Portugal,Coca-Cola,2.438,2.0082,0.211
+2002_23_England,England,Emirates,2.66,2.4334,0.12
+2002_24_Canada,Canada,Pepsi,2.871,2.5363,0.596
+2022_25_Uruguay,Uruguay,Pepsi,3.006,2.1984,0.442
+2018_26_Canada,Canada,Pepsi,3.328,2.2691,0.69
+1958_27_England,England,Emirates,2.977,2.0731,0.135
+1950_28_Germany,Germany,Pepsi,2.602,1.9438,0.337
+1990_29_Qatar,Qatar,Nike,2.784,1.837,0.541
+1950_30_Italy,Italy,Qatar Airways,2.856,1.9936,0.277
+1946_31_England,England,Emirates,2.635,1.8803,0.119
+1946_32_Italy,Italy,Qatar Airways,2.531,2.3422,0.245
+2010_33_France,France,Emirates,2.646,2.415,0.133
+1970_34_Croatia,Croatia,Qatar Airways,2.768,2.528,0.319
+2022_35_Ghana,Ghana,Visa,2.815,1.9116,0.402
+1946_36_Australia,Australia,Nike,3.194,2.7727,0.691
+1962_37_Italy,Italy,Qatar Airways,2.547,2.3177,0.247
+2002_38_Portugal,Portugal,Coca-Cola,2.575,1.9202,0.223
+2010_39_France,France,Emirates,2.643,2.4512,0.133
+1966_40_France,France,Emirates,2.382,1.7623,0.12
+1970_41_Spain,Spain,Pepsi,1.956,2.0028,0.057
+1942_42_Belgium,Belgium,Mastercard,2.587,2.0186,0.455
+2006_43_Croatia,Croatia,Qatar Airways,3.078,2.6879,0.354
+2006_44_Japan,Japan,Samsung,2.927,2.2058,0.243
+2022_45_Brazil,Brazil,Nike,2.221,1.7049,0.085
+2022_46_Canada,Canada,Pepsi,2.959,2.229,0.614
+1934_47_Argentina,Argentina,Nike,2.898,2.2169,0.309
+1934_48_Morocco,Morocco,Emirates,2.608,2.0471,0.302
+1982_49_France,France,Emirates,2.178,1.8195,0.11
+2014_50_Ghana,Ghana,Visa,2.747,1.873,0.392
+1938_51_Uruguay,Uruguay,Pepsi,2.553,1.795,0.375
+1946_52_Croatia,Croatia,Qatar Airways,3.239,2.2036,0.373
+1974_53_South_Korea,South Korea,Nike,2.455,1.8473,0.098
+1998_54_Mexico,Mexico,Emirates,2.709,2.1516,0.658
+1946_55_France,France,Emirates,2.629,1.856,0.132
+2022_56_Australia,Australia,Nike,3.006,2.2718,0.651
+1998_57_Belgium,Belgium,Mastercard,2.884,2.3635,0.507
+1982_58_Uruguay,Uruguay,Pepsi,2.947,2.1949,0.433
+1990_59_Saudi_Arabia,Saudi Arabia,Nike,3.254,2.5872,0.412
+1946_60_South_Korea,South Korea,Nike,2.414,1.8124,0.097
+1930_61_Qatar,Qatar,Nike,3.221,2.277,0.625
+1986_62_Argentina,Argentina,Nike,3.173,2.7406,0.338
+2002_63_Netherlands,Netherlands,Puma,2.423,1.7762,0.24
+1978_64_Spain,Spain,Pepsi,1.773,1.5665,0.052
+1954_65_Croatia,Croatia,Qatar Airways,2.922,2.0416,0.336
+1950_66_Croatia,Croatia,Qatar Airways,2.587,2.4171,0.298
+1954_67_Uruguay,Uruguay,Pepsi,2.455,1.9246,0.361
+1994_68_Australia,Australia,Nike,2.968,2.0714,0.642
+2006_69_Australia,Australia,Nike,3.036,2.3174,0.657
+1998_70_England,England,Emirates,2.793,1.9808,0.126
+1970_71_Netherlands,Netherlands,Puma,2.302,2.2447,0.228
+1998_72_Spain,Spain,Pepsi,2.045,2.0652,0.06
+1930_73_Senegal,Senegal,Pepsi,2.681,1.9504,0.186
+2014_74_England,England,Emirates,2.612,2.3884,0.118
+1970_75_Italy,Italy,Qatar Airways,2.812,1.9336,0.273
+2022_76_Croatia,Croatia,Qatar Airways,2.84,2.1864,0.327
+1938_77_Portugal,Portugal,Coca-Cola,2.425,2.0398,0.21
+1942_78_Spain,Spain,Pepsi,2.384,2.2642,0.07
+1938_79_Nigeria,Nigeria,Visa,2.783,2.0416,0.25
+1958_80_Italy,Italy,Qatar Airways,2.422,1.7368,0.235
+1962_81_Ghana,Ghana,Visa,2.745,1.8453,0.392
+1986_82_France,France,Emirates,2.638,1.9002,0.133
+2018_83_Qatar,Qatar,Nike,2.871,2.0702,0.557
+1966_84_Australia,Australia,Nike,2.819,1.9815,0.61
+1966_85_Argentina,Argentina,Nike,2.848,2.023,0.304
+2010_86_Brazil,Brazil,Nike,2.367,1.7837,0.09
+1946_87_Croatia,Croatia,Qatar Airways,3.245,2.2104,0.373
+2018_88_Croatia,Croatia,Qatar Airways,2.566,2.389,0.295
+2018_89_South_Korea,South Korea,Nike,2.491,2.0299,0.1
+1962_90_Mexico,Mexico,Emirates,2.434,2.3885,0.591
+1970_91_Senegal,Senegal,Pepsi,2.762,2.555,0.191
+1998_92_Qatar,Qatar,Nike,2.949,1.9634,0.573
+2022_93_Mexico,Mexico,Emirates,2.636,2.5155,0.64
+2022_94_Germany,Germany,Pepsi,2.654,2.1439,0.344
+1942_95_Nigeria,Nigeria,Visa,3.345,2.9118,0.3
+1962_96_Japan,Japan,Samsung,2.635,2.036,0.219
+1982_97_Senegal,Senegal,Pepsi,2.76,2.0217,0.191
+1978_98_Belgium,Belgium,Mastercard,2.677,2.2188,0.47
+2014_99_Morocco,Morocco,Emirates,2.572,2.4295,0.298
+1970_100_Ghana,Ghana,Visa,2.651,1.8036,0.378
+2022_101_Australia,Australia,Nike,2.502,2.0293,0.542
+1982_102_Japan,Japan,Samsung,2.945,2.0071,0.245
+1982_103_Germany,Germany,Pepsi,2.811,2.0418,0.365
+2010_104_Nigeria,Nigeria,Visa,3.068,2.3706,0.275
+1978_105_Germany,Germany,Pepsi,2.917,2.1048,0.378
+2022_106_Croatia,Croatia,Qatar Airways,2.553,1.88,0.294
+1974_107_France,France,Emirates,2.325,2.2627,0.117
+1942_108_Mexico,Mexico,Emirates,2.89,2.071,0.701
+1954_109_Portugal,Portugal,Coca-Cola,2.687,2.5412,0.232
+1958_110_Uruguay,Uruguay,Pepsi,2.735,2.0476,0.402
+1990_111_Ghana,Ghana,Visa,2.802,1.9137,0.4
+1954_112_Canada,Canada,Pepsi,2.826,2.1464,0.586
+1978_113_Argentina,Argentina,Nike,3.237,2.737,0.345
+2022_114_Senegal,Senegal,Pepsi,2.824,2.1928,0.196
+1994_115_Spain,Spain,Pepsi,2.443,1.9168,0.071
+1974_116_South_Korea,South Korea,Nike,2.708,2.5066,0.109
+1994_117_Uruguay,Uruguay,Pepsi,2.809,2.0755,0.413
+2006_118_Ghana,Ghana,Visa,2.651,2.3296,0.378
+1954_119_Canada,Canada,Pepsi,2.833,2.1742,0.588
+1934_120_Italy,Italy,Qatar Airways,2.726,1.8948,0.264
+1934_121_Italy,Italy,Qatar Airways,2.978,2.5635,0.289
+1962_122_Ghana,Ghana,Visa,2.912,2.4916,0.415
+2002_123_Netherlands,Netherlands,Puma,2.458,2.0005,0.244
+1994_124_Qatar,Qatar,Nike,3.287,2.6658,0.638
+2018_125_France,France,Emirates,2.467,1.8084,0.124
+1954_126_Portugal,Portugal,Coca-Cola,2.364,1.806,0.204
+2018_127_Canada,Canada,Pepsi,2.75,2.101,0.571
+1974_128_Japan,Japan,Samsung,2.621,2.3517,0.218
+2010_129_Qatar,Qatar,Nike,2.57,2.2957,0.499
+1958_130_England,England,Emirates,2.803,2.5346,0.127
+1998_131_Croatia,Croatia,Qatar Airways,3.108,2.669,0.358
+1986_132_Japan,Japan,Samsung,2.892,1.9986,0.24
+1930_133_Canada,Canada,Pepsi,2.834,2.5152,0.588
+1986_134_England,England,Emirates,2.539,2.3893,0.115
+2010_135_France,France,Emirates,2.477,2.3049,0.125
+1942_136_Senegal,Senegal,Pepsi,2.837,2.0162,0.196
+1958_137_France,France,Emirates,2.48,2.0155,0.125
+2006_138_Uruguay,Uruguay,Pepsi,2.851,2.4609,0.419
+1934_139_Netherlands,Netherlands,Puma,2.465,2.3564,0.244
+1966_140_Germany,Germany,Pepsi,2.749,2.0173,0.357
+1954_141_Senegal,Senegal,Pepsi,2.733,2.489,0.189
+1938_142_Belgium,Belgium,Mastercard,2.531,1.9964,0.445
+1982_143_Argentina,Argentina,Nike,3.463,2.8652,0.369
+1966_144_Spain,Spain,Pepsi,2.711,2.1203,0.079
+1962_145_Croatia,Croatia,Qatar Airways,2.757,2.5134,0.317
+1934_146_South_Korea,South Korea,Nike,2.247,1.7218,0.09
+1966_147_Belgium,Belgium,Mastercard,3.007,2.7302,0.528
+2002_148_USA,USA,Samsung,2.63,1.9368,0.391
+1958_149_France,France,Emirates,2.547,1.8292,0.128
+1962_150_Portugal,Portugal,Coca-Cola,2.873,2.6165,0.248
+1930_151_Australia,Australia,Nike,2.752,2.5092,0.596
+1990_152_Mexico,Mexico,Emirates,2.563,2.1023,0.622
+1986_153_Canada,Canada,Pepsi,2.581,2.3573,0.535
+1930_154_England,England,Emirates,2.809,2.1633,0.127
+2018_155_Saudi_Arabia,Saudi Arabia,Nike,3.097,2.3304,0.393
+2006_156_Italy,Italy,Qatar Airways,2.591,2.3602,0.251
+1982_157_England,England,Emirates,3.111,2.6832,0.141
+1986_158_South_Korea,South Korea,Nike,2.154,1.8777,0.086
+1990_159_Nigeria,Nigeria,Visa,2.997,2.1819,0.269
+1986_160_Australia,Australia,Nike,2.721,2.4749,0.589
+1962_161_Croatia,Croatia,Qatar Airways,2.982,2.2478,0.343
+2002_162_Brazil,Brazil,Nike,2.593,2.0749,0.099
+2014_163_Australia,Australia,Nike,3.044,2.1532,0.659
+2022_164_Japan,Japan,Samsung,2.733,2.077,0.227
+2006_165_Nigeria,Nigeria,Visa,3.151,2.271,0.283
+1950_166_Ghana,Ghana,Visa,2.519,1.9489,0.359
+1982_167_Spain,Spain,Pepsi,2.051,2.0492,0.06
+1958_168_USA,USA,Samsung,2.528,1.9071,0.376
+2002_169_Uruguay,Uruguay,Pepsi,2.77,2.0714,0.407
+2006_170_USA,USA,Samsung,2.718,2.0107,0.404
+1958_171_Uruguay,Uruguay,Pepsi,2.652,2.0422,0.39
+1970_172_Mexico,Mexico,Emirates,2.744,2.1824,0.666
+2014_173_Morocco,Morocco,Emirates,2.315,2.2699,0.268
+1958_174_Mexico,Mexico,Emirates,2.496,1.8828,0.606
+1978_175_France,France,Emirates,2.786,1.9751,0.14
+1986_176_Argentina,Argentina,Nike,2.938,2.013,0.313
+1950_177_Japan,Japan,Samsung,2.718,2.4348,0.226
+2002_178_South_Korea,South Korea,Nike,2.548,1.8662,0.102
+1978_179_Australia,Australia,Nike,3.289,2.248,0.712
+1982_180_Saudi_Arabia,Saudi Arabia,Nike,2.946,2.4008,0.373
+1938_181_Ghana,Ghana,Visa,3.021,2.0446,0.431
+2010_182_USA,USA,Samsung,2.736,2.1764,0.407
+1982_183_Ghana,Ghana,Visa,2.76,2.3918,0.394
+1966_184_Netherlands,Netherlands,Puma,2.671,2.4406,0.265
+2010_185_Australia,Australia,Nike,3.042,2.6324,0.658
+1942_186_Croatia,Croatia,Qatar Airways,2.949,2.6182,0.339
+1966_187_Morocco,Morocco,Emirates,2.039,1.6336,0.236
+1982_188_France,France,Emirates,2.584,1.8626,0.13
+1986_189_Australia,Australia,Nike,2.849,2.2246,0.617
+1982_190_Australia,Australia,Nike,2.956,2.3206,0.64
+1998_191_Australia,Australia,Nike,2.502,2.3886,0.542
+1990_192_Nigeria,Nigeria,Visa,2.685,2.0192,0.241
+1946_193_Morocco,Morocco,Emirates,2.189,1.6672,0.254
+1962_194_Australia,Australia,Nike,2.774,2.17,0.6
+1994_195_Morocco,Morocco,Emirates,2.766,2.1778,0.321
+2018_196_Germany,Germany,Pepsi,3.088,2.388,0.401
+2002_197_France,France,Emirates,2.635,1.8842,0.133
+1954_198_Portugal,Portugal,Coca-Cola,2.712,2.5412,0.234
+1962_199_Japan,Japan,Samsung,2.599,2.3927,0.216
+1962_200_Croatia,Croatia,Qatar Airways,3.38,2.305,0.389
+1970_201_Belgium,Belgium,Mastercard,3.0,2.2569,0.527
+1986_202_Australia,Australia,Nike,3.054,2.7133,0.661
+1934_203_Canada,Canada,Pepsi,2.584,2.389,0.536
+1990_204_Netherlands,Netherlands,Puma,2.757,2.4775,0.273
+1974_205_Belgium,Belgium,Mastercard,2.316,1.8435,0.407
+1986_206_Germany,Germany,Pepsi,3.041,2.1867,0.394
+1930_207_Portugal,Portugal,Coca-Cola,2.621,1.9376,0.227
+1990_208_Qatar,Qatar,Nike,2.548,2.2652,0.495
+1950_209_Mexico,Mexico,Emirates,3.051,2.1874,0.741
+1974_210_Brazil,Brazil,Nike,2.474,1.8406,0.094
+2006_211_Croatia,Croatia,Qatar Airways,2.994,2.0817,0.345
+1934_212_England,England,Emirates,2.57,1.8884,0.116
+1998_213_Morocco,Morocco,Emirates,2.166,2.2038,0.251
+1942_214_USA,USA,Samsung,2.671,1.9944,0.397
+1978_215_Nigeria,Nigeria,Visa,2.891,2.142,0.259
+1946_216_Morocco,Morocco,Emirates,2.243,1.7097,0.26
+1930_217_Nigeria,Nigeria,Visa,2.751,2.0479,0.247
+1962_218_Mexico,Mexico,Emirates,2.696,2.1654,0.654
+1942_219_France,France,Emirates,2.568,1.8364,0.129
+1954_220_France,France,Emirates,2.185,2.1892,0.11
+1974_221_Spain,Spain,Pepsi,2.187,1.6104,0.064
+1966_222_Germany,Germany,Pepsi,2.759,2.5724,0.358
+1930_223_Germany,Germany,Pepsi,2.934,2.112,0.381
+1942_224_Argentina,Argentina,Nike,2.399,1.7694,0.256
+1938_225_Canada,Canada,Pepsi,2.83,2.4946,0.587
+2022_226_Croatia,Croatia,Qatar Airways,2.929,2.0549,0.337
+1994_227_Brazil,Brazil,Nike,2.279,1.896,0.087
+1946_228_France,France,Emirates,2.575,2.0351,0.13
+1946_229_Netherlands,Netherlands,Puma,2.436,1.8148,0.241
+1994_230_Netherlands,Netherlands,Puma,2.672,2.0739,0.265
+1986_231_Argentina,Argentina,Nike,3.059,2.6422,0.326
+2018_232_Mexico,Mexico,Emirates,2.699,1.9901,0.655
+1934_233_South_Korea,South Korea,Nike,2.366,1.7888,0.095
+1998_234_France,France,Emirates,2.668,2.4592,0.134
+1954_235_Italy,Italy,Qatar Airways,2.774,2.4307,0.269
+1946_236_Mexico,Mexico,Emirates,2.682,2.1851,0.651
+2014_237_Uruguay,Uruguay,Pepsi,2.656,1.8116,0.391
+1942_238_Qatar,Qatar,Nike,2.922,2.4928,0.567
+1938_239_Ghana,Ghana,Visa,2.633,1.7848,0.376
+2006_240_Saudi_Arabia,Saudi Arabia,Nike,3.248,2.8906,0.412
+1958_241_Ghana,Ghana,Visa,2.425,2.205,0.346
+1962_242_Croatia,Croatia,Qatar Airways,2.783,2.5319,0.32
+1974_243_Portugal,Portugal,Coca-Cola,2.543,1.8934,0.22
+1978_244_Italy,Italy,Qatar Airways,2.51,1.9742,0.243
+2022_245_Senegal,Senegal,Pepsi,3.031,2.1478,0.21
+1978_246_Belgium,Belgium,Mastercard,2.709,2.0748,0.476
+1942_247_Portugal,Portugal,Coca-Cola,2.352,1.8088,0.203
+1958_248_Qatar,Qatar,Nike,2.917,1.9312,0.566
+1986_249_Uruguay,Uruguay,Pepsi,2.626,2.359,0.386
+2022_250_France,France,Emirates,2.462,1.8131,0.124
+1950_251_Morocco,Morocco,Emirates,2.239,2.2402,0.259
+1962_252_Croatia,Croatia,Qatar Airways,2.79,2.1786,0.321
+1950_253_Nigeria,Nigeria,Visa,2.931,2.3392,0.263
+1978_254_Ghana,Ghana,Visa,2.845,2.4476,0.406
+1970_255_Brazil,Brazil,Nike,2.52,2.3974,0.096
+2010_256_Mexico,Mexico,Emirates,2.361,2.3716,0.573
+1962_257_Uruguay,Uruguay,Pepsi,2.664,2.0378,0.392
+2018_258_Netherlands,Netherlands,Puma,2.292,2.2181,0.227
+1986_259_Uruguay,Uruguay,Pepsi,2.814,2.452,0.414
+1930_260_Croatia,Croatia,Qatar Airways,2.611,2.0618,0.3
+1998_261_Saudi_Arabia,Saudi Arabia,Nike,3.746,2.6552,0.475
+1982_262_Italy,Italy,Qatar Airways,2.342,1.6634,0.227
+1970_263_USA,USA,Samsung,2.834,2.605,0.421
+2006_264_Argentina,Argentina,Nike,2.888,2.0155,0.308
+1990_265_Uruguay,Uruguay,Pepsi,2.795,1.8696,0.411
+1970_266_Ghana,Ghana,Visa,2.944,2.1588,0.42
+1974_267_Japan,Japan,Samsung,2.884,2.4916,0.24
+1978_268_Qatar,Qatar,Nike,2.894,2.4626,0.562
+1990_269_Argentina,Argentina,Nike,2.835,2.1911,0.302
+1954_270_Ghana,Ghana,Visa,3.22,2.6947,0.459
+1990_271_Nigeria,Nigeria,Visa,2.787,2.6127,0.25
+2002_272_USA,USA,Samsung,2.565,1.9226,0.381
+1934_273_USA,USA,Samsung,2.324,1.7936,0.345
+1970_274_Portugal,Portugal,Coca-Cola,2.496,1.8498,0.216
+1982_275_Netherlands,Netherlands,Puma,2.131,1.7894,0.211
+1946_276_Argentina,Argentina,Nike,2.532,1.8368,0.27
+2006_277_Belgium,Belgium,Mastercard,2.527,1.9894,0.444
+1982_278_Belgium,Belgium,Mastercard,2.824,2.1184,0.496
+1930_279_Belgium,Belgium,Mastercard,2.379,2.0782,0.418
+1946_280_Netherlands,Netherlands,Puma,2.507,1.9926,0.248
+1994_281_Japan,Japan,Samsung,2.95,2.195,0.245
+2006_282_Spain,Spain,Pepsi,2.12,1.739,0.062
+1946_283_Qatar,Qatar,Nike,2.738,2.3665,0.532
+1946_284_Brazil,Brazil,Nike,2.587,2.0686,0.099
+2022_285_Uruguay,Uruguay,Pepsi,2.447,2.265,0.36
+2014_286_USA,USA,Samsung,2.543,2.4326,0.378
+1954_287_Uruguay,Uruguay,Pepsi,2.413,2.2544,0.355
+1946_288_USA,USA,Samsung,2.694,2.538,0.4
+1970_289_Australia,Australia,Nike,3.116,2.1563,0.674
+2006_290_Brazil,Brazil,Nike,2.702,2.131,0.103
+1978_291_South_Korea,South Korea,Nike,2.269,1.7685,0.091
+1946_292_Portugal,Portugal,Coca-Cola,2.301,1.7714,0.199
+1998_293_South_Korea,South Korea,Nike,2.294,1.7428,0.092
+1934_294_Qatar,Qatar,Nike,2.604,1.7767,0.506
+1994_295_Italy,Italy,Qatar Airways,2.8,2.4838,0.272
+1970_296_Portugal,Portugal,Coca-Cola,2.598,1.9532,0.225
+1986_297_Saudi_Arabia,Saudi Arabia,Nike,2.819,2.6951,0.357
+1986_298_Croatia,Croatia,Qatar Airways,3.369,2.4367,0.388
+1942_299_Italy,Italy,Qatar Airways,2.441,1.7434,0.237
+1978_300_Senegal,Senegal,Pepsi,2.769,2.5566,0.192
+1930_301_Morocco,Morocco,Emirates,2.177,1.8482,0.252
+1966_302_South_Korea,South Korea,Nike,2.737,1.9602,0.11
+1994_303_Australia,Australia,Nike,2.698,2.1338,0.584
+1950_304_Brazil,Brazil,Nike,2.216,1.8882,0.085
+1934_305_Australia,Australia,Nike,2.88,2.05,0.623
+1934_306_Portugal,Portugal,Coca-Cola,2.573,2.0762,0.222
+1974_307_Saudi_Arabia,Saudi Arabia,Nike,3.224,2.9158,0.409
+1994_308_USA,USA,Samsung,2.806,2.2428,0.417
+1970_309_Portugal,Portugal,Coca-Cola,2.317,1.7666,0.2
+2010_310_USA,USA,Samsung,2.78,2.0441,0.413
+1974_311_Ghana,Ghana,Visa,2.736,2.3679,0.39
+2014_312_Portugal,Portugal,Coca-Cola,2.612,2.1425,0.226
+2014_313_Spain,Spain,Pepsi,2.062,1.5112,0.06
+1954_314_Morocco,Morocco,Emirates,2.498,1.8368,0.289
+2002_315_Portugal,Portugal,Coca-Cola,2.663,1.956,0.23
+2006_316_Spain,Spain,Pepsi,2.378,1.7311,0.07
+1994_317_Portugal,Portugal,Coca-Cola,2.438,1.8328,0.211
+1998_318_Italy,Italy,Qatar Airways,2.675,2.3834,0.259
+1998_319_England,England,Emirates,2.748,1.9674,0.124
+2014_320_France,France,Emirates,2.694,2.4684,0.136
+1958_321_Senegal,Senegal,Pepsi,2.922,2.3126,0.202
+1950_322_Brazil,Brazil,Nike,2.27,1.7119,0.087
+2002_323_Belgium,Belgium,Mastercard,2.703,2.0946,0.475
+2018_324_Nigeria,Nigeria,Visa,2.58,2.5026,0.231
+1982_325_Senegal,Senegal,Pepsi,2.903,2.0704,0.201
+1958_326_Uruguay,Uruguay,Pepsi,2.639,1.7898,0.388
+1998_327_Argentina,Argentina,Nike,3.109,2.1048,0.331
+1998_328_South_Korea,South Korea,Nike,2.374,2.3354,0.095
+2018_329_Portugal,Portugal,Coca-Cola,2.263,1.9603,0.196
+2010_330_Nigeria,Nigeria,Visa,2.741,2.0602,0.246
+1998_331_Argentina,Argentina,Nike,2.422,1.9582,0.258
+1930_332_Italy,Italy,Qatar Airways,2.907,1.9919,0.282
+1950_333_South_Korea,South Korea,Nike,2.496,2.3976,0.1
+1934_334_Morocco,Morocco,Emirates,2.131,1.6502,0.247
+1970_335_Morocco,Morocco,Emirates,2.052,1.5848,0.238
+1974_336_England,England,Emirates,2.921,2.6024,0.132
+2022_337_Argentina,Argentina,Nike,2.838,2.0156,0.303
+2006_338_Morocco,Morocco,Emirates,2.72,1.9553,0.315
+1998_339_Qatar,Qatar,Nike,2.923,1.9284,0.568
+1966_340_Spain,Spain,Pepsi,2.143,2.0962,0.063
+1998_341_Netherlands,Netherlands,Puma,2.547,1.8408,0.252
+1974_342_USA,USA,Samsung,2.547,1.9029,0.378
+1962_343_Germany,Germany,Pepsi,2.518,1.9067,0.327
+1938_344_Senegal,Senegal,Pepsi,2.89,2.0982,0.2
+1970_345_Morocco,Morocco,Emirates,2.307,1.7682,0.267
+1942_346_Brazil,Brazil,Nike,2.296,2.2524,0.088
+1930_347_Croatia,Croatia,Qatar Airways,2.927,2.0579,0.337
+2002_348_Argentina,Argentina,Nike,2.577,1.8626,0.275
+1974_349_Senegal,Senegal,Pepsi,2.922,2.6663,0.202
+1974_350_England,England,Emirates,3.092,2.6624,0.14
+1998_351_Portugal,Portugal,Coca-Cola,2.586,1.9662,0.224
+1990_352_England,England,Emirates,2.798,2.5074,0.127
+1982_353_England,England,Emirates,2.468,1.7764,0.112
+1950_354_Italy,Italy,Qatar Airways,3.084,2.6,0.299
+1938_355_Nigeria,Nigeria,Visa,2.794,2.594,0.251
+2002_356_Portugal,Portugal,Coca-Cola,2.666,1.9818,0.23
+1942_357_Belgium,Belgium,Mastercard,2.526,1.9796,0.444
+1982_358_Germany,Germany,Pepsi,2.426,1.8355,0.315
+1946_359_South_Korea,South Korea,Nike,2.629,2.4622,0.105
+1974_360_South_Korea,South Korea,Nike,2.344,2.3227,0.094
+1986_361_Spain,Spain,Pepsi,2.128,2.1026,0.062
+1930_362_Japan,Japan,Samsung,3.218,2.1287,0.267
+1978_363_Belgium,Belgium,Mastercard,2.393,2.0674,0.421
+1966_364_Spain,Spain,Pepsi,2.561,2.329,0.075
+1958_365_Canada,Canada,Pepsi,2.775,2.1174,0.576
+1990_366_Netherlands,Netherlands,Puma,2.547,2.3724,0.252
+1998_367_South_Korea,South Korea,Nike,1.999,1.5911,0.08
+1950_368_Argentina,Argentina,Nike,2.891,1.9976,0.308
+1990_369_Spain,Spain,Pepsi,1.989,1.6644,0.058
+1990_370_Ghana,Ghana,Visa,2.782,2.4184,0.397
+1934_371_USA,USA,Samsung,2.558,2.4352,0.38
+1978_372_Brazil,Brazil,Nike,2.359,2.306,0.09
+1982_373_Argentina,Argentina,Nike,2.524,1.8261,0.269
+1938_374_Ghana,Ghana,Visa,2.65,2.3539,0.378
+1962_375_Saudi_Arabia,Saudi Arabia,Nike,2.881,2.7462,0.365
+1954_376_South_Korea,South Korea,Nike,2.221,1.7186,0.089
+2022_377_Ghana,Ghana,Visa,2.935,2.4923,0.419
+1958_378_Japan,Japan,Samsung,2.506,1.964,0.208
+1950_379_Spain,Spain,Pepsi,2.208,1.6012,0.065
+1986_380_England,England,Emirates,2.7,2.435,0.122
+1994_381_Mexico,Mexico,Emirates,2.644,2.5193,0.642
+1966_382_Portugal,Portugal,Coca-Cola,2.38,1.7914,0.206
+2014_383_Australia,Australia,Nike,2.677,2.4526,0.579
+2006_384_Croatia,Croatia,Qatar Airways,2.67,1.9032,0.307
+2006_385_Morocco,Morocco,Emirates,2.3,1.907,0.267
+2002_386_Nigeria,Nigeria,Visa,2.661,2.2017,0.239
+1954_387_Mexico,Mexico,Emirates,2.617,2.4722,0.635
+1962_388_Australia,Australia,Nike,2.583,1.8937,0.559
+1934_389_Ghana,Ghana,Visa,2.727,2.0554,0.389
+1978_390_Netherlands,Netherlands,Puma,2.533,1.8325,0.251
+1950_391_Canada,Canada,Pepsi,2.939,2.0335,0.61
+2022_392_Mexico,Mexico,Emirates,2.459,2.4123,0.597
+1946_393_Nigeria,Nigeria,Visa,2.894,2.1484,0.26
+2010_394_Netherlands,Netherlands,Puma,2.656,1.8851,0.263
+1958_395_USA,USA,Samsung,3.088,2.7417,0.459
+2018_396_Brazil,Brazil,Nike,2.243,1.7222,0.086
+1966_397_Morocco,Morocco,Emirates,2.395,1.9648,0.278
+1982_398_France,France,Emirates,2.406,1.7647,0.121
+2022_399_Japan,Japan,Samsung,2.522,1.9891,0.209
+1990_400_Australia,Australia,Nike,3.136,2.1725,0.679
+2022_401_Spain,Spain,Pepsi,2.067,1.7145,0.06
+2018_402_Nigeria,Nigeria,Visa,3.601,3.0488,0.323
+1962_403_Japan,Japan,Samsung,2.751,2.4574,0.228
+1934_404_Argentina,Argentina,Nike,2.491,1.8166,0.266
+1942_405_Netherlands,Netherlands,Puma,2.446,2.3397,0.242
+2010_406_Morocco,Morocco,Emirates,2.67,2.0838,0.309
+1966_407_Nigeria,Nigeria,Visa,2.586,1.9512,0.232
+2010_408_Germany,Germany,Pepsi,2.951,2.3022,0.383
+1986_409_USA,USA,Samsung,2.949,2.1288,0.438
+1954_410_England,England,Emirates,2.783,2.4922,0.126
+1986_411_Netherlands,Netherlands,Puma,2.515,2.3672,0.249
+1978_412_Germany,Germany,Pepsi,2.794,2.5736,0.362
+1942_413_Belgium,Belgium,Mastercard,2.353,1.8856,0.414
+1990_414_Canada,Canada,Pepsi,2.672,2.0942,0.554
+2002_415_Brazil,Brazil,Nike,2.082,1.6242,0.079
+1934_416_Argentina,Argentina,Nike,3.0,2.093,0.32
+1990_417_Argentina,Argentina,Nike,2.765,1.9572,0.295
+2002_418_Spain,Spain,Pepsi,2.283,1.8213,0.067
+1954_419_Australia,Australia,Nike,2.781,2.0006,0.602
+2014_420_Netherlands,Netherlands,Puma,2.542,2.4049,0.252
+1942_421_Belgium,Belgium,Mastercard,2.778,2.28,0.488
+1990_422_Portugal,Portugal,Coca-Cola,2.472,2.393,0.214
+2010_423_Netherlands,Netherlands,Puma,2.488,1.8308,0.247
+1930_424_USA,USA,Samsung,3.273,2.4527,0.486
+1954_425_Senegal,Senegal,Pepsi,2.984,2.7096,0.207
+1986_426_Australia,Australia,Nike,2.942,2.6144,0.637
+1986_427_South_Korea,South Korea,Nike,2.486,1.849,0.1
+1982_428_Italy,Italy,Qatar Airways,2.638,2.0253,0.256
+1978_429_Belgium,Belgium,Mastercard,2.593,2.0079,0.456
+1986_430_Brazil,Brazil,Nike,2.354,1.9349,0.09
+1954_431_Netherlands,Netherlands,Puma,2.445,1.9636,0.242
+1942_432_Australia,Australia,Nike,2.887,2.022,0.625
+1954_433_Saudi_Arabia,Saudi Arabia,Nike,3.041,2.8474,0.385
+1994_434_Australia,Australia,Nike,2.807,2.1699,0.608
+1986_435_Australia,Australia,Nike,2.996,2.0738,0.648
+1954_436_Croatia,Croatia,Qatar Airways,2.767,2.5098,0.318
+1938_437_Australia,Australia,Nike,3.07,2.1678,0.665
+1934_438_Australia,Australia,Nike,2.954,2.2398,0.639
+1958_439_Qatar,Qatar,Nike,3.014,1.9746,0.585
+1994_440_Australia,Australia,Nike,3.058,2.6788,0.662
+2002_441_Germany,Germany,Pepsi,2.723,1.994,0.353
+1978_442_Argentina,Argentina,Nike,2.999,2.1026,0.32
+1950_443_Nigeria,Nigeria,Visa,2.075,1.7152,0.186
+2006_444_Ghana,Ghana,Visa,2.975,2.5431,0.424
+2010_445_Spain,Spain,Pepsi,2.291,1.661,0.067
+1962_446_Spain,Spain,Pepsi,2.347,1.8642,0.069
+1998_447_Mexico,Mexico,Emirates,2.785,2.0337,0.676
+1974_448_Mexico,Mexico,Emirates,2.666,2.1622,0.647
+1974_449_Germany,Germany,Pepsi,2.888,2.0946,0.375
+2014_450_Australia,Australia,Nike,2.624,2.0878,0.568
+2014_451_Morocco,Morocco,Emirates,2.499,1.8482,0.29
+1970_452_Qatar,Qatar,Nike,2.674,2.012,0.519
+1986_453_USA,USA,Samsung,2.365,2.384,0.351
+1950_454_England,England,Emirates,2.77,2.497,0.125
+1958_455_Italy,Italy,Qatar Airways,2.939,2.541,0.285
+2002_456_Saudi_Arabia,Saudi Arabia,Nike,3.291,2.4208,0.417
+1990_457_Portugal,Portugal,Coca-Cola,2.389,1.8073,0.206
+1974_458_Germany,Germany,Pepsi,2.96,2.6361,0.384
+1982_459_Croatia,Croatia,Qatar Airways,2.828,2.1606,0.325
+1978_460_Uruguay,Uruguay,Pepsi,2.668,2.0311,0.392
+1958_461_Australia,Australia,Nike,2.967,2.6595,0.642
+1958_462_Croatia,Croatia,Qatar Airways,2.665,1.917,0.307
+1942_463_Mexico,Mexico,Emirates,2.641,2.1365,0.641
+1994_464_Qatar,Qatar,Nike,2.898,2.1169,0.563
+1982_465_Mexico,Mexico,Emirates,2.701,2.0266,0.656
+1978_466_Nigeria,Nigeria,Visa,2.959,2.187,0.265
+1938_467_Ghana,Ghana,Visa,2.89,2.4968,0.412
+1946_468_Nigeria,Nigeria,Visa,2.654,2.5404,0.238
+1998_469_Croatia,Croatia,Qatar Airways,3.04,2.644,0.35
+2014_470_Portugal,Portugal,Coca-Cola,2.316,1.7788,0.2
+1970_471_Senegal,Senegal,Pepsi,2.713,2.1573,0.188
+1990_472_Qatar,Qatar,Nike,2.525,2.2687,0.49
+1946_473_Nigeria,Nigeria,Visa,2.735,2.039,0.245
+2014_474_Qatar,Qatar,Nike,2.637,1.7973,0.512
+1974_475_Morocco,Morocco,Emirates,2.413,1.9566,0.28
+2018_476_Argentina,Argentina,Nike,2.621,1.8631,0.279
+1942_477_Morocco,Morocco,Emirates,2.316,1.9195,0.268
+1954_478_Spain,Spain,Pepsi,2.277,2.1978,0.067
+2018_479_Netherlands,Netherlands,Puma,2.571,2.0419,0.255
+2002_480_Croatia,Croatia,Qatar Airways,2.985,2.2565,0.343
+1938_481_Morocco,Morocco,Emirates,2.425,1.9768,0.281
+1974_482_Japan,Japan,Samsung,2.722,2.0777,0.226
+1942_483_Mexico,Mexico,Emirates,2.973,2.1298,0.722
+1966_484_Canada,Canada,Pepsi,2.235,2.2214,0.464
+2022_485_Italy,Italy,Qatar Airways,2.644,2.392,0.256
+1970_486_Argentina,Argentina,Nike,2.955,2.0852,0.315
+1958_487_Australia,Australia,Nike,3.046,2.6727,0.659
+1946_488_Brazil,Brazil,Nike,2.414,2.3359,0.092
+1946_489_Belgium,Belgium,Mastercard,2.668,2.1873,0.469
+1962_490_Australia,Australia,Nike,2.844,2.0108,0.616
+2006_491_Qatar,Qatar,Nike,2.538,1.7376,0.493
+1958_492_Saudi_Arabia,Saudi Arabia,Nike,2.91,2.4174,0.369
+1998_493_Portugal,Portugal,Coca-Cola,2.62,1.9274,0.226
+2010_494_Portugal,Portugal,Coca-Cola,2.225,1.7432,0.192
+2022_495_Canada,Canada,Pepsi,2.539,1.9844,0.527
+1970_496_Canada,Canada,Pepsi,2.741,1.9382,0.569
+1966_497_Mexico,Mexico,Emirates,2.901,2.1322,0.704
+1978_498_Morocco,Morocco,Emirates,2.482,2.362,0.288
+1982_499_Senegal,Senegal,Pepsi,2.789,2.0362,0.193
+1938_500_Argentina,Argentina,Nike,2.538,1.8333,0.271
+1974_501_Canada,Canada,Pepsi,2.653,2.3989,0.55
+1954_502_Canada,Canada,Pepsi,2.984,2.2666,0.619
+1990_503_Uruguay,Uruguay,Pepsi,2.406,1.7177,0.354
+1950_504_Mexico,Mexico,Emirates,2.632,2.5103,0.639
+1938_505_Morocco,Morocco,Emirates,2.294,1.7141,0.266
+1986_506_Canada,Canada,Pepsi,2.998,2.1098,0.622
+1994_507_France,France,Emirates,2.524,1.8275,0.127
+1990_508_South_Korea,South Korea,Nike,2.179,2.1997,0.087
+1954_509_USA,USA,Samsung,2.586,2.4928,0.384
+1946_510_Argentina,Argentina,Nike,2.864,2.5646,0.305
+1942_511_Spain,Spain,Pepsi,2.133,2.1479,0.062
+1974_512_France,France,Emirates,2.132,1.6426,0.107
+1934_513_Mexico,Mexico,Emirates,2.412,2.3851,0.585
+1986_514_South_Korea,South Korea,Nike,2.064,2.1741,0.083
+2002_515_Australia,Australia,Nike,2.645,2.1154,0.573
+2018_516_USA,USA,Samsung,2.711,2.5643,0.403
+1966_517_Belgium,Belgium,Mastercard,3.041,2.4102,0.534
+1966_518_Germany,Germany,Pepsi,2.905,2.6498,0.377
+1946_519_Nigeria,Nigeria,Visa,2.793,2.6202,0.25
+1946_520_Australia,Australia,Nike,2.768,1.9928,0.599
+1974_521_France,France,Emirates,2.425,2.3,0.122
+1958_522_Argentina,Argentina,Nike,2.716,1.9222,0.29
+1982_523_Portugal,Portugal,Coca-Cola,2.232,2.2974,0.193
+2014_524_Argentina,Argentina,Nike,2.503,1.9916,0.267
+1986_525_South_Korea,South Korea,Nike,2.184,2.2428,0.088
+2002_526_Brazil,Brazil,Nike,2.798,2.5282,0.107
+1974_527_Brazil,Brazil,Nike,2.191,2.2042,0.084
+1934_528_Japan,Japan,Samsung,2.802,1.9251,0.233
+1958_529_Argentina,Argentina,Nike,2.459,1.8198,0.262
+1986_530_Germany,Germany,Pepsi,2.846,2.224,0.369
+1962_531_Japan,Japan,Samsung,2.658,2.4014,0.221
+1958_532_Portugal,Portugal,Coca-Cola,2.4,1.8388,0.207
+1954_533_Argentina,Argentina,Nike,2.592,1.8667,0.276
+1954_534_Brazil,Brazil,Nike,2.657,2.1364,0.101
+1934_535_Morocco,Morocco,Emirates,2.334,1.7316,0.27
+2010_536_Uruguay,Uruguay,Pepsi,2.958,1.9912,0.435
+1998_537_Croatia,Croatia,Qatar Airways,3.226,2.7559,0.371
+1962_538_Nigeria,Nigeria,Visa,3.201,2.2371,0.287
+1954_539_Brazil,Brazil,Nike,2.984,2.1168,0.114
+1934_540_USA,USA,Samsung,2.547,2.0932,0.378
+1986_541_England,England,Emirates,2.749,2.4797,0.124
+1994_542_Mexico,Mexico,Emirates,2.567,2.1238,0.623
+2022_543_Brazil,Brazil,Nike,2.163,1.6762,0.083
+1974_544_Senegal,Senegal,Pepsi,2.916,2.631,0.202
+1998_545_Australia,Australia,Nike,2.877,2.0122,0.623
+1970_546_Nigeria,Nigeria,Visa,2.828,2.1011,0.254
+1982_547_England,England,Emirates,2.465,2.362,0.111
+1934_548_Morocco,Morocco,Emirates,2.067,1.6184,0.24
+2018_549_Morocco,Morocco,Emirates,2.601,1.8816,0.301
+1942_550_Uruguay,Uruguay,Pepsi,2.677,1.8578,0.394
+1998_551_Canada,Canada,Pepsi,2.625,2.0478,0.545
+1934_552_USA,USA,Samsung,2.644,1.9763,0.393
+2002_553_Australia,Australia,Nike,2.924,2.0614,0.633
+1946_554_Mexico,Mexico,Emirates,2.765,2.5936,0.671
+1998_555_England,England,Emirates,2.22,2.164,0.1
+1954_556_Brazil,Brazil,Nike,2.036,2.1576,0.078
+2006_557_Morocco,Morocco,Emirates,2.486,2.3446,0.288
+1974_558_Portugal,Portugal,Coca-Cola,2.428,2.0215,0.21
+1970_559_Australia,Australia,Nike,2.601,1.8843,0.563
+1986_560_Portugal,Portugal,Coca-Cola,2.532,2.4671,0.219
+2014_561_Spain,Spain,Pepsi,2.215,2.1696,0.065
+2014_562_Argentina,Argentina,Nike,2.581,2.4082,0.275
+1962_563_Brazil,Brazil,Nike,2.279,2.2918,0.087
+1986_564_Uruguay,Uruguay,Pepsi,2.737,2.4229,0.402
+2006_565_Belgium,Belgium,Mastercard,2.393,1.8916,0.421
+1954_566_Saudi_Arabia,Saudi Arabia,Nike,3.294,2.4008,0.417
+1958_567_USA,USA,Samsung,2.864,2.1117,0.426
+2022_568_Uruguay,Uruguay,Pepsi,2.613,1.795,0.384
+1954_569_Mexico,Mexico,Emirates,2.83,2.5792,0.687
+1966_570_Uruguay,Uruguay,Pepsi,2.458,2.2572,0.361
+1934_571_Italy,Italy,Qatar Airways,3.113,2.107,0.302
+2022_572_Croatia,Croatia,Qatar Airways,2.745,2.1248,0.316
+2014_573_South_Korea,South Korea,Nike,2.605,2.4456,0.104
+1950_574_Australia,Australia,Nike,3.511,2.8777,0.76
+2006_575_Italy,Italy,Qatar Airways,2.681,1.8862,0.26
+2022_576_USA,USA,Samsung,2.776,2.0398,0.412
+2002_577_Australia,Australia,Nike,2.89,2.5899,0.626
+1962_578_Canada,Canada,Pepsi,2.914,2.572,0.605
+2002_579_Germany,Germany,Pepsi,2.716,2.5532,0.352
+1978_580_Japan,Japan,Samsung,2.481,1.9598,0.206
+1930_581_Brazil,Brazil,Nike,2.451,2.3822,0.094
+1930_582_Argentina,Argentina,Nike,2.57,2.0594,0.274
+1990_583_Japan,Japan,Samsung,2.874,1.9901,0.239
+1942_584_Italy,Italy,Qatar Airways,2.504,1.9702,0.243
+1982_585_Canada,Canada,Pepsi,2.687,2.0708,0.557
+1962_586_Belgium,Belgium,Mastercard,2.504,1.9663,0.44
+1958_587_South_Korea,South Korea,Nike,2.445,2.0158,0.098
+1950_588_Ghana,Ghana,Visa,2.658,2.3275,0.379
+1990_589_Netherlands,Netherlands,Puma,2.749,2.4886,0.272
+2014_590_Mexico,Mexico,Emirates,2.845,2.6354,0.691
+1950_591_Germany,Germany,Pepsi,2.509,2.0795,0.325
+2018_592_Saudi_Arabia,Saudi Arabia,Nike,3.113,2.8809,0.395
+1998_593_Ghana,Ghana,Visa,2.78,2.0826,0.397
+1954_594_Mexico,Mexico,Emirates,2.88,2.257,0.699
+1930_595_Spain,Spain,Pepsi,2.439,1.7274,0.071
+1962_596_Croatia,Croatia,Qatar Airways,2.783,2.146,0.32
+1942_597_Argentina,Argentina,Nike,3.139,2.6741,0.335
+1934_598_Italy,Italy,Qatar Airways,2.247,1.8162,0.218
+1994_599_Netherlands,Netherlands,Puma,3.176,2.3552,0.315
+1930_600_Qatar,Qatar,Nike,2.619,1.9418,0.509
+1994_601_Portugal,Portugal,Coca-Cola,2.911,2.0759,0.252
+1974_602_Canada,Canada,Pepsi,2.722,2.4503,0.565
+1930_603_USA,USA,Samsung,2.565,1.8908,0.381
+1990_604_Japan,Japan,Samsung,3.153,2.0902,0.262
+1998_605_Saudi_Arabia,Saudi Arabia,Nike,3.052,2.8084,0.387
+1958_606_Argentina,Argentina,Nike,2.378,1.7494,0.254
+1930_607_Qatar,Qatar,Nike,2.538,1.7426,0.493
+1934_608_Nigeria,Nigeria,Visa,2.542,1.9598,0.228
+1970_609_Morocco,Morocco,Emirates,2.477,1.8326,0.287
+1962_610_Nigeria,Nigeria,Visa,2.465,2.0839,0.221
+1938_611_Italy,Italy,Qatar Airways,2.698,1.9004,0.262
+2022_612_Spain,Spain,Pepsi,2.277,1.6383,0.067
+1970_613_Japan,Japan,Samsung,3.226,2.1623,0.268
+1978_614_Qatar,Qatar,Nike,2.912,1.924,0.565
+1934_615_Brazil,Brazil,Nike,2.132,2.1836,0.081
+1934_616_Mexico,Mexico,Emirates,2.915,2.2744,0.708
+1998_617_Portugal,Portugal,Coca-Cola,2.432,1.8538,0.21
+2006_618_Qatar,Qatar,Nike,2.649,1.9632,0.514
+1978_619_Croatia,Croatia,Qatar Airways,2.84,2.5476,0.327
+2010_620_Argentina,Argentina,Nike,2.779,2.4881,0.296
+1954_621_Uruguay,Uruguay,Pepsi,2.705,2.3915,0.398
+2018_622_Belgium,Belgium,Mastercard,2.302,1.847,0.405
+1946_623_Portugal,Portugal,Coca-Cola,2.409,1.8529,0.208
+2010_624_Saudi_Arabia,Saudi Arabia,Nike,3.098,2.8464,0.393
+1994_625_France,France,Emirates,2.715,2.4697,0.137
+2006_626_USA,USA,Samsung,2.379,1.828,0.353
+1986_627_Spain,Spain,Pepsi,2.024,2.0636,0.059
+1954_628_England,England,Emirates,2.806,1.977,0.127
+2018_629_Belgium,Belgium,Mastercard,2.728,2.1082,0.479
+1998_630_Saudi_Arabia,Saudi Arabia,Nike,3.414,2.6268,0.433
+2010_631_Senegal,Senegal,Pepsi,2.741,2.5553,0.19
+1938_632_Netherlands,Netherlands,Puma,2.494,2.3282,0.247
+1994_633_Canada,Canada,Pepsi,2.741,2.4507,0.569
+1978_634_Uruguay,Uruguay,Pepsi,2.502,1.9194,0.368
+2002_635_Qatar,Qatar,Nike,2.61,1.9407,0.507
+1954_636_Nigeria,Nigeria,Visa,2.884,2.29,0.259
+2002_637_Brazil,Brazil,Nike,2.625,2.0938,0.1
+2014_638_Portugal,Portugal,Coca-Cola,2.454,1.8356,0.212
+1958_639_Morocco,Morocco,Emirates,2.244,1.7179,0.26
+1966_640_England,England,Emirates,2.457,1.8301,0.111
+1970_641_Canada,Canada,Pepsi,2.752,1.9398,0.571
+1938_642_Uruguay,Uruguay,Pepsi,2.498,1.756,0.367
+1966_643_Mexico,Mexico,Emirates,2.694,2.0148,0.654
+1946_644_Netherlands,Netherlands,Puma,2.804,2.5026,0.278
+1958_645_Qatar,Qatar,Nike,2.743,2.0298,0.533
+1950_646_USA,USA,Samsung,2.642,2.1508,0.393
+2014_647_Croatia,Croatia,Qatar Airways,2.782,1.9599,0.32
+1942_648_England,England,Emirates,2.886,2.5564,0.131
+2022_649_Uruguay,Uruguay,Pepsi,3.425,2.7456,0.504
+1990_650_Ghana,Ghana,Visa,3.453,2.7831,0.493
+1970_651_Brazil,Brazil,Nike,2.394,1.9787,0.091
+1974_652_Ghana,Ghana,Visa,2.932,2.1486,0.418
+1950_653_Saudi_Arabia,Saudi Arabia,Nike,2.909,2.7329,0.369
+2002_654_Morocco,Morocco,Emirates,2.454,1.8367,0.284
+1970_655_Netherlands,Netherlands,Puma,2.593,2.3764,0.257
+2014_656_France,France,Emirates,2.055,1.5695,0.104
+1994_657_Croatia,Croatia,Qatar Airways,2.985,2.6316,0.343
+1994_658_South_Korea,South Korea,Nike,2.149,1.6958,0.086
+1950_659_Mexico,Mexico,Emirates,2.616,2.1311,0.635
+2010_660_Australia,Australia,Nike,2.888,2.2213,0.625
+2022_661_Nigeria,Nigeria,Visa,2.567,1.9772,0.23
+1998_662_Saudi_Arabia,Saudi Arabia,Nike,3.11,2.8734,0.394
+1942_663_Germany,Germany,Pepsi,2.856,2.5932,0.37
+1982_664_Ghana,Ghana,Visa,2.621,1.8082,0.374
+1930_665_Mexico,Mexico,Emirates,2.899,2.1232,0.704
+2002_666_Saudi_Arabia,Saudi Arabia,Nike,3.558,2.5833,0.451
+1998_667_Canada,Canada,Pepsi,2.549,1.808,0.529
+1982_668_South_Korea,South Korea,Nike,2.866,2.2285,0.115
+1934_669_Qatar,Qatar,Nike,2.569,2.3126,0.499
+1990_670_Uruguay,Uruguay,Pepsi,2.707,2.4035,0.398
+2002_671_Senegal,Senegal,Pepsi,2.495,1.9074,0.173
+1938_672_Senegal,Senegal,Pepsi,2.648,1.9739,0.183
+1962_673_Qatar,Qatar,Nike,2.794,2.0428,0.543
+1998_674_Spain,Spain,Pepsi,2.331,2.2107,0.068
+2014_675_Australia,Australia,Nike,2.964,2.6216,0.642
+1950_676_Morocco,Morocco,Emirates,2.315,1.7204,0.268
+1958_677_Senegal,Senegal,Pepsi,3.013,2.3298,0.209
+2010_678_Qatar,Qatar,Nike,2.805,2.046,0.545
+1994_679_South_Korea,South Korea,Nike,2.177,1.8622,0.087
+1950_680_Portugal,Portugal,Coca-Cola,2.762,2.5466,0.239
+1950_681_Argentina,Argentina,Nike,2.662,1.8735,0.284
+1930_682_Italy,Italy,Qatar Airways,2.569,1.8275,0.249
+1958_683_Canada,Canada,Pepsi,2.916,2.0254,0.605
+1934_684_Italy,Italy,Qatar Airways,2.742,1.9069,0.266
+1934_685_Portugal,Portugal,Coca-Cola,2.537,1.8944,0.219
+1938_686_Uruguay,Uruguay,Pepsi,3.093,2.0416,0.455
+2018_687_Argentina,Argentina,Nike,2.771,1.9676,0.295
+1954_688_Mexico,Mexico,Emirates,3.36,2.3709,0.816
+1998_689_Italy,Italy,Qatar Airways,2.577,1.8362,0.25
+1930_690_South_Korea,South Korea,Nike,2.307,2.3138,0.093
+1978_691_Italy,Italy,Qatar Airways,2.335,1.8749,0.226
+1962_692_South_Korea,South Korea,Nike,1.927,1.7635,0.077
+2018_693_Belgium,Belgium,Mastercard,2.557,1.9872,0.449
+1954_694_Argentina,Argentina,Nike,2.608,2.0761,0.278
+2022_695_Japan,Japan,Samsung,2.861,2.1496,0.238
+2010_696_Ghana,Ghana,Visa,2.717,2.0386,0.388
+1994_697_Australia,Australia,Nike,2.977,2.266,0.644
+1990_698_Morocco,Morocco,Emirates,2.344,1.7704,0.272
+1974_699_Brazil,Brazil,Nike,2.282,1.9228,0.087
+2022_700_Uruguay,Uruguay,Pepsi,2.993,2.215,0.44
+1942_701_South_Korea,South Korea,Nike,2.306,1.9456,0.092
+1974_702_South_Korea,South Korea,Nike,2.286,1.7474,0.092
+1994_703_Spain,Spain,Pepsi,1.975,1.4966,0.058
+2002_704_USA,USA,Samsung,2.632,2.178,0.391
+1974_705_Morocco,Morocco,Emirates,2.352,2.2953,0.273
+1938_706_Croatia,Croatia,Qatar Airways,2.692,2.4492,0.31
+1994_707_Italy,Italy,Qatar Airways,3.023,2.5865,0.293
+1934_708_Portugal,Portugal,Coca-Cola,2.509,1.887,0.217
+1994_709_South_Korea,South Korea,Nike,2.367,1.7902,0.095
+1974_710_Senegal,Senegal,Pepsi,2.758,2.5717,0.191
+1938_711_Japan,Japan,Samsung,2.525,1.9464,0.21
+1930_712_England,England,Emirates,2.838,2.5437,0.128
+2006_713_Australia,Australia,Nike,2.485,1.8354,0.538
+2018_714_Nigeria,Nigeria,Visa,2.712,2.2157,0.243
+1962_715_USA,USA,Samsung,2.695,1.9838,0.4
+2002_716_Morocco,Morocco,Emirates,2.406,1.7937,0.279
+2010_717_Senegal,Senegal,Pepsi,3.112,2.7295,0.216
+1930_718_USA,USA,Samsung,2.636,1.9462,0.392
+1958_719_Australia,Australia,Nike,2.799,2.5184,0.606
+2010_720_Italy,Italy,Qatar Airways,2.837,1.9608,0.275
+1958_1_Morocco,Morocco,Emirates,3.157,1.8146,0.366
+2018_2_USA,USA,Samsung,2.583,2.4518,0.384
+1942_3_Uruguay,Uruguay,Pepsi,2.799,2.0434,0.412
+1978_4_Ghana,Ghana,Visa,2.517,2.467,0.359
+2002_5_Australia,Australia,Nike,2.371,2.5958,0.513
+1990_6_Croatia,Croatia,Qatar Airways,3.131,2.6956,0.36
+1930_7_Belgium,Belgium,Mastercard,2.414,2.1432,0.424
+1966_8_Argentina,Argentina,Nike,2.851,1.9436,0.304
+1930_9_Canada,Canada,Pepsi,2.619,2.388,0.543
+1942_10_Brazil,Brazil,Nike,2.517,1.8299,0.096
+1938_11_Japan,Japan,Samsung,2.802,1.8708,0.233
+1934_12_England,England,Emirates,2.908,2.5969,0.132
+1986_13_Canada,Canada,Pepsi,2.932,2.5617,0.608
+1982_14_Australia,Australia,Nike,2.807,2.0316,0.608
+1970_15_Croatia,Croatia,Qatar Airways,2.673,1.9606,0.308
+1942_16_England,England,Emirates,2.789,2.0574,0.126
+1942_17_Saudi_Arabia,Saudi Arabia,Nike,2.576,2.721,0.326
+1990_18_Ghana,Ghana,Visa,3.19,2.4668,0.455
+1970_19_Ghana,Ghana,Visa,2.591,2.001,0.37
+1978_20_Netherlands,Netherlands,Puma,2.676,1.8306,0.265
+1998_21_Nigeria,Nigeria,Visa,2.699,2.585,0.242
+1974_22_Belgium,Belgium,Mastercard,2.438,2.1344,0.428
+2002_23_Canada,Canada,Pepsi,2.66,1.9228,0.552
+2002_24_USA,USA,Samsung,2.871,2.0502,0.427
+2022_25_Japan,Japan,Samsung,3.006,2.1866,0.25
+2018_26_Netherlands,Netherlands,Puma,3.328,2.692,0.33
+1958_27_Italy,Italy,Qatar Airways,2.977,2.5552,0.289
+1950_28_Morocco,Morocco,Emirates,2.602,2.2618,0.302
+1990_29_Brazil,Brazil,Nike,2.784,2.28,0.106
+1950_30_Netherlands,Netherlands,Puma,2.856,2.5029,0.283
+1946_31_Croatia,Croatia,Qatar Airways,2.635,2.4991,0.303
+1946_32_England,England,Emirates,2.531,1.86,0.114
+2010_33_Nigeria,Nigeria,Visa,2.646,2.1576,0.237
+1970_34_USA,USA,Samsung,2.768,1.9926,0.411
+2022_35_France,France,Emirates,2.815,2.373,0.142
+1946_36_Qatar,Qatar,Nike,3.194,2.0502,0.62
+1962_37_Morocco,Morocco,Emirates,2.547,1.7371,0.295
+2002_38_Germany,Germany,Pepsi,2.575,2.5908,0.334
+2010_39_Australia,Australia,Nike,2.643,2.1336,0.572
+1966_40_Spain,Spain,Pepsi,2.382,2.0873,0.07
+1970_41_Saudi_Arabia,Saudi Arabia,Nike,1.956,2.181,0.248
+1942_42_Qatar,Qatar,Nike,2.587,2.3814,0.502
+2006_43_Saudi_Arabia,Saudi Arabia,Nike,3.078,2.4734,0.39
+2006_44_Croatia,Croatia,Qatar Airways,2.927,2.3072,0.337
+2022_45_Netherlands,Netherlands,Puma,2.221,2.3114,0.22
+2022_46_Spain,Spain,Pepsi,2.959,1.8866,0.087
+1934_47_Uruguay,Uruguay,Pepsi,2.898,2.1848,0.426
+1934_48_Portugal,Portugal,Coca-Cola,2.608,2.1386,0.225
+1982_49_Uruguay,Uruguay,Pepsi,2.178,1.9066,0.32
+2014_50_England,England,Emirates,2.747,2.4312,0.124
+1938_51_Ghana,Ghana,Visa,2.553,2.3275,0.364
+1946_52_England,England,Emirates,3.239,2.6658,0.146
+1974_53_Qatar,Qatar,Nike,2.455,2.4521,0.477
+1998_54_Brazil,Brazil,Nike,2.709,1.8764,0.103
+1946_55_Morocco,Morocco,Emirates,2.629,2.3953,0.305
+2022_56_England,England,Emirates,3.006,2.1464,0.136
+1998_57_Spain,Spain,Pepsi,2.884,1.9304,0.084
+1982_58_Brazil,Brazil,Nike,2.947,2.0506,0.113
+1990_59_Japan,Japan,Samsung,3.254,2.1604,0.27
+1946_60_Spain,Spain,Pepsi,2.414,2.1624,0.071
+1930_61_Italy,Italy,Qatar Airways,3.221,2.2782,0.312
+1986_62_Qatar,Qatar,Nike,3.173,2.1212,0.616
+2002_63_Japan,Japan,Samsung,2.423,2.3822,0.201
+1978_64_Japan,Japan,Samsung,1.773,1.8576,0.147
+1954_65_Spain,Spain,Pepsi,2.922,2.1899,0.086
+1950_66_Netherlands,Netherlands,Puma,2.587,1.7106,0.256
+1954_67_England,England,Emirates,2.455,1.9343,0.111
+1994_68_Portugal,Portugal,Coca-Cola,2.968,2.479,0.257
+2006_69_Mexico,Mexico,Emirates,3.036,2.3142,0.737
+1998_70_Spain,Spain,Pepsi,2.793,2.208,0.082
+1970_71_Senegal,Senegal,Pepsi,2.302,1.9271,0.159
+1998_72_England,England,Emirates,2.045,1.838,0.092
+1930_73_Croatia,Croatia,Qatar Airways,2.681,2.4344,0.309
+2014_74_Argentina,Argentina,Nike,2.612,1.8706,0.278
+1970_75_Nigeria,Nigeria,Visa,2.812,2.7152,0.252
+2022_76_France,France,Emirates,2.84,2.0097,0.143
+1938_77_England,England,Emirates,2.425,2.0468,0.11
+1942_78_Croatia,Croatia,Qatar Airways,2.384,2.1159,0.274
+1938_79_Germany,Germany,Pepsi,2.783,2.5215,0.361
+1958_80_Morocco,Morocco,Emirates,2.422,2.2362,0.281
+1962_81_Belgium,Belgium,Mastercard,2.745,2.5237,0.482
+1986_82_Australia,Australia,Nike,2.638,2.6636,0.571
+2018_83_Saudi_Arabia,Saudi Arabia,Nike,2.871,2.5324,0.364
+1966_84_Canada,Canada,Pepsi,2.819,2.4265,0.585
+1966_85_Uruguay,Uruguay,Pepsi,2.848,2.5309,0.419
+2010_86_Ghana,Ghana,Visa,2.367,2.4586,0.338
+1946_87_France,France,Emirates,3.245,2.5746,0.163
+2018_88_Morocco,Morocco,Emirates,2.566,1.6726,0.297
+2018_89_Senegal,Senegal,Pepsi,2.491,2.2875,0.173
+1962_90_Portugal,Portugal,Coca-Cola,2.434,1.7202,0.21
+1970_91_Brazil,Brazil,Nike,2.762,1.7262,0.105
+1998_92_Canada,Canada,Pepsi,2.949,2.5909,0.612
+2022_93_Qatar,Qatar,Nike,2.636,1.7962,0.512
+2022_94_France,France,Emirates,2.654,1.9224,0.134
+1942_95_Italy,Italy,Qatar Airways,3.345,2.1301,0.324
+1962_96_Nigeria,Nigeria,Visa,2.635,2.2434,0.236
+1982_97_Ghana,Ghana,Visa,2.76,2.4078,0.394
+1978_98_France,France,Emirates,2.677,2.0017,0.135
+2014_99_Portugal,Portugal,Coca-Cola,2.572,1.98,0.222
+1970_100_South_Korea,South Korea,Nike,2.651,2.2399,0.106
+2022_101_Canada,Canada,Pepsi,2.502,1.9343,0.519
+1982_102_England,England,Emirates,2.945,2.5688,0.133
+1982_103_Belgium,Belgium,Mastercard,2.811,2.5766,0.494
+2010_104_Senegal,Senegal,Pepsi,3.068,2.3216,0.212
+1978_105_South_Korea,South Korea,Nike,2.917,2.3983,0.117
+2022_106_Spain,Spain,Pepsi,2.553,2.0282,0.075
+1974_107_Canada,Canada,Pepsi,2.325,1.851,0.482
+1942_108_Portugal,Portugal,Coca-Cola,2.89,2.4828,0.25
+1954_109_Germany,Germany,Pepsi,2.687,2.1318,0.349
+1958_110_Netherlands,Netherlands,Puma,2.735,1.9698,0.271
+1990_111_Italy,Italy,Qatar Airways,2.802,2.415,0.272
+1954_112_Senegal,Senegal,Pepsi,2.826,2.2507,0.196
+1978_113_Netherlands,Netherlands,Puma,3.237,2.0871,0.321
+2022_114_Qatar,Qatar,Nike,2.824,2.001,0.548
+1994_115_Portugal,Portugal,Coca-Cola,2.443,2.2236,0.211
+1974_116_Belgium,Belgium,Mastercard,2.708,2.2096,0.476
+1994_117_Nigeria,Nigeria,Visa,2.809,2.2702,0.252
+2006_118_Mexico,Mexico,Emirates,2.651,1.929,0.643
+1954_119_Spain,Spain,Pepsi,2.833,1.831,0.083
+1934_120_Saudi_Arabia,Saudi Arabia,Nike,2.726,2.897,0.346
+1934_121_Canada,Canada,Pepsi,2.978,2.1108,0.618
+1962_122_France,France,Emirates,2.912,1.8719,0.147
+2002_123_Nigeria,Nigeria,Visa,2.458,2.2729,0.22
+1994_124_Argentina,Argentina,Nike,3.287,2.2061,0.35
+2018_125_Uruguay,Uruguay,Pepsi,2.467,2.4365,0.363
+1954_126_Australia,Australia,Nike,2.364,2.4785,0.512
+2018_127_France,France,Emirates,2.75,1.9728,0.139
+1974_128_Morocco,Morocco,Emirates,2.621,1.7358,0.304
+2010_129_Netherlands,Netherlands,Puma,2.57,1.726,0.255
+1958_130_Uruguay,Uruguay,Pepsi,2.803,1.9848,0.412
+1998_131_Senegal,Senegal,Pepsi,3.108,2.1849,0.215
+1986_132_Qatar,Qatar,Nike,2.892,2.5032,0.562
+1930_133_Spain,Spain,Pepsi,2.834,1.6319,0.083
+1986_134_Japan,Japan,Samsung,2.539,1.8267,0.211
+2010_135_Belgium,Belgium,Mastercard,2.477,1.983,0.435
+1942_136_Portugal,Portugal,Coca-Cola,2.837,2.4144,0.245
+1958_137_Spain,Spain,Pepsi,2.48,1.8006,0.073
+2006_138_USA,USA,Samsung,2.851,2.0141,0.424
+1934_139_France,France,Emirates,2.465,1.8061,0.124
+1966_140_USA,USA,Samsung,2.749,2.517,0.408
+1954_141_Belgium,Belgium,Mastercard,2.733,1.9334,0.48
+1938_142_England,England,Emirates,2.531,2.4162,0.114
+1982_143_Netherlands,Netherlands,Puma,3.463,2.2153,0.343
+1966_144_Ghana,Ghana,Visa,2.711,2.415,0.387
+1962_145_France,France,Emirates,2.757,1.7966,0.139
+1934_146_Australia,Australia,Nike,2.247,2.51,0.486
+1966_147_Morocco,Morocco,Emirates,3.007,1.9725,0.348
+2002_148_Uruguay,Uruguay,Pepsi,2.63,2.3826,0.387
+1958_149_Croatia,Croatia,Qatar Airways,2.547,2.5458,0.293
+1962_150_Italy,Italy,Qatar Airways,2.873,2.0256,0.279
+1930_151_Ghana,Ghana,Visa,2.752,1.8256,0.393
+1990_152_Senegal,Senegal,Pepsi,2.563,2.1158,0.177
+1986_153_South_Korea,South Korea,Nike,2.581,1.664,0.103
+1930_154_Canada,Canada,Pepsi,2.809,2.1928,0.583
+2018_155_Portugal,Portugal,Coca-Cola,3.097,2.4591,0.268
+2006_156_Netherlands,Netherlands,Puma,2.591,1.7894,0.257
+1982_157_Mexico,Mexico,Emirates,3.111,2.2644,0.755
+1986_158_France,France,Emirates,2.154,1.9026,0.109
+1990_159_Italy,Italy,Qatar Airways,2.997,2.4802,0.291
+1986_160_Belgium,Belgium,Mastercard,2.721,1.9297,0.478
+1962_161_Qatar,Qatar,Nike,2.982,2.1119,0.579
+2002_162_South_Korea,South Korea,Nike,2.593,2.1071,0.104
+2014_163_Uruguay,Uruguay,Pepsi,3.044,2.558,0.448
+2022_164_Brazil,Brazil,Nike,2.733,1.9455,0.104
+2006_165_Senegal,Senegal,Pepsi,3.151,2.762,0.218
+1950_166_Croatia,Croatia,Qatar Airways,2.519,2.046,0.29
+1982_167_England,England,Emirates,2.051,1.822,0.093
+1958_168_England,England,Emirates,2.528,2.3637,0.114
+2002_169_Nigeria,Nigeria,Visa,2.77,2.266,0.248
+2006_170_Ghana,Ghana,Visa,2.718,2.4491,0.388
+1958_171_England,England,Emirates,2.652,2.0519,0.12
+1970_172_Senegal,Senegal,Pepsi,2.744,2.196,0.19
+2014_173_Argentina,Argentina,Nike,2.315,1.8498,0.247
+1958_174_Saudi_Arabia,Saudi Arabia,Nike,2.496,2.7058,0.316
+1978_175_Saudi_Arabia,Saudi Arabia,Nike,2.786,3.0182,0.353
+1986_176_Netherlands,Netherlands,Puma,2.938,2.444,0.291
+1950_177_Nigeria,Nigeria,Visa,2.718,2.1013,0.244
+2002_178_England,England,Emirates,2.548,2.529,0.115
+1978_179_Japan,Japan,Samsung,3.289,2.6409,0.273
+1982_180_Morocco,Morocco,Emirates,2.946,1.898,0.341
+1938_181_Canada,Canada,Pepsi,3.021,2.6333,0.627
+2010_182_Belgium,Belgium,Mastercard,2.736,2.2123,0.481
+1982_183_Belgium,Belgium,Mastercard,2.76,1.9902,0.485
+1966_184_Mexico,Mexico,Emirates,2.671,2.1094,0.648
+2010_185_France,France,Emirates,3.042,1.87,0.153
+1942_186_Netherlands,Netherlands,Puma,2.949,1.9118,0.292
+1966_187_France,France,Emirates,2.039,2.1742,0.103
+1982_188_Croatia,Croatia,Qatar Airways,2.584,2.5793,0.297
+1986_189_Morocco,Morocco,Emirates,2.849,2.0017,0.33
+1982_190_Argentina,Argentina,Nike,2.956,2.2174,0.315
+1998_191_Qatar,Qatar,Nike,2.502,1.666,0.486
+1990_192_Portugal,Portugal,Coca-Cola,2.685,2.3684,0.232
+1946_193_Netherlands,Netherlands,Puma,2.189,2.2171,0.217
+1962_194_Netherlands,Netherlands,Puma,2.774,1.957,0.275
+1994_195_England,England,Emirates,2.766,2.2754,0.125
+2018_196_Spain,Spain,Pepsi,3.088,1.9515,0.09
+2002_197_Japan,Japan,Samsung,2.635,2.4995,0.219
+1954_198_Netherlands,Netherlands,Puma,2.712,1.9206,0.269
+1962_199_Nigeria,Nigeria,Visa,2.599,2.0591,0.233
+1962_200_England,England,Emirates,3.38,2.7662,0.153
+1970_201_Croatia,Croatia,Qatar Airways,3.0,2.7564,0.345
+1986_202_Japan,Japan,Samsung,3.054,2.0262,0.254
+1934_203_Belgium,Belgium,Mastercard,2.584,1.9388,0.454
+1990_204_Argentina,Argentina,Nike,2.757,2.0474,0.294
+1974_205_Nigeria,Nigeria,Visa,2.316,2.448,0.208
+1986_206_England,England,Emirates,3.041,2.603,0.138
+1930_207_Canada,Canada,Pepsi,2.621,2.5151,0.544
+1990_208_Germany,Germany,Pepsi,2.548,1.9078,0.33
+1950_209_Australia,Australia,Nike,3.051,2.7306,0.66
+1974_210_Qatar,Qatar,Nike,2.474,2.4767,0.48
+2006_211_France,France,Emirates,2.994,2.445,0.151
+1934_212_South_Korea,South Korea,Nike,2.57,2.3056,0.103
+1998_213_Uruguay,Uruguay,Pepsi,2.166,1.7514,0.319
+1942_214_Germany,Germany,Pepsi,2.671,2.5747,0.346
+1978_215_Netherlands,Netherlands,Puma,2.891,2.4096,0.287
+1946_216_Senegal,Senegal,Pepsi,2.243,2.483,0.155
+1930_217_Portugal,Portugal,Coca-Cola,2.751,2.397,0.238
+1962_218_France,France,Emirates,2.696,1.9463,0.136
+1942_219_Canada,Canada,Pepsi,2.568,2.5047,0.533
+1954_220_Ghana,Ghana,Visa,2.185,1.7279,0.312
+1974_221_Senegal,Senegal,Pepsi,2.187,2.5981,0.151
+1966_222_Mexico,Mexico,Emirates,2.759,2.0291,0.67
+1930_223_France,France,Emirates,2.934,2.4305,0.148
+1942_224_Germany,Germany,Pepsi,2.399,2.4107,0.311
+1938_225_Saudi_Arabia,Saudi Arabia,Nike,2.83,2.3294,0.359
+2022_226_Saudi_Arabia,Saudi Arabia,Nike,2.929,2.9213,0.371
+1994_227_Argentina,Argentina,Nike,2.279,2.0714,0.243
+1946_228_Morocco,Morocco,Emirates,2.575,2.0345,0.298
+1946_229_Italy,Italy,Qatar Airways,2.436,2.3846,0.236
+1994_230_Japan,Japan,Samsung,2.672,2.1389,0.222
+1986_231_South_Korea,South Korea,Nike,3.059,1.9572,0.123
+2018_232_Canada,Canada,Pepsi,2.699,2.4393,0.56
+1934_233_Italy,Italy,Qatar Airways,2.366,2.3938,0.229
+1998_234_Ghana,Ghana,Visa,2.668,1.9979,0.381
+1954_235_Saudi_Arabia,Saudi Arabia,Nike,2.774,2.3528,0.352
+1946_236_Canada,Canada,Pepsi,2.682,2.0934,0.556
+2014_237_France,France,Emirates,2.656,2.2636,0.134
+1942_238_South_Korea,South Korea,Nike,2.922,1.888,0.117
+1938_239_Brazil,Brazil,Nike,2.633,2.19,0.101
+2006_240_Belgium,Belgium,Mastercard,3.248,2.0656,0.571
+1958_241_Nigeria,Nigeria,Visa,2.425,1.868,0.217
+1962_242_Senegal,Senegal,Pepsi,2.783,2.0488,0.193
+1974_243_Mexico,Mexico,Emirates,2.543,2.5617,0.617
+1978_244_Japan,Japan,Samsung,2.51,2.0084,0.208
+2022_245_Argentina,Argentina,Nike,3.031,2.5753,0.323
+1978_246_Australia,Australia,Nike,2.709,2.62,0.586
+1942_247_Italy,Italy,Qatar Airways,2.352,2.2989,0.228
+1958_248_Netherlands,Netherlands,Puma,2.917,2.4406,0.289
+1986_249_Germany,Germany,Pepsi,2.626,1.9534,0.341
+2022_250_Uruguay,Uruguay,Pepsi,2.462,2.4402,0.362
+1950_251_Belgium,Belgium,Mastercard,2.239,1.9179,0.393
+1962_252_South_Korea,South Korea,Nike,2.79,1.977,0.112
+1950_253_Portugal,Portugal,Coca-Cola,2.931,2.1484,0.253
+1978_254_USA,USA,Samsung,2.845,2.0102,0.423
+1970_255_Morocco,Morocco,Emirates,2.52,1.914,0.292
+2010_256_Brazil,Brazil,Nike,2.361,1.5563,0.09
+1962_257_Spain,Spain,Pepsi,2.664,1.7348,0.078
+2018_258_USA,USA,Samsung,2.292,1.8491,0.341
+1986_259_Japan,Japan,Samsung,2.814,1.9002,0.234
+1930_260_Nigeria,Nigeria,Visa,2.611,2.1667,0.234
+1998_261_Spain,Spain,Pepsi,3.746,2.478,0.11
+1982_262_Morocco,Morocco,Emirates,2.342,2.1628,0.271
+1970_263_South_Korea,South Korea,Nike,2.834,1.8588,0.114
+2006_264_Italy,Italy,Qatar Airways,2.888,2.4764,0.28
+1990_265_Belgium,Belgium,Mastercard,2.795,2.5397,0.491
+1970_266_Australia,Australia,Nike,2.944,2.3024,0.637
+1974_267_Morocco,Morocco,Emirates,2.884,1.8758,0.334
+1978_268_France,France,Emirates,2.894,1.8817,0.146
+1990_269_Croatia,Croatia,Qatar Airways,2.835,2.2467,0.326
+1954_270_Qatar,Qatar,Nike,3.22,2.1158,0.625
+1990_271_Belgium,Belgium,Mastercard,2.787,2.0082,0.49
+2002_272_Croatia,Croatia,Qatar Airways,2.565,2.458,0.295
+1934_273_Brazil,Brazil,Nike,2.324,2.0961,0.089
+1970_274_USA,USA,Samsung,2.496,2.4802,0.371
+1982_275_Portugal,Portugal,Coca-Cola,2.131,1.871,0.184
+1946_276_Germany,Germany,Pepsi,2.532,2.4791,0.328
+2006_277_Canada,Canada,Pepsi,2.527,2.4397,0.524
+1982_278_Spain,Spain,Pepsi,2.824,2.2253,0.083
+1930_279_Saudi_Arabia,Saudi Arabia,Nike,2.379,2.3632,0.302
+1946_280_Portugal,Portugal,Coca-Cola,2.507,2.0742,0.217
+1994_281_Argentina,Argentina,Nike,2.95,2.239,0.314
+2006_282_England,England,Emirates,2.12,2.0519,0.096
+1946_283_Germany,Germany,Pepsi,2.738,2.0081,0.355
+1946_284_Croatia,Croatia,Qatar Airways,2.587,2.3006,0.298
+2022_285_Japan,Japan,Samsung,2.447,1.7132,0.203
+2014_286_Qatar,Qatar,Nike,2.543,1.7512,0.494
+1954_287_Qatar,Qatar,Nike,2.413,1.6671,0.469
+1946_288_Canada,Canada,Pepsi,2.694,1.944,0.559
+1970_289_Nigeria,Nigeria,Visa,3.116,2.7548,0.279
+2006_290_France,France,Emirates,2.702,2.1872,0.136
+1978_291_England,England,Emirates,2.269,2.4313,0.103
+1946_292_Netherlands,Netherlands,Puma,2.301,2.2308,0.228
+1998_293_Saudi_Arabia,Saudi Arabia,Nike,2.294,2.8109,0.291
+1934_294_Germany,Germany,Pepsi,2.604,2.4984,0.338
+1994_295_Spain,Spain,Pepsi,2.8,1.6879,0.082
+1970_296_Japan,Japan,Samsung,2.598,2.4776,0.216
+1986_297_Canada,Canada,Pepsi,2.819,1.7803,0.585
+1986_298_Australia,Australia,Nike,3.369,2.4832,0.729
+1942_299_Germany,Germany,Pepsi,2.441,2.4649,0.317
+1978_300_Belgium,Belgium,Mastercard,2.769,2.0011,0.487
+1930_301_Brazil,Brazil,Nike,2.177,1.7926,0.083
+1966_302_Mexico,Mexico,Emirates,2.737,2.7442,0.664
+1994_303_Spain,Spain,Pepsi,2.698,1.6955,0.079
+1950_304_Croatia,Croatia,Qatar Airways,2.216,2.1211,0.255
+1934_305_Ghana,Ghana,Visa,2.88,2.4463,0.411
+1934_306_Belgium,Belgium,Mastercard,2.573,2.2024,0.452
+1974_307_Germany,Germany,Pepsi,3.224,2.0952,0.418
+1994_308_Brazil,Brazil,Nike,2.806,2.0044,0.107
+1970_309_Belgium,Belgium,Mastercard,2.317,2.4338,0.407
+2010_310_Argentina,Argentina,Nike,2.78,2.522,0.296
+1974_311_USA,USA,Samsung,2.736,1.9304,0.407
+2014_312_Japan,Japan,Samsung,2.612,2.1269,0.217
+2014_313_USA,USA,Samsung,2.062,2.4474,0.306
+1954_314_Spain,Spain,Pepsi,2.498,2.1614,0.073
+2002_315_Ghana,Ghana,Visa,2.663,2.4848,0.38
+2006_316_Canada,Canada,Pepsi,2.378,2.6144,0.493
+1994_317_Brazil,Brazil,Nike,2.438,2.2248,0.093
+1998_318_Belgium,Belgium,Mastercard,2.675,2.0206,0.47
+1998_319_Ghana,Ghana,Visa,2.748,2.4892,0.392
+2014_320_Croatia,Croatia,Qatar Airways,2.694,2.1051,0.31
+1958_321_England,England,Emirates,2.922,2.1778,0.132
+1950_322_South_Korea,South Korea,Nike,2.27,2.2832,0.091
+2002_323_Canada,Canada,Pepsi,2.703,2.5448,0.561
+2018_324_Qatar,Qatar,Nike,2.58,1.7208,0.501
+1982_325_Germany,Germany,Pepsi,2.903,2.6002,0.377
+1958_326_Portugal,Portugal,Coca-Cola,2.639,2.3335,0.228
+1998_327_Germany,Germany,Pepsi,3.109,2.7472,0.403
+1998_328_Croatia,Croatia,Qatar Airways,2.374,1.9971,0.273
+2018_329_Argentina,Argentina,Nike,2.263,1.9887,0.241
+2010_330_Ghana,Ghana,Visa,2.741,2.3972,0.391
+1998_331_France,France,Emirates,2.422,1.838,0.122
+1930_332_Germany,Germany,Pepsi,2.907,2.7134,0.377
+1950_333_Portugal,Portugal,Coca-Cola,2.496,1.9734,0.216
+1934_334_Senegal,Senegal,Pepsi,2.131,2.4234,0.148
+1970_335_Saudi_Arabia,Saudi Arabia,Nike,2.052,2.6276,0.26
+1974_336_Portugal,Portugal,Coca-Cola,2.921,2.0554,0.252
+2022_337_England,England,Emirates,2.838,2.5342,0.128
+2006_338_Germany,Germany,Pepsi,2.72,2.7174,0.353
+1998_339_Morocco,Morocco,Emirates,2.923,2.428,0.339
+1966_340_Germany,Germany,Pepsi,2.143,1.9926,0.278
+1998_341_Qatar,Qatar,Nike,2.547,2.4104,0.495
+1974_342_Mexico,Mexico,Emirates,2.547,2.4808,0.618
+1962_343_Portugal,Portugal,Coca-Cola,2.518,2.3151,0.218
+1938_344_Argentina,Argentina,Nike,2.89,2.5258,0.308
+1970_345_France,France,Emirates,2.307,2.3079,0.116
+1942_346_Belgium,Belgium,Mastercard,2.296,1.9858,0.404
+1930_347_France,France,Emirates,2.927,2.4221,0.147
+2002_348_Morocco,Morocco,Emirates,2.577,2.2819,0.299
+1974_349_Qatar,Qatar,Nike,2.922,1.9335,0.567
+1974_350_Portugal,Portugal,Coca-Cola,3.092,2.1164,0.267
+1998_351_Senegal,Senegal,Pepsi,2.586,2.647,0.179
+1990_352_Canada,Canada,Pepsi,2.798,1.9978,0.58
+1982_353_Brazil,Brazil,Nike,2.468,2.1624,0.094
+1950_354_Mexico,Mexico,Emirates,3.084,2.2381,0.749
+1938_355_USA,USA,Samsung,2.794,1.9536,0.415
+2002_356_Ghana,Ghana,Visa,2.666,2.5106,0.38
+1942_357_South_Korea,South Korea,Nike,2.526,2.2775,0.101
+1982_358_Belgium,Belgium,Mastercard,2.426,2.3702,0.426
+1946_359_Australia,Australia,Nike,2.629,2.1696,0.569
+1974_360_Croatia,Croatia,Qatar Airways,2.344,1.9844,0.27
+1986_361_Nigeria,Nigeria,Visa,2.128,2.0602,0.191
+1930_362_Portugal,Portugal,Coca-Cola,3.218,2.6842,0.278
+1978_363_Morocco,Morocco,Emirates,2.393,1.8497,0.277
+1966_364_England,England,Emirates,2.561,2.1018,0.116
+1958_365_Uruguay,Uruguay,Pepsi,2.775,2.0772,0.408
+1990_366_Qatar,Qatar,Nike,2.547,1.863,0.495
+1998_367_Italy,Italy,Qatar Airways,1.999,2.1961,0.194
+1950_368_Belgium,Belgium,Mastercard,2.891,2.6346,0.508
+1990_369_Belgium,Belgium,Mastercard,1.989,2.0965,0.35
+1990_370_Germany,Germany,Pepsi,2.782,2.0213,0.361
+1934_371_Italy,Italy,Qatar Airways,2.558,1.755,0.248
+1978_372_England,England,Emirates,2.359,1.92,0.107
+1982_373_Japan,Japan,Samsung,2.524,2.3212,0.21
+1938_374_Australia,Australia,Nike,2.65,1.9576,0.574
+1962_375_Portugal,Portugal,Coca-Cola,2.881,1.7948,0.249
+1954_376_Nigeria,Nigeria,Visa,2.221,2.5652,0.199
+2022_377_Morocco,Morocco,Emirates,2.935,1.873,0.34
+1958_378_Netherlands,Netherlands,Puma,2.506,1.898,0.248
+1950_379_Uruguay,Uruguay,Pepsi,2.208,2.4443,0.325
+1986_380_Saudi_Arabia,Saudi Arabia,Nike,2.7,2.2993,0.342
+1994_381_Senegal,Senegal,Pepsi,2.644,1.9928,0.183
+1966_382_England,England,Emirates,2.38,2.3384,0.108
+2014_383_Morocco,Morocco,Emirates,2.677,1.6896,0.31
+2006_384_Argentina,Argentina,Nike,2.67,2.3867,0.285
+2006_385_Portugal,Portugal,Coca-Cola,2.3,1.9984,0.199
+2002_386_Uruguay,Uruguay,Pepsi,2.661,2.0072,0.391
+1954_387_Saudi_Arabia,Saudi Arabia,Nike,2.617,2.2153,0.332
+1962_388_Senegal,Senegal,Pepsi,2.583,2.4431,0.179
+1934_389_Australia,Australia,Nike,2.727,2.1991,0.59
+1978_390_USA,USA,Samsung,2.533,2.5445,0.376
+1950_391_France,France,Emirates,2.939,2.4452,0.148
+2022_392_Belgium,Belgium,Mastercard,2.459,1.8704,0.432
+1946_393_South_Korea,South Korea,Nike,2.894,2.3817,0.116
+2010_394_Germany,Germany,Pepsi,2.656,2.6364,0.344
+1958_395_Croatia,Croatia,Qatar Airways,3.088,2.1962,0.355
+2018_396_Germany,Germany,Pepsi,2.243,2.5399,0.291
+1966_397_France,France,Emirates,2.395,1.9644,0.121
+1982_398_Morocco,Morocco,Emirates,2.406,2.305,0.279
+2022_399_Netherlands,Netherlands,Puma,2.522,1.924,0.25
+1990_400_Japan,Japan,Samsung,3.136,2.5654,0.26
+2022_401_Qatar,Qatar,Nike,2.067,1.9703,0.401
+2018_402_Senegal,Senegal,Pepsi,3.601,2.4588,0.249
+1962_403_Argentina,Argentina,Nike,2.751,1.9623,0.293
+1934_404_Canada,Canada,Pepsi,2.491,2.3647,0.517
+1942_405_Japan,Japan,Samsung,2.446,1.8647,0.203
+2010_406_Netherlands,Netherlands,Puma,2.67,2.0937,0.265
+1966_407_Mexico,Mexico,Emirates,2.586,2.4286,0.628
+2010_408_Saudi_Arabia,Saudi Arabia,Nike,2.951,2.5828,0.374
+1986_409_Brazil,Brazil,Nike,2.949,2.4313,0.113
+1954_410_Brazil,Brazil,Nike,2.783,1.7981,0.106
+1986_411_Croatia,Croatia,Qatar Airways,2.515,1.9927,0.289
+1978_412_Uruguay,Uruguay,Pepsi,2.794,1.8992,0.411
+1942_413_Qatar,Qatar,Nike,2.353,2.2482,0.457
+1990_414_Germany,Germany,Pepsi,2.672,2.1883,0.347
+2002_415_Germany,Germany,Pepsi,2.082,2.4429,0.27
+1934_416_Senegal,Senegal,Pepsi,3.0,2.7465,0.208
+1990_417_France,France,Emirates,2.765,2.377,0.139
+2002_418_Canada,Canada,Pepsi,2.283,2.1646,0.474
+1954_419_Ghana,Ghana,Visa,2.781,2.397,0.397
+2014_420_Qatar,Qatar,Nike,2.542,1.8954,0.494
+1942_421_USA,USA,Samsung,2.778,2.2441,0.413
+1990_422_Belgium,Belgium,Mastercard,2.472,1.9793,0.434
+2010_423_Croatia,Croatia,Qatar Airways,2.488,2.5373,0.286
+1930_424_Mexico,Mexico,Emirates,3.273,2.4906,0.794
+1954_425_Australia,Australia,Nike,2.984,2.1594,0.646
+1986_426_South_Korea,South Korea,Nike,2.942,1.8272,0.118
+1986_427_England,England,Emirates,2.486,2.5117,0.112
+1982_428_Qatar,Qatar,Nike,2.638,2.0252,0.512
+1978_429_Senegal,Senegal,Pepsi,2.593,2.5634,0.18
+1986_430_Belgium,Belgium,Mastercard,2.354,2.2082,0.414
+1954_431_USA,USA,Samsung,2.445,2.1346,0.363
+1942_432_Brazil,Brazil,Nike,2.887,2.2826,0.11
+1954_433_Japan,Japan,Samsung,3.041,1.8805,0.253
+1994_434_Saudi_Arabia,Saudi Arabia,Nike,2.807,2.4497,0.356
+1986_435_Uruguay,Uruguay,Pepsi,2.996,2.4786,0.441
+1954_436_Nigeria,Nigeria,Visa,2.767,2.0757,0.248
+1938_437_Portugal,Portugal,Coca-Cola,3.07,2.5764,0.265
+1934_438_France,France,Emirates,2.954,2.0165,0.149
+1958_439_Senegal,Senegal,Pepsi,3.014,2.7074,0.209
+1994_440_Senegal,Senegal,Pepsi,3.058,2.1482,0.212
+2002_441_Italy,Italy,Qatar Airways,2.723,2.3516,0.264
+1978_442_Brazil,Brazil,Nike,2.999,2.4663,0.115
+1950_443_Germany,Germany,Pepsi,2.075,2.195,0.269
+2006_444_Germany,Germany,Pepsi,2.975,2.1459,0.386
+2010_445_Qatar,Qatar,Nike,2.291,2.4568,0.445
+1962_446_Germany,Germany,Pepsi,2.347,2.3016,0.304
+1998_447_Japan,Japan,Samsung,2.785,2.4308,0.231
+1974_448_Japan,Japan,Samsung,2.666,2.0193,0.221
+1974_449_Italy,Italy,Qatar Airways,2.888,2.4531,0.28
+2014_450_Canada,Canada,Pepsi,2.624,1.9928,0.544
+2014_451_England,England,Emirates,2.499,2.4867,0.113
+1970_452_Mexico,Mexico,Emirates,2.674,2.1912,0.649
+1986_453_Japan,Japan,Samsung,2.365,1.738,0.196
+1950_454_Italy,Italy,Qatar Airways,2.77,1.8992,0.269
+1958_455_Mexico,Mexico,Emirates,2.939,2.1792,0.713
+2002_456_Ghana,Ghana,Visa,3.291,2.5374,0.469
+1990_457_USA,USA,Samsung,2.389,2.4377,0.355
+1974_458_Mexico,Mexico,Emirates,2.96,2.0928,0.718
+1982_459_South_Korea,South Korea,Nike,2.828,1.9599,0.113
+1978_460_Ghana,Ghana,Visa,2.668,2.0228,0.381
+1958_461_Netherlands,Netherlands,Puma,2.967,1.9064,0.294
+1958_462_Uruguay,Uruguay,Pepsi,2.665,2.3683,0.392
+1942_463_Portugal,Portugal,Coca-Cola,2.641,2.0082,0.228
+1994_464_Italy,Italy,Qatar Airways,2.898,2.117,0.281
+1982_465_Germany,Germany,Pepsi,2.701,2.569,0.35
+1978_466_France,France,Emirates,2.959,2.4454,0.149
+1938_467_Australia,Australia,Nike,2.89,2.1004,0.626
+1946_468_Portugal,Portugal,Coca-Cola,2.654,1.8095,0.229
+1998_469_Germany,Germany,Pepsi,3.04,2.1497,0.394
+2014_470_Croatia,Croatia,Qatar Airways,2.316,2.4046,0.267
+1970_471_Argentina,Argentina,Nike,2.713,2.0448,0.289
+1990_472_Brazil,Brazil,Nike,2.525,1.6326,0.096
+1946_473_Qatar,Qatar,Nike,2.735,2.3371,0.531
+2014_474_England,England,Emirates,2.637,2.3943,0.119
+1974_475_Uruguay,Uruguay,Pepsi,2.413,2.0442,0.355
+2018_476_Mexico,Mexico,Emirates,2.621,2.503,0.636
+1942_477_Belgium,Belgium,Mastercard,2.316,2.1372,0.407
+1954_478_Morocco,Morocco,Emirates,2.277,1.8722,0.264
+2018_479_Spain,Spain,Pepsi,2.571,1.8166,0.075
+2002_480_England,England,Emirates,2.985,2.1776,0.135
+1938_481_Argentina,Argentina,Nike,2.425,2.0966,0.259
+1974_482_Ghana,Ghana,Visa,2.722,2.0812,0.388
+1942_483_Saudi_Arabia,Saudi Arabia,Nike,2.973,2.9528,0.377
+1966_484_Belgium,Belgium,Mastercard,2.235,1.7703,0.393
+2022_485_Senegal,Senegal,Pepsi,2.644,2.0438,0.183
+1970_486_Spain,Spain,Pepsi,2.955,2.29,0.086
+1958_487_USA,USA,Samsung,3.046,2.0907,0.453
+1946_488_Germany,Germany,Pepsi,2.414,2.0746,0.313
+1946_489_Nigeria,Nigeria,Visa,2.668,2.2518,0.239
+1962_490_Mexico,Mexico,Emirates,2.844,2.5476,0.69
+2006_491_Spain,Spain,Pepsi,2.538,2.0218,0.074
+1958_492_Argentina,Argentina,Nike,2.91,2.0344,0.31
+1998_493_Saudi_Arabia,Saudi Arabia,Nike,2.62,2.8797,0.332
+2010_494_Uruguay,Uruguay,Pepsi,2.225,2.2794,0.327
+2022_495_Belgium,Belgium,Mastercard,2.539,2.0742,0.446
+1970_496_France,France,Emirates,2.741,2.3508,0.138
+1966_497_France,France,Emirates,2.901,2.4531,0.146
+1978_498_Germany,Germany,Pepsi,2.482,2.0441,0.322
+1982_499_Japan,Japan,Samsung,2.789,2.4188,0.232
+1938_500_Brazil,Brazil,Nike,2.538,2.1969,0.097
+1974_501_Mexico,Mexico,Emirates,2.653,1.9497,0.644
+1954_502_Brazil,Brazil,Nike,2.984,2.083,0.114
+1990_503_France,France,Emirates,2.406,2.1696,0.121
+1950_504_South_Korea,South Korea,Nike,2.632,1.7262,0.106
+1938_505_Saudi_Arabia,Saudi Arabia,Nike,2.294,2.7559,0.291
+1986_506_Ghana,Ghana,Visa,2.998,2.6012,0.428
+1994_507_Nigeria,Nigeria,Visa,2.524,2.6492,0.226
+1990_508_Netherlands,Netherlands,Puma,2.179,1.6949,0.216
+1954_509_Mexico,Mexico,Emirates,2.586,1.9896,0.628
+1946_510_Germany,Germany,Pepsi,2.864,2.127,0.371
+1942_511_Qatar,Qatar,Nike,2.133,1.8628,0.414
+1974_512_Qatar,Qatar,Nike,2.132,2.2234,0.414
+1934_513_Brazil,Brazil,Nike,2.412,1.5698,0.092
+1986_514_Australia,Australia,Nike,2.064,1.8824,0.447
+2002_515_Netherlands,Netherlands,Puma,2.645,1.9024,0.262
+2018_516_Japan,Japan,Samsung,2.711,1.9183,0.225
+1966_517_Netherlands,Netherlands,Puma,3.041,2.2024,0.301
+1966_518_Saudi_Arabia,Saudi Arabia,Nike,2.905,2.3905,0.368
+1946_519_Qatar,Qatar,Nike,2.793,1.8384,0.542
+1946_520_Senegal,Senegal,Pepsi,2.768,2.5422,0.192
+1974_521_Qatar,Qatar,Nike,2.425,1.7999,0.471
+1958_522_Qatar,Qatar,Nike,2.716,2.382,0.527
+1982_523_Ghana,Ghana,Visa,2.232,1.7462,0.318
+2014_524_Saudi_Arabia,Saudi Arabia,Nike,2.503,2.3736,0.317
+1986_525_Germany,Germany,Pepsi,2.184,1.9492,0.283
+2002_526_Spain,Spain,Pepsi,2.798,1.8293,0.082
+1974_527_Qatar,Qatar,Nike,2.191,1.7603,0.425
+1934_528_Argentina,Argentina,Nike,2.802,2.51,0.299
+1958_529_Croatia,Croatia,Qatar Airways,2.459,2.4164,0.283
+1986_530_Qatar,Qatar,Nike,2.846,2.0424,0.553
+1962_531_France,France,Emirates,2.658,1.7862,0.134
+1958_532_Australia,Australia,Nike,2.4,2.5113,0.519
+1954_533_Croatia,Croatia,Qatar Airways,2.592,2.4633,0.298
+1954_534_Uruguay,Uruguay,Pepsi,2.657,2.2798,0.391
+1934_535_South_Korea,South Korea,Nike,2.334,2.2472,0.094
+2010_536_Argentina,Argentina,Nike,2.958,2.5633,0.315
+1998_537_Italy,Italy,Qatar Airways,3.226,2.0801,0.313
+1962_538_Mexico,Mexico,Emirates,3.201,2.7136,0.777
+1954_539_England,England,Emirates,2.984,2.8109,0.135
+1934_540_Croatia,Croatia,Qatar Airways,2.547,2.0886,0.293
+1986_541_Spain,Spain,Pepsi,2.749,1.6269,0.08
+1994_542_Senegal,Senegal,Pepsi,2.567,2.1373,0.178
+2022_543_Canada,Canada,Pepsi,2.163,2.4007,0.449
+1974_544_Netherlands,Netherlands,Puma,2.916,1.8686,0.289
+1998_545_Morocco,Morocco,Emirates,2.877,2.3292,0.333
+1970_546_Brazil,Brazil,Nike,2.828,2.3022,0.108
+1982_547_Netherlands,Netherlands,Puma,2.465,1.7344,0.244
+1934_548_Argentina,Argentina,Nike,2.067,2.2782,0.22
+2018_549_Senegal,Senegal,Pepsi,2.601,2.6539,0.18
+1942_550_England,England,Emirates,2.677,2.4086,0.121
+1998_551_Nigeria,Nigeria,Visa,2.625,2.2021,0.235
+1934_552_Qatar,Qatar,Nike,2.644,2.3758,0.513
+2002_553_Portugal,Portugal,Coca-Cola,2.924,2.4689,0.253
+1946_554_Argentina,Argentina,Nike,2.765,1.9546,0.295
+1998_555_Saudi_Arabia,Saudi Arabia,Nike,2.22,2.0293,0.281
+1954_556_USA,USA,Samsung,2.036,1.856,0.303
+2006_557_Portugal,Portugal,Coca-Cola,2.486,1.896,0.215
+1974_558_Senegal,Senegal,Pepsi,2.428,2.1633,0.168
+1970_559_Germany,Germany,Pepsi,2.601,2.4234,0.337
+1986_560_Croatia,Croatia,Qatar Airways,2.532,2.012,0.291
+2014_561_Qatar,Qatar,Nike,2.215,1.8854,0.43
+2014_562_South_Korea,South Korea,Nike,2.581,1.724,0.103
+1962_563_Qatar,Qatar,Nike,2.279,1.8479,0.443
+1986_564_Belgium,Belgium,Mastercard,2.737,2.013,0.481
+2006_565_Australia,Australia,Nike,2.393,2.4368,0.518
+1954_566_Morocco,Morocco,Emirates,3.294,2.4381,0.382
+1958_567_England,England,Emirates,2.864,2.5673,0.13
+2022_568_USA,USA,Samsung,2.613,2.4282,0.388
+1954_569_Germany,Germany,Pepsi,2.83,2.0416,0.367
+1966_570_South_Korea,South Korea,Nike,2.458,1.6052,0.099
+1934_571_Croatia,Croatia,Qatar Airways,3.113,2.7828,0.358
+2022_572_Japan,Japan,Samsung,2.745,2.0243,0.228
+2014_573_Canada,Canada,Pepsi,2.605,2.0588,0.54
+1950_574_Netherlands,Netherlands,Puma,3.511,2.1256,0.348
+2006_575_Uruguay,Uruguay,Pepsi,2.681,2.4733,0.394
+2022_576_Japan,Japan,Samsung,2.776,2.4738,0.231
+2002_577_Italy,Italy,Qatar Airways,2.89,1.8676,0.28
+1962_578_Argentina,Argentina,Nike,2.914,2.0239,0.311
+2002_579_Senegal,Senegal,Pepsi,2.716,2.0234,0.188
+1978_580_South_Korea,South Korea,Nike,2.481,1.8596,0.099
+1930_581_Saudi_Arabia,Saudi Arabia,Nike,2.451,2.4006,0.311
+1930_582_Qatar,Qatar,Nike,2.57,1.9791,0.499
+1990_583_Croatia,Croatia,Qatar Airways,2.874,2.6316,0.331
+1942_584_Mexico,Mexico,Emirates,2.504,2.1494,0.608
+1982_585_Morocco,Morocco,Emirates,2.687,1.9428,0.311
+1962_586_Ghana,Ghana,Visa,2.504,2.3688,0.357
+1958_587_Mexico,Mexico,Emirates,2.445,2.2589,0.593
+1950_588_Belgium,Belgium,Mastercard,2.658,1.9259,0.467
+1990_589_Japan,Japan,Samsung,2.749,2.0136,0.228
+2014_590_USA,USA,Samsung,2.845,2.0585,0.423
+1950_591_France,France,Emirates,2.509,1.857,0.126
+2018_592_USA,USA,Samsung,3.113,2.02,0.463
+1998_593_Australia,Australia,Nike,2.78,2.2262,0.602
+1954_594_Senegal,Senegal,Pepsi,2.88,2.2706,0.199
+1930_595_Qatar,Qatar,Nike,2.439,2.5232,0.474
+1962_596_Uruguay,Uruguay,Pepsi,2.783,2.0573,0.409
+1942_597_Spain,Spain,Pepsi,3.139,1.799,0.092
+1934_598_USA,USA,Samsung,2.247,1.9574,0.334
+1994_599_Mexico,Mexico,Emirates,3.176,2.5641,0.771
+1930_600_Belgium,Belgium,Mastercard,2.619,2.1191,0.46
+1994_601_Brazil,Brazil,Nike,2.911,2.4689,0.111
+1974_602_Mexico,Mexico,Emirates,2.722,2.0011,0.661
+1930_603_Portugal,Portugal,Coca-Cola,2.565,2.3404,0.222
+1990_604_Germany,Germany,Pepsi,3.153,2.7774,0.409
+1998_605_Argentina,Argentina,Nike,3.052,1.8864,0.325
+1958_606_Belgium,Belgium,Mastercard,2.378,2.3873,0.418
+1930_607_France,France,Emirates,2.538,2.2427,0.128
+1934_608_France,France,Emirates,2.542,2.2181,0.128
+1970_609_France,France,Emirates,2.477,2.3722,0.125
+1962_610_France,France,Emirates,2.465,1.8022,0.124
+1938_611_England,England,Emirates,2.698,2.4982,0.122
+2022_612_Nigeria,Nigeria,Visa,2.277,2.675,0.204
+1970_613_South_Korea,South Korea,Nike,3.226,2.6021,0.129
+1978_614_Croatia,Croatia,Qatar Airways,2.912,2.6,0.335
+1934_615_Argentina,Argentina,Nike,2.132,1.8199,0.227
+1934_616_Senegal,Senegal,Pepsi,2.915,2.288,0.202
+1998_617_Croatia,Croatia,Qatar Airways,2.432,2.4797,0.28
+2006_618_Saudi_Arabia,Saudi Arabia,Nike,2.649,2.4255,0.336
+1978_619_USA,USA,Samsung,2.84,2.0131,0.422
+2010_620_Japan,Japan,Samsung,2.779,1.9032,0.231
+1954_621_Belgium,Belgium,Mastercard,2.705,1.9816,0.475
+2018_622_South_Korea,South Korea,Nike,2.302,2.144,0.092
+1946_623_Croatia,Croatia,Qatar Airways,2.409,2.4778,0.277
+2010_624_Spain,Spain,Pepsi,3.098,1.5882,0.091
+1994_625_Italy,Italy,Qatar Airways,2.715,1.9697,0.263
+2006_626_Mexico,Mexico,Emirates,2.379,2.4049,0.577
+1986_627_Qatar,Qatar,Nike,2.024,1.7785,0.393
+1954_628_Portugal,Portugal,Coca-Cola,2.806,2.51,0.243
+2018_629_Portugal,Portugal,Coca-Cola,2.728,2.522,0.236
+1998_630_Brazil,Brazil,Nike,3.414,2.0675,0.13
+2010_631_Argentina,Argentina,Nike,2.741,1.9018,0.292
+1938_632_Nigeria,Nigeria,Visa,2.494,2.0606,0.224
+1994_633_Germany,Germany,Pepsi,2.741,2.0049,0.356
+1978_634_Canada,Canada,Pepsi,2.502,1.9596,0.519
+2002_635_Nigeria,Nigeria,Visa,2.61,2.1826,0.234
+1954_636_Spain,Spain,Pepsi,2.884,1.7924,0.084
+2002_637_England,England,Emirates,2.625,2.2479,0.119
+2014_638_Belgium,Belgium,Mastercard,2.454,2.5018,0.431
+1958_639_Canada,Canada,Pepsi,2.244,2.3858,0.466
+1966_640_Japan,Japan,Samsung,2.457,2.3475,0.204
+1970_641_Croatia,Croatia,Qatar Airways,2.752,2.5282,0.317
+1938_642_Netherlands,Netherlands,Puma,2.498,2.2191,0.248
+1966_643_England,England,Emirates,2.694,2.4336,0.122
+1946_644_Morocco,Morocco,Emirates,2.804,1.9527,0.325
+1958_645_Australia,Australia,Nike,2.743,2.2122,0.594
+1950_646_Saudi_Arabia,Saudi Arabia,Nike,2.642,2.4717,0.335
+2014_647_Senegal,Senegal,Pepsi,2.782,2.5559,0.193
+1942_648_Spain,Spain,Pepsi,2.886,1.7036,0.084
+2022_649_England,England,Emirates,3.425,2.2163,0.155
+1990_650_USA,USA,Samsung,3.453,2.3456,0.513
+1970_651_Argentina,Argentina,Nike,2.394,2.155,0.255
+1974_652_Argentina,Argentina,Nike,2.932,2.1891,0.313
+1950_653_USA,USA,Samsung,2.909,1.872,0.432
+2002_654_England,England,Emirates,2.454,2.4742,0.111
+1970_655_Nigeria,Nigeria,Visa,2.593,2.1088,0.233
+2014_656_Japan,Japan,Samsung,2.055,2.1848,0.171
+1994_657_USA,USA,Samsung,2.985,2.0962,0.444
+1994_658_England,England,Emirates,2.149,2.3586,0.097
+1950_659_Argentina,Argentina,Nike,2.616,2.0322,0.279
+2010_660_Germany,Germany,Pepsi,2.888,2.2204,0.375
+2022_661_Uruguay,Uruguay,Pepsi,2.567,2.3227,0.378
+1998_662_Germany,Germany,Pepsi,3.11,2.0528,0.403
+1942_663_Argentina,Argentina,Nike,2.856,1.9508,0.304
+1982_664_South_Korea,South Korea,Nike,2.621,2.2446,0.105
+1930_665_Brazil,Brazil,Nike,2.899,2.388,0.111
+2002_666_Belgium,Belgium,Mastercard,3.558,2.8383,0.625
+1998_667_Morocco,Morocco,Emirates,2.549,2.22,0.295
+1982_668_France,France,Emirates,2.866,2.2535,0.144
+1934_669_Portugal,Portugal,Coca-Cola,2.569,1.8236,0.222
+1990_670_France,France,Emirates,2.707,1.7764,0.136
+2002_671_Croatia,Croatia,Qatar Airways,2.495,2.3915,0.287
+1938_672_Japan,Japan,Samsung,2.648,2.3565,0.22
+1962_673_South_Korea,South Korea,Nike,2.794,1.978,0.112
+1998_674_Mexico,Mexico,Emirates,2.331,2.1048,0.566
+2014_675_Qatar,Qatar,Nike,2.964,1.8992,0.576
+1950_676_Spain,Spain,Pepsi,2.315,2.0451,0.068
+1958_677_USA,USA,Samsung,3.013,2.2785,0.448
+2010_678_Canada,Canada,Pepsi,2.805,2.1334,0.582
+1994_679_Qatar,Qatar,Nike,2.177,1.927,0.423
+1950_680_Argentina,Argentina,Nike,2.762,2.0359,0.294
+1950_681_Belgium,Belgium,Mastercard,2.662,2.5114,0.468
+1930_682_Netherlands,Netherlands,Puma,2.569,2.3368,0.255
+1958_683_Netherlands,Netherlands,Puma,2.916,2.4474,0.289
+1934_684_Morocco,Morocco,Emirates,2.742,2.4063,0.318
+1934_685_Saudi_Arabia,Saudi Arabia,Nike,2.537,2.8458,0.322
+1938_686_Morocco,Morocco,Emirates,3.093,2.494,0.358
+2018_687_Australia,Australia,Nike,2.771,2.6108,0.6
+1954_688_Ghana,Ghana,Visa,3.36,2.7706,0.479
+1998_689_Qatar,Qatar,Nike,2.577,2.376,0.5
+1930_690_Nigeria,Nigeria,Visa,2.307,2.0805,0.207
+1978_691_Australia,Australia,Nike,2.335,2.0572,0.505
+1962_692_Australia,Australia,Nike,1.927,2.0118,0.417
+2018_693_Saudi_Arabia,Saudi Arabia,Nike,2.557,2.8122,0.324
+1954_694_Japan,Japan,Samsung,2.608,2.0312,0.217
+2022_695_Argentina,Argentina,Nike,2.861,2.1944,0.305
+2010_696_Mexico,Mexico,Emirates,2.717,2.1781,0.659
+1994_697_Japan,Japan,Samsung,2.977,2.1189,0.247
+1990_698_South_Korea,South Korea,Nike,2.344,2.285,0.094
+1974_699_France,France,Emirates,2.282,1.979,0.115
+2022_700_South_Korea,South Korea,Nike,2.993,2.103,0.12
+1942_701_Spain,Spain,Pepsi,2.306,1.7556,0.067
+1974_702_Netherlands,Netherlands,Puma,2.286,2.3226,0.227
+1994_703_South_Korea,South Korea,Nike,1.975,2.2266,0.079
+2002_704_Italy,Italy,Qatar Airways,2.632,2.0378,0.255
+1974_705_Spain,Spain,Pepsi,2.352,1.5409,0.069
+1938_706_Morocco,Morocco,Emirates,2.692,1.7329,0.312
+1994_707_Belgium,Belgium,Mastercard,3.023,2.2236,0.531
+1934_708_Ghana,Ghana,Visa,2.509,2.4149,0.358
+1994_709_Ghana,Ghana,Visa,2.367,2.4339,0.338
+1974_710_Germany,Germany,Pepsi,2.758,2.0215,0.358
+1938_711_Mexico,Mexico,Emirates,2.525,2.0902,0.613
+1930_712_Netherlands,Netherlands,Puma,2.838,1.9161,0.281
+2006_713_England,England,Emirates,2.485,2.2499,0.112
+2018_714_Portugal,Portugal,Coca-Cola,2.712,2.0248,0.234
+1962_715_Argentina,Argentina,Nike,2.695,2.4626,0.287
+2002_716_Senegal,Senegal,Pepsi,2.406,2.567,0.167
+2010_717_Uruguay,Uruguay,Pepsi,3.112,2.0449,0.458
+1930_718_Morocco,Morocco,Emirates,2.636,2.3044,0.305
+1958_719_Argentina,Argentina,Nike,2.799,1.8752,0.298
+2010_720_Croatia,Croatia,Qatar Airways,2.837,2.6366,0.326

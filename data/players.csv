@@ -1,0 +1,73 @@
+team,player_role,player_rating,market_value_m,followers_m
+Argentina,core_forward,85.8,115.1,1.52
+Argentina,core_midfielder,88.2,69.7,0.7
+Argentina,core_defender,81.3,152.5,0.91
+Brazil,core_forward,86.7,184.5,2.25
+Brazil,core_midfielder,91.3,141.5,2.29
+Brazil,core_defender,90.5,56.7,2.16
+France,core_forward,87.4,95.8,1.49
+France,core_midfielder,93.3,74.6,0.98
+France,core_defender,85.1,52.8,2.75
+Germany,core_forward,91.9,55.8,4.02
+Germany,core_midfielder,84.7,57.9,1.11
+Germany,core_defender,87.6,36.2,0.91
+Spain,core_forward,89.8,52.6,1.37
+Spain,core_midfielder,83.8,76.9,0.63
+Spain,core_defender,85.9,74.1,1.33
+England,core_forward,87.9,49.8,8.58
+England,core_midfielder,85.9,53.7,4.31
+England,core_defender,90.0,83.6,2.56
+Portugal,core_forward,83.0,48.5,2.45
+Portugal,core_midfielder,86.5,47.0,0.87
+Portugal,core_defender,86.7,97.5,1.86
+Netherlands,core_forward,83.3,64.7,1.53
+Netherlands,core_midfielder,84.3,21.6,0.56
+Netherlands,core_defender,83.8,46.3,0.7
+Uruguay,core_forward,86.2,153.6,2.54
+Uruguay,core_midfielder,95.7,106.4,1.12
+Uruguay,core_defender,91.3,115.2,1.83
+Croatia,core_forward,81.7,67.0,3.01
+Croatia,core_midfielder,83.1,99.1,1.7
+Croatia,core_defender,82.8,70.6,1.68
+Belgium,core_forward,91.3,76.0,1.28
+Belgium,core_midfielder,87.5,52.4,1.57
+Belgium,core_defender,83.9,41.6,0.56
+Italy,core_forward,85.9,80.5,0.59
+Italy,core_midfielder,88.9,118.3,1.26
+Italy,core_defender,88.4,86.3,2.01
+Mexico,core_forward,82.4,41.6,1.22
+Mexico,core_midfielder,96.5,48.2,2.18
+Mexico,core_defender,86.8,30.3,1.37
+USA,core_forward,87.2,26.1,1.23
+USA,core_midfielder,87.2,51.9,0.27
+USA,core_defender,89.9,43.8,1.01
+Japan,core_forward,84.7,232.8,5.26
+Japan,core_midfielder,85.4,97.0,3.84
+Japan,core_defender,87.2,177.9,2.95
+South Korea,core_forward,84.9,151.3,1.93
+South Korea,core_midfielder,84.3,109.0,2.18
+South Korea,core_defender,92.7,82.9,1.71
+Morocco,core_forward,83.8,58.8,2.53
+Morocco,core_midfielder,83.8,81.3,2.7
+Morocco,core_defender,92.0,39.9,1.5
+Nigeria,core_forward,92.7,115.0,5.79
+Nigeria,core_midfielder,84.6,95.0,2.28
+Nigeria,core_defender,89.7,50.5,3.7
+Ghana,core_forward,87.0,90.2,0.45
+Ghana,core_midfielder,95.0,39.7,1.61
+Ghana,core_defender,87.4,85.0,1.21
+Saudi Arabia,core_forward,91.6,133.9,13.77
+Saudi Arabia,core_midfielder,81.5,66.1,9.1
+Saudi Arabia,core_defender,82.9,83.9,3.48
+Australia,core_forward,91.2,123.0,1.74
+Australia,core_midfielder,87.8,121.8,2.23
+Australia,core_defender,93.0,90.8,2.17
+Canada,core_forward,89.2,52.9,0.24
+Canada,core_midfielder,88.3,66.1,0.74
+Canada,core_defender,90.1,51.4,0.71
+Qatar,core_forward,88.2,112.1,0.73
+Qatar,core_midfielder,86.7,80.3,0.36
+Qatar,core_defender,91.2,98.2,0.54
+Senegal,core_forward,92.5,127.2,6.26
+Senegal,core_midfielder,87.4,99.4,2.59
+Senegal,core_defender,91.9,105.9,4.57

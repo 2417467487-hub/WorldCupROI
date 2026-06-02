@@ -1,0 +1,721 @@
+match_id,year,team_a,team_b,event_attention_m,media_reposts_k,stage,hashtag_mentions_k,video_views_m,sentiment_score
+1,1958,Saudi Arabia,Morocco,43.22,127.53,semi_final,166.23,107.23,0.448
+2,2018,Argentina,USA,37.53,72.79,group,101.77,37.93,0.175
+3,1942,Portugal,Uruguay,52.55,180.28,quarter_final,194.9,55.27,-0.049
+4,1978,Morocco,Ghana,47.22,113.86,round_16,190.11,64.32,0.256
+5,2002,South Korea,Australia,41.46,125.83,round_16,139.59,34.16,0.115
+6,1990,Uruguay,Croatia,59.42,159.24,round_16,387.1,164.72,0.113
+7,1930,Spain,Belgium,47.8,193.44,group,236.72,95.45,0.037
+8,1966,Croatia,Argentina,47.87,73.0,semi_final,220.99,96.47,0.439
+9,1930,Nigeria,Canada,32.35,95.61,group,133.04,87.92,0.25
+10,1942,Argentina,Brazil,31.37,102.0,semi_final,170.65,77.3,0.47
+11,1938,Qatar,Japan,44.44,115.71,semi_final,98.67,107.92,0.554
+12,1934,Belgium,England,47.99,251.35,quarter_final,233.85,70.98,0.309
+13,1986,Croatia,Canada,43.17,194.46,semi_final,108.59,63.45,0.038
+14,1982,Nigeria,Australia,34.48,200.19,group,97.75,47.7,0.471
+15,1970,Mexico,Croatia,40.79,81.92,group,158.48,60.92,0.31
+16,1942,Australia,England,43.87,47.25,group,205.72,67.52,0.909
+17,1942,Ghana,Saudi Arabia,30.34,91.09,group,72.93,32.77,0.267
+18,1990,Saudi Arabia,Ghana,46.23,140.58,semi_final,132.97,69.89,0.375
+19,1970,Germany,Ghana,32.42,114.54,group,110.62,54.9,0.261
+20,1978,USA,Netherlands,35.98,181.38,round_16,113.38,51.04,0.152
+21,1998,Uruguay,Nigeria,38.11,99.04,group,160.71,43.09,0.108
+22,1974,Portugal,Belgium,38.31,64.49,group,332.88,59.26,0.262
+23,2002,England,Canada,45.26,65.02,group,168.99,79.74,0.326
+24,2002,Canada,USA,46.31,139.07,group,125.15,103.8,0.503
+25,2022,Uruguay,Japan,53.57,133.32,semi_final,123.71,119.06,0.266
+26,2018,Canada,Netherlands,65.71,227.97,final,199.17,79.21,0.05
+27,1958,England,Italy,49.14,244.78,group,125.39,42.91,0.088
+28,1950,Germany,Morocco,28.64,142.19,group,108.39,40.31,-0.19
+29,1990,Qatar,Brazil,43.77,106.74,quarter_final,164.93,48.77,0.645
+30,1950,Italy,Netherlands,46.76,208.63,round_16,136.37,74.42,0.028
+31,1946,England,Croatia,40.72,111.25,round_16,235.69,112.33,0.451
+32,1946,Italy,England,38.68,89.38,group,104.52,44.95,0.257
+33,2010,France,Nigeria,43.23,210.63,round_16,138.81,62.15,0.265
+34,1970,Croatia,USA,39.32,118.72,group,156.13,88.48,0.147
+35,2022,Ghana,France,41.78,130.46,group,178.07,75.97,-0.041
+36,1946,Australia,Qatar,44.87,318.56,quarter_final,213.04,39.84,-0.091
+37,1962,Italy,Morocco,35.55,112.49,group,133.08,39.94,0.664
+38,2002,Portugal,Germany,40.69,151.49,group,181.32,108.66,0.212
+39,2010,France,Australia,51.91,107.68,group,143.06,52.24,0.495
+40,1966,France,Spain,34.83,142.7,group,149.54,72.1,0.568
+41,1970,Spain,Saudi Arabia,29.79,103.33,semi_final,127.42,71.04,0.065
+42,1942,Belgium,Qatar,39.53,122.41,group,200.47,52.61,0.299
+43,2006,Croatia,Saudi Arabia,49.01,212.26,group,101.99,110.28,0.193
+44,2006,Japan,Croatia,54.75,132.0,semi_final,141.0,62.4,-0.144
+45,2022,Brazil,Netherlands,38.35,85.99,group,160.33,52.52,0.128
+46,2022,Canada,Spain,50.43,172.05,round_16,79.69,71.79,0.345
+47,1934,Argentina,Uruguay,46.84,187.78,quarter_final,178.48,130.82,0.04
+48,1934,Morocco,Portugal,48.17,147.44,round_16,215.18,59.21,0.089
+49,1982,France,Uruguay,29.57,58.77,quarter_final,83.54,31.3,0.131
+50,2014,Ghana,England,41.12,101.53,group,121.03,109.02,0.771
+51,1938,Uruguay,Ghana,29.7,121.25,group,72.99,33.38,-0.334
+52,1946,Croatia,England,66.72,139.65,final,191.42,170.71,0.32
+53,1974,South Korea,Qatar,44.32,156.74,round_16,128.19,93.11,0.109
+54,1998,Mexico,Brazil,41.5,84.04,group,113.81,81.08,0.001
+55,1946,France,Morocco,46.64,149.1,round_16,125.95,107.4,0.102
+56,2022,Australia,England,47.28,159.78,round_16,145.5,106.47,0.367
+57,1998,Belgium,Spain,48.56,220.68,group,148.94,49.58,0.383
+58,1982,Uruguay,Brazil,39.72,260.39,group,222.88,111.17,0.232
+59,1990,Saudi Arabia,Japan,43.21,211.97,group,128.47,115.97,0.486
+60,1946,South Korea,Spain,43.22,141.06,group,158.01,112.08,0.535
+61,1930,Qatar,Italy,61.54,204.62,final,173.84,125.82,0.409
+62,1986,Argentina,Qatar,50.69,340.59,semi_final,142.69,93.55,0.027
+63,2002,Netherlands,Japan,40.52,75.62,round_16,83.48,75.88,0.318
+64,1978,Spain,Japan,23.54,61.69,group,50.34,19.54,0.32
+65,1954,Croatia,Spain,46.55,148.87,group,110.23,83.74,-0.048
+66,1950,Croatia,Netherlands,32.51,80.1,group,113.63,66.57,-0.259
+67,1954,Uruguay,England,26.23,95.48,group,117.71,55.54,-0.386
+68,1994,Australia,Portugal,46.0,127.32,group,92.61,67.36,0.2
+69,2006,Australia,Mexico,40.19,243.89,group,114.42,70.03,0.263
+70,1998,England,Spain,47.77,132.11,quarter_final,108.17,99.01,-0.151
+71,1970,Netherlands,Senegal,33.47,77.92,group,103.2,55.45,0.473
+72,1998,Spain,England,35.88,114.09,group,161.0,97.75,0.223
+73,1930,Senegal,Croatia,39.93,55.27,group,116.98,88.28,0.558
+74,2014,England,Argentina,39.31,100.69,group,128.79,31.55,0.284
+75,1970,Italy,Nigeria,48.66,143.39,round_16,242.82,41.19,-0.119
+76,2022,Croatia,France,43.72,120.23,group,165.01,95.34,0.308
+77,1938,Portugal,England,34.66,135.93,semi_final,93.01,56.33,0.368
+78,1942,Spain,Croatia,51.73,154.48,quarter_final,179.56,128.24,0.027
+79,1938,Nigeria,Germany,42.73,76.14,round_16,112.53,48.97,-0.224
+80,1958,Italy,Morocco,32.82,56.97,group,122.58,27.16,0.208
+81,1962,Ghana,Belgium,36.77,119.47,round_16,141.03,57.96,-0.1
+82,1986,France,Australia,47.32,161.5,quarter_final,107.14,107.52,0.494
+83,2018,Qatar,Saudi Arabia,46.22,132.16,group,161.17,126.8,0.066
+84,1966,Australia,Canada,42.92,70.19,round_16,137.88,110.19,0.663
+85,1966,Argentina,Uruguay,48.08,136.38,round_16,185.93,85.01,-0.415
+86,2010,Brazil,Ghana,40.37,174.98,group,169.16,97.92,0.218
+87,1946,Croatia,France,62.46,174.06,final,237.04,58.75,0.58
+88,2018,Croatia,Morocco,31.63,60.04,group,96.47,61.51,-0.069
+89,2018,South Korea,Senegal,43.17,190.54,group,186.14,114.34,0.135
+90,1962,Mexico,Portugal,26.3,75.12,group,68.38,41.89,0.067
+91,1970,Senegal,Brazil,35.28,156.84,group,80.93,95.97,-0.011
+92,1998,Qatar,Canada,45.57,209.3,group,61.84,56.57,0.248
+93,2022,Mexico,Qatar,37.07,99.32,group,120.68,37.49,-0.183
+94,2022,Germany,France,35.69,107.19,group,94.15,66.01,0.149
+95,1942,Nigeria,Italy,63.44,225.76,final,235.44,165.86,0.324
+96,1962,Japan,Nigeria,38.6,107.12,semi_final,73.8,54.91,0.12
+97,1982,Senegal,Ghana,40.97,100.21,group,113.48,98.34,-0.1
+98,1978,Belgium,France,42.81,139.45,quarter_final,162.14,48.73,0.468
+99,2014,Morocco,Portugal,41.56,204.68,group,103.42,95.22,0.384
+100,1970,Ghana,South Korea,36.35,71.89,group,135.34,69.58,-0.112
+101,2022,Australia,Canada,27.26,40.56,group,77.44,31.35,-0.182
+102,1982,Japan,England,55.65,136.38,round_16,183.07,124.44,-0.087
+103,1982,Germany,Belgium,41.3,125.48,group,161.99,92.0,0.333
+104,2010,Nigeria,Senegal,48.66,209.3,semi_final,210.95,89.09,0.257
+105,1978,Germany,South Korea,44.18,179.72,group,150.53,55.27,0.401
+106,2022,Croatia,Spain,31.65,71.83,group,83.66,33.69,0.089
+107,1974,France,Canada,34.25,104.94,round_16,100.03,92.97,-0.079
+108,1942,Mexico,Portugal,48.89,117.38,quarter_final,194.01,103.24,0.437
+109,1954,Portugal,Germany,41.25,224.39,round_16,102.89,99.76,0.025
+110,1958,Uruguay,Netherlands,40.2,109.11,group,126.98,88.2,0.232
+111,1990,Ghana,Italy,42.67,124.14,group,127.16,104.92,-0.254
+112,1954,Canada,Senegal,40.5,184.44,group,130.63,45.56,0.02
+113,1978,Argentina,Netherlands,65.28,197.12,final,163.38,117.11,0.463
+114,2022,Senegal,Qatar,43.46,109.84,group,85.91,92.75,-0.021
+115,1994,Spain,Portugal,44.96,264.16,group,172.7,45.26,0.408
+116,1974,South Korea,Belgium,41.75,340.98,quarter_final,181.57,45.92,-0.473
+117,1994,Uruguay,Nigeria,41.05,140.83,quarter_final,82.52,84.89,0.023
+118,2006,Ghana,Mexico,35.59,87.47,group,131.02,90.31,0.132
+119,1954,Canada,Spain,42.67,168.24,group,191.86,90.5,0.668
+120,1934,Italy,Saudi Arabia,41.55,169.31,group,163.0,36.25,-0.147
+121,1934,Italy,Canada,60.43,125.83,final,178.54,165.63,0.368
+122,1962,Ghana,France,43.92,172.89,group,111.97,47.39,0.476
+123,2002,Netherlands,Nigeria,38.36,119.27,group,130.28,48.53,-0.022
+124,1994,Qatar,Argentina,66.87,178.83,final,237.97,183.89,0.075
+125,2018,France,Uruguay,44.38,91.5,round_16,151.35,103.94,0.22
+126,1954,Portugal,Australia,31.61,117.35,group,99.79,84.5,-0.235
+127,2018,Canada,France,40.91,125.16,semi_final,100.31,98.73,0.053
+128,1974,Japan,Morocco,37.27,107.3,group,139.29,78.4,0.537
+129,2010,Qatar,Netherlands,32.72,98.77,group,123.94,44.8,0.326
+130,1958,England,Uruguay,45.22,168.23,group,158.82,65.74,0.136
+131,1998,Croatia,Senegal,59.96,107.1,final,205.36,161.56,0.212
+132,1986,Japan,Qatar,49.1,174.78,round_16,260.88,123.79,0.343
+133,1930,Canada,Spain,47.54,107.72,round_16,132.52,72.21,0.396
+134,1986,England,Japan,40.09,52.34,group,190.55,62.0,0.024
+135,2010,France,Belgium,38.44,136.48,group,103.91,53.64,0.61
+136,1942,Senegal,Portugal,47.82,49.16,round_16,216.58,69.45,0.549
+137,1958,France,Spain,39.64,152.01,group,185.89,99.95,0.37
+138,2006,Uruguay,USA,46.48,107.39,group,142.16,38.16,-0.056
+139,1934,Netherlands,France,35.63,168.19,group,188.34,59.58,-0.106
+140,1966,Germany,USA,40.42,110.47,group,153.03,108.56,0.089
+141,1954,Senegal,Belgium,38.06,83.39,group,98.84,71.75,0.197
+142,1938,Belgium,England,42.48,62.16,group,127.01,72.25,-0.315
+143,1982,Argentina,Netherlands,74.68,240.41,final,340.49,106.4,0.319
+144,1966,Spain,Ghana,52.43,382.12,group,225.41,49.69,0.54
+145,1962,Croatia,France,38.49,137.96,group,95.03,48.07,0.341
+146,1934,South Korea,Australia,34.1,129.45,round_16,108.89,33.45,-0.009
+147,1966,Belgium,Morocco,59.95,143.75,final,210.71,63.15,-0.042
+148,2002,USA,Uruguay,40.0,99.62,round_16,115.21,45.08,0.264
+149,1958,France,Croatia,49.66,77.77,group,319.06,69.73,0.137
+150,1962,Portugal,Italy,52.34,225.31,group,185.52,43.03,0.304
+151,1930,Australia,Ghana,36.53,112.48,round_16,119.2,98.64,0.348
+152,1990,Mexico,Senegal,33.33,86.94,group,154.45,34.92,0.486
+153,1986,Canada,South Korea,33.09,94.18,group,99.18,51.83,-0.137
+154,1930,England,Canada,45.56,167.92,group,200.56,116.59,0.242
+155,2018,Saudi Arabia,Portugal,41.07,119.12,round_16,85.48,41.61,0.078
+156,2006,Italy,Netherlands,40.84,93.97,group,119.42,72.17,0.152
+157,1982,England,Mexico,54.77,251.99,round_16,243.93,136.35,0.422
+158,1986,South Korea,France,32.84,80.36,group,169.24,62.85,0.452
+159,1990,Nigeria,Italy,49.97,146.47,group,133.61,61.0,0.572
+160,1986,Australia,Belgium,36.07,61.42,group,93.35,81.92,0.299
+161,1962,Croatia,Qatar,54.71,89.55,semi_final,212.92,118.32,0.149
+162,2002,Brazil,South Korea,46.77,236.71,semi_final,130.42,71.29,0.109
+163,2014,Australia,Uruguay,40.11,267.01,semi_final,123.52,35.8,-0.306
+164,2022,Japan,Brazil,39.7,167.38,semi_final,168.47,32.38,0.555
+165,2006,Nigeria,Senegal,54.67,193.6,quarter_final,155.86,133.98,0.09
+166,1950,Ghana,Croatia,28.65,92.47,group,54.86,41.35,0.322
+167,1982,Spain,England,40.28,63.19,quarter_final,92.9,43.32,0.37
+168,1958,USA,England,34.99,99.57,group,116.5,64.28,-0.169
+169,2002,Uruguay,Nigeria,38.36,146.6,round_16,75.58,101.33,-0.079
+170,2006,USA,Ghana,43.74,124.4,group,133.63,35.73,0.613
+171,1958,Uruguay,England,35.7,117.8,round_16,80.27,32.57,0.261
+172,1970,Mexico,Senegal,41.53,113.45,quarter_final,218.24,67.86,0.017
+173,2014,Morocco,Argentina,38.7,62.49,group,235.59,83.28,0.145
+174,1958,Mexico,Saudi Arabia,31.69,48.79,round_16,78.23,55.53,0.484
+175,1978,France,Saudi Arabia,51.27,207.92,semi_final,182.91,133.05,0.442
+176,1986,Argentina,Netherlands,48.97,188.38,semi_final,124.25,43.49,-0.231
+177,1950,Japan,Nigeria,45.89,75.12,round_16,139.72,67.93,0.638
+178,2002,South Korea,England,52.0,132.87,group,286.06,78.14,0.451
+179,1978,Australia,Japan,55.94,240.11,round_16,162.98,82.81,0.137
+180,1982,Saudi Arabia,Morocco,36.54,72.19,group,111.98,64.87,-0.154
+181,1938,Ghana,Canada,45.03,249.8,round_16,114.83,107.22,0.475
+182,2010,USA,Belgium,40.56,143.42,quarter_final,185.62,58.23,0.313
+183,1982,Ghana,Belgium,39.16,100.53,group,52.14,89.64,-0.228
+184,1966,Netherlands,Mexico,48.9,134.14,semi_final,143.42,53.44,0.115
+185,2010,Australia,France,50.46,133.43,group,165.39,96.96,0.91
+186,1942,Croatia,Netherlands,45.69,173.91,group,126.06,70.83,0.185
+187,1966,Morocco,France,24.16,51.22,group,102.15,45.38,-0.028
+188,1982,France,Croatia,48.69,115.91,semi_final,226.34,49.44,-0.102
+189,1986,Australia,Morocco,34.5,179.88,group,77.14,93.39,0.676
+190,1982,Australia,Argentina,40.38,207.19,round_16,240.93,105.49,0.417
+191,1998,Australia,Qatar,26.14,58.72,group,58.26,64.12,0.574
+192,1990,Nigeria,Portugal,35.36,94.56,group,168.41,91.43,0.249
+193,1946,Morocco,Netherlands,31.24,69.39,group,108.16,34.16,0.531
+194,1962,Australia,Netherlands,35.59,129.33,group,102.62,64.33,-0.058
+195,1994,Morocco,England,59.48,138.78,quarter_final,176.09,85.4,0.226
+196,2018,Germany,Spain,52.37,213.3,quarter_final,172.25,134.84,0.26
+197,2002,France,Japan,48.37,146.56,group,170.24,57.02,0.567
+198,1954,Portugal,Netherlands,50.2,134.44,round_16,128.81,62.24,0.269
+199,1962,Japan,Nigeria,38.05,88.33,group,118.32,82.7,0.005
+200,1962,Croatia,England,67.99,212.94,final,181.92,66.48,0.198
+201,1970,Belgium,Croatia,57.87,190.36,final,136.73,131.06,-0.289
+202,1986,Australia,Japan,39.75,275.66,group,104.98,53.12,-0.47
+203,1934,Canada,Belgium,32.51,89.01,group,78.22,68.98,0.413
+204,1990,Netherlands,Argentina,54.68,134.72,group,161.39,139.22,0.075
+205,1974,Belgium,Nigeria,26.6,75.29,semi_final,99.68,53.71,0.107
+206,1986,Germany,England,49.79,219.16,semi_final,170.99,61.01,0.413
+207,1930,Portugal,Canada,46.13,121.59,group,266.21,41.44,0.571
+208,1990,Qatar,Germany,32.32,83.18,group,57.79,28.74,0.33
+209,1950,Mexico,Australia,53.17,186.03,group,201.32,51.98,0.72
+210,1974,Brazil,Qatar,52.02,100.6,quarter_final,173.02,101.94,0.321
+211,2006,Croatia,France,45.34,210.07,group,189.16,67.85,0.265
+212,1934,England,South Korea,34.51,136.29,group,140.03,44.39,0.247
+213,1998,Morocco,Uruguay,27.09,106.89,group,85.88,33.55,-0.18
+214,1942,USA,Germany,39.28,143.4,group,136.87,105.94,0.448
+215,1978,Nigeria,Netherlands,40.32,188.66,semi_final,108.69,41.84,-0.505
+216,1946,Morocco,Senegal,30.13,121.26,group,118.79,42.47,0.016
+217,1930,Nigeria,Portugal,38.3,104.94,group,75.14,66.76,0.186
+218,1962,Mexico,France,40.83,88.97,group,168.5,32.7,-0.041
+219,1942,France,Canada,44.31,152.04,group,146.16,117.06,0.054
+220,1954,France,Ghana,30.91,56.46,group,89.54,30.85,0.695
+221,1974,Spain,Senegal,38.3,172.88,semi_final,119.14,82.92,0.489
+222,1966,Germany,Mexico,37.56,144.36,group,119.27,77.29,-0.012
+223,1930,Germany,France,53.46,84.22,group,255.23,129.27,0.049
+224,1942,Argentina,Germany,28.22,58.2,group,231.69,59.34,-0.178
+225,1938,Canada,Saudi Arabia,43.22,142.14,group,201.92,101.08,0.377
+226,2022,Croatia,Saudi Arabia,47.45,125.22,quarter_final,134.48,77.94,0.11
+227,1994,Brazil,Argentina,37.84,130.53,group,149.86,67.26,-0.371
+228,1946,France,Morocco,41.53,174.64,round_16,166.49,91.5,0.208
+229,1946,Netherlands,Italy,35.33,154.53,group,90.53,68.43,0.303
+230,1994,Netherlands,Japan,50.37,129.67,round_16,117.49,91.83,0.45
+231,1986,Argentina,South Korea,58.16,149.59,group,189.71,70.44,0.159
+232,2018,Mexico,Canada,42.41,72.61,group,176.54,55.82,0.076
+233,1934,South Korea,Italy,41.71,123.78,group,88.18,63.27,0.736
+234,1998,France,Ghana,43.91,238.1,group,119.14,35.94,0.182
+235,1954,Italy,Saudi Arabia,48.92,110.85,round_16,190.67,79.97,0.381
+236,1946,Mexico,Canada,37.52,133.62,group,126.03,30.22,0.029
+237,2014,Uruguay,France,37.14,90.19,group,183.32,71.68,0.373
+238,1942,Qatar,South Korea,48.36,144.11,semi_final,108.15,106.78,-0.228
+239,1938,Ghana,Brazil,33.92,93.02,group,217.59,65.27,0.051
+240,2006,Saudi Arabia,Belgium,47.93,126.65,semi_final,103.45,104.82,-0.158
+241,1958,Ghana,Nigeria,23.46,72.11,group,44.13,18.77,0.011
+242,1962,Croatia,Senegal,39.22,134.61,group,128.08,36.04,0.53
+243,1974,Portugal,Mexico,40.15,124.92,round_16,97.03,88.21,0.009
+244,1978,Italy,Japan,36.36,90.48,group,119.42,87.47,0.381
+245,2022,Senegal,Argentina,48.19,189.69,group,156.73,107.72,0.605
+246,1978,Belgium,Australia,48.8,85.36,group,153.38,103.75,0.172
+247,1942,Portugal,Italy,30.63,125.63,quarter_final,80.33,67.84,0.458
+248,1958,Qatar,Netherlands,49.57,134.92,quarter_final,185.77,112.98,0.329
+249,1986,Uruguay,Germany,36.53,72.35,group,110.97,82.15,0.213
+250,2022,France,Uruguay,39.67,135.04,round_16,179.4,90.29,0.39
+251,1950,Morocco,Belgium,26.7,138.86,group,84.28,25.31,0.695
+252,1962,Croatia,South Korea,37.31,155.61,group,94.55,34.57,0.002
+253,1950,Nigeria,Portugal,42.3,183.43,quarter_final,87.55,64.39,-0.089
+254,1978,Ghana,USA,46.11,103.73,group,145.89,85.54,-0.105
+255,1970,Brazil,Morocco,46.54,180.25,group,108.3,108.22,0.458
+256,2010,Mexico,Brazil,21.8,82.09,group,49.6,32.03,0.496
+257,1962,Uruguay,Spain,32.71,157.47,group,125.89,44.17,0.03
+258,2018,Netherlands,USA,33.81,62.45,group,68.24,79.89,-0.418
+259,1986,Uruguay,Japan,44.26,113.04,group,218.22,57.48,-0.009
+260,1930,Croatia,Nigeria,33.59,74.06,group,116.62,82.02,0.333
+261,1998,Saudi Arabia,Spain,72.12,207.23,final,236.53,83.25,0.161
+262,1982,Italy,Morocco,26.94,73.54,group,66.95,40.92,0.23
+263,1970,USA,South Korea,46.19,156.74,group,189.96,74.0,0.033
+264,2006,Argentina,Italy,49.46,149.09,round_16,164.08,69.2,0.464
+265,1990,Uruguay,Belgium,38.88,144.64,group,106.52,31.37,0.276
+266,1970,Ghana,Australia,37.13,279.67,group,130.37,47.19,0.344
+267,1974,Japan,Morocco,52.61,102.88,round_16,109.04,77.62,0.225
+268,1978,Qatar,France,46.01,162.96,round_16,96.64,65.67,0.327
+269,1990,Argentina,Croatia,45.03,172.63,group,109.25,106.77,0.308
+270,1954,Ghana,Qatar,45.95,373.7,group,168.25,41.11,-0.08
+271,1990,Nigeria,Belgium,29.6,236.88,group,98.19,46.71,0.284
+272,2002,USA,Croatia,37.32,94.21,group,166.21,32.66,0.402
+273,1934,USA,Brazil,24.22,71.12,group,62.15,64.46,0.503
+274,1970,Portugal,USA,41.09,88.96,quarter_final,160.24,97.81,0.297
+275,1982,Netherlands,Portugal,24.15,64.65,group,77.66,66.76,-0.09
+276,1946,Argentina,Germany,34.69,72.02,group,88.45,90.9,-0.047
+277,2006,Belgium,Canada,36.96,107.25,group,136.69,52.91,0.058
+278,1982,Belgium,Spain,51.57,139.46,quarter_final,168.08,112.59,0.233
+279,1930,Belgium,Saudi Arabia,30.78,65.91,group,85.69,43.5,0.146
+280,1946,Netherlands,Portugal,41.16,119.91,group,138.27,106.05,-0.135
+281,1994,Japan,Argentina,57.09,106.78,group,182.79,92.57,-0.136
+282,2006,Spain,England,44.36,73.11,group,141.08,68.84,-0.408
+283,1946,Qatar,Germany,38.98,134.77,group,115.3,102.44,-0.693
+284,1946,Brazil,Croatia,57.0,121.47,semi_final,131.32,140.99,0.143
+285,2022,Uruguay,Japan,22.37,125.79,group,75.84,61.13,0.83
+286,2014,USA,Qatar,37.15,77.53,group,98.51,34.66,0.683
+287,1954,Uruguay,Qatar,24.31,83.85,group,60.65,31.28,-0.094
+288,1946,USA,Canada,44.22,91.79,group,137.25,61.98,0.222
+289,1970,Australia,Nigeria,53.11,143.42,semi_final,216.57,87.56,-0.23
+290,2006,Brazil,France,46.75,323.49,group,163.5,81.64,-0.187
+291,1978,South Korea,England,33.79,162.27,group,96.68,46.73,-0.155
+292,1946,Portugal,Netherlands,29.8,97.2,group,84.31,70.95,0.117
+293,1998,South Korea,Saudi Arabia,40.26,74.93,group,159.71,50.18,0.129
+294,1934,Qatar,Germany,32.5,120.53,group,55.16,71.27,0.251
+295,1994,Italy,Spain,49.87,134.54,round_16,206.99,124.85,0.366
+296,1970,Portugal,Japan,38.66,196.91,group,75.95,77.61,0.086
+297,1986,Saudi Arabia,Canada,27.36,102.65,group,61.12,41.27,0.19
+298,1986,Croatia,Australia,70.1,165.22,final,201.53,82.42,-0.126
+299,1942,Italy,Germany,31.64,97.09,group,192.88,33.81,-0.196
+300,1978,Senegal,Belgium,37.08,121.35,group,196.91,84.85,-0.24
+301,1930,Morocco,Brazil,29.04,82.56,group,117.51,50.48,0.362
+302,1966,South Korea,Mexico,57.18,176.53,final,209.78,51.04,0.085
+303,1994,Australia,Spain,36.23,71.89,group,71.41,100.27,-0.344
+304,1950,Brazil,Croatia,37.62,99.92,group,130.51,80.6,0.162
+305,1934,Australia,Ghana,44.18,107.25,group,125.77,109.94,-0.17
+306,1934,Portugal,Belgium,38.15,163.21,group,100.77,63.95,0.645
+307,1974,Saudi Arabia,Germany,46.26,149.13,quarter_final,160.39,125.41,0.018
+308,1994,USA,Brazil,38.72,233.79,group,112.67,46.43,0.371
+309,1970,Portugal,Belgium,27.15,117.88,group,114.98,31.77,0.485
+310,2010,USA,Argentina,43.64,156.38,semi_final,84.26,112.62,-0.087
+311,1974,Ghana,USA,42.4,61.08,round_16,143.76,109.54,0.201
+312,2014,Portugal,Japan,36.66,231.41,group,95.16,65.92,0.335
+313,2014,Spain,USA,40.66,60.89,group,120.37,42.76,0.212
+314,1954,Morocco,Spain,44.61,127.92,group,161.3,62.92,0.281
+315,2002,Portugal,Ghana,50.96,100.86,group,123.74,117.63,-0.192
+316,2006,Spain,Canada,46.15,213.18,group,160.43,115.01,0.335
+317,1994,Portugal,Brazil,36.25,107.89,group,113.41,54.2,0.044
+318,1998,Italy,Belgium,38.51,171.08,group,106.27,35.52,0.278
+319,1998,England,Ghana,44.24,149.83,round_16,128.75,94.3,0.438
+320,2014,France,Croatia,53.07,139.66,group,168.74,120.95,0.367
+321,1958,Senegal,England,45.65,158.51,quarter_final,122.24,75.23,0.278
+322,1950,Brazil,South Korea,39.21,100.86,group,130.44,77.09,0.36
+323,2002,Belgium,Canada,44.67,135.98,semi_final,137.2,123.95,0.373
+324,2018,Nigeria,Qatar,34.18,60.83,group,95.63,44.09,0.599
+325,1982,Senegal,Germany,41.66,178.96,group,215.87,81.07,0.17
+326,1958,Uruguay,Portugal,35.62,87.95,group,132.84,72.02,0.226
+327,1998,Argentina,Germany,61.91,143.02,final,184.66,117.52,0.441
+328,1998,South Korea,Croatia,40.99,144.05,group,141.76,104.04,0.043
+329,2018,Portugal,Argentina,28.58,81.96,group,71.18,57.45,-0.194
+330,2010,Nigeria,Ghana,41.98,71.31,quarter_final,123.33,76.23,0.318
+331,1998,Argentina,France,29.96,57.77,group,90.94,31.34,0.122
+332,1930,Italy,Germany,47.27,234.09,group,110.69,104.3,-0.158
+333,1950,South Korea,Portugal,44.15,173.36,group,163.38,46.99,0.32
+334,1934,Morocco,Senegal,25.94,93.78,group,74.75,22.13,0.581
+335,1970,Morocco,Saudi Arabia,24.02,50.48,group,72.19,42.69,-0.276
+336,1974,England,Portugal,41.71,297.4,round_16,118.1,81.12,0.466
+337,2022,Argentina,England,47.77,142.91,quarter_final,363.2,133.67,-0.53
+338,2006,Morocco,Germany,55.53,139.23,quarter_final,153.15,123.54,0.068
+339,1998,Qatar,Morocco,46.45,162.08,round_16,86.41,115.99,0.695
+340,1966,Spain,Germany,41.03,103.46,group,87.04,61.25,0.088
+341,1998,Netherlands,Qatar,44.96,127.29,group,184.63,81.73,0.205
+342,1974,USA,Mexico,34.11,97.64,group,164.65,93.75,0.394
+343,1962,Germany,Portugal,31.33,55.7,group,85.94,51.22,-0.301
+344,1938,Senegal,Argentina,42.79,156.64,group,203.24,103.32,0.2
+345,1970,Morocco,France,30.08,168.53,group,122.92,55.71,0.198
+346,1942,Brazil,Belgium,38.08,119.24,group,119.9,47.52,0.701
+347,1930,Croatia,France,43.28,187.41,group,133.59,84.87,-0.166
+348,2002,Argentina,Morocco,32.83,116.16,group,114.66,40.58,0.073
+349,1974,Senegal,Qatar,45.44,155.03,group,192.88,36.63,-0.08
+350,1974,England,Portugal,60.33,174.05,semi_final,223.87,76.73,-0.11
+351,1998,Portugal,Senegal,37.59,201.81,group,103.26,44.59,0.496
+352,1990,England,Canada,48.63,120.95,round_16,153.77,74.98,0.187
+353,1982,England,Brazil,33.37,69.58,group,192.95,86.0,0.024
+354,1950,Italy,Mexico,62.35,172.46,final,222.09,98.25,0.035
+355,1938,Nigeria,USA,43.48,74.02,round_16,184.14,108.28,0.022
+356,2002,Portugal,Ghana,48.06,139.3,group,185.6,91.85,0.047
+357,1942,Belgium,South Korea,35.71,111.13,group,127.99,29.11,-0.174
+358,1982,Germany,Belgium,23.3,76.8,group,79.75,27.44,0.108
+359,1946,South Korea,Australia,52.38,172.87,semi_final,223.59,139.46,0.079
+360,1974,South Korea,Croatia,42.48,104.04,group,172.48,85.31,-0.032
+361,1986,Spain,Nigeria,39.53,106.13,quarter_final,141.31,105.11,0.223
+362,1930,Japan,Portugal,60.55,249.25,round_16,165.54,86.0,0.247
+363,1978,Belgium,Morocco,31.24,64.98,group,115.54,69.76,0.024
+364,1966,Spain,England,62.09,154.08,round_16,202.31,145.54,0.14
+365,1958,Canada,Uruguay,41.78,134.6,group,127.24,114.95,0.784
+366,1990,Netherlands,Qatar,44.72,118.91,group,314.34,37.4,0.774
+367,1998,South Korea,Italy,28.38,28.7,group,61.24,76.75,-0.115
+368,1950,Argentina,Belgium,47.99,143.46,semi_final,208.38,75.98,-0.076
+369,1990,Spain,Belgium,31.55,93.46,group,82.27,78.12,-0.117
+370,1990,Ghana,Germany,38.06,149.09,round_16,131.09,71.91,0.476
+371,1934,USA,Italy,37.08,86.14,round_16,252.72,71.54,0.068
+372,1978,Brazil,England,40.63,167.39,round_16,103.03,61.71,0.247
+373,1982,Argentina,Japan,33.58,83.82,round_16,91.04,82.5,0.739
+374,1938,Ghana,Australia,34.17,106.16,group,112.89,45.38,0.177
+375,1962,Saudi Arabia,Portugal,31.92,79.34,group,83.6,56.96,0.378
+376,1954,South Korea,Nigeria,36.97,66.46,group,157.22,71.0,0.326
+377,2022,Ghana,Morocco,46.49,140.92,group,132.9,106.23,0.015
+378,1958,Japan,Netherlands,34.9,71.64,group,139.16,60.84,0.477
+379,1950,Spain,Uruguay,46.68,85.46,group,106.82,100.86,-0.058
+380,1986,England,Saudi Arabia,43.43,103.26,group,86.94,76.9,0.555
+381,1994,Mexico,Senegal,32.31,157.61,group,100.61,68.45,0.016
+382,1966,Portugal,England,38.55,55.05,group,82.5,82.82,0.046
+383,2014,Australia,Morocco,32.17,86.02,group,163.39,71.38,-0.125
+384,2006,Croatia,Argentina,36.53,85.51,group,79.03,89.37,-0.079
+385,2006,Morocco,Portugal,37.19,64.7,group,92.34,69.97,0.061
+386,2002,Nigeria,Uruguay,34.86,94.31,group,129.95,41.36,-0.501
+387,1954,Mexico,Saudi Arabia,37.06,67.93,group,104.41,80.02,0.115
+388,1962,Australia,Senegal,29.91,62.36,group,64.91,28.54,0.038
+389,1934,Ghana,Australia,35.06,150.2,semi_final,206.08,43.4,0.401
+390,1978,Netherlands,USA,37.84,183.79,group,94.91,90.22,0.298
+391,1950,Canada,France,49.8,148.69,round_16,156.5,83.17,-0.018
+392,2022,Mexico,Belgium,25.24,103.57,group,79.03,45.33,0.052
+393,1946,Nigeria,South Korea,41.45,167.54,round_16,167.9,115.02,0.114
+394,2010,Netherlands,Germany,47.03,157.18,group,177.73,59.74,0.596
+395,1958,USA,Croatia,55.47,240.02,group,146.11,46.55,-0.05
+396,2018,Brazil,Germany,34.99,138.87,group,106.04,35.79,-0.022
+397,1966,Morocco,France,40.39,101.48,group,125.84,52.06,-0.136
+398,1982,France,Morocco,35.89,124.62,group,146.96,80.82,-0.235
+399,2022,Japan,Netherlands,35.1,80.81,group,84.02,82.54,0.266
+400,1990,Australia,Japan,55.68,134.44,quarter_final,325.28,107.52,0.237
+401,2022,Spain,Qatar,35.69,138.25,group,95.8,46.76,0.539
+402,2018,Nigeria,Senegal,77.61,226.73,final,257.04,143.07,0.472
+403,1962,Japan,Argentina,42.23,151.72,group,101.33,35.05,0.851
+404,1934,Argentina,Canada,34.16,67.71,group,78.85,73.91,0.159
+405,1942,Netherlands,Japan,37.14,134.68,round_16,96.53,75.34,0.107
+406,2010,Morocco,Netherlands,50.36,173.26,quarter_final,127.42,42.48,-0.184
+407,1966,Nigeria,Mexico,31.32,69.1,round_16,92.6,76.23,0.375
+408,2010,Germany,Saudi Arabia,49.33,136.71,semi_final,124.51,114.78,0.213
+409,1986,USA,Brazil,56.69,110.29,round_16,228.69,80.3,0.362
+410,1954,England,Brazil,43.37,168.85,group,115.65,89.81,-0.139
+411,1986,Netherlands,Croatia,35.61,213.56,group,92.05,71.33,0.278
+412,1978,Germany,Uruguay,40.81,145.03,group,121.38,44.33,0.237
+413,1942,Belgium,Qatar,30.43,68.87,group,133.41,36.11,0.219
+414,1990,Canada,Germany,35.91,128.15,group,126.62,77.8,-0.011
+415,2002,Brazil,Germany,31.29,70.05,quarter_final,101.03,83.45,0.513
+416,1934,Argentina,Senegal,49.87,220.35,round_16,110.85,97.37,0.754
+417,1990,Argentina,France,47.49,94.19,round_16,114.5,91.92,-0.131
+418,2002,Spain,Canada,46.76,137.66,group,108.54,97.89,0.382
+419,1954,Australia,Ghana,38.0,114.36,group,181.91,63.88,-0.626
+420,2014,Netherlands,Qatar,40.24,171.1,group,155.0,36.55,0.367
+421,1942,Belgium,USA,41.73,219.82,group,108.85,66.48,-0.344
+422,1990,Portugal,Belgium,37.37,100.64,group,105.94,97.18,0.033
+423,2010,Netherlands,Croatia,37.14,175.06,round_16,97.87,89.5,-0.188
+424,1930,USA,Mexico,67.93,191.74,final,175.99,180.34,0.12
+425,1954,Senegal,Australia,45.28,194.33,group,171.01,50.06,0.415
+426,1986,Australia,South Korea,40.22,181.43,group,123.21,72.88,-0.34
+427,1986,South Korea,England,45.71,167.65,round_16,271.79,90.02,0.079
+428,1982,Italy,Qatar,39.06,155.64,group,184.05,47.65,0.036
+429,1978,Belgium,Senegal,37.76,141.69,group,180.89,45.39,0.623
+430,1986,Brazil,Belgium,43.49,92.53,group,174.25,102.81,0.301
+431,1954,Netherlands,USA,40.27,101.81,group,118.78,86.33,-0.15
+432,1942,Australia,Brazil,41.78,126.05,round_16,163.99,87.5,0.048
+433,1954,Saudi Arabia,Japan,36.93,138.83,group,111.2,49.26,0.616
+434,1994,Australia,Saudi Arabia,37.88,112.09,group,198.52,68.7,0.38
+435,1986,Australia,Uruguay,50.66,99.85,quarter_final,188.36,42.87,-0.077
+436,1954,Croatia,Nigeria,39.46,111.58,quarter_final,141.0,41.82,0.105
+437,1938,Australia,Portugal,48.19,173.0,group,165.79,88.5,0.114
+438,1934,Australia,France,43.97,152.22,round_16,237.65,62.41,0.029
+439,1958,Qatar,Senegal,50.01,197.63,group,111.14,136.59,-0.299
+440,1994,Australia,Senegal,48.99,162.84,semi_final,272.15,85.39,-0.01
+441,2002,Germany,Italy,37.76,133.7,group,119.0,36.52,0.569
+442,1978,Argentina,Brazil,42.35,308.96,semi_final,94.85,35.39,0.073
+443,1950,Nigeria,Germany,8.0,6.18,group,21.52,18.0,0.151
+444,2006,Ghana,Germany,42.26,234.2,group,88.38,48.3,0.219
+445,2010,Spain,Qatar,48.89,121.23,quarter_final,194.92,57.48,0.801
+446,1962,Spain,Germany,49.42,143.58,round_16,122.69,81.43,0.182
+447,1998,Mexico,Japan,46.62,78.72,round_16,162.27,61.92,0.486
+448,1974,Mexico,Japan,33.26,161.44,group,151.7,67.62,0.013
+449,1974,Germany,Italy,48.44,117.46,group,133.24,85.81,0.107
+450,2014,Australia,Canada,31.68,72.01,group,97.57,32.41,0.184
+451,2014,Morocco,England,44.18,139.98,quarter_final,101.83,104.68,-0.037
+452,1970,Qatar,Mexico,33.33,161.76,group,99.26,55.05,0.123
+453,1986,USA,Japan,25.08,94.71,group,171.19,50.7,0.429
+454,1950,England,Italy,48.3,106.92,semi_final,199.39,39.02,-0.044
+455,1958,Italy,Mexico,53.53,168.44,group,165.03,109.89,0.18
+456,2002,Saudi Arabia,Ghana,50.58,158.28,semi_final,141.5,69.08,0.378
+457,1990,Portugal,USA,35.88,78.34,quarter_final,117.71,64.18,-0.051
+458,1974,Germany,Mexico,51.19,117.22,quarter_final,176.26,71.43,0.487
+459,1982,Croatia,South Korea,44.44,93.71,quarter_final,131.21,124.1,0.2
+460,1978,Uruguay,Ghana,37.93,99.66,group,146.08,47.86,0.134
+461,1958,Australia,Netherlands,45.21,146.1,group,114.93,118.71,-0.382
+462,1958,Croatia,Uruguay,35.1,105.02,group,89.11,92.52,0.075
+463,1942,Mexico,Portugal,38.52,69.56,group,141.86,63.25,0.284
+464,1994,Qatar,Italy,49.4,126.01,group,118.24,69.56,0.669
+465,1982,Mexico,Germany,38.54,116.7,group,156.93,60.2,0.339
+466,1978,Nigeria,France,45.04,177.95,group,148.94,125.15,0.495
+467,1938,Ghana,Australia,46.07,128.28,group,91.68,93.87,-0.159
+468,1946,Nigeria,Portugal,33.08,101.22,group,113.25,62.51,0.144
+469,1998,Croatia,Germany,51.4,162.04,quarter_final,106.46,44.81,0.522
+470,2014,Portugal,Croatia,30.17,111.47,group,121.63,75.29,-0.069
+471,1970,Senegal,Argentina,34.87,129.72,quarter_final,107.98,33.74,0.45
+472,1990,Qatar,Brazil,33.87,45.92,quarter_final,188.83,30.28,0.385
+473,1946,Nigeria,Qatar,38.88,101.21,group,174.24,52.48,0.257
+474,2014,Qatar,England,36.1,115.36,group,89.06,63.23,0.088
+475,1974,Morocco,Uruguay,40.26,117.79,quarter_final,75.91,104.3,-0.096
+476,2018,Argentina,Mexico,36.85,99.19,group,99.03,87.71,0.677
+477,1942,Morocco,Belgium,33.37,121.31,group,78.7,39.89,0.357
+478,1954,Spain,Morocco,41.69,179.34,group,230.78,64.38,0.275
+479,2018,Netherlands,Spain,46.59,111.74,semi_final,154.24,109.97,0.064
+480,2002,Croatia,England,52.94,119.9,round_16,228.27,98.16,0.191
+481,1938,Morocco,Argentina,40.74,115.78,group,124.89,46.81,0.226
+482,1974,Japan,Ghana,44.82,112.22,group,141.51,71.36,0.292
+483,1942,Mexico,Saudi Arabia,53.58,114.9,round_16,176.27,109.94,0.386
+484,1966,Canada,Belgium,16.7,37.76,group,75.58,45.87,-0.039
+485,2022,Italy,Senegal,44.46,85.06,group,161.07,94.42,-0.231
+486,1970,Argentina,Spain,46.02,254.42,group,113.64,38.31,0.204
+487,1958,Australia,USA,43.59,217.69,round_16,227.95,96.33,-0.309
+488,1946,Brazil,Germany,43.43,154.92,group,132.84,56.53,0.089
+489,1946,Belgium,Nigeria,47.16,68.3,round_16,137.83,119.05,0.037
+490,1962,Australia,Mexico,43.57,63.64,semi_final,65.5,68.31,0.318
+491,2006,Qatar,Spain,32.32,85.77,group,128.16,38.76,0.735
+492,1958,Saudi Arabia,Argentina,32.74,96.08,group,111.82,56.83,-0.364
+493,1998,Portugal,Saudi Arabia,47.01,96.6,group,160.51,61.6,0.817
+494,2010,Portugal,Uruguay,27.21,76.98,group,80.7,34.6,0.115
+495,2022,Canada,Belgium,31.66,67.36,group,89.48,61.63,0.277
+496,1970,Canada,France,37.52,161.41,group,112.32,87.6,-0.216
+497,1966,Mexico,France,45.56,187.8,semi_final,172.21,112.53,0.459
+498,1978,Morocco,Germany,43.2,124.16,round_16,171.54,68.92,0.192
+499,1982,Senegal,Japan,36.62,163.72,group,113.97,34.19,0.163
+500,1938,Argentina,Brazil,31.11,120.19,group,134.72,55.0,-0.362
+501,1974,Canada,Mexico,36.45,97.83,group,118.37,60.78,0.201
+502,1954,Canada,Brazil,37.31,331.93,group,107.56,44.55,0.417
+503,1990,Uruguay,France,23.84,79.05,group,83.67,61.8,0.114
+504,1950,Mexico,South Korea,38.72,60.42,round_16,87.86,106.41,0.509
+505,1938,Morocco,Saudi Arabia,36.78,62.71,round_16,130.34,33.23,0.497
+506,1986,Canada,Ghana,44.73,265.74,group,96.43,106.97,0.0
+507,1994,France,Nigeria,43.17,124.28,quarter_final,107.49,90.29,0.627
+508,1990,South Korea,Netherlands,35.39,66.0,group,66.77,46.82,0.193
+509,1954,USA,Mexico,36.33,109.48,round_16,114.85,75.21,0.194
+510,1946,Argentina,Germany,43.99,192.56,round_16,229.21,46.51,0.208
+511,1942,Spain,Qatar,38.15,142.63,group,122.58,35.82,0.199
+512,1974,France,Qatar,27.22,59.78,group,108.22,75.86,-0.556
+513,1934,Mexico,Brazil,24.55,84.41,group,157.49,50.89,0.128
+514,1986,South Korea,Australia,29.63,54.89,group,110.16,38.71,-0.202
+515,2002,Australia,Netherlands,33.91,58.24,group,90.87,57.65,0.635
+516,2018,USA,Japan,37.3,188.49,group,103.88,100.72,0.624
+517,1966,Belgium,Netherlands,58.82,199.07,final,195.33,98.67,0.419
+518,1966,Germany,Saudi Arabia,40.07,219.91,group,111.43,104.22,0.113
+519,1946,Nigeria,Qatar,40.18,126.28,group,114.1,101.96,-0.102
+520,1946,Australia,Senegal,36.31,114.79,group,158.85,54.04,-0.004
+521,1974,France,Qatar,40.61,100.83,quarter_final,179.71,89.02,0.724
+522,1958,Argentina,Qatar,43.76,100.44,group,91.61,92.81,-0.014
+523,1982,Portugal,Ghana,25.12,116.93,group,66.33,58.84,-0.48
+524,2014,Argentina,Saudi Arabia,32.17,75.98,group,93.8,49.28,0.468
+525,1986,South Korea,Germany,30.09,131.56,group,118.15,27.22,0.6
+526,2002,Brazil,Spain,55.44,288.66,quarter_final,253.5,63.32,0.645
+527,1974,Brazil,Qatar,36.4,93.97,group,257.53,74.01,0.471
+528,1934,Japan,Argentina,45.95,141.19,quarter_final,133.91,107.99,0.516
+529,1958,Argentina,Croatia,27.47,124.28,group,81.18,63.51,0.195
+530,1986,Germany,Qatar,49.27,79.94,group,192.89,96.93,-0.401
+531,1962,Japan,France,41.33,99.0,group,113.36,40.07,0.188
+532,1958,Portugal,Australia,33.15,135.65,group,105.8,27.67,0.354
+533,1954,Argentina,Croatia,38.63,79.48,group,114.18,91.33,0.142
+534,1954,Brazil,Uruguay,45.65,318.83,group,72.74,86.68,0.129
+535,1934,Morocco,South Korea,38.52,72.5,round_16,132.38,91.12,-0.09
+536,2010,Uruguay,Argentina,51.33,125.3,round_16,161.94,57.78,-0.1
+537,1998,Croatia,Italy,54.45,264.68,round_16,258.07,87.93,0.695
+538,1962,Nigeria,Mexico,59.54,154.5,quarter_final,197.98,157.09,0.705
+539,1954,Brazil,England,57.36,404.07,final,134.02,65.57,0.179
+540,1934,USA,Croatia,37.6,77.23,semi_final,116.13,34.71,0.259
+541,1986,England,Spain,45.97,123.23,group,84.99,96.86,-0.095
+542,1994,Mexico,Senegal,28.84,146.48,group,68.22,57.36,0.36
+543,2022,Brazil,Canada,29.84,152.4,group,118.37,80.69,0.673
+544,1974,Senegal,Netherlands,46.31,134.32,group,143.47,121.01,-0.248
+545,1998,Australia,Morocco,42.64,97.56,group,183.29,98.02,0.31
+546,1970,Nigeria,Brazil,41.78,119.35,semi_final,79.97,35.02,0.331
+547,1982,England,Netherlands,32.27,87.26,group,100.11,56.82,0.328
+548,1934,Morocco,Argentina,25.51,50.93,group,74.14,66.13,0.64
+549,2018,Morocco,Senegal,51.76,105.61,semi_final,224.59,86.3,0.75
+550,1942,Uruguay,England,38.36,102.0,group,153.76,104.5,0.115
+551,1998,Canada,Nigeria,36.34,83.71,group,144.42,76.49,0.368
+552,1934,USA,Qatar,39.24,123.55,round_16,200.6,39.98,0.204
+553,2002,Australia,Portugal,46.73,86.64,quarter_final,139.96,84.98,0.003
+554,1946,Mexico,Argentina,35.69,199.48,group,172.21,78.21,0.256
+555,1998,England,Saudi Arabia,20.01,54.09,group,49.59,18.62,0.368
+556,1954,Brazil,USA,29.68,56.66,group,72.81,44.2,0.241
+557,2006,Morocco,Portugal,43.28,121.18,semi_final,177.41,96.69,-0.067
+558,1974,Portugal,Senegal,36.91,97.14,group,80.41,41.12,0.05
+559,1970,Australia,Germany,30.24,67.46,group,117.87,45.26,0.052
+560,1986,Portugal,Croatia,39.13,153.36,quarter_final,133.65,85.3,-0.056
+561,2014,Spain,Qatar,44.43,122.85,round_16,199.15,104.46,0.268
+562,2014,Argentina,South Korea,35.14,97.41,group,114.74,64.55,0.297
+563,1962,Brazil,Qatar,39.96,112.22,group,134.77,108.44,0.454
+564,1986,Uruguay,Belgium,35.86,140.91,group,137.31,95.05,-0.06
+565,2006,Belgium,Australia,34.07,44.88,group,93.96,59.52,0.018
+566,1954,Saudi Arabia,Morocco,43.91,217.22,group,119.63,49.2,0.615
+567,1958,USA,England,51.51,132.33,round_16,195.32,120.84,0.134
+568,2022,Uruguay,USA,33.42,101.61,group,110.05,42.99,0.188
+569,1954,Mexico,Germany,46.61,107.28,round_16,138.07,115.86,0.131
+570,1966,Uruguay,South Korea,27.2,64.83,group,88.24,53.7,0.497
+571,1934,Italy,Croatia,57.22,270.07,semi_final,296.9,90.88,0.508
+572,2022,Croatia,Japan,40.53,91.38,group,118.87,77.52,0.492
+573,2014,South Korea,Canada,51.45,170.12,group,149.67,95.99,0.187
+574,1950,Australia,Netherlands,70.76,214.57,final,145.65,187.48,-0.064
+575,2006,Italy,Uruguay,42.56,138.25,group,139.64,52.29,0.719
+576,2022,USA,Japan,41.68,180.12,group,166.33,110.72,0.42
+577,2002,Australia,Italy,44.79,111.13,group,187.94,38.64,0.052
+578,1962,Canada,Argentina,49.02,137.96,round_16,167.76,114.63,0.579
+579,2002,Germany,Senegal,38.81,112.01,semi_final,168.39,102.43,0.03
+580,1978,Japan,South Korea,33.35,75.69,round_16,135.88,52.96,0.575
+581,1930,Brazil,Saudi Arabia,32.62,310.39,group,147.9,30.86,0.594
+582,1930,Argentina,Qatar,36.05,92.69,group,157.67,86.86,-0.078
+583,1990,Japan,Croatia,49.46,160.56,semi_final,254.87,122.94,0.343
+584,1942,Italy,Mexico,35.08,88.83,quarter_final,111.07,51.66,0.399
+585,1982,Canada,Morocco,36.6,118.09,group,83.8,67.24,0.91
+586,1962,Belgium,Ghana,32.77,152.75,group,131.02,79.27,-0.028
+587,1958,South Korea,Mexico,39.72,187.43,group,164.09,47.03,0.581
+588,1950,Ghana,Belgium,33.56,97.87,group,172.94,69.06,0.185
+589,1990,Netherlands,Japan,50.53,183.36,round_16,240.17,83.94,-0.168
+590,2014,Mexico,USA,38.48,219.94,round_16,220.27,44.21,0.146
+591,1950,Germany,France,29.97,75.54,group,118.36,73.81,0.181
+592,2018,Saudi Arabia,USA,41.58,128.13,round_16,147.18,60.26,-0.116
+593,1998,Ghana,Australia,44.58,80.31,group,100.43,118.98,0.267
+594,1954,Mexico,Senegal,52.03,90.49,quarter_final,188.31,100.83,0.448
+595,1930,Spain,Qatar,53.01,175.05,group,150.77,96.96,0.247
+596,1962,Croatia,Uruguay,41.64,107.28,group,146.68,68.56,0.028
+597,1942,Argentina,Spain,63.08,160.0,final,212.65,101.01,0.138
+598,1934,Italy,USA,20.37,99.44,group,77.18,49.62,0.179
+599,1994,Netherlands,Mexico,61.63,335.28,round_16,199.12,132.81,0.241
+600,1930,Qatar,Belgium,34.24,91.03,group,147.7,80.37,0.491
+601,1994,Portugal,Brazil,62.43,117.23,final,96.7,102.52,0.256
+602,1974,Canada,Mexico,36.92,141.05,group,129.28,48.84,-0.213
+603,1930,USA,Portugal,36.72,83.57,quarter_final,170.72,35.76,0.023
+604,1990,Japan,Germany,65.06,150.59,final,364.64,153.11,0.226
+605,1998,Saudi Arabia,Argentina,42.43,75.9,group,172.92,69.18,0.495
+606,1958,Argentina,Belgium,22.69,94.17,semi_final,120.75,41.26,0.543
+607,1930,Qatar,France,30.79,99.43,group,107.18,53.53,0.677
+608,1934,Nigeria,France,31.9,44.58,group,106.0,53.03,0.217
+609,1970,Morocco,France,39.48,183.55,group,152.02,85.58,0.394
+610,1962,Nigeria,France,26.08,62.56,group,86.51,52.62,-0.227
+611,1938,Italy,England,42.05,166.5,group,112.15,115.39,0.3
+612,2022,Spain,Nigeria,42.33,178.01,group,121.66,45.62,-0.121
+613,1970,Japan,South Korea,66.13,184.95,final,160.81,128.76,0.162
+614,1978,Qatar,Croatia,50.73,125.51,round_16,195.29,47.0,0.91
+615,1934,Brazil,Argentina,31.48,105.07,group,104.85,76.05,0.265
+616,1934,Mexico,Senegal,47.0,166.77,round_16,141.07,95.53,-0.062
+617,1998,Portugal,Croatia,36.38,128.07,group,103.06,60.27,0.294
+618,2006,Qatar,Saudi Arabia,34.85,116.25,group,133.28,83.8,0.035
+619,1978,Croatia,USA,43.98,111.78,group,181.68,75.21,-0.089
+620,2010,Argentina,Japan,42.46,154.89,quarter_final,102.72,53.31,0.769
+621,1954,Uruguay,Belgium,33.56,147.42,group,77.69,58.56,0.479
+622,2018,Belgium,South Korea,26.23,82.13,group,113.77,24.7,0.277
+623,1946,Portugal,Croatia,35.83,107.38,group,80.94,93.0,0.07
+624,2010,Saudi Arabia,Spain,45.41,79.45,round_16,175.74,102.71,0.093
+625,1994,France,Italy,52.39,157.64,round_16,273.54,121.58,0.612
+626,2006,USA,Mexico,22.31,125.69,group,116.56,56.87,0.266
+627,1986,Spain,Qatar,31.25,151.9,group,127.56,74.47,-0.683
+628,1954,England,Portugal,46.63,141.75,round_16,188.8,77.58,0.858
+629,2018,Belgium,Portugal,37.22,236.72,round_16,232.15,38.61,0.231
+630,1998,Saudi Arabia,Brazil,58.15,134.36,group,100.42,89.94,0.276
+631,2010,Senegal,Argentina,39.66,101.08,group,115.62,105.82,0.484
+632,1938,Netherlands,Nigeria,45.27,58.27,group,190.61,122.15,0.31
+633,1994,Canada,Germany,42.14,99.07,round_16,127.3,98.43,0.389
+634,1978,Uruguay,Canada,29.43,79.0,group,138.26,35.58,0.061
+635,2002,Qatar,Nigeria,35.92,76.65,group,117.95,42.71,-0.164
+636,1954,Nigeria,Spain,41.86,169.56,group,144.2,107.14,0.258
+637,2002,Brazil,England,56.77,154.46,round_16,174.53,61.53,0.581
+638,2014,Portugal,Belgium,34.35,125.27,round_16,98.52,67.61,-0.001
+639,1958,Morocco,Canada,34.39,70.83,group,97.96,53.53,-0.024
+640,1966,England,Japan,32.66,86.67,group,116.99,45.86,0.522
+641,1970,Canada,Croatia,40.05,146.5,round_16,107.05,86.3,0.052
+642,1938,Uruguay,Netherlands,30.18,65.39,group,130.85,82.06,0.065
+643,1966,Mexico,England,38.9,123.31,quarter_final,155.07,91.62,0.076
+644,1946,Netherlands,Morocco,51.95,189.37,round_16,234.66,92.07,0.162
+645,1958,Qatar,Australia,37.82,156.69,group,91.54,63.59,-0.261
+646,1950,USA,Saudi Arabia,40.13,92.97,group,82.79,104.95,0.029
+647,2014,Croatia,Senegal,40.74,115.49,semi_final,135.1,79.7,0.245
+648,1942,England,Spain,49.43,178.04,round_16,369.53,88.64,0.243
+649,2022,Uruguay,England,77.63,143.74,final,367.42,168.12,0.504
+650,1990,Ghana,USA,59.17,362.86,quarter_final,168.2,75.4,0.695
+651,1970,Brazil,Argentina,42.27,156.42,group,158.05,39.2,0.603
+652,1974,Ghana,Argentina,43.27,192.08,quarter_final,176.12,108.62,0.436
+653,1950,Saudi Arabia,USA,30.26,124.47,group,68.49,60.96,0.138
+654,2002,Morocco,England,42.02,135.41,group,204.72,47.47,0.006
+655,1970,Netherlands,Nigeria,45.95,120.23,group,145.57,64.15,0.185
+656,2014,France,Japan,23.07,49.98,group,74.67,64.13,0.344
+657,1994,Croatia,USA,42.52,233.99,group,142.11,87.97,0.41
+658,1994,South Korea,England,33.14,96.46,group,151.59,68.67,0.354
+659,1950,Mexico,Argentina,33.72,117.58,semi_final,90.62,31.84,0.146
+660,2010,Australia,Germany,42.44,119.44,round_16,87.37,116.2,0.4
+661,2022,Nigeria,Uruguay,31.32,71.79,group,113.83,80.98,0.533
+662,1998,Saudi Arabia,Germany,40.11,144.9,group,75.14,76.03,0.426
+663,1942,Germany,Argentina,44.39,139.43,round_16,135.46,62.98,0.171
+664,1982,Ghana,South Korea,32.11,104.0,group,148.63,70.52,-0.053
+665,1930,Mexico,Brazil,45.74,166.23,group,178.59,112.83,-0.06
+666,2002,Saudi Arabia,Belgium,50.22,319.05,round_16,223.25,119.13,-0.011
+667,1998,Canada,Morocco,30.95,90.87,group,122.25,85.24,0.252
+668,1982,South Korea,France,65.24,181.85,group,425.37,135.29,0.326
+669,1934,Qatar,Portugal,29.62,127.4,group,83.41,42.73,-0.216
+670,1990,Uruguay,France,41.11,76.92,semi_final,152.59,73.83,0.039
+671,2002,Senegal,Croatia,29.36,66.29,group,86.22,71.42,0.248
+672,1938,Senegal,Japan,30.94,134.62,group,134.28,41.17,-0.072
+673,1962,Qatar,South Korea,44.38,103.07,quarter_final,144.83,56.04,0.301
+674,1998,Spain,Mexico,45.29,174.21,quarter_final,243.32,101.89,0.094
+675,2014,Australia,Qatar,44.53,158.53,round_16,127.43,75.2,-0.023
+676,1950,Morocco,Spain,38.38,75.4,group,188.96,93.38,0.195
+677,1958,Senegal,USA,49.54,157.6,group,194.19,53.87,0.29
+678,2010,Qatar,Canada,43.39,133.84,group,142.76,63.84,-0.058
+679,1994,South Korea,Qatar,31.06,125.04,group,120.04,41.5,0.112
+680,1950,Portugal,Argentina,50.87,158.54,round_16,181.71,111.7,0.311
+681,1950,Argentina,Belgium,40.0,79.54,round_16,146.72,92.75,-0.033
+682,1930,Italy,Netherlands,39.27,98.11,quarter_final,123.04,67.23,-0.284
+683,1958,Canada,Netherlands,48.3,151.86,round_16,131.76,84.82,-0.25
+684,1934,Italy,Morocco,41.03,183.12,group,124.03,43.66,0.063
+685,1934,Portugal,Saudi Arabia,37.85,152.62,group,78.44,83.41,-0.189
+686,1938,Uruguay,Morocco,55.1,161.36,semi_final,231.57,153.43,0.083
+687,2018,Argentina,Australia,41.83,156.56,group,98.27,98.54,0.646
+688,1954,Mexico,Ghana,58.34,354.82,final,182.24,72.7,-0.206
+689,1998,Italy,Qatar,36.23,147.31,group,144.22,74.14,0.101
+690,1930,South Korea,Nigeria,34.8,155.19,group,146.15,48.37,0.777
+691,1978,Italy,Australia,27.71,74.06,group,55.97,23.84,0.294
+692,1962,South Korea,Australia,21.54,58.29,group,69.7,24.98,0.077
+693,2018,Belgium,Saudi Arabia,36.89,115.87,quarter_final,139.31,37.08,0.136
+694,1954,Argentina,Japan,38.1,86.97,group,128.35,45.41,0.3
+695,2022,Japan,Argentina,47.2,167.96,group,228.32,112.87,0.655
+696,2010,Ghana,Mexico,34.64,135.0,group,91.37,48.0,0.031
+697,1994,Australia,Japan,43.03,179.39,group,80.49,99.57,-0.032
+698,1990,Morocco,South Korea,35.89,112.63,group,149.51,96.82,-0.206
+699,1974,Brazil,France,36.38,153.87,group,103.92,70.89,0.209
+700,2022,Uruguay,South Korea,42.35,257.06,group,85.93,74.99,-0.214
+701,1942,South Korea,Spain,40.31,100.48,group,128.02,92.72,0.05
+702,1974,South Korea,Netherlands,36.95,123.21,semi_final,173.14,36.73,-0.074
+703,1994,Spain,South Korea,28.99,129.79,group,67.58,48.02,0.481
+704,2002,USA,Italy,40.22,110.91,group,256.84,72.3,0.038
+705,1974,Morocco,Spain,38.22,103.67,group,100.36,94.1,0.291
+706,1938,Croatia,Morocco,35.12,105.64,group,119.48,85.29,-0.269
+707,1994,Italy,Belgium,58.04,162.88,final,136.97,144.9,0.217
+708,1934,Portugal,Ghana,39.63,132.43,group,133.12,87.02,-0.157
+709,1994,South Korea,Ghana,41.55,134.19,round_16,132.88,77.33,0.061
+710,1974,Senegal,Germany,35.22,155.67,group,77.06,86.49,0.799
+711,1938,Japan,Mexico,36.13,54.52,group,264.64,92.01,0.441
+712,1930,England,Netherlands,52.21,103.3,group,150.89,91.94,0.144
+713,2006,Australia,England,24.72,70.69,group,71.46,68.51,0.91
+714,2018,Nigeria,Portugal,38.19,77.99,group,166.32,97.37,-0.076
+715,1962,USA,Argentina,41.7,119.57,semi_final,230.1,75.93,0.506
+716,2002,Morocco,Senegal,42.36,84.06,quarter_final,192.79,39.76,-0.249
+717,2010,Senegal,Uruguay,54.13,177.53,round_16,128.39,67.61,0.112
+718,1930,USA,Morocco,38.44,105.1,group,135.5,90.44,-0.197
+719,1958,Australia,Argentina,38.84,102.57,group,76.15,39.71,0.252
+720,2010,Italy,Croatia,48.05,187.74,round_16,205.35,83.59,0.196

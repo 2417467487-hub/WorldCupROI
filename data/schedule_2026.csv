@@ -1,0 +1,65 @@
+match_id,year,team_a,team_b,stage,host_city,scheduled_month
+1001,2026,Argentina,Germany,group,Mexico City,June
+1002,2026,Saudi Arabia,Portugal,group,Toronto,July
+1003,2026,Uruguay,Belgium,group,Los Angeles,June
+1004,2026,Nigeria,Canada,group,Dallas,June
+1005,2026,Brazil,Portugal,group,Los Angeles,July
+1006,2026,Croatia,Brazil,group,Miami,June
+1007,2026,Croatia,Ghana,group,Los Angeles,June
+1008,2026,South Korea,Italy,group,Dallas,July
+1009,2026,Japan,Senegal,group,Dallas,June
+1010,2026,France,Japan,group,Dallas,June
+1011,2026,Ghana,England,group,New York,June
+1012,2026,Morocco,Australia,group,New York,June
+1013,2026,South Korea,Belgium,group,Toronto,July
+1014,2026,Portugal,Morocco,group,New York,July
+1015,2026,Australia,Belgium,group,Dallas,June
+1016,2026,Ghana,Netherlands,group,Dallas,June
+1017,2026,South Korea,Uruguay,group,New York,June
+1018,2026,Portugal,Brazil,group,Dallas,June
+1019,2026,Nigeria,Germany,group,Mexico City,July
+1020,2026,Ghana,Senegal,group,Miami,July
+1021,2026,Japan,Belgium,group,New York,July
+1022,2026,Senegal,Morocco,group,Mexico City,July
+1023,2026,Brazil,Qatar,group,Vancouver,June
+1024,2026,England,Argentina,group,Vancouver,June
+1025,2026,South Korea,Argentina,group,New York,July
+1026,2026,Germany,Croatia,group,Mexico City,June
+1027,2026,Argentina,Qatar,group,Vancouver,June
+1028,2026,Belgium,Mexico,group,Mexico City,July
+1029,2026,Morocco,Mexico,group,Miami,July
+1030,2026,Japan,Saudi Arabia,group,Los Angeles,June
+1031,2026,Italy,Portugal,group,New York,July
+1032,2026,Japan,Saudi Arabia,group,Mexico City,June
+1033,2026,Netherlands,Senegal,group,Toronto,June
+1034,2026,Senegal,France,group,Toronto,June
+1035,2026,Italy,Senegal,group,Miami,June
+1036,2026,England,USA,group,New York,June
+1037,2026,Japan,Brazil,group,Vancouver,July
+1038,2026,Argentina,Mexico,group,New York,July
+1039,2026,Brazil,Saudi Arabia,group,Mexico City,July
+1040,2026,Nigeria,Mexico,group,Miami,July
+1041,2026,Brazil,Nigeria,group,New York,July
+1042,2026,Brazil,Morocco,group,Los Angeles,June
+1043,2026,Senegal,Italy,group,Los Angeles,July
+1044,2026,Ghana,South Korea,group,Vancouver,July
+1045,2026,Brazil,Japan,group,Dallas,July
+1046,2026,South Korea,Saudi Arabia,group,Mexico City,July
+1047,2026,Ghana,Japan,group,Dallas,June
+1048,2026,Portugal,Senegal,group,Dallas,June
+1049,2026,Australia,Argentina,knockout,Toronto,July
+1050,2026,France,Qatar,knockout,Toronto,June
+1051,2026,Spain,Morocco,knockout,Vancouver,June
+1052,2026,Morocco,Qatar,knockout,Dallas,July
+1053,2026,USA,Saudi Arabia,knockout,Miami,June
+1054,2026,Croatia,Spain,knockout,Toronto,June
+1055,2026,Morocco,Belgium,knockout,Mexico City,June
+1056,2026,Belgium,Nigeria,knockout,Los Angeles,July
+1057,2026,Spain,Senegal,knockout,Dallas,June
+1058,2026,Australia,Mexico,knockout,Mexico City,June
+1059,2026,South Korea,Uruguay,knockout,Los Angeles,June
+1060,2026,South Korea,USA,knockout,Los Angeles,June
+1061,2026,Qatar,Ghana,knockout,Dallas,July
+1062,2026,Uruguay,Qatar,knockout,Los Angeles,July
+1063,2026,USA,Ghana,knockout,Los Angeles,July
+1064,2026,Saudi Arabia,France,knockout,Mexico City,June
