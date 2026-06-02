@@ -55,6 +55,11 @@ WorldCupROI is designed around research questions instead of only model accuracy
 ```text
 WorldCupROI/
 |-- data/
+|   |-- raw/
+|   |   |-- international_results.csv
+|   |   |-- gdelt_worldcup_article_batches.json
+|   |   |-- gdelt_worldcup_articles_deduped.json
+|   |   `-- wikipedia_pages.json
 |   |-- historical_matches.csv
 |   |-- schedule_2026.csv
 |   |-- players.csv
@@ -64,6 +69,8 @@ WorldCupROI/
 |   |-- social_media.csv
 |   |-- attention_timeseries.csv
 |   |-- media_text_corpus.csv
+|   |-- real_text_articles.csv
+|   |-- text_embeddings_reduced.csv
 |   |-- relationship_network.csv
 |   |-- modeling_dataset.csv
 |   `-- panel_dataset.csv
@@ -83,6 +90,8 @@ WorldCupROI/
 |   |-- fan_score.py
 |   |-- sponsor_roi.py
 |   |-- data_quality.py
+|   |-- real_data_ingestion.py
+|   |-- text_dimensionality.py
 |   |-- build_plotly_dashboard.py
 |   `-- report_generator.py
 |-- dashboard/
@@ -130,6 +139,7 @@ The platform is structured to support four data modalities:
 | Tabular sports data | `historical_matches.csv`, `players.csv`, `coaches.csv`, `weather.csv` | team strength, player quality, coach context, match conditions |
 | Commercial data | `sponsors.csv`, `panel_dataset.csv`, `sponsor_roi_outputs.csv` | investment, brand heat, ad exposure, ROI, sponsor ranking |
 | Text and sentiment data | `social_media.csv`, `media_text_corpus.csv` | news narratives, sentiment, brand conversation, topic signal |
+| Large-scale real text units | `real_text_articles.csv`, `text_embeddings_reduced.csv` | several thousand real-source text units, hashed TF-IDF, 24-dimensional reduction |
 | Time-series data | `attention_timeseries.csv` | attention change before and after matches |
 | Relationship-network data | `relationship_network.csv` | sponsor-team-player influence graph |
 
@@ -139,7 +149,9 @@ The Python framework is modular and designed for research iteration:
 
 | Module | File | Purpose |
 |---|---|---|
-| Data generation and ingestion | `src/preprocess.py` | Build reproducible sports, sponsor, social, text, and network datasets |
+| Real data ingestion | `src/real_data_ingestion.py` | Crawl public match records, GDELT article metadata, and Wikimedia page text |
+| Fallback data generation | `src/preprocess.py` | Build reproducible backup data when network sources are unavailable |
+| Text dimensionality reduction | `src/text_dimensionality.py` | Convert real-source text units into low-dimensional text features |
 | Feature engineering | `src/feature_builder.py` | Join data and build FanScore, Sponsor Power Index, injury, sentiment, and ROI features |
 | Shared ML configuration | `src/ml_config.py` | Centralize feature lists, model registry, random seed, and task definitions |
 | Match prediction | `src/train_match_model.py` | Predict win/draw/loss probability |
@@ -236,20 +248,20 @@ Interactive features:
 
 ## Data Strategy
 
-The current repository uses seeded mock data so the whole pipeline can run without paid APIs. The schema is designed to be replaceable with real data sources.
+The current repository now uses real public data sources where available. Some commercial features, such as exact sponsor spend and player market value, remain proxy-derived because reliable public contract-level data is not consistently available.
 
-| Domain | Current Data | Real API / Public Data Upgrade |
+| Domain | Current Data | Source / Notes |
 |---|---|---|
-| Matches | seeded World Cup-style match data | Kaggle World Cup datasets, FIFA public data |
-| 2026 schedule | reproducible mock schedule | official 2026 schedule feed |
-| Players | rating, market value, followers, injury risk | Transfermarkt-style value data, FBref, injury reports |
-| Coaches | experience, tenure, win rate | public coach career records |
-| Weather | temperature, humidity, condition | Open-Meteo, Meteostat, NOAA |
-| Sponsors | spend, ad exposure, brand heat, category | sponsor reports, brand studies, ad intelligence platforms |
-| Social media | mentions, reposts, views, sentiment, growth | YouTube, Instagram, X/Twitter, Google Trends, news APIs |
-| Text narratives | sample headlines and topic signal | news article APIs, press releases, campaign text |
-| Time series | attention before/after match | platform-level engagement streams |
-| Network | sponsor-team-player graph | sponsorship contracts, player endorsement links |
+| Matches | real World Cup match records | `martj42/international_results` public CSV |
+| 2026 schedule | real-source schedule rows when present in public CSV | same public CSV source |
+| Text narratives | real-source text units | GDELT article metadata + Wikimedia page text + real match fact text |
+| Text reduction | 768 hashed TF-IDF features reduced to 24 dimensions | dependency-light covariance eigendecomposition |
+| Players | proxy-derived from real team history | marked with `data_origin` |
+| Coaches | proxy-derived from real team history | marked with `data_origin` |
+| Weather | proxy context attached to real match records | replaceable with Open-Meteo/Meteostat |
+| Sponsors | real sponsor brand names with proxy commercial metrics | exact spend requires commercial datasets |
+| Social media | proxy engagement derived from real text sentiment and event attention | replaceable with social APIs |
+| Network | sponsor-team-player relationship graph | mixed real brand/team names and proxy weights |
 
 Dataset docs:
 
@@ -289,8 +301,10 @@ source .venv/bin/activate
 
 ```bash
 python src/preprocess.py
+python src/real_data_ingestion.py
 python src/feature_builder.py
 python src/advanced_features.py
+python src/text_dimensionality.py
 python src/data_quality.py
 python src/train_match_model.py
 python src/train_roi_model.py

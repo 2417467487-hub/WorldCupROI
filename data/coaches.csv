@@ -1,25 +1,83 @@
-team,coach_name,coach_wc_matches,coach_win_rate,coach_tenure_years,international_titles
-Argentina,Argentina Head Coach,16,0.331,2.5,0
-Brazil,Brazil Head Coach,2,0.365,3.8,2
-France,France Head Coach,14,0.473,4.3,1
-Germany,Germany Head Coach,5,0.399,4.5,0
-Spain,Spain Head Coach,27,0.467,1.7,3
-England,England Head Coach,9,0.553,5.9,3
-Portugal,Portugal Head Coach,7,0.288,5.3,0
-Netherlands,Netherlands Head Coach,14,0.404,1.9,0
-Uruguay,Uruguay Head Coach,2,0.398,2.3,1
-Croatia,Croatia Head Coach,18,0.457,6.3,0
-Belgium,Belgium Head Coach,0,0.18,0.4,1
-Italy,Italy Head Coach,8,0.371,5.7,1
-Mexico,Mexico Head Coach,0,0.23,3.6,0
-USA,USA Head Coach,8,0.326,6.3,0
-Japan,Japan Head Coach,9,0.247,2.6,1
-South Korea,South Korea Head Coach,6,0.313,2.9,0
-Morocco,Morocco Head Coach,7,0.271,3.8,1
-Nigeria,Nigeria Head Coach,10,0.244,4.6,0
-Ghana,Ghana Head Coach,12,0.493,5.9,1
-Saudi Arabia,Saudi Arabia Head Coach,1,0.185,2.9,0
-Australia,Australia Head Coach,0,0.274,1.9,1
-Canada,Canada Head Coach,10,0.503,2.8,0
-Qatar,Qatar Head Coach,10,0.372,0.4,0
-Senegal,Senegal Head Coach,0,0.31,3.4,1
+team,coach_name,coach_wc_matches,coach_win_rate,coach_tenure_years,international_titles,data_origin
+Algeria,Algeria national team coach,2,0.304,1.4,0,proxy_from_real_team_history
+Angola,Angola national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Argentina,Argentina national team coach,15,0.566,3.5,1,proxy_from_real_team_history
+Australia,Australia national team coach,3,0.299,1.7,0,proxy_from_real_team_history
+Austria,Austria national team coach,5,0.45,2.2,0,proxy_from_real_team_history
+Belgium,Belgium national team coach,9,0.468,2.9,1,proxy_from_real_team_history
+Bolivia,Bolivia national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Bosnia and Herzegovina,Bosnia and Herzegovina national team coach,1,0.328,0.9,0,proxy_from_real_team_history
+Brazil,Brazil national team coach,20,0.661,3.8,1,proxy_from_real_team_history
+Bulgaria,Bulgaria national team coach,4,0.252,2.0,0,proxy_from_real_team_history
+Cameroon,Cameroon national team coach,4,0.302,2.0,0,proxy_from_real_team_history
+Canada,Canada national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Chile,Chile national team coach,5,0.402,2.2,0,proxy_from_real_team_history
+China PR,China PR national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Colombia,Colombia national team coach,3,0.438,1.7,0,proxy_from_real_team_history
+Costa Rica,Costa Rica national team coach,3,0.356,1.7,0,proxy_from_real_team_history
+Croatia,Croatia national team coach,5,0.464,2.2,0,proxy_from_real_team_history
+Cuba,Cuba national team coach,1,0.328,0.9,0,proxy_from_real_team_history
+Czech Republic,Czech Republic national team coach,1,0.328,0.9,0,proxy_from_real_team_history
+Czechoslovakia,Czechoslovakia national team coach,5,0.42,2.2,0,proxy_from_real_team_history
+DR Congo,DR Congo national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Denmark,Denmark national team coach,4,0.428,2.0,0,proxy_from_real_team_history
+Ecuador,Ecuador national team coach,2,0.404,1.4,0,proxy_from_real_team_history
+Egypt,Egypt national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+El Salvador,El Salvador national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+England,England national team coach,13,0.494,3.3,1,proxy_from_real_team_history
+France,France national team coach,13,0.56,3.3,1,proxy_from_real_team_history
+German DR,German DR national team coach,1,0.346,0.9,0,proxy_from_real_team_history
+Germany,Germany national team coach,20,0.622,3.8,1,proxy_from_real_team_history
+Ghana,Ghana national team coach,2,0.375,1.4,0,proxy_from_real_team_history
+Greece,Greece national team coach,1,0.276,0.9,0,proxy_from_real_team_history
+Haiti,Haiti national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Honduras,Honduras national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Hungary,Hungary national team coach,5,0.489,2.2,1,proxy_from_real_team_history
+Iceland,Iceland national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Indonesia,Indonesia national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Iran,Iran national team coach,3,0.274,1.7,0,proxy_from_real_team_history
+Iraq,Iraq national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Israel,Israel national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Italy,Italy national team coach,14,0.569,3.4,1,proxy_from_real_team_history
+Ivory Coast,Ivory Coast national team coach,1,0.359,0.9,0,proxy_from_real_team_history
+Jamaica,Jamaica national team coach,1,0.328,0.9,0,proxy_from_real_team_history
+Japan,Japan national team coach,4,0.358,2.0,0,proxy_from_real_team_history
+Kuwait,Kuwait national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Mexico,Mexico national team coach,10,0.39,3.0,0,proxy_from_real_team_history
+Morocco,Morocco national team coach,4,0.315,2.0,0,proxy_from_real_team_history
+Netherlands,Netherlands national team coach,9,0.558,2.9,1,proxy_from_real_team_history
+New Zealand,New Zealand national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Nigeria,Nigeria national team coach,3,0.356,1.7,0,proxy_from_real_team_history
+North Korea,North Korea national team coach,1,0.228,0.9,0,proxy_from_real_team_history
+Northern Ireland,Northern Ireland national team coach,2,0.304,1.4,0,proxy_from_real_team_history
+Norway,Norway national team coach,1,0.301,0.9,0,proxy_from_real_team_history
+Panama,Panama national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Paraguay,Paraguay national team coach,4,0.348,2.0,0,proxy_from_real_team_history
+Peru,Peru national team coach,3,0.345,1.7,0,proxy_from_real_team_history
+Poland,Poland national team coach,6,0.481,2.4,1,proxy_from_real_team_history
+Portugal,Portugal national team coach,6,0.502,2.4,1,proxy_from_real_team_history
+Qatar,Qatar national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Republic of Ireland,Republic of Ireland national team coach,2,0.254,1.4,0,proxy_from_real_team_history
+Romania,Romania national team coach,3,0.418,1.7,0,proxy_from_real_team_history
+Russia,Russia national team coach,8,0.47,2.7,1,proxy_from_real_team_history
+Saudi Arabia,Saudi Arabia national team coach,3,0.304,1.7,0,proxy_from_real_team_history
+Scotland,Scotland national team coach,4,0.286,2.0,0,proxy_from_real_team_history
+Senegal,Senegal national team coach,2,0.422,1.4,0,proxy_from_real_team_history
+Serbia,Serbia national team coach,2,0.324,1.4,0,proxy_from_real_team_history
+Slovakia,Slovakia national team coach,1,0.281,0.9,0,proxy_from_real_team_history
+Slovenia,Slovenia national team coach,1,0.239,0.9,0,proxy_from_real_team_history
+South Africa,South Africa national team coach,1,0.288,0.9,0,proxy_from_real_team_history
+South Korea,South Korea national team coach,6,0.31,2.4,0,proxy_from_real_team_history
+Spain,Spain national team coach,12,0.51,3.2,1,proxy_from_real_team_history
+Sweden,Sweden national team coach,9,0.442,2.9,0,proxy_from_real_team_history
+Switzerland,Switzerland national team coach,7,0.415,2.6,0,proxy_from_real_team_history
+Togo,Togo national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Trinidad and Tobago,Trinidad and Tobago national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+Tunisia,Tunisia national team coach,3,0.274,1.7,0,proxy_from_real_team_history
+Turkey,Turkey national team coach,1,0.471,0.9,1,proxy_from_real_team_history
+Ukraine,Ukraine national team coach,1,0.385,0.9,0,proxy_from_real_team_history
+United Arab Emirates,United Arab Emirates national team coach,1,0.16,0.9,0,proxy_from_real_team_history
+United States,United States national team coach,6,0.348,2.4,0,proxy_from_real_team_history
+Uruguay,Uruguay national team coach,10,0.48,3.0,1,proxy_from_real_team_history
+Wales,Wales national team coach,1,0.22,0.9,0,proxy_from_real_team_history
+Yugoslavia,Yugoslavia national team coach,5,0.461,2.2,0,proxy_from_real_team_history

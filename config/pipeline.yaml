@@ -6,6 +6,7 @@ pipeline:
   - preprocess
   - feature_builder
   - advanced_features
+  - text_dimensionality
   - data_quality
   - train_match_model
   - train_roi_model
@@ -19,3 +20,4 @@ outputs:
   roi_predictions: data/roi_predictions.csv
   uncertainty: data/roi_uncertainty.csv
   scenarios: data/scenario_recommendations.csv
+  text_embeddings: data/text_embeddings_reduced.csv
