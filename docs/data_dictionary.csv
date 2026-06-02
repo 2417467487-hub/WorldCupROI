@@ -4,21 +4,60 @@ historical_matches.csv,year,World Cup year
 historical_matches.csv,team_a,First team
 historical_matches.csv,team_b,Second team
 historical_matches.csv,stage,Tournament stage
+historical_matches.csv,neutral_site,Whether the match is played at neutral site
+historical_matches.csv,host_advantage_a,Host advantage for team A
+historical_matches.csv,event_attention_m,Estimated event attention in millions
+historical_matches.csv,media_reposts_k,Estimated media reposts in thousands
 historical_matches.csv,result,A_win draw or B_win
 players.csv,team,Team name
 players.csv,player_role,Core player role
 players.csv,player_rating,Simulated player rating
 players.csv,market_value_m,Market value in millions
 players.csv,followers_m,Player fan followers in millions
+players.csv,injury_risk,Simulated injury risk score
+players.csv,availability_score,Core player availability score
+players.csv,fan_growth_30d_pct,Player follower growth in last 30 days
+players.csv,sentiment_score,Player-level fan sentiment score
 coaches.csv,coach_wc_matches,World Cup coaching experience
 coaches.csv,coach_win_rate,Simulated coach win rate
+coaches.csv,coach_tenure_years,Coach tenure in years
+coaches.csv,international_titles,International title count
+sponsors.csv,sponsor,Sponsor brand name
+sponsors.csv,sponsor_category,Sponsor industry category
 sponsors.csv,sponsor_spend_m,Sponsor investment in millions
+sponsors.csv,ad_exposure_m,Estimated advertising exposure in millions
+sponsors.csv,brand_heat_index,Brand popularity and buzz index
+sponsors.csv,paid_media_share,Share of paid media activation
 sponsors.csv,brand_fit,Brand-team fit score
 sponsors.csv,activation_quality,Campaign activation quality
+sponsors.csv,historical_sports_presence,Historical sports sponsorship presence
 weather.csv,weather,Weather category
 weather.csv,weather_severity,Normalized weather severity
+weather.csv,venue_region,Venue region
+weather.csv,temperature_c,Temperature in Celsius
+weather.csv,humidity,Humidity percentage
 social_media.csv,hashtag_mentions_k,Hashtag mentions in thousands
 social_media.csv,video_views_m,Video views in millions
+social_media.csv,sentiment_score,Social media sentiment score
+social_media.csv,engagement_rate,Social engagement rate
+social_media.csv,fan_growth_7d_pct,Short-term fan growth percentage
+social_media.csv,news_sentiment_score,News sentiment score
+social_media.csv,narrative_topic,Media narrative topic
+social_media.csv,text_signal_score,Combined text and sentiment signal
+social_media.csv,time_decay_attention,Attention signal adjusted by recency
+attention_timeseries.csv,day_offset,Day relative to match day
+attention_timeseries.csv,attention_index,Daily attention index
+attention_timeseries.csv,engagement_rate,Daily engagement rate
+attention_timeseries.csv,sentiment_score,Daily sentiment score
+media_text_corpus.csv,sample_headline,Sample media headline or narrative sentence
+media_text_corpus.csv,narrative_topic,Topic label for media narrative
+media_text_corpus.csv,text_signal_score,Text signal score for modeling
+relationship_network.csv,source,Source node in sponsor-team-player graph
+relationship_network.csv,target,Target node in sponsor-team-player graph
+relationship_network.csv,edge_type,Relationship type
+relationship_network.csv,weight,Relationship strength
+modeling_dataset.csv,fan_score,Fan influence score used in ROI prediction
+modeling_dataset.csv,sponsor_roi,Modeled sponsor ROI target
 panel_dataset.csv,fan_score_panel,Fan attention score at panel grain
 panel_dataset.csv,sponsor_power_index,Sponsor activation strength
 panel_dataset.csv,commercial_momentum,Combined business opportunity score

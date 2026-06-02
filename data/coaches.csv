@@ -1,25 +1,25 @@
 team,coach_name,coach_wc_matches,coach_win_rate,coach_tenure_years,international_titles
-Argentina,Argentina Head Coach,16,0.381,7.2,1
-Brazil,Brazil Head Coach,2,0.414,2.8,0
-France,France Head Coach,14,0.457,0.9,0
-Germany,Germany Head Coach,5,0.235,2.2,0
-Spain,Spain Head Coach,27,0.467,3.9,0
-England,England Head Coach,9,0.364,3.6,1
-Portugal,Portugal Head Coach,7,0.326,3.7,0
-Netherlands,Netherlands Head Coach,14,0.396,4.3,0
-Uruguay,Uruguay Head Coach,2,0.387,3.8,0
-Croatia,Croatia Head Coach,18,0.449,4.3,0
-Belgium,Belgium Head Coach,0,0.18,4.8,0
-Italy,Italy Head Coach,8,0.334,1.1,1
-Mexico,Mexico Head Coach,0,0.271,3.0,0
-USA,USA Head Coach,8,0.391,5.6,0
-Japan,Japan Head Coach,9,0.321,5.7,2
-South Korea,South Korea Head Coach,6,0.196,2.1,0
-Morocco,Morocco Head Coach,7,0.257,6.3,0
-Nigeria,Nigeria Head Coach,10,0.301,1.8,0
-Ghana,Ghana Head Coach,12,0.485,0.6,0
-Saudi Arabia,Saudi Arabia Head Coach,1,0.22,2.6,1
-Australia,Australia Head Coach,0,0.39,3.2,1
-Canada,Canada Head Coach,10,0.474,3.0,1
-Qatar,Qatar Head Coach,10,0.421,5.3,0
-Senegal,Senegal Head Coach,0,0.362,4.1,0
+Argentina,Argentina Head Coach,16,0.331,2.5,0
+Brazil,Brazil Head Coach,2,0.365,3.8,2
+France,France Head Coach,14,0.473,4.3,1
+Germany,Germany Head Coach,5,0.399,4.5,0
+Spain,Spain Head Coach,27,0.467,1.7,3
+England,England Head Coach,9,0.553,5.9,3
+Portugal,Portugal Head Coach,7,0.288,5.3,0
+Netherlands,Netherlands Head Coach,14,0.404,1.9,0
+Uruguay,Uruguay Head Coach,2,0.398,2.3,1
+Croatia,Croatia Head Coach,18,0.457,6.3,0
+Belgium,Belgium Head Coach,0,0.18,0.4,1
+Italy,Italy Head Coach,8,0.371,5.7,1
+Mexico,Mexico Head Coach,0,0.23,3.6,0
+USA,USA Head Coach,8,0.326,6.3,0
+Japan,Japan Head Coach,9,0.247,2.6,1
+South Korea,South Korea Head Coach,6,0.313,2.9,0
+Morocco,Morocco Head Coach,7,0.271,3.8,1
+Nigeria,Nigeria Head Coach,10,0.244,4.6,0
+Ghana,Ghana Head Coach,12,0.493,5.9,1
+Saudi Arabia,Saudi Arabia Head Coach,1,0.185,2.9,0
+Australia,Australia Head Coach,0,0.274,1.9,1
+Canada,Canada Head Coach,10,0.503,2.8,0
+Qatar,Qatar Head Coach,10,0.372,0.4,0
+Senegal,Senegal Head Coach,0,0.31,3.4,1

@@ -56,6 +56,12 @@ def ensure_dataset() -> None:
         from feature_builder import main as build_features
 
         build_features()
+    df = pd.read_csv(DATA_DIR / "modeling_dataset.csv", nrows=5)
+    missing = [feature for feature in ROI_FEATURES if feature not in df.columns]
+    if missing:
+        from advanced_features import main as build_advanced_features
+
+        build_advanced_features()
 
 
 def train_test_split(df: pd.DataFrame, test_size: float = TEST_SIZE) -> tuple[pd.DataFrame, pd.DataFrame]:

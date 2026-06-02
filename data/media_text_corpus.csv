@@ -1,0 +1,721 @@
+match_id,team_a,team_b,narrative_topic,sample_headline,text_signal_score,news_sentiment_score
+1,Australia,Netherlands,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.242,0.223
+2,England,Saudi Arabia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.133,-0.002
+3,Portugal,Senegal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.183,0.638
+4,Ghana,Brazil,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.091,0.19
+5,Qatar,Canada,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.284,-0.01
+6,Mexico,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.148,0.088
+7,Germany,France,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.026,0.182
+8,Nigeria,Italy,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.277,0.203
+9,Japan,Nigeria,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.179,0.265
+10,Senegal,Ghana,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.073,0.16
+11,Belgium,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.075,-0.171
+12,Morocco,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.291,0.078
+13,Ghana,South Korea,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.002,0.306
+14,Australia,Canada,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.071,-0.001
+15,Japan,England,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.314,0.321
+16,Germany,Belgium,national_pride,National identity narrative increases emotional engagement and brand recall.,0.359,0.168
+17,Nigeria,Senegal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.231,0.108
+18,Germany,South Korea,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.198,0.447
+19,Croatia,Spain,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.22,-0.257
+20,France,Canada,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.048,-0.002
+21,Mexico,Portugal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.282,0.456
+22,Portugal,Germany,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.412,0.599
+23,Uruguay,Netherlands,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.271,0.709
+24,Ghana,Italy,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.265,0.172
+25,Canada,Senegal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.141,0.27
+26,Argentina,Netherlands,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.359,0.356
+27,Senegal,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.096,0.466
+28,Spain,Portugal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.299,0.235
+29,South Korea,Belgium,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.212,0.382
+30,Uruguay,Nigeria,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.355,0.27
+31,Ghana,Mexico,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.202,0.285
+32,Canada,Spain,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.293,-0.06
+33,Italy,Saudi Arabia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.199,0.081
+34,Italy,Canada,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.129,0.035
+35,Ghana,France,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.173,-0.125
+36,Netherlands,Nigeria,national_pride,National identity narrative increases emotional engagement and brand recall.,0.136,-0.236
+37,Qatar,Argentina,national_pride,National identity narrative increases emotional engagement and brand recall.,0.189,0.058
+38,France,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.073,0.097
+39,Portugal,Australia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.113,0.185
+40,Canada,France,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.434,0.293
+41,Japan,Morocco,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.104,0.205
+42,Qatar,Netherlands,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.217,0.098
+43,England,Uruguay,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.215,-0.06
+44,Croatia,Senegal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.144,0.37
+45,Japan,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.056,0.136
+46,Canada,Spain,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.106,0.056
+47,England,Japan,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.413,0.115
+48,France,Belgium,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.056,-0.016
+49,Senegal,Portugal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.064,0.033
+50,France,Spain,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.042,0.025
+51,Uruguay,USA,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.336,0.091
+52,Netherlands,France,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.252,0.317
+53,Germany,USA,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.158,0.258
+54,Senegal,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.454,0.531
+55,Belgium,England,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.419,0.451
+56,Argentina,Netherlands,national_pride,National identity narrative increases emotional engagement and brand recall.,0.218,0.63
+57,Spain,Ghana,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.14,0.294
+58,Croatia,France,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.359,0.29
+59,South Korea,Australia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.154,0.043
+60,Belgium,Morocco,national_pride,National identity narrative increases emotional engagement and brand recall.,0.078,0.358
+61,USA,Uruguay,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.054,0.003
+62,France,Croatia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.071,-0.193
+63,Portugal,Italy,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.169,0.526
+64,Australia,Ghana,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.13,-0.14
+65,Mexico,Senegal,national_pride,National identity narrative increases emotional engagement and brand recall.,0.111,0.265
+66,Canada,South Korea,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.002,-0.051
+67,England,Canada,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.258,0.43
+68,Saudi Arabia,Portugal,national_pride,National identity narrative increases emotional engagement and brand recall.,0.511,0.463
+69,Italy,Netherlands,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.193,0.287
+70,England,Mexico,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.273,0.459
+71,South Korea,France,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.268,0.162
+72,Nigeria,Italy,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.363,0.696
+73,Australia,Belgium,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.286,0.339
+74,Croatia,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.104,-0.056
+75,Brazil,South Korea,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.211,0.177
+76,Australia,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.456,0.123
+77,Japan,Brazil,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.286,0.1
+78,Nigeria,Senegal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.051,-0.238
+79,Ghana,Croatia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.324,0.253
+80,Spain,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.04,-0.173
+81,USA,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.033,-0.446
+82,Uruguay,Nigeria,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.019,0.077
+83,USA,Ghana,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.013,-0.021
+84,Uruguay,England,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.226,-0.047
+85,Mexico,Senegal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.076,-0.585
+86,Morocco,Argentina,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.139,-0.044
+87,Mexico,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.294,0.118
+88,France,Saudi Arabia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.182,0.008
+89,Argentina,Netherlands,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.267,0.253
+90,Japan,Nigeria,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.258,0.494
+91,South Korea,England,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.301,0.284
+92,Australia,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.409,0.406
+93,Saudi Arabia,Morocco,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.288,0.426
+94,Ghana,Canada,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.099,-0.085
+95,USA,Belgium,national_pride,National identity narrative increases emotional engagement and brand recall.,0.401,0.265
+96,Ghana,Belgium,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.265,0.399
+97,Netherlands,Mexico,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.171,0.055
+98,Australia,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.157,-0.03
+99,Croatia,Netherlands,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.21,0.287
+100,Morocco,France,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.026,-0.196
+101,France,Croatia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.121,-0.101
+102,Australia,Morocco,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.135,-0.0
+103,Australia,Argentina,national_pride,National identity narrative increases emotional engagement and brand recall.,0.43,0.268
+104,Australia,Qatar,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.307,0.213
+105,Nigeria,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.221,0.408
+106,Morocco,Netherlands,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.186,-0.061
+107,Australia,Netherlands,national_pride,National identity narrative increases emotional engagement and brand recall.,0.093,-0.074
+108,Morocco,England,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.366,0.286
+109,Germany,Spain,national_pride,National identity narrative increases emotional engagement and brand recall.,0.034,-0.032
+110,France,Japan,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.19,0.015
+111,Portugal,Netherlands,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.002,-0.286
+112,Japan,Nigeria,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.231,0.23
+113,Croatia,England,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.23,0.53
+114,Belgium,Croatia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.203,-0.087
+115,Australia,Japan,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.34,0.405
+116,Canada,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.337,0.146
+117,Netherlands,Argentina,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.044,-0.264
+118,Belgium,Nigeria,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.101,-0.055
+119,Germany,England,national_pride,National identity narrative increases emotional engagement and brand recall.,0.242,-0.07
+120,Portugal,Canada,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.03,0.084
+121,Qatar,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.31,0.261
+122,Mexico,Australia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.433,0.604
+123,Brazil,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.242,-0.183
+124,Croatia,France,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.211,0.044
+125,England,South Korea,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.063,-0.055
+126,Morocco,Uruguay,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.088,-0.144
+127,USA,Germany,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.251,0.183
+128,Nigeria,Netherlands,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.117,0.16
+129,Morocco,Senegal,national_pride,National identity narrative increases emotional engagement and brand recall.,0.157,-0.275
+130,Nigeria,Portugal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.319,0.164
+131,Mexico,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.007,-0.129
+132,France,Canada,national_pride,National identity narrative increases emotional engagement and brand recall.,0.384,0.163
+133,France,Ghana,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.303,0.465
+134,Spain,Senegal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.132,0.271
+135,Germany,Mexico,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.134,0.203
+136,Germany,France,national_pride,National identity narrative increases emotional engagement and brand recall.,0.297,0.033
+137,Argentina,Germany,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.389,0.176
+138,Canada,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.396,0.295
+139,Croatia,Saudi Arabia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.388,0.271
+140,Brazil,Argentina,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.337,0.136
+141,France,Morocco,national_pride,National identity narrative increases emotional engagement and brand recall.,0.257,0.212
+142,Netherlands,Italy,national_pride,National identity narrative increases emotional engagement and brand recall.,0.083,-0.156
+143,Netherlands,Japan,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.185,-0.016
+144,Argentina,South Korea,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.34,0.33
+145,Mexico,Canada,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.198,0.362
+146,South Korea,Italy,national_pride,National identity narrative increases emotional engagement and brand recall.,0.28,0.182
+147,France,Ghana,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.436,0.515
+148,Italy,Saudi Arabia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.224,0.282
+149,Mexico,Canada,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.149,0.104
+150,Uruguay,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.119,-0.133
+151,Qatar,South Korea,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.248,0.505
+152,Ghana,Brazil,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.172,0.345
+153,Saudi Arabia,Belgium,national_pride,National identity narrative increases emotional engagement and brand recall.,0.514,0.592
+154,Ghana,Nigeria,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.373,0.68
+155,Croatia,Senegal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.105,-0.149
+156,Portugal,Mexico,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.016,-0.148
+157,Italy,Japan,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.169,-0.527
+158,Senegal,Argentina,national_pride,National identity narrative increases emotional engagement and brand recall.,0.406,0.38
+159,Belgium,Australia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.224,0.318
+160,Portugal,Italy,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.059,0.183
+161,Qatar,Netherlands,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.019,-0.134
+162,Uruguay,Germany,national_pride,National identity narrative increases emotional engagement and brand recall.,0.264,0.139
+163,France,Uruguay,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.229,0.204
+164,Morocco,Belgium,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.279,0.348
+165,Croatia,South Korea,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.278,0.226
+166,Nigeria,Portugal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.313,0.319
+167,Ghana,USA,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.167,0.13
+168,Brazil,Morocco,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.3,0.444
+169,Mexico,Brazil,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.147,0.312
+170,Uruguay,Spain,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.385,-0.125
+171,Netherlands,USA,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.293,0.493
+172,Uruguay,Japan,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.368,0.454
+173,Croatia,Nigeria,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.285,0.272
+174,Saudi Arabia,Spain,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.197,0.227
+175,Italy,Morocco,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.316,0.558
+176,USA,South Korea,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.071,-0.232
+177,Argentina,Italy,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.156,0.458
+178,Uruguay,Belgium,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.243,0.046
+179,Ghana,Australia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.178,0.423
+180,Japan,Morocco,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.392,0.189
+181,Qatar,France,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.173,-0.138
+182,Argentina,Croatia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.196,0.041
+183,Ghana,Qatar,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.106,0.405
+184,Nigeria,Belgium,national_pride,National identity narrative increases emotional engagement and brand recall.,0.1,0.11
+185,USA,Croatia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.295,0.011
+186,USA,Brazil,national_pride,National identity narrative increases emotional engagement and brand recall.,0.461,0.009
+187,Portugal,USA,national_pride,National identity narrative increases emotional engagement and brand recall.,0.397,0.314
+188,Netherlands,Portugal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.474,0.58
+189,Argentina,Germany,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.071,-0.354
+190,Belgium,Canada,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.394,0.832
+191,Belgium,Spain,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.289,0.209
+192,Belgium,Saudi Arabia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.127,0.299
+193,Netherlands,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.043,0.055
+194,Japan,Argentina,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.083,0.159
+195,Spain,England,national_pride,National identity narrative increases emotional engagement and brand recall.,0.312,0.206
+196,Qatar,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.112,-0.092
+197,Brazil,Croatia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.121,-0.033
+198,Uruguay,Japan,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.319,0.444
+199,USA,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.065,-0.213
+200,Uruguay,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.163,0.266
+201,USA,Canada,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.086,0.071
+202,Australia,Nigeria,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.046,-0.071
+203,Brazil,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.328,0.633
+204,South Korea,England,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.046,-0.069
+205,Portugal,Netherlands,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.199,-0.111
+206,South Korea,Saudi Arabia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.253,0.115
+207,Qatar,Germany,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.013,-0.024
+208,Italy,Spain,national_pride,National identity narrative increases emotional engagement and brand recall.,0.134,0.162
+209,Portugal,Japan,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.387,0.197
+210,Saudi Arabia,Canada,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.096,0.216
+211,Croatia,Australia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.261,0.13
+212,Italy,Germany,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.128,-0.009
+213,Senegal,Belgium,national_pride,National identity narrative increases emotional engagement and brand recall.,0.364,0.314
+214,Morocco,Brazil,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.229,0.133
+215,South Korea,Mexico,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.129,0.041
+216,Australia,Spain,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.35,0.515
+217,Brazil,Croatia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.178,0.131
+218,Australia,Ghana,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.282,0.422
+219,Portugal,Belgium,national_pride,National identity narrative increases emotional engagement and brand recall.,0.136,0.454
+220,Saudi Arabia,Germany,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.436,0.469
+221,USA,Brazil,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.36,0.326
+222,Portugal,Belgium,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.083,0.16
+223,USA,Argentina,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.166,0.145
+224,Ghana,USA,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.162,0.101
+225,Portugal,Japan,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.133,-0.36
+226,Spain,USA,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.045,0.333
+227,Morocco,Spain,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.13,0.219
+228,Portugal,Ghana,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.197,0.358
+229,Spain,Canada,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.005,0.132
+230,Portugal,Brazil,national_pride,National identity narrative increases emotional engagement and brand recall.,0.28,0.32
+231,Italy,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.246,-0.171
+232,England,Ghana,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.165,-0.121
+233,France,Croatia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.036,-0.434
+234,Senegal,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.015,0.128
+235,Brazil,South Korea,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.184,-0.025
+236,Belgium,Canada,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.118,-0.057
+237,Nigeria,Qatar,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.277,0.24
+238,Senegal,Germany,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.382,0.058
+239,Uruguay,Portugal,national_pride,National identity narrative increases emotional engagement and brand recall.,0.048,-0.184
+240,Argentina,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.083,0.771
+241,South Korea,Croatia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.074,0.151
+242,Portugal,Argentina,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.158,-0.1
+243,Nigeria,Ghana,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.145,-0.001
+244,Argentina,France,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.001,0.118
+245,Italy,Germany,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.025,0.118
+246,South Korea,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.262,0.473
+247,Morocco,Senegal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.089,0.141
+248,Morocco,Saudi Arabia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.393,0.605
+249,England,Portugal,national_pride,National identity narrative increases emotional engagement and brand recall.,0.099,0.056
+250,Argentina,England,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.196,0.262
+251,Morocco,Germany,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.162,0.405
+252,Qatar,Morocco,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.323,0.447
+253,Spain,Germany,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.284,0.475
+254,Netherlands,Qatar,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.14,0.095
+255,USA,Mexico,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.234,0.159
+256,Germany,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.03,-0.435
+257,Senegal,Argentina,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.116,0.113
+258,Morocco,France,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.228,0.422
+259,Brazil,Belgium,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.227,0.375
+260,Croatia,France,national_pride,National identity narrative increases emotional engagement and brand recall.,0.41,0.139
+261,Argentina,Morocco,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.174,0.568
+262,Senegal,Qatar,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.09,0.068
+263,England,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.17,-0.012
+264,Portugal,Senegal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.107,0.048
+265,England,Canada,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.226,-0.109
+266,England,Brazil,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.197,0.309
+267,Italy,Mexico,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.157,0.229
+268,Nigeria,USA,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.344,0.306
+269,Portugal,Ghana,national_pride,National identity narrative increases emotional engagement and brand recall.,0.353,0.061
+270,Belgium,South Korea,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.345,0.146
+271,Germany,Belgium,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.007,-0.363
+272,South Korea,Australia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.23,0.25
+273,South Korea,Croatia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.168,0.184
+274,Spain,Nigeria,national_pride,National identity narrative increases emotional engagement and brand recall.,0.088,-0.104
+275,Japan,Portugal,national_pride,National identity narrative increases emotional engagement and brand recall.,0.072,0.135
+276,Belgium,Morocco,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.237,0.098
+277,Spain,England,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.363,0.583
+278,Canada,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.127,-0.095
+279,Netherlands,Qatar,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.041,0.24
+280,South Korea,Italy,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.177,-0.102
+281,Argentina,Belgium,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.095,0.026
+282,Spain,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.164,0.226
+283,Ghana,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.1,0.109
+284,USA,Italy,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.228,0.159
+285,Brazil,England,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.417,0.24
+286,Argentina,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.202,0.042
+287,Ghana,Australia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.411,0.372
+288,Saudi Arabia,Portugal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.24,0.087
+289,South Korea,Nigeria,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.292,0.137
+290,Ghana,Morocco,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.45,0.247
+291,Japan,Netherlands,national_pride,National identity narrative increases emotional engagement and brand recall.,0.134,0.214
+292,Spain,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.167,0.315
+293,England,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.333,0.236
+294,Mexico,Senegal,national_pride,National identity narrative increases emotional engagement and brand recall.,0.268,0.273
+295,Portugal,England,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.166,0.082
+296,Australia,Morocco,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.073,-0.097
+297,Croatia,Argentina,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.033,-0.183
+298,Morocco,Portugal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.292,-0.241
+299,Nigeria,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.202,0.583
+300,Mexico,Saudi Arabia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.155,-0.371
+301,Australia,Senegal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.359,0.446
+302,Ghana,Australia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.017,-0.037
+303,Netherlands,USA,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.202,0.445
+304,Canada,France,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.091,-0.369
+305,Mexico,Belgium,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.244,0.104
+306,Nigeria,South Korea,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.297,0.509
+307,Netherlands,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.234,0.331
+308,USA,Croatia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.067,0.079
+309,Brazil,Germany,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.315,-0.306
+310,Morocco,France,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.122,-0.157
+311,France,Morocco,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.41,0.493
+312,Japan,Netherlands,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.148,0.076
+313,Australia,Japan,national_pride,National identity narrative increases emotional engagement and brand recall.,0.085,0.143
+314,Spain,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.411,0.228
+315,Nigeria,Senegal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.11,-0.153
+316,Japan,Argentina,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.258,0.258
+317,Argentina,Canada,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.005,0.059
+318,Netherlands,Japan,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.19,0.23
+319,Morocco,Netherlands,national_pride,National identity narrative increases emotional engagement and brand recall.,0.056,0.021
+320,Nigeria,Mexico,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.056,-0.218
+321,Germany,Saudi Arabia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.138,0.057
+322,USA,Brazil,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.038,0.314
+323,England,Brazil,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.234,0.255
+324,Netherlands,Croatia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.161,0.167
+325,Germany,Uruguay,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.131,0.376
+326,Belgium,Qatar,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.332,0.111
+327,Canada,Germany,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.192,0.174
+328,Brazil,Germany,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.141,0.045
+329,Argentina,Senegal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.265,0.39
+330,Argentina,France,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.226,0.23
+331,Spain,Canada,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.266,0.026
+332,Australia,Ghana,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.328,-0.197
+333,Netherlands,Qatar,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.371,0.425
+334,Belgium,USA,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.289,-0.019
+335,Portugal,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.442,0.177
+336,Netherlands,Croatia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.4,0.725
+337,USA,Mexico,national_pride,National identity narrative increases emotional engagement and brand recall.,0.494,0.352
+338,Senegal,Australia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.404,0.547
+339,Australia,South Korea,national_pride,National identity narrative increases emotional engagement and brand recall.,0.176,0.031
+340,South Korea,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.331,0.417
+341,Italy,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.014,0.166
+342,Belgium,Senegal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.237,0.248
+343,Brazil,Belgium,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.195,0.645
+344,Netherlands,USA,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.02,0.093
+345,Australia,Brazil,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.265,0.165
+346,Saudi Arabia,Japan,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.004,-0.057
+347,Australia,Saudi Arabia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.286,0.373
+348,Australia,Uruguay,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.164,0.025
+349,Croatia,Nigeria,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.289,0.405
+350,Australia,Portugal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.039,-0.236
+351,Australia,France,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.319,0.292
+352,Qatar,Senegal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.136,0.006
+353,Australia,Senegal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.303,0.335
+354,Germany,Italy,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.055,0.157
+355,Argentina,Brazil,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.119,0.032
+356,Nigeria,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.292,0.067
+357,Ghana,Germany,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.237,-0.044
+358,Spain,Qatar,national_pride,National identity narrative increases emotional engagement and brand recall.,0.201,0.361
+359,Spain,Germany,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.017,-0.092
+360,Mexico,Japan,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.023,0.096
+361,Mexico,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.168,0.243
+362,Germany,Italy,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.151,0.547
+363,Australia,Canada,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.226,0.158
+364,Morocco,England,national_pride,National identity narrative increases emotional engagement and brand recall.,0.208,0.102
+365,Qatar,Mexico,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.14,0.226
+366,USA,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.014,-0.338
+367,England,Italy,national_pride,National identity narrative increases emotional engagement and brand recall.,0.107,-0.128
+368,Italy,Mexico,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.277,0.07
+369,Saudi Arabia,Ghana,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.046,-0.011
+370,Portugal,USA,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.004,-0.224
+371,Germany,Mexico,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.168,0.366
+372,Croatia,South Korea,national_pride,National identity narrative increases emotional engagement and brand recall.,0.101,0.222
+373,Uruguay,Ghana,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.264,0.194
+374,Australia,Netherlands,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.164,-0.007
+375,Croatia,Uruguay,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.221,0.179
+376,Mexico,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.38,0.283
+377,Qatar,Italy,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.345,0.096
+378,Mexico,Germany,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.038,0.267
+379,Nigeria,France,national_pride,National identity narrative increases emotional engagement and brand recall.,0.197,-0.031
+380,Ghana,Australia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.22,0.183
+381,Nigeria,Portugal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.202,0.434
+382,Croatia,Germany,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.317,0.456
+383,Portugal,Croatia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.094,0.479
+384,Senegal,Argentina,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.366,0.229
+385,Qatar,Brazil,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.255,0.168
+386,Nigeria,Qatar,national_pride,National identity narrative increases emotional engagement and brand recall.,0.08,0.052
+387,Qatar,England,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.019,-0.274
+388,Morocco,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.12,-0.163
+389,Argentina,Mexico,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.141,0.12
+390,Morocco,Belgium,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.158,0.134
+391,Spain,Morocco,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.138,0.499
+392,Netherlands,Spain,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.443,0.476
+393,Croatia,England,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.34,-0.005
+394,Morocco,Argentina,national_pride,National identity narrative increases emotional engagement and brand recall.,0.246,0.356
+395,Japan,Ghana,national_pride,National identity narrative increases emotional engagement and brand recall.,0.085,0.046
+396,Mexico,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.293,0.324
+397,Canada,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.287,0.353
+398,Italy,Senegal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.222,0.458
+399,Argentina,Spain,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.111,0.042
+400,Australia,USA,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.287,0.403
+401,Brazil,Germany,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.037,-0.289
+402,Belgium,Nigeria,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.272,0.471
+403,Australia,Mexico,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.193,0.154
+404,Qatar,Spain,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.048,0.159
+405,Saudi Arabia,Argentina,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.128,-0.329
+406,Portugal,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.188,0.067
+407,Portugal,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.635,0.485
+408,Canada,Belgium,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.137,0.058
+409,Canada,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.327,0.331
+410,Mexico,France,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.471,0.168
+411,Morocco,Germany,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.352,0.415
+412,Senegal,Japan,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.198,0.206
+413,Argentina,Brazil,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.019,-0.064
+414,Canada,Mexico,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.376,0.174
+415,Canada,Brazil,national_pride,National identity narrative increases emotional engagement and brand recall.,0.194,0.544
+416,Uruguay,France,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.268,0.279
+417,Mexico,South Korea,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.128,0.132
+418,Morocco,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.359,0.701
+419,Canada,Ghana,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.151,0.438
+420,France,Nigeria,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.394,0.356
+421,South Korea,Netherlands,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.187,0.236
+422,USA,Mexico,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.098,0.335
+423,Argentina,Germany,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.359,0.343
+424,Spain,Qatar,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.047,-0.364
+425,France,Qatar,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.378,0.255
+426,Mexico,Brazil,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.276,0.121
+427,South Korea,Australia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.191,0.04
+428,Australia,Netherlands,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.087,0.113
+429,USA,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.19,-0.213
+430,Belgium,Netherlands,national_pride,National identity narrative increases emotional engagement and brand recall.,0.023,-0.273
+431,Germany,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.287,0.459
+432,Nigeria,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.213,0.271
+433,Australia,Senegal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.224,-0.419
+434,France,Qatar,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.193,0.022
+435,Argentina,Qatar,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.091,0.371
+436,Portugal,Ghana,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.103,0.093
+437,Argentina,Saudi Arabia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.345,0.459
+438,South Korea,Germany,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.374,0.412
+439,Brazil,Spain,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.01,-0.166
+440,Brazil,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.354,0.126
+441,Japan,Argentina,national_pride,National identity narrative increases emotional engagement and brand recall.,0.258,0.052
+442,Argentina,Croatia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.045,-0.173
+443,Germany,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.053,-0.189
+444,Japan,France,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.051,-0.033
+445,Portugal,Australia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.166,0.006
+446,Argentina,Croatia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.125,0.228
+447,Brazil,Uruguay,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.412,0.411
+448,Morocco,South Korea,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.146,0.283
+449,Uruguay,Argentina,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.188,0.34
+450,Croatia,Italy,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.166,0.096
+451,Nigeria,Mexico,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.21,0.305
+452,Brazil,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.16,0.124
+453,USA,Croatia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.279,0.054
+454,England,Spain,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.357,0.615
+455,Mexico,Senegal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.047,-0.399
+456,Brazil,Canada,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.069,-0.29
+457,Senegal,Netherlands,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.046,0.252
+458,Australia,Morocco,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.213,0.096
+459,Nigeria,Brazil,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.077,-0.185
+460,England,Netherlands,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.234,-0.093
+461,Morocco,Argentina,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.223,-0.062
+462,Morocco,Senegal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.267,0.374
+463,Uruguay,England,national_pride,National identity narrative increases emotional engagement and brand recall.,0.402,0.451
+464,Canada,Nigeria,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.36,0.553
+465,USA,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.102,-0.221
+466,Australia,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.033,-0.168
+467,Mexico,Argentina,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.146,-0.185
+468,England,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.291,0.469
+469,Brazil,USA,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.459,0.26
+470,Morocco,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.379,0.179
+471,Portugal,Senegal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.266,0.215
+472,Australia,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.344,0.146
+473,Portugal,Croatia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.091,-0.109
+474,Spain,Qatar,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.128,0.283
+475,Argentina,South Korea,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.15,0.115
+476,Brazil,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.086,-0.128
+477,Uruguay,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.221,0.298
+478,Belgium,Australia,national_pride,National identity narrative increases emotional engagement and brand recall.,-0.0,0.058
+479,Saudi Arabia,Morocco,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.337,0.215
+480,USA,England,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.45,0.13
+481,Uruguay,USA,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.406,0.374
+482,Mexico,Germany,national_pride,National identity narrative increases emotional engagement and brand recall.,0.342,0.213
+483,Uruguay,South Korea,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.16,-0.052
+484,Italy,Croatia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.134,0.237
+485,Croatia,Japan,national_pride,National identity narrative increases emotional engagement and brand recall.,0.191,0.245
+486,South Korea,Canada,national_pride,National identity narrative increases emotional engagement and brand recall.,0.478,0.283
+487,Australia,Netherlands,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.219,0.409
+488,Italy,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.071,0.012
+489,USA,Japan,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.362,0.32
+490,Australia,Italy,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.173,-0.254
+491,Canada,Argentina,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.106,0.131
+492,Germany,Senegal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.11,0.094
+493,Japan,South Korea,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.29,0.507
+494,Brazil,Saudi Arabia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.191,0.122
+495,Argentina,Qatar,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.383,0.306
+496,Japan,Croatia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.076,-0.263
+497,Italy,Mexico,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.255,0.076
+498,Canada,Morocco,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.133,-0.043
+499,Belgium,Ghana,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.751,0.754
+500,South Korea,Mexico,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.204,-0.0
+501,Ghana,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.25,0.178
+502,Netherlands,Japan,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.274,0.19
+503,Mexico,USA,national_pride,National identity narrative increases emotional engagement and brand recall.,-0.017,-0.221
+504,Germany,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.07,0.034
+505,Saudi Arabia,USA,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.183,0.257
+506,Ghana,Australia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.165,0.181
+507,Mexico,Senegal,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.161,-0.392
+508,Spain,Qatar,national_pride,National identity narrative increases emotional engagement and brand recall.,0.123,0.024
+509,Croatia,Uruguay,national_pride,National identity narrative increases emotional engagement and brand recall.,0.038,0.405
+510,Argentina,Spain,national_pride,National identity narrative increases emotional engagement and brand recall.,0.241,0.301
+511,Italy,USA,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.352,0.452
+512,Netherlands,Mexico,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.133,-0.077
+513,Qatar,Belgium,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.277,0.467
+514,Portugal,Brazil,national_pride,National identity narrative increases emotional engagement and brand recall.,0.185,0.149
+515,Canada,Mexico,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.288,0.542
+516,USA,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.184,0.161
+517,Japan,Germany,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.041,-0.331
+518,Saudi Arabia,Argentina,national_pride,National identity narrative increases emotional engagement and brand recall.,0.172,0.364
+519,Argentina,Belgium,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.19,0.054
+520,Qatar,France,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.194,0.07
+521,Nigeria,France,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.084,-0.189
+522,Morocco,France,national_pride,National identity narrative increases emotional engagement and brand recall.,0.589,0.549
+523,Nigeria,France,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.123,0.035
+524,Italy,England,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.325,0.538
+525,Spain,Nigeria,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.124,0.057
+526,Japan,South Korea,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.03,-0.063
+527,Qatar,Croatia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.358,0.477
+528,Brazil,Argentina,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.083,0.142
+529,Mexico,Senegal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.141,0.145
+530,Portugal,Croatia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.004,-0.148
+531,Qatar,Saudi Arabia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.046,0.05
+532,Croatia,USA,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.07,0.263
+533,Argentina,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.034,-0.152
+534,Uruguay,Belgium,national_pride,National identity narrative increases emotional engagement and brand recall.,0.23,0.031
+535,Belgium,South Korea,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.182,0.059
+536,Portugal,Croatia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.418,0.176
+537,Saudi Arabia,Spain,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.407,0.515
+538,France,Italy,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.181,0.088
+539,USA,Mexico,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.339,-0.006
+540,Spain,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.414,0.819
+541,England,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.191,0.056
+542,Belgium,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.185,0.114
+543,Saudi Arabia,Brazil,national_pride,National identity narrative increases emotional engagement and brand recall.,0.35,0.074
+544,Senegal,Argentina,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.18,0.094
+545,Netherlands,Nigeria,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.103,0.179
+546,Canada,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.313,0.381
+547,Uruguay,Canada,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.132,0.257
+548,Qatar,Nigeria,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.306,0.419
+549,Nigeria,Spain,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.334,0.411
+550,Brazil,England,national_pride,National identity narrative increases emotional engagement and brand recall.,0.174,0.21
+551,Portugal,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.259,0.25
+552,Morocco,Canada,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.141,0.426
+553,England,Japan,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.093,-0.107
+554,Canada,Croatia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.369,0.76
+555,Uruguay,Netherlands,national_pride,National identity narrative increases emotional engagement and brand recall.,0.493,0.037
+556,Mexico,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.161,0.076
+557,Netherlands,Morocco,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.01,-0.131
+558,Qatar,Australia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.083,-0.124
+559,USA,Saudi Arabia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.447,0.394
+560,Croatia,Senegal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.35,0.705
+561,England,Spain,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.041,0.024
+562,Uruguay,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.292,0.243
+563,Ghana,USA,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.279,0.213
+564,Brazil,Argentina,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.325,0.4
+565,Ghana,Argentina,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.377,0.692
+566,Saudi Arabia,USA,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.33,0.525
+567,Morocco,England,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.165,0.103
+568,Netherlands,Nigeria,national_pride,National identity narrative increases emotional engagement and brand recall.,0.235,0.287
+569,France,Japan,national_pride,National identity narrative increases emotional engagement and brand recall.,0.257,0.311
+570,Croatia,USA,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.272,0.155
+571,South Korea,England,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.08,-0.103
+572,Mexico,Argentina,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.046,-0.032
+573,Australia,Germany,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.28,0.436
+574,Nigeria,Uruguay,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.414,0.46
+575,Saudi Arabia,Germany,national_pride,National identity narrative increases emotional engagement and brand recall.,-0.023,0.11
+576,Germany,Argentina,national_pride,National identity narrative increases emotional engagement and brand recall.,0.01,0.223
+577,Ghana,South Korea,national_pride,National identity narrative increases emotional engagement and brand recall.,0.385,0.447
+578,Mexico,Brazil,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.205,-0.249
+579,Saudi Arabia,Belgium,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.003,0.053
+580,Canada,Morocco,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.374,0.644
+581,South Korea,France,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.191,0.232
+582,Qatar,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.032,-0.111
+583,Uruguay,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.247,0.188
+584,Senegal,Croatia,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.117,0.405
+585,Senegal,Japan,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.112,-0.451
+586,Qatar,South Korea,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.181,0.202
+587,Spain,Mexico,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.112,0.071
+588,Australia,Qatar,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.063,-0.234
+589,Morocco,Spain,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.257,0.18
+590,Senegal,USA,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.111,0.127
+591,Qatar,Canada,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.141,0.154
+592,South Korea,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.177,0.076
+593,Portugal,Argentina,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.117,-0.085
+594,Argentina,Belgium,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.161,-0.189
+595,Italy,Netherlands,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.011,-0.006
+596,Canada,Netherlands,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.108,0.366
+597,Italy,Morocco,national_pride,National identity narrative increases emotional engagement and brand recall.,0.152,0.216
+598,Portugal,Saudi Arabia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.206,0.143
+599,Uruguay,Morocco,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.08,-0.09
+600,Argentina,Australia,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.034,0.07
+601,Mexico,Ghana,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.268,0.337
+602,Italy,Qatar,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.182,0.281
+603,South Korea,Nigeria,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.009,0.045
+604,Italy,Australia,national_pride,National identity narrative increases emotional engagement and brand recall.,0.057,-0.467
+605,South Korea,Australia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.047,-0.002
+606,Belgium,Saudi Arabia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.258,0.044
+607,Argentina,Japan,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.105,-0.058
+608,Japan,Argentina,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.185,0.061
+609,Ghana,Mexico,national_pride,National identity narrative increases emotional engagement and brand recall.,0.307,0.356
+610,Australia,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.081,0.151
+611,Morocco,South Korea,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.156,0.398
+612,Brazil,France,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.053,-0.202
+613,Uruguay,South Korea,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.219,0.087
+614,South Korea,Spain,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.192,-0.305
+615,South Korea,Netherlands,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.143,0.058
+616,Spain,South Korea,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.01,-0.091
+617,USA,Italy,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.318,0.468
+618,Morocco,Spain,national_pride,National identity narrative increases emotional engagement and brand recall.,0.193,0.258
+619,Croatia,Morocco,national_pride,National identity narrative increases emotional engagement and brand recall.,0.358,0.404
+620,Italy,Belgium,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.288,0.057
+621,Portugal,Ghana,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.148,-0.085
+622,South Korea,Ghana,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.219,-0.092
+623,Senegal,Germany,national_pride,National identity narrative increases emotional engagement and brand recall.,0.152,0.224
+624,Japan,Mexico,national_pride,National identity narrative increases emotional engagement and brand recall.,0.637,0.594
+625,England,Netherlands,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.125,0.259
+626,Australia,England,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.09,0.07
+627,Nigeria,Portugal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.293,0.115
+628,USA,Argentina,national_pride,National identity narrative increases emotional engagement and brand recall.,0.288,0.152
+629,Morocco,Senegal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.388,0.646
+630,Senegal,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.352,0.456
+631,USA,Morocco,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,-0.018,0.222
+632,Australia,Argentina,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.384,0.186
+633,Italy,Croatia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.278,0.232
+634,Uruguay,Germany,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.38,0.279
+635,Ghana,Brazil,national_pride,National identity narrative increases emotional engagement and brand recall.,-0.07,0.061
+636,Australia,Spain,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.151,-0.043
+637,Nigeria,Japan,national_pride,National identity narrative increases emotional engagement and brand recall.,0.203,0.408
+638,Morocco,Netherlands,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.275,0.165
+639,Ghana,Italy,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.328,0.388
+640,Croatia,Morocco,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.357,0.555
+641,Argentina,South Korea,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.097,0.285
+642,Mexico,Italy,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.229,0.246
+643,Mexico,Australia,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.439,0.928
+644,Saudi Arabia,Spain,national_pride,National identity narrative increases emotional engagement and brand recall.,0.287,0.21
+645,Senegal,Italy,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.283,-0.102
+646,Portugal,England,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.207,0.093
+647,Morocco,Spain,national_pride,National identity narrative increases emotional engagement and brand recall.,0.2,0.532
+648,Portugal,USA,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.108,-0.151
+649,France,Portugal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.46,-0.021
+650,Spain,Qatar,national_pride,National identity narrative increases emotional engagement and brand recall.,0.532,0.426
+651,Germany,South Korea,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,-0.171,0.095
+652,Saudi Arabia,Netherlands,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.205,0.134
+653,Croatia,Mexico,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.353,0.418
+654,Italy,Portugal,national_pride,National identity narrative increases emotional engagement and brand recall.,0.113,-0.012
+655,Brazil,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.073,-0.192
+656,Saudi Arabia,Italy,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.094,-0.173
+657,France,South Korea,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.306,0.3
+658,Portugal,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.098,0.222
+659,Senegal,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.28,-0.006
+660,Senegal,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.078,-0.118
+661,Japan,France,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.049,0.095
+662,South Korea,Italy,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.378,0.428
+663,Argentina,Uruguay,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,-0.081,-0.041
+664,Argentina,Saudi Arabia,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.078,0.001
+665,Ghana,Canada,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.022,-0.126
+666,Uruguay,England,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.374,0.072
+667,Japan,Spain,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.179,0.241
+668,Croatia,Senegal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.163,0.668
+669,Brazil,Nigeria,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.129,0.212
+670,Belgium,Qatar,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.244,0.147
+671,France,Morocco,national_pride,National identity narrative increases emotional engagement and brand recall.,0.342,0.367
+672,Belgium,USA,national_pride,National identity narrative increases emotional engagement and brand recall.,0.541,0.327
+673,Germany,England,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.291,0.021
+674,Mexico,Italy,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.445,0.712
+675,Mexico,Argentina,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.122,0.154
+676,Argentina,Brazil,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.404,0.217
+677,Germany,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.218,0.292
+678,Brazil,France,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.114,0.243
+679,Italy,Senegal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.264,0.526
+680,Spain,Senegal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.02,0.018
+681,Morocco,Netherlands,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.24,0.348
+682,Saudi Arabia,Mexico,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.222,0.199
+683,England,Germany,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.319,0.396
+684,Nigeria,Portugal,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.125,0.108
+685,Croatia,England,star_player,Core player storyline drives sponsor visibility and fan conversation.,-0.004,0.076
+686,Qatar,Croatia,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.039,0.336
+687,Senegal,South Korea,national_pride,National identity narrative increases emotional engagement and brand recall.,0.251,0.246
+688,Qatar,France,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.108,-0.037
+689,Morocco,USA,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.25,0.483
+690,Japan,Belgium,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.193,0.336
+691,Croatia,Australia,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.244,0.142
+692,Brazil,Mexico,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.334,0.048
+693,England,Morocco,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.132,0.247
+694,Germany,Qatar,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.237,0.319
+695,England,South Korea,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.183,-0.223
+696,Croatia,South Korea,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.104,0.25
+697,Ghana,Senegal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.222,0.317
+698,England,Italy,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.02,-0.405
+699,Canada,Belgium,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.03,0.207
+700,Morocco,Argentina,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.23,0.327
+701,Uruguay,Portugal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.258,0.299
+702,Saudi Arabia,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.348,0.353
+703,Belgium,Brazil,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.039,0.081
+704,Uruguay,Senegal,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.072,-0.09
+705,Canada,USA,brand_campaign,Sponsor activation hashtag connects match attention to conversion intent.,0.178,-0.272
+706,Canada,Germany,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.536,0.422
+707,Australia,Uruguay,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.405,0.329
+708,Nigeria,Japan,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.194,0.44
+709,Brazil,Japan,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.265,-0.014
+710,USA,Nigeria,national_pride,National identity narrative increases emotional engagement and brand recall.,0.196,0.353
+711,South Korea,Portugal,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.09,-0.201
+712,Qatar,Canada,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.042,-0.049
+713,Qatar,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,-0.016,0.19
+714,Spain,Nigeria,star_player,Core player storyline drives sponsor visibility and fan conversation.,0.244,0.319
+715,Belgium,Japan,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.397,0.563
+716,Germany,Argentina,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.19,0.102
+717,Argentina,Brazil,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.181,-0.048
+718,Croatia,France,tactical_story,Coach strategy discussion shapes media framing and analyst attention.,0.129,-0.06
+719,Italy,Portugal,rivalry,Historic rivalry raises pre-match search interest and social sharing.,0.179,-0.005
+720,Saudi Arabia,USA,underdog_run,Unexpected performance creates earned media momentum and sponsor lift.,0.426,0.693

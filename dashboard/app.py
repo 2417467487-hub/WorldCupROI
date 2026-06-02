@@ -13,7 +13,7 @@ DATA_DIR = ROOT / "data"
 REPORT_DIR = ROOT / "reports"
 
 
-st.set_page_config(page_title="WorldCupROI", page_icon="WC", layout="wide")
+st.set_page_config(page_title="AI Sports Sponsorship Intelligence", page_icon="AI", layout="wide")
 
 WORLD_CUP_COLORS = {
     "green": "#0f8b6f",
@@ -69,7 +69,7 @@ def polish(fig: go.Figure, height: int = 430) -> go.Figure:
 
 
 @st.cache_data
-def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame | None]:
+def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame | None, pd.DataFrame | None, pd.DataFrame | None]:
     roi_path = DATA_DIR / "roi_predictions.csv"
     panel_path = DATA_DIR / "panel_dataset.csv"
     if roi_path.exists():
@@ -83,10 +83,14 @@ def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame | None]:
         panel = roi.copy()
     ab_path = REPORT_DIR / "ab_simulation_results.csv"
     ab = pd.read_csv(ab_path) if ab_path.exists() else None
-    return roi, panel, ab
+    uncertainty_path = DATA_DIR / "roi_uncertainty.csv"
+    scenarios_path = DATA_DIR / "scenario_recommendations.csv"
+    uncertainty = pd.read_csv(uncertainty_path) if uncertainty_path.exists() else None
+    scenarios = pd.read_csv(scenarios_path) if scenarios_path.exists() else None
+    return roi, panel, ab, uncertainty, scenarios
 
 
-roi_df, panel_df, ab = load_data()
+roi_df, panel_df, ab, uncertainty, scenarios = load_data()
 
 st.markdown(
     """
@@ -120,8 +124,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("WorldCupROI Intelligence Platform")
-st.caption("FIFA World Cup sponsorship ROI analytics: match probability, FanScore, sponsor ROI, weather impact, and A/B simulation.")
+st.title("AI Sports Sponsorship Intelligence Platform")
+st.caption("Discover -> Explain -> Predict -> Simulate -> Recommend: sponsorship ROI, fan attention, uncertainty, and business decision support.")
 
 teams = sorted(panel_df["team"].unique()) if "team" in panel_df else sorted(roi_df["team_a"].unique())
 sponsors = sorted(panel_df["sponsor"].unique()) if "sponsor" in panel_df else sorted(roi_df["a_sponsor"].unique())
@@ -155,11 +159,11 @@ k3.metric("Commercial Momentum", f"{view['commercial_momentum'].mean():.2f}")
 k4.metric("ROI / $M Spend", f"{view['roi_per_million_spend'].mean():.2f}")
 
 tab_match, tab_roi, tab_fan, tab_weather, tab_ab = st.tabs(
-    ["Match Probability", "Sponsor ROI", "FanScore Radar", "Weather & Venue", "A/B Simulation"]
+    ["Discover", "Explain", "Predict", "Simulate", "Recommend"]
 )
 
 with tab_match:
-    st.subheader("Match Win / Draw / Loss Probability")
+    st.subheader("Discover: Match Context and Win / Draw / Loss Probability")
     match_view = roi_df.copy()
     if selected_stage:
         match_view = match_view[match_view["stage"].isin(selected_stage)]
@@ -190,7 +194,7 @@ with tab_match:
     st.plotly_chart(polish(fig), use_container_width=True)
 
 with tab_roi:
-    st.subheader("Sponsor ROI Visualization")
+    st.subheader("Explain: Sponsor ROI, Fan Attention, and Commercial Momentum")
     c1, c2 = st.columns([1.25, 0.75])
     roi_scatter = px.scatter(
             view,
@@ -225,7 +229,7 @@ with tab_roi:
     c2.plotly_chart(polish(ring), use_container_width=True)
 
 with tab_fan:
-    st.subheader("FanScore / Player & Fan Influence")
+    st.subheader("Predict: FanScore, Player Influence, and ROI Confidence")
     radar_values = [
         view["player_followers_m"].mean(),
         view["event_attention_m"].mean(),
@@ -256,9 +260,45 @@ with tab_fan:
         showlegend=False,
     )
     st.plotly_chart(polish(radar), use_container_width=True)
+    if uncertainty is not None:
+        interval = uncertainty.head(60)
+        interval_fig = go.Figure()
+        interval_fig.add_trace(
+            go.Scatter(
+                x=interval["match_id"],
+                y=interval["roi_ci_high"],
+                mode="lines",
+                line=dict(width=0),
+                showlegend=False,
+                hoverinfo="skip",
+            )
+        )
+        interval_fig.add_trace(
+            go.Scatter(
+                x=interval["match_id"],
+                y=interval["roi_ci_low"],
+                mode="lines",
+                fill="tonexty",
+                fillcolor="rgba(36,87,197,.20)",
+                line=dict(width=0),
+                name="ROI interval",
+            )
+        )
+        interval_fig.add_trace(
+            go.Scatter(
+                x=interval["match_id"],
+                y=interval["roi_mean"],
+                mode="lines+markers",
+                line=dict(color="#2457c5", width=3),
+                marker=dict(color="#f28c28", size=7),
+                name="ROI mean",
+            )
+        )
+        interval_fig.update_layout(title="Conformal-Style ROI Prediction Interval")
+        st.plotly_chart(polish(interval_fig), use_container_width=True)
 
 with tab_weather:
-    st.subheader("Weather & Home/Away Impact")
+    st.subheader("Simulate: Weather, Venue, and Stage Impact")
     heat = (
         view.groupby(["weather", "stage"], as_index=False)
         .agg(avg_roi=("predicted_roi", "mean"), avg_momentum=("commercial_momentum", "mean"), matches=("match_id", "count"))
@@ -289,9 +329,28 @@ with tab_weather:
     st.plotly_chart(polish(weather_scatter), use_container_width=True)
 
 with tab_ab:
-    st.subheader("Counterfactual / A/B Simulation")
-    if ab is None:
-        st.info("Run `python src/ab_simulation.py` to generate A/B results.")
+    st.subheader("Recommend: Scenario Ranking and Sponsor Strategy")
+    if scenarios is not None:
+        scenario_summary = scenarios.groupby("scenario", as_index=False).agg(
+            avg_roi_lift=("roi_lift", "mean"),
+            avg_scenario_roi=("scenario_roi", "mean"),
+        )
+        scenario_fig = px.bar(
+            scenario_summary,
+            x="scenario",
+            y="avg_roi_lift",
+            color="avg_roi_lift",
+            color_continuous_scale=["#c2415d", "#f28c28", "#0f8b6f"],
+            hover_data=["avg_scenario_roi"],
+            title="Scenario Ranking: ROI Lift by Strategy",
+        )
+        st.plotly_chart(polish(scenario_fig), use_container_width=True)
+        st.dataframe(
+            scenarios.sort_values(["scenario_rank", "roi_lift"], ascending=[True, False]).head(80),
+            use_container_width=True,
+        )
+    elif ab is None:
+        st.info("Run `python src/scenario_engine.py` or `python src/ab_simulation.py` to generate scenario results.")
     else:
         summary = ab.groupby("scenario", as_index=False).agg(
             avg_predicted_roi=("predicted_roi", "mean"),

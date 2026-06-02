@@ -1,242 +1,273 @@
 # WorldCupROI
 
-**FIFA World Cup sponsorship ROI intelligence: match prediction, fan attention, media exposure, and business conversion modeling.**  
-**世界杯赞助 ROI 智能分析系统：融合比赛预测、球迷影响力、媒体曝光与商业转化建模。**
+## AI Sports Sponsorship Intelligence Platform
 
-WorldCupROI is an end-to-end machine learning and business analytics project built around FIFA World Cup historical matches from 1930-2022, a reproducible 2026 schedule layer, team sponsors, player fan base, coach experience, weather, venue context, and media coverage.
+**An AI-powered sports business intelligence platform for sponsorship ROI prediction, fan attention modeling, commercial decision support, and research-grade sports analytics.**
 
-WorldCupROI 的核心并不是单纯预测“哪支球队会赢”，而是研究世界杯商业场景中，竞技表现、球员影响力、球迷关注、天气场地、媒体传播和赞助投入如何共同转化为赞助商 ROI。
+WorldCupROI has been upgraded from a World Cup match analytics project into an **AI Sports Sponsorship Intelligence Platform**. The platform uses FIFA World Cup data as a focused research environment, but the core idea is broader: connect sports performance, fan behavior, media exposure, brand activation, and sponsor investment into one decision-support system.
 
-## What Makes It Different
+项目定位：WorldCupROI 不再只是世界杯比赛预测项目，而是一个面向体育商业分析、赞助 ROI 预测、赞助策略模拟和商业决策支持的 AI 平台。
 
-- **Multi-task ML system**: match outcome classification and sponsor ROI regression are connected in one pipeline.
-- **Business-first target**: match probability is treated as an upstream signal for commercial conversion, not the final product.
-- **Interactive decision lab**: sponsor investment, player availability, fan exposure, media coverage, weather, and match stage can be changed in the dashboard.
-- **Explainable modeling**: feature importance files are generated for match outcome and ROI models, with SHAP-ready model outputs.
-- **User research angle**: dashboard modules are designed around sponsor analyst workflows: scan, compare, simulate, and justify.
-- **Reproducible data layer**: public-data-compatible schemas are included, while mock CSVs keep the project runnable without paid APIs.
+## Platform Vision
+
+Sports sponsorship decisions are often made with fragmented evidence: match performance, star-player influence, advertising exposure, fan engagement, media narratives, and brand popularity are evaluated separately. WorldCupROI combines these signals into a single intelligence workflow:
+
+1. **Sports Analytics**: team strength, player value, coach experience, injuries, weather, venue, and match stage.
+2. **Sponsorship Intelligence**: sponsor spend, ad exposure, brand heat, activation quality, media reposts, and brand-team fit.
+3. **Business Intelligence**: ROI prediction, KPI tracking, counterfactual simulation, dashboard reporting, and strategy comparison.
+
+```text
+Sports Performance Signals
+        +
+Fan / Media / Text / Time-Series Signals
+        +
+Sponsor Investment and Brand Signals
+        |
+        v
+AI Sports Sponsorship Intelligence Platform
+        |
+        v
+ROI Prediction + A/B Simulation + Business Decision Dashboard
+```
+
+## Research Questions
+
+WorldCupROI is designed around research questions instead of only model accuracy:
+
+- How do match outcome probability, team strength, and player availability influence sponsor ROI?
+- Which commercial signals matter more for ROI: sponsor spend, brand heat, ad exposure, or fan attention?
+- How does fan sentiment convert into measurable sponsorship value during high-attention tournament stages?
+- Can social media growth and media reposts explain ROI lift beyond team performance?
+- What happens to expected ROI if a core player is unavailable, a sponsor increases investment, or media exposure changes?
+- How can sports organizations use multi-source data to support sponsorship pricing, activation planning, and post-event evaluation?
+
+## Contributions
+
+- **Business-first ML framing**: match prediction is used as an upstream signal for commercial ROI, not the final objective.
+- **Unified sports sponsorship framework**: combines sports analytics, sponsorship intelligence, and business intelligence.
+- **Multi-source data design**: tabular, text, time-series, and relationship-network data are represented in the project structure.
+- **Decision-oriented dashboard**: sponsor investment, player availability, FanScore, weather, and ROI outputs are interactive.
+- **Counterfactual experimentation**: A/B simulation estimates ROI changes under sponsor and player scenarios.
+- **Reproducibility with API readiness**: seeded mock datasets keep the project runnable while preserving paths for real API integration.
 
 ## Project Structure
 
 ```text
 WorldCupROI/
-├── data/
-│   ├── historical_matches.csv
-│   ├── schedule_2026.csv
-│   ├── players.csv
-│   ├── coaches.csv
-│   ├── sponsors.csv
-│   ├── weather.csv
-│   ├── social_media.csv
-│   ├── modeling_dataset.csv
-│   └── panel_dataset.csv
-├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_modeling.ipynb
-│   ├── 04_sponsor_roi_simulation.ipynb
-│   └── 05_ab_experiment.ipynb
-├── src/
-│   ├── preprocess.py
-│   ├── feature_builder.py
-│   ├── ml_config.py
-│   ├── train_match_model.py
-│   ├── train_roi_model.py
-│   ├── ab_simulation.py
-│   ├── fan_score.py
-│   ├── sponsor_roi.py
-│   ├── data_quality.py
-│   ├── build_plotly_dashboard.py
-│   └── report_generator.py
-├── dashboard/
-│   ├── app.py
-│   └── panel_dashboard.html
-├── docs/
-│   ├── ML_FRAMEWORK.md
-│   ├── DATASET_CARD.md
-│   └── data_dictionary.csv
-├── reports/
-├── models/
-├── README.md
-├── requirements.txt
-└── sample_report.pdf
+|-- data/
+|   |-- historical_matches.csv
+|   |-- schedule_2026.csv
+|   |-- players.csv
+|   |-- coaches.csv
+|   |-- sponsors.csv
+|   |-- weather.csv
+|   |-- social_media.csv
+|   |-- attention_timeseries.csv
+|   |-- media_text_corpus.csv
+|   |-- relationship_network.csv
+|   |-- modeling_dataset.csv
+|   `-- panel_dataset.csv
+|-- notebooks/
+|   |-- 01_EDA.ipynb
+|   |-- 02_Model_Training.ipynb
+|   |-- 03_AB_Experiment.ipynb
+|   |-- 04_Sponsor_ROI_Simulation.ipynb
+|   `-- 05_Feature_Engineering.ipynb
+|-- src/
+|   |-- preprocess.py
+|   |-- feature_builder.py
+|   |-- ml_config.py
+|   |-- train_match_model.py
+|   |-- train_roi_model.py
+|   |-- ab_simulation.py
+|   |-- fan_score.py
+|   |-- sponsor_roi.py
+|   |-- data_quality.py
+|   |-- build_plotly_dashboard.py
+|   `-- report_generator.py
+|-- dashboard/
+|   |-- app.py
+|   `-- panel_dashboard.html
+|-- docs/
+|   |-- ML_FRAMEWORK.md
+|   |-- DATASET_CARD.md
+|   |-- MULTIMODAL_DATA_SYSTEM.md
+|   |-- RESEARCH_AGENDA.md
+|   |-- FEATURE_DICTIONARY.md
+|   |-- MODEL_ZOO.md
+|   `-- data_dictionary.csv
+|-- config/
+|   `-- pipeline.yaml
+|-- sql/
+|   `-- schema.sql
+|-- java/
+|   `-- SponsorRiskRules.java
+|-- .github/workflows/
+|   `-- ci.yml
+|-- Dockerfile
+|-- reports/
+|-- models/
+|-- README.md
+|-- requirements.txt
+`-- sample_report.pdf
 ```
+
+## Unified Intelligence Framework
+
+| Layer | Business Role | Example Signals | Output |
+|---|---|---|---|
+| Sports Analytics | Understand competitive context | Elo, player value, coach experience, injury risk, weather, stage | Match probability and performance context |
+| Fan Intelligence | Measure attention and influence | followers, fan growth, engagement rate, sentiment, reposts | FanScore and attention lift |
+| Sponsorship Intelligence | Measure brand activation strength | sponsor spend, ad exposure, brand heat, paid media share, brand fit | Sponsor Power Index |
+| Business Intelligence | Support decisions | ROI prediction, scenario comparison, KPI movement | dashboard, report, sponsor recommendations |
+
+## Multi-Source and Multi-Modal Data System
+
+The platform is structured to support four data modalities:
+
+| Data Type | Files | Analytical Value |
+|---|---|---|
+| Tabular sports data | `historical_matches.csv`, `players.csv`, `coaches.csv`, `weather.csv` | team strength, player quality, coach context, match conditions |
+| Commercial data | `sponsors.csv`, `panel_dataset.csv`, `sponsor_roi_outputs.csv` | investment, brand heat, ad exposure, ROI, sponsor ranking |
+| Text and sentiment data | `social_media.csv`, `media_text_corpus.csv` | news narratives, sentiment, brand conversation, topic signal |
+| Time-series data | `attention_timeseries.csv` | attention change before and after matches |
+| Relationship-network data | `relationship_network.csv` | sponsor-team-player influence graph |
 
 ## Machine Learning Framework
 
-The project uses a modular Python ML structure instead of placing all logic in notebooks.
+The Python framework is modular and designed for research iteration:
 
-| Layer | File | Responsibility |
+| Module | File | Purpose |
 |---|---|---|
-| Data cleaning | `src/preprocess.py` | Load raw CSVs, standardize keys, prepare clean tables |
-| Feature engineering | `src/feature_builder.py` | Build match, team, player, coach, weather, fan, and sponsor features |
-| Shared ML config | `src/ml_config.py` | Central feature lists, random seed, train/test settings, model registry |
-| Match model | `src/train_match_model.py` | Predict win/draw/loss probabilities |
-| ROI model | `src/train_roi_model.py` | Predict sponsor ROI from business and attention features |
-| Fan influence | `src/fan_score.py` | Calculate FanScore from fans, event attention, and media sharing |
-| Sponsor logic | `src/sponsor_roi.py` | Calculate Sponsor Power Index and ROI signals |
-| A/B simulation | `src/ab_simulation.py` | Run counterfactual sponsor and player availability experiments |
-| Data QA | `src/data_quality.py` | Profile dataset rows, columns, missing rate, and duplicate keys |
-| Reporting | `src/report_generator.py` | Produce Markdown/PDF-style project reports |
+| Data generation and ingestion | `src/preprocess.py` | Build reproducible sports, sponsor, social, text, and network datasets |
+| Feature engineering | `src/feature_builder.py` | Join data and build FanScore, Sponsor Power Index, injury, sentiment, and ROI features |
+| Shared ML configuration | `src/ml_config.py` | Centralize feature lists, model registry, random seed, and task definitions |
+| Match prediction | `src/train_match_model.py` | Predict win/draw/loss probability |
+| Sponsor ROI prediction | `src/train_roi_model.py` | Predict sponsor ROI using commercial and attention features |
+| A/B simulation | `src/ab_simulation.py` | Simulate sponsor spend and player availability changes |
+| Data quality | `src/data_quality.py` | Generate dataset coverage and quality summaries |
+| Report generation | `src/report_generator.py` | Produce project reports |
 
-详细说明见 [docs/ML_FRAMEWORK.md](docs/ML_FRAMEWORK.md)。
+More detail: [docs/ML_FRAMEWORK.md](docs/ML_FRAMEWORK.md)
 
-## Modeling Strategy
+Model roadmap: [docs/MODEL_ZOO.md](docs/MODEL_ZOO.md)  
+Feature dictionary: [docs/FEATURE_DICTIONARY.md](docs/FEATURE_DICTIONARY.md)
 
-### 1. Match Win/Draw/Loss Prediction
+## Modeling Tasks
 
-**Task type**: multi-class classification  
-**Target**: home win / draw / away win  
-**Baseline implementation**: `RandomForestClassifier` for full reproducibility  
-**Production-ready alternatives**: XGBoost, LightGBM, CatBoost, LSTM sequence model
+### 1. Match Outcome Prediction
 
-Main feature groups:
+**Goal**: estimate win/draw/loss probabilities as context for sponsorship decisions.
 
-- Team form: FIFA-style rating, historical win rate, goals for, goals against
-- Player strength: player rating, core player market value, injury/availability proxy
-- Coach signal: coach experience, previous tournament experience
-- Venue context: home/away flag, host advantage, match stage
-- Environment: temperature, humidity, wind speed
-- Attention signal: FanScore, media reposts, social media attention
+Feature groups:
 
-Outputs:
-
-- `models/match_outcome_model.joblib`
-- `reports/match_model_metrics.md`
-- `reports/match_feature_importance.csv`
+- team strength and recent performance
+- core player rating and market value
+- injury risk and player availability
+- coach experience
+- host advantage, stadium, weather, and stage
+- media attention and sentiment
 
 ### 2. Sponsor ROI Prediction
 
-**Task type**: regression  
-**Target**: sponsor ROI  
-**Baseline implementation**: `RandomForestRegressor`  
-**Production-ready alternatives**: LightGBM/XGBoost regression, ElasticNet, causal forests
+**Goal**: predict sponsor return using commercial signals and sports context.
 
-ROI is modeled as a business conversion outcome influenced by:
+Feature groups:
 
-- Sponsor investment
 - Sponsor Power Index
-- Match outcome probability
-- FanScore
-- Media exposure
-- Social attention
-- Player market value
-- Match stage
-- Weather and venue context
+- sponsor spend and ad exposure
+- brand heat and paid media share
+- FanScore and fan growth
+- social engagement and media reposts
+- player influence and availability
+- match probability context
+
+### 3. Counterfactual A/B Simulation
+
+**Goal**: support sponsor strategy testing before or during a tournament.
+
+Example simulations:
+
+- increase sponsor investment by 20%
+- reduce core player availability
+- increase ad exposure during knockout matches
+- compare high-brand-fit vs low-brand-fit sponsors
+- test sentiment decline after a poor match result
+
+### 4. Uncertainty Quantification
+
+**Goal**: make ROI outputs decision-ready instead of overconfident point estimates.
 
 Outputs:
 
-- `models/roi_model.joblib`
-- `reports/roi_model_metrics.md`
-- `reports/roi_feature_importance.csv`
+- conformal-style ROI prediction intervals
+- Monte Carlo ROI risk distribution
+- negative ROI probability
+- ensemble variance proxy
+- business risk score
+- scenario ranking with strategy recommendations
 
-### 3. Sponsor Power Index
+### 5. Generative Business Reporting
 
-Sponsor Power Index is designed as a compact commercial strength feature:
+The platform is structured to turn model outputs, feature importance, SHAP-ready explanations, uncertainty estimates, and scenario rankings into Markdown/PDF business reports. This positions the project as a decision-support platform rather than a chart collection.
 
-```text
-Sponsor Power Index =
-  normalized(investment)
-+ normalized(brand strength)
-+ normalized(media exposure)
-+ normalized(team popularity)
-+ normalized(stage premium)
-```
+## Dashboard
 
-The index is not only a descriptive metric. It becomes an input to ROI prediction and A/B simulation.
+The dashboard is designed as a business decision cockpit, not a static visualization page.
 
-### 4. FanScore
+Core modules:
 
-FanScore combines fan base, match attention, and media spread:
+- **Match Probability**: win/draw/loss probability and context.
+- **Sponsor ROI Visualization**: ROI cards, ring chart, sponsor comparison, investment controls.
+- **FanScore and Player Influence**: radar chart, player/fan contribution, availability effect.
+- **Weather and Venue Impact**: heatmap and environment signals.
+- **A/B Scenario Lab**: sponsor investment, player availability, and ROI shift.
 
-```text
-FanScore =
-  player fan base signal
-+ event attention signal
-+ social media attention signal
-+ news repost signal
-+ core player market value signal
-```
+Interactive features:
 
-It captures the commercial difference between “a strong team” and “a team that creates sponsor-visible attention”.
-
-### 5. Counterfactual A/B Simulation
-
-The simulation module compares scenarios such as:
-
-- Sponsor A increases investment by 20%
-- Core player becomes unavailable
-- Media exposure rises during knockout stage
-- Fan attention drops after an unexpected loss
-- Weather conditions reduce match quality or attendance proxy
-
-The output shows predicted ROI shift, KPI changes, and scenario ranking.
+- team, sponsor, player, and stage filters
+- year and round selection
+- dynamic KPI cards
+- ROI ring/progress indicators
+- weather heatmap
+- FanScore radar chart
+- investment slider with visual money indicators
+- five-level outcome feedback from low return to "Perfect"
 
 ## Data Strategy
 
-The project supports public-data replacement while remaining fully reproducible with mock CSVs.
+The current repository uses seeded mock data so the whole pipeline can run without paid APIs. The schema is designed to be replaceable with real data sources.
 
-| Dataset | Current Source | Upgrade Direction |
+| Domain | Current Data | Real API / Public Data Upgrade |
 |---|---|---|
-| Historical matches | Reproducible CSV mock aligned with World Cup structure | Kaggle World Cup match datasets, FIFA public records |
-| 2026 schedule | Reproducible schedule table | Official 2026 match schedule once finalized |
-| Players | Mock player ratings, fans, value | Transfermarkt-style value, FBref, Kaggle player tables |
-| Coaches | Mock experience and tournament history | Public coach career records |
-| Sponsors | Mock sponsor investment and category | Public sponsorship announcements and brand reports |
-| Weather | Mock venue weather | Meteostat, Open-Meteo, NOAA-style weather APIs |
-| Social media | Mock attention and reposts | YouTube, X/Twitter, Instagram, Google Trends, news API |
+| Matches | seeded World Cup-style match data | Kaggle World Cup datasets, FIFA public data |
+| 2026 schedule | reproducible mock schedule | official 2026 schedule feed |
+| Players | rating, market value, followers, injury risk | Transfermarkt-style value data, FBref, injury reports |
+| Coaches | experience, tenure, win rate | public coach career records |
+| Weather | temperature, humidity, condition | Open-Meteo, Meteostat, NOAA |
+| Sponsors | spend, ad exposure, brand heat, category | sponsor reports, brand studies, ad intelligence platforms |
+| Social media | mentions, reposts, views, sentiment, growth | YouTube, Instagram, X/Twitter, Google Trends, news APIs |
+| Text narratives | sample headlines and topic signal | news article APIs, press releases, campaign text |
+| Time series | attention before/after match | platform-level engagement streams |
+| Network | sponsor-team-player graph | sponsorship contracts, player endorsement links |
 
-Data documentation:
+Dataset docs:
 
 - [docs/DATASET_CARD.md](docs/DATASET_CARD.md)
+- [docs/MULTIMODAL_DATA_SYSTEM.md](docs/MULTIMODAL_DATA_SYSTEM.md)
+- [docs/FEATURE_DICTIONARY.md](docs/FEATURE_DICTIONARY.md)
 - [docs/data_dictionary.csv](docs/data_dictionary.csv)
-- `reports/data_quality_summary.md`
 
-Example schema:
+## Engineering
 
-```text
-matches: match_id, year, stage, home_team, away_team, home_goals, away_goals, venue, host_country
-players: player_id, team, player_name, rating, market_value_m, fan_followers_m, is_core_player
-coaches: team, coach_name, years_experience, world_cup_experience, win_rate
-sponsors: sponsor_id, team, sponsor_name, category, investment_m, brand_strength
-weather: match_id, temperature_c, humidity_pct, wind_kmh, condition
-social_media: match_id, team, social_mentions_k, media_reposts_k, search_interest
-```
+The project includes a reproducible engineering scaffold:
 
-## Interactive Dashboard
-
-The dashboard is designed as an analyst-facing decision platform rather than a static chart page.
-
-### Modules
-
-- **Match Win/Draw/Loss Probability**: team and stage filters with dynamic probability charts.
-- **Sponsor ROI Visualization**: KPI cards, ROI ring chart, investment controls, and sponsor ranking.
-- **FanScore / Player & Fan Influence**: radar chart and player impact comparison.
-- **Weather & Home/Away Impact**: heatmap for venue/weather effect and contextual match signals.
-- **A/B Simulation Window**: compare sponsor investment and core player availability scenarios.
-
-### Interactivity
-
-- Team, sponsor, player, and match stage dropdowns
-- Time/year slider
-- Dynamic KPI cards
-- ROI progress/ring visualization
-- Radar chart for FanScore components
-- Weather impact heatmap
-- Investment slider with changing money icons
-- Player availability controls
-- Five-level benefit feedback states, from low performance to “Perfect”
-
-### Theme
-
-The visual design uses a World Cup-inspired palette:
-
-- pitch green
-- stadium blue
-- white cards
-- orange highlights
-- metric-based color gradients
-- rounded cards, shadows, and responsive grid layout
+- **Python**: data generation, feature engineering, ML, uncertainty, scenario simulation, dashboard generation.
+- **SQL**: `sql/schema.sql` defines analysis-ready database tables.
+- **Java**: `java/SponsorRiskRules.java` demonstrates business-rule integration for sponsor risk decisions.
+- **Docker**: `Dockerfile` supports containerized dashboard/pipeline execution.
+- **GitHub Actions**: `.github/workflows/ci.yml` compiles modules and runs the reproducible pipeline.
+- **Configuration**: `config/pipeline.yaml` documents pipeline order and expected outputs.
 
 ## Installation
 
@@ -248,7 +279,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-macOS/Linux activation:
+macOS/Linux:
 
 ```bash
 source .venv/bin/activate
@@ -259,9 +290,12 @@ source .venv/bin/activate
 ```bash
 python src/preprocess.py
 python src/feature_builder.py
+python src/advanced_features.py
 python src/data_quality.py
 python src/train_match_model.py
 python src/train_roi_model.py
+python src/uncertainty.py
+python src/scenario_engine.py
 python src/ab_simulation.py
 python src/report_generator.py
 python src/build_plotly_dashboard.py
@@ -269,13 +303,13 @@ python src/build_plotly_dashboard.py
 
 ## Launch Dashboard
 
-Streamlit version:
+Streamlit:
 
 ```bash
 streamlit run dashboard/app.py
 ```
 
-Static Plotly HTML version:
+Static Plotly HTML:
 
 ```bash
 python src/build_plotly_dashboard.py
@@ -287,36 +321,29 @@ Then open:
 dashboard/panel_dashboard.html
 ```
 
-## Evaluation Metrics
+## Evaluation
 
-| Model | Metrics |
+| Area | Metrics |
 |---|---|
-| Match outcome classification | Accuracy, log loss, class probability calibration |
-| Sponsor ROI regression | MAE, R2, residual inspection |
-| A/B simulation | Predicted ROI lift, investment sensitivity, player availability impact |
-| Data quality | Missing rate, duplicate keys, row count, schema coverage |
-
-## README Optimization Notes
-
-This README is structured for a GitHub portfolio-style technical project:
-
-- The opening explains the business problem before listing tools.
-- The ML pipeline is separated from the dashboard section.
-- The data strategy is honest about mock data while showing clear public-data upgrade paths.
-- The dashboard description emphasizes interaction, decision-making, and visual feedback.
-- The project avoids personal interview language and keeps the tone project-centered.
+| Match prediction | accuracy, log loss, probability calibration |
+| ROI prediction | MAE, R2, residual analysis |
+| Sponsor simulation | predicted ROI lift, investment sensitivity, player availability effect |
+| Data quality | row count, missing rate, duplicate keys, schema coverage |
+| Dashboard value | decision clarity, KPI readability, scenario comparison speed |
 
 ## Roadmap
 
-- Replace mock match records with a public World Cup dataset.
-- Add LightGBM/XGBoost model variants behind the same `ml_config.py` registry.
-- Add SHAP waterfall and beeswarm visualizations to the dashboard.
-- Add calibration curves for match probability reliability.
-- Add sponsor category segmentation by apparel, beverage, finance, and technology brands.
-- Add downloadable PDF export from the Streamlit dashboard.
+- Add real API connectors for weather, schedule, social media, and sponsor data.
+- Add LightGBM/XGBoost model variants for tabular sports-business prediction.
+- Add SHAP explanations directly into the dashboard.
+- Add sentiment modeling with transformer embeddings for news and social text.
+- Add graph analytics for sponsor-team-player networks.
+- Add time-series forecasting for fan attention and campaign momentum.
+- Add sponsor category benchmarks for apparel, beverage, finance, airline, technology, and automotive brands.
+- Add downloadable executive reports from the dashboard.
 
-## 中文摘要
+## Chinese Summary
 
-WorldCupROI 是一个世界杯赞助 ROI 预测与交互分析项目。项目将 1930-2022 世界杯历史比赛、2026 赛程、球队赞助、球员粉丝量、核心球员市场价值、教练经验、天气、主客场、社交媒体关注度和新闻转载量整合为一个多任务机器学习系统。
+WorldCupROI 已升级为 AI Sports Sponsorship Intelligence Platform。项目以世界杯为研究场景，但重点是体育商业智能：把球队、球员、教练、伤病、天气、赛事阶段、赞助商投入、广告曝光、媒体转载、品牌热度、社交媒体互动、粉丝增长和情绪分析统一到一个机器学习与商业决策平台中。
 
-项目重点不是“预测比赛结果”本身，而是将比赛胜率、粉丝影响力、媒体曝光和赞助投入转化为可解释的商业 ROI 预测，并通过互动仪表盘支持赞助商投入、球员变动、天气影响和 A/B 方案模拟。
+平台目标是预测赞助 ROI、解释商业影响因素、模拟赞助策略变化，并通过互动仪表盘支持体育赞助决策。

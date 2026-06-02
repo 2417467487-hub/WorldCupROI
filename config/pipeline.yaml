@@ -1,0 +1,21 @@
+project: WorldCupROI
+platform_name: AI Sports Sponsorship Intelligence Platform
+random_seed: 42
+data_mode: reproducible_mock
+pipeline:
+  - preprocess
+  - feature_builder
+  - advanced_features
+  - data_quality
+  - train_match_model
+  - train_roi_model
+  - uncertainty
+  - scenario_engine
+  - ab_simulation
+  - report_generator
+  - build_plotly_dashboard
+outputs:
+  dashboard: dashboard/panel_dashboard.html
+  roi_predictions: data/roi_predictions.csv
+  uncertainty: data/roi_uncertainty.csv
+  scenarios: data/scenario_recommendations.csv

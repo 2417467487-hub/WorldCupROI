@@ -1,0 +1,97 @@
+source,target,edge_type,weight
+Nike,Argentina,sponsor_team,0.575
+Hyundai,Brazil,sponsor_team,0.803
+Nike,France,sponsor_team,0.373
+Qatar Airways,Germany,sponsor_team,0.68
+Emirates,Spain,sponsor_team,0.596
+Adidas,England,sponsor_team,0.339
+Adidas,Portugal,sponsor_team,0.714
+Coca-Cola,Netherlands,sponsor_team,0.68
+Samsung,Uruguay,sponsor_team,0.483
+Qatar Airways,Croatia,sponsor_team,0.515
+Nike,Belgium,sponsor_team,0.776
+Mastercard,Italy,sponsor_team,0.776
+Mastercard,Mexico,sponsor_team,0.481
+Coca-Cola,USA,sponsor_team,0.875
+Pepsi,Japan,sponsor_team,0.856
+Sony,South Korea,sponsor_team,0.904
+Sony,Morocco,sponsor_team,0.526
+Adidas,Nigeria,sponsor_team,0.787
+Samsung,Ghana,sponsor_team,0.86
+Adidas,Saudi Arabia,sponsor_team,0.618
+Emirates,Australia,sponsor_team,0.797
+Nike,Canada,sponsor_team,0.945
+Qatar Airways,Qatar,sponsor_team,0.445
+Adidas,Senegal,sponsor_team,0.641
+Argentina core_forward,Argentina,player_team,1.496
+Argentina core_midfielder,Argentina,player_team,0.353
+Argentina core_defender,Argentina,player_team,0.75
+Brazil core_forward,Brazil,player_team,3.084
+Brazil core_midfielder,Brazil,player_team,0.33
+Brazil core_defender,Brazil,player_team,0.333
+France core_forward,France,player_team,1.011
+France core_midfielder,France,player_team,1.095
+France core_defender,France,player_team,2.144
+Germany core_forward,Germany,player_team,4.398
+Germany core_midfielder,Germany,player_team,1.159
+Germany core_defender,Germany,player_team,1.05
+Spain core_forward,Spain,player_team,0.617
+Spain core_midfielder,Spain,player_team,1.356
+Spain core_defender,Spain,player_team,0.827
+England core_forward,England,player_team,5.622
+England core_midfielder,England,player_team,4.237
+England core_defender,England,player_team,4.394
+Portugal core_forward,Portugal,player_team,2.989
+Portugal core_midfielder,Portugal,player_team,0.919
+Portugal core_defender,Portugal,player_team,0.556
+Netherlands core_forward,Netherlands,player_team,0.497
+Netherlands core_midfielder,Netherlands,player_team,2.394
+Netherlands core_defender,Netherlands,player_team,0.763
+Uruguay core_forward,Uruguay,player_team,0.859
+Uruguay core_midfielder,Uruguay,player_team,0.79
+Uruguay core_defender,Uruguay,player_team,1.603
+Croatia core_forward,Croatia,player_team,2.662
+Croatia core_midfielder,Croatia,player_team,3.827
+Croatia core_defender,Croatia,player_team,3.163
+Belgium core_forward,Belgium,player_team,4.39
+Belgium core_midfielder,Belgium,player_team,1.095
+Belgium core_defender,Belgium,player_team,2.046
+Italy core_forward,Italy,player_team,3.215
+Italy core_midfielder,Italy,player_team,0.887
+Italy core_defender,Italy,player_team,1.628
+Mexico core_forward,Mexico,player_team,4.38
+Mexico core_midfielder,Mexico,player_team,1.182
+Mexico core_defender,Mexico,player_team,1.168
+USA core_forward,USA,player_team,0.451
+USA core_midfielder,USA,player_team,0.674
+USA core_defender,USA,player_team,0.551
+Japan core_forward,Japan,player_team,1.012
+Japan core_midfielder,Japan,player_team,2.451
+Japan core_defender,Japan,player_team,3.888
+South Korea core_forward,South Korea,player_team,1.363
+South Korea core_midfielder,South Korea,player_team,2.027
+South Korea core_defender,South Korea,player_team,0.418
+Morocco core_forward,Morocco,player_team,3.199
+Morocco core_midfielder,Morocco,player_team,1.022
+Morocco core_defender,Morocco,player_team,1.282
+Nigeria core_forward,Nigeria,player_team,1.606
+Nigeria core_midfielder,Nigeria,player_team,4.4
+Nigeria core_defender,Nigeria,player_team,2.767
+Ghana core_forward,Ghana,player_team,0.391
+Ghana core_midfielder,Ghana,player_team,0.819
+Ghana core_defender,Ghana,player_team,1.613
+Saudi Arabia core_forward,Saudi Arabia,player_team,7.242
+Saudi Arabia core_midfielder,Saudi Arabia,player_team,7.32
+Saudi Arabia core_defender,Saudi Arabia,player_team,8.103
+Australia core_forward,Australia,player_team,1.56
+Australia core_midfielder,Australia,player_team,1.313
+Australia core_defender,Australia,player_team,1.493
+Canada core_forward,Canada,player_team,0.332
+Canada core_midfielder,Canada,player_team,0.78
+Canada core_defender,Canada,player_team,0.536
+Qatar core_forward,Qatar,player_team,1.109
+Qatar core_midfielder,Qatar,player_team,0.604
+Qatar core_defender,Qatar,player_team,0.828
+Senegal core_forward,Senegal,player_team,4.955
+Senegal core_midfielder,Senegal,player_team,0.808
+Senegal core_defender,Senegal,player_team,4.382

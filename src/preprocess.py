@@ -22,6 +22,9 @@ SPONSORS = [
     "Samsung", "Mastercard", "Puma", "Emirates",
 ]
 
+SPONSOR_CATEGORIES = ["apparel", "beverage", "finance", "airline", "technology", "automotive"]
+NARRATIVE_TOPICS = ["star_player", "national_pride", "underdog_run", "rivalry", "tactical_story", "brand_campaign"]
+
 
 def sigmoid(x: np.ndarray | float) -> np.ndarray | float:
     return 1 / (1 + np.exp(-x))
@@ -57,6 +60,10 @@ def generate_players(team_profile: pd.DataFrame, rng: np.random.Generator) -> pd
                     "player_rating": round(np.clip(rng.normal(74 + team["elo"] / 120, 4), 60, 97), 1),
                     "market_value_m": round(max(5, team["squad_market_value_m"] * rng.uniform(0.04, 0.12) * role_boost), 1),
                     "followers_m": round(max(0.2, team["social_followers_m"] * rng.uniform(0.05, 0.35) * role_boost), 2),
+                    "injury_risk": round(float(rng.beta(2.1, 7.5)), 3),
+                    "availability_score": round(float(rng.beta(8, 1.8)), 3),
+                    "fan_growth_30d_pct": round(float(np.clip(rng.normal(4.2 * role_boost, 2.1), -3, 15)), 2),
+                    "sentiment_score": round(float(np.clip(rng.normal(0.24, 0.24), -0.75, 0.93)), 3),
                 }
             )
     return pd.DataFrame(rows)
@@ -70,7 +77,11 @@ def generate_sponsors(team_profile: pd.DataFrame, rng: np.random.Generator) -> p
             {
                 "team": team,
                 "sponsor": sponsor,
+                "sponsor_category": rng.choice(SPONSOR_CATEGORIES),
                 "sponsor_spend_m": round(float(rng.lognormal(2.2, 0.55)), 2),
+                "ad_exposure_m": round(float(rng.lognormal(3.3, 0.55)), 2),
+                "brand_heat_index": round(float(rng.beta(4.2, 2.4)), 3),
+                "paid_media_share": round(float(rng.beta(3.4, 4.8)), 3),
                 "brand_fit": round(float(rng.beta(5, 2)), 3),
                 "activation_quality": round(float(rng.beta(4, 2.5)), 3),
                 "historical_sports_presence": round(float(rng.beta(4.5, 2.2)), 3),
@@ -165,7 +176,87 @@ def split_weather_social(matches: pd.DataFrame, rng: np.random.Generator) -> tup
     social["hashtag_mentions_k"] = (social["event_attention_m"] * rng.lognormal(1.2, 0.28, len(social))).round(2)
     social["video_views_m"] = (social["event_attention_m"] * rng.uniform(0.8, 2.8, len(social))).round(2)
     social["sentiment_score"] = rng.normal(0.18, 0.28, len(social)).clip(-0.72, 0.91).round(3)
+    social["engagement_rate"] = rng.beta(4.5, 12, len(social)).round(4)
+    social["fan_growth_7d_pct"] = rng.normal(3.5, 2.8, len(social)).clip(-5, 18).round(2)
+    social["news_sentiment_score"] = rng.normal(0.16, 0.24, len(social)).clip(-0.82, 0.94).round(3)
+    social["narrative_topic"] = rng.choice(NARRATIVE_TOPICS, size=len(social))
+    social["text_signal_score"] = (
+        0.40 * social["sentiment_score"]
+        + 0.35 * social["news_sentiment_score"]
+        + 0.25 * social["engagement_rate"]
+    ).round(3)
+    social["time_decay_attention"] = (
+        social["event_attention_m"] * rng.uniform(0.72, 1.18, len(social))
+    ).round(2)
     return weather.round(3), social.round(3)
+
+
+def generate_attention_timeseries(social: pd.DataFrame, rng: np.random.Generator) -> pd.DataFrame:
+    rows = []
+    for _, row in social.iterrows():
+        base = float(row["event_attention_m"])
+        for day in range(-7, 4):
+            event_lift = 1.35 if day == 0 else 1 / (1 + 0.13 * abs(day))
+            rows.append(
+                {
+                    "match_id": int(row["match_id"]),
+                    "day_offset": day,
+                    "team_a": row["team_a"],
+                    "team_b": row["team_b"],
+                    "attention_index": round(max(1, base * event_lift + rng.normal(0, 3.5)), 2),
+                    "engagement_rate": round(float(np.clip(row["engagement_rate"] + rng.normal(0, 0.012), 0.01, 0.42)), 4),
+                    "sentiment_score": round(float(np.clip(row["sentiment_score"] + rng.normal(0, 0.07), -0.95, 0.98)), 3),
+                }
+            )
+    return pd.DataFrame(rows)
+
+
+def generate_text_corpus(social: pd.DataFrame) -> pd.DataFrame:
+    templates = {
+        "star_player": "Core player storyline drives sponsor visibility and fan conversation.",
+        "national_pride": "National identity narrative increases emotional engagement and brand recall.",
+        "underdog_run": "Unexpected performance creates earned media momentum and sponsor lift.",
+        "rivalry": "Historic rivalry raises pre-match search interest and social sharing.",
+        "tactical_story": "Coach strategy discussion shapes media framing and analyst attention.",
+        "brand_campaign": "Sponsor activation hashtag connects match attention to conversion intent.",
+    }
+    rows = []
+    for _, row in social.iterrows():
+        rows.append(
+            {
+                "match_id": int(row["match_id"]),
+                "team_a": row["team_a"],
+                "team_b": row["team_b"],
+                "narrative_topic": row["narrative_topic"],
+                "sample_headline": templates[row["narrative_topic"]],
+                "text_signal_score": row["text_signal_score"],
+                "news_sentiment_score": row["news_sentiment_score"],
+            }
+        )
+    return pd.DataFrame(rows)
+
+
+def generate_relationship_network(players: pd.DataFrame, sponsors: pd.DataFrame, rng: np.random.Generator) -> pd.DataFrame:
+    rows = []
+    for _, sponsor in sponsors.iterrows():
+        rows.append(
+            {
+                "source": sponsor["sponsor"],
+                "target": sponsor["team"],
+                "edge_type": "sponsor_team",
+                "weight": sponsor["sponsor_power_index"] if "sponsor_power_index" in sponsor else sponsor["brand_fit"],
+            }
+        )
+    for _, player in players.iterrows():
+        rows.append(
+            {
+                "source": f"{player['team']} {player['player_role']}",
+                "target": player["team"],
+                "edge_type": "player_team",
+                "weight": round(float(player["followers_m"] * player["availability_score"] * rng.uniform(0.8, 1.2)), 3),
+            }
+        )
+    return pd.DataFrame(rows)
 
 
 def generate_2026_schedule(rng: np.random.Generator) -> pd.DataFrame:
@@ -196,6 +287,9 @@ def main() -> None:
     sponsors = generate_sponsors(team_profile, rng)
     matches = generate_matches(team_profile, rng)
     weather, social = split_weather_social(matches, rng)
+    attention_timeseries = generate_attention_timeseries(social, rng)
+    text_corpus = generate_text_corpus(social)
+    relationship_network = generate_relationship_network(players, sponsors, rng)
     schedule = generate_2026_schedule(rng)
 
     team_profile.to_csv(DATA_DIR / "team_profile.csv", index=False)
@@ -208,6 +302,9 @@ def main() -> None:
     matches.to_csv(DATA_DIR / "historical_matches.csv", index=False)
     weather.to_csv(DATA_DIR / "weather.csv", index=False)
     social.to_csv(DATA_DIR / "social_media.csv", index=False)
+    attention_timeseries.to_csv(DATA_DIR / "attention_timeseries.csv", index=False)
+    text_corpus.to_csv(DATA_DIR / "media_text_corpus.csv", index=False)
+    relationship_network.to_csv(DATA_DIR / "relationship_network.csv", index=False)
     schedule.to_csv(DATA_DIR / "wc2026_schedule_mock.csv", index=False)
     schedule.to_csv(DATA_DIR / "schedule_2026.csv", index=False)
     print(f"Generated synthetic WorldCupROI data in {DATA_DIR}")

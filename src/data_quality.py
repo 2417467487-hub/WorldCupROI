@@ -18,7 +18,13 @@ DATASETS = [
     "sponsors.csv",
     "weather.csv",
     "social_media.csv",
+    "attention_timeseries.csv",
+    "media_text_corpus.csv",
+    "relationship_network.csv",
     "modeling_dataset.csv",
+    "advanced_feature_outputs.csv",
+    "roi_uncertainty.csv",
+    "scenario_recommendations.csv",
     "panel_dataset.csv",
 ]
 
@@ -44,7 +50,7 @@ def main() -> None:
     lines = [
         "# Data Quality Summary",
         "",
-        "WorldCupROI uses seeded mock data when public APIs are unavailable. This report checks dataset size, missing values, and duplicate rows.",
+        "WorldCupROI uses seeded mock data when public APIs are unavailable. This report checks the multi-source data system across tabular, text, time-series, and relationship-network files.",
         "",
         "| dataset | rows | columns | missing_cells | duplicate_rows |",
         "| --- | ---: | ---: | ---: | ---: |",
@@ -59,4 +65,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
