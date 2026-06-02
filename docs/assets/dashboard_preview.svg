@@ -1,0 +1,23 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1280" height="720" fill="#07140f"/>
+      <rect x="48" y="48" width="1184" height="624" rx="28" fill="#f7fbff"/>
+      <text x="84" y="112" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#0d1726">Dashboard Preview</text>
+      <text x="84" y="150" font-family="Segoe UI, Arial" font-size="18" fill="#627085">Discover -> Explain -> Predict -> Simulate -> Recommend</text>
+      <rect x="84" y="204" width="245" height="132" rx="18" fill="#0f8b6f"/>
+      <text x="112" y="254" font-family="Segoe UI, Arial" font-size="22" font-weight="700" fill="#fff">Avg ROI</text>
+      <text x="112" y="308" font-family="Segoe UI, Arial" font-size="44" font-weight="700" fill="#fff">3.64x</text>
+      <rect x="365" y="204" width="245" height="132" rx="18" fill="#2457c5"/>
+      <text x="393" y="254" font-family="Segoe UI, Arial" font-size="22" font-weight="700" fill="#fff">Momentum</text>
+      <text x="393" y="308" font-family="Segoe UI, Arial" font-size="44" font-weight="700" fill="#fff">0.54</text>
+      <rect x="646" y="204" width="245" height="132" rx="18" fill="#f28c28"/>
+      <text x="674" y="254" font-family="Segoe UI, Arial" font-size="22" font-weight="700" fill="#fff">Text units</text>
+      <text x="674" y="308" font-family="Segoe UI, Arial" font-size="44" font-weight="700" fill="#fff">5,450</text>
+      <rect x="84" y="386" width="520" height="220" rx="18" fill="#fff" stroke="#d7e0ea"/>
+      <polyline points="124,548 198,510 270,530 342,470 414,492 486,430 560,454" fill="none" stroke="#0f8b6f" stroke-width="7"/>
+      <text x="116" y="430" font-family="Segoe UI, Arial" font-size="22" font-weight="700" fill="#0d1726">ROI trend</text>
+      <rect x="646" y="386" width="502" height="220" rx="18" fill="#fff" stroke="#d7e0ea"/>
+      <circle cx="754" cy="492" r="52" fill="#0f8b6f" opacity=".80"/>
+      <circle cx="884" cy="526" r="34" fill="#2457c5" opacity=".75"/>
+      <circle cx="986" cy="462" r="44" fill="#f28c28" opacity=".75"/>
+      <text x="684" y="430" font-family="Segoe UI, Arial" font-size="22" font-weight="700" fill="#0d1726">Sponsor opportunity map</text>
+    </svg>

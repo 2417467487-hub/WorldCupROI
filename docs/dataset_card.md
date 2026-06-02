@@ -2,7 +2,7 @@
 
 ## Dataset Purpose
 
-The dataset layer supports an AI Sports Sponsorship Intelligence Platform. It is designed to study how sports performance, sponsor investment, brand exposure, fan behavior, sentiment, and media attention combine to influence sponsorship ROI.
+The dataset layer supports a sports sponsorship intelligence platform. It is designed to study how sports performance, sponsor investment, brand exposure, fan behavior, sentiment, and media attention combine to influence sponsorship ROI.
 
 ## Current Data Strategy
 

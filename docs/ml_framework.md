@@ -1,8 +1,8 @@
-# AI Sports Sponsorship Intelligence ML Framework
+# Sports Sponsorship Intelligence ML Framework
 
 ## Objective
 
-WorldCupROI is organized as a sports business intelligence platform with three connected AI layers:
+WorldCupROI is organized as a sports business intelligence platform with three connected analytics layers:
 
 1. **Sports Analytics**: estimate match context, team strength, player availability, coach influence, weather impact, and tournament-stage importance.
 2. **Sponsorship Intelligence**: estimate sponsor power from investment, ad exposure, brand heat, activation quality, media attention, and brand-team fit.

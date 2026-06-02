@@ -28,7 +28,7 @@ WorldCupROI keeps the default pipeline lightweight, while documenting a full res
 | GCN | team-player-sponsor-match graph |
 | GraphSAGE | inductive sponsor/team relationship modeling |
 
-## Ensemble and Generative AI
+## Ensemble and Report Generation
 
 | Method | Use |
 |---|---|

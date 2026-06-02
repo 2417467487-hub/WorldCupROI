@@ -99,15 +99,15 @@ def build_roi_target(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def main() -> None:
-    if not (DATA_DIR / "synthetic_matches.csv").exists():
+    if not (DATA_DIR / "historical_matches.csv").exists():
         from preprocess import main as preprocess_main
 
         preprocess_main()
 
-    matches = pd.read_csv(DATA_DIR / "synthetic_matches.csv")
+    matches = pd.read_csv(DATA_DIR / "historical_matches.csv")
     teams = pd.read_csv(DATA_DIR / "team_profile.csv")
-    players = pd.read_csv(DATA_DIR / "synthetic_players.csv")
-    sponsors = pd.read_csv(DATA_DIR / "synthetic_sponsors.csv")
+    players = pd.read_csv(DATA_DIR / "players.csv")
+    sponsors = pd.read_csv(DATA_DIR / "sponsors.csv")
     social = pd.read_csv(DATA_DIR / "social_media.csv")
     social_features = social[
         [

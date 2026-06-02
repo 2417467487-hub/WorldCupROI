@@ -13,7 +13,7 @@ DATA_DIR = ROOT / "data"
 REPORT_DIR = ROOT / "reports"
 
 
-st.set_page_config(page_title="AI Sports Sponsorship Intelligence", page_icon="AI", layout="wide")
+st.set_page_config(page_title="Sports Sponsorship Intelligence", page_icon="ROI", layout="wide")
 
 WORLD_CUP_COLORS = {
     "green": "#0f8b6f",
@@ -124,7 +124,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("AI Sports Sponsorship Intelligence Platform")
+st.title("Sports Sponsorship Intelligence Platform")
 st.caption("Discover -> Explain -> Predict -> Simulate -> Recommend: sponsorship ROI, fan attention, uncertainty, and business decision support.")
 
 teams = sorted(panel_df["team"].unique()) if "team" in panel_df else sorted(roi_df["team_a"].unique())
