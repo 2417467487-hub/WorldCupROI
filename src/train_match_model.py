@@ -6,6 +6,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from ml_config import MATCH_FEATURES, RANDOM_SEED, TEST_SIZE
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -13,22 +15,7 @@ REPORT_DIR = ROOT / "reports"
 MODEL_DIR = ROOT / "models"
 
 
-FEATURES = [
-    "elo_diff",
-    "market_value_diff_m",
-    "coach_exp_diff",
-    "core_rating_diff",
-    "recent_goal_diff_delta",
-    "host_advantage_a",
-    "stadium_capacity_k",
-    "temperature_c",
-    "humidity",
-    "event_attention_m",
-    "media_reposts_k",
-    "a_core_player_rating",
-    "a_core_market_value_m",
-    "a_player_followers_m",
-]
+FEATURES = MATCH_FEATURES
 
 
 class CentroidOutcomeModel:
@@ -62,8 +49,8 @@ def ensure_dataset() -> None:
         build_features()
 
 
-def train_test_split(df: pd.DataFrame, test_size: float = 0.22) -> tuple[pd.DataFrame, pd.DataFrame]:
-    rng = np.random.default_rng(42)
+def train_test_split(df: pd.DataFrame, test_size: float = TEST_SIZE) -> tuple[pd.DataFrame, pd.DataFrame]:
+    rng = np.random.default_rng(RANDOM_SEED)
     idx = rng.permutation(len(df))
     test_n = int(len(df) * test_size)
     return df.iloc[idx[test_n:]].copy(), df.iloc[idx[:test_n]].copy()

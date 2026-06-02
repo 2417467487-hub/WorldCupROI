@@ -1,0 +1,10 @@
+dataset,rows,columns,missing_cells,duplicate_rows,key_columns
+historical_matches.csv,720,14,0,0,"match_id, year, team_a, team_b, stage, neutral_site, host_advantage_a, stadium_capacity_k"
+schedule_2026.csv,64,7,0,0,"match_id, year, team_a, team_b, stage, host_city, scheduled_month"
+players.csv,72,5,0,0,"team, player_role, player_rating, market_value_m, followers_m"
+coaches.csv,24,6,0,0,"team, coach_name, coach_wc_matches, coach_win_rate, coach_tenure_years, international_titles"
+sponsors.csv,24,6,0,0,"team, sponsor, sponsor_spend_m, brand_fit, activation_quality, historical_sports_presence"
+weather.csv,720,10,0,0,"match_id, year, temperature_c, humidity, weather, stadium_capacity_k, neutral_site, host_advantage_a"
+social_media.csv,720,10,0,0,"match_id, year, team_a, team_b, event_attention_m, media_reposts_k, stage, hashtag_mentions_k"
+modeling_dataset.csv,720,52,0,0,"match_id, year, team_a, team_b, stage, neutral_site, host_advantage_a, stadium_capacity_k"
+panel_dataset.csv,1440,31,0,0,"panel_id, year, match_id, team, opponent, team_side, stage, sponsor"

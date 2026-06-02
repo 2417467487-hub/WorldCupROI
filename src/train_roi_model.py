@@ -6,29 +6,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from ml_config import RANDOM_SEED, ROI_FEATURES, TEST_SIZE
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 REPORT_DIR = ROOT / "reports"
 MODEL_DIR = ROOT / "models"
-
-
-ROI_FEATURES = [
-    "fan_score",
-    "a_sponsor_power_index",
-    "a_sponsor_spend_m",
-    "a_brand_fit",
-    "a_activation_quality",
-    "a_historical_sports_presence",
-    "team_a_strength",
-    "event_attention_m",
-    "media_reposts_k",
-    "a_player_followers_m",
-    "a_core_market_value_m",
-    "a_core_player_rating",
-    "elo_diff",
-    "host_advantage_a",
-]
 
 
 class RidgeROIModel:
@@ -74,8 +58,8 @@ def ensure_dataset() -> None:
         build_features()
 
 
-def train_test_split(df: pd.DataFrame, test_size: float = 0.22) -> tuple[pd.DataFrame, pd.DataFrame]:
-    rng = np.random.default_rng(42)
+def train_test_split(df: pd.DataFrame, test_size: float = TEST_SIZE) -> tuple[pd.DataFrame, pd.DataFrame]:
+    rng = np.random.default_rng(RANDOM_SEED)
     idx = rng.permutation(len(df))
     test_n = int(len(df) * test_size)
     return df.iloc[idx[test_n:]].copy(), df.iloc[idx[:test_n]].copy()

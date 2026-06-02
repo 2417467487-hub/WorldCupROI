@@ -1,0 +1,25 @@
+dataset,column,description
+historical_matches.csv,match_id,Unique match identifier
+historical_matches.csv,year,World Cup year
+historical_matches.csv,team_a,First team
+historical_matches.csv,team_b,Second team
+historical_matches.csv,stage,Tournament stage
+historical_matches.csv,result,A_win draw or B_win
+players.csv,team,Team name
+players.csv,player_role,Core player role
+players.csv,player_rating,Simulated player rating
+players.csv,market_value_m,Market value in millions
+players.csv,followers_m,Player fan followers in millions
+coaches.csv,coach_wc_matches,World Cup coaching experience
+coaches.csv,coach_win_rate,Simulated coach win rate
+sponsors.csv,sponsor_spend_m,Sponsor investment in millions
+sponsors.csv,brand_fit,Brand-team fit score
+sponsors.csv,activation_quality,Campaign activation quality
+weather.csv,weather,Weather category
+weather.csv,weather_severity,Normalized weather severity
+social_media.csv,hashtag_mentions_k,Hashtag mentions in thousands
+social_media.csv,video_views_m,Video views in millions
+panel_dataset.csv,fan_score_panel,Fan attention score at panel grain
+panel_dataset.csv,sponsor_power_index,Sponsor activation strength
+panel_dataset.csv,commercial_momentum,Combined business opportunity score
+panel_dataset.csv,predicted_roi,Predicted sponsor return
