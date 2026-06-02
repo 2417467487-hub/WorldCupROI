@@ -133,12 +133,78 @@ def scenario_ranking() -> None:
     write_svg("scenario_ranking.svg", "".join(parts))
 
 
+def data_flow() -> None:
+    lanes = [
+        ("Raw sources", "World Cup match records\\nGDELT article metadata\\nWikimedia text", "#0f8b6f"),
+        ("Evidence tables", "match history\\ntext units\\nsponsor panel\\nweather context", "#2457c5"),
+        ("Feature layer", "FanScore\\nSponsor Power\\nMedia Exposure\\nCommercial Momentum", "#f28c28"),
+        ("Decision outputs", "ROI prediction\\nrisk intervals\\nscenario ranking\\ndashboard", "#6d5bd0"),
+    ]
+    parts = [title("Data Flow", "How raw sports, media, and business signals become decision-ready outputs")]
+    x = 72
+    for idx, (name, desc, color) in enumerate(lanes):
+        parts.append(f'<rect x="{x}" y="172" width="246" height="326" rx="22" fill="{color}"/>')
+        parts.append(f'<text x="{x+24}" y="230" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">{escape(name)}</text>')
+        for line_idx, line in enumerate(desc.split("\\n")):
+            parts.append(f'<text x="{x+24}" y="{282 + line_idx * 38}" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">{escape(line)}</text>')
+        if idx < len(lanes) - 1:
+            parts.append(f'<path d="M{x+258} 336H{x+302}" stroke="#0d1726" stroke-width="5"/>')
+            parts.append(f'<path d="M{x+302} 336L{x+286} 326V346L{x+302} 336Z" fill="#0d1726"/>')
+        x += 304
+    write_svg("data_flow.svg", "".join(parts))
+
+
+def decision_workflow() -> None:
+    steps = [
+        ("Discover", "market context"),
+        ("Explain", "drivers"),
+        ("Predict", "ROI"),
+        ("Simulate", "strategy"),
+        ("Recommend", "action"),
+    ]
+    parts = [title("Business Decision Workflow", "Dashboard logic designed for sponsor planning, not just chart browsing")]
+    cx = 156
+    for idx, (name, desc) in enumerate(steps):
+        color = ["#0f8b6f", "#2457c5", "#f28c28", "#6d5bd0", "#c2415d"][idx]
+        parts.append(f'<circle cx="{cx}" cy="310" r="72" fill="{color}"/>')
+        parts.append(f'<text x="{cx}" y="302" font-family="Segoe UI, Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#fff">{name}</text>')
+        parts.append(f'<text x="{cx}" y="334" font-family="Segoe UI, Arial" font-size="15" text-anchor="middle" fill="#eef6ff">{desc}</text>')
+        if idx < len(steps) - 1:
+            parts.append(f'<path d="M{cx+82} 310H{cx+174}" stroke="#0d1726" stroke-width="5"/>')
+            parts.append(f'<path d="M{cx+174} 310L{cx+158} 300V320L{cx+174} 310Z" fill="#0d1726"/>')
+        cx += 240
+    parts.append('<rect x="100" y="492" width="1080" height="88" rx="18" fill="#ffffff" stroke="#d7e0ea"/>')
+    parts.append('<text x="132" y="544" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#0d1726">Output: scenario ranking, ROI lift, risk level, and sponsor strategy recommendation.</text>')
+    write_svg("decision_workflow.svg", "".join(parts))
+
+
+def dashboard_gallery() -> None:
+    cards = [
+        ("ROI Cockpit", "KPI cards, sponsor return, media exposure", "#0f8b6f"),
+        ("Text Signals", "5,450 evidence units projected to 24 dims", "#2457c5"),
+        ("Risk View", "Prediction intervals and negative ROI risk", "#f28c28"),
+        ("Scenario Lab", "Investment, weather, player, stage changes", "#6d5bd0"),
+    ]
+    parts = [title("Dashboard Gallery", "Four views that turn model outputs into sponsor decisions")]
+    coords = [(80, 164), (670, 164), (80, 430), (670, 430)]
+    for (name, desc, color), (x, y) in zip(cards, coords):
+        parts.append(f'<rect x="{x}" y="{y}" width="530" height="202" rx="22" fill="#fff" stroke="#d7e0ea"/>')
+        parts.append(f'<rect x="{x}" y="{y}" width="530" height="58" rx="22" fill="{color}"/>')
+        parts.append(f'<text x="{x+28}" y="{y+39}" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#fff">{escape(name)}</text>')
+        parts.append(f'<text x="{x+28}" y="{y+98}" font-family="Segoe UI, Arial" font-size="18" fill="#485568">{escape(desc)}</text>')
+        parts.append(f'<polyline points="{x+32},{y+162} {x+130},{y+126} {x+226},{y+146} {x+324},{y+102} {x+432},{y+132}" fill="none" stroke="{color}" stroke-width="7" stroke-linecap="round"/>')
+    write_svg("dashboard_gallery.svg", "".join(parts))
+
+
 def main() -> None:
     model_pipeline()
+    data_flow()
     feature_importance()
     uncertainty_intervals()
     text_embedding_map()
     scenario_ranking()
+    decision_workflow()
+    dashboard_gallery()
     print(f"Generated model visuals in {ASSET_DIR}")
 
 
