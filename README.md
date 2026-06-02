@@ -65,7 +65,7 @@ WorldCupROI/
 The project includes two dashboard surfaces:
 
 - `dashboard/app.py`: Streamlit + Plotly dashboard
-- `dashboard/panel_dashboard.html`: browser-ready interactive HTML dashboard with World Cup visual styling
+- `dashboard/panel_dashboard.html`: browser-ready Plotly dashboard with World Cup visual styling
 
 Dashboard modules:
 
@@ -253,6 +253,7 @@ dashboard/panel_dashboard.html
 
 - `dashboard/app.py`: Streamlit + Plotly dashboard
 - `dashboard/panel_dashboard.html`: static interactive website
+- `src/build_plotly_dashboard.py`: generates the Plotly-based static website
 - `sample_report.pdf`: generated sample report
 - `reports/ab_simulation_results.csv`: A/B scenario rows
 - `reports/match_feature_importance.csv`: match model feature importance
@@ -266,4 +267,3 @@ dashboard/panel_dashboard.html
 - Add SHAP summary plots into the dashboard
 - Deploy the HTML dashboard to GitHub Pages
 - Add real 2026 venue weather API integration
-
