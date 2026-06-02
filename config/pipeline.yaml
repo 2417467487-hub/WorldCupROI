@@ -1,5 +1,5 @@
 project: WorldCupROI
-platform_name: AI Sports Sponsorship Intelligence Platform
+platform_name: Sports Sponsorship Intelligence Platform
 random_seed: 42
 data_mode: reproducible_mock
 pipeline:

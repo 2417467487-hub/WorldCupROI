@@ -1,0 +1,11 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" rx="0" fill="#07140f"/>
+  <rect x="58" y="58" width="1164" height="524" rx="26" fill="#f7fbff"/>
+  <rect x="58" y="58" width="1164" height="120" rx="26" fill="#2457c5"/>
+  <text x="96" y="132" font-family="Segoe UI, Arial" font-size="48" font-weight="700" fill="#ffffff">Demo Video</text>
+  <text x="96" y="224" font-family="Segoe UI, Arial" font-size="30" font-weight="700" fill="#0d1726">Two-minute walkthrough storyboard</text>
+  <text x="96" y="280" font-family="Segoe UI, Arial" font-size="24" fill="#485568">Use this cover for the recorded demo once the dashboard screen capture is uploaded.</text>
+  <circle cx="1112" cy="390" r="92" fill="#f28c28" opacity="0.18"/>
+  <circle cx="1034" cy="438" r="56" fill="#2457c5" opacity="0.18"/>
+  <circle cx="1148" cy="474" r="42" fill="#2457c5" opacity="0.28"/>
+</svg>

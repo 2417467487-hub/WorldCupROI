@@ -483,12 +483,9 @@ def main() -> None:
 
     team_profile.to_csv(DATA_DIR / "team_profile.csv", index=False)
     players.to_csv(DATA_DIR / "players.csv", index=False)
-    players.to_csv(DATA_DIR / "synthetic_players.csv", index=False)
     coaches.to_csv(DATA_DIR / "coaches.csv", index=False)
     sponsors.to_csv(DATA_DIR / "sponsors.csv", index=False)
-    sponsors.to_csv(DATA_DIR / "synthetic_sponsors.csv", index=False)
     matches.to_csv(DATA_DIR / "historical_matches.csv", index=False)
-    matches.to_csv(DATA_DIR / "synthetic_matches.csv", index=False)
     weather.to_csv(DATA_DIR / "weather.csv", index=False)
     social.to_csv(DATA_DIR / "social_media.csv", index=False)
     text.to_csv(DATA_DIR / "real_text_articles.csv", index=False)
@@ -496,7 +493,6 @@ def main() -> None:
     attention_timeseries.to_csv(DATA_DIR / "attention_timeseries.csv", index=False)
     relationship_network.to_csv(DATA_DIR / "relationship_network.csv", index=False)
     schedule.to_csv(DATA_DIR / "schedule_2026.csv", index=False)
-    schedule.to_csv(DATA_DIR / "wc2026_schedule_mock.csv", index=False)
     print(f"Saved real-source WorldCupROI data. Matches={len(matches)}, text_items={len(text)}, schedule_2026={len(schedule)}")
 
 
