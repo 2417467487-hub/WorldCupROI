@@ -22,6 +22,16 @@ Sports sponsorship teams rarely make decisions from one clean metric. A sponsor 
 
 WorldCupROI treats match prediction as context. The main business target is **sponsor ROI and decision quality**.
 
+## Background
+
+Major tournaments create a short, intense attention market. A brand may pay for sponsorship before the event, but the return depends on conditions that move quickly: match importance, team form, player availability, media framing, social attention, and the timing of sponsor activation.
+
+Traditional sports dashboards usually stop at match results or audience metrics. WorldCupROI connects those signals to a business question:
+
+> Which sponsorship strategy is likely to create measurable return, and how much risk does that decision carry?
+
+The project follows a style often seen in strong open-source analytics repositories: a clear problem statement, reproducible data pipeline, visual model explanation, benchmark results, and a dashboard that turns predictions into decisions.
+
 ## Innovation
 
 | Area | What the project adds |
@@ -45,6 +55,17 @@ real match data + real-source text + sponsor signals
         -> uncertainty and scenario engines
         -> dashboard, reports, recommendations
 ```
+
+## Model Visuals
+
+![Modeling pipeline](docs/assets/model_pipeline.svg)
+
+| Model view | Purpose |
+|---|---|
+| ![ROI feature importance](docs/assets/roi_feature_importance.svg) | Shows which business and sports signals drive ROI predictions |
+| ![ROI uncertainty intervals](docs/assets/roi_uncertainty_intervals.svg) | Shows prediction intervals instead of only point estimates |
+| ![Text embedding map](docs/assets/text_embedding_map.svg) | Shows reduced real-source text signals used for narrative and sentiment context |
+| ![Scenario ranking](docs/assets/scenario_ranking.svg) | Compares sponsor strategy simulations by expected ROI lift |
 
 ## Results
 
