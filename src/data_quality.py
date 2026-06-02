@@ -18,6 +18,8 @@ DATASETS = [
     "sponsors.csv",
     "weather.csv",
     "social_media.csv",
+    "real_text_articles.csv",
+    "text_embeddings_reduced.csv",
     "attention_timeseries.csv",
     "media_text_corpus.csv",
     "relationship_network.csv",

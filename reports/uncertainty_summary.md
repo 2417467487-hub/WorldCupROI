@@ -1,5 +1,5 @@
 # ROI Uncertainty Summary
 
 - Average negative ROI probability: 0.0
-- Average prediction interval width: 0.397
+- Average prediction interval width: 0.4
 - High-risk cases: 0

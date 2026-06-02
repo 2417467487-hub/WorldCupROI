@@ -6,7 +6,7 @@ The dataset layer supports an AI Sports Sponsorship Intelligence Platform. It is
 
 ## Current Data Strategy
 
-The repository ships with seeded mock data for reproducibility. The mock data follows public-data-compatible schemas so each file can be replaced by real datasets or API outputs.
+The repository now supports real-source ingestion first, with seeded mock generation retained only as a fallback. Real-source files are written to `data/raw/` and transformed into analysis-ready tables.
 
 Random seed: `42`
 
@@ -21,6 +21,8 @@ Random seed: `42`
 | `sponsors.csv` | team-sponsor | sponsor spend, ad exposure, brand heat, category, activation quality |
 | `weather.csv` | match | venue region, temperature, humidity, weather severity |
 | `social_media.csv` | match | mentions, reposts, video views, engagement, fan growth, sentiment, text signal |
+| `real_text_articles.csv` | text unit | real-source text units from public news metadata, Wikimedia text, match fact text, and overlapping evidence windows |
+| `text_embeddings_reduced.csv` | text unit | 24-dimensional reduced text features from hashed TF-IDF |
 | `attention_timeseries.csv` | match-day | attention, engagement, and sentiment before/after match day |
 | `media_text_corpus.csv` | match-text | narrative topic, sample headline, sentiment, text signal score |
 | `relationship_network.csv` | edge | sponsor-team and player-team relationship graph |
@@ -33,6 +35,7 @@ Random seed: `42`
 |---|---|
 | Tabular | structured sports, sponsor, weather, and ROI features |
 | Text | narrative topic and sentiment signal for media framing |
+| Reduced text embeddings | large-scale text features for clustering, dashboard display, and downstream modeling |
 | Time series | attention movement before and after matches |
 | Network | sponsor-team-player influence relationships |
 
@@ -40,18 +43,18 @@ Random seed: `42`
 
 The following real-data connectors can be added without changing the overall project design:
 
-- match data: FIFA records, Kaggle World Cup datasets
+- match data: `martj42/international_results` public CSV, FIFA records, Kaggle World Cup datasets
 - schedule data: official 2026 tournament schedule
 - weather data: Open-Meteo, Meteostat, NOAA
 - player data: Transfermarkt-style values, FBref, public player datasets
 - injury data: team announcements, news APIs
 - sponsor data: annual reports, sponsorship announcements, ad intelligence platforms
 - social data: YouTube, Instagram, X/Twitter, Google Trends
-- news text: NewsAPI, GDELT, sponsor press releases
+- news text: GDELT, Wikimedia, NewsAPI, sponsor press releases
 
 ## Known Limitations
 
-- Mock sponsorship spend and ROI are simulated and should not be interpreted as real commercial performance.
-- Sentiment and text signals are simplified placeholders for future NLP models.
+- Exact sponsorship spend and ROI remain proxy targets unless paid commercial sponsorship datasets are connected.
+- Text content is real-source, but sentiment scoring is a lightweight lexicon baseline.
 - Relationship-network edges are synthetic and are meant to demonstrate graph-data readiness.
 - Real deployment should add data validation, source licensing checks, and API refresh jobs.

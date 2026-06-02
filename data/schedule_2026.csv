@@ -1,65 +1,73 @@
-match_id,year,team_a,team_b,stage,host_city,scheduled_month
-1001,2026,Australia,Germany,group,New York,July
-1002,2026,USA,France,group,Mexico City,June
-1003,2026,Saudi Arabia,South Korea,group,New York,July
-1004,2026,Mexico,Belgium,group,Miami,July
-1005,2026,Senegal,Saudi Arabia,group,Mexico City,June
-1006,2026,Uruguay,Netherlands,group,Los Angeles,July
-1007,2026,South Korea,Australia,group,Toronto,June
-1008,2026,Netherlands,Brazil,group,Miami,July
-1009,2026,South Korea,Netherlands,group,Dallas,June
-1010,2026,Portugal,Nigeria,group,Mexico City,July
-1011,2026,Senegal,Argentina,group,Toronto,June
-1012,2026,Portugal,Netherlands,group,Miami,June
-1013,2026,Uruguay,Belgium,group,Miami,June
-1014,2026,Australia,USA,group,Toronto,June
-1015,2026,Portugal,Canada,group,Los Angeles,July
-1016,2026,Canada,Mexico,group,Vancouver,July
-1017,2026,Saudi Arabia,France,group,Los Angeles,June
-1018,2026,Morocco,Australia,group,Mexico City,July
-1019,2026,Croatia,Spain,group,Mexico City,June
-1020,2026,Canada,Netherlands,group,New York,June
-1021,2026,Croatia,USA,group,Vancouver,July
-1022,2026,South Korea,Spain,group,Mexico City,July
-1023,2026,USA,Nigeria,group,Los Angeles,July
-1024,2026,Japan,Uruguay,group,Miami,July
-1025,2026,Ghana,Argentina,group,Vancouver,July
-1026,2026,Morocco,Japan,group,Los Angeles,June
-1027,2026,Senegal,Spain,group,New York,July
-1028,2026,Spain,Mexico,group,Toronto,July
-1029,2026,Portugal,Argentina,group,Mexico City,July
-1030,2026,Nigeria,Senegal,group,Toronto,July
-1031,2026,Argentina,South Korea,group,Vancouver,June
-1032,2026,Ghana,Mexico,group,Los Angeles,June
-1033,2026,South Korea,Japan,group,Los Angeles,June
-1034,2026,Australia,Mexico,group,Toronto,July
-1035,2026,France,USA,group,Toronto,July
-1036,2026,Ghana,Japan,group,Dallas,July
-1037,2026,South Korea,Mexico,group,Mexico City,June
-1038,2026,Belgium,Brazil,group,Miami,July
-1039,2026,Croatia,Portugal,group,Vancouver,June
-1040,2026,Germany,Japan,group,New York,July
-1041,2026,Germany,Belgium,group,Toronto,July
-1042,2026,Germany,South Korea,group,Mexico City,July
-1043,2026,South Korea,Canada,group,Los Angeles,June
-1044,2026,Qatar,England,group,Toronto,July
-1045,2026,Uruguay,France,group,Miami,July
-1046,2026,Netherlands,Australia,group,Toronto,June
-1047,2026,France,England,group,Los Angeles,July
-1048,2026,Croatia,Portugal,group,Los Angeles,July
-1049,2026,Mexico,Qatar,knockout,New York,July
-1050,2026,Saudi Arabia,Brazil,knockout,Dallas,July
-1051,2026,Canada,Portugal,knockout,Los Angeles,June
-1052,2026,Portugal,Australia,knockout,Dallas,July
-1053,2026,Croatia,Netherlands,knockout,Los Angeles,July
-1054,2026,Portugal,France,knockout,Miami,July
-1055,2026,Italy,Nigeria,knockout,Dallas,July
-1056,2026,Argentina,USA,knockout,Toronto,June
-1057,2026,Germany,France,knockout,New York,June
-1058,2026,France,Qatar,knockout,Mexico City,June
-1059,2026,Saudi Arabia,England,knockout,Dallas,June
-1060,2026,Croatia,Spain,knockout,Mexico City,June
-1061,2026,Brazil,Croatia,knockout,Toronto,June
-1062,2026,Portugal,Belgium,knockout,Vancouver,July
-1063,2026,Belgium,Argentina,knockout,Miami,June
-1064,2026,Senegal,France,knockout,Dallas,July
+match_id,date,year,team_a,team_b,host_city,host_country,neutral,stage,scheduled_month
+965,2026-06-11,2026,Mexico,South Africa,Mexico City,Mexico,False,group,June
+966,2026-06-11,2026,South Korea,Czech Republic,Zapopan,Mexico,True,group,June
+967,2026-06-12,2026,Canada,Bosnia and Herzegovina,Toronto,Canada,False,group,June
+968,2026-06-12,2026,United States,Paraguay,Inglewood,United States,False,group,June
+969,2026-06-13,2026,Qatar,Switzerland,Santa Clara,United States,True,group,June
+970,2026-06-13,2026,Brazil,Morocco,East Rutherford,United States,True,group,June
+971,2026-06-13,2026,Haiti,Scotland,Foxborough,United States,True,group,June
+972,2026-06-13,2026,Australia,Turkey,Vancouver,Canada,True,group,June
+973,2026-06-14,2026,Germany,Curaçao,Houston,United States,True,group,June
+974,2026-06-14,2026,Ivory Coast,Ecuador,Philadelphia,United States,True,group,June
+975,2026-06-14,2026,Netherlands,Japan,Arlington,United States,True,group,June
+976,2026-06-14,2026,Sweden,Tunisia,Guadalupe,Mexico,True,group,June
+977,2026-06-15,2026,Belgium,Egypt,Seattle,United States,True,group,June
+978,2026-06-15,2026,Iran,New Zealand,Inglewood,United States,True,group,June
+979,2026-06-15,2026,Spain,Cape Verde,Atlanta,United States,True,group,June
+980,2026-06-15,2026,Saudi Arabia,Uruguay,Miami Gardens,United States,True,group,June
+981,2026-06-16,2026,France,Senegal,East Rutherford,United States,True,group,June
+982,2026-06-16,2026,Iraq,Norway,Foxborough,United States,True,group,June
+983,2026-06-16,2026,Argentina,Algeria,Kansas City,United States,True,group,June
+984,2026-06-16,2026,Austria,Jordan,Santa Clara,United States,True,group,June
+985,2026-06-17,2026,Portugal,DR Congo,Houston,United States,True,group,June
+986,2026-06-17,2026,Uzbekistan,Colombia,Mexico City,Mexico,True,group,June
+987,2026-06-17,2026,England,Croatia,Arlington,United States,True,group,June
+988,2026-06-17,2026,Ghana,Panama,Toronto,Canada,True,group,June
+989,2026-06-18,2026,Czech Republic,South Africa,Atlanta,United States,True,group,June
+990,2026-06-18,2026,Mexico,South Korea,Zapopan,Mexico,False,group,June
+991,2026-06-18,2026,Switzerland,Bosnia and Herzegovina,Inglewood,United States,True,group,June
+992,2026-06-18,2026,Canada,Qatar,Vancouver,Canada,False,group,June
+993,2026-06-19,2026,Scotland,Morocco,Foxborough,United States,True,group,June
+994,2026-06-19,2026,Brazil,Haiti,Philadelphia,United States,True,group,June
+995,2026-06-19,2026,United States,Australia,Seattle,United States,False,group,June
+996,2026-06-19,2026,Turkey,Paraguay,Santa Clara,United States,True,group,June
+997,2026-06-20,2026,Germany,Ivory Coast,Toronto,Canada,True,group,June
+998,2026-06-20,2026,Ecuador,Curaçao,Kansas City,United States,True,group,June
+999,2026-06-20,2026,Netherlands,Sweden,Houston,United States,True,group,June
+1000,2026-06-20,2026,Tunisia,Japan,Guadalupe,Mexico,True,group,June
+1001,2026-06-21,2026,Belgium,Iran,Inglewood,United States,True,group,June
+1002,2026-06-21,2026,New Zealand,Egypt,Vancouver,Canada,True,group,June
+1003,2026-06-21,2026,Spain,Saudi Arabia,Atlanta,United States,True,group,June
+1004,2026-06-21,2026,Uruguay,Cape Verde,Miami Gardens,United States,True,group,June
+1005,2026-06-22,2026,France,Iraq,Philadelphia,United States,True,group,June
+1006,2026-06-22,2026,Norway,Senegal,East Rutherford,United States,True,group,June
+1007,2026-06-22,2026,Argentina,Austria,Arlington,United States,True,group,June
+1008,2026-06-22,2026,Jordan,Algeria,Santa Clara,United States,True,group,June
+1009,2026-06-23,2026,Portugal,Uzbekistan,Houston,United States,True,group,June
+1010,2026-06-23,2026,Colombia,DR Congo,Zapopan,Mexico,True,group,June
+1011,2026-06-23,2026,England,Ghana,Foxborough,United States,True,group,June
+1012,2026-06-23,2026,Panama,Croatia,Toronto,Canada,True,group,June
+1013,2026-06-24,2026,Mexico,Czech Republic,Mexico City,Mexico,False,group,June
+1014,2026-06-24,2026,South Africa,South Korea,Guadalupe,Mexico,True,group,June
+1015,2026-06-24,2026,Canada,Switzerland,Vancouver,Canada,False,group,June
+1016,2026-06-24,2026,Bosnia and Herzegovina,Qatar,Seattle,United States,True,group,June
+1017,2026-06-24,2026,Scotland,Brazil,Miami Gardens,United States,True,group,June
+1018,2026-06-24,2026,Morocco,Haiti,Atlanta,United States,True,group,June
+1019,2026-06-25,2026,United States,Turkey,Inglewood,United States,False,group,June
+1020,2026-06-25,2026,Paraguay,Australia,Santa Clara,United States,True,group,June
+1021,2026-06-25,2026,Curaçao,Ivory Coast,Philadelphia,United States,True,group,June
+1022,2026-06-25,2026,Ecuador,Germany,East Rutherford,United States,True,group,June
+1023,2026-06-25,2026,Japan,Sweden,Arlington,United States,True,group,June
+1024,2026-06-25,2026,Tunisia,Netherlands,Kansas City,United States,True,group,June
+1025,2026-06-26,2026,Egypt,Iran,Seattle,United States,True,group,June
+1026,2026-06-26,2026,New Zealand,Belgium,Vancouver,Canada,True,group,June
+1027,2026-06-26,2026,Cape Verde,Saudi Arabia,Houston,United States,True,group,June
+1028,2026-06-26,2026,Uruguay,Spain,Zapopan,Mexico,True,group,June
+1029,2026-06-26,2026,Norway,France,Foxborough,United States,True,group,June
+1030,2026-06-26,2026,Senegal,Iraq,Toronto,Canada,True,group,June
+1031,2026-06-27,2026,Algeria,Austria,Kansas City,United States,True,group,June
+1032,2026-06-27,2026,Jordan,Argentina,Arlington,United States,True,group,June
+1033,2026-06-27,2026,Colombia,Portugal,Miami Gardens,United States,True,group,June
+1034,2026-06-27,2026,DR Congo,Uzbekistan,Atlanta,United States,True,group,June
+1035,2026-06-27,2026,Panama,England,East Rutherford,United States,True,group,June
+1036,2026-06-27,2026,Croatia,Ghana,Philadelphia,United States,True,group,June

@@ -21,6 +21,7 @@ jobs:
           python src/preprocess.py
           python src/feature_builder.py
           python src/advanced_features.py
+          python src/text_dimensionality.py
           python src/data_quality.py
           python src/train_match_model.py
           python src/train_roi_model.py

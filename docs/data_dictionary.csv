@@ -52,6 +52,16 @@ attention_timeseries.csv,sentiment_score,Daily sentiment score
 media_text_corpus.csv,sample_headline,Sample media headline or narrative sentence
 media_text_corpus.csv,narrative_topic,Topic label for media narrative
 media_text_corpus.csv,text_signal_score,Text signal score for modeling
+real_text_articles.csv,text_id,Unique text unit identifier
+real_text_articles.csv,source,Real-source type such as GDELT Wikimedia chunk match fact or real text window
+real_text_articles.csv,title,Collected title text chunk or real fact text
+real_text_articles.csv,url,Source URL for traceability
+real_text_articles.csv,domain,Source domain
+real_text_articles.csv,published_at,Published or revision timestamp when available
+text_embeddings_reduced.csv,text_svd_01,First reduced text dimension from hashed TF-IDF
+text_embeddings_reduced.csv,text_svd_02,Second reduced text dimension from hashed TF-IDF
+text_embeddings_reduced.csv,text_x,Dashboard-ready text x coordinate
+text_embeddings_reduced.csv,text_y,Dashboard-ready text y coordinate
 relationship_network.csv,source,Source node in sponsor-team-player graph
 relationship_network.csv,target,Target node in sponsor-team-player graph
 relationship_network.csv,edge_type,Relationship type
