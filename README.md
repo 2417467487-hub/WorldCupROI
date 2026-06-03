@@ -2,7 +2,7 @@
 
 **AI Sports Sponsorship Intelligence Platform**
 
-WorldCupROI is not a simple World Cup match-result predictor. It combines match performance, media narratives, fan influence, sponsor investment, and uncertainty risk into a sponsor ROI decision platform.
+WorldCupROI turns the World Cup attention market into a sponsorship decision engine. It is not a simple match-result predictor: it blends match performance, media narratives, fan influence, sponsor investment, and uncertainty risk into one ROI decision platform.
 
 [![CI](https://github.com/2417467487-hub/WorldCupROI/actions/workflows/ci.yml/badge.svg)](https://github.com/2417467487-hub/WorldCupROI/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.11-2457c5)
@@ -31,25 +31,25 @@ WorldCupROI is not a simple World Cup match-result predictor. It combines match 
 | ROI interval coverage | 0.8814 |
 | Average negative ROI probability | 0.0000 |
 
-中文概览：WorldCupROI 不是单纯预测世界杯胜负，而是将比赛表现、真实文本、赞助曝光、粉丝影响力和 ROI 风险建模整合为体育赞助商业智能平台。
+**Chinese summary:** WorldCupROI 不是单纯预测世界杯胜负，而是把比赛表现、真实文本信号、赞助曝光、粉丝影响力与 ROI 风险整合为体育赞助商业智能平台。
 
 ## 10-Second Overview
 
-| What it does | Why it matters |
-|---|---|
-| Predicts sponsor ROI | Moves beyond match prediction into commercial decision support. |
-| Uses real-source text | Adds media narratives and sponsor news context beyond tabular sports data. |
-| Quantifies uncertainty | Reports ROI intervals, coverage, variance, and negative ROI probability. |
-| Simulates strategies | Tests sponsor spend, media exposure, player availability, weather, and tournament stage changes. |
-| Ships a dashboard | Organizes decisions through Discover -> Explain -> Predict -> Simulate -> Recommend. |
+| Capability | Output | Business value |
+|---|---|---|
+| Sponsor ROI prediction | Expected ROI, ROI lift, ranking | Moves beyond match prediction into commercial decision support. |
+| Real-source text signals | Media heat, narrative momentum, text embeddings | Captures attention shifts that tabular sports data misses. |
+| Uncertainty quantification | Prediction intervals, coverage, negative ROI probability | Makes sponsorship decisions risk-aware instead of point-estimate driven. |
+| Scenario simulation | Spend, exposure, player, weather, stage changes | Tests strategy before campaign money is committed. |
+| Interactive dashboard | Discover -> Explain -> Predict -> Simulate -> Recommend | Turns model outputs into a repeatable business workflow. |
 
 ## Results Showcase
 
-The project presents results before implementation details so that sponsors, analysts, and reviewers can quickly see what the platform produces.
+Results come first because sponsorship teams need to see the business signal before reading the engineering stack. The tables are intentionally kept compact and consistent so they render cleanly on GitHub.
 
 ### Results Overview
 
-| Area | Output | Current value | Decision meaning |
+| Area | Metric | Current value | Decision meaning |
 |---|---|---:|---|
 | Match prediction | Accuracy | 0.5566 | Baseline signal for team outcome probability. |
 | Match prediction | Log loss | 0.9780 | Measures probability calibration quality. |
@@ -61,23 +61,23 @@ The project presents results before implementation details so that sponsors, ana
 
 ### Model Performance Comparison
 
-| Task | Model | Primary metric | Score | Secondary metric | Secondary score | Notes |
-|---|---|---|---:|---|---:|---|
-| Match outcome | Centroid classifier | Accuracy | 0.5566 | Log loss | 0.9780 | Dependency-free baseline. |
-| Sponsor ROI | Ridge regression | R2 | 0.8687 | MAE | 0.1177 | Dependency-free baseline. |
-| Tabular modeling | XGBoost | Optional | N/A | N/A | N/A | Enable by installing `xgboost`. |
-| Tabular modeling | LightGBM | Optional | N/A | N/A | N/A | Enable by installing `lightgbm`. |
-| Categorical modeling | CatBoost | Optional | N/A | N/A | N/A | Enable by installing `catboost`. |
+| Task | Model | Metrics | Status |
+|---|---|---|---|
+| Match outcome | Centroid classifier | Accuracy 0.5566, Log loss 0.9780 | Reproducible baseline |
+| Sponsor ROI | Ridge regression | R2 0.8687, MAE 0.1177 | Reproducible baseline |
+| Tabular modeling | XGBoost | Accuracy, Log loss, feature gain | Optional package |
+| Tabular modeling | LightGBM | Accuracy, Log loss, feature gain | Optional package |
+| Categorical modeling | CatBoost | Accuracy, Log loss, categorical splits | Optional package |
 
 ### ROI Feature Importance / SHAP
 
 ![ROI feature importance](docs/assets/roi_feature_importance.svg)
 
-What it shows: Figure 1 ranks the strongest drivers of predicted sponsor ROI, including brand heat, team strength, sponsor spend, ad exposure, sponsor-team fit, and commercial momentum.
+**What it shows:** Figure 1 ranks the strongest drivers of predicted sponsor ROI, including brand heat, team strength, sponsor spend, ad exposure, sponsor-team fit, and commercial momentum.
 
-Why it matters: Sponsor value is driven by both football performance and attention dynamics, so ROI cannot be explained by match results alone.
+**Why it matters:** Sponsor value is driven by both football performance and attention dynamics, so ROI cannot be explained by match results alone.
 
-Business takeaway: Brands should evaluate team strength together with media exposure, fan attention, and sponsor-team fit before increasing campaign spend.
+**Business takeaway:** Brands should evaluate team strength together with media exposure, fan attention, and sponsor-team fit before increasing campaign spend.
 
 ### Sponsor ROI Ranking
 
@@ -89,11 +89,11 @@ Business takeaway: Brands should evaluate team strength together with media expo
 | 4 | Visa | 1030.583 | 236 | 2.2021 |
 | 5 | Hisense | 787.907 | 185 | 2.1411 |
 
-What it shows: The sponsor ranking summarizes commercial network influence across team, player, sponsor, and match relationships.
+**What it shows:** The sponsor ranking summarizes commercial network influence across team, player, sponsor, and match relationships.
 
-Why it matters: Sponsors with broader and stronger network positions are more likely to convert event attention into measurable commercial value.
+**Why it matters:** Sponsors with broader and stronger network positions are more likely to convert event attention into measurable commercial value.
 
-Business takeaway: Sponsorship planning should prioritize both spend level and network fit, not only brand size.
+**Business takeaway:** Sponsorship planning should prioritize both spend level and network fit, not only brand size.
 
 ### Scenario ROI Lift
 
@@ -106,11 +106,11 @@ Business takeaway: Sponsorship planning should prioritize both spend level and n
 | C_sponsor_upgrade | 3.613 | -0.238 | -6.206% |
 | D_media_cooling | 3.643 | -0.207 | -5.396% |
 
-What it shows: Figure 2 compares baseline ROI with counterfactual scenarios such as player absence, sponsor activation change, and media cooling.
+**What it shows:** Figure 2 compares baseline ROI with counterfactual scenarios such as player absence, sponsor activation change, and media cooling.
 
-Why it matters: Sponsorship ROI is sensitive to player availability and attention shocks.
+**Why it matters:** Sponsorship ROI is sensitive to player availability and attention shocks.
 
-Business takeaway: Scenario planning should be part of sponsor budget allocation before tournament exposure peaks.
+**Business takeaway:** Scenario planning should be part of sponsor budget allocation before tournament exposure peaks.
 
 ### Prediction Interval / Conformal Prediction
 
@@ -121,56 +121,56 @@ Business takeaway: Scenario planning should be part of sponsor budget allocation
 | Match prediction sets | 0.9021 | 2.3814 | 0.8110 |
 | ROI prediction intervals | 0.8814 | 0.4708 | 0.2354 |
 
-What it shows: Figure 3 shows prediction intervals and conformal coverage for match outcomes and ROI estimates.
+**What it shows:** Figure 3 shows prediction intervals and conformal coverage for match outcomes and ROI estimates.
 
-Why it matters: Decision makers need ranges and reliability estimates, not only point predictions.
+**Why it matters:** Decision makers need ranges and reliability estimates, not only point predictions.
 
-Business takeaway: Sponsors can use interval width and coverage as risk controls before approving higher spend.
+**Business takeaway:** Sponsors can use interval width and coverage as risk controls before approving higher spend.
 
 ### Monte Carlo Risk Distribution
 
-| Risk metric | Current value |
-|---|---:|
-| Average negative ROI probability | 0.0000 |
-| Average interval width | 0.4340 |
-| Average Monte Carlo standard deviation | 0.1320 |
-| Medium-risk cases | 119 |
-| High-risk cases | 0 |
+| Risk signal | Current value | Decision use |
+|---|---:|---|
+| Average negative ROI probability | 0.0000 | Downside screen for sponsor scenarios. |
+| Average interval width | 0.4340 | Confidence band for ROI planning. |
+| Average Monte Carlo standard deviation | 0.1320 | Volatility signal under scenario perturbation. |
+| Medium-risk cases | 119 | Cases needing additional review. |
+| High-risk cases | 0 | Current generated panel has no high-risk cases. |
 
-What it shows: The risk summary combines bootstrap intervals, Monte Carlo perturbation, and variance-based risk scoring.
+**What it shows:** The risk summary combines bootstrap intervals, Monte Carlo perturbation, and variance-based risk scoring.
 
-Why it matters: ROI forecasts are more useful when the downside distribution is visible.
+**Why it matters:** ROI forecasts are more useful when the downside distribution is visible.
 
-Business takeaway: Sponsors should compare expected ROI with risk score and interval width before selecting a campaign scenario.
+**Business takeaway:** Sponsors should compare expected ROI with risk score and interval width before selecting a campaign scenario.
 
 ### Text Signal Projection
 
 ![Text signal projection](docs/assets/text_embedding_map.svg)
 
-What it shows: Figure 4 projects real-source text signals from GDELT and Wikimedia into reduced dimensions for modeling.
+**What it shows:** Figure 4 projects real-source text signals from GDELT and Wikimedia into reduced dimensions for modeling.
 
-Why it matters: Media narratives and sponsor news can change commercial momentum before the match result is known.
+**Why it matters:** Media narratives and sponsor news can change commercial momentum before the match result is known.
 
-Business takeaway: Text evidence should be treated as an early signal for sponsor attention and campaign timing.
+**Business takeaway:** Text evidence should be treated as an early signal for sponsor attention and campaign timing.
 
 ### Sponsor-Team-Player Network
 
-| Network output | Current value |
-|---|---:|
-| Graph edges | 6112 |
-| Graph nodes | 1394 |
-| Top sponsor by influence | Hyundai |
-| Top sponsor influence score | 1261.417 |
+| Network signal | Current value | Decision use |
+|---|---:|---|
+| Graph edges | 6112 | Relationship density across sports and sponsor entities. |
+| Graph nodes | 1394 | Scale of the commercial network. |
+| Top sponsor by influence | Hyundai | Current strongest sponsor-network position. |
+| Top sponsor influence score | 1261.417 | Comparable influence score for ranking. |
 
-What it shows: The graph layer connects teams, players, sponsors, and matches into a weighted commercial network.
+**What it shows:** The graph layer connects teams, players, sponsors, and matches into a weighted commercial network.
 
-Why it matters: Sponsorship effectiveness depends on relationships among brands, teams, players, and event attention.
+**Why it matters:** Sponsorship effectiveness depends on relationships among brands, teams, players, and event attention.
 
-Business takeaway: Network centrality can help identify sponsors with stronger activation leverage.
+**Business takeaway:** Network centrality can help identify sponsors with stronger activation leverage.
 
 ## Problem
 
-Sports sponsorship is expensive, time-sensitive, and hard to evaluate. A brand may invest before the event, but the return depends on shifting conditions:
+Sports sponsorship is a race against a moving attention market. A brand often invests before the tournament story is fully written, while the return depends on conditions that can change within hours:
 
 - Match importance and tournament stage.
 - Team strength and player availability.
@@ -179,11 +179,11 @@ Sports sponsorship is expensive, time-sensitive, and hard to evaluate. A brand m
 - Weather, venue, and home/away context.
 - News narratives and public sentiment.
 
-Most sports analytics projects stop at predicting who wins. WorldCupROI treats match probability as one input into a broader sponsor ROI, risk, and recommendation system.
+Most sports analytics projects stop at predicting who wins. WorldCupROI treats match probability as only one signal inside a broader sponsor ROI, risk, and recommendation system.
 
 ## Why It Matters
 
-Major tournaments create a compressed attention market. Sponsors need to make decisions before all information is known, and poor timing can turn a high-profile campaign into low return.
+Major tournaments compress global attention into a short decision window. Sponsors need to act before all information is known, and poor timing can turn a high-profile campaign into weak commercial return.
 
 | Audience | Value |
 |---|---|
@@ -191,7 +191,7 @@ Major tournaments create a compressed attention market. Sponsors need to make de
 | ML and data science reviewers | Inspect reproducible modeling, feature engineering, and uncertainty outputs. |
 | Researchers | Study how sports performance, media attention, sentiment, and sponsorship signals interact. |
 
-The goal is to connect predictions to business decisions, not to build a decorative dashboard.
+The goal is to connect predictions to business decisions: what to sponsor, when to activate, where the upside is, and how much risk sits behind the headline ROI.
 
 ## Key Innovations
 
@@ -234,35 +234,76 @@ Commercial metrics such as exact sponsor spend are proxy-derived where public co
 
 ## Architecture
 
+```mermaid
+flowchart LR
+    A["Historical matches<br/>1930-2022"] --> F["Unified Feature Store"]
+    B["2026 schedule<br/>stage + venue"] --> F
+    C["Sponsors<br/>spend + exposure"] --> F
+    D["Players + coaches<br/>ability + experience"] --> F
+    E["Real-source text<br/>GDELT + Wikimedia"] --> F
+    W["Weather + home/away<br/>context"] --> F
+
+    F --> M["Match Outcome Model<br/>win/draw/loss probability"]
+    F --> R["Sponsor ROI Model<br/>commercial return regression"]
+    F --> G["Graph Intelligence<br/>team-player-sponsor-match network"]
+
+    M --> C1["Conformal Prediction<br/>coverage + prediction sets"]
+    R --> U["Uncertainty Engine<br/>bootstrap + Monte Carlo"]
+    G --> I["Influence Scores<br/>sponsor + player centrality"]
+
+    C1 --> S["Insight Generator"]
+    U --> S
+    I --> S
+    S --> D1["Dashboard<br/>Discover -> Explain -> Predict -> Simulate -> Recommend"]
+    S --> D2["Reports<br/>Markdown + PDF + CSV"]
+```
+
+This flow is the spine of the platform: data enters once, features are reused across models, and every prediction is routed through explanation, uncertainty, and business reporting before it reaches the dashboard.
+
 ![Architecture diagram](docs/assets/architecture.svg)
 
-What it shows: Figure 5 summarizes the platform architecture from data sources to features, models, uncertainty, report generation, and dashboard delivery.
+**What it shows:** Figure 5 summarizes the platform architecture from data sources to features, models, uncertainty, report generation, and dashboard delivery.
 
-Why it matters: The system is designed as a reproducible analytics platform rather than a one-off notebook.
+**Why it matters:** The system is designed as a reproducible analytics platform rather than a one-off notebook.
 
-Business takeaway: Sponsors can trace a recommendation back to data, features, models, and risk logic.
+**Business takeaway:** Sponsors can trace a recommendation back to data, features, models, and risk logic.
 
 ![Model architecture](docs/assets/model_pipeline.svg)
 
-What it shows: Figure 6 shows the modeling pipeline for match prediction, ROI prediction, uncertainty, and scenario analysis.
+**What it shows:** Figure 6 shows the modeling pipeline for match prediction, ROI prediction, uncertainty, and scenario analysis.
 
-Why it matters: Separating match outcome modeling from sponsor ROI modeling keeps the business target clear.
+**Why it matters:** Separating match outcome modeling from sponsor ROI modeling keeps the business target clear.
 
-Business takeaway: Match probability becomes one commercial input rather than the final product.
+**Business takeaway:** Match probability becomes one commercial input rather than the final product.
 
 ![Decision flow](docs/assets/decision_workflow.svg)
 
-What it shows: Figure 7 maps dashboard use to the business workflow Discover -> Explain -> Predict -> Simulate -> Recommend.
+```mermaid
+flowchart LR
+    D["Discover<br/>select team, sponsor, stage"] --> E["Explain<br/>inspect ROI drivers"]
+    E --> P["Predict<br/>match + ROI forecast"]
+    P --> S["Simulate<br/>spend, exposure, player status"]
+    S --> R["Recommend<br/>lift-risk tradeoff"]
+```
 
-Why it matters: Each module answers a decision question instead of presenting disconnected charts.
+**What it shows:** Figure 7 maps dashboard use to the business workflow Discover -> Explain -> Predict -> Simulate -> Recommend.
 
-Business takeaway: The dashboard supports repeated sponsor planning, not only static reporting.
+**Why it matters:** Each module answers a decision question instead of presenting disconnected charts.
+
+**Business takeaway:** The dashboard supports repeated sponsor planning, not only static reporting.
 
 ## Dashboard Gallery
 
-The dashboard is structured around a business decision sequence rather than a loose chart collection.
+The dashboard is structured around a business decision sequence rather than a loose chart collection. Each screen is designed to answer one sponsor question, then hand the user to the next decision.
 
-| Module | Preview |
+| Dashboard module | Main interaction | Decision value |
+|---|---|---|
+| Overview | KPI cards, ROI ranking, FanScore summary | Identify the strongest commercial opportunities quickly. |
+| Scenario simulation | Sponsor spend, media exposure, player status controls | See ROI move as strategy assumptions change. |
+| Risk analysis | Intervals, Monte Carlo distribution, negative ROI probability | Separate attractive upside from fragile forecasts. |
+| Network analysis | Sponsor-team-player graph and centrality ranking | Find brands and players with stronger activation leverage. |
+
+| Preview | GIF |
 |---|---|
 | Dashboard overview | ![Dashboard overview](assets/gifs/dashboard_overview.gif) |
 | Scenario simulation | ![Scenario simulation](assets/gifs/scenario_simulation.gif) |
@@ -273,13 +314,13 @@ Demo video:
 
 [![WorldCupROI demo video](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
 
-| Step | Decision question |
-|---|---|
-| Discover | Which teams, sponsors, stages, and years are being compared? |
-| Explain | Which features drive ROI and attention? |
-| Predict | What are the expected match and sponsorship outcomes? |
-| Simulate | How does ROI shift under sponsor, player, weather, and stage changes? |
-| Recommend | Which scenario has the best lift-risk tradeoff? |
+| Workflow step | Question answered | Output |
+|---|---|---|
+| Discover | Which teams, sponsors, stages, and years are being compared? | Filtered sponsor and match context. |
+| Explain | Which features drive ROI and attention? | ROI drivers, FanScore, SHAP-style ranking. |
+| Predict | What are the expected match and sponsorship outcomes? | Win/draw/loss probability and ROI estimate. |
+| Simulate | How does ROI shift under sponsor, player, weather, and stage changes? | Counterfactual ROI lift and risk movement. |
+| Recommend | Which scenario has the best lift-risk tradeoff? | Strategy ranking and business recommendation. |
 
 Static dashboard:
 
