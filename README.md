@@ -202,7 +202,7 @@ Commercial metrics such as exact sponsor spend are proxy-derived where public co
 git clone https://github.com/2417467487-hub/WorldCupROI.git
 cd WorldCupROI
 python -m venv .venv
-.venv\Scripts\activate
+.venv\\Scripts\\activate
 pip install -r requirements.txt
 ```
 
@@ -216,6 +216,12 @@ source .venv/bin/activate
 
 ```bash
 python scripts/run_pipeline.py
+```
+
+Equivalent direct entrypoint:
+
+```bash
+python src/pipeline.py
 ```
 
 Makefile shortcuts:
@@ -234,10 +240,17 @@ python src/text_dimensionality.py
 python src/feature_builder.py
 python src/advanced_features.py
 python src/data_quality.py
+python src/model_registry.py
 python src/train_match_model.py
 python src/train_roi_model.py
+python src/explainability.py
 python src/uncertainty.py
+python src/conformal_prediction.py
+python src/graph_analysis.py
 python src/scenario_engine.py
+python src/ab_simulation.py
+python src/generative_report.py
+python src/report_generator.py
 python src/build_panel_data.py
 python src/build_plotly_dashboard.py
 ```

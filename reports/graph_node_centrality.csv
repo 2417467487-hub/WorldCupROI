@@ -1,0 +1,1395 @@
+node,degree,weighted_degree
+sponsor:Hyundai,536.0,1261.417
+sponsor:Adidas,468.0,1079.883
+sponsor:Coca-Cola,470.0,1046.33
+sponsor:Visa,468.0,1030.583
+sponsor:Hisense,368.0,787.907
+sponsor:Budweiser,362.0,775.724
+sponsor:McDonald's,368.0,725.071
+sponsor:Qatar Airways,326.0,647.604
+sponsor:Vivo,298.0,580.617
+sponsor:Mengniu,192.0,367.196
+team:Brazil,228.0,161.753
+team:Germany,224.0,156.382
+team:Argentina,176.0,133.198
+team:Italy,166.0,96.657
+team:Mexico,120.0,86.125
+team:Spain,134.0,84.907
+team:France,146.0,79.822
+team:England,148.0,75.46
+team:Belgium,102.0,72.747
+team:Netherlands,110.0,69.145
+team:Uruguay,118.0,62.242
+team:Russia,90.0,62.165
+team:Sweden,102.0,61.952
+team:Switzerland,82.0,55.357
+team:Poland,76.0,45.968
+team:Hungary,64.0,42.664
+team:Croatia,60.0,41.706
+team:Chile,66.0,37.831
+team:South Korea,76.0,36.965
+team:Czechoslovakia,60.0,34.759
+team:Paraguay,54.0,33.312
+team:United States,74.0,31.898
+team:Denmark,46.0,31.871
+team:Japan,50.0,30.826
+team:Portugal,70.0,30.199
+team:Cameroon,52.0,29.42
+team:Bulgaria,52.0,28.137
+team:Costa Rica,42.0,27.57
+team:Scotland,46.0,26.826
+team:Austria,58.0,25.697
+team:Australia,40.0,24.039
+team:Yugoslavia,66.0,23.243
+team:Tunisia,36.0,22.864
+team:Saudi Arabia,38.0,22.777
+team:Iran,36.0,21.604
+team:Nigeria,42.0,21.394
+team:Peru,36.0,21.293
+Uruguay,4.0,20.704
+Belgium,4.0,19.463
+Spain,4.0,18.812
+team:Morocco,46.0,18.785
+Denmark,4.0,17.856
+Croatia,4.0,17.818
+Argentina,4.0,17.566
+France,4.0,17.525
+Brazil,4.0,16.379
+team:Serbia,32.0,16.366
+Germany,4.0,16.324
+team:Colombia,44.0,16.188
+Switzerland,4.0,16.185
+team:Romania,42.0,16.134
+Scotland,4.0,16.068
+Hungary,4.0,16.065
+England,4.0,15.522
+Turkey,4.0,15.231
+Costa Rica,4.0,15.154
+Chile,4.0,14.81
+team:Algeria,26.0,14.372
+Serbia,4.0,14.015
+Mexico,4.0,13.993
+Austria,4.0,13.827
+team:Senegal,24.0,13.705
+Peru,4.0,13.561
+Poland,4.0,13.425
+Russia,4.0,13.37
+Paraguay,4.0,13.335
+Ecuador,4.0,13.091
+Sweden,4.0,12.731
+Netherlands,4.0,12.671
+team:Ghana,30.0,12.304
+Czechoslovakia,4.0,11.928
+South Korea,4.0,11.764
+Morocco,4.0,11.669
+Italy,4.0,11.6
+United States,4.0,11.464
+Algeria,4.0,11.395
+Portugal,4.0,11.299
+German DR,4.0,11.149
+team:Northern Ireland,26.0,11.007
+team:Ecuador,26.0,10.952
+South Africa,4.0,10.738
+Tunisia,4.0,10.73
+team:Republic of Ireland,26.0,10.661
+team:Greece,20.0,10.571
+Republic of Ireland,4.0,10.464
+Spain team_attack_unit,1.0,10.417
+match_896,4.0,10.315
+Iran,4.0,10.286
+match_837,4.0,10.252
+Cameroon,4.0,10.2
+match_398,4.0,10.163
+match_789,4.0,10.162
+match_869,4.0,10.156
+Saudi Arabia,4.0,10.151
+match_833,4.0,10.097
+match_726,4.0,10.074
+match_501,4.0,10.073
+match_964,4.0,10.04
+match_835,4.0,9.992
+Japan,4.0,9.97
+match_887,4.0,9.957
+match_665,4.0,9.901
+match_312,4.0,9.888
+match_922,4.0,9.86
+match_846,4.0,9.856
+match_544,4.0,9.852
+match_859,4.0,9.846
+match_582,4.0,9.837
+match_645,4.0,9.809
+match_865,4.0,9.808
+match_853,4.0,9.807
+match_909,4.0,9.798
+Yugoslavia,4.0,9.79
+match_770,4.0,9.774
+match_773,4.0,9.771
+match_760,4.0,9.762
+Northern Ireland,4.0,9.75
+match_303,4.0,9.723
+match_693,4.0,9.721
+match_905,4.0,9.719
+match_950,4.0,9.716
+match_545,4.0,9.712
+match_863,4.0,9.702
+match_954,4.0,9.698
+match_961,4.0,9.686
+match_701,4.0,9.678
+match_836,4.0,9.677
+match_328,4.0,9.677
+match_694,4.0,9.672
+match_767,4.0,9.668
+match_781,4.0,9.666
+match_715,4.0,9.632
+match_633,4.0,9.624
+match_759,4.0,9.62
+match_571,4.0,9.608
+match_894,4.0,9.604
+match_784,4.0,9.592
+match_575,4.0,9.577
+match_496,4.0,9.577
+match_847,4.0,9.574
+match_279,4.0,9.56
+match_322,4.0,9.543
+match_831,4.0,9.533
+match_475,4.0,9.529
+match_707,4.0,9.528
+match_280,4.0,9.52
+match_826,4.0,9.52
+match_806,4.0,9.515
+match_492,4.0,9.509
+match_561,4.0,9.507
+match_827,4.0,9.505
+match_659,4.0,9.504
+match_842,4.0,9.502
+match_644,4.0,9.496
+match_366,4.0,9.492
+match_889,4.0,9.49
+match_89,4.0,9.488
+match_357,4.0,9.486
+match_761,4.0,9.482
+match_647,4.0,9.48
+match_799,4.0,9.479
+match_418,4.0,9.475
+match_711,4.0,9.472
+match_601,4.0,9.464
+match_596,4.0,9.463
+match_569,4.0,9.45
+match_890,4.0,9.446
+match_351,4.0,9.441
+match_263,4.0,9.44
+match_678,4.0,9.438
+match_321,4.0,9.436
+match_261,4.0,9.435
+match_383,4.0,9.432
+match_335,4.0,9.431
+match_412,4.0,9.43
+match_625,4.0,9.423
+match_409,4.0,9.421
+match_558,4.0,9.415
+match_903,4.0,9.415
+match_703,4.0,9.414
+match_860,4.0,9.407
+match_800,4.0,9.404
+match_914,4.0,9.399
+match_735,4.0,9.391
+match_430,4.0,9.389
+match_930,4.0,9.389
+match_386,4.0,9.384
+match_573,4.0,9.38
+match_705,4.0,9.377
+match_527,4.0,9.363
+match_308,4.0,9.361
+match_499,4.0,9.359
+match_589,4.0,9.356
+match_910,4.0,9.352
+match_407,4.0,9.348
+match_272,4.0,9.344
+match_387,4.0,9.341
+match_829,4.0,9.338
+match_798,4.0,9.337
+match_295,4.0,9.33
+match_464,4.0,9.322
+match_899,4.0,9.32
+match_788,4.0,9.313
+match_207,4.0,9.312
+match_253,4.0,9.302
+match_92,4.0,9.299
+match_638,4.0,9.299
+match_531,4.0,9.297
+match_742,4.0,9.29
+match_821,4.0,9.29
+match_122,4.0,9.285
+match_301,4.0,9.283
+match_730,4.0,9.283
+match_476,4.0,9.278
+match_630,4.0,9.272
+match_565,4.0,9.268
+match_604,4.0,9.268
+match_517,4.0,9.263
+match_656,4.0,9.263
+match_364,4.0,9.261
+match_585,4.0,9.256
+match_434,4.0,9.251
+match_927,4.0,9.245
+match_400,4.0,9.237
+match_110,4.0,9.23
+match_173,4.0,9.228
+match_309,4.0,9.228
+match_595,4.0,9.219
+match_225,4.0,9.211
+match_171,4.0,9.207
+match_485,4.0,9.205
+match_415,4.0,9.203
+match_451,4.0,9.201
+match_700,4.0,9.198
+match_828,4.0,9.194
+match_399,4.0,9.193
+match_326,4.0,9.184
+match_70,4.0,9.182
+match_878,4.0,9.18
+match_460,4.0,9.179
+match_391,4.0,9.178
+match_297,4.0,9.176
+match_405,4.0,9.174
+match_10,4.0,9.174
+match_72,4.0,9.173
+match_102,4.0,9.17
+match_424,4.0,9.166
+match_219,4.0,9.165
+match_228,4.0,9.16
+match_720,4.0,9.159
+match_587,4.0,9.157
+match_336,4.0,9.154
+match_912,4.0,9.153
+match_230,4.0,9.152
+match_651,4.0,9.152
+match_880,4.0,9.144
+match_37,4.0,9.143
+match_871,4.0,9.142
+match_192,4.0,9.135
+team:Honduras,18.0,9.128
+match_270,4.0,9.125
+match_287,4.0,9.125
+match_81,4.0,9.123
+match_310,4.0,9.12
+match_229,4.0,9.118
+match_462,4.0,9.116
+match_417,4.0,9.115
+match_236,4.0,9.107
+match_437,4.0,9.106
+match_133,4.0,9.101
+match_185,4.0,9.1
+match_482,4.0,9.099
+match_118,4.0,9.098
+match_242,4.0,9.098
+match_928,4.0,9.097
+match_276,4.0,9.095
+match_465,4.0,9.093
+match_776,4.0,9.091
+match_699,4.0,9.09
+match_413,4.0,9.09
+match_145,4.0,9.089
+match_533,4.0,9.084
+match_251,4.0,9.084
+match_452,4.0,9.079
+match_265,4.0,9.075
+team:Ivory Coast,18.0,9.073
+match_347,4.0,9.07
+match_541,4.0,9.068
+match_443,4.0,9.061
+match_194,4.0,9.055
+match_299,4.0,9.053
+match_577,4.0,9.052
+match_445,4.0,9.049
+match_473,4.0,9.048
+match_795,4.0,9.046
+match_849,4.0,9.034
+match_156,4.0,9.032
+match_642,4.0,9.028
+Senegal,4.0,9.023
+match_549,4.0,9.018
+match_900,4.0,9.011
+match_787,4.0,9.008
+match_906,4.0,9.003
+match_440,4.0,9.002
+match_197,4.0,9.001
+match_431,4.0,8.995
+match_493,4.0,8.995
+match_274,4.0,8.995
+match_316,4.0,8.992
+match_206,4.0,8.992
+match_231,4.0,8.986
+match_96,4.0,8.98
+match_343,4.0,8.98
+match_19,4.0,8.98
+match_144,4.0,8.98
+match_725,4.0,8.975
+match_151,4.0,8.974
+match_232,4.0,8.969
+match_802,4.0,8.969
+match_771,4.0,8.967
+match_926,4.0,8.964
+match_54,4.0,8.963
+match_82,4.0,8.959
+match_557,4.0,8.951
+match_671,4.0,8.95
+match_368,4.0,8.943
+match_963,4.0,8.937
+match_768,4.0,8.932
+match_497,4.0,8.928
+match_271,4.0,8.926
+match_483,4.0,8.925
+match_680,4.0,8.92
+match_337,4.0,8.92
+match_307,4.0,8.919
+match_775,4.0,8.919
+match_379,4.0,8.91
+match_181,4.0,8.91
+match_95,4.0,8.904
+match_885,4.0,8.886
+match_305,4.0,8.883
+match_161,4.0,8.881
+match_943,4.0,8.88
+match_258,4.0,8.873
+match_908,4.0,8.87
+match_782,4.0,8.869
+match_556,4.0,8.869
+match_52,4.0,8.864
+match_958,4.0,8.861
+match_422,4.0,8.857
+match_101,4.0,8.854
+match_266,4.0,8.854
+match_769,4.0,8.84
+match_886,4.0,8.839
+team:Turkey,20.0,8.839
+match_792,4.0,8.832
+match_376,4.0,8.829
+match_217,4.0,8.827
+match_77,4.0,8.823
+match_940,4.0,8.821
+match_177,4.0,8.817
+Norway,4.0,8.814
+match_661,4.0,8.811
+match_888,4.0,8.81
+match_333,4.0,8.81
+match_44,4.0,8.802
+team:South Africa,18.0,8.801
+match_466,4.0,8.798
+match_80,4.0,8.797
+match_284,4.0,8.795
+match_245,4.0,8.795
+match_848,4.0,8.793
+match_227,4.0,8.791
+match_213,4.0,8.791
+match_895,4.0,8.79
+match_921,4.0,8.79
+match_626,4.0,8.788
+match_740,4.0,8.786
+match_783,4.0,8.784
+match_516,4.0,8.781
+match_925,4.0,8.781
+match_168,4.0,8.778
+match_397,4.0,8.778
+match_209,4.0,8.775
+match_153,4.0,8.77
+match_186,4.0,8.769
+match_590,4.0,8.767
+match_605,4.0,8.767
+match_289,4.0,8.763
+match_59,4.0,8.763
+match_470,4.0,8.762
+match_675,4.0,8.761
+match_74,4.0,8.758
+match_406,4.0,8.756
+match_507,4.0,8.754
+match_938,4.0,8.753
+match_444,4.0,8.752
+match_951,4.0,8.746
+match_763,4.0,8.744
+match_588,4.0,8.743
+match_898,4.0,8.74
+match_634,4.0,8.736
+match_269,4.0,8.728
+match_578,4.0,8.723
+match_16,4.0,8.716
+match_137,4.0,8.713
+match_609,4.0,8.712
+match_762,4.0,8.712
+match_949,4.0,8.705
+match_866,4.0,8.704
+match_811,4.0,8.703
+match_932,4.0,8.703
+match_15,4.0,8.701
+match_631,4.0,8.699
+match_486,4.0,8.694
+match_660,4.0,8.686
+match_553,4.0,8.685
+Uruguay team_attack_unit,1.0,8.684
+match_484,4.0,8.683
+match_138,4.0,8.68
+match_824,4.0,8.679
+match_290,4.0,8.676
+match_719,4.0,8.674
+match_216,4.0,8.674
+match_924,4.0,8.673
+match_913,4.0,8.67
+match_408,4.0,8.67
+match_852,4.0,8.67
+match_952,4.0,8.669
+match_131,4.0,8.669
+match_352,4.0,8.668
+match_941,4.0,8.662
+match_298,4.0,8.661
+match_602,4.0,8.66
+Romania,4.0,8.657
+match_154,4.0,8.655
+match_537,4.0,8.651
+match_751,4.0,8.647
+match_456,4.0,8.642
+match_350,4.0,8.642
+match_120,4.0,8.642
+match_97,4.0,8.641
+match_224,4.0,8.641
+match_757,4.0,8.64
+match_957,4.0,8.638
+match_29,4.0,8.636
+match_576,4.0,8.633
+match_257,4.0,8.629
+match_780,4.0,8.628
+match_750,4.0,8.627
+match_960,4.0,8.621
+match_844,4.0,8.621
+match_164,4.0,8.615
+match_764,4.0,8.614
+Ghana,4.0,8.607
+match_390,4.0,8.607
+match_679,4.0,8.607
+match_897,4.0,8.607
+match_21,4.0,8.605
+match_727,4.0,8.6
+match_382,4.0,8.596
+match_765,4.0,8.596
+match_116,4.0,8.59
+match_205,4.0,8.587
+match_807,4.0,8.585
+match_623,4.0,8.585
+match_603,4.0,8.584
+match_360,4.0,8.583
+match_937,4.0,8.582
+match_685,4.0,8.581
+match_526,4.0,8.576
+match_324,4.0,8.575
+match_579,4.0,8.574
+match_620,4.0,8.573
+match_540,4.0,8.57
+match_593,4.0,8.57
+Slovenia,4.0,8.568
+match_329,4.0,8.557
+match_850,4.0,8.55
+match_953,4.0,8.55
+match_5,4.0,8.548
+match_774,4.0,8.546
+match_753,4.0,8.545
+match_551,4.0,8.542
+match_867,4.0,8.538
+match_657,4.0,8.533
+match_502,4.0,8.526
+match_868,4.0,8.525
+match_893,4.0,8.525
+match_672,4.0,8.525
+match_433,4.0,8.524
+match_411,4.0,8.523
+match_356,4.0,8.522
+match_918,4.0,8.517
+match_143,4.0,8.516
+match_170,4.0,8.511
+match_180,4.0,8.508
+match_628,4.0,8.507
+match_772,4.0,8.506
+match_188,4.0,8.504
+match_146,4.0,8.5
+match_112,4.0,8.499
+match_36,4.0,8.497
+match_510,4.0,8.496
+match_521,4.0,8.494
+Bulgaria,4.0,8.49
+match_646,4.0,8.486
+match_805,4.0,8.48
+Argentina team_defense_unit,1.0,8.479
+match_136,4.0,8.479
+match_317,4.0,8.479
+match_666,4.0,8.477
+match_790,4.0,8.477
+match_756,4.0,8.476
+match_520,4.0,8.474
+match_683,4.0,8.473
+match_745,4.0,8.467
+match_115,4.0,8.465
+match_942,4.0,8.464
+match_515,4.0,8.463
+match_385,4.0,8.463
+match_233,4.0,8.462
+match_690,4.0,8.459
+match_874,4.0,8.459
+match_559,4.0,8.457
+match_22,4.0,8.457
+match_808,4.0,8.448
+match_891,4.0,8.446
+team:Wales,16.0,8.445
+match_884,4.0,8.443
+match_64,4.0,8.443
+match_135,4.0,8.442
+match_584,4.0,8.441
+match_106,4.0,8.438
+match_543,4.0,8.437
+match_530,4.0,8.436
+match_778,4.0,8.432
+match_629,4.0,8.429
+match_855,4.0,8.427
+match_504,4.0,8.425
+match_738,4.0,8.425
+match_608,4.0,8.423
+match_354,4.0,8.423
+match_881,4.0,8.42
+match_688,4.0,8.419
+match_718,4.0,8.415
+match_766,4.0,8.414
+match_363,4.0,8.413
+match_591,4.0,8.407
+match_632,4.0,8.407
+match_293,4.0,8.403
+match_830,4.0,8.396
+match_522,4.0,8.395
+match_635,4.0,8.395
+match_129,4.0,8.392
+match_915,4.0,8.392
+match_370,4.0,8.39
+match_812,4.0,8.388
+match_378,4.0,8.388
+match_88,4.0,8.384
+match_123,4.0,8.38
+match_201,4.0,8.38
+match_344,4.0,8.377
+match_710,4.0,8.376
+match_832,4.0,8.376
+match_288,4.0,8.372
+match_536,4.0,8.37
+match_825,4.0,8.366
+match_403,4.0,8.365
+match_334,4.0,8.363
+match_359,4.0,8.361
+match_698,4.0,8.356
+match_923,4.0,8.355
+match_870,4.0,8.354
+match_962,4.0,8.352
+match_505,4.0,8.352
+match_294,4.0,8.352
+match_567,4.0,8.349
+match_664,4.0,8.342
+match_708,4.0,8.34
+match_256,4.0,8.336
+match_124,4.0,8.335
+match_71,4.0,8.333
+match_653,4.0,8.329
+match_410,4.0,8.327
+match_49,4.0,8.326
+match_463,4.0,8.325
+match_637,4.0,8.325
+match_99,4.0,8.324
+match_858,4.0,8.323
+match_734,4.0,8.323
+match_677,4.0,8.322
+match_794,4.0,8.321
+match_346,4.0,8.32
+match_621,4.0,8.319
+match_581,4.0,8.318
+match_281,4.0,8.315
+Jamaica,4.0,8.311
+match_712,4.0,8.307
+match_374,4.0,8.305
+match_580,4.0,8.305
+match_674,4.0,8.304
+match_152,4.0,8.302
+match_840,4.0,8.3
+match_834,4.0,8.299
+match_667,4.0,8.299
+match_570,4.0,8.296
+match_454,4.0,8.292
+match_315,4.0,8.292
+match_238,4.0,8.29
+match_736,4.0,8.29
+match_389,4.0,8.288
+match_134,4.0,8.288
+match_841,4.0,8.286
+match_60,4.0,8.285
+match_797,4.0,8.281
+match_612,4.0,8.28
+Nigeria,4.0,8.28
+match_669,4.0,8.277
+match_474,4.0,8.274
+match_695,4.0,8.268
+match_165,4.0,8.264
+match_956,4.0,8.26
+match_702,4.0,8.26
+match_117,4.0,8.256
+Colombia,4.0,8.254
+match_509,4.0,8.252
+match_514,4.0,8.251
+match_525,4.0,8.248
+match_85,4.0,8.246
+team:Egypt,14.0,8.239
+match_404,4.0,8.239
+match_51,4.0,8.237
+match_845,4.0,8.236
+match_574,4.0,8.235
+match_907,4.0,8.228
+match_195,4.0,8.227
+Switzerland team_attack_unit,1.0,8.226
+match_200,4.0,8.226
+match_355,4.0,8.225
+match_268,4.0,8.223
+match_50,4.0,8.22
+match_353,4.0,8.22
+match_939,4.0,8.217
+match_654,4.0,8.217
+match_318,4.0,8.212
+match_176,4.0,8.212
+match_63,4.0,8.21
+match_69,4.0,8.207
+match_132,4.0,8.205
+match_542,4.0,8.202
+match_373,4.0,8.2
+match_682,4.0,8.2
+match_614,4.0,8.191
+match_91,4.0,8.187
+match_423,4.0,8.186
+match_873,4.0,8.185
+match_857,4.0,8.182
+match_552,4.0,8.18
+match_3,4.0,8.178
+match_255,4.0,8.175
+match_109,4.0,8.174
+match_673,4.0,8.174
+match_489,4.0,8.173
+match_495,4.0,8.171
+match_754,4.0,8.17
+match_586,4.0,8.17
+match_739,4.0,8.168
+match_45,4.0,8.166
+match_823,4.0,8.161
+match_401,4.0,8.157
+match_729,4.0,8.156
+match_615,4.0,8.156
+match_259,4.0,8.155
+match_220,4.0,8.154
+match_487,4.0,8.149
+match_18,4.0,8.148
+match_851,4.0,8.148
+match_372,4.0,8.144
+match_786,4.0,8.139
+match_128,4.0,8.137
+match_936,4.0,8.135
+match_599,4.0,8.135
+match_348,4.0,8.133
+Canada,4.0,8.132
+match_395,4.0,8.128
+match_260,4.0,8.122
+match_461,4.0,8.121
+match_314,4.0,8.121
+match_94,4.0,8.119
+match_175,4.0,8.118
+match_420,4.0,8.115
+match_916,4.0,8.113
+match_75,4.0,8.11
+Brazil team_midfield_unit,1.0,8.108
+match_450,4.0,8.107
+match_600,4.0,8.101
+match_856,4.0,8.099
+match_323,4.0,8.099
+match_107,4.0,8.093
+match_563,4.0,8.093
+match_340,4.0,8.086
+match_267,4.0,8.084
+match_331,4.0,8.082
+match_809,4.0,8.082
+match_648,4.0,8.079
+match_607,4.0,8.071
+match_689,4.0,8.066
+match_717,4.0,8.063
+match_455,4.0,8.062
+match_523,4.0,8.062
+match_93,4.0,8.061
+match_393,4.0,8.058
+match_872,4.0,8.052
+match_822,4.0,8.05
+match_73,4.0,8.047
+match_550,4.0,8.046
+match_875,4.0,8.044
+match_226,4.0,8.044
+match_57,4.0,8.043
+match_1,4.0,8.041
+match_159,4.0,8.036
+match_139,4.0,8.033
+match_663,4.0,8.029
+match_697,4.0,8.021
+match_381,4.0,8.021
+match_179,4.0,8.021
+match_528,4.0,8.017
+match_425,4.0,8.005
+match_114,4.0,8.005
+match_282,4.0,8.002
+match_566,4.0,8.002
+match_920,4.0,8.001
+match_244,4.0,8.001
+Denmark team_defense_unit,1.0,7.995
+match_183,4.0,7.992
+match_535,4.0,7.99
+match_86,4.0,7.988
+match_441,4.0,7.987
+match_643,4.0,7.983
+match_40,4.0,7.975
+match_53,4.0,7.975
+match_843,4.0,7.974
+match_2,4.0,7.974
+match_12,4.0,7.97
+match_468,4.0,7.97
+match_611,4.0,7.96
+match_929,4.0,7.954
+match_432,4.0,7.953
+Bosnia and Herzegovina,4.0,7.953
+match_292,4.0,7.952
+match_248,4.0,7.951
+match_421,4.0,7.946
+match_616,4.0,7.945
+match_41,4.0,7.945
+match_838,4.0,7.942
+Greece,4.0,7.94
+match_264,4.0,7.936
+match_358,4.0,7.931
+match_478,4.0,7.93
+Croatia team_midfield_unit,1.0,7.929
+match_414,4.0,7.928
+match_779,4.0,7.923
+match_446,4.0,7.922
+match_439,4.0,7.921
+match_933,4.0,7.92
+match_624,4.0,7.918
+match_534,4.0,7.917
+match_191,4.0,7.913
+match_190,4.0,7.913
+match_87,4.0,7.913
+match_239,4.0,7.909
+match_162,4.0,7.906
+match_286,4.0,7.906
+match_327,4.0,7.9
+match_681,4.0,7.898
+match_121,4.0,7.897
+match_427,4.0,7.894
+match_816,4.0,7.894
+match_325,4.0,7.892
+match_184,4.0,7.889
+match_396,4.0,7.879
+match_721,4.0,7.878
+match_704,4.0,7.878
+match_198,4.0,7.876
+match_83,4.0,7.871
+match_273,4.0,7.869
+match_503,4.0,7.866
+match_306,4.0,7.865
+match_945,4.0,7.862
+match_457,4.0,7.862
+match_684,4.0,7.862
+match_371,4.0,7.861
+match_48,4.0,7.86
+match_174,4.0,7.856
+match_25,4.0,7.855
+match_105,4.0,7.851
+match_155,4.0,7.851
+match_237,4.0,7.851
+match_304,4.0,7.843
+match_743,4.0,7.837
+match_58,4.0,7.837
+match_819,4.0,7.835
+match_902,4.0,7.833
+match_861,4.0,7.83
+match_8,4.0,7.829
+match_854,4.0,7.828
+match_568,4.0,7.821
+match_56,4.0,7.821
+match_130,4.0,7.819
+match_296,4.0,7.814
+match_241,4.0,7.814
+match_377,4.0,7.812
+Czech Republic,4.0,7.808
+match_66,4.0,7.803
+match_125,4.0,7.801
+match_113,4.0,7.8
+match_862,4.0,7.8
+match_208,4.0,7.795
+match_167,4.0,7.794
+match_278,4.0,7.79
+match_876,4.0,7.784
+match_791,4.0,7.784
+match_562,4.0,7.779
+match_342,4.0,7.778
+match_793,4.0,7.768
+match_240,4.0,7.767
+match_222,4.0,7.767
+match_338,4.0,7.766
+match_148,4.0,7.766
+match_187,4.0,7.754
+match_311,4.0,7.749
+match_480,4.0,7.744
+match_17,4.0,7.743
+match_706,4.0,7.742
+match_178,4.0,7.737
+match_946,4.0,7.737
+match_429,4.0,7.735
+match_142,4.0,7.734
+match_622,4.0,7.733
+match_662,4.0,7.733
+match_892,4.0,7.732
+match_285,4.0,7.731
+match_14,4.0,7.724
+match_210,4.0,7.72
+match_147,4.0,7.715
+match_814,4.0,7.712
+match_211,4.0,7.708
+match_512,4.0,7.698
+match_160,4.0,7.696
+match_392,4.0,7.695
+New Zealand,4.0,7.694
+match_68,4.0,7.687
+China PR,4.0,7.684
+match_169,4.0,7.683
+match_275,4.0,7.679
+match_639,4.0,7.676
+match_26,4.0,7.673
+match_670,4.0,7.672
+match_319,4.0,7.672
+match_150,4.0,7.67
+match_959,4.0,7.661
+match_166,4.0,7.656
+match_813,4.0,7.656
+match_931,4.0,7.645
+match_193,4.0,7.643
+match_203,4.0,7.64
+match_196,4.0,7.636
+match_839,4.0,7.634
+match_777,4.0,7.629
+match_252,4.0,7.629
+match_732,4.0,7.626
+match_55,4.0,7.623
+match_98,4.0,7.62
+match_349,4.0,7.607
+match_438,4.0,7.605
+match_104,4.0,7.6
+match_554,4.0,7.592
+match_817,4.0,7.591
+match_61,4.0,7.589
+match_477,4.0,7.587
+match_864,4.0,7.586
+match_471,4.0,7.583
+match_877,4.0,7.582
+match_30,4.0,7.579
+match_490,4.0,7.578
+Wales,4.0,7.575
+match_141,4.0,7.575
+match_119,4.0,7.572
+match_126,4.0,7.568
+match_617,4.0,7.568
+match_935,4.0,7.565
+match_172,4.0,7.563
+match_243,4.0,7.563
+match_28,4.0,7.561
+match_459,4.0,7.558
+match_32,4.0,7.552
+match_619,4.0,7.551
+match_163,4.0,7.55
+match_755,4.0,7.547
+Austria team_attack_unit,1.0,7.539
+match_78,4.0,7.534
+match_803,4.0,7.533
+match_262,4.0,7.529
+match_76,4.0,7.523
+match_249,4.0,7.522
+match_548,4.0,7.52
+match_696,4.0,7.518
+match_47,4.0,7.504
+team:North Korea,14.0,7.502
+match_749,4.0,7.502
+match_686,4.0,7.498
+match_879,4.0,7.497
+match_283,4.0,7.49
+match_277,4.0,7.49
+match_442,4.0,7.49
+match_384,4.0,7.487
+match_640,4.0,7.482
+match_127,4.0,7.482
+match_6,4.0,7.481
+match_944,4.0,7.48
+match_467,4.0,7.48
+match_728,4.0,7.479
+match_339,4.0,7.471
+match_724,4.0,7.471
+match_741,4.0,7.469
+Germany team_midfield_unit,1.0,7.469
+match_613,4.0,7.469
+match_818,4.0,7.469
+Hungary team_defense_unit,1.0,7.461
+France team_midfield_unit,1.0,7.457
+match_79,4.0,7.455
+match_428,4.0,7.453
+match_882,4.0,7.451
+match_758,4.0,7.45
+match_345,4.0,7.447
+match_519,4.0,7.43
+match_911,4.0,7.422
+match_235,4.0,7.418
+match_34,4.0,7.414
+match_752,4.0,7.412
+match_810,4.0,7.407
+match_39,4.0,7.402
+match_469,4.0,7.402
+match_636,4.0,7.394
+match_108,4.0,7.389
+match_744,4.0,7.384
+match_801,4.0,7.384
+Australia,4.0,7.384
+match_100,4.0,7.383
+match_199,4.0,7.377
+match_572,4.0,7.37
+match_9,4.0,7.369
+match_369,4.0,7.364
+match_111,4.0,7.363
+match_524,4.0,7.363
+match_35,4.0,7.361
+match_641,4.0,7.358
+match_42,4.0,7.356
+match_539,4.0,7.345
+match_67,4.0,7.344
+match_426,4.0,7.336
+match_458,4.0,7.335
+match_594,4.0,7.332
+Uruguay team_defense_unit,1.0,7.331
+match_367,4.0,7.329
+match_291,4.0,7.327
+match_731,4.0,7.326
+match_652,4.0,7.321
+match_955,4.0,7.32
+match_583,4.0,7.311
+match_103,4.0,7.309
+match_508,4.0,7.307
+match_597,4.0,7.305
+match_948,4.0,7.303
+match_84,4.0,7.289
+match_820,4.0,7.274
+match_31,4.0,7.273
+match_714,4.0,7.269
+match_716,4.0,7.267
+match_804,4.0,7.257
+match_547,4.0,7.252
+match_436,4.0,7.248
+match_560,4.0,7.245
+match_62,4.0,7.242
+match_330,4.0,7.24
+match_555,4.0,7.23
+match_33,4.0,7.228
+match_815,4.0,7.208
+match_658,4.0,7.208
+match_375,4.0,7.205
+match_709,4.0,7.203
+match_610,4.0,7.202
+match_529,4.0,7.196
+match_668,4.0,7.193
+match_388,4.0,7.191
+match_313,4.0,7.19
+match_380,4.0,7.187
+match_627,4.0,7.177
+match_598,4.0,7.17
+match_498,4.0,7.169
+match_449,4.0,7.167
+match_158,4.0,7.165
+match_20,4.0,7.163
+match_618,4.0,7.161
+match_448,4.0,7.16
+match_447,4.0,7.16
+Belgium team_midfield_unit,1.0,7.159
+match_564,4.0,7.156
+team:German DR,12.0,7.154
+match_23,4.0,7.154
+Paraguay team_attack_unit,1.0,7.153
+match_11,4.0,7.151
+match_947,4.0,7.148
+match_300,4.0,7.148
+match_302,4.0,7.143
+match_140,4.0,7.14
+match_655,4.0,7.138
+match_419,4.0,7.136
+match_472,4.0,7.129
+match_479,4.0,7.126
+match_320,4.0,7.124
+match_919,4.0,7.108
+Slovakia,4.0,7.105
+match_796,4.0,7.097
+match_904,4.0,7.09
+match_90,4.0,7.08
+match_532,4.0,7.076
+match_676,4.0,7.071
+match_934,4.0,7.071
+match_747,4.0,7.063
+match_24,4.0,7.049
+match_538,4.0,7.047
+match_713,4.0,7.046
+match_692,4.0,7.038
+match_606,4.0,7.027
+match_518,4.0,7.017
+match_402,4.0,7.006
+match_394,4.0,7.004
+match_746,4.0,6.999
+match_917,4.0,6.984
+match_46,4.0,6.982
+match_785,4.0,6.978
+match_687,4.0,6.967
+match_500,4.0,6.963
+match_723,4.0,6.959
+Ivory Coast,4.0,6.959
+match_453,4.0,6.959
+match_546,4.0,6.957
+match_748,4.0,6.954
+match_365,4.0,6.948
+match_506,4.0,6.947
+match_416,4.0,6.931
+match_737,4.0,6.91
+match_481,4.0,6.904
+match_27,4.0,6.9
+match_149,4.0,6.883
+match_494,4.0,6.881
+match_212,4.0,6.865
+match_4,4.0,6.847
+match_362,4.0,6.844
+North Korea,4.0,6.823
+match_488,4.0,6.814
+Cuba,4.0,6.802
+match_38,4.0,6.795
+match_435,4.0,6.788
+match_214,4.0,6.784
+match_691,4.0,6.76
+match_733,4.0,6.754
+match_511,4.0,6.753
+match_901,4.0,6.75
+Belgium team_attack_unit,1.0,6.727
+match_513,4.0,6.707
+match_254,4.0,6.67
+France team_defense_unit,1.0,6.641
+match_883,4.0,6.634
+Haiti,4.0,6.632
+match_202,4.0,6.603
+match_221,4.0,6.595
+Togo,4.0,6.584
+match_189,4.0,6.579
+match_341,4.0,6.565
+match_361,4.0,6.558
+match_246,4.0,6.558
+match_332,4.0,6.523
+Egypt,4.0,6.471
+match_592,4.0,6.469
+Ukraine,4.0,6.433
+match_182,4.0,6.433
+match_234,4.0,6.429
+match_204,4.0,6.427
+El Salvador,4.0,6.415
+Scotland team_attack_unit,1.0,6.412
+match_650,4.0,6.4
+match_722,4.0,6.394
+England team_midfield_unit,1.0,6.381
+match_491,4.0,6.378
+match_250,4.0,6.363
+Morocco team_defense_unit,1.0,6.358
+match_247,4.0,6.326
+match_218,4.0,6.289
+match_65,4.0,6.269
+match_43,4.0,6.268
+match_649,4.0,6.263
+match_215,4.0,6.25
+Coca-Cola,9.0,6.241
+match_157,4.0,6.209
+team:El Salvador,12.0,6.1
+Mexico team_midfield_unit,1.0,6.094
+DR Congo,4.0,6.062
+team:Canada,12.0,6.036
+Costa Rica team_attack_unit,1.0,6.036
+Adidas,9.0,5.99
+Brazil team_attack_unit,1.0,5.968
+Chile team_attack_unit,1.0,5.948
+match_223,4.0,5.938
+Italy team_defense_unit,1.0,5.844
+United Arab Emirates,4.0,5.816
+team:Norway,16.0,5.802
+Costa Rica team_defense_unit,1.0,5.717
+Iceland,4.0,5.656
+Peru team_midfield_unit,1.0,5.654
+Iraq,4.0,5.612
+Serbia team_attack_unit,1.0,5.55
+Hisense,8.0,5.54
+England team_attack_unit,1.0,5.528
+Qatar Airways,8.0,5.484
+match_13,4.0,5.463
+Ecuador team_midfield_unit,1.0,5.457
+Honduras,4.0,5.451
+Hyundai,8.0,5.429
+Bolivia,4.0,5.425
+match_7,4.0,5.416
+Vivo,8.0,5.404
+Serbia team_defense_unit,1.0,5.37
+McDonald's,8.0,5.352
+Turkey team_attack_unit,1.0,5.336
+Budweiser,8.0,5.32
+Denmark team_midfield_unit,1.0,5.311
+Mengniu,8.0,5.265
+Visa,8.0,5.217
+Hungary team_attack_unit,1.0,5.188
+Algeria team_attack_unit,1.0,5.136
+Japan team_attack_unit,1.0,5.111
+Switzerland team_defense_unit,1.0,5.107
+Poland team_attack_unit,1.0,5.047
+Turkey team_midfield_unit,1.0,4.996
+Cameroon team_defense_unit,1.0,4.934
+Scotland team_midfield_unit,1.0,4.918
+Germany team_defense_unit,1.0,4.916
+Republic of Ireland team_midfield_unit,1.0,4.881
+Belgium team_defense_unit,1.0,4.857
+Senegal team_attack_unit,1.0,4.844
+Poland team_defense_unit,1.0,4.839
+Bulgaria team_attack_unit,1.0,4.767
+Trinidad and Tobago,4.0,4.761
+German DR team_defense_unit,1.0,4.731
+Israel,4.0,4.644
+Russia team_attack_unit,1.0,4.642
+Croatia team_attack_unit,1.0,4.606
+South Korea team_defense_unit,1.0,4.601
+Argentina team_midfield_unit,1.0,4.566
+Saudi Arabia team_defense_unit,1.0,4.558
+Chile team_defense_unit,1.0,4.545
+Russia team_midfield_unit,1.0,4.531
+Netherlands team_midfield_unit,1.0,4.528
+Croatia team_defense_unit,1.0,4.491
+United States team_defense_unit,1.0,4.483
+Czechoslovakia team_midfield_unit,1.0,4.482
+Northern Ireland team_attack_unit,1.0,4.435
+Spain team_midfield_unit,1.0,4.415
+Sweden team_defense_unit,1.0,4.411
+Portugal team_defense_unit,1.0,4.343
+Kuwait,4.0,4.332
+Netherlands team_defense_unit,1.0,4.308
+Qatar,4.0,4.235
+Turkey team_defense_unit,1.0,4.185
+Sweden team_midfield_unit,1.0,4.181
+Yugoslavia team_midfield_unit,1.0,4.177
+Angola,4.0,4.175
+South Korea team_midfield_unit,1.0,4.174
+Tunisia team_attack_unit,1.0,4.143
+team:New Zealand,12.0,4.126
+Panama,4.0,4.096
+Scotland team_defense_unit,1.0,4.052
+Colombia team_defense_unit,1.0,4.022
+Peru team_defense_unit,1.0,4.013
+team:Bolivia,12.0,3.914
+Uruguay team_midfield_unit,1.0,3.892
+Indonesia,4.0,3.85
+team:Slovenia,12.0,3.848
+Denmark team_attack_unit,1.0,3.835
+Mexico team_defense_unit,1.0,3.831
+South Africa team_midfield_unit,1.0,3.823
+Tunisia team_defense_unit,1.0,3.819
+team:Ukraine,10.0,3.745
+Austria team_midfield_unit,1.0,3.725
+Argentina team_attack_unit,1.0,3.708
+Greece team_attack_unit,1.0,3.706
+Iran team_midfield_unit,1.0,3.688
+Ecuador team_defense_unit,1.0,3.686
+Norway team_midfield_unit,1.0,3.673
+Republic of Ireland team_defense_unit,1.0,3.668
+Portugal team_midfield_unit,1.0,3.647
+Chile team_midfield_unit,1.0,3.636
+Romania team_midfield_unit,1.0,3.584
+Czechoslovakia team_defense_unit,1.0,3.566
+team:Jamaica,6.0,3.552
+Russia team_defense_unit,1.0,3.507
+Paraguay team_defense_unit,1.0,3.485
+Czech Republic team_attack_unit,1.0,3.455
+Sweden team_attack_unit,1.0,3.434
+Slovakia team_attack_unit,1.0,3.431
+German DR team_midfield_unit,1.0,3.423
+team:Iceland,6.0,3.412
+Iran team_defense_unit,1.0,3.366
+Mexico team_attack_unit,1.0,3.356
+Wales team_defense_unit,1.0,3.322
+Algeria team_defense_unit,1.0,3.307
+Norway team_attack_unit,1.0,3.298
+United States team_midfield_unit,1.0,3.295
+Bosnia and Herzegovina team_midfield_unit,1.0,3.278
+Ecuador team_attack_unit,1.0,3.259
+Ghana team_midfield_unit,1.0,3.258
+South Africa team_defense_unit,1.0,3.258
+Spain team_defense_unit,1.0,3.256
+Slovenia team_defense_unit,1.0,3.247
+Peru team_attack_unit,1.0,3.247
+Jamaica team_defense_unit,1.0,3.226
+Saudi Arabia team_midfield_unit,1.0,3.209
+team:Iraq,6.0,3.18
+Czechoslovakia team_attack_unit,1.0,3.165
+Canada team_midfield_unit,1.0,3.156
+Slovenia team_attack_unit,1.0,3.153
+Germany team_attack_unit,1.0,3.08
+Nigeria team_attack_unit,1.0,3.065
+Jamaica team_midfield_unit,1.0,3.025
+Netherlands team_attack_unit,1.0,3.024
+team:DR Congo,6.0,3.023
+team:United Arab Emirates,6.0,3.022
+Yugoslavia team_defense_unit,1.0,3.01
+United States team_attack_unit,1.0,3.01
+team:Czech Republic,6.0,2.992
+South Africa team_attack_unit,1.0,2.989
+Ukraine team_midfield_unit,1.0,2.925
+team:Haiti,6.0,2.92
+Egypt team_defense_unit,1.0,2.866
+New Zealand team_defense_unit,1.0,2.84
+Togo team_defense_unit,1.0,2.816
+Ghana team_attack_unit,1.0,2.798
+England team_defense_unit,1.0,2.794
+Canada team_attack_unit,1.0,2.794
+Bosnia and Herzegovina team_attack_unit,1.0,2.793
+North Korea team_midfield_unit,1.0,2.791
+Poland team_midfield_unit,1.0,2.79
+China PR team_defense_unit,1.0,2.742
+Ivory Coast team_midfield_unit,1.0,2.728
+Costa Rica team_midfield_unit,1.0,2.724
+Hungary team_midfield_unit,1.0,2.704
+Cameroon team_attack_unit,1.0,2.639
+team:Slovakia,8.0,2.627
+France team_attack_unit,1.0,2.626
+Northern Ireland team_defense_unit,1.0,2.622
+Iran team_attack_unit,1.0,2.595
+Honduras team_attack_unit,1.0,2.59
+North Korea team_attack_unit,1.0,2.581
+Czech Republic team_defense_unit,1.0,2.567
+Australia team_midfield_unit,1.0,2.56
+Italy team_midfield_unit,1.0,2.535
+Romania team_defense_unit,1.0,2.51
+Portugal team_attack_unit,1.0,2.509
+Bolivia team_midfield_unit,1.0,2.492
+Haiti team_midfield_unit,1.0,2.491
+Italy team_attack_unit,1.0,2.46
+Morocco team_attack_unit,1.0,2.426
+team:Kuwait,6.0,2.425
+Greece team_defense_unit,1.0,2.423
+Serbia team_midfield_unit,1.0,2.366
+team:Israel,6.0,2.352
+DR Congo team_attack_unit,1.0,2.345
+German DR team_attack_unit,1.0,2.342
+DR Congo team_midfield_unit,1.0,2.333
+South Korea team_attack_unit,1.0,2.319
+Panama team_midfield_unit,1.0,2.311
+United Arab Emirates team_defense_unit,1.0,2.294
+Algeria team_midfield_unit,1.0,2.292
+New Zealand team_midfield_unit,1.0,2.287
+El Salvador team_defense_unit,1.0,2.283
+Australia team_defense_unit,1.0,2.276
+Cuba team_attack_unit,1.0,2.274
+China PR team_midfield_unit,1.0,2.26
+team:Bosnia and Herzegovina,6.0,2.253
+Nigeria team_defense_unit,1.0,2.25
+team:China PR,6.0,2.222
+Nigeria team_midfield_unit,1.0,2.221
+team:Qatar,6.0,2.218
+Morocco team_midfield_unit,1.0,2.217
+Bulgaria team_defense_unit,1.0,2.2
+United Arab Emirates team_attack_unit,1.0,2.175
+Iceland team_attack_unit,1.0,2.154
+Japan team_midfield_unit,1.0,2.151
+Egypt team_midfield_unit,1.0,2.149
+El Salvador team_attack_unit,1.0,2.125
+Tunisia team_midfield_unit,1.0,2.119
+China PR team_attack_unit,1.0,2.102
+Haiti team_attack_unit,1.0,2.085
+Switzerland team_midfield_unit,1.0,2.078
+Iraq team_midfield_unit,1.0,2.073
+Kuwait team_attack_unit,1.0,2.065
+Japan team_defense_unit,1.0,2.06
+team:Panama,6.0,2.042
+Cuba team_midfield_unit,1.0,2.035
+Paraguay team_midfield_unit,1.0,2.03
+Ivory Coast team_defense_unit,1.0,2.023
+Angola team_midfield_unit,1.0,2.015
+New Zealand team_attack_unit,1.0,2.011
+Northern Ireland team_midfield_unit,1.0,2.011
+Iceland team_defense_unit,1.0,1.993
+team:Togo,6.0,1.992
+Slovakia team_midfield_unit,1.0,1.95
+Cameroon team_midfield_unit,1.0,1.934
+Colombia team_midfield_unit,1.0,1.922
+team:Trinidad and Tobago,6.0,1.916
+Israel team_attack_unit,1.0,1.891
+Austria team_defense_unit,1.0,1.861
+Australia team_attack_unit,1.0,1.843
+Yugoslavia team_attack_unit,1.0,1.841
+Ghana team_defense_unit,1.0,1.836
+team:Cuba,6.0,1.833
+Wales team_midfield_unit,1.0,1.813
+Romania team_attack_unit,1.0,1.813
+Cuba team_defense_unit,1.0,1.811
+Wales team_attack_unit,1.0,1.809
+Senegal team_midfield_unit,1.0,1.758
+Togo team_midfield_unit,1.0,1.738
+Saudi Arabia team_attack_unit,1.0,1.736
+Qatar team_defense_unit,1.0,1.73
+Iraq team_attack_unit,1.0,1.727
+team:Angola,6.0,1.707
+Trinidad and Tobago team_midfield_unit,1.0,1.693
+Senegal team_defense_unit,1.0,1.667
+Ukraine team_attack_unit,1.0,1.618
+Bolivia team_defense_unit,1.0,1.567
+Ivory Coast team_attack_unit,1.0,1.549
+Colombia team_attack_unit,1.0,1.546
+Trinidad and Tobago team_attack_unit,1.0,1.54
+Canada team_defense_unit,1.0,1.536
+Slovenia team_midfield_unit,1.0,1.51
+Haiti team_defense_unit,1.0,1.495
+Brazil team_defense_unit,1.0,1.494
+Togo team_attack_unit,1.0,1.47
+Jamaica team_attack_unit,1.0,1.459
+Honduras team_midfield_unit,1.0,1.432
+El Salvador team_midfield_unit,1.0,1.425
+Republic of Ireland team_attack_unit,1.0,1.269
+Bosnia and Herzegovina team_defense_unit,1.0,1.267
+Ukraine team_defense_unit,1.0,1.253
+Israel team_midfield_unit,1.0,1.251
+Iraq team_defense_unit,1.0,1.216
+Indonesia team_attack_unit,1.0,1.207
+Norway team_defense_unit,1.0,1.192
+Indonesia team_defense_unit,1.0,1.185
+Greece team_midfield_unit,1.0,1.125
+Slovakia team_defense_unit,1.0,1.082
+Qatar team_midfield_unit,1.0,1.077
+Czech Republic team_midfield_unit,1.0,1.066
+Trinidad and Tobago team_defense_unit,1.0,0.997
+Israel team_defense_unit,1.0,0.978
+Iceland team_midfield_unit,1.0,0.926
+Angola team_attack_unit,1.0,0.919
+Kuwait team_defense_unit,1.0,0.905
+Honduras team_defense_unit,1.0,0.891
+Indonesia team_midfield_unit,1.0,0.889
+DR Congo team_defense_unit,1.0,0.863
+Egypt team_attack_unit,1.0,0.859
+Panama team_defense_unit,1.0,0.858
+Bulgaria team_midfield_unit,1.0,0.848
+team:Indonesia,2.0,0.836
+Qatar team_attack_unit,1.0,0.809
+North Korea team_defense_unit,1.0,0.795
+United Arab Emirates team_midfield_unit,1.0,0.793
+Bolivia team_attack_unit,1.0,0.791
+Kuwait team_midfield_unit,1.0,0.734
+Angola team_defense_unit,1.0,0.703
+Panama team_attack_unit,1.0,0.318
