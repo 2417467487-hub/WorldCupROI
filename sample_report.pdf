@@ -12,7 +12,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 5 0 obj
-<< /Length 1007 >>
+<< /Length 1010 >>
 stream
 BT
 /F1 14 Tf
@@ -21,25 +21,25 @@ BT
 (WorldCupROI Sample Report) Tj
 0 -22 Td
 /F1 11 Tf
-(Panel rows: 1,440) Tj
+(Panel rows: 1,928) Tj
 0 -22 Td
 /F1 11 Tf
-(Teams: 24) Tj
+(Teams: 82) Tj
 0 -22 Td
 /F1 11 Tf
-(Sponsors: 9) Tj
+(Sponsors: 10) Tj
 0 -22 Td
 /F1 11 Tf
-(Average predicted ROI: 2.675x) Tj
+(Average predicted ROI: 3.644x) Tj
 0 -22 Td
 /F1 11 Tf
-(Average commercial momentum: 0.408) Tj
+(Average commercial momentum: 0.540) Tj
 0 -22 Td
 /F1 11 Tf
-(Top opportunity: Spain x Pepsi vs Saudi Arabia) Tj
+(Top opportunity: Russia x Hyundai vs Saudi Arabia) Tj
 0 -22 Td
 /F1 11 Tf
-(Top predicted ROI: 3.746x) Tj
+(Top predicted ROI: 4.476x) Tj
 0 -22 Td
 /F1 11 Tf
 () Tj
@@ -51,13 +51,13 @@ BT
 (- A_baseline: delta 0.000, lift 0.00%) Tj
 0 -22 Td
 /F1 11 Tf
-(- B_core_player_absent: delta -0.093, lift -2.89%) Tj
+(- B_core_player_absent: delta -0.089, lift -2.30%) Tj
 0 -22 Td
 /F1 11 Tf
-(- C_sponsor_upgrade: delta -0.027, lift -0.90%) Tj
+(- C_sponsor_upgrade: delta -0.238, lift -6.21%) Tj
 0 -22 Td
 /F1 11 Tf
-(- D_media_cooling: delta -0.475, lift -14.87%) Tj
+(- D_media_cooling: delta -0.207, lift -5.40%) Tj
 0 -22 Td
 /F1 11 Tf
 () Tj
@@ -81,5 +81,5 @@ xref
 0000000311 00000 n 
 trailer << /Size 6 /Root 1 0 R >>
 startxref
-1370
+1373
 %%EOF

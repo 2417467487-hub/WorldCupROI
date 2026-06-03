@@ -1,0 +1,195 @@
+match_id,team_a,team_b,stage,result,prediction_set,set_size,covered
+5,Argentina,France,tournament,A_win,"A_win,B_win,draw",3,True
+95,Switzerland,Austria,tournament,B_win,"A_win,B_win,draw",3,True
+561,Argentina,Croatia,group_or_knockout,A_win,"A_win,draw",2,True
+482,Brazil,Cameroon,group_or_knockout,A_win,"A_win,draw",2,True
+500,Greece,Nigeria,group_or_knockout,B_win,"B_win,draw",2,True
+324,Belgium,El Salvador,tournament,A_win,"A_win,draw",2,True
+94,England,Uruguay,tournament,B_win,"A_win,B_win,draw",3,True
+815,Honduras,Switzerland,group_or_knockout,B_win,"B_win,draw",2,True
+823,Costa Rica,Greece,group_or_knockout,draw,"A_win,B_win,draw",3,True
+764,Spain,Portugal,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+390,Mexico,Iraq,group_or_knockout,A_win,"A_win,draw",2,True
+398,Russia,Belgium,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+565,Brazil,Chile,group_or_knockout,A_win,"A_win,draw",2,True
+33,Italy,Austria,tournament,A_win,"A_win,B_win,draw",3,True
+387,Argentina,Bulgaria,group_or_knockout,A_win,"A_win,draw",2,True
+365,Morocco,Poland,group_or_knockout,draw,"B_win,draw",2,True
+668,Czech Republic,Ghana,group_or_knockout,B_win,"B_win,draw",2,True
+454,Italy,Uruguay,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+441,Italy,Czechoslovakia,group_or_knockout,A_win,"A_win,draw",2,True
+641,South Korea,Germany,group_or_knockout,B_win,"B_win,draw",2,True
+634,Mexico,United States,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+228,Russia,Uruguay,tournament,B_win,"A_win,B_win,draw",3,True
+370,Paraguay,Iraq,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+643,South Korea,Turkey,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+417,Brazil,Sweden,group_or_knockout,A_win,"A_win,draw",2,True
+453,Republic of Ireland,Romania,group_or_knockout,draw,"B_win,draw",2,True
+82,Hungary,South Korea,tournament,A_win,"A_win,draw",2,True
+799,Argentina,Iran,group_or_knockout,A_win,"A_win,draw",2,True
+835,Brazil,Netherlands,group_or_knockout,B_win,"A_win,draw",2,False
+371,Scotland,Denmark,group_or_knockout,B_win,"B_win,draw",2,True
+312,Hungary,El Salvador,tournament,A_win,"A_win,draw",2,True
+451,Brazil,Argentina,group_or_knockout,B_win,"A_win,draw",2,False
+53,Hungary,Italy,tournament,B_win,"A_win,B_win,draw",3,True
+882,Senegal,Colombia,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+343,Germany,Austria,tournament,A_win,"A_win,draw",2,True
+541,Belgium,Mexico,group_or_knockout,draw,"A_win,B_win,draw",3,True
+268,Sweden,Yugoslavia,tournament,A_win,"A_win,B_win,draw",3,True
+722,New Zealand,Slovakia,group_or_knockout,draw,"B_win,draw",2,True
+107,Hungary,Wales,tournament,draw,"A_win,draw",2,True
+123,Hungary,Mexico,tournament,A_win,"A_win,B_win,draw",3,True
+397,Mexico,Bulgaria,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+958,Netherlands,Argentina,group_or_knockout,draw,"A_win,B_win,draw",3,True
+534,Scotland,Norway,group_or_knockout,draw,"B_win,draw",2,True
+731,Slovenia,United States,group_or_knockout,draw,"B_win,draw",2,True
+385,Hungary,France,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+106,France,Paraguay,tournament,A_win,"A_win,draw",2,True
+267,Netherlands,Brazil,tournament,A_win,"B_win,draw",2,False
+348,Italy,Argentina,tournament,A_win,"A_win,B_win,draw",3,True
+191,England,France,tournament,A_win,"A_win,B_win,draw",3,True
+836,Germany,Argentina,group_or_knockout,A_win,"A_win,draw",2,True
+886,Uruguay,Portugal,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+40,France,Belgium,tournament,A_win,"A_win,B_win,draw",3,True
+340,France,Czechoslovakia,tournament,draw,"A_win,draw",2,True
+189,Bulgaria,Hungary,tournament,B_win,"B_win,draw",2,True
+404,England,Paraguay,group_or_knockout,A_win,"A_win,draw",2,True
+526,Spain,Nigeria,group_or_knockout,B_win,"A_win,draw",2,False
+190,Chile,Russia,tournament,B_win,"B_win,draw",2,True
+813,Bosnia and Herzegovina,Iran,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+88,Belgium,Italy,tournament,B_win,"B_win,draw",2,True
+733,Ghana,Australia,group_or_knockout,draw,"A_win,B_win,draw",3,True
+484,Sweden,Russia,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+6,Chile,Mexico,tournament,A_win,"A_win,B_win,draw",3,True
+598,Cameroon,Saudi Arabia,group_or_knockout,A_win,"B_win,draw",2,False
+700,Spain,France,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+921,Poland,Saudi Arabia,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+443,Brazil,Scotland,group_or_knockout,A_win,"A_win,draw",2,True
+863,Belgium,Tunisia,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+386,Russia,Canada,group_or_knockout,A_win,"A_win,draw",2,True
+333,Belgium,Hungary,tournament,draw,"A_win,B_win,draw",3,True
+791,Cameroon,Croatia,group_or_knockout,B_win,"B_win,draw",2,True
+360,Italy,Germany,tournament,A_win,"A_win,B_win,draw",3,True
+591,Italy,Ecuador,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+505,Netherlands,Republic of Ireland,group_or_knockout,A_win,"A_win,draw",2,True
+930,Brazil,Switzerland,group_or_knockout,A_win,"A_win,draw",2,True
+376,Brazil,Algeria,group_or_knockout,A_win,"A_win,draw",2,True
+115,Mexico,Wales,tournament,draw,"A_win,B_win,draw",3,True
+171,Germany,Switzerland,tournament,A_win,"A_win,draw",2,True
+124,Paraguay,Yugoslavia,tournament,draw,"B_win,draw",2,True
+302,Peru,Poland,tournament,B_win,"B_win,draw",2,True
+616,Senegal,Uruguay,group_or_knockout,draw,"B_win,draw",2,True
+603,Sweden,Nigeria,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+712,England,United States,group_or_knockout,draw,"A_win,draw",2,True
+787,Belgium,Algeria,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+888,Croatia,Denmark,group_or_knockout,draw,"A_win,B_win,draw",3,True
+509,Italy,Spain,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+719,Netherlands,Denmark,group_or_knockout,A_win,"A_win,draw",2,True
+600,France,Uruguay,group_or_knockout,draw,"A_win,B_win,draw",3,True
+222,Czechoslovakia,England,tournament,B_win,"B_win,draw",2,True
+655,United States,Czech Republic,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+112,Brazil,England,tournament,draw,"A_win,draw",2,True
+476,Germany,Spain,group_or_knockout,draw,"A_win,draw",2,True
+485,Argentina,Nigeria,group_or_knockout,A_win,"A_win,draw",2,True
+330,Algeria,Austria,tournament,B_win,"B_win,draw",2,True
+280,Germany,Mexico,tournament,A_win,"A_win,draw",2,True
+278,Peru,Scotland,tournament,A_win,"A_win,B_win,draw",3,True
+350,Belgium,Russia,tournament,B_win,"A_win,B_win,draw",3,True
+924,France,Denmark,group_or_knockout,A_win,"A_win,draw",2,True
+188,Mexico,Uruguay,tournament,draw,"A_win,B_win,draw",3,True
+66,Chile,United States,tournament,A_win,"A_win,B_win,draw",3,True
+940,Tunisia,France,group_or_knockout,A_win,"B_win,draw",2,False
+612,Tunisia,Belgium,group_or_knockout,draw,"B_win,draw",2,True
+584,Uruguay,Denmark,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+917,Qatar,Senegal,group_or_knockout,B_win,"B_win,draw",2,True
+70,Brazil,Sweden,tournament,A_win,"A_win,draw",2,True
+411,France,Belgium,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+690,Switzerland,South Korea,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+638,Germany,United States,group_or_knockout,A_win,"A_win,draw",2,True
+178,Chile,North Korea,tournament,draw,"A_win,draw",2,True
+737,Slovakia,Paraguay,group_or_knockout,B_win,"B_win,draw",2,True
+948,South Korea,Portugal,group_or_knockout,A_win,"B_win,draw",2,False
+118,Argentina,Czechoslovakia,tournament,B_win,"A_win,draw",2,False
+587,Paraguay,South Africa,group_or_knockout,draw,"A_win,B_win,draw",3,True
+373,France,Russia,group_or_knockout,draw,"A_win,draw",2,True
+11,Chile,France,tournament,A_win,"B_win,draw",2,False
+629,Denmark,England,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+897,France,Belgium,group_or_knockout,A_win,"A_win,draw",2,True
+670,Portugal,Iran,group_or_knockout,A_win,"A_win,draw",2,True
+64,Brazil,Yugoslavia,tournament,A_win,"A_win,draw",2,True
+736,Italy,New Zealand,group_or_knockout,draw,"A_win,draw",2,True
+501,Germany,Belgium,group_or_knockout,A_win,"A_win,draw",2,True
+2,France,Mexico,tournament,A_win,"A_win,draw",2,True
+43,Cuba,Romania,tournament,A_win,"B_win,draw",2,False
+635,Japan,Turkey,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+530,England,Tunisia,group_or_knockout,A_win,"A_win,draw",2,True
+168,Brazil,Czechoslovakia,tournament,A_win,"A_win,draw",2,True
+810,Greece,Ivory Coast,group_or_knockout,A_win,"B_win,draw",2,False
+822,Colombia,Uruguay,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+77,Brazil,Mexico,tournament,A_win,"A_win,draw",2,True
+314,Scotland,New Zealand,tournament,A_win,"A_win,B_win,draw",3,True
+297,Brazil,Peru,tournament,A_win,"A_win,draw",2,True
+503,Romania,Argentina,group_or_knockout,A_win,"B_win,draw",2,False
+491,Bolivia,Spain,group_or_knockout,B_win,"B_win,draw",2,True
+721,Ivory Coast,Portugal,group_or_knockout,draw,"B_win,draw",2,True
+838,Egypt,Uruguay,group_or_knockout,B_win,"B_win,draw",2,True
+544,Argentina,Jamaica,group_or_knockout,A_win,"A_win,draw",2,True
+642,Brazil,Turkey,group_or_knockout,A_win,"A_win,draw",2,True
+955,Morocco,Spain,group_or_knockout,draw,"B_win,draw",2,True
+618,Slovenia,Paraguay,group_or_knockout,B_win,"B_win,draw",2,True
+291,Austria,Brazil,tournament,B_win,"B_win,draw",2,True
+780,Uruguay,Costa Rica,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+213,Brazil,England,tournament,A_win,"A_win,draw",2,True
+556,Spain,Bulgaria,group_or_knockout,A_win,"A_win,draw",2,True
+934,Qatar,Netherlands,group_or_knockout,B_win,"B_win,draw",2,True
+673,Japan,Croatia,group_or_knockout,draw,"B_win,draw",2,True
+318,Chile,Austria,tournament,B_win,"A_win,B_win,draw",3,True
+58,Switzerland,Yugoslavia,tournament,B_win,"A_win,B_win,draw",3,True
+792,Spain,Chile,group_or_knockout,B_win,"A_win,draw",2,False
+536,Italy,Cameroon,group_or_knockout,A_win,"A_win,draw",2,True
+273,France,Italy,tournament,B_win,"A_win,B_win,draw",3,True
+16,Argentina,United States,tournament,A_win,"A_win,draw",2,True
+433,Sweden,Scotland,group_or_knockout,B_win,"A_win,draw",2,False
+504,Saudi Arabia,Sweden,group_or_knockout,B_win,"B_win,draw",2,True
+829,Brazil,Colombia,group_or_knockout,A_win,"A_win,draw",2,True
+622,Ecuador,Croatia,group_or_knockout,A_win,"B_win,draw",2,False
+138,Brazil,Mexico,tournament,A_win,"A_win,draw",2,True
+703,Brazil,France,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+288,France,Hungary,tournament,A_win,"A_win,B_win,draw",3,True
+452,Germany,Netherlands,group_or_knockout,A_win,"A_win,draw",2,True
+529,Serbia,Iran,group_or_knockout,A_win,"A_win,B_win,draw",3,True
+301,Germany,Netherlands,tournament,draw,"A_win,B_win,draw",3,True
+753,Chile,Spain,group_or_knockout,B_win,"B_win,draw",2,True
+623,Mexico,Italy,group_or_knockout,draw,"B_win,draw",2,True
+196,North Korea,Portugal,tournament,B_win,"B_win,draw",2,True
+35,Italy,Czechoslovakia,tournament,A_win,"A_win,B_win,draw",3,True
+287,Argentina,Italy,tournament,B_win,"A_win,B_win,draw",3,True
+315,England,France,tournament,A_win,"A_win,B_win,draw",3,True
+548,Romania,England,group_or_knockout,A_win,"B_win,draw",2,False
+334,Poland,Peru,tournament,A_win,"A_win,B_win,draw",3,True
+183,England,Mexico,tournament,A_win,"A_win,draw",2,True
+50,Brazil,Italy,tournament,B_win,"A_win,B_win,draw",3,True
+519,Cameroon,Austria,group_or_knockout,draw,"B_win,draw",2,True
+103,Austria,Brazil,tournament,B_win,"B_win,draw",2,True
+688,Japan,Brazil,group_or_knockout,B_win,"B_win,draw",2,True
+652,Serbia,Netherlands,group_or_knockout,B_win,"B_win,draw",2,True
+42,Italy,Norway,tournament,A_win,"A_win,draw",2,True
+554,Nigeria,Paraguay,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+367,Algeria,Northern Ireland,group_or_knockout,draw,"A_win,B_win,draw",3,True
+535,Chile,Austria,group_or_knockout,draw,"A_win,B_win,draw",3,True
+276,Brazil,Sweden,tournament,draw,"A_win,draw",2,True
+676,Togo,Switzerland,group_or_knockout,B_win,"B_win,draw",2,True
+833,Brazil,Germany,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+304,Austria,Germany,tournament,A_win,"B_win,draw",2,False
+114,France,Yugoslavia,tournament,B_win,"A_win,B_win,draw",3,True
+750,Denmark,Japan,group_or_knockout,B_win,"A_win,B_win,draw",3,True
+909,Germany,Japan,group_or_knockout,B_win,"A_win,draw",2,False
+438,Cameroon,Russia,group_or_knockout,B_win,"B_win,draw",2,True
+492,Germany,South Korea,group_or_knockout,A_win,"A_win,draw",2,True
+527,Argentina,Japan,group_or_knockout,A_win,"A_win,draw",2,True
+142,England,Hungary,tournament,B_win,"A_win,B_win,draw",3,True
+707,Germany,Portugal,group_or_knockout,A_win,"A_win,draw",2,True
+549,Brazil,Norway,group_or_knockout,B_win,"A_win,draw",2,False
+610,South Korea,United States,group_or_knockout,draw,"A_win,B_win,draw",3,True
+962,France,Morocco,group_or_knockout,A_win,"A_win,draw",2,True
+649,Trinidad and Tobago,Sweden,group_or_knockout,draw,"B_win,draw",2,True

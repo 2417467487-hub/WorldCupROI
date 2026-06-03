@@ -15,15 +15,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Compile Python modules
-        run: python -m py_compile src/*.py
+        run: python -m compileall -q src scripts dashboard
       - name: Run reproducible pipeline
-        run: |
-          python src/preprocess.py
-          python src/feature_builder.py
-          python src/advanced_features.py
-          python src/text_dimensionality.py
-          python src/data_quality.py
-          python src/train_match_model.py
-          python src/train_roi_model.py
-          python src/uncertainty.py
-          python src/scenario_engine.py
+        run: python src/pipeline.py --skip-ingestion

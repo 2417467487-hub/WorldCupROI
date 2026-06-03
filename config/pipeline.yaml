@@ -1,18 +1,24 @@
 project: WorldCupROI
 platform_name: Sports Sponsorship Intelligence Platform
 random_seed: 42
-data_mode: reproducible_mock
+data_mode: real_source_with_committed_snapshot
 pipeline:
   - preprocess
   - feature_builder
   - advanced_features
   - text_dimensionality
   - data_quality
+  - model_registry
   - train_match_model
   - train_roi_model
+  - explainability
   - uncertainty
+  - conformal_prediction
+  - build_panel_data
+  - graph_analysis
   - scenario_engine
   - ab_simulation
+  - generative_report
   - report_generator
   - build_plotly_dashboard
 outputs:
@@ -21,3 +27,6 @@ outputs:
   uncertainty: data/roi_uncertainty.csv
   scenarios: data/scenario_recommendations.csv
   text_embeddings: data/text_embeddings_reduced.csv
+  conformal: reports/conformal_prediction_report.md
+  graph_analysis: reports/graph_analysis_report.md
+  generated_report: reports/sponsorship_intelligence_brief.md

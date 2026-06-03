@@ -1,0 +1,13 @@
+feature,importance,mean_abs_contribution,direction
+a_brand_heat_index,0.134803718381491,0.11852,positive
+team_a_strength,0.1334579869501301,0.11064,positive
+a_sponsor_spend_m,0.1328897978770402,0.10785,negative
+a_ad_exposure_m,0.1136093484215305,0.09634,positive
+sponsor_team_fit_score,0.0450525583062206,0.03774,positive
+commercial_momentum_score,0.0445787963680799,0.03714,positive
+elo_diff,0.0425995294465618,0.03509,positive
+fan_score,0.0401241603341231,0.03283,positive
+event_attention_m,0.0345506740259435,0.02872,positive
+a_activation_quality,0.0341170808924483,0.02893,negative
+media_reposts_k,0.0267470713774997,0.02052,positive
+a_core_market_value_m,0.0255637292459673,0.02091,positive

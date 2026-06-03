@@ -1,0 +1,6 @@
+task,model,status,primary_metric,score,secondary_metric,secondary_score,notes
+match_outcome,Centroid classifier,trained,accuracy,0.5566,log_loss,0.978,dependency-free baseline
+sponsor_roi,Ridge regression,trained,r2,0.8687,mae,0.1177,dependency-free baseline
+tabular classification + regression,XGBoost,not_installed,,,,,install `xgboost` to enable full benchmark
+tabular classification + regression,LightGBM,not_installed,,,,,install `lightgbm` to enable full benchmark
+categorical tabular modeling,CatBoost,not_installed,,,,,install `catboost` to enable full benchmark
