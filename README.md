@@ -316,9 +316,15 @@ The dashboard is structured around a business decision sequence rather than a lo
 
 ### Platform Demo Video
 
-[![WorldCupROI platform demo video](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
+<video src="https://raw.githubusercontent.com/2417467487-hub/WorldCupROI/main/assets/videos/worldcuproi_demo.mp4" controls width="100%" poster="assets/images/video_cover.png">
+  Watch the full WorldCupROI platform demo: https://raw.githubusercontent.com/2417467487-hub/WorldCupROI/main/assets/videos/worldcuproi_demo.mp4
+</video>
 
-The demo video walks through the sponsorship intelligence workflow from KPI discovery to ROI simulation, uncertainty analysis, and scenario recommendation.
+The embedded MP4 demo is intended to support pause and timeline scrubbing. If GitHub does not render the video controls in a specific browser, use the direct MP4 link below.
+
+[![Watch the full WorldCupROI platform demo](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
+
+Watch the full MP4 demo: [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4).
 
 Generated showcase files are indexed in [docs/project_artifacts.md](docs/project_artifacts.md), including GIF previews, demo video assets, background images, and regeneration commands.
 
