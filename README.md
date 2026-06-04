@@ -15,6 +15,27 @@ WorldCupROI turns the World Cup attention market into a sponsorship decision eng
 
 The opening figure is generated with Python from `scripts/generate_readme_assets.py`. It summarizes the project as a machine-learning method overview: multi-source evidence, feature construction, multi-task prediction, explainability, graph intelligence, and ROI decision support.
 
+## Interactive Platform Preview
+
+![WorldCupROI interactive dashboard preview](assets/gifs/dashboard_overview.gif)
+
+The platform is not only a modeling pipeline. It includes an interactive sponsorship intelligence dashboard for KPI discovery, sponsor ROI ranking, FanScore analysis, scenario simulation, uncertainty review, and graph-based sponsor influence exploration.
+
+| Experience | Open |
+|---|---|
+| Live Streamlit dashboard | `streamlit run dashboard/app.py` |
+| Static dashboard preview | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
+| Full MP4 demo | [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4) |
+| Visual preview page | [preview_visuals.html](preview_visuals.html) |
+
+| Dashboard area | What the interface shows |
+|---|---|
+| Discover | KPI cards, team/sponsor filters, ROI ranking, FanScore summary. |
+| Explain | SHAP-style ROI drivers, text signals, sponsor-team fit, media exposure. |
+| Predict | Match probability, predicted ROI, interval coverage, risk score. |
+| Simulate | Sponsor spend, player status, media exposure, weather and stage changes. |
+| Recommend | Scenario ROI lift, negative ROI probability, sponsor strategy ranking. |
+
 | Link | Target |
 |---|---|
 | Live Demo | `streamlit run dashboard/app.py` |
@@ -316,11 +337,9 @@ The dashboard is structured around a business decision sequence rather than a lo
 
 ### Platform Demo Video
 
-<video src="https://raw.githubusercontent.com/2417467487-hub/WorldCupROI/main/assets/videos/worldcuproi_demo.mp4" controls width="100%" poster="assets/images/video_cover.png">
-  Watch the full WorldCupROI platform demo: https://raw.githubusercontent.com/2417467487-hub/WorldCupROI/main/assets/videos/worldcuproi_demo.mp4
-</video>
+![WorldCupROI dashboard walkthrough](assets/gifs/dashboard_overview.gif)
 
-The embedded MP4 demo is intended to support pause and timeline scrubbing. If GitHub does not render the video controls in a specific browser, use the direct MP4 link below.
+GitHub README pages do not always render HTML5 video controls reliably. The GIF above plays directly on the page; the full MP4 below can be opened for pause and timeline scrubbing.
 
 [![Watch the full WorldCupROI platform demo](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
 
