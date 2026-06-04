@@ -316,9 +316,13 @@ The dashboard is structured around a business decision sequence rather than a lo
 
 ### Platform Demo Video
 
-[![WorldCupROI platform demo video](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
+![WorldCupROI dashboard walkthrough](assets/gifs/dashboard_overview.gif)
 
-The demo video walks through the sponsorship intelligence workflow from KPI discovery to ROI simulation, uncertainty analysis, and scenario recommendation.
+The animated preview plays directly in the README. It shows the sponsorship intelligence workflow from KPI discovery to ROI simulation, uncertainty analysis, and scenario recommendation.
+
+[![Watch the full WorldCupROI platform demo](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
+
+Watch the full MP4 demo: [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4).
 
 Generated showcase files are indexed in [docs/project_artifacts.md](docs/project_artifacts.md), including GIF previews, demo video assets, background images, and regeneration commands.
 
