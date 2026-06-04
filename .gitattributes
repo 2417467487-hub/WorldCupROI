@@ -1,0 +1,12 @@
+# GitHub Linguist configuration.
+# Static dashboard exports are generated artifacts, while the project logic lives in Python.
+dashboard/*.html linguist-generated=true
+index.html linguist-generated=true
+
+# Treat notebooks as part of the Python analytics workflow in repository language stats.
+*.ipynb linguist-language=Python
+
+# Generated showcase media should not affect language analysis or diffs.
+assets/gifs/* linguist-generated=true
+assets/videos/* linguist-generated=true
+assets/images/gif_previews/* linguist-generated=true
