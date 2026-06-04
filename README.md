@@ -314,6 +314,8 @@ Demo video:
 
 [![WorldCupROI demo video](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
 
+Generated showcase files are indexed in [docs/project_artifacts.md](docs/project_artifacts.md), including GIF previews, demo video assets, background images, and regeneration commands.
+
 | Workflow step | Question answered | Output |
 |---|---|---|
 | Discover | Which teams, sponsors, stages, and years are being compared? | Filtered sponsor and match context. |
