@@ -1,7 +1,29 @@
-<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="720" fill="#f6f8fb"/>
+<svg width="1530" height="760" viewBox="0 0 1530 760" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1530" height="760" fill="#ffffff"/>
+  <line x1="72" y1="136" x2="1458" y2="136" stroke="#d1d5db" stroke-width="1"/>
+  <style>
+    .title { font: 700 42px Arial, Helvetica, sans-serif; fill: #111827; }
+    .subtitle { font: 400 20px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .h { font: 700 23px Arial, Helvetica, sans-serif; fill: #111827; }
+    .label { font: 600 17px Arial, Helvetica, sans-serif; fill: #111827; }
+    .small { font: 400 15px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .tiny { font: 400 12px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .white { fill: #ffffff; }
+  </style>
   
-  <text x="64" y="78" font-family="Segoe UI, Arial" font-size="40" font-weight="700" fill="#0d1726">Dashboard Gallery</text>
-  <text x="64" y="116" font-family="Segoe UI, Arial" font-size="19" fill="#627085">Four views that turn model outputs into sponsor decisions</text>
-<rect x="80" y="164" width="530" height="202" rx="22" fill="#fff" stroke="#d7e0ea"/><rect x="80" y="164" width="530" height="58" rx="22" fill="#0f8b6f"/><text x="108" y="203" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#fff">ROI Cockpit</text><text x="108" y="262" font-family="Segoe UI, Arial" font-size="18" fill="#485568">KPI cards, sponsor return, media exposure</text><polyline points="112,326 210,290 306,310 404,266 512,296" fill="none" stroke="#0f8b6f" stroke-width="7" stroke-linecap="round"/><rect x="670" y="164" width="530" height="202" rx="22" fill="#fff" stroke="#d7e0ea"/><rect x="670" y="164" width="530" height="58" rx="22" fill="#2457c5"/><text x="698" y="203" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#fff">Text Signals</text><text x="698" y="262" font-family="Segoe UI, Arial" font-size="18" fill="#485568">5,450 evidence units projected to 24 dims</text><polyline points="702,326 800,290 896,310 994,266 1102,296" fill="none" stroke="#2457c5" stroke-width="7" stroke-linecap="round"/><rect x="80" y="430" width="530" height="202" rx="22" fill="#fff" stroke="#d7e0ea"/><rect x="80" y="430" width="530" height="58" rx="22" fill="#f28c28"/><text x="108" y="469" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#fff">Risk View</text><text x="108" y="528" font-family="Segoe UI, Arial" font-size="18" fill="#485568">Prediction intervals and negative ROI risk</text><polyline points="112,592 210,556 306,576 404,532 512,562" fill="none" stroke="#f28c28" stroke-width="7" stroke-linecap="round"/><rect x="670" y="430" width="530" height="202" rx="22" fill="#fff" stroke="#d7e0ea"/><rect x="670" y="430" width="530" height="58" rx="22" fill="#6d5bd0"/><text x="698" y="469" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#fff">Scenario Lab</text><text x="698" y="528" font-family="Segoe UI, Arial" font-size="18" fill="#485568">Investment, weather, player, stage changes</text><polyline points="702,592 800,556 896,576 994,532 1102,562" fill="none" stroke="#6d5bd0" stroke-width="7" stroke-linecap="round"/>
+  <text x="76" y="82" class="title">Dashboard Decision Gallery</text>
+  <text x="78" y="122" class="subtitle">The interface follows one sponsor-planning path instead of a loose chart wall</text>
+<rect x="90" y="210" width="245" height="310" rx="24" fill="#ffffff" stroke="#d1d5db"/><rect x="90" y="210" width="245" height="74" rx="24" fill="#009E73"/><text x="212" y="257" text-anchor="middle" class="h white">Discover</text><text x="118" y="336" class="label">KPI cards + sponsor ranking</text><polyline points="124,452 172,424 218,442 262,394 304,412" fill="none" stroke="#009E73" stroke-width="7" stroke-linecap="round"/>
+  <line x1="342" y1="366" x2="392" y2="366" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M392,366 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(0.0 392 366)"/>
+<rect x="372" y="210" width="245" height="310" rx="24" fill="#ffffff" stroke="#d1d5db"/><rect x="372" y="210" width="245" height="74" rx="24" fill="#0072B2"/><text x="494" y="257" text-anchor="middle" class="h white">Explain</text><text x="400" y="336" class="label">SHAP drivers + text signals</text><polyline points="406,452 454,424 500,442 544,394 586,412" fill="none" stroke="#0072B2" stroke-width="7" stroke-linecap="round"/>
+  <line x1="624" y1="366" x2="674" y2="366" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M674,366 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(0.0 674 366)"/>
+<rect x="654" y="210" width="245" height="310" rx="24" fill="#ffffff" stroke="#d1d5db"/><rect x="654" y="210" width="245" height="74" rx="24" fill="#E69F00"/><text x="776" y="257" text-anchor="middle" class="h white">Predict</text><text x="682" y="336" class="label">match probability + ROI</text><polyline points="688,452 736,424 782,442 826,394 868,412" fill="none" stroke="#E69F00" stroke-width="7" stroke-linecap="round"/>
+  <line x1="906" y1="366" x2="956" y2="366" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M956,366 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(0.0 956 366)"/>
+<rect x="936" y="210" width="245" height="310" rx="24" fill="#ffffff" stroke="#d1d5db"/><rect x="936" y="210" width="245" height="74" rx="24" fill="#7B61FF"/><text x="1058" y="257" text-anchor="middle" class="h white">Simulate</text><text x="964" y="336" class="label">counterfactual ROI lift</text><polyline points="970,452 1018,424 1064,442 1108,394 1150,412" fill="none" stroke="#7B61FF" stroke-width="7" stroke-linecap="round"/>
+  <line x1="1188" y1="366" x2="1238" y2="366" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1238,366 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(0.0 1238 366)"/>
+<rect x="1218" y="210" width="245" height="310" rx="24" fill="#ffffff" stroke="#d1d5db"/><rect x="1218" y="210" width="245" height="74" rx="24" fill="#D55E00"/><text x="1340" y="257" text-anchor="middle" class="h white">Recommend</text><text x="1246" y="336" class="label">risk-aware strategy</text><polyline points="1252,452 1300,424 1346,442 1390,394 1432,412" fill="none" stroke="#D55E00" stroke-width="7" stroke-linecap="round"/><text x="100" y="640" class="label">Business interpretation: every page asks one question, then pushes the user toward the next sponsor decision.</text>
 </svg>

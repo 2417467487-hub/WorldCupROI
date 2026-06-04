@@ -1,7 +1,32 @@
-<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="720" fill="#f6f8fb"/>
+<svg width="1480" height="930" viewBox="0 0 1480 930" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1480" height="930" fill="#ffffff"/>
+  <line x1="72" y1="136" x2="1408" y2="136" stroke="#d1d5db" stroke-width="1"/>
+  <style>
+    .title { font: 700 42px Arial, Helvetica, sans-serif; fill: #111827; }
+    .subtitle { font: 400 20px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .h { font: 700 23px Arial, Helvetica, sans-serif; fill: #111827; }
+    .label { font: 600 17px Arial, Helvetica, sans-serif; fill: #111827; }
+    .small { font: 400 15px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .tiny { font: 400 12px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .white { fill: #ffffff; }
+  </style>
   
-  <text x="64" y="78" font-family="Segoe UI, Arial" font-size="40" font-weight="700" fill="#0d1726">Data Flow</text>
-  <text x="64" y="116" font-family="Segoe UI, Arial" font-size="19" fill="#627085">How raw sports, media, and business signals become decision-ready outputs</text>
-<rect x="72" y="172" width="246" height="326" rx="22" fill="#0f8b6f"/><text x="96" y="230" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">Raw sources</text><text x="96" y="282" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">World Cup match records</text><text x="96" y="320" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">GDELT article metadata</text><text x="96" y="358" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">Wikimedia text</text><path d="M330 336H374" stroke="#0d1726" stroke-width="5"/><path d="M374 336L358 326V346L374 336Z" fill="#0d1726"/><rect x="376" y="172" width="246" height="326" rx="22" fill="#2457c5"/><text x="400" y="230" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">Evidence tables</text><text x="400" y="282" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">match history</text><text x="400" y="320" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">text units</text><text x="400" y="358" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">sponsor panel</text><text x="400" y="396" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">weather context</text><path d="M634 336H678" stroke="#0d1726" stroke-width="5"/><path d="M678 336L662 326V346L678 336Z" fill="#0d1726"/><rect x="680" y="172" width="246" height="326" rx="22" fill="#f28c28"/><text x="704" y="230" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">Feature layer</text><text x="704" y="282" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">FanScore</text><text x="704" y="320" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">Sponsor Power</text><text x="704" y="358" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">Media Exposure</text><text x="704" y="396" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">Commercial Momentum</text><path d="M938 336H982" stroke="#0d1726" stroke-width="5"/><path d="M982 336L966 326V346L982 336Z" fill="#0d1726"/><rect x="984" y="172" width="246" height="326" rx="22" fill="#6d5bd0"/><text x="1008" y="230" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">Decision outputs</text><text x="1008" y="282" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">ROI prediction</text><text x="1008" y="320" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">risk intervals</text><text x="1008" y="358" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">scenario ranking</text><text x="1008" y="396" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">dashboard</text>
+  <text x="76" y="82" class="title">Multi-Source Data Flow</text>
+  <text x="78" y="122" class="subtitle">Tabular sports data, real-source text, time-series attention, and graph relationships share one feature store</text>
+<rect x="80" y="185" width="285" height="300" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="80" y="185" width="285" height="68" rx="22" fill="#009E73"/><text x="108" y="228" class="h white">Historical/Public</text><text x="108" y="300" class="label">international_results.csv</text><text x="108" y="342" class="label">World Cup history</text><text x="108" y="384" class="label">2026 schedule</text>
+  <line x1="222" y1="495" x2="740" y2="580" stroke="#9aa8b8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M740,580 l-14,-8 l0,16 z" fill="#9aa8b8" transform="rotate(9.318769036404243 740 580)"/>
+<rect x="430" y="185" width="285" height="300" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="430" y="185" width="285" height="68" rx="22" fill="#0072B2"/><text x="458" y="228" class="h white">Commercial Proxy</text><text x="458" y="300" class="label">sponsor spend</text><text x="458" y="342" class="label">ad exposure</text><text x="458" y="384" class="label">brand heat</text>
+  <line x1="572" y1="495" x2="740" y2="580" stroke="#9aa8b8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M740,580 l-14,-8 l0,16 z" fill="#9aa8b8" transform="rotate(26.837238105815103 740 580)"/>
+<rect x="780" y="185" width="285" height="300" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="780" y="185" width="285" height="68" rx="22" fill="#E69F00"/><text x="808" y="228" class="h white">Real Text</text><text x="808" y="300" class="label">GDELT metadata</text><text x="808" y="342" class="label">Wikimedia text</text><text x="808" y="384" class="label">5,450 text units</text>
+  <line x1="922" y1="495" x2="740" y2="580" stroke="#9aa8b8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M740,580 l-14,-8 l0,16 z" fill="#9aa8b8" transform="rotate(154.96587470903214 740 580)"/>
+<rect x="1130" y="185" width="285" height="300" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="1130" y="185" width="285" height="68" rx="22" fill="#7B61FF"/><text x="1158" y="228" class="h white">Context</text><text x="1158" y="300" class="label">weather</text><text x="1158" y="342" class="label">stage premium</text><text x="1158" y="384" class="label">home/away</text>
+  <line x1="1272" y1="495" x2="740" y2="580" stroke="#9aa8b8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M740,580 l-14,-8 l0,16 z" fill="#9aa8b8" transform="rotate(170.9223247900111 740 580)"/>
+<rect x="520" y="590" width="460" height="116" rx="24" fill="#eef7f3" stroke="#009E73" stroke-width="3"/><text x="750" y="637" text-anchor="middle" class="h">Unified Modeling Dataset</text><text x="750" y="674" text-anchor="middle" class="small">FanScore, Sponsor Power, Text Signal, Risk Features</text>
+  <line x1="750" y1="712" x2="750" y2="788" stroke="#009E73" stroke-width="4" stroke-linecap="round"/>
+  <path d="M750,788 l-14,-8 l0,16 z" fill="#009E73" transform="rotate(90.0 750 788)"/>
+<rect x="518" y="798" width="464" height="66" rx="18" fill="#111827"/><text x="750" y="839" text-anchor="middle" class="h white">ROI Dashboard + Research Reports</text>
 </svg>

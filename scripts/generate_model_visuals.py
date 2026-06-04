@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 from html import escape
 from pathlib import Path
 
@@ -10,200 +11,293 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIR = ROOT / "docs" / "assets"
 ASSET_DIR.mkdir(parents=True, exist_ok=True)
 
+INK = "#111827"
+MUTED = "#4b5563"
+GRID = "#d1d5db"
+PAPER = "#ffffff"
+PANEL = "#ffffff"
+GREEN = "#009E73"
+BLUE = "#0072B2"
+CYAN = "#56B4E9"
+ORANGE = "#E69F00"
+PURPLE = "#7B61FF"
+RED = "#D55E00"
 
-def write_svg(name: str, body: str, width: int = 1280, height: int = 720) -> None:
-    svg = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
-  <rect width="{width}" height="{height}" fill="#f6f8fb"/>
+
+def svg(name: str, body: str, width: int = 1600, height: int = 940) -> None:
+    (ASSET_DIR / name).write_text(
+        f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
+  <rect width="{width}" height="{height}" fill="{PAPER}"/>
+  <line x1="72" y1="136" x2="{width-72}" y2="136" stroke="{GRID}" stroke-width="1"/>
+  <style>
+    .title {{ font: 700 42px Arial, Helvetica, sans-serif; fill: {INK}; }}
+    .subtitle {{ font: 400 20px Arial, Helvetica, sans-serif; fill: {MUTED}; }}
+    .h {{ font: 700 23px Arial, Helvetica, sans-serif; fill: {INK}; }}
+    .label {{ font: 600 17px Arial, Helvetica, sans-serif; fill: {INK}; }}
+    .small {{ font: 400 15px Arial, Helvetica, sans-serif; fill: {MUTED}; }}
+    .tiny {{ font: 400 12px Arial, Helvetica, sans-serif; fill: {MUTED}; }}
+    .white {{ fill: #ffffff; }}
+  </style>
   {body}
-</svg>"""
-    (ASSET_DIR / name).write_text(svg, encoding="utf-8")
+</svg>""",
+        encoding="utf-8",
+    )
 
 
-def title(text: str, subtitle: str = "") -> str:
-    safe_title = escape(text)
-    safe_subtitle = escape(subtitle)
+def title(text: str, subtitle: str) -> str:
     return f"""
-  <text x="64" y="78" font-family="Segoe UI, Arial" font-size="40" font-weight="700" fill="#0d1726">{safe_title}</text>
-  <text x="64" y="116" font-family="Segoe UI, Arial" font-size="19" fill="#627085">{safe_subtitle}</text>
+  <text x="76" y="82" class="title">{escape(text)}</text>
+  <text x="78" y="122" class="subtitle">{escape(subtitle)}</text>
 """
 
 
-def model_pipeline() -> None:
-    steps = [
-        ("Real sources", "match records, news, Wikimedia", "#0f8b6f"),
-        ("Feature store", "FanScore, exposure, sponsor power", "#2457c5"),
-        ("Models", "match probability + ROI regression", "#f28c28"),
-        ("Risk layer", "intervals, negative ROI probability", "#6d5bd0"),
-        ("Recommendations", "scenario ranking and actions", "#c2415d"),
+def arrow(x1: float, y1: float, x2: float, y2: float, color: str = "#7c8da3") -> str:
+    angle = math.degrees(math.atan2(y2 - y1, x2 - x1))
+    return f"""
+  <line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{color}" stroke-width="4" stroke-linecap="round"/>
+  <path d="M{x2},{y2} l-14,-8 l0,16 z" fill="{color}" transform="rotate({angle} {x2} {y2})"/>
+"""
+
+
+def architecture() -> None:
+    rows = [
+        ("Data Sources", [("Matches", GREEN), ("Sponsors", BLUE), ("Players", CYAN), ("Text", ORANGE), ("Weather", PURPLE)]),
+        ("Feature Store", [("FanScore", GREEN), ("Sponsor Power", BLUE), ("Media Exposure", ORANGE), ("Momentum", PURPLE)]),
+        ("Model Layer", [("Match Model", GREEN), ("ROI Model", BLUE), ("GNN Layer", PURPLE), ("Scenario Engine", ORANGE)]),
+        ("Reliability Layer", [("SHAP", GREEN), ("Conformal", BLUE), ("Monte Carlo", RED), ("Risk Score", PURPLE)]),
+        ("Decision Output", [("Dashboard", GREEN), ("Reports", BLUE), ("Ranking", ORANGE), ("Recommendation", RED)]),
     ]
-    parts = [title("Modeling Pipeline", "From real-source signals to sponsor recommendations")]
-    x = 58
-    for idx, (name, desc, color) in enumerate(steps):
-        parts.append(f'<rect x="{x}" y="216" width="210" height="164" rx="18" fill="{color}"/>')
-        parts.append(f'<text x="{x+22}" y="274" font-family="Segoe UI, Arial" font-size="24" font-weight="700" fill="#fff">{escape(name)}</text>')
-        parts.append(f'<text x="{x+22}" y="316" font-family="Segoe UI, Arial" font-size="15" fill="#eef6ff">{escape(desc)}</text>')
-        if idx < len(steps) - 1:
-            parts.append(f'<path d="M{x+222} 298H{x+274}" stroke="#0d1726" stroke-width="5"/>')
-            parts.append(f'<path d="M{x+274} 298L{x+258} 288V308L{x+274} 298Z" fill="#0d1726"/>')
-        x += 244
-    parts.append('<rect x="64" y="470" width="1152" height="104" rx="18" fill="#ffffff" stroke="#d7e0ea"/>')
-    parts.append('<text x="96" y="528" font-family="Segoe UI, Arial" font-size="24" font-weight="700" fill="#0d1726">Primary target: sponsor ROI. Match probability is used as business context, not the final product.</text>')
-    write_svg("model_pipeline.svg", "".join(parts))
+    parts = [title("Platform Architecture", "Data Sources -> Features -> ML/DL/GNN -> Reliability -> Business Decision Support")]
+    y = 178
+    for idx, (lane, chips) in enumerate(rows):
+        parts.append(f'<text x="86" y="{y+38}" class="h">{lane}</text>')
+        parts.append(f'<rect x="310" y="{y}" width="1040" height="76" rx="18" fill="{PANEL}" stroke="{GRID}"/>')
+        x = 342
+        for chip, color in chips:
+            parts.append(f'<rect x="{x}" y="{y+18}" width="180" height="40" rx="20" fill="{color}" opacity="0.92"/>')
+            parts.append(f'<text x="{x+90}" y="{y+44}" text-anchor="middle" class="label white">{escape(chip)}</text>')
+            x += 210
+        if idx < len(rows) - 1:
+            parts.append(arrow(830, y + 80, 830, y + 122))
+        y += 128
+    parts.append(f'<rect x="76" y="828" width="1350" height="56" rx="14" fill="#edf5f2" stroke="{GRID}"/>')
+    parts.append(f'<text x="104" y="864" class="label">Key point: match prediction is an upstream signal; the final decision target is sponsor ROI under uncertainty.</text>')
+    svg("architecture.svg", "".join(parts), 1480, 920)
 
 
-def feature_importance() -> None:
-    df = pd.read_csv(ROOT / "reports" / "roi_feature_importance.csv").head(10)
+def data_flow() -> None:
+    parts = [title("Multi-Source Data Flow", "Tabular sports data, real-source text, time-series attention, and graph relationships share one feature store")]
+    lanes = [
+        ("Historical/Public", "international_results.csv\nWorld Cup history\n2026 schedule", GREEN),
+        ("Commercial Proxy", "sponsor spend\nad exposure\nbrand heat", BLUE),
+        ("Real Text", "GDELT metadata\nWikimedia text\n5,450 text units", ORANGE),
+        ("Context", "weather\nstage premium\nhome/away", PURPLE),
+    ]
+    x = 80
+    for name, desc, color in lanes:
+        parts.append(f'<rect x="{x}" y="185" width="285" height="300" rx="22" fill="{PANEL}" stroke="{GRID}"/>')
+        parts.append(f'<rect x="{x}" y="185" width="285" height="68" rx="22" fill="{color}"/>')
+        parts.append(f'<text x="{x+28}" y="228" class="h white">{escape(name)}</text>')
+        for i, line in enumerate(desc.splitlines()):
+            parts.append(f'<text x="{x+28}" y="{300+i*42}" class="label">{escape(line)}</text>')
+        parts.append(arrow(x + 142, 495, 740, 580, "#9aa8b8"))
+        x += 350
+    parts.append(f'<rect x="520" y="590" width="460" height="116" rx="24" fill="#eef7f3" stroke="{GREEN}" stroke-width="3"/>')
+    parts.append(f'<text x="750" y="637" text-anchor="middle" class="h">Unified Modeling Dataset</text>')
+    parts.append(f'<text x="750" y="674" text-anchor="middle" class="small">FanScore, Sponsor Power, Text Signal, Risk Features</text>')
+    parts.append(arrow(750, 712, 750, 788, GREEN))
+    parts.append(f'<rect x="518" y="798" width="464" height="66" rx="18" fill="{INK}"/>')
+    parts.append(f'<text x="750" y="839" text-anchor="middle" class="h white">ROI Dashboard + Research Reports</text>')
+    svg("data_flow.svg", "".join(parts), 1480, 930)
+
+
+def model_pipeline() -> None:
+    parts = [title("Model Architecture", "Separate predictive tasks, shared features, and risk-aware business outputs")]
+    cols = [
+        ("Shared Features", ["team strength", "fan score", "media heat", "weather", "stage premium"], GREEN),
+        ("Predictive Models", ["match classifier", "ROI regressor", "model registry", "scenario engine"], BLUE),
+        ("Interpretability", ["SHAP-style drivers", "feature importance", "GNN influence"], ORANGE),
+        ("Reliability", ["conformal sets", "ROI intervals", "Monte Carlo risk"], PURPLE),
+        ("Actions", ["ROI ranking", "scenario lift", "risk warning"], RED),
+    ]
+    x = 72
+    for idx, (header, items, color) in enumerate(cols):
+        parts.append(f'<rect x="{x}" y="192" width="252" height="500" rx="22" fill="{PANEL}" stroke="{GRID}"/>')
+        parts.append(f'<rect x="{x}" y="192" width="252" height="76" rx="22" fill="{color}"/>')
+        parts.append(f'<text x="{x+126}" y="240" text-anchor="middle" class="h white">{escape(header)}</text>')
+        y = 310
+        for item in items:
+            parts.append(f'<circle cx="{x+36}" cy="{y-5}" r="7" fill="{color}"/>')
+            parts.append(f'<text x="{x+58}" y="{y}" class="label">{escape(item)}</text>')
+            y += 58
+        if idx < len(cols) - 1:
+            parts.append(arrow(x + 262, 440, x + 326, 440))
+        x += 292
+    parts.append(f'<rect x="132" y="780" width="1180" height="70" rx="16" fill="#eef2ff" stroke="{GRID}"/>')
+    parts.append(f'<text x="722" y="823" text-anchor="middle" class="label">Interpretation: the platform is not one black-box model; it is a decision chain that turns evidence into strategy.</text>')
+    svg("model_pipeline.svg", "".join(parts), 1500, 900)
+
+
+def shap_importance() -> None:
+    df = pd.read_csv(ROOT / "reports" / "roi_feature_importance.csv").head(12).iloc[::-1]
     max_val = max(df["importance"].max(), 1e-9)
-    parts = [title("ROI Feature Importance", "Top drivers from the current sponsor ROI model")]
-    y = 166
+    parts = [title("SHAP-Style ROI Driver Explanation", "Feature contribution ranking aligned with common ML explainability reports")]
+    x0, y0, w, h = 480, 182, 900, 540
+    parts.append(f'<rect x="72" y="158" width="1358" height="650" rx="22" fill="{PANEL}" stroke="{GRID}"/>')
+    parts.append(f'<line x1="{x0}" y1="{y0}" x2="{x0}" y2="{y0+h}" stroke="{INK}" stroke-width="2"/>')
+    parts.append(f'<line x1="{x0}" y1="{y0+h}" x2="{x0+w}" y2="{y0+h}" stroke="{INK}" stroke-width="2"/>')
+    for i in range(6):
+        gx = x0 + i * w / 5
+        parts.append(f'<line x1="{gx}" y1="{y0}" x2="{gx}" y2="{y0+h}" stroke="{GRID}" stroke-width="1"/>')
+    y = y0 + 32
     for _, row in df.iterrows():
-        feature = str(row["feature"]).replace("_", " ")
+        name = str(row["feature"]).replace("_", " ")
         value = float(row["importance"])
-        width = 760 * value / max_val
-        parts.append(f'<text x="76" y="{y+22}" font-family="Segoe UI, Arial" font-size="17" fill="#0d1726">{escape(feature)}</text>')
-        parts.append(f'<rect x="365" y="{y}" width="790" height="30" rx="15" fill="#e8eef5"/>')
-        parts.append(f'<rect x="365" y="{y}" width="{width:.1f}" height="30" rx="15" fill="#0f8b6f"/>')
-        parts.append(f'<text x="1172" y="{y+22}" font-family="Segoe UI, Arial" font-size="16" fill="#485568">{value:.3f}</text>')
-        y += 46
-    write_svg("roi_feature_importance.svg", "".join(parts))
+        bw = w * value / max_val * 0.86
+        color = GREEN if value >= df["importance"].median() else BLUE
+        parts.append(f'<text x="{x0-28}" y="{y+8}" text-anchor="end" class="label">{escape(name)}</text>')
+        parts.append(f'<rect x="{x0}" y="{y-16}" width="{bw:.1f}" height="28" rx="14" fill="{color}" opacity="0.92"/>')
+        parts.append(f'<text x="{x0+bw+12:.1f}" y="{y+7}" class="small">{value:.3f}</text>')
+        y += 42
+    parts.append(f'<text x="{x0+w/2}" y="{y0+h+54}" text-anchor="middle" class="label">mean absolute contribution to predicted sponsor ROI</text>')
+    parts.append(f'<text x="92" y="764" class="small">Reading: higher bars indicate stronger model influence. Brand heat and team strength dominate, which means ROI is driven by attention quality and sporting context together.</text>')
+    svg("roi_feature_importance.svg", "".join(parts), 1500, 850)
 
 
 def uncertainty_intervals() -> None:
-    df = pd.read_csv(ROOT / "data" / "roi_uncertainty.csv").head(36)
-    ymin = df["roi_ci_low"].min()
-    ymax = df["roi_ci_high"].max()
+    df = pd.read_csv(ROOT / "data" / "roi_uncertainty.csv").head(42)
+    ymin = float(df["roi_ci_low"].min())
+    ymax = float(df["roi_ci_high"].max())
     span = max(ymax - ymin, 1e-9)
-    parts = [title("ROI Prediction Intervals", "Uncertainty layer for sponsor return estimates")]
-    chart_x, chart_y, chart_w, chart_h = 82, 170, 1090, 430
-    parts.append(f'<rect x="{chart_x}" y="{chart_y}" width="{chart_w}" height="{chart_h}" rx="18" fill="#ffffff" stroke="#d7e0ea"/>')
+    parts = [title("ROI Prediction Intervals", "Expected ROI with uncertainty bands for risk-aware sponsor decisions")]
+    x0, y0, w, h = 108, 176, 1240, 520
+    parts.append(f'<rect x="{x0}" y="{y0}" width="{w}" height="{h}" rx="22" fill="{PANEL}" stroke="{GRID}"/>')
+    for i in range(5):
+        yy = y0 + 50 + i * (h - 100) / 4
+        parts.append(f'<line x1="{x0+60}" y1="{yy}" x2="{x0+w-40}" y2="{yy}" stroke="{GRID}" stroke-width="1"/>')
     for idx, row in df.iterrows():
-        x = chart_x + 38 + idx * (chart_w - 86) / max(len(df) - 1, 1)
-        low = chart_y + chart_h - 34 - (float(row["roi_ci_low"]) - ymin) / span * (chart_h - 80)
-        high = chart_y + chart_h - 34 - (float(row["roi_ci_high"]) - ymin) / span * (chart_h - 80)
-        mean = chart_y + chart_h - 34 - (float(row["roi_mean"]) - ymin) / span * (chart_h - 80)
-        parts.append(f'<line x1="{x:.1f}" y1="{high:.1f}" x2="{x:.1f}" y2="{low:.1f}" stroke="#2457c5" stroke-width="4" opacity=".32"/>')
-        parts.append(f'<circle cx="{x:.1f}" cy="{mean:.1f}" r="5" fill="#f28c28"/>')
-    parts.append('<text x="92" y="640" font-family="Segoe UI, Arial" font-size="17" fill="#627085">Each vertical band shows the estimated ROI range; orange dots show expected ROI.</text>')
-    write_svg("roi_uncertainty_intervals.svg", "".join(parts))
-
-
-def text_embedding_map() -> None:
-    df = pd.read_csv(ROOT / "data" / "text_embeddings_reduced.csv").sample(n=420, random_state=42)
-    parts = [title("Text Signal Map", "5,450 real-source text units reduced to two display dimensions")]
-    chart_x, chart_y, chart_w, chart_h = 82, 150, 1080, 500
-    parts.append(f'<rect x="{chart_x}" y="{chart_y}" width="{chart_w}" height="{chart_h}" rx="18" fill="#ffffff" stroke="#d7e0ea"/>')
-    colors = {
-        "GDELT": "#f28c28",
-        "Wikimedia": "#2457c5",
-        "Wikimedia_chunk": "#0f8b6f",
-        "real_match_record_fact": "#6d5bd0",
-        "real_text_window": "#c2415d",
-    }
-    for _, row in df.iterrows():
-        x = chart_x + 42 + float(row["text_x"]) * (chart_w - 84)
-        y = chart_y + 42 + (1 - float(row["text_y"])) * (chart_h - 84)
-        color = colors.get(str(row["source"]), "#627085")
-        parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4.4" fill="{color}" opacity=".58"/>')
-    legend_y = 638
-    lx = 96
-    for label, color in list(colors.items())[:5]:
-        parts.append(f'<circle cx="{lx}" cy="{legend_y}" r="7" fill="{color}"/>')
-        parts.append(f'<text x="{lx+14}" y="{legend_y+6}" font-family="Segoe UI, Arial" font-size="14" fill="#485568">{escape(label)}</text>')
-        lx += 216
-    write_svg("text_embedding_map.svg", "".join(parts))
+        x = x0 + 70 + idx * (w - 130) / max(len(df) - 1, 1)
+        low = y0 + h - 60 - (float(row["roi_ci_low"]) - ymin) / span * (h - 120)
+        high = y0 + h - 60 - (float(row["roi_ci_high"]) - ymin) / span * (h - 120)
+        mean = y0 + h - 60 - (float(row["roi_mean"]) - ymin) / span * (h - 120)
+        parts.append(f'<line x1="{x:.1f}" y1="{high:.1f}" x2="{x:.1f}" y2="{low:.1f}" stroke="{BLUE}" stroke-width="5" opacity=".28"/>')
+        parts.append(f'<circle cx="{x:.1f}" cy="{mean:.1f}" r="5.5" fill="{ORANGE}"/>')
+    parts.append(f'<text x="{x0+60}" y="{y0+h+48}" class="label">Blue ranges = ROI intervals; orange dots = expected ROI. Wider intervals signal decisions that need more caution.</text>')
+    svg("roi_uncertainty_intervals.svg", "".join(parts), 1480, 820)
 
 
 def scenario_ranking() -> None:
     df = pd.read_csv(ROOT / "data" / "scenario_recommendations.csv")
-    summary = df.groupby("scenario", as_index=False).agg(avg_lift=("roi_lift", "mean")).sort_values("avg_lift", ascending=False)
+    summary = df.groupby("scenario", as_index=False).agg(avg_lift=("roi_lift", "mean")).sort_values("avg_lift", ascending=True)
     max_abs = max(summary["avg_lift"].abs().max(), 1e-9)
-    parts = [title("Scenario Ranking", "Average ROI lift across sponsor strategy simulations")]
-    y = 184
-    zero_x = 640
-    parts.append('<line x1="640" y1="150" x2="640" y2="590" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 8"/>')
+    parts = [title("Scenario ROI Lift", "Counterfactual sponsor strategies ranked by average ROI movement")]
+    x0, y0, w = 720, 198, 520
+    parts.append(f'<rect x="84" y="165" width="1320" height="566" rx="22" fill="{PANEL}" stroke="{GRID}"/>')
+    parts.append(f'<line x1="{x0}" y1="210" x2="{x0}" y2="660" stroke="{INK}" stroke-width="2"/>')
+    y = 248
     for _, row in summary.iterrows():
         val = float(row["avg_lift"])
-        width = 420 * abs(val) / max_abs
-        color = "#0f8b6f" if val >= 0 else "#c2415d"
-        x = zero_x if val >= 0 else zero_x - width
-        parts.append(f'<text x="90" y="{y+22}" font-family="Segoe UI, Arial" font-size="18" fill="#0d1726">{escape(str(row["scenario"]).replace("_", " "))}</text>')
-        parts.append(f'<rect x="{x:.1f}" y="{y}" width="{width:.1f}" height="30" rx="15" fill="{color}"/>')
-        parts.append(f'<text x="1080" y="{y+22}" font-family="Segoe UI, Arial" font-size="17" fill="#485568">{val:+.3f}</text>')
-        y += 58
-    write_svg("scenario_ranking.svg", "".join(parts))
+        bw = abs(val) / max_abs * w
+        color = GREEN if val >= 0 else RED
+        x = x0 if val >= 0 else x0 - bw
+        label = str(row["scenario"]).replace("_", " ")
+        parts.append(f'<text x="150" y="{y+7}" class="label">{escape(label)}</text>')
+        parts.append(f'<rect x="{x:.1f}" y="{y-18}" width="{bw:.1f}" height="34" rx="17" fill="{color}" opacity=".94"/>')
+        parts.append(f'<text x="{1260}" y="{y+7}" text-anchor="end" class="label">{val:+.3f}</text>')
+        y += 82
+    parts.append(f'<text x="150" y="690" class="small">Reading: negative lift scenarios expose fragile sponsor conditions, especially player absence or media cooling.</text>')
+    svg("scenario_ranking.svg", "".join(parts), 1480, 780)
 
 
-def data_flow() -> None:
-    lanes = [
-        ("Raw sources", "World Cup match records\\nGDELT article metadata\\nWikimedia text", "#0f8b6f"),
-        ("Evidence tables", "match history\\ntext units\\nsponsor panel\\nweather context", "#2457c5"),
-        ("Feature layer", "FanScore\\nSponsor Power\\nMedia Exposure\\nCommercial Momentum", "#f28c28"),
-        ("Decision outputs", "ROI prediction\\nrisk intervals\\nscenario ranking\\ndashboard", "#6d5bd0"),
+def text_embedding_map() -> None:
+    df = pd.read_csv(ROOT / "data" / "text_embeddings_reduced.csv").sample(n=520, random_state=42)
+    parts = [title("Text Signal Projection", "Real-source news and reference text reduced into a sponsor-attention map")]
+    x0, y0, w, h = 110, 166, 1110, 560
+    parts.append(f'<rect x="{x0}" y="{y0}" width="{w}" height="{h}" rx="22" fill="{PANEL}" stroke="{GRID}"/>')
+    colors = {
+        "GDELT": ORANGE,
+        "Wikimedia": BLUE,
+        "Wikimedia_chunk": GREEN,
+        "real_match_record_fact": PURPLE,
+        "real_text_window": RED,
+    }
+    for _, row in df.iterrows():
+        x = x0 + 52 + float(row["text_x"]) * (w - 104)
+        y = y0 + 52 + (1 - float(row["text_y"])) * (h - 104)
+        parts.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4.8" fill="{colors.get(str(row["source"]), MUTED)}" opacity=".62"/>')
+    lx = 110
+    for label, color in colors.items():
+        parts.append(f'<circle cx="{lx}" cy="785" r="8" fill="{color}"/>')
+        parts.append(f'<text x="{lx+16}" y="791" class="small">{escape(label)}</text>')
+        lx += 250
+    svg("text_embedding_map.svg", "".join(parts), 1480, 840)
+
+
+def gnn_explainer() -> None:
+    parts = [title("GNN Relationship Explanation", "How Team-Player-Sponsor-Match edges become commercial influence signals")]
+    parts.append(f'<rect x="96" y="162" width="1280" height="590" rx="24" fill="{PANEL}" stroke="{GRID}"/>')
+    layers = [
+        ("Sponsors", 210, [(210, 280, "Adidas", BLUE), (210, 430, "Hyundai", BLUE), (210, 580, "Visa", BLUE)]),
+        ("Teams", 520, [(520, 280, "Argentina", GREEN), (520, 430, "Brazil", GREEN), (520, 580, "Spain", GREEN)]),
+        ("Players", 830, [(830, 280, "Core player", ORANGE), (830, 430, "Attack unit", ORANGE), (830, 580, "Defense unit", ORANGE)]),
+        ("Matches", 1130, [(1130, 355, "Stage", PURPLE), (1130, 505, "Venue", PURPLE)]),
     ]
-    parts = [title("Data Flow", "How raw sports, media, and business signals become decision-ready outputs")]
-    x = 72
-    for idx, (name, desc, color) in enumerate(lanes):
-        parts.append(f'<rect x="{x}" y="172" width="246" height="326" rx="22" fill="{color}"/>')
-        parts.append(f'<text x="{x+24}" y="230" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">{escape(name)}</text>')
-        for line_idx, line in enumerate(desc.split("\\n")):
-            parts.append(f'<text x="{x+24}" y="{282 + line_idx * 38}" font-family="Segoe UI, Arial" font-size="18" fill="#eef6ff">{escape(line)}</text>')
-        if idx < len(lanes) - 1:
-            parts.append(f'<path d="M{x+258} 336H{x+302}" stroke="#0d1726" stroke-width="5"/>')
-            parts.append(f'<path d="M{x+302} 336L{x+286} 326V346L{x+302} 336Z" fill="#0d1726"/>')
-        x += 304
-    write_svg("data_flow.svg", "".join(parts))
-
-
-def decision_workflow() -> None:
-    steps = [
-        ("Discover", "market context"),
-        ("Explain", "drivers"),
-        ("Predict", "ROI"),
-        ("Simulate", "strategy"),
-        ("Recommend", "action"),
+    edges = [
+        ((210, 280), (520, 280), 7),
+        ((210, 430), (520, 430), 9),
+        ((210, 580), (520, 580), 5),
+        ((520, 280), (830, 280), 8),
+        ((520, 430), (830, 430), 7),
+        ((520, 580), (830, 580), 6),
+        ((830, 280), (1130, 355), 6),
+        ((830, 430), (1130, 355), 5),
+        ((830, 580), (1130, 505), 4),
+        ((210, 430), (830, 430), 4),
     ]
-    parts = [title("Business Decision Workflow", "Dashboard logic designed for sponsor planning, not just chart browsing")]
-    cx = 156
-    for idx, (name, desc) in enumerate(steps):
-        color = ["#0f8b6f", "#2457c5", "#f28c28", "#6d5bd0", "#c2415d"][idx]
-        parts.append(f'<circle cx="{cx}" cy="310" r="72" fill="{color}"/>')
-        parts.append(f'<text x="{cx}" y="302" font-family="Segoe UI, Arial" font-size="22" font-weight="700" text-anchor="middle" fill="#fff">{name}</text>')
-        parts.append(f'<text x="{cx}" y="334" font-family="Segoe UI, Arial" font-size="15" text-anchor="middle" fill="#eef6ff">{desc}</text>')
-        if idx < len(steps) - 1:
-            parts.append(f'<path d="M{cx+82} 310H{cx+174}" stroke="#0d1726" stroke-width="5"/>')
-            parts.append(f'<path d="M{cx+174} 310L{cx+158} 300V320L{cx+174} 310Z" fill="#0d1726"/>')
-        cx += 240
-    parts.append('<rect x="100" y="492" width="1080" height="88" rx="18" fill="#ffffff" stroke="#d7e0ea"/>')
-    parts.append('<text x="132" y="544" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#0d1726">Output: scenario ranking, ROI lift, risk level, and sponsor strategy recommendation.</text>')
-    write_svg("decision_workflow.svg", "".join(parts))
+    for (x1, y1), (x2, y2), width in edges:
+        parts.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="#8aa3b4" stroke-width="{width}" opacity=".38"/>')
+    for layer, x, nodes in layers:
+        parts.append(f'<text x="{x}" y="214" text-anchor="middle" class="h">{layer}</text>')
+        for nx, ny, label, color in nodes:
+            parts.append(f'<circle cx="{nx}" cy="{ny}" r="54" fill="{color}" opacity=".95"/>')
+            parts.append(f'<text x="{nx}" y="{ny+6}" text-anchor="middle" class="label white">{escape(label)}</text>')
+    parts.append(f'<rect x="214" y="675" width="1030" height="48" rx="14" fill="#eef7f3" stroke="{GRID}"/>')
+    parts.append(f'<text x="730" y="706" text-anchor="middle" class="label">GNN reading: message passing aggregates sponsor fit, player influence, and match context into node-level commercial influence.</text>')
+    svg("gnn_relationship_explainer.svg", "".join(parts), 1480, 820)
 
 
 def dashboard_gallery() -> None:
     cards = [
-        ("ROI Cockpit", "KPI cards, sponsor return, media exposure", "#0f8b6f"),
-        ("Text Signals", "5,450 evidence units projected to 24 dims", "#2457c5"),
-        ("Risk View", "Prediction intervals and negative ROI risk", "#f28c28"),
-        ("Scenario Lab", "Investment, weather, player, stage changes", "#6d5bd0"),
+        ("Discover", "KPI cards + sponsor ranking", GREEN),
+        ("Explain", "SHAP drivers + text signals", BLUE),
+        ("Predict", "match probability + ROI", ORANGE),
+        ("Simulate", "counterfactual ROI lift", PURPLE),
+        ("Recommend", "risk-aware strategy", RED),
     ]
-    parts = [title("Dashboard Gallery", "Four views that turn model outputs into sponsor decisions")]
-    coords = [(80, 164), (670, 164), (80, 430), (670, 430)]
-    for (name, desc, color), (x, y) in zip(cards, coords):
-        parts.append(f'<rect x="{x}" y="{y}" width="530" height="202" rx="22" fill="#fff" stroke="#d7e0ea"/>')
-        parts.append(f'<rect x="{x}" y="{y}" width="530" height="58" rx="22" fill="{color}"/>')
-        parts.append(f'<text x="{x+28}" y="{y+39}" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#fff">{escape(name)}</text>')
-        parts.append(f'<text x="{x+28}" y="{y+98}" font-family="Segoe UI, Arial" font-size="18" fill="#485568">{escape(desc)}</text>')
-        parts.append(f'<polyline points="{x+32},{y+162} {x+130},{y+126} {x+226},{y+146} {x+324},{y+102} {x+432},{y+132}" fill="none" stroke="{color}" stroke-width="7" stroke-linecap="round"/>')
-    write_svg("dashboard_gallery.svg", "".join(parts))
+    parts = [title("Dashboard Decision Gallery", "The interface follows one sponsor-planning path instead of a loose chart wall")]
+    x, y = 90, 210
+    for idx, (name, desc, color) in enumerate(cards):
+        parts.append(f'<rect x="{x}" y="{y}" width="245" height="310" rx="24" fill="{PANEL}" stroke="{GRID}"/>')
+        parts.append(f'<rect x="{x}" y="{y}" width="245" height="74" rx="24" fill="{color}"/>')
+        parts.append(f'<text x="{x+122}" y="{y+47}" text-anchor="middle" class="h white">{name}</text>')
+        parts.append(f'<text x="{x+28}" y="{y+126}" class="label">{escape(desc)}</text>')
+        parts.append(f'<polyline points="{x+34},{y+242} {x+82},{y+214} {x+128},{y+232} {x+172},{y+184} {x+214},{y+202}" fill="none" stroke="{color}" stroke-width="7" stroke-linecap="round"/>')
+        if idx < len(cards) - 1:
+            parts.append(arrow(x + 252, y + 156, x + 302, y + 156))
+        x += 282
+    parts.append(f'<text x="100" y="640" class="label">Business interpretation: every page asks one question, then pushes the user toward the next sponsor decision.</text>')
+    svg("dashboard_gallery.svg", "".join(parts), 1530, 760)
 
 
 def main() -> None:
-    model_pipeline()
+    architecture()
     data_flow()
-    feature_importance()
+    model_pipeline()
+    shap_importance()
     uncertainty_intervals()
-    text_embedding_map()
     scenario_ranking()
-    decision_workflow()
+    text_embedding_map()
+    gnn_explainer()
     dashboard_gallery()
     print(f"Generated model visuals in {ASSET_DIR}")
 

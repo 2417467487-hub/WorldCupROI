@@ -1,12 +1,29 @@
-<svg width="1280" height="520" viewBox="0 0 1280 520" xmlns="http://www.w3.org/2000/svg">
-      <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0d1726"/></marker></defs>
-      <rect width="1280" height="520" fill="#f6f8fb"/>
-      <text x="70" y="82" font-family="Segoe UI, Arial" font-size="42" font-weight="700" fill="#0d1726">Platform Architecture</text>
-      <text x="70" y="126" font-family="Segoe UI, Arial" font-size="20" fill="#627085">Sports analytics + sponsorship intelligence + business decision support</text>
-      <rect x="80" y="170" width="220" height="150" rx="18" fill="#0f8b6f"/><text x="104" y="225" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">Real data</text><text x="104" y="266" font-family="Segoe UI, Arial" font-size="16" fill="#eef6ff">matches, news, text, sponsors</text><rect x="380" y="170" width="220" height="150" rx="18" fill="#2457c5"/><text x="404" y="225" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">Feature layer</text><text x="404" y="266" font-family="Segoe UI, Arial" font-size="16" fill="#eef6ff">FanScore, sponsor power, momentum</text><rect x="700" y="170" width="220" height="150" rx="18" fill="#f28c28"/><text x="724" y="225" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">Models</text><text x="724" y="266" font-family="Segoe UI, Arial" font-size="16" fill="#eef6ff">match probability + ROI regression</text><rect x="1000" y="170" width="220" height="150" rx="18" fill="#6d5bd0"/><text x="1024" y="225" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#fff">Decision cockpit</text><text x="1024" y="266" font-family="Segoe UI, Arial" font-size="16" fill="#eef6ff">risk, scenarios, recommendations</text>
-      
-      <path d="M310 245H365" stroke="#0d1726" stroke-width="5" marker-end="url(#a)"/>
-      <path d="M610 245H685" stroke="#0d1726" stroke-width="5" marker-end="url(#a)"/>
-      <path d="M930 245H985" stroke="#0d1726" stroke-width="5" marker-end="url(#a)"/>
-    
-    </svg>
+<svg width="1480" height="920" viewBox="0 0 1480 920" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1480" height="920" fill="#ffffff"/>
+  <line x1="72" y1="136" x2="1408" y2="136" stroke="#d1d5db" stroke-width="1"/>
+  <style>
+    .title { font: 700 42px Arial, Helvetica, sans-serif; fill: #111827; }
+    .subtitle { font: 400 20px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .h { font: 700 23px Arial, Helvetica, sans-serif; fill: #111827; }
+    .label { font: 600 17px Arial, Helvetica, sans-serif; fill: #111827; }
+    .small { font: 400 15px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .tiny { font: 400 12px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .white { fill: #ffffff; }
+  </style>
+  
+  <text x="76" y="82" class="title">Platform Architecture</text>
+  <text x="78" y="122" class="subtitle">Data Sources -&gt; Features -&gt; ML/DL/GNN -&gt; Reliability -&gt; Business Decision Support</text>
+<text x="86" y="216" class="h">Data Sources</text><rect x="310" y="178" width="1040" height="76" rx="18" fill="#ffffff" stroke="#d1d5db"/><rect x="342" y="196" width="180" height="40" rx="20" fill="#009E73" opacity="0.92"/><text x="432" y="222" text-anchor="middle" class="label white">Matches</text><rect x="552" y="196" width="180" height="40" rx="20" fill="#0072B2" opacity="0.92"/><text x="642" y="222" text-anchor="middle" class="label white">Sponsors</text><rect x="762" y="196" width="180" height="40" rx="20" fill="#56B4E9" opacity="0.92"/><text x="852" y="222" text-anchor="middle" class="label white">Players</text><rect x="972" y="196" width="180" height="40" rx="20" fill="#E69F00" opacity="0.92"/><text x="1062" y="222" text-anchor="middle" class="label white">Text</text><rect x="1182" y="196" width="180" height="40" rx="20" fill="#7B61FF" opacity="0.92"/><text x="1272" y="222" text-anchor="middle" class="label white">Weather</text>
+  <line x1="830" y1="258" x2="830" y2="300" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M830,300 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(90.0 830 300)"/>
+<text x="86" y="344" class="h">Feature Store</text><rect x="310" y="306" width="1040" height="76" rx="18" fill="#ffffff" stroke="#d1d5db"/><rect x="342" y="324" width="180" height="40" rx="20" fill="#009E73" opacity="0.92"/><text x="432" y="350" text-anchor="middle" class="label white">FanScore</text><rect x="552" y="324" width="180" height="40" rx="20" fill="#0072B2" opacity="0.92"/><text x="642" y="350" text-anchor="middle" class="label white">Sponsor Power</text><rect x="762" y="324" width="180" height="40" rx="20" fill="#E69F00" opacity="0.92"/><text x="852" y="350" text-anchor="middle" class="label white">Media Exposure</text><rect x="972" y="324" width="180" height="40" rx="20" fill="#7B61FF" opacity="0.92"/><text x="1062" y="350" text-anchor="middle" class="label white">Momentum</text>
+  <line x1="830" y1="386" x2="830" y2="428" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M830,428 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(90.0 830 428)"/>
+<text x="86" y="472" class="h">Model Layer</text><rect x="310" y="434" width="1040" height="76" rx="18" fill="#ffffff" stroke="#d1d5db"/><rect x="342" y="452" width="180" height="40" rx="20" fill="#009E73" opacity="0.92"/><text x="432" y="478" text-anchor="middle" class="label white">Match Model</text><rect x="552" y="452" width="180" height="40" rx="20" fill="#0072B2" opacity="0.92"/><text x="642" y="478" text-anchor="middle" class="label white">ROI Model</text><rect x="762" y="452" width="180" height="40" rx="20" fill="#7B61FF" opacity="0.92"/><text x="852" y="478" text-anchor="middle" class="label white">GNN Layer</text><rect x="972" y="452" width="180" height="40" rx="20" fill="#E69F00" opacity="0.92"/><text x="1062" y="478" text-anchor="middle" class="label white">Scenario Engine</text>
+  <line x1="830" y1="514" x2="830" y2="556" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M830,556 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(90.0 830 556)"/>
+<text x="86" y="600" class="h">Reliability Layer</text><rect x="310" y="562" width="1040" height="76" rx="18" fill="#ffffff" stroke="#d1d5db"/><rect x="342" y="580" width="180" height="40" rx="20" fill="#009E73" opacity="0.92"/><text x="432" y="606" text-anchor="middle" class="label white">SHAP</text><rect x="552" y="580" width="180" height="40" rx="20" fill="#0072B2" opacity="0.92"/><text x="642" y="606" text-anchor="middle" class="label white">Conformal</text><rect x="762" y="580" width="180" height="40" rx="20" fill="#D55E00" opacity="0.92"/><text x="852" y="606" text-anchor="middle" class="label white">Monte Carlo</text><rect x="972" y="580" width="180" height="40" rx="20" fill="#7B61FF" opacity="0.92"/><text x="1062" y="606" text-anchor="middle" class="label white">Risk Score</text>
+  <line x1="830" y1="642" x2="830" y2="684" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M830,684 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(90.0 830 684)"/>
+<text x="86" y="728" class="h">Decision Output</text><rect x="310" y="690" width="1040" height="76" rx="18" fill="#ffffff" stroke="#d1d5db"/><rect x="342" y="708" width="180" height="40" rx="20" fill="#009E73" opacity="0.92"/><text x="432" y="734" text-anchor="middle" class="label white">Dashboard</text><rect x="552" y="708" width="180" height="40" rx="20" fill="#0072B2" opacity="0.92"/><text x="642" y="734" text-anchor="middle" class="label white">Reports</text><rect x="762" y="708" width="180" height="40" rx="20" fill="#E69F00" opacity="0.92"/><text x="852" y="734" text-anchor="middle" class="label white">Ranking</text><rect x="972" y="708" width="180" height="40" rx="20" fill="#D55E00" opacity="0.92"/><text x="1062" y="734" text-anchor="middle" class="label white">Recommendation</text><rect x="76" y="828" width="1350" height="56" rx="14" fill="#edf5f2" stroke="#d1d5db"/><text x="104" y="864" class="label">Key point: match prediction is an upstream signal; the final decision target is sponsor ROI under uncertainty.</text>
+</svg>
