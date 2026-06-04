@@ -11,7 +11,9 @@ WorldCupROI turns the World Cup attention market into a sponsorship decision eng
 ![Risk](https://img.shields.io/badge/Risk-Conformal%20%2B%20Monte%20Carlo-6d5bd0)
 ![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit%20%2B%20Plotly-1167b1)
 
-[![WorldCupROI dashboard overview](assets/gifs/dashboard_overview.gif)](dashboard/panel_dashboard.html)
+![WorldCupROI method overview](assets/images/readme_hero.png)
+
+The opening figure is generated with Python from `scripts/generate_readme_assets.py`. It summarizes the project as a machine-learning method overview: multi-source evidence, feature construction, multi-task prediction, explainability, graph intelligence, and ROI decision support.
 
 | Link | Target |
 |---|---|
@@ -155,6 +157,8 @@ Results come first because sponsorship teams need to see the business signal bef
 
 ### Sponsor-Team-Player Network
 
+![GNN relationship explanation](docs/assets/gnn_relationship_explainer.svg)
+
 | Network signal | Current value | Decision use |
 |---|---:|---|
 | Graph edges | 6112 | Relationship density across sports and sponsor entities. |
@@ -162,11 +166,11 @@ Results come first because sponsorship teams need to see the business signal bef
 | Top sponsor by influence | Hyundai | Current strongest sponsor-network position. |
 | Top sponsor influence score | 1261.417 | Comparable influence score for ranking. |
 
-**What it shows:** The graph layer connects teams, players, sponsors, and matches into a weighted commercial network.
+**What it shows:** The graph layer connects sponsors, teams, players, and matches into a weighted heterogeneous network.
 
-**Why it matters:** Sponsorship effectiveness depends on relationships among brands, teams, players, and event attention.
+**Why it matters:** Sponsorship effectiveness depends on how brand exposure, team context, player influence, and match stage pass information through the relationship network.
 
-**Business takeaway:** Network centrality can help identify sponsors with stronger activation leverage.
+**Business takeaway:** Network centrality and edge strength can help identify sponsors with stronger activation leverage and more resilient commercial pathways.
 
 ## Problem
 
@@ -310,9 +314,11 @@ The dashboard is structured around a business decision sequence rather than a lo
 | Risk analysis | ![Risk uncertainty](assets/gifs/risk_uncertainty.gif) |
 | Network analysis | ![Sponsor network graph](assets/gifs/network_graph.gif) |
 
-Demo video:
+### Platform Demo Video
 
-[![WorldCupROI demo video](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
+[![WorldCupROI platform demo video](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
+
+The demo video walks through the sponsorship intelligence workflow from KPI discovery to ROI simulation, uncertainty analysis, and scenario recommendation.
 
 Generated showcase files are indexed in [docs/project_artifacts.md](docs/project_artifacts.md), including GIF previews, demo video assets, background images, and regeneration commands.
 
