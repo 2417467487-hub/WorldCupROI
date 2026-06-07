@@ -1,0 +1,118 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1667 >>
+stream
+BT
+/F1 17 Tf
+50 780 Td
+/F1 18 Tf
+(WorldCupROI Executive Summary) Tj
+0 -21 Td
+/F1 10 Tf
+(Panel rows: 1,928) Tj
+0 -21 Td
+/F1 10 Tf
+(Teams: 82) Tj
+0 -21 Td
+/F1 10 Tf
+(Sponsors: 10) Tj
+0 -21 Td
+/F1 10 Tf
+(Average predicted ROI: 3.673x) Tj
+0 -21 Td
+/F1 10 Tf
+(Average FanScore: 0.504) Tj
+0 -21 Td
+/F1 10 Tf
+() Tj
+0 -21 Td
+/F1 10 Tf
+(Decision Workflow:) Tj
+0 -21 Td
+/F1 10 Tf
+(1. Discover audience and match context.) Tj
+0 -21 Td
+/F1 10 Tf
+(2. Explain ROI drivers and data boundaries.) Tj
+0 -21 Td
+/F1 10 Tf
+(3. Predict match and sponsor ROI outcomes.) Tj
+0 -21 Td
+/F1 10 Tf
+(4. Simulate conservative, balanced, and aggressive strategies.) Tj
+0 -21 Td
+/F1 10 Tf
+(5. Recommend sponsor actions with risk and confidence intervals.) Tj
+0 -21 Td
+/F1 10 Tf
+() Tj
+0 -21 Td
+/F1 10 Tf
+(Deliverables:) Tj
+0 -21 Td
+/F1 10 Tf
+(business_insights.md, model_card.md, data_card.md, user_research_brief.md, executive_summary) Tj
+0 -21 Td
+/F1 10 Tf
+() Tj
+0 -21 Td
+/F1 10 Tf
+(Business Insights) Tj
+0 -21 Td
+/F1 10 Tf
+(Executive Takeaway) Tj
+0 -21 Td
+/F1 10 Tf
+(WorldCupROI is now positioned as a decision platform: discover audience signals, explain ROI) Tj
+0 -21 Td
+/F1 10 Tf
+(Best Current Opportunities) Tj
+0 -21 Td
+/F1 10 Tf
+(Attention Funnel) Tj
+0 -21 Td
+/F1 10 Tf
+(Strategy Summary) Tj
+0 -21 Td
+/F1 10 Tf
+(Sponsor Influence) Tj
+0 -21 Td
+/F1 10 Tf
+(Landing Recommendation) Tj
+0 -21 Td
+/F1 10 Tf
+(- Use conservative strategy when risk is high or conversion proxy is weak.) Tj
+0 -21 Td
+/F1 10 Tf
+(- Use balanced activation as the default commercial package.) Tj
+0 -21 Td
+/F1 10 Tf
+(- Use aggressive media surge only when attention, stage premium, and player availability ali) Tj
+0 -21 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+2030
+%%EOF

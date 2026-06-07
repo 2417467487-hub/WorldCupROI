@@ -11,6 +11,25 @@ WorldCupROI turns the World Cup attention market into a sponsorship decision eng
 ![Risk](https://img.shields.io/badge/Risk-Conformal%20%2B%20Monte%20Carlo-6d5bd0)
 ![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit%20%2B%20Plotly-1167b1)
 
+| Quick link | Open |
+|---|---|
+| Demo dashboard | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
+| Streamlit app | `make dashboard` |
+| Executive summary | [reports/executive_summary.pdf](reports/executive_summary.pdf) |
+| Business insights | [reports/business_insights.md](reports/business_insights.md) |
+| Demo video | [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4) |
+| Data card | [docs/data_card.md](docs/data_card.md) |
+| Model card | [reports/model_card.md](reports/model_card.md) |
+| Deployment guide | [docs/deployment.md](docs/deployment.md) |
+
+```bash
+make demo       # fully offline reproducible run
+make dashboard  # Streamlit decision dashboard
+make assets     # README images, model visuals, demo media
+```
+
+If `make` is not available on Windows, run `python scripts/run_pipeline.py --demo` and then `python -m streamlit run dashboard/app.py`.
+
 ![WorldCupROI method overview](assets/images/readme_hero.png)
 
 The opening figure is generated with Python from `scripts/generate_readme_assets.py`. It summarizes the project as a machine-learning method overview: multi-source evidence, feature construction, multi-task prediction, explainability, graph intelligence, and ROI decision support.
@@ -23,7 +42,7 @@ The platform is not only a modeling pipeline. It includes an interactive sponsor
 
 | Experience | Open |
 |---|---|
-| Live Streamlit dashboard | `streamlit run dashboard/app.py` |
+| Live Streamlit dashboard | `make dashboard` |
 | Static dashboard preview | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
 | Full MP4 demo | [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4) |
 | Visual preview page | [preview_visuals.html](preview_visuals.html) |
@@ -38,7 +57,7 @@ The platform is not only a modeling pipeline. It includes an interactive sponsor
 
 | Link | Target |
 |---|---|
-| Live Demo | `streamlit run dashboard/app.py` |
+| Live Demo | `make dashboard` |
 | Static Demo | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
 | Demo Video | [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4) |
 | Report | [sample_report.pdf](sample_report.pdf) |
@@ -48,10 +67,10 @@ The platform is not only a modeling pipeline. It includes an interactive sponsor
 |---|---:|
 | Match prediction accuracy | 0.5566 |
 | Match prediction log loss | 0.9780 |
-| Sponsor ROI model MAE | 0.1216 |
-| Sponsor ROI model R2 | 0.8326 |
+| Sponsor ROI model MAE | 0.1213 |
+| Sponsor ROI model R2 | 0.8590 |
 | Match conformal coverage | 0.9021 |
-| ROI interval coverage | 0.8505 |
+| ROI interval coverage | 0.8454 |
 | Average negative ROI probability | 0.0000 |
 
 **Chinese summary:** WorldCupROI 不是单纯预测世界杯胜负，而是把比赛表现、真实文本信号、赞助曝光、粉丝影响力与 ROI 风险整合为体育赞助商业智能平台。
@@ -76,10 +95,10 @@ Results come first because sponsorship teams need to see the business signal bef
 |---|---|---:|---|
 | Match prediction | Accuracy | 0.5566 | Baseline signal for team outcome probability. |
 | Match prediction | Log loss | 0.9780 | Measures probability calibration quality. |
-| Sponsor ROI | MAE | 0.1216 | Average ROI prediction error. |
-| Sponsor ROI | R2 | 0.8326 | Share of ROI variance explained by model signals. |
+| Sponsor ROI | MAE | 0.1213 | Average ROI prediction error. |
+| Sponsor ROI | R2 | 0.8590 | Share of ROI variance explained by model signals. |
 | Conformal prediction | Match coverage | 0.9021 | Reliability of match prediction sets. |
-| Conformal prediction | ROI coverage | 0.8505 | Reliability of ROI interval estimates. |
+| Conformal prediction | ROI coverage | 0.8454 | Reliability of ROI interval estimates. |
 | Uncertainty | Negative ROI probability | 0.0000 | Current average downside probability in generated panel. |
 
 ### Model Performance Comparison
@@ -87,7 +106,7 @@ Results come first because sponsorship teams need to see the business signal bef
 | Task | Model | Metrics | Status |
 |---|---|---|---|
 | Match outcome | Centroid classifier | Accuracy 0.5566, Log loss 0.9780 | Reproducible baseline |
-| Sponsor ROI | Ridge regression | R2 0.8326, MAE 0.1216 | Reproducible baseline |
+| Sponsor ROI | Ridge regression | R2 0.8590, MAE 0.1213 | Reproducible baseline |
 | Tabular modeling | XGBoost | Accuracy, Log loss, feature gain | Optional package |
 | Tabular modeling | LightGBM | Accuracy, Log loss, feature gain | Optional package |
 | Categorical modeling | CatBoost | Accuracy, Log loss, categorical splits | Optional package |
@@ -142,7 +161,7 @@ Results come first because sponsorship teams need to see the business signal bef
 | Prediction target | Coverage rate | Average interval or set size | qhat |
 |---|---:|---:|---:|
 | Match prediction sets | 0.9021 | 2.3814 | 0.8110 |
-| ROI prediction intervals | 0.8505 | 0.4488 | 0.2244 |
+| ROI prediction intervals | 0.8454 | 0.4578 | 0.2289 |
 
 **What it shows:** Figure 3 shows prediction intervals and conformal coverage for match outcomes and ROI estimates.
 
@@ -391,7 +410,7 @@ dashboard/panel_dashboard.html
 Streamlit dashboard:
 
 ```bash
-streamlit run dashboard/app.py
+make dashboard
 ```
 
 ## Installation

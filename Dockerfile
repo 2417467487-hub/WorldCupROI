@@ -5,4 +5,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
-CMD ["python", "src/build_plotly_dashboard.py"]
+RUN python scripts/run_pipeline.py --demo
+EXPOSE 8501
+
+CMD ["streamlit", "run", "dashboard/app.py", "--server.address=0.0.0.0", "--server.port=8501"]

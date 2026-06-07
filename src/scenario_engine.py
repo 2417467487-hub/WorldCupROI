@@ -11,11 +11,61 @@ REPORT_DIR = ROOT / "reports"
 
 
 SCENARIOS = [
-    {"scenario": "baseline", "spend_multiplier": 1.00, "exposure_multiplier": 1.00, "availability_delta": 0.00, "weather_delta": 0.00, "stage_delta": 0.00},
-    {"scenario": "premium_media_push", "spend_multiplier": 1.18, "exposure_multiplier": 1.35, "availability_delta": 0.00, "weather_delta": 0.00, "stage_delta": 0.06},
-    {"scenario": "core_player_absent", "spend_multiplier": 1.00, "exposure_multiplier": 0.92, "availability_delta": -0.28, "weather_delta": 0.02, "stage_delta": 0.00},
-    {"scenario": "bad_weather_low_attention", "spend_multiplier": 1.00, "exposure_multiplier": 0.82, "availability_delta": 0.00, "weather_delta": 0.18, "stage_delta": 0.00},
-    {"scenario": "knockout_brand_surge", "spend_multiplier": 1.25, "exposure_multiplier": 1.55, "availability_delta": 0.04, "weather_delta": 0.00, "stage_delta": 0.16},
+    {
+        "scenario": "conservative_efficiency",
+        "strategy_type": "conservative",
+        "spend_multiplier": 0.88,
+        "exposure_multiplier": 0.96,
+        "availability_delta": 0.00,
+        "weather_delta": 0.00,
+        "stage_delta": 0.00,
+        "risk_delta": -0.10,
+        "reason": "Protect downside, prioritize performance-based inventory, and keep spend flexible.",
+    },
+    {
+        "scenario": "balanced_activation",
+        "strategy_type": "balanced",
+        "spend_multiplier": 1.05,
+        "exposure_multiplier": 1.15,
+        "availability_delta": 0.02,
+        "weather_delta": 0.00,
+        "stage_delta": 0.03,
+        "risk_delta": 0.00,
+        "reason": "Use a mixed media package and lean into proven fan attention signals.",
+    },
+    {
+        "scenario": "aggressive_media_surge",
+        "strategy_type": "aggressive",
+        "spend_multiplier": 1.32,
+        "exposure_multiplier": 1.62,
+        "availability_delta": 0.05,
+        "weather_delta": -0.02,
+        "stage_delta": 0.12,
+        "risk_delta": 0.14,
+        "reason": "Buy premium moments when attention, stage value, and player availability support scale.",
+    },
+    {
+        "scenario": "player_risk_defense",
+        "strategy_type": "conservative",
+        "spend_multiplier": 0.82,
+        "exposure_multiplier": 0.88,
+        "availability_delta": -0.18,
+        "weather_delta": 0.03,
+        "stage_delta": 0.00,
+        "risk_delta": 0.08,
+        "reason": "Shift budget away from star-dependent creative if player availability weakens.",
+    },
+    {
+        "scenario": "knockout_takeover",
+        "strategy_type": "aggressive",
+        "spend_multiplier": 1.45,
+        "exposure_multiplier": 1.90,
+        "availability_delta": 0.04,
+        "weather_delta": 0.00,
+        "stage_delta": 0.20,
+        "risk_delta": 0.18,
+        "reason": "Capture knockout-stage attention when the upside justifies higher variance.",
+    },
 ]
 
 
@@ -29,14 +79,19 @@ def scenario_roi(row: pd.Series, scenario: dict[str, float | str]) -> float:
     return round(max(0.2, base + exposure_lift + spend_penalty + availability_lift + weather_penalty + stage_lift), 3)
 
 
-def strategy_text(lift: float, risk_score: float) -> str:
-    if lift > 0.18 and risk_score < 0.45:
-        return "Scale sponsor activation and prioritize premium media inventory."
+def confidence_interval(roi: float, risk_score: float, scenario: dict[str, float | str]) -> tuple[float, float]:
+    width = 0.12 + 0.34 * risk_score + 0.07 * max(0, float(scenario["spend_multiplier"]) - 1)
+    return round(max(0.2, roi - width), 3), round(roi + width, 3)
+
+
+def strategy_text(lift: float, risk_score: float, scenario: dict[str, float | str]) -> str:
+    if lift > 0.18 and risk_score < 0.50:
+        return f"Recommended: {scenario['reason']}"
     if lift > 0.05:
-        return "Proceed selectively; monitor fan sentiment and player availability."
+        return f"Conditional: {scenario['reason']} Monitor fan sentiment and player availability."
     if risk_score > 0.65:
-        return "Reduce exposure risk; shift budget to flexible or performance-based activation."
-    return "Maintain baseline investment and wait for stronger attention signals."
+        return "Defensive posture: reduce exposure risk and shift spend to flexible activation."
+    return "Hold baseline until stronger attention or conversion signals appear."
 
 
 def run_scenarios(df: pd.DataFrame) -> pd.DataFrame:
@@ -47,6 +102,8 @@ def run_scenarios(df: pd.DataFrame) -> pd.DataFrame:
         for scenario in SCENARIOS:
             roi = scenario_roi(row, scenario)
             lift = round(roi - baseline, 3)
+            adjusted_risk = round(min(1, max(0, risk_score + float(scenario["risk_delta"]))), 3)
+            ci_low, ci_high = confidence_interval(roi, adjusted_risk, scenario)
             rows.append(
                 {
                     "match_id": row["match_id"],
@@ -54,10 +111,15 @@ def run_scenarios(df: pd.DataFrame) -> pd.DataFrame:
                     "team_b": row["team_b"],
                     "stage": row["stage"],
                     "scenario": scenario["scenario"],
+                    "strategy_type": scenario["strategy_type"],
                     "scenario_roi": roi,
                     "roi_lift": lift,
-                    "risk_level": "high" if risk_score > 0.65 else "medium" if risk_score > 0.38 else "low",
-                    "strategy_recommendation": strategy_text(lift, risk_score),
+                    "risk_score": adjusted_risk,
+                    "risk_level": "high" if adjusted_risk > 0.65 else "medium" if adjusted_risk > 0.38 else "low",
+                    "roi_ci_low": ci_low,
+                    "roi_ci_high": ci_high,
+                    "recommendation_reason": scenario["reason"],
+                    "strategy_recommendation": strategy_text(lift, adjusted_risk, scenario),
                 }
             )
     out = pd.DataFrame(rows)
@@ -82,9 +144,27 @@ def main() -> None:
     out = run_scenarios(base)
     out_path = DATA_DIR / "scenario_recommendations.csv"
     out.to_csv(out_path, index=False)
-    top = out.sort_values(["scenario_rank", "roi_lift"], ascending=[True, False]).head(8)
+    top = out.sort_values(["scenario_rank", "roi_lift"], ascending=[True, False]).head(10)
+    strategy_summary = (
+        out.groupby("strategy_type", as_index=False)
+        .agg(
+            avg_roi=("scenario_roi", "mean"),
+            avg_lift=("roi_lift", "mean"),
+            avg_risk=("risk_score", "mean"),
+            avg_ci_low=("roi_ci_low", "mean"),
+            avg_ci_high=("roi_ci_high", "mean"),
+            high_risk_share=("risk_level", lambda x: round((x == "high").mean(), 3)),
+        )
+        .round(3)
+    )
+    strategy_summary.to_csv(REPORT_DIR / "scenario_strategy_summary.csv", index=False)
     (REPORT_DIR / "scenario_ranking.md").write_text(
-        "# Scenario Ranking\n\n" + markdown_table(top),
+        "# Scenario Ranking\n\n"
+        "Scenarios are grouped into conservative, balanced, and aggressive sponsor strategies.\n\n"
+        "## Strategy Summary\n\n"
+        + markdown_table(strategy_summary)
+        + "\n\n## Top Match-Level Recommendations\n\n"
+        + markdown_table(top),
         encoding="utf-8",
     )
     print(f"Saved scenario recommendations to {out_path}")

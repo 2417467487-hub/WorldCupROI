@@ -1,6 +1,6 @@
 # Text Dimensionality Reduction Summary
 
-- Input text units: 5117
+- Input text units: 6249
 - Hashed TF-IDF features: 768
 - Reduced dimensions: 24
 - Top-24 variance proxy sum: 1.0000

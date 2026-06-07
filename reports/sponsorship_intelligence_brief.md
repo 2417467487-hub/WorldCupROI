@@ -7,8 +7,8 @@ WorldCupROI links match context, fan attention, media exposure, sponsor activati
 ## Model Signals
 
 - Match model: - Accuracy: 0.5566
-- ROI model: - R2: 0.8326
-- Key ROI drivers: a_sponsor_spend_m, a_brand_heat_index, team_a_strength, a_ad_exposure_m, sponsor_team_fit_score, elo_diff
+- ROI model: - R2: 0.8590
+- Key ROI drivers: a_brand_heat_index, a_sponsor_spend_m, a_ad_exposure_m, team_a_strength, sponsor_team_fit_score, commercial_momentum_score
 
 ## Risk and Uncertainty
 
@@ -34,20 +34,20 @@ WorldCupROI links match context, fan attention, media exposure, sponsor activati
 
 ## ROI Prediction Intervals
 
-- Coverage rate: 0.8505
-- Average interval width: 0.4488
-- qhat: 0.2244
+- Coverage rate: 0.8454
+- Average interval width: 0.4578
+- qhat: 0.2289
 
 ## Scenario Recommendations
 
 | scenario | roi_lift | risk_level | strategy_recommendation |
 | --- | --- | --- | --- |
-| knockout_brand_surge | 0.155 | low | Proceed selectively; monitor fan sentiment and player availability. |
-| knockout_brand_surge | 0.155 | low | Proceed selectively; monitor fan sentiment and player availability. |
-| knockout_brand_surge | 0.155 | low | Proceed selectively; monitor fan sentiment and player availability. |
-| knockout_brand_surge | 0.155 | low | Proceed selectively; monitor fan sentiment and player availability. |
-| knockout_brand_surge | 0.155 | low | Proceed selectively; monitor fan sentiment and player availability. |
-| knockout_brand_surge | 0.155 | low | Proceed selectively; monitor fan sentiment and player availability. |
+| knockout_takeover | 0.226 | medium | Recommended: Capture knockout-stage attention when the upside justifies higher variance. |
+| knockout_takeover | 0.226 | medium | Conditional: Capture knockout-stage attention when the upside justifies higher variance. Monitor fan sentiment and player availability. |
+| knockout_takeover | 0.226 | medium | Conditional: Capture knockout-stage attention when the upside justifies higher variance. Monitor fan sentiment and player availability. |
+| knockout_takeover | 0.226 | medium | Recommended: Capture knockout-stage attention when the upside justifies higher variance. |
+| knockout_takeover | 0.226 | medium | Conditional: Capture knockout-stage attention when the upside justifies higher variance. Monitor fan sentiment and player availability. |
+| knockout_takeover | 0.226 | medium | Conditional: Capture knockout-stage attention when the upside justifies higher variance. Monitor fan sentiment and player availability. |
 
 ## Recommended Action
 

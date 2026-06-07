@@ -6,42 +6,42 @@
       "artifact": "modeling_dataset",
       "path": "data\\modeling_dataset.csv",
       "exists": true,
-      "size_kb": 792.3,
+      "size_kb": 792.57,
       "rows": 964
     },
     {
       "artifact": "roi_predictions",
       "path": "data\\roi_predictions.csv",
       "exists": true,
-      "size_kb": 800.55,
+      "size_kb": 800.86,
       "rows": 964
     },
     {
       "artifact": "panel_dataset",
       "path": "data\\panel_dataset.csv",
       "exists": true,
-      "size_kb": 381.32,
+      "size_kb": 381.3,
       "rows": 1928
     },
     {
       "artifact": "scenario_recommendations",
       "path": "data\\scenario_recommendations.csv",
       "exists": true,
-      "size_kb": 81.03,
+      "size_kb": 161.89,
       "rows": 600
     },
     {
       "artifact": "roi_uncertainty",
       "path": "data\\roi_uncertainty.csv",
       "exists": true,
-      "size_kb": 95.07,
+      "size_kb": 95.1,
       "rows": 964
     },
     {
       "artifact": "static_dashboard",
       "path": "dashboard\\panel_dashboard.html",
       "exists": true,
-      "size_kb": 3796.68,
+      "size_kb": 705.58,
       "rows": null
     },
     {
@@ -62,7 +62,7 @@
       "artifact": "demo_video",
       "path": "assets\\videos\\worldcuproi_demo.mp4",
       "exists": true,
-      "size_kb": 738.09,
+      "size_kb": 1650.8,
       "rows": null
     },
     {

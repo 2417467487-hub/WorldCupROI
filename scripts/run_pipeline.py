@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main() -> None:
-    subprocess.run([sys.executable, "src/pipeline.py"], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, "src/pipeline.py", *sys.argv[1:]], cwd=ROOT, check=True)
 
 
 if __name__ == "__main__":

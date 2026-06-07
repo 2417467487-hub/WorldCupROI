@@ -1,15 +1,20 @@
-.PHONY: pipeline dashboard assets health
+PYTHON ?= ml-python
+
+.PHONY: pipeline demo dashboard assets health
 
 pipeline:
-	python scripts/run_pipeline.py
+	$(PYTHON) scripts/run_pipeline.py
 
 dashboard:
-	streamlit run dashboard/app.py
+	$(PYTHON) -m streamlit run dashboard/app.py
+
+demo:
+	$(PYTHON) scripts/run_pipeline.py --demo
 
 assets:
-	python scripts/generate_readme_assets.py
-	python scripts/generate_model_visuals.py
-	python scripts/generate_showcase_media.py
+	$(PYTHON) scripts/generate_readme_assets.py
+	$(PYTHON) scripts/generate_model_visuals.py
+	$(PYTHON) scripts/generate_showcase_media.py
 
 health:
-	python src/platform_health.py
+	$(PYTHON) src/platform_health.py
