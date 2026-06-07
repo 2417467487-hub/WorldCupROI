@@ -590,7 +590,7 @@ match_id,year,team_a,team_b,stage,neutral_site,host_advantage_a,stadium_capacity
 589,2002,Brazil,Turkey,group_or_knockout,True,0.0,61.1,19.5,58.2,cloudy,57.85,183.21,A_win,Ulsan,South Korea,2002-06-03
 590,2002,Croatia,Mexico,group_or_knockout,True,0.0,78.9,20.8,81.0,cloudy,53.45,223.42,B_win,Niigata,Japan,2002-06-03
 591,2002,Italy,Ecuador,group_or_knockout,True,0.0,42.1,14.7,66.9,windy,55.65,219.83,A_win,Sapporo,Japan,2002-06-03
-592,2002,China PR,Costa Rica,group_or_knockout,True,0.0,61.2,19.2,30.6,clear,55.65,197.03,B_win,Gwangju,South Korea,2002-06-04
+592,2002,China,Costa Rica,group_or_knockout,True,0.0,61.2,19.2,30.6,clear,55.65,197.03,B_win,Gwangju,South Korea,2002-06-04
 593,2002,Japan,Belgium,group_or_knockout,False,0.18,81.7,18.6,54.6,hot,60.05,115.25,draw,Saitama,Japan,2002-06-04
 594,2002,South Korea,Poland,group_or_knockout,False,0.18,36.5,27.6,86.5,hot,55.65,130.88,A_win,Busan,South Korea,2002-06-04
 595,2002,Germany,Republic of Ireland,group_or_knockout,True,0.0,41.3,27.9,54.6,cloudy,55.65,120.06,draw,Kashima,Japan,2002-06-05
@@ -602,7 +602,7 @@ match_id,year,team_a,team_b,stage,neutral_site,host_advantage_a,stadium_capacity
 601,2002,Argentina,England,group_or_knockout,True,0.0,64.7,17.4,75.3,windy,53.45,150.48,B_win,Sapporo,Japan,2002-06-07
 602,2002,Spain,Paraguay,group_or_knockout,True,0.0,50.5,19.2,49.3,cloudy,60.05,107.95,A_win,Jeonju,South Korea,2002-06-07
 603,2002,Sweden,Nigeria,group_or_knockout,True,0.0,74.6,16.0,76.4,cloudy,57.85,191.7,A_win,Kobe,Japan,2002-06-07
-604,2002,Brazil,China PR,group_or_knockout,True,0.0,49.8,24.0,66.7,rain,60.05,190.76,A_win,Seogwipo,South Korea,2002-06-08
+604,2002,Brazil,China,group_or_knockout,True,0.0,49.8,24.0,66.7,rain,60.05,190.76,A_win,Seogwipo,South Korea,2002-06-08
 605,2002,Italy,Croatia,group_or_knockout,True,0.0,49.7,27.4,61.9,cloudy,57.85,282.05,B_win,Kashima,Japan,2002-06-08
 606,2002,South Africa,Slovenia,group_or_knockout,True,0.0,65.0,13.5,60.3,hot,53.45,193.67,A_win,Daegu,South Korea,2002-06-08
 607,2002,Costa Rica,Turkey,group_or_knockout,True,0.0,67.9,23.2,55.2,clear,55.65,141.27,draw,Incheon,South Korea,2002-06-09
@@ -622,7 +622,7 @@ match_id,year,team_a,team_b,stage,neutral_site,host_advantage_a,stadium_capacity
 621,2002,Costa Rica,Brazil,group_or_knockout,True,0.0,52.3,22.3,30.2,clear,66.65,153.58,B_win,Suwon,South Korea,2002-06-13
 622,2002,Ecuador,Croatia,group_or_knockout,True,0.0,58.4,13.3,66.0,rain,53.45,142.54,A_win,Yokohama,Japan,2002-06-13
 623,2002,Mexico,Italy,group_or_knockout,True,0.0,61.5,8.9,31.1,clear,55.65,109.15,draw,Ōita,Japan,2002-06-13
-624,2002,Turkey,China PR,group_or_knockout,True,0.0,49.9,28.7,56.3,rain,57.85,185.23,A_win,Seoul,South Korea,2002-06-13
+624,2002,Turkey,China,group_or_knockout,True,0.0,49.9,28.7,56.3,rain,57.85,185.23,A_win,Seoul,South Korea,2002-06-13
 625,2002,Belgium,Russia,group_or_knockout,True,0.0,64.1,17.1,51.1,rain,62.25,209.83,A_win,Fukuroi,Japan,2002-06-14
 626,2002,Japan,Tunisia,group_or_knockout,False,0.18,51.1,20.3,24.6,clear,55.65,317.49,A_win,Osaka,Japan,2002-06-14
 627,2002,South Korea,Portugal,group_or_knockout,False,0.18,52.6,14.7,64.2,rain,53.45,128.33,A_win,Incheon,South Korea,2002-06-14

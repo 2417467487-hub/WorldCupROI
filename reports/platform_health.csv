@@ -1,0 +1,13 @@
+artifact,path,exists,size_kb,rows
+modeling_dataset,data\modeling_dataset.csv,True,792.3,964.0
+roi_predictions,data\roi_predictions.csv,True,800.55,964.0
+panel_dataset,data\panel_dataset.csv,True,381.32,1928.0
+scenario_recommendations,data\scenario_recommendations.csv,True,81.03,600.0
+roi_uncertainty,data\roi_uncertainty.csv,True,95.07,964.0
+static_dashboard,dashboard\panel_dashboard.html,True,3796.68,
+streamlit_app,dashboard\app.py,True,13.79,
+readme_hero,assets\images\readme_hero.png,True,95.84,
+demo_video,assets\videos\worldcuproi_demo.mp4,True,738.09,
+algorithm_strategy,reports\algorithm_strategy.md,True,2.21,
+roi_model_card,reports\sponsor_roi_model_card.json,True,1.36,
+match_model_card,reports\match_outcome_model_card.json,True,1.0,

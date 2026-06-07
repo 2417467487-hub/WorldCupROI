@@ -6,16 +6,16 @@ Team-player-sponsor-match relationships are represented as a weighted network.
 
 | source | connected_nodes | sponsor_influence | avg_edge_weight |
 | --- | --- | --- | --- |
-| sponsor:Hyundai | 262 | 1261.417 | 2.3534 |
-| sponsor:Adidas | 233 | 1079.883 | 2.3074 |
-| sponsor:Coca-Cola | 235 | 1046.33 | 2.2262 |
-| sponsor:Visa | 236 | 1030.583 | 2.2021 |
-| sponsor:Hisense | 185 | 787.907 | 2.1411 |
-| sponsor:Budweiser | 183 | 775.724 | 2.1429 |
-| sponsor:McDonald's | 187 | 725.071 | 1.9703 |
-| sponsor:Qatar Airways | 163 | 647.604 | 1.9865 |
-| sponsor:Vivo | 152 | 580.617 | 1.9484 |
-| sponsor:Mengniu | 98 | 367.196 | 1.9125 |
+| sponsor:Hyundai | 262 | 1181.544 | 2.2044 |
+| sponsor:Adidas | 233 | 1044.713 | 2.2323 |
+| sponsor:Coca-Cola | 235 | 1038.771 | 2.2102 |
+| sponsor:Visa | 236 | 994.303 | 2.1246 |
+| sponsor:Hisense | 185 | 852.667 | 2.317 |
+| sponsor:Budweiser | 183 | 777.989 | 2.1491 |
+| sponsor:McDonald's | 187 | 722.041 | 1.9621 |
+| sponsor:Qatar Airways | 163 | 644.499 | 1.977 |
+| sponsor:Vivo | 152 | 577.275 | 1.9372 |
+| sponsor:Mengniu | 98 | 366.937 | 1.9111 |
 
 ## Top Player Commercial Influence
 
@@ -36,13 +36,13 @@ Team-player-sponsor-match relationships are represented as a weighted network.
 
 | node | degree | weighted_degree |
 | --- | --- | --- |
-| sponsor:Hyundai | 536.0 | 1261.417 |
-| sponsor:Adidas | 468.0 | 1079.883 |
-| sponsor:Coca-Cola | 470.0 | 1046.33 |
-| sponsor:Visa | 468.0 | 1030.583 |
-| sponsor:Hisense | 368.0 | 787.907 |
-| sponsor:Budweiser | 362.0 | 775.724 |
-| sponsor:McDonald's | 368.0 | 725.071 |
-| sponsor:Qatar Airways | 326.0 | 647.604 |
-| sponsor:Vivo | 298.0 | 580.617 |
-| sponsor:Mengniu | 192.0 | 367.196 |
+| sponsor:Hyundai | 536.0 | 1181.544 |
+| sponsor:Adidas | 468.0 | 1044.713 |
+| sponsor:Coca-Cola | 470.0 | 1038.771 |
+| sponsor:Visa | 468.0 | 994.303 |
+| sponsor:Hisense | 368.0 | 852.667 |
+| sponsor:Budweiser | 362.0 | 777.989 |
+| sponsor:McDonald's | 368.0 | 722.041 |
+| sponsor:Qatar Airways | 326.0 | 644.499 |
+| sponsor:Vivo | 298.0 | 577.275 |
+| sponsor:Mengniu | 192.0 | 366.937 |

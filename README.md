@@ -48,10 +48,10 @@ The platform is not only a modeling pipeline. It includes an interactive sponsor
 |---|---:|
 | Match prediction accuracy | 0.5566 |
 | Match prediction log loss | 0.9780 |
-| Sponsor ROI model MAE | 0.1177 |
-| Sponsor ROI model R2 | 0.8687 |
+| Sponsor ROI model MAE | 0.1216 |
+| Sponsor ROI model R2 | 0.8326 |
 | Match conformal coverage | 0.9021 |
-| ROI interval coverage | 0.8814 |
+| ROI interval coverage | 0.8505 |
 | Average negative ROI probability | 0.0000 |
 
 **Chinese summary:** WorldCupROI 不是单纯预测世界杯胜负，而是把比赛表现、真实文本信号、赞助曝光、粉丝影响力与 ROI 风险整合为体育赞助商业智能平台。
@@ -76,10 +76,10 @@ Results come first because sponsorship teams need to see the business signal bef
 |---|---|---:|---|
 | Match prediction | Accuracy | 0.5566 | Baseline signal for team outcome probability. |
 | Match prediction | Log loss | 0.9780 | Measures probability calibration quality. |
-| Sponsor ROI | MAE | 0.1177 | Average ROI prediction error. |
-| Sponsor ROI | R2 | 0.8687 | Share of ROI variance explained by model signals. |
+| Sponsor ROI | MAE | 0.1216 | Average ROI prediction error. |
+| Sponsor ROI | R2 | 0.8326 | Share of ROI variance explained by model signals. |
 | Conformal prediction | Match coverage | 0.9021 | Reliability of match prediction sets. |
-| Conformal prediction | ROI coverage | 0.8814 | Reliability of ROI interval estimates. |
+| Conformal prediction | ROI coverage | 0.8505 | Reliability of ROI interval estimates. |
 | Uncertainty | Negative ROI probability | 0.0000 | Current average downside probability in generated panel. |
 
 ### Model Performance Comparison
@@ -87,7 +87,7 @@ Results come first because sponsorship teams need to see the business signal bef
 | Task | Model | Metrics | Status |
 |---|---|---|---|
 | Match outcome | Centroid classifier | Accuracy 0.5566, Log loss 0.9780 | Reproducible baseline |
-| Sponsor ROI | Ridge regression | R2 0.8687, MAE 0.1177 | Reproducible baseline |
+| Sponsor ROI | Ridge regression | R2 0.8326, MAE 0.1216 | Reproducible baseline |
 | Tabular modeling | XGBoost | Accuracy, Log loss, feature gain | Optional package |
 | Tabular modeling | LightGBM | Accuracy, Log loss, feature gain | Optional package |
 | Categorical modeling | CatBoost | Accuracy, Log loss, categorical splits | Optional package |
@@ -124,10 +124,10 @@ Results come first because sponsorship teams need to see the business signal bef
 
 | Scenario | Average predicted ROI | Average ROI delta | Average ROI lift |
 |---|---:|---:|---:|
-| A_baseline | 3.850 | 0.000 | 0.000% |
-| B_core_player_absent | 3.761 | -0.089 | -2.296% |
-| C_sponsor_upgrade | 3.613 | -0.238 | -6.206% |
-| D_media_cooling | 3.643 | -0.207 | -5.396% |
+| A_baseline | 3.818 | 0.000 | 0.000% |
+| B_core_player_absent | 3.738 | -0.080 | -2.074% |
+| C_sponsor_upgrade | 3.606 | -0.213 | -5.580% |
+| D_media_cooling | 3.608 | -0.210 | -5.521% |
 
 **What it shows:** Figure 2 compares baseline ROI with counterfactual scenarios such as player absence, sponsor activation change, and media cooling.
 
@@ -142,7 +142,7 @@ Results come first because sponsorship teams need to see the business signal bef
 | Prediction target | Coverage rate | Average interval or set size | qhat |
 |---|---:|---:|---:|
 | Match prediction sets | 0.9021 | 2.3814 | 0.8110 |
-| ROI prediction intervals | 0.8814 | 0.4708 | 0.2354 |
+| ROI prediction intervals | 0.8505 | 0.4488 | 0.2244 |
 
 **What it shows:** Figure 3 shows prediction intervals and conformal coverage for match outcomes and ROI estimates.
 
@@ -284,6 +284,33 @@ flowchart LR
 ```
 
 This flow is the spine of the platform: data enters once, features are reused across models, and every prediction is routed through explanation, uncertainty, and business reporting before it reaches the dashboard.
+
+### Algorithm Upgrade Structure
+
+WorldCupROI now documents the algorithm system as four connected layers instead of isolated scripts. The current implementation keeps lightweight fallback models runnable, while making the production upgrade path explicit.
+
+| Layer | Current method | Output | Upgrade path |
+|---|---|---|---|
+| Match Outcome Layer | CentroidOutcomeModel with deterministic split | win/draw/loss probability, feature importance, conformal set | calibrated logistic regression, LightGBM multiclass, XGBoost multi-class |
+| Sponsor ROI Layer | Standardized RidgeROIModel | predicted ROI, ROI lift, ROI driver ranking, interval estimate | ElasticNet, LightGBMRegressor, XGBoostRegressor, stacked tabular ensemble |
+| Risk & Recommendation Layer | bootstrap, Monte Carlo, conformal intervals | negative ROI probability, scenario ranking, lift-risk recommendation | ensemble variance, Bayesian optimization, portfolio allocation |
+| Relationship Intelligence Layer | weighted heterogeneous graph centrality | sponsor influence, player/team/sponsor graph metrics | GraphSAGE, heterogeneous GNN, temporal graph model |
+
+The structured algorithm manifest is generated at:
+
+```text
+reports/algorithm_manifest.json
+reports/algorithm_strategy.md
+```
+
+Each trained fallback model now also writes a model card:
+
+```text
+reports/match_outcome_model_card.md
+reports/sponsor_roi_model_card.md
+```
+
+This makes the repository easier to review as a research project: model target, feature count, metrics, artifact path, random seed, and upgrade notes are tracked as explicit artifacts.
 
 ![Architecture diagram](docs/assets/architecture.svg)
 
@@ -427,9 +454,31 @@ Engineering reproducibility:
 | Component | Role |
 |---|---|
 | `src/pipeline.py` | End-to-end reproducible analytics pipeline. |
+| `src/algorithm_strategy.py` | Algorithm layers, feature groups, model cards, and upgrade manifest. |
+| `src/platform_health.py` | Checks required data, model, report, dashboard, and media artifacts. |
 | `.github/workflows/ci.yml` | GitHub Actions validation. |
 | `Dockerfile` | Containerized execution. |
 | `config/pipeline.yaml` | Pipeline configuration and output tracking. |
+
+Platform health check:
+
+```bash
+python src/platform_health.py
+```
+
+or:
+
+```bash
+make health
+```
+
+Latest generated health artifacts:
+
+```text
+reports/platform_health.json
+reports/platform_health.md
+reports/platform_health.csv
+```
 
 ## Contributions
 

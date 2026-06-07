@@ -1,601 +1,601 @@
 match_id,team_a,team_b,stage,scenario,scenario_roi,roi_lift,risk_level,strategy_recommendation,scenario_rank
-1,Belgium,United States,tournament,baseline,3.624,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-1,Belgium,United States,tournament,premium_media_push,3.702,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-1,Belgium,United States,tournament,core_player_absent,3.514,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-1,Belgium,United States,tournament,bad_weather_low_attention,3.545,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-1,Belgium,United States,tournament,knockout_brand_surge,3.779,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-2,France,Mexico,tournament,baseline,3.491,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-2,France,Mexico,tournament,premium_media_push,3.569,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-2,France,Mexico,tournament,core_player_absent,3.381,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-2,France,Mexico,tournament,bad_weather_low_attention,3.412,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-2,France,Mexico,tournament,knockout_brand_surge,3.646,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-3,Brazil,Yugoslavia,tournament,baseline,3.764,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-3,Brazil,Yugoslavia,tournament,premium_media_push,3.842,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-3,Brazil,Yugoslavia,tournament,core_player_absent,3.654,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-3,Brazil,Yugoslavia,tournament,bad_weather_low_attention,3.685,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-3,Brazil,Yugoslavia,tournament,knockout_brand_surge,3.919,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-4,Peru,Romania,tournament,baseline,3.142,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-4,Peru,Romania,tournament,premium_media_push,3.22,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-4,Peru,Romania,tournament,core_player_absent,3.032,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-4,Peru,Romania,tournament,bad_weather_low_attention,3.063,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-4,Peru,Romania,tournament,knockout_brand_surge,3.297,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-5,Argentina,France,tournament,baseline,3.855,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-5,Argentina,France,tournament,premium_media_push,3.933,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-5,Argentina,France,tournament,core_player_absent,3.745,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-5,Argentina,France,tournament,bad_weather_low_attention,3.776,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-5,Argentina,France,tournament,knockout_brand_surge,4.01,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-6,Chile,Mexico,tournament,baseline,3.337,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-6,Chile,Mexico,tournament,premium_media_push,3.415,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-6,Chile,Mexico,tournament,core_player_absent,3.227,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-6,Chile,Mexico,tournament,bad_weather_low_attention,3.258,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-6,Chile,Mexico,tournament,knockout_brand_surge,3.492,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-7,Bolivia,Yugoslavia,tournament,baseline,2.524,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-7,Bolivia,Yugoslavia,tournament,premium_media_push,2.602,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-7,Bolivia,Yugoslavia,tournament,core_player_absent,2.414,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-7,Bolivia,Yugoslavia,tournament,bad_weather_low_attention,2.445,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-7,Bolivia,Yugoslavia,tournament,knockout_brand_surge,2.679,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-8,Paraguay,United States,tournament,baseline,3.646,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-8,Paraguay,United States,tournament,premium_media_push,3.724,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-8,Paraguay,United States,tournament,core_player_absent,3.536,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-8,Paraguay,United States,tournament,bad_weather_low_attention,3.567,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-8,Paraguay,United States,tournament,knockout_brand_surge,3.801,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-9,Uruguay,Peru,tournament,baseline,3.32,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-9,Uruguay,Peru,tournament,premium_media_push,3.398,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-9,Uruguay,Peru,tournament,core_player_absent,3.21,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-9,Uruguay,Peru,tournament,bad_weather_low_attention,3.241,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-9,Uruguay,Peru,tournament,knockout_brand_surge,3.475,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-10,Argentina,Mexico,tournament,baseline,4.054,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-10,Argentina,Mexico,tournament,premium_media_push,4.132,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-10,Argentina,Mexico,tournament,core_player_absent,3.944,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-10,Argentina,Mexico,tournament,bad_weather_low_attention,3.975,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-10,Argentina,Mexico,tournament,knockout_brand_surge,4.209,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-11,Chile,France,tournament,baseline,3.221,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-11,Chile,France,tournament,premium_media_push,3.299,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-11,Chile,France,tournament,core_player_absent,3.111,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-11,Chile,France,tournament,bad_weather_low_attention,3.142,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-11,Chile,France,tournament,knockout_brand_surge,3.376,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-12,Belgium,Paraguay,tournament,baseline,3.611,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-12,Belgium,Paraguay,tournament,premium_media_push,3.689,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-12,Belgium,Paraguay,tournament,core_player_absent,3.501,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-12,Belgium,Paraguay,tournament,bad_weather_low_attention,3.532,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-12,Belgium,Paraguay,tournament,knockout_brand_surge,3.766,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-13,Bolivia,Brazil,tournament,baseline,2.456,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-13,Bolivia,Brazil,tournament,premium_media_push,2.534,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-13,Bolivia,Brazil,tournament,core_player_absent,2.346,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-13,Bolivia,Brazil,tournament,bad_weather_low_attention,2.377,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-13,Bolivia,Brazil,tournament,knockout_brand_surge,2.611,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-14,Uruguay,Romania,tournament,baseline,3.469,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-14,Uruguay,Romania,tournament,premium_media_push,3.547,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-14,Uruguay,Romania,tournament,core_player_absent,3.359,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-14,Uruguay,Romania,tournament,bad_weather_low_attention,3.39,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-14,Uruguay,Romania,tournament,knockout_brand_surge,3.624,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-15,Argentina,Chile,tournament,baseline,3.925,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-15,Argentina,Chile,tournament,premium_media_push,4.003,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-15,Argentina,Chile,tournament,core_player_absent,3.815,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-15,Argentina,Chile,tournament,bad_weather_low_attention,3.846,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-15,Argentina,Chile,tournament,knockout_brand_surge,4.08,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-16,Argentina,United States,tournament,baseline,3.96,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-16,Argentina,United States,tournament,premium_media_push,4.038,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-16,Argentina,United States,tournament,core_player_absent,3.85,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-16,Argentina,United States,tournament,bad_weather_low_attention,3.881,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-16,Argentina,United States,tournament,knockout_brand_surge,4.115,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-17,Uruguay,Yugoslavia,tournament,baseline,3.455,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-17,Uruguay,Yugoslavia,tournament,premium_media_push,3.533,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-17,Uruguay,Yugoslavia,tournament,core_player_absent,3.345,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-17,Uruguay,Yugoslavia,tournament,bad_weather_low_attention,3.376,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-17,Uruguay,Yugoslavia,tournament,knockout_brand_surge,3.61,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-18,Uruguay,Argentina,tournament,baseline,3.51,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-18,Uruguay,Argentina,tournament,premium_media_push,3.588,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-18,Uruguay,Argentina,tournament,core_player_absent,3.4,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-18,Uruguay,Argentina,tournament,bad_weather_low_attention,3.431,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-18,Uruguay,Argentina,tournament,knockout_brand_surge,3.665,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-19,Argentina,Sweden,tournament,baseline,3.99,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-19,Argentina,Sweden,tournament,premium_media_push,4.068,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-19,Argentina,Sweden,tournament,core_player_absent,3.88,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-19,Argentina,Sweden,tournament,bad_weather_low_attention,3.911,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-19,Argentina,Sweden,tournament,knockout_brand_surge,4.145,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-20,Austria,France,tournament,baseline,3.172,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-20,Austria,France,tournament,premium_media_push,3.25,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-20,Austria,France,tournament,core_player_absent,3.062,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-20,Austria,France,tournament,bad_weather_low_attention,3.093,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-20,Austria,France,tournament,knockout_brand_surge,3.327,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-21,Belgium,Germany,tournament,baseline,3.688,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-21,Belgium,Germany,tournament,premium_media_push,3.766,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-21,Belgium,Germany,tournament,core_player_absent,3.578,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-21,Belgium,Germany,tournament,bad_weather_low_attention,3.609,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-21,Belgium,Germany,tournament,knockout_brand_surge,3.843,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-22,Brazil,Spain,tournament,baseline,3.779,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
-22,Brazil,Spain,tournament,premium_media_push,3.857,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
-22,Brazil,Spain,tournament,core_player_absent,3.669,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
-22,Brazil,Spain,tournament,bad_weather_low_attention,3.7,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
-22,Brazil,Spain,tournament,knockout_brand_surge,3.934,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
-23,Czechoslovakia,Romania,tournament,baseline,3.317,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-23,Czechoslovakia,Romania,tournament,premium_media_push,3.395,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-23,Czechoslovakia,Romania,tournament,core_player_absent,3.207,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-23,Czechoslovakia,Romania,tournament,bad_weather_low_attention,3.238,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-23,Czechoslovakia,Romania,tournament,knockout_brand_surge,3.472,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-24,Egypt,Hungary,tournament,baseline,3.211,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-24,Egypt,Hungary,tournament,premium_media_push,3.289,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-24,Egypt,Hungary,tournament,core_player_absent,3.101,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-24,Egypt,Hungary,tournament,bad_weather_low_attention,3.132,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-24,Egypt,Hungary,tournament,knockout_brand_surge,3.366,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-25,Italy,United States,tournament,baseline,3.589,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-25,Italy,United States,tournament,premium_media_push,3.667,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-25,Italy,United States,tournament,core_player_absent,3.479,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-25,Italy,United States,tournament,bad_weather_low_attention,3.51,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-25,Italy,United States,tournament,knockout_brand_surge,3.744,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-26,Netherlands,Switzerland,tournament,baseline,3.445,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-26,Netherlands,Switzerland,tournament,premium_media_push,3.523,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-26,Netherlands,Switzerland,tournament,core_player_absent,3.335,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-26,Netherlands,Switzerland,tournament,bad_weather_low_attention,3.366,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-26,Netherlands,Switzerland,tournament,knockout_brand_surge,3.6,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-27,Austria,Hungary,tournament,baseline,3.102,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-27,Austria,Hungary,tournament,premium_media_push,3.18,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-27,Austria,Hungary,tournament,core_player_absent,2.992,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-27,Austria,Hungary,tournament,bad_weather_low_attention,3.023,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-27,Austria,Hungary,tournament,knockout_brand_surge,3.257,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-28,Czechoslovakia,Switzerland,tournament,baseline,3.395,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-28,Czechoslovakia,Switzerland,tournament,premium_media_push,3.473,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-28,Czechoslovakia,Switzerland,tournament,core_player_absent,3.285,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-28,Czechoslovakia,Switzerland,tournament,bad_weather_low_attention,3.316,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-28,Czechoslovakia,Switzerland,tournament,knockout_brand_surge,3.55,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-29,Germany,Sweden,tournament,baseline,3.833,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-29,Germany,Sweden,tournament,premium_media_push,3.911,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-29,Germany,Sweden,tournament,core_player_absent,3.723,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-29,Germany,Sweden,tournament,bad_weather_low_attention,3.754,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-29,Germany,Sweden,tournament,knockout_brand_surge,3.988,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-30,Italy,Spain,tournament,baseline,3.459,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-30,Italy,Spain,tournament,premium_media_push,3.537,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-30,Italy,Spain,tournament,core_player_absent,3.349,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-30,Italy,Spain,tournament,bad_weather_low_attention,3.38,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-30,Italy,Spain,tournament,knockout_brand_surge,3.614,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-31,Italy,Spain,tournament,baseline,3.337,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-31,Italy,Spain,tournament,premium_media_push,3.415,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-31,Italy,Spain,tournament,core_player_absent,3.227,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-31,Italy,Spain,tournament,bad_weather_low_attention,3.258,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-31,Italy,Spain,tournament,knockout_brand_surge,3.492,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-32,Czechoslovakia,Germany,tournament,baseline,3.33,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-32,Czechoslovakia,Germany,tournament,premium_media_push,3.408,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-32,Czechoslovakia,Germany,tournament,core_player_absent,3.22,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-32,Czechoslovakia,Germany,tournament,bad_weather_low_attention,3.251,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-32,Czechoslovakia,Germany,tournament,knockout_brand_surge,3.485,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-33,Italy,Austria,tournament,baseline,3.371,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-33,Italy,Austria,tournament,premium_media_push,3.449,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-33,Italy,Austria,tournament,core_player_absent,3.261,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-33,Italy,Austria,tournament,bad_weather_low_attention,3.292,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-33,Italy,Austria,tournament,knockout_brand_surge,3.526,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-34,Austria,Germany,tournament,baseline,3.215,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-34,Austria,Germany,tournament,premium_media_push,3.293,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-34,Austria,Germany,tournament,core_player_absent,3.105,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-34,Austria,Germany,tournament,bad_weather_low_attention,3.136,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-34,Austria,Germany,tournament,knockout_brand_surge,3.37,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-35,Italy,Czechoslovakia,tournament,baseline,3.423,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-35,Italy,Czechoslovakia,tournament,premium_media_push,3.501,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-35,Italy,Czechoslovakia,tournament,core_player_absent,3.313,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-35,Italy,Czechoslovakia,tournament,bad_weather_low_attention,3.344,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-35,Italy,Czechoslovakia,tournament,knockout_brand_surge,3.578,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-36,Germany,Switzerland,tournament,baseline,3.805,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-36,Germany,Switzerland,tournament,premium_media_push,3.883,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-36,Germany,Switzerland,tournament,core_player_absent,3.695,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-36,Germany,Switzerland,tournament,bad_weather_low_attention,3.726,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-36,Germany,Switzerland,tournament,knockout_brand_surge,3.96,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-37,Brazil,Poland,tournament,baseline,4.026,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-37,Brazil,Poland,tournament,premium_media_push,4.104,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-37,Brazil,Poland,tournament,core_player_absent,3.916,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-37,Brazil,Poland,tournament,bad_weather_low_attention,3.947,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-37,Brazil,Poland,tournament,knockout_brand_surge,4.181,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-38,Cuba,Romania,tournament,baseline,3.112,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-38,Cuba,Romania,tournament,premium_media_push,3.19,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-38,Cuba,Romania,tournament,core_player_absent,3.002,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-38,Cuba,Romania,tournament,bad_weather_low_attention,3.033,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-38,Cuba,Romania,tournament,knockout_brand_surge,3.267,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-39,Czechoslovakia,Netherlands,tournament,baseline,3.348,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-39,Czechoslovakia,Netherlands,tournament,premium_media_push,3.426,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-39,Czechoslovakia,Netherlands,tournament,core_player_absent,3.238,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-39,Czechoslovakia,Netherlands,tournament,bad_weather_low_attention,3.269,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-39,Czechoslovakia,Netherlands,tournament,knockout_brand_surge,3.503,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-40,France,Belgium,tournament,baseline,3.458,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-40,France,Belgium,tournament,premium_media_push,3.536,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-40,France,Belgium,tournament,core_player_absent,3.348,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-40,France,Belgium,tournament,bad_weather_low_attention,3.379,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-40,France,Belgium,tournament,knockout_brand_surge,3.613,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-41,Hungary,Indonesia,tournament,baseline,3.695,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-41,Hungary,Indonesia,tournament,premium_media_push,3.773,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-41,Hungary,Indonesia,tournament,core_player_absent,3.585,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-41,Hungary,Indonesia,tournament,bad_weather_low_attention,3.616,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-41,Hungary,Indonesia,tournament,knockout_brand_surge,3.85,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-42,Italy,Norway,tournament,baseline,3.455,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-42,Italy,Norway,tournament,premium_media_push,3.533,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-42,Italy,Norway,tournament,core_player_absent,3.345,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-42,Italy,Norway,tournament,bad_weather_low_attention,3.376,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-42,Italy,Norway,tournament,knockout_brand_surge,3.61,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-43,Cuba,Romania,tournament,baseline,2.933,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-43,Cuba,Romania,tournament,premium_media_push,3.011,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-43,Cuba,Romania,tournament,core_player_absent,2.823,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-43,Cuba,Romania,tournament,bad_weather_low_attention,2.854,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-43,Cuba,Romania,tournament,knockout_brand_surge,3.088,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-44,Germany,Switzerland,tournament,baseline,3.897,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-44,Germany,Switzerland,tournament,premium_media_push,3.975,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-44,Germany,Switzerland,tournament,core_player_absent,3.787,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-44,Germany,Switzerland,tournament,bad_weather_low_attention,3.818,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-44,Germany,Switzerland,tournament,knockout_brand_surge,4.052,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-45,Brazil,Czechoslovakia,tournament,baseline,3.727,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-45,Brazil,Czechoslovakia,tournament,premium_media_push,3.805,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-45,Brazil,Czechoslovakia,tournament,core_player_absent,3.617,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-45,Brazil,Czechoslovakia,tournament,bad_weather_low_attention,3.648,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-45,Brazil,Czechoslovakia,tournament,knockout_brand_surge,3.882,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-46,Cuba,Sweden,tournament,baseline,3.087,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-46,Cuba,Sweden,tournament,premium_media_push,3.165,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-46,Cuba,Sweden,tournament,core_player_absent,2.977,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-46,Cuba,Sweden,tournament,bad_weather_low_attention,3.008,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-46,Cuba,Sweden,tournament,knockout_brand_surge,3.242,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-47,France,Italy,tournament,baseline,3.403,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-47,France,Italy,tournament,premium_media_push,3.481,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-47,France,Italy,tournament,core_player_absent,3.293,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-47,France,Italy,tournament,bad_weather_low_attention,3.324,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-47,France,Italy,tournament,knockout_brand_surge,3.558,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-48,Hungary,Switzerland,tournament,baseline,3.545,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-48,Hungary,Switzerland,tournament,premium_media_push,3.623,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-48,Hungary,Switzerland,tournament,core_player_absent,3.435,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-48,Hungary,Switzerland,tournament,bad_weather_low_attention,3.466,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-48,Hungary,Switzerland,tournament,knockout_brand_surge,3.7,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-49,Brazil,Czechoslovakia,tournament,baseline,3.792,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-49,Brazil,Czechoslovakia,tournament,premium_media_push,3.87,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-49,Brazil,Czechoslovakia,tournament,core_player_absent,3.682,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-49,Brazil,Czechoslovakia,tournament,bad_weather_low_attention,3.713,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-49,Brazil,Czechoslovakia,tournament,knockout_brand_surge,3.947,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-50,Brazil,Italy,tournament,baseline,3.762,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-50,Brazil,Italy,tournament,premium_media_push,3.84,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-50,Brazil,Italy,tournament,core_player_absent,3.652,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-50,Brazil,Italy,tournament,bad_weather_low_attention,3.683,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-50,Brazil,Italy,tournament,knockout_brand_surge,3.917,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-51,Hungary,Sweden,tournament,baseline,3.649,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-51,Hungary,Sweden,tournament,premium_media_push,3.727,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-51,Hungary,Sweden,tournament,core_player_absent,3.539,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-51,Hungary,Sweden,tournament,bad_weather_low_attention,3.57,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-51,Hungary,Sweden,tournament,knockout_brand_surge,3.804,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-52,Brazil,Sweden,tournament,baseline,3.905,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-52,Brazil,Sweden,tournament,premium_media_push,3.983,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-52,Brazil,Sweden,tournament,core_player_absent,3.795,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-52,Brazil,Sweden,tournament,bad_weather_low_attention,3.826,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-52,Brazil,Sweden,tournament,knockout_brand_surge,4.06,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-53,Hungary,Italy,tournament,baseline,3.616,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-53,Hungary,Italy,tournament,premium_media_push,3.694,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-53,Hungary,Italy,tournament,core_player_absent,3.506,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-53,Hungary,Italy,tournament,bad_weather_low_attention,3.537,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-53,Hungary,Italy,tournament,knockout_brand_surge,3.771,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-54,Brazil,Mexico,tournament,baseline,3.964,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-54,Brazil,Mexico,tournament,premium_media_push,4.042,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-54,Brazil,Mexico,tournament,core_player_absent,3.854,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-54,Brazil,Mexico,tournament,bad_weather_low_attention,3.885,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-54,Brazil,Mexico,tournament,knockout_brand_surge,4.119,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-55,Chile,England,tournament,baseline,3.376,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-55,Chile,England,tournament,premium_media_push,3.454,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-55,Chile,England,tournament,core_player_absent,3.266,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-55,Chile,England,tournament,bad_weather_low_attention,3.297,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-55,Chile,England,tournament,knockout_brand_surge,3.531,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-56,Italy,Sweden,tournament,baseline,3.491,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-56,Italy,Sweden,tournament,premium_media_push,3.569,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-56,Italy,Sweden,tournament,core_player_absent,3.381,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-56,Italy,Sweden,tournament,bad_weather_low_attention,3.412,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-56,Italy,Sweden,tournament,knockout_brand_surge,3.646,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-57,Spain,United States,tournament,baseline,3.61,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-57,Spain,United States,tournament,premium_media_push,3.688,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-57,Spain,United States,tournament,core_player_absent,3.5,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-57,Spain,United States,tournament,bad_weather_low_attention,3.531,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-57,Spain,United States,tournament,knockout_brand_surge,3.765,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-58,Switzerland,Yugoslavia,tournament,baseline,3.564,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-58,Switzerland,Yugoslavia,tournament,premium_media_push,3.642,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-58,Switzerland,Yugoslavia,tournament,core_player_absent,3.454,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-58,Switzerland,Yugoslavia,tournament,bad_weather_low_attention,3.485,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-58,Switzerland,Yugoslavia,tournament,knockout_brand_surge,3.719,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-59,Brazil,Switzerland,tournament,baseline,3.913,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-59,Brazil,Switzerland,tournament,premium_media_push,3.991,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-59,Brazil,Switzerland,tournament,core_player_absent,3.803,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-59,Brazil,Switzerland,tournament,bad_weather_low_attention,3.834,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-59,Brazil,Switzerland,tournament,knockout_brand_surge,4.068,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-60,Mexico,Yugoslavia,tournament,baseline,3.736,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-60,Mexico,Yugoslavia,tournament,premium_media_push,3.814,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-60,Mexico,Yugoslavia,tournament,core_player_absent,3.626,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-60,Mexico,Yugoslavia,tournament,bad_weather_low_attention,3.657,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-60,Mexico,Yugoslavia,tournament,knockout_brand_surge,3.891,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-61,Chile,Spain,tournament,baseline,3.365,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-61,Chile,Spain,tournament,premium_media_push,3.443,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-61,Chile,Spain,tournament,core_player_absent,3.255,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-61,Chile,Spain,tournament,bad_weather_low_attention,3.286,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-61,Chile,Spain,tournament,knockout_brand_surge,3.52,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-62,England,United States,tournament,baseline,3.259,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-62,England,United States,tournament,premium_media_push,3.337,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-62,England,United States,tournament,core_player_absent,3.149,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-62,England,United States,tournament,bad_weather_low_attention,3.18,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-62,England,United States,tournament,knockout_brand_surge,3.414,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-63,Paraguay,Sweden,tournament,baseline,3.703,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-63,Paraguay,Sweden,tournament,premium_media_push,3.781,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-63,Paraguay,Sweden,tournament,core_player_absent,3.593,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-63,Paraguay,Sweden,tournament,bad_weather_low_attention,3.624,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-63,Paraguay,Sweden,tournament,knockout_brand_surge,3.858,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-64,Brazil,Yugoslavia,tournament,baseline,3.869,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-64,Brazil,Yugoslavia,tournament,premium_media_push,3.947,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-64,Brazil,Yugoslavia,tournament,core_player_absent,3.759,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-64,Brazil,Yugoslavia,tournament,bad_weather_low_attention,3.79,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-64,Brazil,Yugoslavia,tournament,knockout_brand_surge,4.024,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-65,Bolivia,Uruguay,tournament,baseline,2.706,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-65,Bolivia,Uruguay,tournament,premium_media_push,2.784,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-65,Bolivia,Uruguay,tournament,core_player_absent,2.596,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-65,Bolivia,Uruguay,tournament,bad_weather_low_attention,2.627,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-65,Bolivia,Uruguay,tournament,knockout_brand_surge,2.861,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-66,Chile,United States,tournament,baseline,3.485,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-66,Chile,United States,tournament,premium_media_push,3.563,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-66,Chile,United States,tournament,core_player_absent,3.375,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-66,Chile,United States,tournament,bad_weather_low_attention,3.406,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-66,Chile,United States,tournament,knockout_brand_surge,3.64,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-67,England,Spain,tournament,baseline,3.224,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-67,England,Spain,tournament,premium_media_push,3.302,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-67,England,Spain,tournament,core_player_absent,3.114,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-67,England,Spain,tournament,bad_weather_low_attention,3.145,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-67,England,Spain,tournament,knockout_brand_surge,3.379,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-68,Italy,Paraguay,tournament,baseline,3.529,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-68,Italy,Paraguay,tournament,premium_media_push,3.607,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-68,Italy,Paraguay,tournament,core_player_absent,3.419,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-68,Italy,Paraguay,tournament,bad_weather_low_attention,3.45,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-68,Italy,Paraguay,tournament,knockout_brand_surge,3.684,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-69,Mexico,Switzerland,tournament,baseline,3.652,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-69,Mexico,Switzerland,tournament,premium_media_push,3.73,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-69,Mexico,Switzerland,tournament,core_player_absent,3.542,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-69,Mexico,Switzerland,tournament,bad_weather_low_attention,3.573,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-69,Mexico,Switzerland,tournament,knockout_brand_surge,3.807,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-70,Brazil,Sweden,tournament,baseline,4.018,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-70,Brazil,Sweden,tournament,premium_media_push,4.096,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-70,Brazil,Sweden,tournament,core_player_absent,3.908,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-70,Brazil,Sweden,tournament,bad_weather_low_attention,3.939,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-70,Brazil,Sweden,tournament,knockout_brand_surge,4.173,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-71,Spain,Uruguay,tournament,baseline,3.629,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-71,Spain,Uruguay,tournament,premium_media_push,3.707,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-71,Spain,Uruguay,tournament,core_player_absent,3.519,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-71,Spain,Uruguay,tournament,bad_weather_low_attention,3.55,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-71,Spain,Uruguay,tournament,knockout_brand_surge,3.784,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-72,Brazil,Spain,tournament,baseline,4.025,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-72,Brazil,Spain,tournament,premium_media_push,4.103,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-72,Brazil,Spain,tournament,core_player_absent,3.915,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-72,Brazil,Spain,tournament,bad_weather_low_attention,3.946,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-72,Brazil,Spain,tournament,knockout_brand_surge,4.18,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-73,Sweden,Uruguay,tournament,baseline,3.498,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-73,Sweden,Uruguay,tournament,premium_media_push,3.576,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-73,Sweden,Uruguay,tournament,core_player_absent,3.388,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-73,Sweden,Uruguay,tournament,bad_weather_low_attention,3.419,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-73,Sweden,Uruguay,tournament,knockout_brand_surge,3.653,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-74,Brazil,Uruguay,tournament,baseline,3.88,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-74,Brazil,Uruguay,tournament,premium_media_push,3.958,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-74,Brazil,Uruguay,tournament,core_player_absent,3.77,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-74,Brazil,Uruguay,tournament,bad_weather_low_attention,3.801,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-74,Brazil,Uruguay,tournament,knockout_brand_surge,4.035,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-75,Spain,Sweden,tournament,baseline,3.563,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-75,Spain,Sweden,tournament,premium_media_push,3.641,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-75,Spain,Sweden,tournament,core_player_absent,3.453,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-75,Spain,Sweden,tournament,bad_weather_low_attention,3.484,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-75,Spain,Sweden,tournament,knockout_brand_surge,3.718,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-76,Austria,Scotland,tournament,baseline,3.323,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-76,Austria,Scotland,tournament,premium_media_push,3.401,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-76,Austria,Scotland,tournament,core_player_absent,3.213,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-76,Austria,Scotland,tournament,bad_weather_low_attention,3.244,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-76,Austria,Scotland,tournament,knockout_brand_surge,3.478,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-77,Brazil,Mexico,tournament,baseline,3.908,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-77,Brazil,Mexico,tournament,premium_media_push,3.986,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-77,Brazil,Mexico,tournament,core_player_absent,3.798,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-77,Brazil,Mexico,tournament,bad_weather_low_attention,3.829,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-77,Brazil,Mexico,tournament,knockout_brand_surge,4.063,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-78,Czechoslovakia,Uruguay,tournament,baseline,3.342,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
-78,Czechoslovakia,Uruguay,tournament,premium_media_push,3.42,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
-78,Czechoslovakia,Uruguay,tournament,core_player_absent,3.232,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
-78,Czechoslovakia,Uruguay,tournament,bad_weather_low_attention,3.263,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
-78,Czechoslovakia,Uruguay,tournament,knockout_brand_surge,3.497,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
-79,France,Yugoslavia,tournament,baseline,3.379,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-79,France,Yugoslavia,tournament,premium_media_push,3.457,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-79,France,Yugoslavia,tournament,core_player_absent,3.269,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-79,France,Yugoslavia,tournament,bad_weather_low_attention,3.3,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-79,France,Yugoslavia,tournament,knockout_brand_surge,3.534,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-80,Belgium,England,tournament,baseline,3.782,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-80,Belgium,England,tournament,premium_media_push,3.86,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-80,Belgium,England,tournament,core_player_absent,3.672,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-80,Belgium,England,tournament,bad_weather_low_attention,3.703,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-80,Belgium,England,tournament,knockout_brand_surge,3.937,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-81,Germany,Turkey,tournament,baseline,4.004,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-81,Germany,Turkey,tournament,premium_media_push,4.082,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-81,Germany,Turkey,tournament,core_player_absent,3.894,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-81,Germany,Turkey,tournament,bad_weather_low_attention,3.925,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-81,Germany,Turkey,tournament,knockout_brand_surge,4.159,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-82,Hungary,South Korea,tournament,baseline,3.933,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-82,Hungary,South Korea,tournament,premium_media_push,4.011,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-82,Hungary,South Korea,tournament,core_player_absent,3.823,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-82,Hungary,South Korea,tournament,bad_weather_low_attention,3.854,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-82,Hungary,South Korea,tournament,knockout_brand_surge,4.088,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-83,Switzerland,Italy,tournament,baseline,3.575,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-83,Switzerland,Italy,tournament,premium_media_push,3.653,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-83,Switzerland,Italy,tournament,core_player_absent,3.465,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-83,Switzerland,Italy,tournament,bad_weather_low_attention,3.496,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-83,Switzerland,Italy,tournament,knockout_brand_surge,3.73,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-84,Austria,Czechoslovakia,tournament,baseline,3.25,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-84,Austria,Czechoslovakia,tournament,premium_media_push,3.328,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-84,Austria,Czechoslovakia,tournament,core_player_absent,3.14,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-84,Austria,Czechoslovakia,tournament,bad_weather_low_attention,3.171,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-84,Austria,Czechoslovakia,tournament,knockout_brand_surge,3.405,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-85,Brazil,Yugoslavia,tournament,baseline,3.77,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-85,Brazil,Yugoslavia,tournament,premium_media_push,3.848,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-85,Brazil,Yugoslavia,tournament,core_player_absent,3.66,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-85,Brazil,Yugoslavia,tournament,bad_weather_low_attention,3.691,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-85,Brazil,Yugoslavia,tournament,knockout_brand_surge,3.925,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+1,Belgium,United States,tournament,baseline,3.503,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+1,Belgium,United States,tournament,premium_media_push,3.581,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+1,Belgium,United States,tournament,core_player_absent,3.393,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+1,Belgium,United States,tournament,bad_weather_low_attention,3.424,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+1,Belgium,United States,tournament,knockout_brand_surge,3.658,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+2,France,Mexico,tournament,baseline,3.493,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+2,France,Mexico,tournament,premium_media_push,3.571,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+2,France,Mexico,tournament,core_player_absent,3.383,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+2,France,Mexico,tournament,bad_weather_low_attention,3.414,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+2,France,Mexico,tournament,knockout_brand_surge,3.648,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+3,Brazil,Yugoslavia,tournament,baseline,3.648,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+3,Brazil,Yugoslavia,tournament,premium_media_push,3.726,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+3,Brazil,Yugoslavia,tournament,core_player_absent,3.538,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+3,Brazil,Yugoslavia,tournament,bad_weather_low_attention,3.569,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+3,Brazil,Yugoslavia,tournament,knockout_brand_surge,3.803,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+4,Peru,Romania,tournament,baseline,3.581,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+4,Peru,Romania,tournament,premium_media_push,3.659,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+4,Peru,Romania,tournament,core_player_absent,3.471,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+4,Peru,Romania,tournament,bad_weather_low_attention,3.502,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+4,Peru,Romania,tournament,knockout_brand_surge,3.736,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+5,Argentina,France,tournament,baseline,3.581,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+5,Argentina,France,tournament,premium_media_push,3.659,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+5,Argentina,France,tournament,core_player_absent,3.471,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+5,Argentina,France,tournament,bad_weather_low_attention,3.502,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+5,Argentina,France,tournament,knockout_brand_surge,3.736,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+6,Chile,Mexico,tournament,baseline,3.778,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+6,Chile,Mexico,tournament,premium_media_push,3.856,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+6,Chile,Mexico,tournament,core_player_absent,3.668,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+6,Chile,Mexico,tournament,bad_weather_low_attention,3.699,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+6,Chile,Mexico,tournament,knockout_brand_surge,3.933,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+7,Bolivia,Yugoslavia,tournament,baseline,2.507,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+7,Bolivia,Yugoslavia,tournament,premium_media_push,2.585,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+7,Bolivia,Yugoslavia,tournament,core_player_absent,2.397,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+7,Bolivia,Yugoslavia,tournament,bad_weather_low_attention,2.428,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+7,Bolivia,Yugoslavia,tournament,knockout_brand_surge,2.662,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+8,Paraguay,United States,tournament,baseline,3.378,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+8,Paraguay,United States,tournament,premium_media_push,3.456,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+8,Paraguay,United States,tournament,core_player_absent,3.268,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+8,Paraguay,United States,tournament,bad_weather_low_attention,3.299,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+8,Paraguay,United States,tournament,knockout_brand_surge,3.533,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+9,Uruguay,Peru,tournament,baseline,3.336,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+9,Uruguay,Peru,tournament,premium_media_push,3.414,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+9,Uruguay,Peru,tournament,core_player_absent,3.226,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+9,Uruguay,Peru,tournament,bad_weather_low_attention,3.257,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+9,Uruguay,Peru,tournament,knockout_brand_surge,3.491,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+10,Argentina,Mexico,tournament,baseline,3.785,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+10,Argentina,Mexico,tournament,premium_media_push,3.863,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+10,Argentina,Mexico,tournament,core_player_absent,3.675,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+10,Argentina,Mexico,tournament,bad_weather_low_attention,3.706,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+10,Argentina,Mexico,tournament,knockout_brand_surge,3.94,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+11,Chile,France,tournament,baseline,3.658,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+11,Chile,France,tournament,premium_media_push,3.736,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+11,Chile,France,tournament,core_player_absent,3.548,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+11,Chile,France,tournament,bad_weather_low_attention,3.579,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+11,Chile,France,tournament,knockout_brand_surge,3.813,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+12,Belgium,Paraguay,tournament,baseline,3.49,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+12,Belgium,Paraguay,tournament,premium_media_push,3.568,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+12,Belgium,Paraguay,tournament,core_player_absent,3.38,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+12,Belgium,Paraguay,tournament,bad_weather_low_attention,3.411,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+12,Belgium,Paraguay,tournament,knockout_brand_surge,3.645,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+13,Bolivia,Brazil,tournament,baseline,2.435,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+13,Bolivia,Brazil,tournament,premium_media_push,2.513,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+13,Bolivia,Brazil,tournament,core_player_absent,2.325,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+13,Bolivia,Brazil,tournament,bad_weather_low_attention,2.356,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+13,Bolivia,Brazil,tournament,knockout_brand_surge,2.59,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+14,Uruguay,Romania,tournament,baseline,3.489,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+14,Uruguay,Romania,tournament,premium_media_push,3.567,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+14,Uruguay,Romania,tournament,core_player_absent,3.379,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+14,Uruguay,Romania,tournament,bad_weather_low_attention,3.41,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+14,Uruguay,Romania,tournament,knockout_brand_surge,3.644,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+15,Argentina,Chile,tournament,baseline,3.653,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+15,Argentina,Chile,tournament,premium_media_push,3.731,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+15,Argentina,Chile,tournament,core_player_absent,3.543,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+15,Argentina,Chile,tournament,bad_weather_low_attention,3.574,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+15,Argentina,Chile,tournament,knockout_brand_surge,3.808,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+16,Argentina,United States,tournament,baseline,3.685,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+16,Argentina,United States,tournament,premium_media_push,3.763,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+16,Argentina,United States,tournament,core_player_absent,3.575,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+16,Argentina,United States,tournament,bad_weather_low_attention,3.606,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+16,Argentina,United States,tournament,knockout_brand_surge,3.84,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+17,Uruguay,Yugoslavia,tournament,baseline,3.475,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+17,Uruguay,Yugoslavia,tournament,premium_media_push,3.553,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+17,Uruguay,Yugoslavia,tournament,core_player_absent,3.365,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+17,Uruguay,Yugoslavia,tournament,bad_weather_low_attention,3.396,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+17,Uruguay,Yugoslavia,tournament,knockout_brand_surge,3.63,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+18,Uruguay,Argentina,tournament,baseline,3.532,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+18,Uruguay,Argentina,tournament,premium_media_push,3.61,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+18,Uruguay,Argentina,tournament,core_player_absent,3.422,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+18,Uruguay,Argentina,tournament,bad_weather_low_attention,3.453,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+18,Uruguay,Argentina,tournament,knockout_brand_surge,3.687,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+19,Argentina,Sweden,tournament,baseline,3.72,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+19,Argentina,Sweden,tournament,premium_media_push,3.798,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+19,Argentina,Sweden,tournament,core_player_absent,3.61,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+19,Argentina,Sweden,tournament,bad_weather_low_attention,3.641,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+19,Argentina,Sweden,tournament,knockout_brand_surge,3.875,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+20,Austria,France,tournament,baseline,3.174,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+20,Austria,France,tournament,premium_media_push,3.252,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+20,Austria,France,tournament,core_player_absent,3.064,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+20,Austria,France,tournament,bad_weather_low_attention,3.095,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+20,Austria,France,tournament,knockout_brand_surge,3.329,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+21,Belgium,Germany,tournament,baseline,3.566,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+21,Belgium,Germany,tournament,premium_media_push,3.644,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+21,Belgium,Germany,tournament,core_player_absent,3.456,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+21,Belgium,Germany,tournament,bad_weather_low_attention,3.487,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+21,Belgium,Germany,tournament,knockout_brand_surge,3.721,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+22,Brazil,Spain,tournament,baseline,3.662,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
+22,Brazil,Spain,tournament,premium_media_push,3.74,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
+22,Brazil,Spain,tournament,core_player_absent,3.552,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
+22,Brazil,Spain,tournament,bad_weather_low_attention,3.583,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
+22,Brazil,Spain,tournament,knockout_brand_surge,3.817,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
+23,Czechoslovakia,Romania,tournament,baseline,3.205,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+23,Czechoslovakia,Romania,tournament,premium_media_push,3.283,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+23,Czechoslovakia,Romania,tournament,core_player_absent,3.095,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+23,Czechoslovakia,Romania,tournament,bad_weather_low_attention,3.126,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+23,Czechoslovakia,Romania,tournament,knockout_brand_surge,3.36,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+24,Egypt,Hungary,tournament,baseline,2.937,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+24,Egypt,Hungary,tournament,premium_media_push,3.015,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+24,Egypt,Hungary,tournament,core_player_absent,2.827,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+24,Egypt,Hungary,tournament,bad_weather_low_attention,2.858,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+24,Egypt,Hungary,tournament,knockout_brand_surge,3.092,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+25,Italy,United States,tournament,baseline,3.453,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+25,Italy,United States,tournament,premium_media_push,3.531,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+25,Italy,United States,tournament,core_player_absent,3.343,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+25,Italy,United States,tournament,bad_weather_low_attention,3.374,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+25,Italy,United States,tournament,knockout_brand_surge,3.608,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+26,Netherlands,Switzerland,tournament,baseline,3.869,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+26,Netherlands,Switzerland,tournament,premium_media_push,3.947,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+26,Netherlands,Switzerland,tournament,core_player_absent,3.759,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+26,Netherlands,Switzerland,tournament,bad_weather_low_attention,3.79,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+26,Netherlands,Switzerland,tournament,knockout_brand_surge,4.024,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+27,Austria,Hungary,tournament,baseline,3.105,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+27,Austria,Hungary,tournament,premium_media_push,3.183,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+27,Austria,Hungary,tournament,core_player_absent,2.995,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+27,Austria,Hungary,tournament,bad_weather_low_attention,3.026,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+27,Austria,Hungary,tournament,knockout_brand_surge,3.26,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+28,Czechoslovakia,Switzerland,tournament,baseline,3.28,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+28,Czechoslovakia,Switzerland,tournament,premium_media_push,3.358,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+28,Czechoslovakia,Switzerland,tournament,core_player_absent,3.17,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+28,Czechoslovakia,Switzerland,tournament,bad_weather_low_attention,3.201,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+28,Czechoslovakia,Switzerland,tournament,knockout_brand_surge,3.435,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+29,Germany,Sweden,tournament,baseline,3.83,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+29,Germany,Sweden,tournament,premium_media_push,3.908,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+29,Germany,Sweden,tournament,core_player_absent,3.72,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+29,Germany,Sweden,tournament,bad_weather_low_attention,3.751,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+29,Germany,Sweden,tournament,knockout_brand_surge,3.985,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+30,Italy,Spain,tournament,baseline,3.321,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+30,Italy,Spain,tournament,premium_media_push,3.399,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+30,Italy,Spain,tournament,core_player_absent,3.211,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+30,Italy,Spain,tournament,bad_weather_low_attention,3.242,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+30,Italy,Spain,tournament,knockout_brand_surge,3.476,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+31,Italy,Spain,tournament,baseline,3.194,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+31,Italy,Spain,tournament,premium_media_push,3.272,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+31,Italy,Spain,tournament,core_player_absent,3.084,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+31,Italy,Spain,tournament,bad_weather_low_attention,3.115,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+31,Italy,Spain,tournament,knockout_brand_surge,3.349,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+32,Czechoslovakia,Germany,tournament,baseline,3.215,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+32,Czechoslovakia,Germany,tournament,premium_media_push,3.293,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+32,Czechoslovakia,Germany,tournament,core_player_absent,3.105,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+32,Czechoslovakia,Germany,tournament,bad_weather_low_attention,3.136,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+32,Czechoslovakia,Germany,tournament,knockout_brand_surge,3.37,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+33,Italy,Austria,tournament,baseline,3.232,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+33,Italy,Austria,tournament,premium_media_push,3.31,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+33,Italy,Austria,tournament,core_player_absent,3.122,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+33,Italy,Austria,tournament,bad_weather_low_attention,3.153,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+33,Italy,Austria,tournament,knockout_brand_surge,3.387,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+34,Austria,Germany,tournament,baseline,3.217,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+34,Austria,Germany,tournament,premium_media_push,3.295,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+34,Austria,Germany,tournament,core_player_absent,3.107,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+34,Austria,Germany,tournament,bad_weather_low_attention,3.138,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+34,Austria,Germany,tournament,knockout_brand_surge,3.372,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+35,Italy,Czechoslovakia,tournament,baseline,3.283,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+35,Italy,Czechoslovakia,tournament,premium_media_push,3.361,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+35,Italy,Czechoslovakia,tournament,core_player_absent,3.173,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+35,Italy,Czechoslovakia,tournament,bad_weather_low_attention,3.204,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+35,Italy,Czechoslovakia,tournament,knockout_brand_surge,3.438,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+36,Germany,Switzerland,tournament,baseline,3.803,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+36,Germany,Switzerland,tournament,premium_media_push,3.881,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+36,Germany,Switzerland,tournament,core_player_absent,3.693,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+36,Germany,Switzerland,tournament,bad_weather_low_attention,3.724,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+36,Germany,Switzerland,tournament,knockout_brand_surge,3.958,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+37,Brazil,Poland,tournament,baseline,3.914,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+37,Brazil,Poland,tournament,premium_media_push,3.992,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+37,Brazil,Poland,tournament,core_player_absent,3.804,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+37,Brazil,Poland,tournament,bad_weather_low_attention,3.835,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+37,Brazil,Poland,tournament,knockout_brand_surge,4.069,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+38,Cuba,Romania,tournament,baseline,3.119,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+38,Cuba,Romania,tournament,premium_media_push,3.197,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+38,Cuba,Romania,tournament,core_player_absent,3.009,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+38,Cuba,Romania,tournament,bad_weather_low_attention,3.04,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+38,Cuba,Romania,tournament,knockout_brand_surge,3.274,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+39,Czechoslovakia,Netherlands,tournament,baseline,3.233,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+39,Czechoslovakia,Netherlands,tournament,premium_media_push,3.311,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+39,Czechoslovakia,Netherlands,tournament,core_player_absent,3.123,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+39,Czechoslovakia,Netherlands,tournament,bad_weather_low_attention,3.154,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+39,Czechoslovakia,Netherlands,tournament,knockout_brand_surge,3.388,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+40,France,Belgium,tournament,baseline,3.464,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+40,France,Belgium,tournament,premium_media_push,3.542,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+40,France,Belgium,tournament,core_player_absent,3.354,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+40,France,Belgium,tournament,bad_weather_low_attention,3.385,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+40,France,Belgium,tournament,knockout_brand_surge,3.619,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+41,Hungary,Indonesia,tournament,baseline,3.571,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+41,Hungary,Indonesia,tournament,premium_media_push,3.649,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+41,Hungary,Indonesia,tournament,core_player_absent,3.461,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+41,Hungary,Indonesia,tournament,bad_weather_low_attention,3.492,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+41,Hungary,Indonesia,tournament,knockout_brand_surge,3.726,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+42,Italy,Norway,tournament,baseline,3.311,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+42,Italy,Norway,tournament,premium_media_push,3.389,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+42,Italy,Norway,tournament,core_player_absent,3.201,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+42,Italy,Norway,tournament,bad_weather_low_attention,3.232,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+42,Italy,Norway,tournament,knockout_brand_surge,3.466,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+43,Cuba,Romania,tournament,baseline,2.939,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+43,Cuba,Romania,tournament,premium_media_push,3.017,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+43,Cuba,Romania,tournament,core_player_absent,2.829,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+43,Cuba,Romania,tournament,bad_weather_low_attention,2.86,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+43,Cuba,Romania,tournament,knockout_brand_surge,3.094,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+44,Germany,Switzerland,tournament,baseline,3.894,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+44,Germany,Switzerland,tournament,premium_media_push,3.972,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+44,Germany,Switzerland,tournament,core_player_absent,3.784,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+44,Germany,Switzerland,tournament,bad_weather_low_attention,3.815,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+44,Germany,Switzerland,tournament,knockout_brand_surge,4.049,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+45,Brazil,Czechoslovakia,tournament,baseline,3.611,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+45,Brazil,Czechoslovakia,tournament,premium_media_push,3.689,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+45,Brazil,Czechoslovakia,tournament,core_player_absent,3.501,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+45,Brazil,Czechoslovakia,tournament,bad_weather_low_attention,3.532,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+45,Brazil,Czechoslovakia,tournament,knockout_brand_surge,3.766,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+46,Cuba,Sweden,tournament,baseline,3.092,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+46,Cuba,Sweden,tournament,premium_media_push,3.17,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+46,Cuba,Sweden,tournament,core_player_absent,2.982,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+46,Cuba,Sweden,tournament,bad_weather_low_attention,3.013,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+46,Cuba,Sweden,tournament,knockout_brand_surge,3.247,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+47,France,Italy,tournament,baseline,3.407,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+47,France,Italy,tournament,premium_media_push,3.485,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+47,France,Italy,tournament,core_player_absent,3.297,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+47,France,Italy,tournament,bad_weather_low_attention,3.328,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+47,France,Italy,tournament,knockout_brand_surge,3.562,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+48,Hungary,Switzerland,tournament,baseline,3.417,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+48,Hungary,Switzerland,tournament,premium_media_push,3.495,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+48,Hungary,Switzerland,tournament,core_player_absent,3.307,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+48,Hungary,Switzerland,tournament,bad_weather_low_attention,3.338,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+48,Hungary,Switzerland,tournament,knockout_brand_surge,3.572,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+49,Brazil,Czechoslovakia,tournament,baseline,3.677,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+49,Brazil,Czechoslovakia,tournament,premium_media_push,3.755,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+49,Brazil,Czechoslovakia,tournament,core_player_absent,3.567,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+49,Brazil,Czechoslovakia,tournament,bad_weather_low_attention,3.598,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+49,Brazil,Czechoslovakia,tournament,knockout_brand_surge,3.832,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+50,Brazil,Italy,tournament,baseline,3.643,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+50,Brazil,Italy,tournament,premium_media_push,3.721,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+50,Brazil,Italy,tournament,core_player_absent,3.533,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+50,Brazil,Italy,tournament,bad_weather_low_attention,3.564,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+50,Brazil,Italy,tournament,knockout_brand_surge,3.798,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+51,Hungary,Sweden,tournament,baseline,3.523,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+51,Hungary,Sweden,tournament,premium_media_push,3.601,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+51,Hungary,Sweden,tournament,core_player_absent,3.413,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+51,Hungary,Sweden,tournament,bad_weather_low_attention,3.444,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+51,Hungary,Sweden,tournament,knockout_brand_surge,3.678,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+52,Brazil,Sweden,tournament,baseline,3.79,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+52,Brazil,Sweden,tournament,premium_media_push,3.868,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+52,Brazil,Sweden,tournament,core_player_absent,3.68,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+52,Brazil,Sweden,tournament,bad_weather_low_attention,3.711,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+52,Brazil,Sweden,tournament,knockout_brand_surge,3.945,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+53,Hungary,Italy,tournament,baseline,3.487,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+53,Hungary,Italy,tournament,premium_media_push,3.565,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+53,Hungary,Italy,tournament,core_player_absent,3.377,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+53,Hungary,Italy,tournament,bad_weather_low_attention,3.408,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+53,Hungary,Italy,tournament,knockout_brand_surge,3.642,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+54,Brazil,Mexico,tournament,baseline,3.855,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+54,Brazil,Mexico,tournament,premium_media_push,3.933,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+54,Brazil,Mexico,tournament,core_player_absent,3.745,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+54,Brazil,Mexico,tournament,bad_weather_low_attention,3.776,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+54,Brazil,Mexico,tournament,knockout_brand_surge,4.01,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+55,Chile,England,tournament,baseline,3.813,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+55,Chile,England,tournament,premium_media_push,3.891,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+55,Chile,England,tournament,core_player_absent,3.703,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+55,Chile,England,tournament,bad_weather_low_attention,3.734,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+55,Chile,England,tournament,knockout_brand_surge,3.968,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+56,Italy,Sweden,tournament,baseline,3.346,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+56,Italy,Sweden,tournament,premium_media_push,3.424,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+56,Italy,Sweden,tournament,core_player_absent,3.236,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+56,Italy,Sweden,tournament,bad_weather_low_attention,3.267,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+56,Italy,Sweden,tournament,knockout_brand_surge,3.501,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+57,Spain,United States,tournament,baseline,3.677,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+57,Spain,United States,tournament,premium_media_push,3.755,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+57,Spain,United States,tournament,core_player_absent,3.567,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+57,Spain,United States,tournament,bad_weather_low_attention,3.598,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+57,Spain,United States,tournament,knockout_brand_surge,3.832,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+58,Switzerland,Yugoslavia,tournament,baseline,3.438,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+58,Switzerland,Yugoslavia,tournament,premium_media_push,3.516,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+58,Switzerland,Yugoslavia,tournament,core_player_absent,3.328,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+58,Switzerland,Yugoslavia,tournament,bad_weather_low_attention,3.359,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+58,Switzerland,Yugoslavia,tournament,knockout_brand_surge,3.593,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+59,Brazil,Switzerland,tournament,baseline,3.805,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+59,Brazil,Switzerland,tournament,premium_media_push,3.883,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+59,Brazil,Switzerland,tournament,core_player_absent,3.695,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+59,Brazil,Switzerland,tournament,bad_weather_low_attention,3.726,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+59,Brazil,Switzerland,tournament,knockout_brand_surge,3.96,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+60,Mexico,Yugoslavia,tournament,baseline,3.453,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+60,Mexico,Yugoslavia,tournament,premium_media_push,3.531,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+60,Mexico,Yugoslavia,tournament,core_player_absent,3.343,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+60,Mexico,Yugoslavia,tournament,bad_weather_low_attention,3.374,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+60,Mexico,Yugoslavia,tournament,knockout_brand_surge,3.608,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+61,Chile,Spain,tournament,baseline,3.806,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+61,Chile,Spain,tournament,premium_media_push,3.884,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+61,Chile,Spain,tournament,core_player_absent,3.696,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+61,Chile,Spain,tournament,bad_weather_low_attention,3.727,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+61,Chile,Spain,tournament,knockout_brand_surge,3.961,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+62,England,United States,tournament,baseline,3.253,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+62,England,United States,tournament,premium_media_push,3.331,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+62,England,United States,tournament,core_player_absent,3.143,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+62,England,United States,tournament,bad_weather_low_attention,3.174,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+62,England,United States,tournament,knockout_brand_surge,3.408,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+63,Paraguay,Sweden,tournament,baseline,3.434,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+63,Paraguay,Sweden,tournament,premium_media_push,3.512,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+63,Paraguay,Sweden,tournament,core_player_absent,3.324,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+63,Paraguay,Sweden,tournament,bad_weather_low_attention,3.355,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+63,Paraguay,Sweden,tournament,knockout_brand_surge,3.589,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+64,Brazil,Yugoslavia,tournament,baseline,3.758,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+64,Brazil,Yugoslavia,tournament,premium_media_push,3.836,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+64,Brazil,Yugoslavia,tournament,core_player_absent,3.648,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+64,Brazil,Yugoslavia,tournament,bad_weather_low_attention,3.679,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+64,Brazil,Yugoslavia,tournament,knockout_brand_surge,3.913,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+65,Bolivia,Uruguay,tournament,baseline,2.692,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+65,Bolivia,Uruguay,tournament,premium_media_push,2.77,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+65,Bolivia,Uruguay,tournament,core_player_absent,2.582,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+65,Bolivia,Uruguay,tournament,bad_weather_low_attention,2.613,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+65,Bolivia,Uruguay,tournament,knockout_brand_surge,2.847,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+66,Chile,United States,tournament,baseline,3.929,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+66,Chile,United States,tournament,premium_media_push,4.007,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+66,Chile,United States,tournament,core_player_absent,3.819,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+66,Chile,United States,tournament,bad_weather_low_attention,3.85,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+66,Chile,United States,tournament,knockout_brand_surge,4.084,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+67,England,Spain,tournament,baseline,3.217,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+67,England,Spain,tournament,premium_media_push,3.295,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+67,England,Spain,tournament,core_player_absent,3.107,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+67,England,Spain,tournament,bad_weather_low_attention,3.138,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+67,England,Spain,tournament,knockout_brand_surge,3.372,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+68,Italy,Paraguay,tournament,baseline,3.386,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+68,Italy,Paraguay,tournament,premium_media_push,3.464,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+68,Italy,Paraguay,tournament,core_player_absent,3.276,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+68,Italy,Paraguay,tournament,bad_weather_low_attention,3.307,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+68,Italy,Paraguay,tournament,knockout_brand_surge,3.541,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+69,Mexico,Switzerland,tournament,baseline,3.367,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+69,Mexico,Switzerland,tournament,premium_media_push,3.445,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+69,Mexico,Switzerland,tournament,core_player_absent,3.257,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+69,Mexico,Switzerland,tournament,bad_weather_low_attention,3.288,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+69,Mexico,Switzerland,tournament,knockout_brand_surge,3.522,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+70,Brazil,Sweden,tournament,baseline,3.91,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+70,Brazil,Sweden,tournament,premium_media_push,3.988,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+70,Brazil,Sweden,tournament,core_player_absent,3.8,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+70,Brazil,Sweden,tournament,bad_weather_low_attention,3.831,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+70,Brazil,Sweden,tournament,knockout_brand_surge,4.065,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+71,Spain,Uruguay,tournament,baseline,3.694,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+71,Spain,Uruguay,tournament,premium_media_push,3.772,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+71,Spain,Uruguay,tournament,core_player_absent,3.584,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+71,Spain,Uruguay,tournament,bad_weather_low_attention,3.615,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+71,Spain,Uruguay,tournament,knockout_brand_surge,3.849,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+72,Brazil,Spain,tournament,baseline,3.92,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+72,Brazil,Spain,tournament,premium_media_push,3.998,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+72,Brazil,Spain,tournament,core_player_absent,3.81,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+72,Brazil,Spain,tournament,bad_weather_low_attention,3.841,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+72,Brazil,Spain,tournament,knockout_brand_surge,4.075,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+73,Sweden,Uruguay,tournament,baseline,3.571,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+73,Sweden,Uruguay,tournament,premium_media_push,3.649,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+73,Sweden,Uruguay,tournament,core_player_absent,3.461,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+73,Sweden,Uruguay,tournament,bad_weather_low_attention,3.492,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+73,Sweden,Uruguay,tournament,knockout_brand_surge,3.726,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+74,Brazil,Uruguay,tournament,baseline,3.77,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+74,Brazil,Uruguay,tournament,premium_media_push,3.848,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+74,Brazil,Uruguay,tournament,core_player_absent,3.66,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+74,Brazil,Uruguay,tournament,bad_weather_low_attention,3.691,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+74,Brazil,Uruguay,tournament,knockout_brand_surge,3.925,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+75,Spain,Sweden,tournament,baseline,3.627,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+75,Spain,Sweden,tournament,premium_media_push,3.705,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+75,Spain,Sweden,tournament,core_player_absent,3.517,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+75,Spain,Sweden,tournament,bad_weather_low_attention,3.548,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+75,Spain,Sweden,tournament,knockout_brand_surge,3.782,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+76,Austria,Scotland,tournament,baseline,3.331,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+76,Austria,Scotland,tournament,premium_media_push,3.409,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+76,Austria,Scotland,tournament,core_player_absent,3.221,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+76,Austria,Scotland,tournament,bad_weather_low_attention,3.252,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+76,Austria,Scotland,tournament,knockout_brand_surge,3.486,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+77,Brazil,Mexico,tournament,baseline,3.792,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+77,Brazil,Mexico,tournament,premium_media_push,3.87,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+77,Brazil,Mexico,tournament,core_player_absent,3.682,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+77,Brazil,Mexico,tournament,bad_weather_low_attention,3.713,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+77,Brazil,Mexico,tournament,knockout_brand_surge,3.947,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+78,Czechoslovakia,Uruguay,tournament,baseline,3.229,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
+78,Czechoslovakia,Uruguay,tournament,premium_media_push,3.307,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
+78,Czechoslovakia,Uruguay,tournament,core_player_absent,3.119,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
+78,Czechoslovakia,Uruguay,tournament,bad_weather_low_attention,3.15,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
+78,Czechoslovakia,Uruguay,tournament,knockout_brand_surge,3.384,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
+79,France,Yugoslavia,tournament,baseline,3.378,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+79,France,Yugoslavia,tournament,premium_media_push,3.456,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+79,France,Yugoslavia,tournament,core_player_absent,3.268,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+79,France,Yugoslavia,tournament,bad_weather_low_attention,3.299,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+79,France,Yugoslavia,tournament,knockout_brand_surge,3.533,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+80,Belgium,England,tournament,baseline,3.66,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+80,Belgium,England,tournament,premium_media_push,3.738,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+80,Belgium,England,tournament,core_player_absent,3.55,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+80,Belgium,England,tournament,bad_weather_low_attention,3.581,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+80,Belgium,England,tournament,knockout_brand_surge,3.815,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+81,Germany,Turkey,tournament,baseline,4.005,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+81,Germany,Turkey,tournament,premium_media_push,4.083,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+81,Germany,Turkey,tournament,core_player_absent,3.895,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+81,Germany,Turkey,tournament,bad_weather_low_attention,3.926,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+81,Germany,Turkey,tournament,knockout_brand_surge,4.16,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+82,Hungary,South Korea,tournament,baseline,3.813,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+82,Hungary,South Korea,tournament,premium_media_push,3.891,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+82,Hungary,South Korea,tournament,core_player_absent,3.703,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+82,Hungary,South Korea,tournament,bad_weather_low_attention,3.734,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+82,Hungary,South Korea,tournament,knockout_brand_surge,3.968,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+83,Switzerland,Italy,tournament,baseline,3.454,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+83,Switzerland,Italy,tournament,premium_media_push,3.532,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+83,Switzerland,Italy,tournament,core_player_absent,3.344,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+83,Switzerland,Italy,tournament,bad_weather_low_attention,3.375,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+83,Switzerland,Italy,tournament,knockout_brand_surge,3.609,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+84,Austria,Czechoslovakia,tournament,baseline,3.252,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+84,Austria,Czechoslovakia,tournament,premium_media_push,3.33,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+84,Austria,Czechoslovakia,tournament,core_player_absent,3.142,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+84,Austria,Czechoslovakia,tournament,bad_weather_low_attention,3.173,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+84,Austria,Czechoslovakia,tournament,knockout_brand_surge,3.407,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+85,Brazil,Yugoslavia,tournament,baseline,3.654,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+85,Brazil,Yugoslavia,tournament,premium_media_push,3.732,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+85,Brazil,Yugoslavia,tournament,core_player_absent,3.544,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+85,Brazil,Yugoslavia,tournament,bad_weather_low_attention,3.575,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+85,Brazil,Yugoslavia,tournament,knockout_brand_surge,3.809,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
 86,France,Mexico,tournament,baseline,3.474,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
 86,France,Mexico,tournament,premium_media_push,3.552,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
 86,France,Mexico,tournament,core_player_absent,3.364,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
 86,France,Mexico,tournament,bad_weather_low_attention,3.395,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
 86,France,Mexico,tournament,knockout_brand_surge,3.629,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-87,Scotland,Uruguay,tournament,baseline,3.396,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-87,Scotland,Uruguay,tournament,premium_media_push,3.474,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-87,Scotland,Uruguay,tournament,core_player_absent,3.286,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-87,Scotland,Uruguay,tournament,bad_weather_low_attention,3.317,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-87,Scotland,Uruguay,tournament,knockout_brand_surge,3.551,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-88,Belgium,Italy,tournament,baseline,3.721,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-88,Belgium,Italy,tournament,premium_media_push,3.799,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-88,Belgium,Italy,tournament,core_player_absent,3.611,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-88,Belgium,Italy,tournament,bad_weather_low_attention,3.642,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-88,Belgium,Italy,tournament,knockout_brand_surge,3.876,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-89,Germany,Hungary,tournament,baseline,4.102,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-89,Germany,Hungary,tournament,premium_media_push,4.18,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-89,Germany,Hungary,tournament,core_player_absent,3.992,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-89,Germany,Hungary,tournament,bad_weather_low_attention,4.023,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-89,Germany,Hungary,tournament,knockout_brand_surge,4.257,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-90,South Korea,Turkey,tournament,baseline,3.091,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
-90,South Korea,Turkey,tournament,premium_media_push,3.169,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
-90,South Korea,Turkey,tournament,core_player_absent,2.981,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
-90,South Korea,Turkey,tournament,bad_weather_low_attention,3.012,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
-90,South Korea,Turkey,tournament,knockout_brand_surge,3.246,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
-91,Switzerland,England,tournament,baseline,3.629,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-91,Switzerland,England,tournament,premium_media_push,3.707,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-91,Switzerland,England,tournament,core_player_absent,3.519,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-91,Switzerland,England,tournament,bad_weather_low_attention,3.55,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-91,Switzerland,England,tournament,knockout_brand_surge,3.784,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-92,Germany,Turkey,tournament,baseline,4.058,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
-92,Germany,Turkey,tournament,premium_media_push,4.136,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
-92,Germany,Turkey,tournament,core_player_absent,3.948,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
-92,Germany,Turkey,tournament,bad_weather_low_attention,3.979,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
-92,Germany,Turkey,tournament,knockout_brand_surge,4.213,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
-93,Switzerland,Italy,tournament,baseline,3.646,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-93,Switzerland,Italy,tournament,premium_media_push,3.724,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-93,Switzerland,Italy,tournament,core_player_absent,3.536,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-93,Switzerland,Italy,tournament,bad_weather_low_attention,3.567,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-93,Switzerland,Italy,tournament,knockout_brand_surge,3.801,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-94,England,Uruguay,tournament,baseline,3.476,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-94,England,Uruguay,tournament,premium_media_push,3.554,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-94,England,Uruguay,tournament,core_player_absent,3.366,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-94,England,Uruguay,tournament,bad_weather_low_attention,3.397,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-94,England,Uruguay,tournament,knockout_brand_surge,3.631,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-95,Switzerland,Austria,tournament,baseline,3.887,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-95,Switzerland,Austria,tournament,premium_media_push,3.965,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-95,Switzerland,Austria,tournament,core_player_absent,3.777,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-95,Switzerland,Austria,tournament,bad_weather_low_attention,3.808,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-95,Switzerland,Austria,tournament,knockout_brand_surge,4.042,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-96,Brazil,Hungary,tournament,baseline,3.964,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-96,Brazil,Hungary,tournament,premium_media_push,4.042,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-96,Brazil,Hungary,tournament,core_player_absent,3.854,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-96,Brazil,Hungary,tournament,bad_weather_low_attention,3.885,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-96,Brazil,Hungary,tournament,knockout_brand_surge,4.119,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-97,Germany,Yugoslavia,tournament,baseline,3.887,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-97,Germany,Yugoslavia,tournament,premium_media_push,3.965,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-97,Germany,Yugoslavia,tournament,core_player_absent,3.777,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-97,Germany,Yugoslavia,tournament,bad_weather_low_attention,3.808,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-97,Germany,Yugoslavia,tournament,knockout_brand_surge,4.042,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-98,Austria,Germany,tournament,baseline,3.279,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-98,Austria,Germany,tournament,premium_media_push,3.357,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-98,Austria,Germany,tournament,core_player_absent,3.169,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-98,Austria,Germany,tournament,bad_weather_low_attention,3.2,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-98,Austria,Germany,tournament,knockout_brand_surge,3.434,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-99,Hungary,Uruguay,tournament,baseline,3.646,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-99,Hungary,Uruguay,tournament,premium_media_push,3.724,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-99,Hungary,Uruguay,tournament,core_player_absent,3.536,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-99,Hungary,Uruguay,tournament,bad_weather_low_attention,3.567,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-99,Hungary,Uruguay,tournament,knockout_brand_surge,3.801,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-100,Austria,Uruguay,tournament,baseline,3.22,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-100,Austria,Uruguay,tournament,premium_media_push,3.298,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-100,Austria,Uruguay,tournament,core_player_absent,3.11,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-100,Austria,Uruguay,tournament,bad_weather_low_attention,3.141,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-100,Austria,Uruguay,tournament,knockout_brand_surge,3.375,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-101,Germany,Hungary,tournament,baseline,3.901,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-101,Germany,Hungary,tournament,premium_media_push,3.979,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-101,Germany,Hungary,tournament,core_player_absent,3.791,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-101,Germany,Hungary,tournament,bad_weather_low_attention,3.822,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-101,Germany,Hungary,tournament,knockout_brand_surge,4.056,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-102,Argentina,Germany,tournament,baseline,4.0,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-102,Argentina,Germany,tournament,premium_media_push,4.078,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-102,Argentina,Germany,tournament,core_player_absent,3.89,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-102,Argentina,Germany,tournament,bad_weather_low_attention,3.921,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-102,Argentina,Germany,tournament,knockout_brand_surge,4.155,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-103,Austria,Brazil,tournament,baseline,3.199,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-103,Austria,Brazil,tournament,premium_media_push,3.277,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-103,Austria,Brazil,tournament,core_player_absent,3.089,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-103,Austria,Brazil,tournament,bad_weather_low_attention,3.12,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-103,Austria,Brazil,tournament,knockout_brand_surge,3.354,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-104,Czechoslovakia,Northern Ireland,tournament,baseline,3.435,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-104,Czechoslovakia,Northern Ireland,tournament,premium_media_push,3.513,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-104,Czechoslovakia,Northern Ireland,tournament,core_player_absent,3.325,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-104,Czechoslovakia,Northern Ireland,tournament,bad_weather_low_attention,3.356,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-104,Czechoslovakia,Northern Ireland,tournament,knockout_brand_surge,3.59,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-105,England,Russia,tournament,baseline,3.4,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
-105,England,Russia,tournament,premium_media_push,3.478,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
-105,England,Russia,tournament,core_player_absent,3.29,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
-105,England,Russia,tournament,bad_weather_low_attention,3.321,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
-105,England,Russia,tournament,knockout_brand_surge,3.555,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
-106,France,Paraguay,tournament,baseline,3.678,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-106,France,Paraguay,tournament,premium_media_push,3.756,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-106,France,Paraguay,tournament,core_player_absent,3.568,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-106,France,Paraguay,tournament,bad_weather_low_attention,3.599,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-106,France,Paraguay,tournament,knockout_brand_surge,3.833,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-107,Hungary,Wales,tournament,baseline,3.692,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-107,Hungary,Wales,tournament,premium_media_push,3.77,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-107,Hungary,Wales,tournament,core_player_absent,3.582,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-107,Hungary,Wales,tournament,bad_weather_low_attention,3.613,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-107,Hungary,Wales,tournament,knockout_brand_surge,3.847,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-108,Scotland,Yugoslavia,tournament,baseline,3.314,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-108,Scotland,Yugoslavia,tournament,premium_media_push,3.392,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-108,Scotland,Yugoslavia,tournament,core_player_absent,3.204,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-108,Scotland,Yugoslavia,tournament,bad_weather_low_attention,3.235,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-108,Scotland,Yugoslavia,tournament,knockout_brand_surge,3.469,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-109,Sweden,Mexico,tournament,baseline,3.575,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-109,Sweden,Mexico,tournament,premium_media_push,3.653,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-109,Sweden,Mexico,tournament,core_player_absent,3.465,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-109,Sweden,Mexico,tournament,bad_weather_low_attention,3.496,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-109,Sweden,Mexico,tournament,knockout_brand_surge,3.73,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-110,Argentina,Northern Ireland,tournament,baseline,4.118,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
-110,Argentina,Northern Ireland,tournament,premium_media_push,4.196,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
-110,Argentina,Northern Ireland,tournament,core_player_absent,4.008,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
-110,Argentina,Northern Ireland,tournament,bad_weather_low_attention,4.039,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
-110,Argentina,Northern Ireland,tournament,knockout_brand_surge,4.273,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
-111,Austria,Russia,tournament,baseline,3.251,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-111,Austria,Russia,tournament,premium_media_push,3.329,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-111,Austria,Russia,tournament,core_player_absent,3.141,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-111,Austria,Russia,tournament,bad_weather_low_attention,3.172,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-111,Austria,Russia,tournament,knockout_brand_surge,3.406,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-112,Brazil,England,tournament,baseline,3.794,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-112,Brazil,England,tournament,premium_media_push,3.872,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-112,Brazil,England,tournament,core_player_absent,3.684,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-112,Brazil,England,tournament,bad_weather_low_attention,3.715,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-112,Brazil,England,tournament,knockout_brand_surge,3.949,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-113,Czechoslovakia,Germany,tournament,baseline,3.411,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-113,Czechoslovakia,Germany,tournament,premium_media_push,3.489,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-113,Czechoslovakia,Germany,tournament,core_player_absent,3.301,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-113,Czechoslovakia,Germany,tournament,bad_weather_low_attention,3.332,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-113,Czechoslovakia,Germany,tournament,knockout_brand_surge,3.566,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-114,France,Yugoslavia,tournament,baseline,3.555,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
-114,France,Yugoslavia,tournament,premium_media_push,3.633,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
-114,France,Yugoslavia,tournament,core_player_absent,3.445,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
-114,France,Yugoslavia,tournament,bad_weather_low_attention,3.476,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
-114,France,Yugoslavia,tournament,knockout_brand_surge,3.71,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
-115,Mexico,Wales,tournament,baseline,3.848,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
-115,Mexico,Wales,tournament,premium_media_push,3.926,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
-115,Mexico,Wales,tournament,core_player_absent,3.738,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
-115,Mexico,Wales,tournament,bad_weather_low_attention,3.769,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
-115,Mexico,Wales,tournament,knockout_brand_surge,4.003,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
-116,Paraguay,Scotland,tournament,baseline,3.854,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-116,Paraguay,Scotland,tournament,premium_media_push,3.932,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-116,Paraguay,Scotland,tournament,core_player_absent,3.744,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-116,Paraguay,Scotland,tournament,bad_weather_low_attention,3.775,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-116,Paraguay,Scotland,tournament,knockout_brand_surge,4.009,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-117,Sweden,Hungary,tournament,baseline,3.624,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-117,Sweden,Hungary,tournament,premium_media_push,3.702,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-117,Sweden,Hungary,tournament,core_player_absent,3.514,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-117,Sweden,Hungary,tournament,bad_weather_low_attention,3.545,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-117,Sweden,Hungary,tournament,knockout_brand_surge,3.779,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-118,Argentina,Czechoslovakia,tournament,baseline,4.061,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-118,Argentina,Czechoslovakia,tournament,premium_media_push,4.139,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-118,Argentina,Czechoslovakia,tournament,core_player_absent,3.951,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-118,Argentina,Czechoslovakia,tournament,bad_weather_low_attention,3.982,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-118,Argentina,Czechoslovakia,tournament,knockout_brand_surge,4.216,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-119,Austria,England,tournament,baseline,3.311,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-119,Austria,England,tournament,premium_media_push,3.389,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-119,Austria,England,tournament,core_player_absent,3.201,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-119,Austria,England,tournament,bad_weather_low_attention,3.232,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-119,Austria,England,tournament,knockout_brand_surge,3.466,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
-120,Brazil,Russia,tournament,baseline,3.845,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
-120,Brazil,Russia,tournament,premium_media_push,3.923,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
-120,Brazil,Russia,tournament,core_player_absent,3.735,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
-120,Brazil,Russia,tournament,bad_weather_low_attention,3.766,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
-120,Brazil,Russia,tournament,knockout_brand_surge,4.0,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+87,Scotland,Uruguay,tournament,baseline,3.467,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+87,Scotland,Uruguay,tournament,premium_media_push,3.545,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+87,Scotland,Uruguay,tournament,core_player_absent,3.357,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+87,Scotland,Uruguay,tournament,bad_weather_low_attention,3.388,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+87,Scotland,Uruguay,tournament,knockout_brand_surge,3.622,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+88,Belgium,Italy,tournament,baseline,3.6,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+88,Belgium,Italy,tournament,premium_media_push,3.678,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+88,Belgium,Italy,tournament,core_player_absent,3.49,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+88,Belgium,Italy,tournament,bad_weather_low_attention,3.521,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+88,Belgium,Italy,tournament,knockout_brand_surge,3.755,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+89,Germany,Hungary,tournament,baseline,4.099,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+89,Germany,Hungary,tournament,premium_media_push,4.177,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+89,Germany,Hungary,tournament,core_player_absent,3.989,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+89,Germany,Hungary,tournament,bad_weather_low_attention,4.02,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+89,Germany,Hungary,tournament,knockout_brand_surge,4.254,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+90,South Korea,Turkey,tournament,baseline,3.081,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
+90,South Korea,Turkey,tournament,premium_media_push,3.159,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
+90,South Korea,Turkey,tournament,core_player_absent,2.971,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
+90,South Korea,Turkey,tournament,bad_weather_low_attention,3.002,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
+90,South Korea,Turkey,tournament,knockout_brand_surge,3.236,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
+91,Switzerland,England,tournament,baseline,3.511,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+91,Switzerland,England,tournament,premium_media_push,3.589,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+91,Switzerland,England,tournament,core_player_absent,3.401,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+91,Switzerland,England,tournament,bad_weather_low_attention,3.432,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+91,Switzerland,England,tournament,knockout_brand_surge,3.666,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+92,Germany,Turkey,tournament,baseline,4.059,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
+92,Germany,Turkey,tournament,premium_media_push,4.137,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
+92,Germany,Turkey,tournament,core_player_absent,3.949,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
+92,Germany,Turkey,tournament,bad_weather_low_attention,3.98,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
+92,Germany,Turkey,tournament,knockout_brand_surge,4.214,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
+93,Switzerland,Italy,tournament,baseline,3.528,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+93,Switzerland,Italy,tournament,premium_media_push,3.606,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+93,Switzerland,Italy,tournament,core_player_absent,3.418,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+93,Switzerland,Italy,tournament,bad_weather_low_attention,3.449,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+93,Switzerland,Italy,tournament,knockout_brand_surge,3.683,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+94,England,Uruguay,tournament,baseline,3.471,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+94,England,Uruguay,tournament,premium_media_push,3.549,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+94,England,Uruguay,tournament,core_player_absent,3.361,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+94,England,Uruguay,tournament,bad_weather_low_attention,3.392,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+94,England,Uruguay,tournament,knockout_brand_surge,3.626,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+95,Switzerland,Austria,tournament,baseline,3.771,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+95,Switzerland,Austria,tournament,premium_media_push,3.849,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+95,Switzerland,Austria,tournament,core_player_absent,3.661,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+95,Switzerland,Austria,tournament,bad_weather_low_attention,3.692,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+95,Switzerland,Austria,tournament,knockout_brand_surge,3.926,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+96,Brazil,Hungary,tournament,baseline,3.851,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+96,Brazil,Hungary,tournament,premium_media_push,3.929,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+96,Brazil,Hungary,tournament,core_player_absent,3.741,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+96,Brazil,Hungary,tournament,bad_weather_low_attention,3.772,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+96,Brazil,Hungary,tournament,knockout_brand_surge,4.006,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+97,Germany,Yugoslavia,tournament,baseline,3.883,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+97,Germany,Yugoslavia,tournament,premium_media_push,3.961,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+97,Germany,Yugoslavia,tournament,core_player_absent,3.773,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+97,Germany,Yugoslavia,tournament,bad_weather_low_attention,3.804,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+97,Germany,Yugoslavia,tournament,knockout_brand_surge,4.038,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+98,Austria,Germany,tournament,baseline,3.281,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+98,Austria,Germany,tournament,premium_media_push,3.359,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+98,Austria,Germany,tournament,core_player_absent,3.171,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+98,Austria,Germany,tournament,bad_weather_low_attention,3.202,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+98,Austria,Germany,tournament,knockout_brand_surge,3.436,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+99,Hungary,Uruguay,tournament,baseline,3.517,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+99,Hungary,Uruguay,tournament,premium_media_push,3.595,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+99,Hungary,Uruguay,tournament,core_player_absent,3.407,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+99,Hungary,Uruguay,tournament,bad_weather_low_attention,3.438,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+99,Hungary,Uruguay,tournament,knockout_brand_surge,3.672,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+100,Austria,Uruguay,tournament,baseline,3.224,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+100,Austria,Uruguay,tournament,premium_media_push,3.302,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+100,Austria,Uruguay,tournament,core_player_absent,3.114,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+100,Austria,Uruguay,tournament,bad_weather_low_attention,3.145,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+100,Austria,Uruguay,tournament,knockout_brand_surge,3.379,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+101,Germany,Hungary,tournament,baseline,3.896,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+101,Germany,Hungary,tournament,premium_media_push,3.974,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+101,Germany,Hungary,tournament,core_player_absent,3.786,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+101,Germany,Hungary,tournament,bad_weather_low_attention,3.817,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+101,Germany,Hungary,tournament,knockout_brand_surge,4.051,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+102,Argentina,Germany,tournament,baseline,3.727,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+102,Argentina,Germany,tournament,premium_media_push,3.805,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+102,Argentina,Germany,tournament,core_player_absent,3.617,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+102,Argentina,Germany,tournament,bad_weather_low_attention,3.648,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+102,Argentina,Germany,tournament,knockout_brand_surge,3.882,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+103,Austria,Brazil,tournament,baseline,3.203,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+103,Austria,Brazil,tournament,premium_media_push,3.281,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+103,Austria,Brazil,tournament,core_player_absent,3.093,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+103,Austria,Brazil,tournament,bad_weather_low_attention,3.124,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+103,Austria,Brazil,tournament,knockout_brand_surge,3.358,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+104,Czechoslovakia,Northern Ireland,tournament,baseline,3.323,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+104,Czechoslovakia,Northern Ireland,tournament,premium_media_push,3.401,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+104,Czechoslovakia,Northern Ireland,tournament,core_player_absent,3.213,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+104,Czechoslovakia,Northern Ireland,tournament,bad_weather_low_attention,3.244,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+104,Czechoslovakia,Northern Ireland,tournament,knockout_brand_surge,3.478,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+105,England,Russia,tournament,baseline,3.394,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
+105,England,Russia,tournament,premium_media_push,3.472,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
+105,England,Russia,tournament,core_player_absent,3.284,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
+105,England,Russia,tournament,bad_weather_low_attention,3.315,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
+105,England,Russia,tournament,knockout_brand_surge,3.549,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
+106,France,Paraguay,tournament,baseline,3.681,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+106,France,Paraguay,tournament,premium_media_push,3.759,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+106,France,Paraguay,tournament,core_player_absent,3.571,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+106,France,Paraguay,tournament,bad_weather_low_attention,3.602,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+106,France,Paraguay,tournament,knockout_brand_surge,3.836,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+107,Hungary,Wales,tournament,baseline,3.569,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+107,Hungary,Wales,tournament,premium_media_push,3.647,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+107,Hungary,Wales,tournament,core_player_absent,3.459,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+107,Hungary,Wales,tournament,bad_weather_low_attention,3.49,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+107,Hungary,Wales,tournament,knockout_brand_surge,3.724,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+108,Scotland,Yugoslavia,tournament,baseline,3.386,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+108,Scotland,Yugoslavia,tournament,premium_media_push,3.464,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+108,Scotland,Yugoslavia,tournament,core_player_absent,3.276,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+108,Scotland,Yugoslavia,tournament,bad_weather_low_attention,3.307,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+108,Scotland,Yugoslavia,tournament,knockout_brand_surge,3.541,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+109,Sweden,Mexico,tournament,baseline,3.659,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+109,Sweden,Mexico,tournament,premium_media_push,3.737,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+109,Sweden,Mexico,tournament,core_player_absent,3.549,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+109,Sweden,Mexico,tournament,bad_weather_low_attention,3.58,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+109,Sweden,Mexico,tournament,knockout_brand_surge,3.814,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+110,Argentina,Northern Ireland,tournament,baseline,3.851,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
+110,Argentina,Northern Ireland,tournament,premium_media_push,3.929,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
+110,Argentina,Northern Ireland,tournament,core_player_absent,3.741,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
+110,Argentina,Northern Ireland,tournament,bad_weather_low_attention,3.772,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
+110,Argentina,Northern Ireland,tournament,knockout_brand_surge,4.006,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
+111,Austria,Russia,tournament,baseline,3.256,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+111,Austria,Russia,tournament,premium_media_push,3.334,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+111,Austria,Russia,tournament,core_player_absent,3.146,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+111,Austria,Russia,tournament,bad_weather_low_attention,3.177,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+111,Austria,Russia,tournament,knockout_brand_surge,3.411,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+112,Brazil,England,tournament,baseline,3.678,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+112,Brazil,England,tournament,premium_media_push,3.756,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+112,Brazil,England,tournament,core_player_absent,3.568,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+112,Brazil,England,tournament,bad_weather_low_attention,3.599,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+112,Brazil,England,tournament,knockout_brand_surge,3.833,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+113,Czechoslovakia,Germany,tournament,baseline,3.299,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+113,Czechoslovakia,Germany,tournament,premium_media_push,3.377,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+113,Czechoslovakia,Germany,tournament,core_player_absent,3.189,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+113,Czechoslovakia,Germany,tournament,bad_weather_low_attention,3.22,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+113,Czechoslovakia,Germany,tournament,knockout_brand_surge,3.454,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+114,France,Yugoslavia,tournament,baseline,3.558,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
+114,France,Yugoslavia,tournament,premium_media_push,3.636,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
+114,France,Yugoslavia,tournament,core_player_absent,3.448,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
+114,France,Yugoslavia,tournament,bad_weather_low_attention,3.479,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
+114,France,Yugoslavia,tournament,knockout_brand_surge,3.713,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
+115,Mexico,Wales,tournament,baseline,3.57,0.0,medium,Maintain baseline investment and wait for stronger attention signals.,3
+115,Mexico,Wales,tournament,premium_media_push,3.648,0.078,medium,Proceed selectively; monitor fan sentiment and player availability.,2
+115,Mexico,Wales,tournament,core_player_absent,3.46,-0.11,medium,Maintain baseline investment and wait for stronger attention signals.,5
+115,Mexico,Wales,tournament,bad_weather_low_attention,3.491,-0.079,medium,Maintain baseline investment and wait for stronger attention signals.,4
+115,Mexico,Wales,tournament,knockout_brand_surge,3.725,0.155,medium,Proceed selectively; monitor fan sentiment and player availability.,1
+116,Paraguay,Scotland,tournament,baseline,3.589,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+116,Paraguay,Scotland,tournament,premium_media_push,3.667,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+116,Paraguay,Scotland,tournament,core_player_absent,3.479,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+116,Paraguay,Scotland,tournament,bad_weather_low_attention,3.51,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+116,Paraguay,Scotland,tournament,knockout_brand_surge,3.744,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+117,Sweden,Hungary,tournament,baseline,3.707,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+117,Sweden,Hungary,tournament,premium_media_push,3.785,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+117,Sweden,Hungary,tournament,core_player_absent,3.597,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+117,Sweden,Hungary,tournament,bad_weather_low_attention,3.628,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+117,Sweden,Hungary,tournament,knockout_brand_surge,3.862,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+118,Argentina,Czechoslovakia,tournament,baseline,3.788,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+118,Argentina,Czechoslovakia,tournament,premium_media_push,3.866,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+118,Argentina,Czechoslovakia,tournament,core_player_absent,3.678,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+118,Argentina,Czechoslovakia,tournament,bad_weather_low_attention,3.709,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+118,Argentina,Czechoslovakia,tournament,knockout_brand_surge,3.943,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+119,Austria,England,tournament,baseline,3.318,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+119,Austria,England,tournament,premium_media_push,3.396,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+119,Austria,England,tournament,core_player_absent,3.208,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+119,Austria,England,tournament,bad_weather_low_attention,3.239,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+119,Austria,England,tournament,knockout_brand_surge,3.473,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1
+120,Brazil,Russia,tournament,baseline,3.73,0.0,low,Maintain baseline investment and wait for stronger attention signals.,3
+120,Brazil,Russia,tournament,premium_media_push,3.808,0.078,low,Proceed selectively; monitor fan sentiment and player availability.,2
+120,Brazil,Russia,tournament,core_player_absent,3.62,-0.11,low,Maintain baseline investment and wait for stronger attention signals.,5
+120,Brazil,Russia,tournament,bad_weather_low_attention,3.651,-0.079,low,Maintain baseline investment and wait for stronger attention signals.,4
+120,Brazil,Russia,tournament,knockout_brand_surge,3.885,0.155,low,Proceed selectively; monitor fan sentiment and player availability.,1

@@ -1,0 +1,90 @@
+{
+  "health_score": 100.0,
+  "status": "healthy",
+  "artifacts": [
+    {
+      "artifact": "modeling_dataset",
+      "path": "data\\modeling_dataset.csv",
+      "exists": true,
+      "size_kb": 792.3,
+      "rows": 964
+    },
+    {
+      "artifact": "roi_predictions",
+      "path": "data\\roi_predictions.csv",
+      "exists": true,
+      "size_kb": 800.55,
+      "rows": 964
+    },
+    {
+      "artifact": "panel_dataset",
+      "path": "data\\panel_dataset.csv",
+      "exists": true,
+      "size_kb": 381.32,
+      "rows": 1928
+    },
+    {
+      "artifact": "scenario_recommendations",
+      "path": "data\\scenario_recommendations.csv",
+      "exists": true,
+      "size_kb": 81.03,
+      "rows": 600
+    },
+    {
+      "artifact": "roi_uncertainty",
+      "path": "data\\roi_uncertainty.csv",
+      "exists": true,
+      "size_kb": 95.07,
+      "rows": 964
+    },
+    {
+      "artifact": "static_dashboard",
+      "path": "dashboard\\panel_dashboard.html",
+      "exists": true,
+      "size_kb": 3796.68,
+      "rows": null
+    },
+    {
+      "artifact": "streamlit_app",
+      "path": "dashboard\\app.py",
+      "exists": true,
+      "size_kb": 13.79,
+      "rows": null
+    },
+    {
+      "artifact": "readme_hero",
+      "path": "assets\\images\\readme_hero.png",
+      "exists": true,
+      "size_kb": 95.84,
+      "rows": null
+    },
+    {
+      "artifact": "demo_video",
+      "path": "assets\\videos\\worldcuproi_demo.mp4",
+      "exists": true,
+      "size_kb": 738.09,
+      "rows": null
+    },
+    {
+      "artifact": "algorithm_strategy",
+      "path": "reports\\algorithm_strategy.md",
+      "exists": true,
+      "size_kb": 2.21,
+      "rows": null
+    },
+    {
+      "artifact": "roi_model_card",
+      "path": "reports\\sponsor_roi_model_card.json",
+      "exists": true,
+      "size_kb": 1.36,
+      "rows": null
+    },
+    {
+      "artifact": "match_model_card",
+      "path": "reports\\match_outcome_model_card.json",
+      "exists": true,
+      "size_kb": 1.0,
+      "rows": null
+    }
+  ]
+}
