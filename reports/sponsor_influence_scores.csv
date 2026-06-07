@@ -1,11 +1,11 @@
-source,connected_nodes,sponsor_influence,avg_edge_weight
-sponsor:Hyundai,262,1181.544,2.2044
-sponsor:Adidas,233,1044.713,2.2323
-sponsor:Coca-Cola,235,1038.771,2.2102
-sponsor:Visa,236,994.303,2.1246
-sponsor:Hisense,185,852.667,2.317
-sponsor:Budweiser,183,777.989,2.1491
-sponsor:McDonald's,187,722.041,1.9621
-sponsor:Qatar Airways,163,644.499,1.977
-sponsor:Vivo,152,577.275,1.9372
-sponsor:Mengniu,98,366.937,1.9111
+source,connected_nodes,sponsor_influence,avg_edge_weight,pagerank,betweenness,closeness
+sponsor:Hyundai,262,1198.933,2.2368,0.041791,0.001268,0.310417
+sponsor:Adidas,233,1135.717,2.4267,0.038248,0.000462,0.303346
+sponsor:Coca-Cola,235,1052.147,2.2386,0.037356,0.00145,0.303116
+sponsor:Visa,236,1009.061,2.1561,0.036576,0.002679,0.304502
+sponsor:Hisense,185,829.779,2.2548,0.029123,0.000843,0.29193
+sponsor:Budweiser,183,786.83,2.1736,0.028645,0.002091,0.292144
+sponsor:McDonald's,187,726.997,1.9755,0.02833,0.012944,0.292357
+sponsor:Qatar Airways,163,649.315,1.9918,0.024955,0.00877,0.286796
+sponsor:Vivo,152,581.324,1.9508,0.022934,0.011185,0.284752
+sponsor:Mengniu,98,370.042,1.9273,0.014771,0.009577,0.273447

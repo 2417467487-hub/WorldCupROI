@@ -12,3 +12,18 @@ assets/gifs/* linguist-generated=true
 assets/videos/* linguist-generated=true
 assets/images/gif_previews/* linguist-generated=true
 assets/images/showcase_background*.png linguist-generated=true
+
+# Line-ending and binary safety.
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.svg text eol=lf
+*.pdf binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.pkl binary
