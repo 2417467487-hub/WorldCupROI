@@ -22,7 +22,7 @@ WorldCupROI blends match performance, media attention, fan behavior, sponsor inv
 | Model Card | [reports/model_card.md](reports/model_card.md) |
 | Deployment Guide | [docs/deployment.md](docs/deployment.md) |
 
-![WorldCupROI static dashboard preview](assets/gifs/static_platform_dashboard.gif)
+![WorldCupROI static dashboard preview](assets/gifs/static_platform_dashboard.gif?v=20260608-static-platform)
 
 **Core result snapshot**
 
@@ -314,10 +314,10 @@ Additional GIF previews:
 
 | Preview | GIF |
 |---|---|
-| Streamlit five-page dashboard | ![Streamlit dashboard](assets/gifs/streamlit_dashboard_demo.gif) |
-| Scenario simulation | ![Scenario simulation](assets/gifs/scenario_simulation.gif) |
-| Risk analysis | ![Risk uncertainty](assets/gifs/risk_uncertainty.gif) |
-| Network analysis | ![Sponsor network graph](assets/gifs/network_graph.gif) |
+| Static dashboard overview | ![Static dashboard overview](assets/gifs/static_platform_dashboard.gif?v=20260608-static-platform) |
+| Scenario simulation | ![Scenario simulation](assets/gifs/scenario_simulation.gif?v=20260608-static-platform) |
+| Risk analysis | ![Risk uncertainty](assets/gifs/risk_uncertainty.gif?v=20260608-static-platform) |
+| Network analysis | ![Sponsor network graph](assets/gifs/network_graph.gif?v=20260608-static-platform) |
 
 ## Demo Video
 
@@ -325,9 +325,10 @@ The repository includes generated demo media:
 
 ```text
 assets/videos/worldcuproi_demo.mp4
-assets/gifs/streamlit_dashboard_demo.gif
 assets/gifs/static_platform_dashboard.gif
-assets/gifs/dashboard_overview.gif
+assets/gifs/scenario_simulation.gif
+assets/gifs/risk_uncertainty.gif
+assets/gifs/network_graph.gif
 ```
 
 The main README GIF is captured from the polished static HTML dashboard, so the GitHub preview works without a server while still reflecting the five-page World Cup styled decision workflow.
