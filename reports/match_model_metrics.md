@@ -30,4 +30,4 @@
 | venue_weather | 0.2818 | host_advantage_a | 4 |
 | media_attention | 0.2649 | media_reposts_k | 4 |
 | injury_availability | 0.2500 | availability_diff | 4 |
-| text_sentiment | 0.0642 | news_sentiment_score | 1 |
+| text_sentiment | 0.0640 | news_sentiment_score | 1 |

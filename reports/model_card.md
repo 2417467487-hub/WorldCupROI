@@ -28,16 +28,16 @@
 | venue_weather | 0.2818 | host_advantage_a | 4 |
 | media_attention | 0.2649 | media_reposts_k | 4 |
 | injury_availability | 0.2500 | availability_diff | 4 |
-| text_sentiment | 0.0642 | news_sentiment_score | 1 |
+| text_sentiment | 0.0640 | news_sentiment_score | 1 |
 
 ## Cross-Validation Generalization
 
 | task | model | metric | folds | mean | std | min | max |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | match_outcome | CentroidOutcomeModel | accuracy | 5 | 0.5436 | 0.0389 | 0.5026 | 0.6010 |
-| match_outcome | CentroidOutcomeModel | log_loss | 5 | 0.9861 | 0.0230 | 0.9584 | 1.0150 |
-| sponsor_roi | RidgeROIModel | mae | 5 | 0.1162 | 0.0070 | 0.1070 | 0.1248 |
-| sponsor_roi | RidgeROIModel | r2 | 5 | 0.8600 | 0.0210 | 0.8305 | 0.8882 |
+| match_outcome | CentroidOutcomeModel | log_loss | 5 | 0.9861 | 0.0231 | 0.9584 | 1.0150 |
+| sponsor_roi | RidgeROIModel | mae | 5 | 0.1162 | 0.0069 | 0.1070 | 0.1245 |
+| sponsor_roi | RidgeROIModel | r2 | 5 | 0.8540 | 0.0226 | 0.8218 | 0.8837 |
 | sponsor_roi | RidgeROIModel | rmse | 5 | 0.1425 | 0.0073 | 0.1315 | 0.1492 |
 
 ## Sponsor ROI Model
@@ -46,22 +46,22 @@
 - Inputs: media exposure, sponsor power, brand fit, activation quality, team strength, stage premium, weather impact, injury risk, text/social momentum.
 - Label construction: `sponsor_roi` is a constructed proxy, not audited revenue.
 - Training split: same deterministic reproducible holdout split.
-- MAE: 0.1181
-- RMSE: 0.1439
-- R2: 0.8654
+- MAE: 0.1183
+- RMSE: 0.1442
+- R2: 0.8595
 
 ### ROI Feature Groups
 
 | feature_group | importance_sum | top_feature | feature_count |
 | --- | --- | --- | --- |
-| sponsor_activation | 0.4785 | a_sponsor_spend_m | 8 |
-| team_strength | 0.1740 | team_a_strength | 2 |
-| business_intelligence_indices | 0.1295 | commercial_momentum_score | 6 |
-| media_attention | 0.1243 | fan_score | 6 |
-| player_influence | 0.0840 | a_player_followers_m | 5 |
-| text_sentiment | 0.0346 | text_signal_score | 2 |
-| venue_weather | 0.0194 | host_advantage_a | 1 |
-| injury_availability | 0.0144 | a_avg_injury_risk | 2 |
+| sponsor_activation | 0.4591 | a_sponsor_spend_m | 8 |
+| team_strength | 0.1718 | team_a_strength | 2 |
+| business_intelligence_indices | 0.1269 | sponsor_team_fit_score | 6 |
+| media_attention | 0.1261 | fan_score | 6 |
+| player_influence | 0.0839 | a_player_followers_m | 5 |
+| text_sentiment | 0.0348 | text_signal_score | 2 |
+| venue_weather | 0.0195 | host_advantage_a | 1 |
+| injury_availability | 0.0147 | a_avg_injury_risk | 2 |
 
 ## Limitations
 

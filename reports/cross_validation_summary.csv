@@ -1,6 +1,6 @@
 task,model,metric,folds,mean,std,min,max
 match_outcome,CentroidOutcomeModel,accuracy,5,0.5436,0.0389,0.5026,0.601
-match_outcome,CentroidOutcomeModel,log_loss,5,0.9861,0.023,0.9584,1.015
-sponsor_roi,RidgeROIModel,mae,5,0.1162,0.007,0.107,0.1248
-sponsor_roi,RidgeROIModel,r2,5,0.86,0.021,0.8305,0.8882
+match_outcome,CentroidOutcomeModel,log_loss,5,0.9861,0.0231,0.9584,1.015
+sponsor_roi,RidgeROIModel,mae,5,0.1162,0.0069,0.107,0.1245
+sponsor_roi,RidgeROIModel,r2,5,0.854,0.0226,0.8218,0.8837
 sponsor_roi,RidgeROIModel,rmse,5,0.1425,0.0073,0.1315,0.1492
