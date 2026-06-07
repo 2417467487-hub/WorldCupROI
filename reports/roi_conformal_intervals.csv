@@ -1,195 +1,195 @@
 match_id,team_a,team_b,stage,sponsor_roi,roi_pred,roi_interval_low,roi_interval_high,covered
-5,Argentina,France,tournament,3.714,3.873,3.637,4.108,True
-95,Switzerland,Austria,tournament,3.547,3.943,3.708,4.179,False
-561,Argentina,Croatia,group_or_knockout,4.218,4.133,3.897,4.368,True
-482,Brazil,Cameroon,group_or_knockout,4.272,4.055,3.82,4.291,True
-500,Greece,Nigeria,group_or_knockout,2.854,3.187,2.951,3.422,False
-324,Belgium,El Salvador,tournament,3.989,3.812,3.577,4.047,True
-94,England,Uruguay,tournament,3.347,3.475,3.239,3.71,True
-815,Honduras,Switzerland,group_or_knockout,3.04,3.121,2.886,3.357,True
-823,Costa Rica,Greece,group_or_knockout,3.518,3.643,3.407,3.878,True
-764,Spain,Portugal,group_or_knockout,3.961,3.722,3.487,3.958,False
-390,Mexico,Iraq,group_or_knockout,3.741,3.965,3.729,4.2,True
-398,Russia,Belgium,group_or_knockout,4.231,4.348,4.113,4.584,True
-565,Brazil,Chile,group_or_knockout,4.216,4.057,3.822,4.292,True
-33,Italy,Austria,tournament,3.278,3.341,3.106,3.577,True
-387,Argentina,Bulgaria,group_or_knockout,4.305,4.206,3.971,4.441,True
-365,Morocco,Poland,group_or_knockout,3.066,3.011,2.775,3.246,True
-668,Czech Republic,Ghana,group_or_knockout,3.185,3.265,3.029,3.5,True
-454,Italy,Uruguay,group_or_knockout,3.909,3.659,3.424,3.895,False
-441,Italy,Czechoslovakia,group_or_knockout,3.602,3.584,3.349,3.819,True
-641,South Korea,Germany,group_or_knockout,2.918,3.136,2.901,3.372,True
-634,Mexico,United States,group_or_knockout,3.549,3.911,3.676,4.147,False
-228,Russia,Uruguay,tournament,4.131,4.047,3.812,4.283,True
-370,Paraguay,Iraq,group_or_knockout,4.05,3.892,3.657,4.128,True
-643,South Korea,Turkey,group_or_knockout,3.527,3.445,3.21,3.681,True
-417,Brazil,Sweden,group_or_knockout,4.223,3.968,3.733,4.203,False
-453,Republic of Ireland,Romania,group_or_knockout,3.37,3.124,2.888,3.359,False
-82,Hungary,South Korea,tournament,3.969,3.98,3.745,4.216,True
-799,Argentina,Iran,group_or_knockout,4.372,4.229,3.994,4.465,True
-835,Brazil,Netherlands,group_or_knockout,4.028,4.334,4.098,4.569,False
-371,Scotland,Denmark,group_or_knockout,3.335,3.414,3.179,3.649,True
-312,Hungary,El Salvador,tournament,4.357,4.345,4.109,4.58,True
-451,Brazil,Argentina,group_or_knockout,3.876,4.01,3.774,4.245,True
-53,Hungary,Italy,tournament,3.396,3.642,3.406,3.877,False
-882,Senegal,Colombia,group_or_knockout,3.395,3.363,3.127,3.598,True
-343,Germany,Austria,tournament,4.076,3.925,3.689,4.16,True
-541,Belgium,Mexico,group_or_knockout,3.684,3.838,3.602,4.073,True
-268,Sweden,Yugoslavia,tournament,3.784,3.604,3.369,3.84,True
-722,New Zealand,Slovakia,group_or_knockout,3.022,2.92,2.685,3.156,True
-107,Hungary,Wales,tournament,3.567,3.707,3.471,3.942,True
-123,Hungary,Mexico,tournament,3.826,3.724,3.489,3.959,True
-397,Mexico,Bulgaria,group_or_knockout,4.064,3.957,3.722,4.193,True
-958,Netherlands,Argentina,group_or_knockout,3.983,3.771,3.536,4.006,True
-534,Scotland,Norway,group_or_knockout,3.561,3.528,3.293,3.763,True
-731,Slovenia,United States,group_or_knockout,3.239,3.225,2.99,3.461,True
-385,Hungary,France,group_or_knockout,3.49,3.721,3.486,3.957,True
-106,France,Paraguay,tournament,3.731,3.681,3.446,3.917,True
-267,Netherlands,Brazil,tournament,3.634,3.527,3.291,3.762,True
-348,Italy,Argentina,tournament,3.76,3.61,3.375,3.846,True
-191,England,France,tournament,3.696,3.425,3.19,3.661,False
-836,Germany,Argentina,group_or_knockout,4.136,4.144,3.908,4.379,True
-886,Uruguay,Portugal,group_or_knockout,3.934,3.744,3.509,3.98,True
-40,France,Belgium,tournament,3.6,3.452,3.216,3.687,True
-340,France,Czechoslovakia,tournament,3.621,3.527,3.292,3.763,True
-189,Bulgaria,Hungary,tournament,2.664,2.882,2.647,3.118,True
-404,England,Paraguay,group_or_knockout,3.619,3.56,3.325,3.796,True
-526,Spain,Nigeria,group_or_knockout,3.647,3.742,3.507,3.977,True
-190,Chile,Russia,tournament,3.587,3.465,3.23,3.701,True
-813,Bosnia and Herzegovina,Iran,group_or_knockout,3.459,3.332,3.097,3.567,True
-88,Belgium,Italy,tournament,3.681,3.694,3.458,3.929,True
-733,Ghana,Australia,group_or_knockout,3.126,3.06,2.825,3.296,True
-484,Sweden,Russia,group_or_knockout,3.893,3.682,3.447,3.917,True
-6,Chile,Mexico,tournament,3.279,3.289,3.054,3.525,True
-598,Cameroon,Saudi Arabia,group_or_knockout,3.421,3.203,2.968,3.439,True
-700,Spain,France,group_or_knockout,3.799,3.917,3.682,4.153,True
-921,Poland,Saudi Arabia,group_or_knockout,3.878,3.834,3.598,4.069,True
-443,Brazil,Scotland,group_or_knockout,4.093,3.961,3.726,4.197,True
-863,Belgium,Tunisia,group_or_knockout,4.229,4.156,3.921,4.392,True
-386,Russia,Canada,group_or_knockout,4.155,4.23,3.995,4.465,True
-333,Belgium,Hungary,tournament,3.783,3.771,3.535,4.006,True
-791,Cameroon,Croatia,group_or_knockout,3.151,3.335,3.099,3.57,True
-360,Italy,Germany,tournament,3.795,3.715,3.48,3.951,True
-591,Italy,Ecuador,group_or_knockout,3.644,3.764,3.529,4.0,True
-505,Netherlands,Republic of Ireland,group_or_knockout,3.348,3.713,3.477,3.948,False
-930,Brazil,Switzerland,group_or_knockout,4.144,4.074,3.838,4.309,True
-376,Brazil,Algeria,group_or_knockout,4.282,3.93,3.695,4.166,False
-115,Mexico,Wales,tournament,3.774,3.884,3.648,4.119,True
-171,Germany,Switzerland,tournament,4.032,4.0,3.765,4.236,True
-124,Paraguay,Yugoslavia,tournament,3.968,3.802,3.567,4.038,True
-302,Peru,Poland,tournament,2.914,3.145,2.909,3.38,True
-616,Senegal,Uruguay,group_or_knockout,3.247,3.404,3.169,3.64,True
-603,Sweden,Nigeria,group_or_knockout,3.999,3.767,3.531,4.002,True
-712,England,United States,group_or_knockout,3.645,3.573,3.337,3.808,True
-787,Belgium,Algeria,group_or_knockout,3.997,3.894,3.659,4.13,True
-888,Croatia,Denmark,group_or_knockout,3.671,3.711,3.476,3.947,True
-509,Italy,Spain,group_or_knockout,3.657,3.62,3.385,3.855,True
-719,Netherlands,Denmark,group_or_knockout,3.705,3.749,3.514,3.984,True
-600,France,Uruguay,group_or_knockout,3.279,3.441,3.205,3.676,True
-222,Czechoslovakia,England,tournament,3.383,3.471,3.236,3.706,True
-655,United States,Czech Republic,group_or_knockout,3.122,3.2,2.965,3.436,True
-112,Brazil,England,tournament,3.752,3.776,3.541,4.011,True
-476,Germany,Spain,group_or_knockout,3.98,3.98,3.744,4.215,True
-485,Argentina,Nigeria,group_or_knockout,4.242,4.15,3.915,4.386,True
-330,Algeria,Austria,tournament,3.066,3.202,2.966,3.437,True
-280,Germany,Mexico,tournament,4.207,4.078,3.842,4.313,True
-278,Peru,Scotland,tournament,3.35,3.393,3.157,3.628,True
-350,Belgium,Russia,tournament,3.868,3.732,3.496,3.967,True
-924,France,Denmark,group_or_knockout,3.693,3.69,3.455,3.925,True
-188,Mexico,Uruguay,tournament,3.585,3.772,3.536,4.007,True
-66,Chile,United States,tournament,3.661,3.452,3.216,3.687,True
-940,Tunisia,France,group_or_knockout,4.081,3.886,3.651,4.122,True
-612,Tunisia,Belgium,group_or_knockout,3.647,3.626,3.39,3.861,True
-584,Uruguay,Denmark,group_or_knockout,3.37,3.596,3.361,3.832,True
-917,Qatar,Senegal,group_or_knockout,3.141,3.098,2.862,3.333,True
-70,Brazil,Sweden,tournament,4.033,4.026,3.791,4.262,True
-411,France,Belgium,group_or_knockout,3.584,3.587,3.351,3.822,True
-690,Switzerland,South Korea,group_or_knockout,3.796,3.765,3.53,4.001,True
-638,Germany,United States,group_or_knockout,4.0,4.081,3.846,4.317,True
-178,Chile,North Korea,tournament,3.491,3.497,3.262,3.733,True
-737,Slovakia,Paraguay,group_or_knockout,3.069,3.078,2.842,3.313,True
-948,South Korea,Portugal,group_or_knockout,3.005,3.144,2.909,3.379,True
-118,Argentina,Czechoslovakia,tournament,3.909,4.1,3.865,4.336,True
-587,Paraguay,South Africa,group_or_knockout,3.879,4.088,3.853,4.323,True
-373,France,Russia,group_or_knockout,3.67,3.527,3.292,3.763,True
-11,Chile,France,tournament,3.41,3.174,2.938,3.409,False
-629,Denmark,England,group_or_knockout,3.359,3.627,3.392,3.863,False
-897,France,Belgium,group_or_knockout,3.671,3.627,3.391,3.862,True
-670,Portugal,Iran,group_or_knockout,3.144,3.34,3.105,3.576,True
-64,Brazil,Yugoslavia,tournament,3.903,3.842,3.606,4.077,True
-736,Italy,New Zealand,group_or_knockout,3.668,3.75,3.515,3.986,True
-501,Germany,Belgium,group_or_knockout,4.479,4.26,4.024,4.495,True
-2,France,Mexico,tournament,3.463,3.476,3.241,3.712,True
-43,Cuba,Romania,tournament,2.94,2.884,2.649,3.12,True
-635,Japan,Turkey,group_or_knockout,3.564,3.753,3.518,3.988,True
-530,England,Tunisia,group_or_knockout,3.911,3.655,3.42,3.89,False
-168,Brazil,Czechoslovakia,tournament,4.024,3.919,3.683,4.154,True
-810,Greece,Ivory Coast,group_or_knockout,3.421,3.319,3.084,3.555,True
-822,Colombia,Uruguay,group_or_knockout,3.715,3.443,3.207,3.678,False
-77,Brazil,Mexico,tournament,3.861,3.881,3.646,4.116,True
-314,Scotland,New Zealand,tournament,3.746,3.598,3.363,3.834,True
-297,Brazil,Peru,tournament,4.116,4.077,3.841,4.312,True
-503,Romania,Argentina,group_or_knockout,3.378,3.355,3.12,3.591,True
-491,Bolivia,Spain,group_or_knockout,2.841,2.77,2.535,3.006,True
-721,Ivory Coast,Portugal,group_or_knockout,3.488,3.525,3.29,3.76,True
-838,Egypt,Uruguay,group_or_knockout,3.622,3.44,3.204,3.675,True
-544,Argentina,Jamaica,group_or_knockout,4.392,4.399,4.164,4.635,True
-642,Brazil,Turkey,group_or_knockout,4.131,3.973,3.737,4.208,True
-955,Morocco,Spain,group_or_knockout,3.088,3.089,2.854,3.324,True
-618,Slovenia,Paraguay,group_or_knockout,3.061,3.149,2.914,3.385,True
-291,Austria,Brazil,tournament,3.126,3.194,2.958,3.429,True
-780,Uruguay,Costa Rica,group_or_knockout,3.426,3.68,3.444,3.915,False
-213,Brazil,England,tournament,3.945,3.871,3.636,4.106,True
-556,Spain,Bulgaria,group_or_knockout,3.937,3.851,3.616,4.087,True
-934,Qatar,Netherlands,group_or_knockout,3.169,3.069,2.834,3.305,True
-673,Japan,Croatia,group_or_knockout,3.489,3.597,3.362,3.833,True
-318,Chile,Austria,tournament,3.423,3.598,3.363,3.834,True
-58,Switzerland,Yugoslavia,tournament,3.66,3.589,3.353,3.824,True
-792,Spain,Chile,group_or_knockout,3.576,3.778,3.543,4.014,True
-536,Italy,Cameroon,group_or_knockout,3.865,3.776,3.541,4.012,True
-273,France,Italy,tournament,3.397,3.484,3.248,3.719,True
-16,Argentina,United States,tournament,3.881,3.971,3.735,4.206,True
-433,Sweden,Scotland,group_or_knockout,3.523,3.652,3.417,3.887,True
-504,Saudi Arabia,Sweden,group_or_knockout,3.43,3.644,3.409,3.88,True
-829,Brazil,Colombia,group_or_knockout,4.293,4.19,3.955,4.425,True
-622,Ecuador,Croatia,group_or_knockout,3.419,3.304,3.068,3.539,True
-138,Brazil,Mexico,tournament,3.99,3.832,3.596,4.067,True
-703,Brazil,France,group_or_knockout,3.86,4.093,3.857,4.328,True
-288,France,Hungary,tournament,3.733,3.619,3.384,3.855,True
-452,Germany,Netherlands,group_or_knockout,4.082,3.963,3.728,4.199,True
-529,Serbia,Iran,group_or_knockout,3.305,3.184,2.949,3.42,True
-301,Germany,Netherlands,tournament,4.262,4.016,3.781,4.252,False
-753,Chile,Spain,group_or_knockout,3.457,3.657,3.422,3.892,True
-623,Mexico,Italy,group_or_knockout,3.872,3.875,3.64,4.111,True
-196,North Korea,Portugal,tournament,3.272,3.441,3.206,3.677,True
-35,Italy,Czechoslovakia,tournament,3.457,3.417,3.181,3.652,True
-287,Argentina,Italy,tournament,4.006,4.151,3.916,4.387,True
-315,England,France,tournament,3.775,3.526,3.29,3.761,False
-548,Romania,England,group_or_knockout,3.222,3.242,3.007,3.477,True
-334,Poland,Peru,tournament,3.624,3.644,3.409,3.88,True
-183,England,Mexico,tournament,3.462,3.46,3.225,3.696,True
-50,Brazil,Italy,tournament,3.657,3.743,3.508,3.979,True
-519,Cameroon,Austria,group_or_knockout,3.401,3.29,3.055,3.526,True
-103,Austria,Brazil,tournament,3.121,3.191,2.955,3.426,True
-688,Japan,Brazil,group_or_knockout,3.835,3.674,3.439,3.91,True
-652,Serbia,Netherlands,group_or_knockout,3.095,3.172,2.937,3.407,True
-42,Italy,Norway,tournament,3.495,3.414,3.179,3.65,True
-554,Nigeria,Paraguay,group_or_knockout,3.559,3.376,3.14,3.611,True
-367,Algeria,Northern Ireland,group_or_knockout,3.138,3.251,3.016,3.486,True
-535,Chile,Austria,group_or_knockout,3.306,3.497,3.262,3.733,True
-276,Brazil,Sweden,tournament,3.969,3.996,3.76,4.231,True
-676,Togo,Switzerland,group_or_knockout,3.109,3.06,2.824,3.295,True
-833,Brazil,Germany,group_or_knockout,3.977,4.272,4.036,4.507,False
-304,Austria,Germany,tournament,3.455,3.35,3.115,3.586,True
-114,France,Yugoslavia,tournament,3.268,3.553,3.317,3.788,False
-750,Denmark,Japan,group_or_knockout,3.499,3.771,3.535,4.006,False
-909,Germany,Japan,group_or_knockout,4.118,4.244,4.009,4.48,True
-438,Cameroon,Russia,group_or_knockout,3.089,3.332,3.097,3.568,False
-492,Germany,South Korea,group_or_knockout,4.263,4.123,3.887,4.358,True
-527,Argentina,Japan,group_or_knockout,4.434,4.2,3.964,4.435,True
-142,England,Hungary,tournament,3.171,3.327,3.092,3.563,True
-707,Germany,Portugal,group_or_knockout,4.084,4.112,3.877,4.348,True
-549,Brazil,Norway,group_or_knockout,3.967,3.994,3.759,4.229,True
-610,South Korea,United States,group_or_knockout,3.218,3.198,2.963,3.434,True
-962,France,Morocco,group_or_knockout,3.685,3.632,3.397,3.868,True
-649,Trinidad and Tobago,Sweden,group_or_knockout,2.771,2.702,2.467,2.938,True
+5,Argentina,France,tournament,3.487,3.581,3.357,3.805,True
+95,Switzerland,Austria,tournament,3.435,3.815,3.591,4.04,False
+561,Argentina,Croatia,group_or_knockout,3.99,3.847,3.623,4.072,True
+482,Brazil,Cameroon,group_or_knockout,4.161,3.944,3.72,4.169,True
+500,Greece,Nigeria,group_or_knockout,2.923,3.248,3.023,3.472,False
+324,Belgium,El Salvador,tournament,3.829,3.709,3.484,3.933,True
+94,England,Uruguay,tournament,3.345,3.463,3.238,3.687,True
+815,Honduras,Switzerland,group_or_knockout,2.88,3.024,2.799,3.248,True
+823,Costa Rica,Greece,group_or_knockout,3.358,3.517,3.293,3.741,True
+764,Spain,Portugal,group_or_knockout,4.031,3.776,3.551,4.0,False
+390,Mexico,Iraq,group_or_knockout,3.514,3.684,3.459,3.908,True
+398,Russia,Belgium,group_or_knockout,4.004,4.041,3.817,4.265,True
+565,Brazil,Chile,group_or_knockout,4.104,3.949,3.724,4.173,True
+33,Italy,Austria,tournament,3.118,3.212,2.988,3.437,True
+387,Argentina,Bulgaria,group_or_knockout,4.077,3.925,3.7,4.149,True
+365,Morocco,Poland,group_or_knockout,3.065,2.952,2.728,3.176,True
+668,Czech Republic,Ghana,group_or_knockout,3.168,3.271,3.047,3.495,True
+454,Italy,Uruguay,group_or_knockout,3.749,3.533,3.309,3.758,True
+441,Italy,Czechoslovakia,group_or_knockout,3.442,3.456,3.232,3.681,True
+641,South Korea,Germany,group_or_knockout,2.916,3.128,2.903,3.352,True
+634,Mexico,United States,group_or_knockout,3.321,3.617,3.393,3.842,False
+228,Russia,Uruguay,tournament,3.903,3.728,3.503,3.952,True
+370,Paraguay,Iraq,group_or_knockout,3.822,3.606,3.382,3.831,True
+643,South Korea,Turkey,group_or_knockout,3.524,3.45,3.226,3.675,True
+417,Brazil,Sweden,group_or_knockout,4.112,3.854,3.63,4.079,False
+453,Republic of Ireland,Romania,group_or_knockout,3.368,3.115,2.89,3.339,False
+82,Hungary,South Korea,tournament,3.857,3.863,3.639,4.087,True
+799,Argentina,Iran,group_or_knockout,4.145,3.942,3.717,4.166,True
+835,Brazil,Netherlands,group_or_knockout,3.916,4.238,4.014,4.463,False
+371,Scotland,Denmark,group_or_knockout,3.404,3.484,3.26,3.709,True
+312,Hungary,El Salvador,tournament,4.246,4.242,4.017,4.466,True
+451,Brazil,Argentina,group_or_knockout,3.764,3.898,3.674,4.122,True
+53,Hungary,Italy,tournament,3.284,3.508,3.284,3.733,True
+882,Senegal,Colombia,group_or_knockout,3.464,3.442,3.218,3.667,True
+343,Germany,Austria,tournament,4.059,3.928,3.703,4.152,True
+541,Belgium,Mexico,group_or_knockout,3.524,3.732,3.507,3.956,True
+268,Sweden,Yugoslavia,tournament,3.853,3.675,3.451,3.9,True
+722,New Zealand,Slovakia,group_or_knockout,3.022,2.934,2.71,3.159,True
+107,Hungary,Wales,tournament,3.456,3.581,3.356,3.805,True
+123,Hungary,Mexico,tournament,3.714,3.597,3.373,3.822,True
+397,Mexico,Bulgaria,group_or_knockout,3.836,3.674,3.449,3.898,True
+958,Netherlands,Argentina,group_or_knockout,4.42,4.213,3.988,4.437,True
+534,Scotland,Norway,group_or_knockout,3.631,3.598,3.374,3.822,True
+731,Slovenia,United States,group_or_knockout,3.239,3.211,2.987,3.436,True
+385,Hungary,France,group_or_knockout,3.378,3.599,3.375,3.824,True
+106,France,Paraguay,tournament,3.728,3.682,3.457,3.906,True
+267,Netherlands,Brazil,tournament,4.072,3.964,3.74,4.188,True
+348,Italy,Argentina,tournament,3.6,3.473,3.249,3.698,True
+191,England,France,tournament,3.694,3.421,3.197,3.645,False
+836,Germany,Argentina,group_or_knockout,4.119,4.15,3.925,4.374,True
+886,Uruguay,Portugal,group_or_knockout,3.932,3.774,3.549,3.998,True
+40,France,Belgium,tournament,3.598,3.455,3.231,3.68,True
+340,France,Czechoslovakia,tournament,3.619,3.525,3.3,3.749,True
+189,Bulgaria,Hungary,tournament,3.102,3.326,3.102,3.551,True
+404,England,Paraguay,group_or_knockout,3.617,3.556,3.332,3.78,True
+526,Spain,Nigeria,group_or_knockout,3.717,3.802,3.577,4.026,True
+190,Chile,Russia,tournament,4.024,3.926,3.701,4.15,True
+813,Bosnia and Herzegovina,Iran,group_or_knockout,3.458,3.342,3.117,3.566,True
+88,Belgium,Italy,tournament,3.521,3.581,3.357,3.806,True
+733,Ghana,Australia,group_or_knockout,3.125,3.084,2.859,3.308,True
+484,Sweden,Russia,group_or_knockout,3.962,3.759,3.534,3.983,True
+6,Chile,Mexico,tournament,3.716,3.749,3.525,3.974,True
+598,Cameroon,Saudi Arabia,group_or_knockout,3.404,3.218,2.994,3.443,True
+700,Spain,France,group_or_knockout,3.868,3.98,3.756,4.205,True
+921,Poland,Saudi Arabia,group_or_knockout,3.861,3.863,3.639,4.087,True
+443,Brazil,Scotland,group_or_knockout,3.982,3.848,3.624,4.072,True
+863,Belgium,Tunisia,group_or_knockout,4.069,4.059,3.835,4.284,True
+386,Russia,Canada,group_or_knockout,3.927,3.923,3.698,4.147,True
+333,Belgium,Hungary,tournament,3.623,3.666,3.442,3.891,True
+791,Cameroon,Croatia,group_or_knockout,3.135,3.358,3.133,3.582,True
+360,Italy,Germany,tournament,3.635,3.591,3.366,3.815,True
+591,Italy,Ecuador,group_or_knockout,3.484,3.637,3.413,3.862,True
+505,Netherlands,Republic of Ireland,group_or_knockout,3.786,4.157,3.933,4.382,False
+930,Brazil,Switzerland,group_or_knockout,4.033,3.965,3.741,4.19,True
+376,Brazil,Algeria,group_or_knockout,4.17,3.815,3.591,4.039,False
+115,Mexico,Wales,tournament,3.546,3.595,3.371,3.82,True
+171,Germany,Switzerland,tournament,4.015,4.002,3.778,4.227,True
+124,Paraguay,Yugoslavia,tournament,3.74,3.519,3.294,3.743,True
+302,Peru,Poland,tournament,3.351,3.608,3.384,3.833,False
+616,Senegal,Uruguay,group_or_knockout,3.317,3.482,3.258,3.706,True
+603,Sweden,Nigeria,group_or_knockout,4.068,3.842,3.617,4.066,False
+712,England,United States,group_or_knockout,3.643,3.564,3.339,3.788,True
+787,Belgium,Algeria,group_or_knockout,3.837,3.786,3.562,4.011,True
+888,Croatia,Denmark,group_or_knockout,4.108,4.181,3.957,4.406,True
+509,Italy,Spain,group_or_knockout,3.497,3.485,3.261,3.71,True
+719,Netherlands,Denmark,group_or_knockout,4.143,4.19,3.966,4.415,True
+600,France,Uruguay,group_or_knockout,3.277,3.438,3.213,3.662,True
+222,Czechoslovakia,England,tournament,3.223,3.367,3.143,3.591,True
+655,United States,Czech Republic,group_or_knockout,3.121,3.18,2.956,3.404,True
+112,Brazil,England,tournament,3.64,3.654,3.43,3.878,True
+476,Germany,Spain,group_or_knockout,3.963,3.986,3.762,4.211,True
+485,Argentina,Nigeria,group_or_knockout,4.015,3.859,3.635,4.084,True
+330,Algeria,Austria,tournament,3.504,3.647,3.423,3.872,True
+280,Germany,Mexico,tournament,4.19,4.083,3.859,4.308,True
+278,Peru,Scotland,tournament,3.788,3.863,3.639,4.087,True
+350,Belgium,Russia,tournament,3.708,3.62,3.396,3.844,True
+924,France,Denmark,group_or_knockout,3.69,3.691,3.466,3.915,True
+188,Mexico,Uruguay,tournament,3.358,3.478,3.253,3.702,True
+66,Chile,United States,tournament,4.098,3.915,3.69,4.139,True
+940,Tunisia,France,group_or_knockout,3.854,3.575,3.351,3.8,False
+612,Tunisia,Belgium,group_or_knockout,3.419,3.312,3.087,3.536,True
+584,Uruguay,Denmark,group_or_knockout,3.368,3.622,3.397,3.846,False
+917,Qatar,Senegal,group_or_knockout,3.139,3.115,2.89,3.339,True
+70,Brazil,Sweden,tournament,3.921,3.921,3.697,4.146,True
+411,France,Belgium,group_or_knockout,3.582,3.584,3.36,3.808,True
+690,Switzerland,South Korea,group_or_knockout,3.685,3.627,3.403,3.852,True
+638,Germany,United States,group_or_knockout,3.984,4.086,3.862,4.31,True
+178,Chile,North Korea,tournament,3.929,3.966,3.742,4.191,True
+737,Slovakia,Paraguay,group_or_knockout,3.069,3.057,2.833,3.282,True
+948,South Korea,Portugal,group_or_knockout,3.003,3.125,2.9,3.349,True
+118,Argentina,Czechoslovakia,tournament,3.682,3.808,3.584,4.032,True
+587,Paraguay,South Africa,group_or_knockout,3.651,3.811,3.586,4.035,True
+373,France,Russia,group_or_knockout,3.668,3.523,3.298,3.747,True
+11,Chile,France,tournament,3.847,3.627,3.403,3.852,True
+629,Denmark,England,group_or_knockout,3.342,3.631,3.406,3.855,False
+897,France,Belgium,group_or_knockout,3.668,3.624,3.4,3.849,True
+670,Portugal,Iran,group_or_knockout,3.144,3.341,3.116,3.565,True
+64,Brazil,Yugoslavia,tournament,3.792,3.728,3.504,3.952,True
+736,Italy,New Zealand,group_or_knockout,3.508,3.622,3.398,3.847,True
+501,Germany,Belgium,group_or_knockout,4.463,4.273,4.048,4.497,True
+2,France,Mexico,tournament,3.46,3.475,3.25,3.699,True
+43,Cuba,Romania,tournament,2.938,2.883,2.658,3.107,True
+635,Japan,Turkey,group_or_knockout,3.452,3.623,3.399,3.848,True
+530,England,Tunisia,group_or_knockout,3.91,3.651,3.427,3.875,False
+168,Brazil,Czechoslovakia,tournament,3.912,3.801,3.577,4.026,True
+810,Greece,Ivory Coast,group_or_knockout,3.491,3.384,3.16,3.609,True
+822,Colombia,Uruguay,group_or_knockout,3.713,3.448,3.223,3.672,False
+77,Brazil,Mexico,tournament,3.75,3.764,3.539,3.988,True
+314,Scotland,New Zealand,tournament,3.815,3.674,3.45,3.898,True
+297,Brazil,Peru,tournament,4.005,3.965,3.74,4.189,True
+503,Romania,Argentina,group_or_knockout,3.377,3.389,3.165,3.614,True
+491,Bolivia,Spain,group_or_knockout,2.839,2.744,2.52,2.969,True
+721,Ivory Coast,Portugal,group_or_knockout,3.557,3.61,3.386,3.834,True
+838,Egypt,Uruguay,group_or_knockout,3.394,3.131,2.907,3.356,False
+544,Argentina,Jamaica,group_or_knockout,4.164,4.117,3.893,4.342,True
+642,Brazil,Turkey,group_or_knockout,4.019,3.86,3.635,4.084,True
+955,Morocco,Spain,group_or_knockout,3.087,3.031,2.807,3.255,True
+618,Slovenia,Paraguay,group_or_knockout,3.061,3.135,2.91,3.359,True
+291,Austria,Brazil,tournament,3.124,3.214,2.989,3.438,True
+780,Uruguay,Costa Rica,group_or_knockout,3.425,3.701,3.477,3.926,False
+213,Brazil,England,tournament,3.833,3.75,3.526,3.974,True
+556,Spain,Bulgaria,group_or_knockout,4.007,3.918,3.693,4.142,True
+934,Qatar,Netherlands,group_or_knockout,3.167,3.083,2.859,3.307,True
+673,Japan,Croatia,group_or_knockout,3.377,3.453,3.228,3.677,True
+318,Chile,Austria,tournament,3.86,4.066,3.842,4.291,True
+58,Switzerland,Yugoslavia,tournament,3.549,3.448,3.224,3.673,True
+792,Spain,Chile,group_or_knockout,3.646,3.836,3.612,4.061,True
+536,Italy,Cameroon,group_or_knockout,3.705,3.65,3.425,3.874,True
+273,France,Italy,tournament,3.394,3.475,3.251,3.7,True
+16,Argentina,United States,tournament,3.653,3.675,3.45,3.899,True
+433,Sweden,Scotland,group_or_knockout,3.592,3.725,3.5,3.949,True
+504,Saudi Arabia,Sweden,group_or_knockout,3.27,3.535,3.311,3.76,False
+829,Brazil,Colombia,group_or_knockout,4.181,4.086,3.862,4.311,True
+622,Ecuador,Croatia,group_or_knockout,3.418,3.314,3.089,3.538,True
+138,Brazil,Mexico,tournament,3.879,3.713,3.489,3.938,True
+703,Brazil,France,group_or_knockout,3.749,3.976,3.752,4.201,False
+288,France,Hungary,tournament,3.731,3.618,3.394,3.842,True
+452,Germany,Netherlands,group_or_knockout,4.066,3.964,3.74,4.189,True
+529,Serbia,Iran,group_or_knockout,3.303,3.198,2.974,3.423,True
+301,Germany,Netherlands,tournament,4.245,4.019,3.795,4.244,False
+753,Chile,Spain,group_or_knockout,3.895,4.122,3.897,4.346,False
+623,Mexico,Italy,group_or_knockout,3.644,3.58,3.355,3.804,True
+196,North Korea,Portugal,tournament,3.16,3.344,3.12,3.569,True
+35,Italy,Czechoslovakia,tournament,3.297,3.288,3.064,3.513,True
+287,Argentina,Italy,tournament,3.779,3.872,3.647,4.096,True
+315,England,France,tournament,3.773,3.514,3.29,3.738,False
+548,Romania,England,group_or_knockout,3.22,3.274,3.05,3.498,True
+334,Poland,Peru,tournament,3.608,3.664,3.44,3.889,True
+183,England,Mexico,tournament,3.461,3.456,3.231,3.68,True
+50,Brazil,Italy,tournament,3.545,3.626,3.401,3.85,True
+519,Cameroon,Austria,group_or_knockout,3.385,3.305,3.081,3.53,True
+103,Austria,Brazil,tournament,3.119,3.213,2.989,3.437,True
+688,Japan,Brazil,group_or_knockout,3.723,3.531,3.307,3.756,True
+652,Serbia,Netherlands,group_or_knockout,3.093,3.183,2.959,3.408,True
+42,Italy,Norway,tournament,3.335,3.279,3.054,3.503,True
+554,Nigeria,Paraguay,group_or_knockout,3.542,3.378,3.153,3.602,True
+367,Algeria,Northern Ireland,group_or_knockout,3.576,3.701,3.476,3.925,True
+535,Chile,Austria,group_or_knockout,3.744,3.954,3.73,4.178,True
+276,Brazil,Sweden,tournament,3.857,3.882,3.658,4.107,True
+676,Togo,Switzerland,group_or_knockout,3.107,3.055,2.83,3.279,True
+833,Brazil,Germany,group_or_knockout,3.865,4.172,3.947,4.396,False
+304,Austria,Germany,tournament,3.453,3.372,3.148,3.596,True
+114,France,Yugoslavia,tournament,3.266,3.556,3.331,3.78,False
+750,Denmark,Japan,group_or_knockout,3.482,3.782,3.558,4.006,False
+909,Germany,Japan,group_or_knockout,4.101,4.254,4.029,4.478,True
+438,Cameroon,Russia,group_or_knockout,3.072,3.348,3.124,3.572,False
+492,Germany,South Korea,group_or_knockout,4.246,4.128,3.904,4.353,True
+527,Argentina,Japan,group_or_knockout,4.206,3.915,3.69,4.139,False
+142,England,Hungary,tournament,3.169,3.312,3.087,3.536,True
+707,Germany,Portugal,group_or_knockout,4.067,4.13,3.906,4.355,True
+549,Brazil,Norway,group_or_knockout,3.855,3.879,3.655,4.104,True
+610,South Korea,United States,group_or_knockout,3.216,3.191,2.966,3.415,True
+962,France,Morocco,group_or_knockout,3.683,3.629,3.405,3.854,True
+649,Trinidad and Tobago,Sweden,group_or_knockout,2.77,2.679,2.454,2.903,True

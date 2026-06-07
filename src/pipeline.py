@@ -20,6 +20,7 @@ PIPELINE_STEPS = [
     PipelineStep("text_dimensionality", "text_dimensionality", "reduce real-source text features"),
     PipelineStep("data_quality", "data_quality", "profile datasets and schema coverage"),
     PipelineStep("model_registry", "model_registry", "run model catalog and benchmark comparison"),
+    PipelineStep("algorithm_strategy", "algorithm_strategy", "write algorithm manifest and upgrade map"),
     PipelineStep("train_match_model", "train_match_model", "train match outcome model"),
     PipelineStep("train_roi_model", "train_roi_model", "train sponsor ROI model"),
     PipelineStep("explainability", "explainability", "generate SHAP-style ROI driver explanations"),
@@ -32,6 +33,7 @@ PIPELINE_STEPS = [
     PipelineStep("generative_report", "generative_report", "write commercial insight brief"),
     PipelineStep("report_generator", "report_generator", "write project report artifacts"),
     PipelineStep("build_dashboard", "build_plotly_dashboard", "build static Plotly dashboard"),
+    PipelineStep("platform_health", "platform_health", "verify dashboard, report, model, and data artifacts"),
 ]
 
 

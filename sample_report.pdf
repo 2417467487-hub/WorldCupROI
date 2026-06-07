@@ -12,7 +12,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 5 0 obj
-<< /Length 1010 >>
+<< /Length 1005 >>
 stream
 BT
 /F1 14 Tf
@@ -30,16 +30,16 @@ BT
 (Sponsors: 10) Tj
 0 -22 Td
 /F1 11 Tf
-(Average predicted ROI: 3.644x) Tj
+(Average predicted ROI: 3.617x) Tj
 0 -22 Td
 /F1 11 Tf
-(Average commercial momentum: 0.540) Tj
+(Average commercial momentum: 0.531) Tj
 0 -22 Td
 /F1 11 Tf
-(Top opportunity: Russia x Hyundai vs Saudi Arabia) Tj
+(Top opportunity: Croatia x Hisense vs Canada) Tj
 0 -22 Td
 /F1 11 Tf
-(Top predicted ROI: 4.476x) Tj
+(Top predicted ROI: 4.380x) Tj
 0 -22 Td
 /F1 11 Tf
 () Tj
@@ -51,13 +51,13 @@ BT
 (- A_baseline: delta 0.000, lift 0.00%) Tj
 0 -22 Td
 /F1 11 Tf
-(- B_core_player_absent: delta -0.089, lift -2.30%) Tj
+(- B_core_player_absent: delta -0.080, lift -2.07%) Tj
 0 -22 Td
 /F1 11 Tf
-(- C_sponsor_upgrade: delta -0.238, lift -6.21%) Tj
+(- C_sponsor_upgrade: delta -0.213, lift -5.58%) Tj
 0 -22 Td
 /F1 11 Tf
-(- D_media_cooling: delta -0.207, lift -5.40%) Tj
+(- D_media_cooling: delta -0.210, lift -5.52%) Tj
 0 -22 Td
 /F1 11 Tf
 () Tj
@@ -81,5 +81,5 @@ xref
 0000000311 00000 n 
 trailer << /Size 6 /Root 1 0 R >>
 startxref
-1373
+1368
 %%EOF

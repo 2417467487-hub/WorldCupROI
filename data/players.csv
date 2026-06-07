@@ -38,9 +38,9 @@ Canada,team_defense_unit,61.9,14.1,1.6,0.245,0.909,3.68,0.285,proxy_from_real_te
 Chile,team_attack_unit,72.9,29.8,7.56,0.131,0.772,1.96,0.298,proxy_from_real_team_history
 Chile,team_midfield_unit,68.8,21.6,4.29,0.069,0.745,3.96,-0.009,proxy_from_real_team_history
 Chile,team_defense_unit,68.5,38.6,4.8,0.205,0.908,4.44,0.259,proxy_from_real_team_history
-China PR,team_attack_unit,58.4,13.7,2.62,0.205,0.721,1.13,0.278,proxy_from_real_team_history
-China PR,team_midfield_unit,59.9,6.4,2.38,0.429,0.917,3.24,0.506,proxy_from_real_team_history
-China PR,team_defense_unit,65.6,6.9,2.63,0.211,0.958,4.98,0.243,proxy_from_real_team_history
+China,team_attack_unit,58.4,13.7,2.62,0.205,0.721,1.13,0.278,proxy_from_real_team_history
+China,team_midfield_unit,59.9,6.4,2.38,0.429,0.917,3.24,0.506,proxy_from_real_team_history
+China,team_defense_unit,65.6,6.9,2.63,0.211,0.958,4.98,0.243,proxy_from_real_team_history
 Colombia,team_attack_unit,74.7,43.8,2.78,0.187,0.679,2.07,0.239,proxy_from_real_team_history
 Colombia,team_midfield_unit,74.3,50.9,2.1,0.305,0.865,7.05,0.115,proxy_from_real_team_history
 Colombia,team_defense_unit,72.5,24.4,3.85,0.268,0.904,4.99,0.177,proxy_from_real_team_history

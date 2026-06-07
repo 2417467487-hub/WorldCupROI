@@ -67,7 +67,7 @@ Qatar Airways,Bolivia,sponsor_team,0.575
 Hisense,Canada,sponsor_team,0.646
 Budweiser,El Salvador,sponsor_team,0.582
 McDonald's,New Zealand,sponsor_team,0.556
-Mengniu,China PR,sponsor_team,0.58
+Mengniu,China,sponsor_team,0.58
 Vivo,Angola,sponsor_team,0.538
 Adidas,Iceland,sponsor_team,0.583
 Coca-Cola,Haiti,sponsor_team,0.561
@@ -120,9 +120,9 @@ Canada team_defense_unit,Canada,player_team,1.536
 Chile team_attack_unit,Chile,player_team,5.948
 Chile team_midfield_unit,Chile,player_team,3.636
 Chile team_defense_unit,Chile,player_team,4.545
-China PR team_attack_unit,China PR,player_team,2.102
-China PR team_midfield_unit,China PR,player_team,2.26
-China PR team_defense_unit,China PR,player_team,2.742
+China team_attack_unit,China,player_team,2.102
+China team_midfield_unit,China,player_team,2.26
+China team_defense_unit,China,player_team,2.742
 Colombia team_attack_unit,Colombia,player_team,1.546
 Colombia team_midfield_unit,Colombia,player_team,1.922
 Colombia team_defense_unit,Colombia,player_team,4.022

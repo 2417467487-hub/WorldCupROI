@@ -8,6 +8,6 @@
 
 ## ROI Prediction Intervals
 
-- Coverage rate: 0.8814
-- Average interval width: 0.4708
-- qhat: 0.2354
+- Coverage rate: 0.8505
+- Average interval width: 0.4488
+- qhat: 0.2244

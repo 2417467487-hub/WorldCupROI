@@ -9,6 +9,7 @@ pipeline:
   - text_dimensionality
   - data_quality
   - model_registry
+  - algorithm_strategy
   - train_match_model
   - train_roi_model
   - explainability
@@ -21,6 +22,7 @@ pipeline:
   - generative_report
   - report_generator
   - build_plotly_dashboard
+  - platform_health
 outputs:
   dashboard: dashboard/panel_dashboard.html
   roi_predictions: data/roi_predictions.csv
@@ -30,3 +32,5 @@ outputs:
   conformal: reports/conformal_prediction_report.md
   graph_analysis: reports/graph_analysis_report.md
   generated_report: reports/sponsorship_intelligence_brief.md
+  algorithm_manifest: reports/algorithm_manifest.json
+  platform_health: reports/platform_health.json

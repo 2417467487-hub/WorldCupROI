@@ -1,0 +1,198 @@
+{
+  "random_seed": 42,
+  "test_size": 0.22,
+  "layers": [
+    {
+      "name": "Match Outcome Layer",
+      "role": "Estimate win/draw/loss probability as one input to sponsorship value.",
+      "inputs": [
+        "elo_diff",
+        "market_value_diff_m",
+        "coach_exp_diff",
+        "core_rating_diff",
+        "recent_goal_diff_delta",
+        "host_advantage_a",
+        "stadium_capacity_k",
+        "temperature_c",
+        "humidity",
+        "event_attention_m",
+        "media_reposts_k",
+        "engagement_rate",
+        "news_sentiment_score",
+        "time_decay_attention",
+        "a_core_player_rating",
+        "a_core_market_value_m",
+        "a_player_followers_m",
+        "a_avg_injury_risk",
+        "a_avg_availability_score",
+        "availability_diff",
+        "injury_risk_diff"
+      ],
+      "outputs": [
+        "match probability",
+        "feature importance",
+        "conformal prediction set"
+      ],
+      "current_method": "CentroidOutcomeModel fallback with deterministic split",
+      "upgrade_path": [
+        "calibrated logistic regression",
+        "LightGBM multiclass",
+        "XGBoost multi:softprob"
+      ]
+    },
+    {
+      "name": "Sponsor ROI Layer",
+      "role": "Predict commercial return from sponsor, attention, team, player, and context signals.",
+      "inputs": [
+        "fan_score",
+        "a_sponsor_power_index",
+        "a_sponsor_spend_m",
+        "a_ad_exposure_m",
+        "a_brand_heat_index",
+        "a_paid_media_share",
+        "a_brand_fit",
+        "a_activation_quality",
+        "a_historical_sports_presence",
+        "team_a_strength",
+        "event_attention_m",
+        "media_reposts_k",
+        "engagement_rate",
+        "fan_growth_7d_pct",
+        "news_sentiment_score",
+        "text_signal_score",
+        "time_decay_attention",
+        "a_player_followers_m",
+        "a_player_fan_growth_30d_pct",
+        "a_player_sentiment_score",
+        "a_core_market_value_m",
+        "a_core_player_rating",
+        "a_avg_injury_risk",
+        "a_avg_availability_score",
+        "elo_diff",
+        "host_advantage_a",
+        "media_exposure_index",
+        "commercial_momentum_score",
+        "injury_risk_score",
+        "sponsor_team_fit_score",
+        "weather_impact_score",
+        "stage_premium_score"
+      ],
+      "outputs": [
+        "predicted ROI",
+        "ROI lift",
+        "ROI driver ranking",
+        "prediction interval"
+      ],
+      "current_method": "RidgeROIModel fallback with standardized features",
+      "upgrade_path": [
+        "ElasticNet",
+        "LightGBMRegressor",
+        "XGBoostRegressor",
+        "stacked tabular ensemble"
+      ]
+    },
+    {
+      "name": "Risk And Recommendation Layer",
+      "role": "Convert point forecasts into risk-aware scenario recommendations.",
+      "inputs": [
+        "predicted ROI",
+        "scenario deltas",
+        "conformal intervals",
+        "Monte Carlo samples"
+      ],
+      "outputs": [
+        "negative ROI probability",
+        "scenario ranking",
+        "lift-risk recommendation"
+      ],
+      "current_method": "bootstrap, Monte Carlo perturbation, conformal intervals",
+      "upgrade_path": [
+        "ensemble variance",
+        "Bayesian optimization",
+        "portfolio allocation policy"
+      ]
+    },
+    {
+      "name": "Relationship Intelligence Layer",
+      "role": "Measure sponsor-team-player-match network influence.",
+      "inputs": [
+        "sponsor edges",
+        "team edges",
+        "player edges",
+        "match context"
+      ],
+      "outputs": [
+        "influence score",
+        "centrality table",
+        "graph explanation"
+      ],
+      "current_method": "weighted heterogeneous graph centrality",
+      "upgrade_path": [
+        "GraphSAGE",
+        "heterogeneous GNN",
+        "temporal graph model"
+      ]
+    }
+  ],
+  "feature_groups": {
+    "team_strength": [
+      "elo_diff",
+      "market_value_diff_m",
+      "recent_goal_diff_delta",
+      "team_a_strength"
+    ],
+    "player_influence": [
+      "core_rating_diff",
+      "a_core_player_rating",
+      "a_core_market_value_m",
+      "a_player_followers_m",
+      "a_player_fan_growth_30d_pct",
+      "a_player_sentiment_score"
+    ],
+    "injury_availability": [
+      "a_avg_injury_risk",
+      "a_avg_availability_score",
+      "availability_diff",
+      "injury_risk_diff"
+    ],
+    "coach_context": [
+      "coach_exp_diff"
+    ],
+    "venue_weather": [
+      "host_advantage_a",
+      "stadium_capacity_k",
+      "temperature_c",
+      "humidity"
+    ],
+    "media_attention": [
+      "event_attention_m",
+      "media_reposts_k",
+      "engagement_rate",
+      "fan_growth_7d_pct",
+      "time_decay_attention",
+      "fan_score"
+    ],
+    "text_sentiment": [
+      "news_sentiment_score",
+      "text_signal_score"
+    ],
+    "sponsor_activation": [
+      "a_sponsor_power_index",
+      "a_sponsor_spend_m",
+      "a_ad_exposure_m",
+      "a_brand_heat_index",
+      "a_paid_media_share",
+      "a_brand_fit",
+      "a_activation_quality",
+      "a_historical_sports_presence"
+    ],
+    "business_intelligence_indices": [
+      "media_exposure_index",
+      "commercial_momentum_score",
+      "injury_risk_score",
+      "sponsor_team_fit_score",
+      "weather_impact_score",
+      "stage_premium_score"
+    ]
+  }
+}
