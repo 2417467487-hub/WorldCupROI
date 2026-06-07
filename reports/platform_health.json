@@ -41,14 +41,14 @@
       "artifact": "static_dashboard",
       "path": "dashboard\\panel_dashboard.html",
       "exists": true,
-      "size_kb": 705.58,
+      "size_kb": 929.39,
       "rows": null
     },
     {
       "artifact": "streamlit_app",
       "path": "dashboard\\app.py",
       "exists": true,
-      "size_kb": 19.86,
+      "size_kb": 19.85,
       "rows": null
     },
     {
@@ -62,7 +62,7 @@
       "artifact": "demo_video",
       "path": "assets\\videos\\worldcuproi_demo.mp4",
       "exists": true,
-      "size_kb": 1648.9,
+      "size_kb": 598.49,
       "rows": null
     },
     {

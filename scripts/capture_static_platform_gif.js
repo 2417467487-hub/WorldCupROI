@@ -34,6 +34,12 @@ async function main() {
   const frames = [];
   for (const [index, tab] of tabs.entries()) {
     await page.getByRole("button", { name: tab }).click();
+    await page.waitForFunction(
+      () => document.querySelectorAll(".js-plotly-plot").length >= 2,
+      null,
+      { timeout: 20000 }
+    );
+    await page.evaluate(() => window.scrollTo(0, 240));
     await page.waitForTimeout(900);
     const framePath = path.join(FRAME_DIR, `${String(index + 1).padStart(2, "0")}_${tab.toLowerCase()}.png`);
     await page.screenshot({ path: framePath, fullPage: false });
