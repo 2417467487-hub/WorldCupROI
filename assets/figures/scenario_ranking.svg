@@ -1,0 +1,17 @@
+<svg width="1480" height="780" viewBox="0 0 1480 780" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1480" height="780" fill="#ffffff"/>
+  <line x1="72" y1="136" x2="1408" y2="136" stroke="#d1d5db" stroke-width="1"/>
+  <style>
+    .title { font: 700 42px Arial, Helvetica, sans-serif; fill: #111827; }
+    .subtitle { font: 400 20px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .h { font: 700 23px Arial, Helvetica, sans-serif; fill: #111827; }
+    .label { font: 600 17px Arial, Helvetica, sans-serif; fill: #111827; }
+    .small { font: 400 15px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .tiny { font: 400 12px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .white { fill: #ffffff; }
+  </style>
+  
+  <text x="76" y="82" class="title">Scenario ROI Lift</text>
+  <text x="78" y="122" class="subtitle">Counterfactual sponsor strategies ranked by average ROI movement</text>
+<rect x="84" y="165" width="1320" height="566" rx="22" fill="#ffffff" stroke="#d1d5db"/><line x1="720" y1="210" x2="720" y2="660" stroke="#111827" stroke-width="2"/><text x="150" y="255" class="label">player risk defense</text><rect x="535.9" y="230" width="184.1" height="34" rx="17" fill="#D55E00" opacity=".94"/><text x="1260" y="255" text-anchor="end" class="label">-0.080</text><text x="150" y="337" class="label">conservative efficiency</text><rect x="715.4" y="312" width="4.6" height="34" rx="17" fill="#D55E00" opacity=".94"/><text x="1260" y="337" text-anchor="end" class="label">-0.002</text><text x="150" y="419" class="label">balanced activation</text><rect x="720.0" y="394" width="96.6" height="34" rx="17" fill="#009E73" opacity=".94"/><text x="1260" y="419" text-anchor="end" class="label">+0.042</text><text x="150" y="501" class="label">aggressive media surge</text><rect x="720.0" y="476" width="372.7" height="34" rx="17" fill="#009E73" opacity=".94"/><text x="1260" y="501" text-anchor="end" class="label">+0.162</text><text x="150" y="583" class="label">knockout takeover</text><rect x="720.0" y="558" width="520.0" height="34" rx="17" fill="#009E73" opacity=".94"/><text x="1260" y="583" text-anchor="end" class="label">+0.226</text><text x="150" y="690" class="small">Reading: negative lift scenarios expose fragile sponsor conditions, especially player absence or media cooling.</text>
+</svg>

@@ -8,8 +8,10 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSET_DIR = ROOT / "docs" / "assets"
+ASSET_DIR = ROOT / "assets" / "figures"
+LEGACY_ASSET_DIR = ROOT / "docs" / "assets"
 ASSET_DIR.mkdir(parents=True, exist_ok=True)
+LEGACY_ASSET_DIR.mkdir(parents=True, exist_ok=True)
 
 INK = "#111827"
 MUTED = "#4b5563"
@@ -25,8 +27,7 @@ RED = "#D55E00"
 
 
 def svg(name: str, body: str, width: int = 1600, height: int = 940) -> None:
-    (ASSET_DIR / name).write_text(
-        f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
+    content = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
   <rect width="{width}" height="{height}" fill="{PAPER}"/>
   <line x1="72" y1="136" x2="{width-72}" y2="136" stroke="{GRID}" stroke-width="1"/>
   <style>
@@ -39,9 +40,78 @@ def svg(name: str, body: str, width: int = 1600, height: int = 940) -> None:
     .white {{ fill: #ffffff; }}
   </style>
   {body}
-</svg>""",
-        encoding="utf-8",
-    )
+</svg>"""
+    (ASSET_DIR / name).write_text(content, encoding="utf-8")
+    (LEGACY_ASSET_DIR / name).write_text(content, encoding="utf-8")
+
+
+FIGURE_NOTES = {
+    "roi_feature_importance.svg": (
+        "Figure ranks the strongest drivers of predicted sponsor ROI.",
+        "It explains why the model produces high or low ROI forecasts instead of leaving the dashboard as a black box.",
+        "Use the top drivers to decide whether to improve brand fit, media exposure, or sponsor activation before increasing spend.",
+    ),
+    "scenario_ranking.svg": (
+        "Figure compares counterfactual sponsor strategy ROI lift.",
+        "It shows the marginal effect of sponsor actions before campaign money is committed.",
+        "Prioritize positive-lift strategies unless the risk visuals show a weaker lift-risk tradeoff.",
+    ),
+    "roi_uncertainty_intervals.svg": (
+        "Figure shows expected ROI with prediction intervals.",
+        "Intervals reveal forecast reliability, not only point estimates.",
+        "Use wider intervals as a trigger for conservative budgets, staged spend, or performance-based contracts.",
+    ),
+    "text_embedding_map.svg": (
+        "Figure projects real-source text into a sponsor-attention map.",
+        "It shows whether media narratives cluster around similar attention signals.",
+        "Use text clusters to guide campaign messaging and monitor narrative drift.",
+    ),
+    "gnn_relationship_explainer.svg": (
+        "Figure explains the team-player-sponsor-match graph structure.",
+        "Graph structure makes influence visible beyond flat tables.",
+        "Use graph influence to identify sponsors or players with stronger activation leverage.",
+    ),
+    "data_flow.svg": (
+        "Figure maps how raw match, text, context, and commercial proxy data enter the feature store.",
+        "It documents the data boundary so users understand which signals are real-source and which are proxy.",
+        "Use the flow to plan future replacement of proxy commercial variables with licensed data.",
+    ),
+    "architecture.svg": (
+        "Figure shows the full platform architecture from data sources to decisions.",
+        "It helps reviewers understand how modeling, uncertainty, graph intelligence, and dashboard outputs connect.",
+        "Use it as the project landing explanation for technical and business audiences.",
+    ),
+    "model_pipeline.svg": (
+        "Figure shows the modeling pipeline and reliability layers.",
+        "It separates predictive models from interpretability and risk controls.",
+        "Use it to justify why the platform is more than a match predictor.",
+    ),
+    "decision_workflow.svg": (
+        "Figure summarizes the Discover -> Explain -> Predict -> Simulate -> Recommend workflow.",
+        "It keeps the product narrative focused on business decisions.",
+        "Use it to onboard users before they open the dashboard.",
+    ),
+}
+
+
+def write_figure_notes() -> None:
+    lines = ["# README Figure Notes", ""]
+    for name, (what, why, takeaway) in FIGURE_NOTES.items():
+        lines.extend(
+            [
+                f"## {name}",
+                "",
+                f"![{name}](assets/figures/{name})",
+                "",
+                f"**What:** {what}",
+                "",
+                f"**Why:** {why}",
+                "",
+                f"**Business Takeaway:** {takeaway}",
+                "",
+            ]
+        )
+    (ROOT / "assets" / "figures" / "figure_notes.md").write_text("\n".join(lines), encoding="utf-8")
 
 
 def title(text: str, subtitle: str) -> str:
@@ -299,7 +369,8 @@ def main() -> None:
     text_embedding_map()
     gnn_explainer()
     dashboard_gallery()
-    print(f"Generated model visuals in {ASSET_DIR}")
+    write_figure_notes()
+    print(f"Generated model visuals in {ASSET_DIR} and {LEGACY_ASSET_DIR}")
 
 
 if __name__ == "__main__":

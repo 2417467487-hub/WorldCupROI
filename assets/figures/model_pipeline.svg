@@ -1,0 +1,29 @@
+<svg width="1500" height="900" viewBox="0 0 1500 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1500" height="900" fill="#ffffff"/>
+  <line x1="72" y1="136" x2="1428" y2="136" stroke="#d1d5db" stroke-width="1"/>
+  <style>
+    .title { font: 700 42px Arial, Helvetica, sans-serif; fill: #111827; }
+    .subtitle { font: 400 20px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .h { font: 700 23px Arial, Helvetica, sans-serif; fill: #111827; }
+    .label { font: 600 17px Arial, Helvetica, sans-serif; fill: #111827; }
+    .small { font: 400 15px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .tiny { font: 400 12px Arial, Helvetica, sans-serif; fill: #4b5563; }
+    .white { fill: #ffffff; }
+  </style>
+  
+  <text x="76" y="82" class="title">Model Architecture</text>
+  <text x="78" y="122" class="subtitle">Separate predictive tasks, shared features, and risk-aware business outputs</text>
+<rect x="72" y="192" width="252" height="500" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="72" y="192" width="252" height="76" rx="22" fill="#009E73"/><text x="198" y="240" text-anchor="middle" class="h white">Shared Features</text><circle cx="108" cy="305" r="7" fill="#009E73"/><text x="130" y="310" class="label">team strength</text><circle cx="108" cy="363" r="7" fill="#009E73"/><text x="130" y="368" class="label">fan score</text><circle cx="108" cy="421" r="7" fill="#009E73"/><text x="130" y="426" class="label">media heat</text><circle cx="108" cy="479" r="7" fill="#009E73"/><text x="130" y="484" class="label">weather</text><circle cx="108" cy="537" r="7" fill="#009E73"/><text x="130" y="542" class="label">stage premium</text>
+  <line x1="334" y1="440" x2="398" y2="440" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M398,440 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(0.0 398 440)"/>
+<rect x="364" y="192" width="252" height="500" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="364" y="192" width="252" height="76" rx="22" fill="#0072B2"/><text x="490" y="240" text-anchor="middle" class="h white">Predictive Models</text><circle cx="400" cy="305" r="7" fill="#0072B2"/><text x="422" y="310" class="label">match classifier</text><circle cx="400" cy="363" r="7" fill="#0072B2"/><text x="422" y="368" class="label">ROI regressor</text><circle cx="400" cy="421" r="7" fill="#0072B2"/><text x="422" y="426" class="label">model registry</text><circle cx="400" cy="479" r="7" fill="#0072B2"/><text x="422" y="484" class="label">scenario engine</text>
+  <line x1="626" y1="440" x2="690" y2="440" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M690,440 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(0.0 690 440)"/>
+<rect x="656" y="192" width="252" height="500" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="656" y="192" width="252" height="76" rx="22" fill="#E69F00"/><text x="782" y="240" text-anchor="middle" class="h white">Interpretability</text><circle cx="692" cy="305" r="7" fill="#E69F00"/><text x="714" y="310" class="label">SHAP-style drivers</text><circle cx="692" cy="363" r="7" fill="#E69F00"/><text x="714" y="368" class="label">feature importance</text><circle cx="692" cy="421" r="7" fill="#E69F00"/><text x="714" y="426" class="label">GNN influence</text>
+  <line x1="918" y1="440" x2="982" y2="440" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M982,440 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(0.0 982 440)"/>
+<rect x="948" y="192" width="252" height="500" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="948" y="192" width="252" height="76" rx="22" fill="#7B61FF"/><text x="1074" y="240" text-anchor="middle" class="h white">Reliability</text><circle cx="984" cy="305" r="7" fill="#7B61FF"/><text x="1006" y="310" class="label">conformal sets</text><circle cx="984" cy="363" r="7" fill="#7B61FF"/><text x="1006" y="368" class="label">ROI intervals</text><circle cx="984" cy="421" r="7" fill="#7B61FF"/><text x="1006" y="426" class="label">Monte Carlo risk</text>
+  <line x1="1210" y1="440" x2="1274" y2="440" stroke="#7c8da3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1274,440 l-14,-8 l0,16 z" fill="#7c8da3" transform="rotate(0.0 1274 440)"/>
+<rect x="1240" y="192" width="252" height="500" rx="22" fill="#ffffff" stroke="#d1d5db"/><rect x="1240" y="192" width="252" height="76" rx="22" fill="#D55E00"/><text x="1366" y="240" text-anchor="middle" class="h white">Actions</text><circle cx="1276" cy="305" r="7" fill="#D55E00"/><text x="1298" y="310" class="label">ROI ranking</text><circle cx="1276" cy="363" r="7" fill="#D55E00"/><text x="1298" y="368" class="label">scenario lift</text><circle cx="1276" cy="421" r="7" fill="#D55E00"/><text x="1298" y="426" class="label">risk warning</text><rect x="132" y="780" width="1180" height="70" rx="16" fill="#eef2ff" stroke="#d1d5db"/><text x="722" y="823" text-anchor="middle" class="label">Interpretation: the platform is not one black-box model; it is a decision chain that turns evidence into strategy.</text>
+</svg>

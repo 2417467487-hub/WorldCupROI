@@ -30,15 +30,29 @@ make assets     # README images, model visuals, demo media
 
 If `make` is not available on Windows, run `python scripts/run_pipeline.py --demo` and then `python -m streamlit run dashboard/app.py`.
 
+README figure captions follow a consistent `What / Why / Business Takeaway` pattern. The generated figure-note index is available at [assets/figures/figure_notes.md](assets/figures/figure_notes.md).
+
 ![WorldCupROI method overview](assets/images/readme_hero.png)
 
 The opening figure is generated with Python from `scripts/generate_readme_assets.py`. It summarizes the project as a machine-learning method overview: multi-source evidence, feature construction, multi-task prediction, explainability, graph intelligence, and ROI decision support.
+
+**What it shows:** The end-to-end analytical workflow from data sources to sponsor ROI decisions.
+
+**Why it matters:** Reviewers can understand the project scope before reading implementation details.
+
+**Business takeaway:** The platform is built as a decision system, not only a model demo.
 
 ## Interactive Platform Preview
 
 ![WorldCupROI static decision dashboard preview](assets/gifs/static_platform_dashboard.gif)
 
 The platform is not only a modeling pipeline. It includes an interactive sponsorship intelligence dashboard for KPI discovery, sponsor ROI ranking, FanScore analysis, scenario simulation, uncertainty review, and graph-based sponsor influence exploration.
+
+**What it shows:** The actual static dashboard captured from `dashboard/panel_dashboard.html`.
+
+**Why it matters:** The README preview now matches the real platform users open locally or from GitHub.
+
+**Business takeaway:** Business users can follow the Discover -> Explain -> Predict -> Simulate -> Recommend path without reading code first.
 
 | Experience | Open |
 |---|---|
@@ -111,9 +125,25 @@ Results come first because sponsorship teams need to see the business signal bef
 | Tabular modeling | LightGBM | Accuracy, Log loss, feature gain | Optional package |
 | Categorical modeling | CatBoost | Accuracy, Log loss, categorical splits | Optional package |
 
+### Cross-Validation Generalization
+
+| Task | Model | Metric | Folds | Mean | Std | Min | Max |
+|---|---|---|---:|---:|---:|---:|---:|
+| match_outcome | CentroidOutcomeModel | accuracy | 5 | 0.5436 | 0.0389 | 0.5026 | 0.6010 |
+| match_outcome | CentroidOutcomeModel | log_loss | 5 | 0.9861 | 0.0230 | 0.9584 | 1.0150 |
+| sponsor_roi | RidgeROIModel | mae | 5 | 0.1162 | 0.0070 | 0.1070 | 0.1248 |
+| sponsor_roi | RidgeROIModel | r2 | 5 | 0.8600 | 0.0210 | 0.8305 | 0.8882 |
+| sponsor_roi | RidgeROIModel | rmse | 5 | 0.1425 | 0.0073 | 0.1315 | 0.1492 |
+
+**What it shows:** Five-fold cross-validation compares holdout results with fold-level generalization behavior.
+
+**Why it matters:** A single split can look stable by accident; fold means and variance show whether the model survives different validation samples.
+
+**Business takeaway:** Use cross-validation variance as a deployment gate before presenting ROI numbers as sponsor planning evidence.
+
 ### ROI Feature Importance / SHAP
 
-![ROI feature importance](docs/assets/roi_feature_importance.svg)
+![ROI feature importance](assets/figures/roi_feature_importance.svg)
 
 **What it shows:** Figure 1 ranks the strongest drivers of predicted sponsor ROI, including brand heat, team strength, sponsor spend, ad exposure, sponsor-team fit, and commercial momentum.
 
@@ -139,7 +169,7 @@ Results come first because sponsorship teams need to see the business signal bef
 
 ### Scenario ROI Lift
 
-![Scenario ROI lift](docs/assets/scenario_ranking.svg)
+![Scenario ROI lift](assets/figures/scenario_ranking.svg)
 
 | Scenario | Average predicted ROI | Average ROI delta | Average ROI lift |
 |---|---:|---:|---:|
@@ -156,7 +186,7 @@ Results come first because sponsorship teams need to see the business signal bef
 
 ### Prediction Interval / Conformal Prediction
 
-![Prediction interval](docs/assets/roi_uncertainty_intervals.svg)
+![Prediction interval](assets/figures/roi_uncertainty_intervals.svg)
 
 | Prediction target | Coverage rate | Average interval or set size | qhat |
 |---|---:|---:|---:|
@@ -168,6 +198,26 @@ Results come first because sponsorship teams need to see the business signal bef
 **Why it matters:** Decision makers need ranges and reliability estimates, not only point predictions.
 
 **Business takeaway:** Sponsors can use interval width and coverage as risk controls before approving higher spend.
+
+### Uncertainty Heatmap
+
+![Uncertainty heatmap](assets/figures/uncertainty_heatmap.png)
+
+**What it shows:** Average ROI interval width by match stage and risk level.
+
+**Why it matters:** Wider intervals identify stage-risk combinations where the model is less certain.
+
+**Business takeaway:** Use high-uncertainty cells for conservative budget controls, staged spend, or additional analyst review.
+
+### Risk vs Marginal Benefit
+
+![Risk marginal benefit](assets/figures/risk_marginal_benefit.png)
+
+**What it shows:** Scenario ROI lift against scenario risk score.
+
+**Why it matters:** The highest ROI lift is not always the best decision if the risk score rises faster than the marginal benefit.
+
+**Business takeaway:** Favor scenarios with positive lift and moderate risk; aggressive strategies need a clear attention or stage-premium reason.
 
 ### Monte Carlo Risk Distribution
 
@@ -187,7 +237,7 @@ Results come first because sponsorship teams need to see the business signal bef
 
 ### Text Signal Projection
 
-![Text signal projection](docs/assets/text_embedding_map.svg)
+![Text signal projection](assets/figures/text_embedding_map.svg)
 
 **What it shows:** Figure 4 projects real-source text signals from GDELT and Wikimedia into reduced dimensions for modeling.
 
@@ -197,7 +247,7 @@ Results come first because sponsorship teams need to see the business signal bef
 
 ### Sponsor-Team-Player Network
 
-![GNN relationship explanation](docs/assets/gnn_relationship_explainer.svg)
+![GNN relationship explanation](assets/figures/gnn_relationship_explainer.svg)
 
 | Network signal | Current value | Decision use |
 |---|---:|---|
@@ -239,7 +289,7 @@ The goal is to connect predictions to business decisions: what to sponsor, when 
 
 ## Key Innovations
 
-![Data flow](docs/assets/data_flow.svg)
+![Data flow](assets/figures/data_flow.svg)
 
 | Innovation | Implementation |
 |---|---|
@@ -331,7 +381,7 @@ reports/sponsor_roi_model_card.md
 
 This makes the repository easier to review as a research project: model target, feature count, metrics, artifact path, random seed, and upgrade notes are tracked as explicit artifacts.
 
-![Architecture diagram](docs/assets/architecture.svg)
+![Architecture diagram](assets/figures/architecture.svg)
 
 **What it shows:** Figure 5 summarizes the platform architecture from data sources to features, models, uncertainty, report generation, and dashboard delivery.
 
@@ -339,7 +389,7 @@ This makes the repository easier to review as a research project: model target, 
 
 **Business takeaway:** Sponsors can trace a recommendation back to data, features, models, and risk logic.
 
-![Model architecture](docs/assets/model_pipeline.svg)
+![Model architecture](assets/figures/model_pipeline.svg)
 
 **What it shows:** Figure 6 shows the modeling pipeline for match prediction, ROI prediction, uncertainty, and scenario analysis.
 
@@ -347,7 +397,7 @@ This makes the repository easier to review as a research project: model target, 
 
 **Business takeaway:** Match probability becomes one commercial input rather than the final product.
 
-![Decision flow](docs/assets/decision_workflow.svg)
+![Decision flow](assets/figures/decision_workflow.svg)
 
 ```mermaid
 flowchart LR

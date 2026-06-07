@@ -5,4 +5,4 @@ coach_context,0.350086,coach_exp_diff,1
 venue_weather,0.281839,host_advantage_a,4
 media_attention,0.264938,media_reposts_k,4
 injury_availability,0.250007,availability_diff,4
-text_sentiment,0.063953,news_sentiment_score,1
+text_sentiment,0.064169,news_sentiment_score,1

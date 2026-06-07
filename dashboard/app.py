@@ -28,6 +28,74 @@ WORLD_CUP_COLORS = {
 }
 
 
+I18N = {
+    "English": {
+        "title": "Sports Sponsorship Intelligence Platform",
+        "caption": "Discover -> Explain -> Predict -> Simulate -> Recommend: sponsorship ROI, fan attention, uncertainty, and business decision support.",
+        "guide_title": "How to use this dashboard",
+        "guide_body": "Start with Discover to choose a market context, use Explain/Predict to inspect evidence, then use Simulate/Recommend to choose a sponsor strategy.",
+        "filters": "Filters",
+        "language": "Language",
+        "strategy_templates": "Strategy templates",
+        "conservative": "Conservative",
+        "balanced": "Balanced",
+        "aggressive": "Aggressive",
+        "all": "All",
+        "team": "Team",
+        "sponsor": "Sponsor",
+        "player_proxy": "Player / team proxy",
+        "stage": "Match stage",
+        "year": "Year / round timeline",
+        "avg_roi": "Avg Sponsor ROI",
+        "avg_fanscore": "Avg FanScore",
+        "momentum": "Commercial Momentum",
+        "roi_spend": "ROI / $M Spend",
+        "discover": "Discover",
+        "explain": "Explain",
+        "predict": "Predict",
+        "simulate": "Simulate",
+        "recommend": "Recommend",
+        "recommend_title": "Recommend: Scenario Ranking and Sponsor Strategy",
+        "strategy_compare": "Strategy Template Comparison: Lift vs Risk",
+        "template_hint": "Use the template buttons to filter the recommendation table and compare conservative, balanced, and aggressive strategies.",
+    },
+    "中文": {
+        "title": "体育赞助 ROI 智能决策平台",
+        "caption": "发现 -> 解释 -> 预测 -> 模拟 -> 推荐：把粉丝注意力、赞助 ROI、不确定性和商业行动连成闭环。",
+        "guide_title": "使用引导",
+        "guide_body": "先在 Discover 选择球队/赞助商/阶段，再在 Explain 和 Predict 查看证据，最后用 Simulate 和 Recommend 选择赞助策略。",
+        "filters": "筛选器",
+        "language": "语言",
+        "strategy_templates": "策略模板",
+        "conservative": "保守",
+        "balanced": "平衡",
+        "aggressive": "激进",
+        "all": "全部",
+        "team": "球队",
+        "sponsor": "赞助商",
+        "player_proxy": "球员/球队代理",
+        "stage": "比赛阶段",
+        "year": "年份/时间线",
+        "avg_roi": "平均赞助 ROI",
+        "avg_fanscore": "平均 FanScore",
+        "momentum": "商业动量",
+        "roi_spend": "每百万投入 ROI",
+        "discover": "发现",
+        "explain": "解释",
+        "predict": "预测",
+        "simulate": "模拟",
+        "recommend": "推荐",
+        "recommend_title": "推荐：场景排序与赞助策略",
+        "strategy_compare": "策略模板对比：收益提升 vs 风险",
+        "template_hint": "使用策略按钮筛选推荐表，对比保守、平衡、激进三类策略。",
+    },
+}
+
+
+def tr(key: str) -> str:
+    return I18N[st.session_state.get("language", "English")].get(key, key)
+
+
 def polish(fig: go.Figure, height: int = 430) -> go.Figure:
     fig.update_layout(
         height=height,
@@ -124,8 +192,13 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("Sports Sponsorship Intelligence Platform")
-st.caption("Discover -> Explain -> Predict -> Simulate -> Recommend: sponsorship ROI, fan attention, uncertainty, and business decision support.")
+with st.sidebar:
+    st.session_state["language"] = st.selectbox("Language / 语言", ["English", "中文"], index=0)
+
+st.title(tr("title"))
+st.caption(tr("caption"))
+with st.expander(tr("guide_title"), expanded=True):
+    st.write(tr("guide_body"))
 
 teams = sorted(panel_df["team"].unique()) if "team" in panel_df else sorted(roi_df["team_a"].unique())
 sponsors = sorted(panel_df["sponsor"].unique()) if "sponsor" in panel_df else sorted(roi_df["a_sponsor"].unique())
@@ -133,33 +206,42 @@ stages = sorted(panel_df["stage"].unique())
 players = sorted(panel_df["team"].unique())
 
 with st.sidebar:
-    st.header("Filters")
-    selected_team = st.selectbox("Team", ["All"] + teams)
-    selected_sponsor = st.selectbox("Sponsor", ["All"] + sponsors)
-    selected_player_proxy = st.selectbox("Player / team proxy", ["All"] + players)
-    selected_stage = st.multiselect("Match stage", stages, default=stages)
+    st.header(tr("filters"))
+    selected_team = st.selectbox(tr("team"), [tr("all")] + teams)
+    selected_sponsor = st.selectbox(tr("sponsor"), [tr("all")] + sponsors)
+    selected_player_proxy = st.selectbox(tr("player_proxy"), [tr("all")] + players)
+    selected_stage = st.multiselect(tr("stage"), stages, default=stages)
     year_min, year_max = int(panel_df["year"].min()), int(panel_df["year"].max())
-    selected_year = st.slider("Year / round timeline", year_min, year_max, (year_min, year_max), step=4)
+    selected_year = st.slider(tr("year"), year_min, year_max, (year_min, year_max), step=4)
+    st.subheader(tr("strategy_templates"))
+    c_a, c_b, c_c = st.columns(3)
+    if c_a.button(tr("conservative"), use_container_width=True):
+        st.session_state["strategy_template"] = "conservative"
+    if c_b.button(tr("balanced"), use_container_width=True):
+        st.session_state["strategy_template"] = "balanced"
+    if c_c.button(tr("aggressive"), use_container_width=True):
+        st.session_state["strategy_template"] = "aggressive"
+    strategy_template = st.session_state.get("strategy_template", "balanced")
 
 view = panel_df[
     panel_df["stage"].isin(selected_stage)
     & panel_df["year"].between(selected_year[0], selected_year[1])
 ].copy()
-if selected_team != "All":
+if selected_team != tr("all"):
     view = view[view["team"] == selected_team]
-if selected_sponsor != "All":
+if selected_sponsor != tr("all"):
     view = view[view["sponsor"] == selected_sponsor]
-if selected_player_proxy != "All":
+if selected_player_proxy != tr("all"):
     view = view[view["team"] == selected_player_proxy]
 
 k1, k2, k3, k4 = st.columns(4)
-k1.metric("Avg Sponsor ROI", f"{view['predicted_roi'].mean():.2f}x")
-k2.metric("Avg FanScore", f"{view['fan_score_panel'].mean():.2f}")
-k3.metric("Commercial Momentum", f"{view['commercial_momentum'].mean():.2f}")
-k4.metric("ROI / $M Spend", f"{view['roi_per_million_spend'].mean():.2f}")
+k1.metric(tr("avg_roi"), f"{view['predicted_roi'].mean():.2f}x")
+k2.metric(tr("avg_fanscore"), f"{view['fan_score_panel'].mean():.2f}")
+k3.metric(tr("momentum"), f"{view['commercial_momentum'].mean():.2f}")
+k4.metric(tr("roi_spend"), f"{view['roi_per_million_spend'].mean():.2f}")
 
 tab_match, tab_roi, tab_fan, tab_weather, tab_ab = st.tabs(
-    ["Discover", "Explain", "Predict", "Simulate", "Recommend"]
+    [tr("discover"), tr("explain"), tr("predict"), tr("simulate"), tr("recommend")]
 )
 
 with tab_match:
@@ -167,7 +249,7 @@ with tab_match:
     match_view = roi_df.copy()
     if selected_stage:
         match_view = match_view[match_view["stage"].isin(selected_stage)]
-    if selected_team != "All":
+    if selected_team != tr("all"):
         match_view = match_view[(match_view["team_a"] == selected_team) | (match_view["team_b"] == selected_team)]
     match_view = match_view.assign(
         p_team_a_win=(1 / (1 + pow(2.71828, -match_view["elo_diff"] / 260))).clip(0.08, 0.84),
@@ -329,8 +411,29 @@ with tab_weather:
     st.plotly_chart(polish(weather_scatter), use_container_width=True)
 
 with tab_ab:
-    st.subheader("Recommend: Scenario Ranking and Sponsor Strategy")
+    st.subheader(tr("recommend_title"))
+    st.info(tr("template_hint"))
     if scenarios is not None:
+        scenarios_view = scenarios.copy()
+        if "strategy_type" in scenarios_view.columns and strategy_template:
+            scenarios_view = scenarios_view[scenarios_view["strategy_type"].eq(strategy_template)]
+        if "strategy_type" in scenarios.columns:
+            compare = scenarios.groupby("strategy_type", as_index=False).agg(
+                avg_roi_lift=("roi_lift", "mean"),
+                avg_risk=("risk_score", "mean"),
+                avg_scenario_roi=("scenario_roi", "mean"),
+            )
+            compare_fig = px.scatter(
+                compare,
+                x="avg_risk",
+                y="avg_roi_lift",
+                size="avg_scenario_roi",
+                color="strategy_type",
+                color_discrete_map={"conservative": "#2457c5", "balanced": "#0f8b6f", "aggressive": "#f28c28"},
+                title=tr("strategy_compare"),
+            )
+            compare_fig.update_traces(marker=dict(opacity=0.84, line=dict(width=1.3, color="#ffffff")))
+            st.plotly_chart(polish(compare_fig), use_container_width=True)
         scenario_summary = scenarios.groupby("scenario", as_index=False).agg(
             avg_roi_lift=("roi_lift", "mean"),
             avg_scenario_roi=("scenario_roi", "mean"),
@@ -346,7 +449,7 @@ with tab_ab:
         )
         st.plotly_chart(polish(scenario_fig), use_container_width=True)
         st.dataframe(
-            scenarios.sort_values(["scenario_rank", "roi_lift"], ascending=[True, False]).head(80),
+            scenarios_view.sort_values(["scenario_rank", "roi_lift"], ascending=[True, False]).head(80),
             use_container_width=True,
         )
     elif ab is None:

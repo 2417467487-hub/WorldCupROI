@@ -9,9 +9,16 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSET_DIR = ROOT / "docs" / "assets"
+FIGURE_DIR = ROOT / "assets" / "figures"
 IMAGE_DIR = ROOT / "assets" / "images"
 ASSET_DIR.mkdir(parents=True, exist_ok=True)
+FIGURE_DIR.mkdir(parents=True, exist_ok=True)
 IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def write_svg_asset(filename: str, content: str) -> None:
+    (ASSET_DIR / filename).write_text(content, encoding="utf-8")
+    (FIGURE_DIR / filename).write_text(content, encoding="utf-8")
 
 
 def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
@@ -188,7 +195,7 @@ def svg_card(title: str, subtitle: str, body: str, filename: str, accent: str = 
   <circle cx="1034" cy="438" r="56" fill="#2457c5" opacity="0.18"/>
   <circle cx="1148" cy="474" r="42" fill="{accent}" opacity="0.28"/>
 </svg>"""
-    (ASSET_DIR / filename).write_text(content, encoding="utf-8")
+    write_svg_asset(filename, content)
 
 
 def architecture_svg() -> None:
@@ -216,7 +223,7 @@ def architecture_svg() -> None:
       {''.join(lines)}
       {arrows}
     </svg>"""
-    (ASSET_DIR / "architecture.svg").write_text(svg, encoding="utf-8")
+    write_svg_asset("architecture.svg", svg)
 
 
 def dashboard_preview() -> None:
@@ -246,7 +253,48 @@ def dashboard_preview() -> None:
       <circle cx="986" cy="462" r="44" fill="#f28c28" opacity=".75"/>
       <text x="684" y="430" font-family="Segoe UI, Arial" font-size="22" font-weight="700" fill="#0d1726">Sponsor opportunity map</text>
     </svg>"""
-    (ASSET_DIR / "dashboard_preview.svg").write_text(svg, encoding="utf-8")
+    write_svg_asset("dashboard_preview.svg", svg)
+
+
+def decision_workflow_svg() -> None:
+    stages = [
+        ("Discover", "Find audience and sponsor opportunity"),
+        ("Explain", "Expose data quality and model drivers"),
+        ("Predict", "Estimate match and ROI outcomes"),
+        ("Simulate", "Compare strategy and uncertainty"),
+        ("Recommend", "Prioritize business actions"),
+    ]
+    blocks = []
+    arrows = []
+    for idx, (title, subtitle) in enumerate(stages):
+        x = 70 + idx * 238
+        blocks.append(
+            f"""
+      <rect x="{x}" y="250" width="190" height="165" rx="22" fill="#ffffff" stroke="#d7e0ea" stroke-width="2"/>
+      <text x="{x + 24}" y="302" font-family="Segoe UI, Arial" font-size="25" font-weight="700" fill="#0d1726">{title}</text>
+      <text x="{x + 24}" y="346" font-family="Segoe UI, Arial" font-size="15" fill="#627085">{subtitle}</text>
+      <circle cx="{x + 153}" cy="374" r="22" fill="#0f8b6f" opacity=".88"/>
+      <text x="{x + 146}" y="382" font-family="Segoe UI, Arial" font-size="22" font-weight="700" fill="#ffffff">{idx + 1}</text>"""
+        )
+        if idx < len(stages) - 1:
+            ax = x + 202
+            arrows.append(
+                f"""
+      <path d="M {ax} 332 L {ax + 40} 332" stroke="#f28c28" stroke-width="7" stroke-linecap="round"/>
+      <path d="M {ax + 31} 320 L {ax + 48} 332 L {ax + 31} 344" fill="none" stroke="#f28c28" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>"""
+            )
+    svg = f"""<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+      <rect width="1280" height="720" fill="#07140f"/>
+      <rect x="40" y="48" width="1200" height="624" rx="32" fill="#f7fbff"/>
+      <text x="70" y="116" font-family="Segoe UI, Arial" font-size="42" font-weight="700" fill="#0d1726">Decision Workflow</text>
+      <text x="70" y="158" font-family="Segoe UI, Arial" font-size="20" fill="#627085">A reproducible path from data discovery to sponsor ROI recommendation.</text>
+      {''.join(blocks)}
+      {''.join(arrows)}
+      <rect x="70" y="505" width="1140" height="78" rx="20" fill="#e8eef5"/>
+      <text x="104" y="554" font-family="Segoe UI, Arial" font-size="23" font-weight="700" fill="#0d1726">Business loop:</text>
+      <text x="282" y="554" font-family="Segoe UI, Arial" font-size="23" fill="#485568">data boundary -> model evidence -> strategy simulation -> executive action</text>
+    </svg>"""
+    write_svg_asset("decision_workflow.svg", svg)
 
 
 def gif_demo() -> None:
@@ -282,6 +330,7 @@ def gif_demo() -> None:
 
 def main() -> None:
     readme_hero()
+    decision_workflow_svg()
     svg_card(
         "WorldCupROI",
         "Sports sponsorship intelligence for match context, fan attention, and ROI decisions",

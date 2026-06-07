@@ -1,0 +1,32 @@
+name: Streamlit Cloud Deployment
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  streamlit-readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Build demo artifacts
+        run: python src/pipeline.py --demo
+      - name: Smoke test Streamlit app
+        run: |
+          timeout 25s streamlit run dashboard/app.py --server.headless=true --server.port=8501 || code=$?
+          if [ "${code:-0}" != "124" ] && [ "${code:-0}" != "0" ]; then exit "$code"; fi
+      - name: Trigger Streamlit Cloud redeploy
+        env:
+          STREAMLIT_DEPLOY_HOOK_URL: ${{ secrets.STREAMLIT_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -n "$STREAMLIT_DEPLOY_HOOK_URL" ]; then
+            curl -fsSL -X POST "$STREAMLIT_DEPLOY_HOOK_URL"
+          else
+            echo "No STREAMLIT_DEPLOY_HOOK_URL configured; skipping redeploy hook."
+          fi
