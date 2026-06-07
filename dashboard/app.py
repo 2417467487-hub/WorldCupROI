@@ -277,7 +277,7 @@ with st.expander("KPI export / KPI 导出"):
     )
     download_module("KPI", kpi_df, "worldcuproi_kpi")
 
-tabs = st.tabs([tr("discover"), tr("explain"), tr("predict"), tr("simulate"), tr("recommend"), tr("network")])
+tabs = st.tabs([tr("discover"), tr("explain"), tr("predict"), tr("simulate"), tr("recommend")])
 
 with tabs[0]:
     st.subheader("Discover: Match Context and Win / Draw / Loss Probability")
@@ -389,7 +389,7 @@ with tabs[4]:
     else:
         st.info("Run `python src/scenario_engine.py` or `python src/ab_simulation.py` to generate scenario results.")
 
-with tabs[5]:
+    st.divider()
     st.subheader("Network: Sponsor-Team-Player Influence")
     if network_df is not None:
         network_view = network_df.copy()
