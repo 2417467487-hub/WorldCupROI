@@ -156,6 +156,13 @@ def write_data_quality_report(inventory: pd.DataFrame) -> None:
         except Exception:
             continue
     summary = pd.DataFrame(rows).sort_values(["missing_cells", "duplicate_rows"], ascending=False)
+    trust_summary = (
+        summary.groupby(["origin_type", "trust_level"], as_index=False)
+        .agg(datasets=("dataset", "count"), total_rows=("rows", "sum"), missing_cells=("missing_cells", "sum"), duplicate_rows=("duplicate_rows", "sum"))
+        .sort_values(["trust_level", "datasets"], ascending=[True, False])
+        if not summary.empty
+        else pd.DataFrame()
+    )
     lines = [
         "# Data Quality Report",
         "",
@@ -169,6 +176,10 @@ def write_data_quality_report(inventory: pd.DataFrame) -> None:
         "",
         markdown_table(summary, max_rows=40),
         "",
+        "## Data Trust Summary",
+        "",
+        markdown_table(trust_summary, max_rows=20) if not trust_summary.empty else "No trust summary available.",
+        "",
         "## Existing Pipeline Quality Summary",
         "",
         markdown_table(quality, max_rows=40) if not quality.empty else "No `reports/data_quality_summary.csv` was found.",
@@ -179,6 +190,13 @@ def write_data_quality_report(inventory: pd.DataFrame) -> None:
         "- `sponsor_spend_m`: proxy spend; should be replaced by campaign finance data.",
         "- `ad_exposure_m`, `brand_heat_index`, `activation_quality`: modeled commercial assumptions.",
         "- `predicted_roi`: model output; must not be used as a future training label.",
+        "",
+        "## Validation and Governance Risks",
+        "",
+        "- Real historical match data has higher credibility for outcome labels than sponsor conversion variables.",
+        "- Real-source text is useful for attention context, but source freshness and deduplication must be monitored.",
+        "- Proxy/mock commercial variables make the project reproducible, but production use requires licensed campaign, CRM, sales, or social data.",
+        "- Any dashboard decision should display data-origin context when proxy variables drive recommendations.",
     ]
     (DOCS_DIR / "data_quality_report.md").write_text("\n".join(lines), encoding="utf-8")
 
@@ -195,8 +213,18 @@ def write_model_card() -> None:
     roi_metrics = read_text(REPORT_DIR / "roi_model_metrics.md")
     match_features = pd.read_csv(REPORT_DIR / "match_feature_group_importance.csv") if (REPORT_DIR / "match_feature_group_importance.csv").exists() else pd.DataFrame()
     roi_features = pd.read_csv(REPORT_DIR / "roi_feature_group_importance.csv") if (REPORT_DIR / "roi_feature_group_importance.csv").exists() else pd.DataFrame()
+    cv = pd.read_csv(REPORT_DIR / "cross_validation_summary.csv") if (REPORT_DIR / "cross_validation_summary.csv").exists() else pd.DataFrame()
     lines = [
         "# Model Card",
+        "",
+        "## Model Governance Summary",
+        "",
+        "| Area | Current status | Risk control |",
+        "| --- | --- | --- |",
+        "| Data credibility | Historical match outcomes are real-source; commercial ROI labels are proxy/mock | Keep data card visible and replace proxy labels before production decisions |",
+        "| Label construction | `result` from match scores; `sponsor_roi` from engineered commercial proxy | Avoid using model outputs or post-decision artifacts as labels |",
+        "| Training validation | Deterministic holdout plus five-fold cross-validation | Monitor fold variance and add temporal splits before production |",
+        "| Deployment use | Decision support and portfolio demo | Use risk intervals and data-origin labels in business review |",
         "",
         "## Match Outcome Model",
         "",
@@ -210,6 +238,10 @@ def write_model_card() -> None:
         "### Match Feature Groups",
         "",
         markdown_table(match_features) if not match_features.empty else "Feature group summary unavailable.",
+        "",
+        "## Cross-Validation Generalization",
+        "",
+        markdown_table(cv, max_rows=20) if not cv.empty else "Run `python src/model_validation.py` to generate cross-validation diagnostics.",
         "",
         "## Sponsor ROI Model",
         "",
@@ -305,6 +337,12 @@ def write_deployment_docs() -> None:
         "2. Create a Streamlit Cloud app from `dashboard/app.py`.",
         "3. Set Python dependencies from `requirements.txt`.",
         "4. Run `make demo` locally before each release to refresh committed demo artifacts.",
+        "5. Optional CI/CD: add GitHub secret `STREAMLIT_DEPLOY_HOOK_URL` if your Streamlit Cloud workspace exposes a deploy webhook. The `.github/workflows/streamlit-cloud.yml` workflow will smoke test the app and call the hook after pushes to `main`.",
+        "",
+        "## GitHub Actions CI/CD",
+        "",
+        "- `.github/workflows/ci.yml`: compile modules and run the reproducible pipeline.",
+        "- `.github/workflows/streamlit-cloud.yml`: build demo artifacts, smoke test Streamlit, and optionally trigger Streamlit Cloud redeploy.",
         "",
         "## GitHub Pages",
         "",

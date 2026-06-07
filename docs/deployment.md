@@ -13,6 +13,12 @@ make dashboard
 2. Create a Streamlit Cloud app from `dashboard/app.py`.
 3. Set Python dependencies from `requirements.txt`.
 4. Run `make demo` locally before each release to refresh committed demo artifacts.
+5. Optional CI/CD: add GitHub secret `STREAMLIT_DEPLOY_HOOK_URL` if your Streamlit Cloud workspace exposes a deploy webhook. The `.github/workflows/streamlit-cloud.yml` workflow will smoke test the app and call the hook after pushes to `main`.
+
+## GitHub Actions CI/CD
+
+- `.github/workflows/ci.yml`: compile modules and run the reproducible pipeline.
+- `.github/workflows/streamlit-cloud.yml`: build demo artifacts, smoke test Streamlit, and optionally trigger Streamlit Cloud redeploy.
 
 ## GitHub Pages
 
