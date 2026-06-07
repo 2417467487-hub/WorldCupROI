@@ -17,7 +17,7 @@ WorldCupROI turns the World Cup attention market into a sponsorship decision eng
 | Streamlit app | `make dashboard` |
 | Executive summary | [reports/executive_summary.pdf](reports/executive_summary.pdf) |
 | Business insights | [reports/business_insights.md](reports/business_insights.md) |
-| Demo video | [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4) |
+| Platform GIF | [assets/gifs/dashboard_overview.gif](assets/gifs/dashboard_overview.gif) |
 | Data card | [docs/data_card.md](docs/data_card.md) |
 | Model card | [reports/model_card.md](reports/model_card.md) |
 | Deployment guide | [docs/deployment.md](docs/deployment.md) |
@@ -44,7 +44,7 @@ The platform is not only a modeling pipeline. It includes an interactive sponsor
 |---|---|
 | Live Streamlit dashboard | `make dashboard` |
 | Static dashboard preview | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
-| Full MP4 demo | [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4) |
+| Animated platform GIF | [assets/gifs/dashboard_overview.gif](assets/gifs/dashboard_overview.gif) |
 | Visual preview page | [preview_visuals.html](preview_visuals.html) |
 
 | Dashboard area | What the interface shows |
@@ -59,7 +59,7 @@ The platform is not only a modeling pipeline. It includes an interactive sponsor
 |---|---|
 | Live Demo | `make dashboard` |
 | Static Demo | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
-| Demo Video | [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4) |
+| Platform GIF | [assets/gifs/dashboard_overview.gif](assets/gifs/dashboard_overview.gif) |
 | Report | [sample_report.pdf](sample_report.pdf) |
 | Research Brief | [reports/sponsorship_intelligence_brief.md](reports/sponsorship_intelligence_brief.md) |
 
@@ -381,17 +381,13 @@ The dashboard is structured around a business decision sequence rather than a lo
 | Risk analysis | ![Risk uncertainty](assets/gifs/risk_uncertainty.gif) |
 | Network analysis | ![Sponsor network graph](assets/gifs/network_graph.gif) |
 
-### Platform Demo Video
+### Static Platform GIF
 
 ![WorldCupROI dashboard walkthrough](assets/gifs/dashboard_overview.gif)
 
-GitHub README pages do not always render HTML5 video controls reliably. The GIF above plays directly on the page; the full MP4 below can be opened for pause and timeline scrubbing.
+The static decision platform is shown as a GIF so it plays directly inside GitHub README without requiring video controls. It highlights the same decision flow as `dashboard/panel_dashboard.html`: Discover -> Explain -> Predict -> Simulate -> Recommend.
 
-[![Watch the full WorldCupROI platform demo](assets/images/video_cover.png)](assets/videos/worldcuproi_demo.mp4)
-
-Watch the full MP4 demo: [assets/videos/worldcuproi_demo.mp4](assets/videos/worldcuproi_demo.mp4).
-
-Generated showcase files are indexed in [docs/project_artifacts.md](docs/project_artifacts.md), including GIF previews, demo video assets, background images, and regeneration commands.
+Generated showcase files are indexed in [docs/project_artifacts.md](docs/project_artifacts.md), including GIF previews, background images, and regeneration commands.
 
 | Workflow step | Question answered | Output |
 |---|---|---|
