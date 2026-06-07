@@ -22,7 +22,9 @@ WorldCupROI blends match performance, media attention, fan behavior, sponsor inv
 | Model Card | [reports/model_card.md](reports/model_card.md) |
 | Deployment Guide | [docs/deployment.md](docs/deployment.md) |
 
-![WorldCupROI static dashboard preview](assets/gifs/static_platform_dashboard.gif?v=20260608-static-platform)
+### Platform Hero Overview
+
+![WorldCupROI platform hero overview](assets/gifs/platform_hero_overview.gif?v=20260608-hero-overview)
 
 **Core result snapshot**
 
@@ -325,6 +327,7 @@ The repository includes generated demo media:
 
 ```text
 assets/videos/worldcuproi_demo.mp4
+assets/gifs/platform_hero_overview.gif
 assets/gifs/static_platform_dashboard.gif
 assets/gifs/scenario_simulation.gif
 assets/gifs/risk_uncertainty.gif
