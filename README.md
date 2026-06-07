@@ -22,7 +22,7 @@ WorldCupROI blends match performance, media attention, fan behavior, sponsor inv
 | Model Card | [reports/model_card.md](reports/model_card.md) |
 | Deployment Guide | [docs/deployment.md](docs/deployment.md) |
 
-![WorldCupROI dashboard preview](assets/gifs/static_platform_dashboard.gif)
+![WorldCupROI Streamlit dashboard preview](assets/gifs/streamlit_dashboard_demo.gif)
 
 **Core result snapshot**
 
@@ -288,7 +288,7 @@ Production roadmap includes GCN/GraphSAGE baselines, temporal graph features, an
 
 ## Dashboard Gallery
 
-The Streamlit app and static HTML dashboard are structured as:
+The Streamlit app is structured as five decision pages:
 
 ```text
 Discover -> Explain -> Predict -> Simulate -> Recommend
@@ -300,8 +300,7 @@ Discover -> Explain -> Predict -> Simulate -> Recommend
 | Explain | Inspect ROI, sponsor ranking, and attention map | Chart hover and filtered tables |
 | Predict | Review FanScore and prediction intervals | Risk CSV / PDF / Markdown |
 | Simulate | Compare weather, venue, and stage effects | Scenario charts |
-| Recommend | Compare conservative/balanced/aggressive strategies | Scenario CSV / PDF / Markdown |
-| Network | Inspect sponsor centrality and influence | Network CSV / PDF / Markdown |
+| Recommend | Compare conservative/balanced/aggressive strategies and inspect sponsor network influence | Scenario and Network CSV / PDF / Markdown |
 
 ![Dashboard Gallery](assets/figures/dashboard_gallery.svg)
 
@@ -315,6 +314,7 @@ Additional GIF previews:
 
 | Preview | GIF |
 |---|---|
+| Streamlit five-page dashboard | ![Streamlit dashboard](assets/gifs/streamlit_dashboard_demo.gif) |
 | Scenario simulation | ![Scenario simulation](assets/gifs/scenario_simulation.gif) |
 | Risk analysis | ![Risk uncertainty](assets/gifs/risk_uncertainty.gif) |
 | Network analysis | ![Sponsor network graph](assets/gifs/network_graph.gif) |
@@ -325,11 +325,12 @@ The repository includes generated demo media:
 
 ```text
 assets/videos/worldcuproi_demo.mp4
+assets/gifs/streamlit_dashboard_demo.gif
 assets/gifs/static_platform_dashboard.gif
 assets/gifs/dashboard_overview.gif
 ```
 
-The main README GIF is captured from the real static dashboard page so the preview matches the actual platform behavior.
+The main README GIF is captured from the real Streamlit app after the Dashboard optimization step, so it reflects the five-page product workflow, strategy templates, and export-ready modules.
 
 ## Installation & Reproducibility
 
