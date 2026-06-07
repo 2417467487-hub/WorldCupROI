@@ -22,7 +22,7 @@ WorldCupROI blends match performance, media attention, fan behavior, sponsor inv
 | Model Card | [reports/model_card.md](reports/model_card.md) |
 | Deployment Guide | [docs/deployment.md](docs/deployment.md) |
 
-![WorldCupROI Streamlit dashboard preview](assets/gifs/streamlit_dashboard_demo.gif)
+![WorldCupROI static dashboard preview](assets/gifs/static_platform_dashboard.gif)
 
 **Core result snapshot**
 
@@ -330,7 +330,7 @@ assets/gifs/static_platform_dashboard.gif
 assets/gifs/dashboard_overview.gif
 ```
 
-The main README GIF is captured from the real Streamlit app after the Dashboard optimization step, so it reflects the five-page product workflow, strategy templates, and export-ready modules.
+The main README GIF is captured from the polished static HTML dashboard, so the GitHub preview works without a server while still reflecting the five-page World Cup styled decision workflow.
 
 ## Installation & Reproducibility
 

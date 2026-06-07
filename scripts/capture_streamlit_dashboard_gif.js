@@ -64,11 +64,24 @@ async function main() {
     await waitForServer(page, `http://localhost:${PORT}`);
     await page.waitForTimeout(2500);
 
-    const tabs = ["Discover", "Explain", "Predict", "Simulate", "Recommend"];
+    const tabs = [
+      { tab: "Discover", title: "Discover: Match Context" },
+      { tab: "Explain", title: "Explain: Sponsor ROI" },
+      { tab: "Predict", title: "Predict: FanScore" },
+      { tab: "Simulate", title: "Simulate: Weather" },
+      { tab: "Recommend", title: "Recommend: Scenario" },
+    ];
     const frames = [];
-    for (const [index, tab] of tabs.entries()) {
+    for (const [index, { tab, title }] of tabs.entries()) {
       await page.getByRole("tab", { name: tab }).click();
-      await page.waitForTimeout(1100);
+      await page.getByText(title, { exact: false }).waitFor({ timeout: 20000 });
+      await page.waitForFunction(
+        () => document.querySelectorAll('[data-testid="stPlotlyChart"], canvas, svg.main-svg').length > 0,
+        null,
+        { timeout: 20000 }
+      );
+      await page.evaluate(() => window.scrollTo(0, 210));
+      await page.waitForTimeout(1600);
       const framePath = path.join(FRAME_DIR, `${String(index + 1).padStart(2, "0")}_${tab.toLowerCase()}.png`);
       await page.screenshot({ path: framePath, fullPage: false });
       frames.push(framePath);

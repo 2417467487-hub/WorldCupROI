@@ -4,10 +4,10 @@ roi_predictions,data\roi_predictions.csv,True,800.16,964.0
 panel_dataset,data\panel_dataset.csv,True,381.24,1928.0
 scenario_recommendations,data\scenario_recommendations.csv,True,161.88,600.0
 roi_uncertainty,data\roi_uncertainty.csv,True,95.06,964.0
-static_dashboard,dashboard\panel_dashboard.html,True,705.58,
-streamlit_app,dashboard\app.py,True,19.86,
+static_dashboard,dashboard\panel_dashboard.html,True,929.39,
+streamlit_app,dashboard\app.py,True,19.85,
 readme_hero,assets\images\readme_hero.png,True,95.84,
-demo_video,assets\videos\worldcuproi_demo.mp4,True,1648.9,
+demo_video,assets\videos\worldcuproi_demo.mp4,True,598.49,
 algorithm_strategy,reports\algorithm_strategy.md,True,2.21,
 roi_model_card,reports\sponsor_roi_model_card.json,True,1.36,
 match_model_card,reports\match_outcome_model_card.json,True,1.0,

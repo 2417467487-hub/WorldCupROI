@@ -23,15 +23,18 @@ GIF_BACKGROUND = IMAGE_DIR / "showcase_background_gif.png"
 W, H = 1280, 720
 FPS = 10
 
-PAPER = "#f7faf8"
+PAPER = "#f4f7fb"
 INK = "#102033"
-MUTED = "#5f7285"
-LINE = "#d8e3e6"
-GREEN = "#008f6b"
-BLUE = "#2563eb"
-CYAN = "#00a7c7"
-ORANGE = "#f59e0b"
-RED = "#e54862"
+MUTED = "#667085"
+LINE = "#d9e2ec"
+PITCH = "#052c22"
+PITCH_2 = "#07543f"
+GREEN = "#009E73"
+BLUE = "#0072B2"
+CYAN = "#56B4E9"
+ORANGE = "#E69F00"
+GOLD = "#F2C75C"
+RED = "#D55E00"
 LIME = "#7ccf00"
 
 
@@ -67,14 +70,15 @@ def font(
     return ImageFont.load_default()
 
 
-F_HERO = font(58, light=True)
-F_TITLE = font(46, light=True)
-F_H2 = font(29, display=True)
-F_H3 = font(23, display=True)
-F_BODY = font(20)
+F_HERO = font(54, bold=True)
+F_TITLE = font(42, bold=True)
+F_H2 = font(26, bold=True)
+F_H3 = font(21, bold=True)
+F_BODY = font(19)
 F_SMALL = font(15)
-F_NUM = font(50, display=True)
-F_GIANT = font(82, display=True)
+F_TINY = font(12)
+F_NUM = font(46, bold=True)
+F_GIANT = font(76, bold=True)
 
 
 def ease(x: float) -> float:
@@ -98,94 +102,76 @@ def draw_worldcup_background(img: Image.Image) -> None:
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
 
-    # Soft geometric wash, matching the provided ivory/green/blue stadium style.
-    d.polygon([(0, 0), (330, 0), (0, 250)], fill=(0, 143, 107, 30))
-    d.polygon([(W, 0), (W, 285), (960, 0)], fill=(42, 105, 180, 34))
-    d.polygon([(0, H), (W, H), (W, 628), (0, 680)], fill=(0, 143, 107, 18))
-    d.polygon([(1088, 658), (W, 610), (W, H), (980, H)], fill=(0, 130, 94, 112))
-    d.polygon([(1160, 658), (W, 622), (W, H), (1048, H)], fill=(0, 50, 128, 178))
-
-    # Faint pitch lines at the bottom.
-    d.polygon([(0, 585), (W, 542), (W, 668), (0, 676)], fill=(82, 154, 78, 24))
-    for offset in range(-180, W + 120, 160):
-        d.line([(offset, 700), (offset + 520, 548)], fill=(255, 255, 255, 48), width=2)
-    d.arc([278, 596, 708, 840], 190, 348, fill=(255, 255, 255, 92), width=3)
-    d.line([(0, 650), (892, 604)], fill=(255, 255, 255, 82), width=3)
-    d.line([(0, 674), (950, 626)], fill=(255, 255, 255, 56), width=2)
-
-    # Dotted globe and data nodes in the top-left.
-    globe_cx, globe_cy = 122, 78
-    for yy in range(-70, 185, 9):
-        for xx in range(-20, 260, 9):
-            dx = (xx - globe_cx) / 142
-            dy = (yy - globe_cy) / 112
-            if dx * dx + dy * dy < 1 and (xx + yy) % 27 < 17:
-                alpha = int(32 + 38 * (1 - min(1, dx * dx + dy * dy)))
-                d.ellipse([xx, yy, xx + 3, yy + 3], fill=(0, 143, 107, alpha))
-    for r, alpha in [(210, 42), (285, 28), (360, 20)]:
-        d.arc([globe_cx - r, globe_cy - r, globe_cx + r, globe_cy + r], 8, 162, fill=(0, 143, 107, alpha), width=2)
-    data_points = [(42, 132), (118, 96), (194, 130), (252, 84)]
-    for a, b in zip(data_points, data_points[1:]):
-        d.line([a, b], fill=(0, 143, 107, 48), width=2)
-    for x, y in data_points:
-        d.ellipse([x - 4, y - 4, x + 4, y + 4], fill=(0, 143, 107, 58))
-    for i, h in enumerate([26, 46, 66, 88]):
-        x = 410 + i * 16
-        d.rectangle([x, 112 - h, x + 8, 112], fill=(0, 143, 107, 38))
-
-    # Stadium roof and crowd texture in the top-right.
-    roof = [(812, 118), (920, 72), (1045, 40), (1190, -6), (1280, -20)]
-    d.line(roof, fill=(45, 96, 160, 48), width=7)
-    for i in range(7):
-        x = 905 + i * 62
-        d.line([(x, 62 - i * 5), (x + 190, -24 + i * 20)], fill=(45, 96, 160, 38), width=3)
-    for i in range(7):
-        y = 98 + i * 16
-        d.arc([800, y - 100, 1345, y + 170], 188, 355, fill=(45, 96, 160, 20), width=3)
-    for row in range(5):
-        for col in range(65):
-            x = 900 + col * 6
-            y = 164 + row * 9 + int(3 * math.sin(col))
-            if x < W:
-                d.ellipse([x, y, x + 2, y + 2], fill=(45, 96, 160, 42))
-
-    # Gold orbital lines and subtle data crosses on the right.
-    d.arc([742, -95, 1410, 614], 9, 123, fill=(245, 158, 11, 72), width=2)
-    d.arc([798, -40, 1370, 700], 12, 126, fill=(245, 158, 11, 48), width=2)
-    for y in range(336, 548, 26):
-        for x in range(1040, W, 26):
-            alpha = 46 if (x + y) % 78 == 0 else 28
-            d.line([(x - 4, y), (x + 4, y)], fill=(37, 99, 235, alpha), width=1)
-            d.line([(x, y - 4), (x, y + 4)], fill=(0, 143, 107, alpha), width=1)
+    # Match the static dashboard: dark pitch, gold highlight, field geometry.
+    for y in range(H):
+        m = y / H
+        color = (
+            int(5 + 18 * m),
+            int(44 + 36 * m),
+            int(34 + 18 * m),
+            255,
+        )
+        d.line([(0, y), (W, y)], fill=color)
+    d.rectangle([0, 0, W, 178], fill=(5, 44, 34, 238))
+    d.rectangle([0, 178, W, H], fill=(244, 247, 251, 248))
+    d.line([(W // 2, 0), (W // 2, 178)], fill=(255, 255, 255, 42), width=3)
+    d.arc([W // 2 - 84, 16, W // 2 + 84, 184], 0, 360, fill=(255, 255, 255, 42), width=3)
+    d.arc([990, -68, 1288, 230], 0, 360, fill=(242, 199, 92, 84), width=3)
+    d.ellipse([920, -132, 1362, 310], outline=(255, 255, 255, 22), width=44)
+    d.ellipse([986, -66, 1296, 244], outline=(200, 16, 46, 28), width=52)
+    d.polygon([(0, 178), (W, 178), (W, 220), (0, 220)], fill=(255, 255, 255, 236))
+    d.rectangle([0, 220, W, H], fill=(244, 247, 251, 236))
 
     img.alpha_composite(layer)
 
 
 def canvas(title: str, subtitle: str, section: str) -> Image.Image:
-    background_path = GIF_BACKGROUND if GIF_BACKGROUND.exists() else SHOWCASE_BACKGROUND
-    if background_path.exists():
-        img = Image.open(background_path).convert("RGB").resize((W, H))
-    else:
-        img = Image.new("RGB", (W, H), PAPER)
-        d = ImageDraw.Draw(img)
-        for y in range(H):
-            m = y / H
-            d.line([(0, y), (W, y)], fill=(249, int(250 - 5 * m), int(244 - 10 * m)))
-        img = img.convert("RGBA")
-        draw_worldcup_background(img)
-        img = img.convert("RGB")
+    img = Image.new("RGBA", (W, H), PAPER)
+    draw_worldcup_background(img)
+    img = img.convert("RGB")
     d = ImageDraw.Draw(img)
-    d.text((64, 42), section.upper(), fill=GREEN, font=F_SMALL)
-    d.line([64, 68, 246, 68], fill=GREEN, width=3)
-    d.text((64, 96), title, fill=INK, font=F_TITLE)
-    d.text((66, 150), subtitle, fill=MUTED, font=F_BODY)
-    d.text((1048, 44), "WorldCupROI", fill=INK, font=F_H3)
-    d.text((1048, 72), "AI Sports Sponsorship Intelligence", fill=MUTED, font=F_SMALL)
+    d.text((48, 28), f"FIFA-STYLE SPONSORSHIP INTELLIGENCE · {section.upper()}", fill=GOLD, font=F_SMALL)
+    d.text((48, 64), title, fill="white", font=F_TITLE)
+    d.text((50, 122), subtitle, fill=(218, 230, 224), font=F_SMALL)
+    d.rounded_rectangle([930, 36, 1210, 88], radius=10, fill=(255, 255, 255), outline=(217, 226, 236), width=1)
+    d.text((958, 49), "WorldCupROI", fill=INK, font=F_H3)
+    d.text((958, 77), "AI Sponsor ROI Platform", fill=MUTED, font=F_SMALL)
     return img
 
 
 def divider(d: ImageDraw.ImageDraw, x: int, y1: int, y2: int) -> None:
     d.line([x, y1, x, y2], fill=LINE, width=2)
+
+
+def plot_panel(d: ImageDraw.ImageDraw, box: tuple[int, int, int, int], title: str, subtitle: str = "") -> None:
+    x1, y1, x2, y2 = box
+    d.rounded_rectangle([x1, y1, x2, y2], radius=8, fill="white", outline=LINE, width=2)
+    d.text((x1 + 28, y1 + 22), title, fill=INK, font=F_H2)
+    if subtitle:
+        d.text((x1 + 30, y1 + 56), subtitle, fill=MUTED, font=F_TINY)
+
+
+def chart_axis(
+    d: ImageDraw.ImageDraw,
+    box: tuple[int, int, int, int],
+    x_label: str,
+    y_label: str,
+    y_ticks: list[str] | None = None,
+) -> None:
+    x1, y1, x2, y2 = box
+    d.rectangle([x1, y1, x2, y2], outline="#c9d5e1", width=1)
+    d.line([x1, y2, x2, y2], fill="#9aa8b8", width=2)
+    d.line([x1, y1, x1, y2], fill="#9aa8b8", width=2)
+    for k in range(1, 5):
+        yy = y2 - int((y2 - y1) * k / 5)
+        d.line([x1, yy, x2, yy], fill="#e6edf5", width=1)
+        if y_ticks and k - 1 < len(y_ticks):
+            d.text((x1 - 44, yy - 8), y_ticks[k - 1], fill=MUTED, font=F_TINY)
+    for k in range(1, 5):
+        xx = x1 + int((x2 - x1) * k / 5)
+        d.line([xx, y1, xx, y2], fill="#eef3f8", width=1)
+    d.text(((x1 + x2) // 2 - 52, y2 + 30), x_label, fill=MUTED, font=F_TINY)
+    d.text((x1 - 50, y1 - 26), y_label, fill=MUTED, font=F_TINY)
 
 
 def bar(d: ImageDraw.ImageDraw, x: int, y: int, w: int, value: float, color: str) -> None:
@@ -310,23 +296,27 @@ def scenario_simulation(panel_df: pd.DataFrame) -> list[Image.Image]:
         colors = [RED, ORANGE, BLUE, GREEN, CYAN]
         img = canvas("Scenario Simulation", "Adjust sponsor investment, media exposure, and core player status; ROI and strategy tier update in real time.", "Simulate")
         d = ImageDraw.Draw(img)
-        d.text((78, 230), "Inputs", fill=INK, font=F_H2)
+        plot_panel(d, (44, 232, 528, 656), "Strategy Template Inputs", "Conservative / Balanced / Aggressive sponsor package signals")
+        plot_panel(d, (558, 232, 1236, 656), "Scenario ROI Lift", "Counterfactual ROI response under one sponsor strategy")
+        chart_axis(d, (632, 348, 1180, 516), "Simulation step", "ROI lift")
         for k, (name, val, col) in enumerate([("Sponsor investment", spend, ORANGE), ("Media exposure", media, CYAN), ("Core player available", player, GREEN)]):
-            yy = 306 + k * 96
-            d.text((78, yy - 26), name, fill=INK, font=F_BODY)
+            yy = 352 + k * 84
+            d.text((78, yy - 26), name, fill=INK, font=F_SMALL)
             bar(d, 78, yy + 8, 340, val, col)
-            d.text((440, yy - 4), f"{val * 100:.0f}%", fill=col, font=F_BODY)
-        d.text((78, 588), "Budget icons scale with investment", fill=MUTED, font=F_SMALL)
-        money(d, 78, 650, int(6 + spend * 30))
-        divider(d, 555, 220, 650)
-        d.text((610, 230), "Business effect", fill=INK, font=F_H2)
-        d.text((610, 300), f"{roi:.2f}x", fill=colors[tier], font=F_GIANT)
-        d.text((612, 376), f"ROI lift {(roi / base - 1) * 100:+.1f}%", fill=INK, font=F_H2)
-        d.rounded_rectangle([612, 424, 930, 476], radius=26, fill=colors[tier])
-        d.text((646, 438), f"Tier: {labels[tier]}", fill="white" if tier != 2 else INK, font=F_H3)
-        spark(d, (980, 280, 1180, 505), CYAN, i * .08)
-        d.text((612, 556), "Recommendation", fill=GREEN, font=F_H3)
-        d.text((612, 590), "Scale media only when player availability is stable.", fill=MUTED, font=F_BODY)
+            d.text((440, yy - 4), f"{val * 100:.0f}%", fill=col, font=F_SMALL)
+        d.text((78, 604), "Business takeaway: raise spend only when exposure and player status support lift.", fill=MUTED, font=F_TINY)
+        pts = []
+        for k in range(28):
+            x = 632 + int((1180 - 632) * k / 27)
+            value = 0.50 + .22 * math.sin(k * .52 + i * .08) + .12 * spend + .08 * media
+            y = 516 - int((516 - 348) * max(0.10, min(0.95, value)))
+            pts.append((x, y))
+        d.line(pts, fill=BLUE, width=4)
+        for x, y in pts[::6]:
+            d.ellipse([x - 6, y - 6, x + 6, y + 6], fill=ORANGE, outline="white", width=2)
+        d.rounded_rectangle([596, 578, 880, 630], radius=26, fill=colors[tier])
+        d.text((628, 592), f"ROI {roi:.2f}x · Lift {(roi / base - 1) * 100:+.1f}%", fill="white" if tier != 2 else INK, font=F_H3)
+        d.text((914, 592), f"Tier: {labels[tier]}", fill=colors[tier], font=F_H3)
         frames.append(img)
     return frames
 
@@ -339,67 +329,79 @@ def risk_uncertainty(uncertainty: pd.DataFrame) -> list[Image.Image]:
         p = ease(i / 119)
         img = canvas("Uncertainty and Risk Analysis", "Conformal prediction intervals, Monte Carlo downside risk, and coverage-aware sponsorship decisions.", "Predict")
         d = ImageDraw.Draw(img)
-        d.text((78, 230), "Conformal ROI intervals", fill=INK, font=F_H2)
+        plot_panel(d, (44, 232, 528, 656), "Prediction Interval / Conformal", "Expected ROI with interval width by match")
+        plot_panel(d, (558, 232, 1236, 656), "Monte Carlo Risk Distribution", "Volatility histogram and downside review signal")
+        chart_axis(d, (126, 346, 470, 570), "Top risk cases", "ROI interval")
         for k, row in sample.iterrows():
-            yy = 306 + k * 38
-            center = 300 + int(80 * math.sin(k * 1.3))
+            yy = 360 + k * 25
+            center = 280 + int(80 * math.sin(k * 1.3))
             lo, hi = center - int(42 + 28 * p), center + int(42 + 28 * p)
-            d.text((78, yy - 12), clean(row["team_a"], 12), fill=INK, font=F_SMALL)
+            d.text((78, yy - 12), clean(row["team_a"], 12), fill=INK, font=F_TINY)
             d.line([lo, yy, hi, yy], fill=CYAN, width=8)
             d.ellipse([center - 7, yy - 7, center + 7, yy + 7], fill=ORANGE)
-            d.text((440, yy - 12), f"{float(row['negative_roi_probability']) * 100:.0f}%", fill=RED, font=F_SMALL)
-        d.text((290, 626), "negative ROI probability", fill=MUTED, font=F_SMALL)
-        divider(d, 555, 220, 650)
-        d.text((610, 230), "Monte Carlo risk cloud", fill=INK, font=F_H2)
-        cx, cy = 880, 430
-        for _ in range(int(90 + 270 * p)):
-            a, r = rng.uniform(0, math.tau), abs(rng.normal(0, 116))
-            x = max(630, min(1165, cx + int(math.cos(a) * r * 1.34)))
-            y = max(300, min(615, cy + int(math.sin(a) * r * .62)))
-            d.ellipse([x - 3, y - 3, x + 3, y + 3], fill=RED if r > 170 else ORANGE if r > 105 else CYAN)
-        d.text((612, 310), f"Coverage {float(sample['risk_score'].mean() + .43):.1%}", fill=GREEN, font=F_NUM)
-        d.text((612, 590), "Allocate with intervals, not point estimates.", fill=MUTED, font=F_BODY)
+            d.text((440, yy - 12), f"{float(row['negative_roi_probability']) * 100:.0f}%", fill=RED, font=F_TINY)
+        d.text((274, 612), "negative ROI probability", fill=MUTED, font=F_TINY)
+        chart_axis(d, (646, 344, 1170, 568), "Monte Carlo std bucket", "Matches")
+        hist = [0.18, 0.30, 0.48, 0.78, 0.94, 0.68, 0.42, 0.25, 0.15]
+        for k, hval in enumerate(hist):
+            h = int(190 * hval * (.75 + .25 * p))
+            x1 = 666 + k * 52
+            color = CYAN if k < 3 else ORANGE if k < 6 else RED
+            d.rectangle([x1, 568 - h, x1 + 34, 568], fill=color)
+        d.text((646, 610), f"Coverage {float(sample['risk_score'].mean() + .43):.1%} · Allocate with intervals, not point estimates.", fill=MUTED, font=F_SMALL)
         frames.append(img)
     return frames
 
 
 def network_graph(sponsors: pd.DataFrame) -> list[Image.Image]:
     sponsor_names = [clean(x) for x in sponsors.head(4)["source"].astype(str)]
-    sponsors_xy = [(150, 320), (170, 510), (360, 560), (420, 260)]
-    teams = [("Brazil", (640, 300)), ("Argentina", (700, 420)), ("France", (600, 550)), ("Germany", (820, 345)), ("England", (850, 520))]
-    players = [(1010, 280), (1080, 390), (1020, 515), (930, 605), (1110, 580), (955, 450)]
+    sponsors_xy = [(160, 410), (216, 530), (360, 552), (420, 378)]
+    teams = [("Brazil", (570, 382)), ("Argentina", (620, 462)), ("France", (548, 552)), ("Germany", (720, 414)), ("England", (732, 530))]
+    players = [(678, 340), (750, 480), (660, 606), (468, 330), (762, 598), (494, 506)]
+    plot_bounds = (96, 334, 838, 618)
+
+    def bounded(point: tuple[int, int]) -> tuple[int, int]:
+        x1, y1, x2, y2 = plot_bounds
+        return (max(x1, min(x2, point[0])), max(y1, min(y2, point[1])))
+
+    sponsors_xy = [bounded(point) for point in sponsors_xy]
+    teams = [(name, bounded(point)) for name, point in teams]
+    players = [bounded(point) for point in players]
     frames = []
     for i in range(120):
         p = ease(i / 119)
         img = canvas("Sponsor Network Intelligence", "Sponsor-Team-Player-Match graph with centrality ranking and commercial influence.", "Network")
         d = ImageDraw.Draw(img)
-        d.text((78, 230), "Relationship network", fill=INK, font=F_H2)
+        plot_panel(d, (44, 232, 884, 656), "Sponsor-Team-Player Network", "Weighted commercial graph: sponsor -> team -> player -> match context")
+        plot_panel(d, (914, 232, 1236, 656), "Centrality Ranking", "Influence score by node")
+        chart_axis(d, (1046, 356, 1192, 586), "", "Rank")
         for s, sp in enumerate(sponsors_xy):
             for j, (_, tp) in enumerate(teams):
                 if (s + j) % 2 == 0:
-                    d.line([sp, tp], fill=ORANGE if s == 0 else CYAN, width=max(1, int((2 + s) * p)))
+                    d.line([bounded(sp), bounded(tp)], fill=ORANGE if s == 0 else CYAN, width=max(1, int((2 + s) * p)))
         for j, (_, tp) in enumerate(teams):
             for q, pp in enumerate(players):
                 if (j + q) % 3 == 0:
-                    d.line([tp, pp], fill=GREEN, width=max(1, int(2 * p)))
+                    d.line([bounded(tp), bounded(pp)], fill=GREEN, width=max(1, int(2 * p)))
         for k, (name, pos) in enumerate(zip(sponsor_names, sponsors_xy)):
-            r = 25 if k else 42
+            r = 16 if k else 30
             d.ellipse([pos[0] - r, pos[1] - r, pos[0] + r, pos[1] + r], fill=ORANGE, outline="white", width=3)
-            d.text((pos[0] - 42, pos[1] + r + 8), name, fill=INK, font=F_SMALL)
+            d.text((pos[0] - 42, pos[1] + r + 8), name, fill=INK, font=F_TINY)
         for name, pos in teams:
-            d.rounded_rectangle([pos[0] - 48, pos[1] - 23, pos[0] + 48, pos[1] + 23], radius=12, fill=BLUE)
-            d.text((pos[0] - 34, pos[1] - 10), name[:9], fill="white", font=F_SMALL)
+            d.rounded_rectangle([pos[0] - 38, pos[1] - 18, pos[0] + 38, pos[1] + 18], radius=10, fill=BLUE)
+            d.text((pos[0] - 28, pos[1] - 8), name[:9], fill="white", font=F_TINY)
         for pos in players:
-            d.ellipse([pos[0] - 17, pos[1] - 17, pos[0] + 17, pos[1] + 17], fill=GREEN, outline="white", width=2)
+            d.ellipse([pos[0] - 11, pos[1] - 11, pos[0] + 11, pos[1] + 11], fill=GREEN, outline="white", width=2)
         d.rounded_rectangle([78, 610, 350, 640], radius=15, fill="#eaf3f2")
-        d.text((100, 618), "orange=sponsor   blue=team   green=player", fill=MUTED, font=F_SMALL)
-        divider(d, 930, 220, 650)
-        d.text((970, 230), "Centrality", fill=INK, font=F_H2)
+        d.text((100, 618), "orange=sponsor   blue=team   green=player", fill=MUTED, font=F_TINY)
         names = sponsor_names + ["Brazil", "Argentina", "France"]
         for k, name in enumerate(names[:7]):
-            yy = 305 + k * 48
-            d.text((970, yy - 10), f"{k + 1}. {name}", fill=INK, font=F_BODY)
-            bar(d, 1110, yy - 2, 80, (0.92 - k * .07) * p, ORANGE if k == 0 else CYAN)
+            yy = 364 + k * 31
+            val = (0.92 - k * .07) * p
+            d.text((942, yy - 8), f"{k + 1}. {name[:10]}", fill=INK, font=F_TINY)
+            d.rectangle([1064, yy - 9, 1190, yy + 9], fill="#e6edf5")
+            d.rectangle([1064, yy - 9, 1064 + int(126 * val), yy + 9], fill=ORANGE if k == 0 else CYAN)
+        d.text((944, 620), "Takeaway: anchor on central pathways.", fill=MUTED, font=F_TINY)
         frames.append(img)
     return frames
 

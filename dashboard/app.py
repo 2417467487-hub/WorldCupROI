@@ -228,7 +228,7 @@ st.title(tr("title"))
 st.caption(tr("caption"))
 if DEMO_MODE:
     st.success(tr("demo"))
-with st.expander(tr("guide_title"), expanded=True):
+with st.expander(tr("guide_title"), expanded=False):
     st.write(tr("guide_body"))
 
 teams = sorted(panel_df["team"].dropna().unique())
