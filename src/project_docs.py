@@ -130,7 +130,55 @@ def write_data_card(inventory: pd.DataFrame) -> None:
         "3. Add source versioning with DVC or a data warehouse snapshot table.",
         "4. Add automated freshness and drift checks before model retraining.",
     ]
-    (DOCS_DIR / "data_card.md").write_text("\n".join(lines), encoding="utf-8")
+    content = "\n".join(lines)
+    (DOCS_DIR / "data_card.md").write_text(content, encoding="utf-8")
+    (REPORT_DIR / "data_card.md").write_text(content, encoding="utf-8")
+
+
+def column_profile(path: Path, item: pd.Series) -> tuple[list[dict], list[dict]]:
+    try:
+        df = pd.read_csv(path)
+    except Exception:
+        return [], []
+    type_rows = []
+    anomaly_rows = []
+    total_rows = max(len(df), 1)
+    for col in df.columns:
+        missing = int(df[col].isna().sum())
+        non_null = int(df[col].notna().sum())
+        coverage = round(non_null / total_rows, 4)
+        dtype = str(df[col].dtype)
+        outliers = 0
+        if pd.api.types.is_numeric_dtype(df[col]) and not pd.api.types.is_bool_dtype(df[col]) and non_null >= 8:
+            series = df[col].dropna()
+            q1 = float(series.quantile(0.25))
+            q3 = float(series.quantile(0.75))
+            iqr = q3 - q1
+            if iqr > 0:
+                outliers = int(((series < q1 - 1.5 * iqr) | (series > q3 + 1.5 * iqr)).sum())
+        type_rows.append(
+            {
+                "dataset": item["dataset"],
+                "field": col,
+                "dtype": dtype,
+                "coverage_rate": coverage,
+                "missing_cells": missing,
+                "unique_values": int(df[col].nunique(dropna=True)),
+                "origin_type": item["origin_type"],
+            }
+        )
+        if missing > 0 or outliers > 0 or coverage < 0.98:
+            anomaly_rows.append(
+                {
+                    "dataset": item["dataset"],
+                    "field": col,
+                    "missing_cells": missing,
+                    "coverage_rate": coverage,
+                    "iqr_outliers": outliers,
+                    "risk_note": "Review before production modeling" if item["trust_level"] != "medium-high" else "Monitor source quality",
+                }
+            )
+    return type_rows, anomaly_rows
 
 
 def write_data_quality_report(inventory: pd.DataFrame) -> None:
@@ -156,6 +204,22 @@ def write_data_quality_report(inventory: pd.DataFrame) -> None:
         except Exception:
             continue
     summary = pd.DataFrame(rows).sort_values(["missing_cells", "duplicate_rows"], ascending=False)
+    profile_rows = []
+    anomaly_rows = []
+    for _, item in inventory.iterrows():
+        if item["dataset"].endswith(".csv"):
+            fields, anomalies = column_profile(ROOT / item["dataset"], item)
+            profile_rows.extend(fields)
+            anomaly_rows.extend(anomalies)
+    field_profile = pd.DataFrame(profile_rows)
+    anomaly_profile = pd.DataFrame(anomaly_rows)
+    coverage_summary = (
+        field_profile.groupby("origin_type", as_index=False)
+        .agg(fields=("field", "count"), avg_coverage=("coverage_rate", "mean"), total_missing=("missing_cells", "sum"))
+        .round(4)
+        if not field_profile.empty
+        else pd.DataFrame()
+    )
     trust_summary = (
         summary.groupby(["origin_type", "trust_level"], as_index=False)
         .agg(datasets=("dataset", "count"), total_rows=("rows", "sum"), missing_cells=("missing_cells", "sum"), duplicate_rows=("duplicate_rows", "sum"))
@@ -180,6 +244,22 @@ def write_data_quality_report(inventory: pd.DataFrame) -> None:
         "",
         markdown_table(trust_summary, max_rows=20) if not trust_summary.empty else "No trust summary available.",
         "",
+        "## Field Types and Coverage",
+        "",
+        markdown_table(field_profile.sort_values(["coverage_rate", "missing_cells"], ascending=[True, False]), max_rows=60)
+        if not field_profile.empty
+        else "No field profile available.",
+        "",
+        "## Coverage Summary",
+        "",
+        markdown_table(coverage_summary, max_rows=20) if not coverage_summary.empty else "No coverage summary available.",
+        "",
+        "## Missing Value and Outlier Signals",
+        "",
+        markdown_table(anomaly_profile.sort_values(["iqr_outliers", "missing_cells"], ascending=False), max_rows=60)
+        if not anomaly_profile.empty
+        else "No missing-value or IQR outlier signal detected.",
+        "",
         "## Existing Pipeline Quality Summary",
         "",
         markdown_table(quality, max_rows=40) if not quality.empty else "No `reports/data_quality_summary.csv` was found.",
@@ -198,7 +278,9 @@ def write_data_quality_report(inventory: pd.DataFrame) -> None:
         "- Proxy/mock commercial variables make the project reproducible, but production use requires licensed campaign, CRM, sales, or social data.",
         "- Any dashboard decision should display data-origin context when proxy variables drive recommendations.",
     ]
-    (DOCS_DIR / "data_quality_report.md").write_text("\n".join(lines), encoding="utf-8")
+    content = "\n".join(lines)
+    (DOCS_DIR / "data_quality_report.md").write_text(content, encoding="utf-8")
+    (REPORT_DIR / "data_quality_report.md").write_text(content, encoding="utf-8")
 
 
 def metric_line(text: str, label: str) -> str:

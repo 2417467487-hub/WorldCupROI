@@ -13,16 +13,16 @@ Team-player-sponsor-match relationships are represented as a weighted graph.
 
 | source | connected_nodes | sponsor_influence | avg_edge_weight | pagerank | betweenness | closeness |
 | --- | --- | --- | --- | --- | --- | --- |
-| sponsor:Hyundai | 262 | 1253.053 | 2.3378 | 0.0424 | 0.000303 | 0.310417 |
-| sponsor:Adidas | 233 | 1111.494 | 2.375 | 0.037782 | 0.000488 | 0.303346 |
-| sponsor:Coca-Cola | 235 | 1049.82 | 2.2337 | 0.037289 | 0.001223 | 0.303116 |
-| sponsor:Visa | 236 | 1025.272 | 2.1908 | 0.036782 | 0.001233 | 0.304502 |
-| sponsor:Hisense | 185 | 794.249 | 2.1583 | 0.028589 | 0.001524 | 0.29193 |
-| sponsor:Budweiser | 183 | 782.731 | 2.1622 | 0.028545 | 0.001779 | 0.292144 |
-| sponsor:McDonald's | 187 | 725.708 | 1.972 | 0.028368 | 0.012799 | 0.292357 |
-| sponsor:Qatar Airways | 163 | 648.289 | 1.9886 | 0.024983 | 0.008504 | 0.286796 |
-| sponsor:Vivo | 152 | 580.812 | 1.949 | 0.022979 | 0.01103 | 0.284752 |
-| sponsor:Mengniu | 98 | 367.986 | 1.9166 | 0.014767 | 0.009589 | 0.273447 |
+| sponsor:Hyundai | 262 | 1244.283 | 2.3214 | 0.042276 | 0.000309 | 0.310417 |
+| sponsor:Adidas | 233 | 1107.369 | 2.3662 | 0.037711 | 0.00047 | 0.303346 |
+| sponsor:Coca-Cola | 235 | 1052.637 | 2.2397 | 0.037335 | 0.001105 | 0.303116 |
+| sponsor:Visa | 236 | 1015.704 | 2.1703 | 0.03664 | 0.001399 | 0.304502 |
+| sponsor:Hisense | 185 | 799.936 | 2.1737 | 0.028665 | 0.001115 | 0.29193 |
+| sponsor:Budweiser | 183 | 786.948 | 2.1739 | 0.0286 | 0.001507 | 0.292144 |
+| sponsor:McDonald's | 187 | 725.069 | 1.9703 | 0.028382 | 0.012697 | 0.292357 |
+| sponsor:Qatar Airways | 163 | 647.848 | 1.9873 | 0.025 | 0.008462 | 0.286796 |
+| sponsor:Vivo | 152 | 580.338 | 1.9474 | 0.022989 | 0.010975 | 0.284752 |
+| sponsor:Mengniu | 98 | 367.795 | 1.9156 | 0.01478 | 0.009563 | 0.273447 |
 
 ## Top Player Commercial Influence
 
@@ -43,13 +43,13 @@ Team-player-sponsor-match relationships are represented as a weighted graph.
 
 | node | node_type | degree | weighted_degree | pagerank | betweenness | closeness |
 | --- | --- | --- | --- | --- | --- | --- |
-| sponsor:Hyundai | sponsor | 262 | 972.246 | 0.0424 | 0.000303 | 0.310417 |
-| sponsor:Adidas | sponsor | 233 | 866.056 | 0.037782 | 0.000488 | 0.303346 |
-| sponsor:Coca-Cola | sponsor | 235 | 850.747 | 0.037289 | 0.001223 | 0.303116 |
-| sponsor:Visa | sponsor | 236 | 830.813 | 0.036782 | 0.001233 | 0.304502 |
-| sponsor:Hisense | sponsor | 185 | 642.457 | 0.028589 | 0.001524 | 0.29193 |
-| sponsor:Budweiser | sponsor | 183 | 643.441 | 0.028545 | 0.001779 | 0.292144 |
-| sponsor:McDonald's | sponsor | 187 | 631.633 | 0.028368 | 0.012799 | 0.292357 |
-| sponsor:Qatar Airways | sponsor | 163 | 550.901 | 0.024983 | 0.008504 | 0.286796 |
-| sponsor:Vivo | sponsor | 152 | 504.559 | 0.022979 | 0.01103 | 0.284752 |
-| sponsor:Mengniu | sponsor | 98 | 314.679 | 0.014767 | 0.009589 | 0.273447 |
+| sponsor:Hyundai | sponsor | 262 | 965.545 | 0.042276 | 0.000309 | 0.310417 |
+| sponsor:Adidas | sponsor | 233 | 861.446 | 0.037711 | 0.00047 | 0.303346 |
+| sponsor:Coca-Cola | sponsor | 235 | 850.251 | 0.037335 | 0.001105 | 0.303116 |
+| sponsor:Visa | sponsor | 236 | 823.834 | 0.03664 | 0.001399 | 0.304502 |
+| sponsor:Hisense | sponsor | 185 | 643.427 | 0.028665 | 0.001115 | 0.29193 |
+| sponsor:Budweiser | sponsor | 183 | 643.73 | 0.0286 | 0.001507 | 0.292144 |
+| sponsor:McDonald's | sponsor | 187 | 630.562 | 0.028382 | 0.012697 | 0.292357 |
+| sponsor:Qatar Airways | sponsor | 163 | 550.108 | 0.025 | 0.008462 | 0.286796 |
+| sponsor:Vivo | sponsor | 152 | 503.732 | 0.022989 | 0.010975 | 0.284752 |
+| sponsor:Mengniu | sponsor | 98 | 314.433 | 0.01478 | 0.009563 | 0.273447 |

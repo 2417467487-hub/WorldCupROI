@@ -1,5 +1,5 @@
 stage_id,stage,avg_score,retention_vs_previous,interpretation
 media_exposure,媒体曝光,0.3943,1.0,"Top-of-funnel reach from match attention, reposts, and video views."
 user_attention,用户关注,0.4318,1.0953,Strong handoff; audience signal remains commercially useful.
-social_interaction,社交互动,0.3434,0.7952,Moderate handoff; conversion depends on message fit and activation quality.
-sponsor_conversion,赞助转化,0.5608,1.6333,Strong handoff; audience signal remains commercially useful.
+social_interaction,社交互动,0.3435,0.7955,Moderate handoff; conversion depends on message fit and activation quality.
+sponsor_conversion,赞助转化,0.5628,1.6385,Strong handoff; audience signal remains commercially useful.

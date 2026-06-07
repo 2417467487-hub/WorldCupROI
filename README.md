@@ -2,427 +2,316 @@
 
 **AI Sports Sponsorship Intelligence Platform**
 
-WorldCupROI turns the World Cup attention market into a sponsorship decision engine. It is not a simple match-result predictor: it blends match performance, media narratives, fan influence, sponsor investment, and uncertainty risk into one ROI decision platform.
+WorldCupROI blends match performance, media attention, fan behavior, sponsor investment, scenario simulation, and uncertainty risk into one sponsor ROI decision platform. The goal is not only to predict football results, but to help answer: **which sponsorship strategy should a brand choose, under what risk, and why?**
 
 [![CI](https://github.com/2417467487-hub/WorldCupROI/actions/workflows/ci.yml/badge.svg)](https://github.com/2417467487-hub/WorldCupROI/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.11-2457c5)
-![ML](https://img.shields.io/badge/ML-ROI%20Prediction-0f8b6f)
+![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit%20%2B%20Plotly-0f8b6f)
 ![Explainability](https://img.shields.io/badge/Explainability-SHAP%20Style-f28c28)
-![Risk](https://img.shields.io/badge/Risk-Conformal%20%2B%20Monte%20Carlo-6d5bd0)
-![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit%20%2B%20Plotly-1167b1)
-
-| Quick link | Open |
-|---|---|
-| Demo dashboard | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
-| Streamlit app | `make dashboard` |
-| Executive summary | [reports/executive_summary.pdf](reports/executive_summary.pdf) |
-| Business insights | [reports/business_insights.md](reports/business_insights.md) |
-| Platform GIF | [assets/gifs/static_platform_dashboard.gif](assets/gifs/static_platform_dashboard.gif) |
-| Data card | [docs/data_card.md](docs/data_card.md) |
-| Model card | [reports/model_card.md](reports/model_card.md) |
-| Deployment guide | [docs/deployment.md](docs/deployment.md) |
-
-```bash
-make demo       # fully offline reproducible run
-make dashboard  # Streamlit decision dashboard
-make assets     # README images, model visuals, demo media
-```
-
-If `make` is not available on Windows, run `python scripts/run_pipeline.py --demo` and then `python -m streamlit run dashboard/app.py`.
-
-README figure captions follow a consistent `What / Why / Business Takeaway` pattern. The generated figure-note index is available at [assets/figures/figure_notes.md](assets/figures/figure_notes.md).
-
-![WorldCupROI method overview](assets/images/readme_hero.png)
-
-The opening figure is generated with Python from `scripts/generate_readme_assets.py`. It summarizes the project as a machine-learning method overview: multi-source evidence, feature construction, multi-task prediction, explainability, graph intelligence, and ROI decision support.
-
-**What it shows:** The end-to-end analytical workflow from data sources to sponsor ROI decisions.
-
-**Why it matters:** Reviewers can understand the project scope before reading implementation details.
-
-**Business takeaway:** The platform is built as a decision system, not only a model demo.
-
-## Interactive Platform Preview
-
-![WorldCupROI static decision dashboard preview](assets/gifs/static_platform_dashboard.gif)
-
-The platform is not only a modeling pipeline. It includes an interactive sponsorship intelligence dashboard for KPI discovery, sponsor ROI ranking, FanScore analysis, scenario simulation, uncertainty review, and graph-based sponsor influence exploration.
-
-**What it shows:** The actual static dashboard captured from `dashboard/panel_dashboard.html`.
-
-**Why it matters:** The README preview now matches the real platform users open locally or from GitHub.
-
-**Business takeaway:** Business users can follow the Discover -> Explain -> Predict -> Simulate -> Recommend path without reading code first.
-
-| Experience | Open |
-|---|---|
-| Live Streamlit dashboard | `make dashboard` |
-| Static dashboard preview | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
-| Animated platform GIF | [assets/gifs/static_platform_dashboard.gif](assets/gifs/static_platform_dashboard.gif) |
-| Visual preview page | [preview_visuals.html](preview_visuals.html) |
-
-| Dashboard area | What the interface shows |
-|---|---|
-| Discover | KPI cards, team/sponsor filters, ROI ranking, FanScore summary. |
-| Explain | SHAP-style ROI drivers, text signals, sponsor-team fit, media exposure. |
-| Predict | Match probability, predicted ROI, interval coverage, risk score. |
-| Simulate | Sponsor spend, player status, media exposure, weather and stage changes. |
-| Recommend | Scenario ROI lift, negative ROI probability, sponsor strategy ranking. |
+![Risk](https://img.shields.io/badge/Risk-Conformal%20%2B%20Monte%20Carlo-7B61FF)
+![Graph](https://img.shields.io/badge/Graph-NetworkX-D55E00)
+![Docker](https://img.shields.io/badge/Deploy-Docker%20%2B%20Actions-111827)
 
 | Link | Target |
 |---|---|
 | Live Demo | `make dashboard` |
-| Static Demo | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
-| Platform GIF | [assets/gifs/static_platform_dashboard.gif](assets/gifs/static_platform_dashboard.gif) |
-| Report | [sample_report.pdf](sample_report.pdf) |
-| Research Brief | [reports/sponsorship_intelligence_brief.md](reports/sponsorship_intelligence_brief.md) |
+| Static Dashboard | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
+| Executive Summary | [reports/executive_summary.pdf](reports/executive_summary.pdf) |
+| Business Report | [reports/business_insights.md](reports/business_insights.md) |
+| Data Card | [reports/data_card.md](reports/data_card.md) |
+| Model Card | [reports/model_card.md](reports/model_card.md) |
+| Deployment Guide | [docs/deployment.md](docs/deployment.md) |
 
-| Key result | Current value |
+![WorldCupROI dashboard preview](assets/gifs/static_platform_dashboard.gif)
+
+**Core result snapshot**
+
+| Area | Current value |
 |---|---:|
-| Match prediction accuracy | 0.5566 |
-| Match prediction log loss | 0.9780 |
-| Sponsor ROI model MAE | 0.1213 |
-| Sponsor ROI model R2 | 0.8590 |
+| Platform health score | 100 / 100 |
+| Match accuracy | 0.5566 |
+| Match log loss | 0.9780 |
+| Sponsor ROI MAE | 0.1183 |
+| Sponsor ROI R2 | 0.8595 |
 | Match conformal coverage | 0.9021 |
-| ROI interval coverage | 0.8454 |
-| Average negative ROI probability | 0.0000 |
-
-**Chinese summary:** WorldCupROI 不是单纯预测世界杯胜负，而是把比赛表现、真实文本信号、赞助曝光、粉丝影响力与 ROI 风险整合为体育赞助商业智能平台。
+| ROI interval coverage | 0.8814 |
+| Average Monte Carlo std | 0.1320 |
 
 ## 10-Second Overview
 
-| Capability | Output | Business value |
+WorldCupROI is a reproducible sports sponsorship analytics project with four layers:
+
+| Layer | What it does | Business value |
 |---|---|---|
-| Sponsor ROI prediction | Expected ROI, ROI lift, ranking | Moves beyond match prediction into commercial decision support. |
-| Real-source text signals | Media heat, narrative momentum, text embeddings | Captures attention shifts that tabular sports data misses. |
-| Uncertainty quantification | Prediction intervals, coverage, negative ROI probability | Makes sponsorship decisions risk-aware instead of point-estimate driven. |
-| Scenario simulation | Spend, exposure, player, weather, stage changes | Tests strategy before campaign money is committed. |
-| Interactive dashboard | Discover -> Explain -> Predict -> Simulate -> Recommend | Turns model outputs into a repeatable business workflow. |
+| Data intelligence | Separates real historical data, real text data, and proxy/mock commercial data | Makes data boundaries visible before decisions |
+| ML modeling | Trains match outcome and sponsor ROI models with validation outputs | Converts sports and attention signals into measurable ROI forecasts |
+| Risk and explainability | Adds SHAP-style drivers, conformal intervals, Monte Carlo risk, and scenario lift | Turns point estimates into defensible decisions |
+| Product dashboard | Discover -> Explain -> Predict -> Simulate -> Recommend | Makes the work usable by analysts and business reviewers |
 
 ## Results Showcase
 
-Results come first because sponsorship teams need to see the business signal before reading the engineering stack. The tables are intentionally kept compact and consistent so they render cleanly on GitHub.
-
-### Results Overview
-
-| Area | Metric | Current value | Decision meaning |
-|---|---|---:|---|
-| Match prediction | Accuracy | 0.5566 | Baseline signal for team outcome probability. |
-| Match prediction | Log loss | 0.9780 | Measures probability calibration quality. |
-| Sponsor ROI | MAE | 0.1213 | Average ROI prediction error. |
-| Sponsor ROI | R2 | 0.8590 | Share of ROI variance explained by model signals. |
-| Conformal prediction | Match coverage | 0.9021 | Reliability of match prediction sets. |
-| Conformal prediction | ROI coverage | 0.8454 | Reliability of ROI interval estimates. |
-| Uncertainty | Negative ROI probability | 0.0000 | Current average downside probability in generated panel. |
-
 ### Model Performance Comparison
 
-| Task | Model | Metrics | Status |
-|---|---|---|---|
-| Match outcome | Centroid classifier | Accuracy 0.5566, Log loss 0.9780 | Reproducible baseline |
-| Sponsor ROI | Ridge regression | R2 0.8590, MAE 0.1213 | Reproducible baseline |
-| Tabular modeling | XGBoost | Accuracy, Log loss, feature gain | Optional package |
-| Tabular modeling | LightGBM | Accuracy, Log loss, feature gain | Optional package |
-| Categorical modeling | CatBoost | Accuracy, Log loss, categorical splits | Optional package |
+![Model Performance Comparison](assets/figures/model_performance_comparison.png)
 
-### Cross-Validation Generalization
+**What it shows:** Compares trained baseline and benchmark models on primary evaluation metrics.
+
+**Why it matters:** It shows whether the current model choice is a stable baseline or only a placeholder.
+
+**Business takeaway:** Use the benchmark spread to decide which model family deserves production tuning first.
+
+| Task | Model | Metric | Value |
+|---|---|---|---:|
+| Match outcome | Centroid classifier | Accuracy | 0.5566 |
+| Match outcome | Centroid classifier | Log loss | 0.9780 |
+| Sponsor ROI | Ridge regression | MAE | 0.1183 |
+| Sponsor ROI | Ridge regression | R2 | 0.8595 |
+
+### ROI Feature Importance / SHAP
+
+![ROI Feature Importance / SHAP](assets/figures/roi_feature_importance_shap.png)
+
+**What it shows:** Ranks the strongest sponsor ROI drivers using SHAP-style feature contribution scores.
+
+**Why it matters:** Explainability keeps ROI recommendations auditable and helps detect proxy-label overdependence.
+
+**Business takeaway:** Improve brand heat, sponsor-team fit, media exposure, and activation quality before scaling spend.
+
+### Sponsor ROI Ranking
+
+![Sponsor ROI Ranking](assets/figures/sponsor_roi_ranking.png)
+
+**What it shows:** Ranks sponsors by predicted commercial ROI and network influence evidence.
+
+**Why it matters:** A sponsor can look attractive because expected ROI is high or because relationship influence is broad.
+
+**Business takeaway:** Prioritize sponsors that combine high ROI with strong team-player-network leverage.
+
+### Scenario ROI Lift
+
+![Scenario ROI Lift](assets/figures/scenario_roi_lift.png)
+
+**What it shows:** Shows conservative, balanced, and aggressive strategy lift against the baseline.
+
+**Why it matters:** Scenario analysis turns the model from prediction into a decision simulator.
+
+**Business takeaway:** Select aggressive strategies only when lift is positive and risk remains tolerable.
+
+### Prediction Interval / Conformal Prediction
+
+![Prediction Interval / Conformal Prediction](assets/figures/prediction_interval_conformal.png)
+
+**What it shows:** Displays ROI point estimates with conformal-style prediction intervals.
+
+**Why it matters:** Prediction intervals show forecast reliability, not just expected value.
+
+**Business takeaway:** Prefer narrow-interval opportunities when sponsor budgets are constrained.
+
+### Monte Carlo Risk Distribution
+
+![Monte Carlo Risk Distribution](assets/figures/monte_carlo_risk_distribution.png)
+
+**What it shows:** Shows the distribution of Monte Carlo ROI standard deviation and risk scores.
+
+**Why it matters:** The spread of risk is often more important than average ROI for sponsorship planning.
+
+**Business takeaway:** Use high-risk tails as triggers for staged spend, insurance clauses, or additional analyst review.
+
+### Sponsor-Team-Player Network
+
+![Sponsor-Team-Player Network](assets/figures/sponsor_team_player_network.png)
+
+**What it shows:** Visualizes sponsor, team, and player relationships as a weighted commercial graph.
+
+**Why it matters:** Graph position captures activation leverage that flat tables miss.
+
+**Business takeaway:** Use central sponsors and teams as anchor partnerships for campaign portfolios.
+
+## Problem
+
+Most football analytics projects stop at predicting who wins. Sponsorship decisions need more: media exposure, fan attention, brand fit, player availability, commercial momentum, downside risk, and an explanation a non-technical stakeholder can trust.
+
+WorldCupROI frames the World Cup as an attention market where sponsor ROI depends on both match context and business activation.
+
+## Why It Matters
+
+Tournament sponsorship budgets are committed before all outcomes are known. A high-profile campaign can underperform if the model ignores uncertainty, audience behavior, or sponsor-team fit.
+
+| Audience | Value |
+|---|---|
+| Sports business analysts | Compare ROI, risk, sponsor fit, and scenario lift |
+| ML reviewers | Inspect model cards, validation, feature importance, and leakage risks |
+| Researchers | Study links between match performance, text signals, user attention, and ROI |
+| Product reviewers | Open a dashboard and reproduce the analysis end to end |
+
+## Key Innovations
+
+| Innovation | Implementation |
+|---|---|
+| Data boundary documentation | `reports/data_card.md`, `reports/data_quality_report.md` |
+| Generalization checks | Five-fold CV plus holdout metrics in `reports/cross_validation_summary.csv` |
+| User research chain | Media exposure -> user attention -> social interaction -> sponsor conversion |
+| Explainable ROI modeling | SHAP-style feature contributions and grouped driver reports |
+| Risk-aware decisions | Conformal intervals, bootstrap intervals, Monte Carlo risk, scenario ranking |
+| Graph intelligence | NetworkX centrality, sponsor influence, player influence, GCN/GraphSAGE roadmap |
+| Productized workflow | Dashboard pages: Discover -> Explain -> Predict -> Simulate -> Recommend |
+
+## Research Questions
+
+1. How much do match strength, player availability, and tournament stage change sponsor ROI?
+2. Do media narratives and fan behavior improve ROI analysis beyond match results?
+3. Which sponsor features create the strongest ROI lift under uncertainty?
+4. How stable are ROI predictions under cross-validation and subsample checks?
+5. Can graph centrality reveal sponsor-team-player influence patterns?
+6. How can a dashboard convert model output into a business recommendation?
+
+## Dataset & Data Sources
+
+| Data category | Examples | Trust level | Boundary |
+|---|---|---|---|
+| Real historical data | International match records, World Cup history | Medium-high | Public historical sports facts |
+| Real text data | GDELT/Wikimedia style article metadata and text windows | Medium | Real-source text, lightweight NLP features |
+| Proxy/mock commercial data | Sponsor spend, ad exposure, activation quality, conversion proxy | Medium-low | Reproducible demo data, not audited revenue |
+| Derived model outputs | Predicted ROI, risk score, scenario lift | Model-dependent | Decision support only |
+
+Detailed documentation:
+
+```text
+reports/data_card.md
+reports/data_quality_report.md
+docs/data_card.md
+```
+
+## Model Performance
+
+Cross-validation is generated by `src/model_validation.py` and saved to `reports/cross_validation_summary.csv`.
 
 | Task | Model | Metric | Folds | Mean | Std | Min | Max |
 |---|---|---|---:|---:|---:|---:|---:|
 | match_outcome | CentroidOutcomeModel | accuracy | 5 | 0.5436 | 0.0389 | 0.5026 | 0.6010 |
-| match_outcome | CentroidOutcomeModel | log_loss | 5 | 0.9861 | 0.0230 | 0.9584 | 1.0150 |
-| sponsor_roi | RidgeROIModel | mae | 5 | 0.1162 | 0.0070 | 0.1070 | 0.1248 |
-| sponsor_roi | RidgeROIModel | r2 | 5 | 0.8600 | 0.0210 | 0.8305 | 0.8882 |
+| match_outcome | CentroidOutcomeModel | log_loss | 5 | 0.9861 | 0.0231 | 0.9584 | 1.0150 |
+| sponsor_roi | RidgeROIModel | mae | 5 | 0.1162 | 0.0069 | 0.1070 | 0.1245 |
+| sponsor_roi | RidgeROIModel | r2 | 5 | 0.8540 | 0.0226 | 0.8218 | 0.8837 |
 | sponsor_roi | RidgeROIModel | rmse | 5 | 0.1425 | 0.0073 | 0.1315 | 0.1492 |
 
-**What it shows:** Five-fold cross-validation compares holdout results with fold-level generalization behavior.
-
-**Why it matters:** A single split can look stable by accident; fold means and variance show whether the model survives different validation samples.
-
-**Business takeaway:** Use cross-validation variance as a deployment gate before presenting ROI numbers as sponsor planning evidence.
-
-### ROI Feature Importance / SHAP
-
-![ROI feature importance](assets/figures/roi_feature_importance.svg)
-
-**What it shows:** Figure 1 ranks the strongest drivers of predicted sponsor ROI, including brand heat, team strength, sponsor spend, ad exposure, sponsor-team fit, and commercial momentum.
-
-**Why it matters:** Sponsor value is driven by both football performance and attention dynamics, so ROI cannot be explained by match results alone.
-
-**Business takeaway:** Brands should evaluate team strength together with media exposure, fan attention, and sponsor-team fit before increasing campaign spend.
-
-### Sponsor ROI Ranking
-
-| Rank | Sponsor | Influence score | Connected nodes | Average edge weight |
-|---:|---|---:|---:|---:|
-| 1 | Hyundai | 1261.417 | 262 | 2.3534 |
-| 2 | Adidas | 1079.883 | 233 | 2.3074 |
-| 3 | Coca-Cola | 1046.330 | 235 | 2.2262 |
-| 4 | Visa | 1030.583 | 236 | 2.2021 |
-| 5 | Hisense | 787.907 | 185 | 2.1411 |
-
-**What it shows:** The sponsor ranking summarizes commercial network influence across team, player, sponsor, and match relationships.
-
-**Why it matters:** Sponsors with broader and stronger network positions are more likely to convert event attention into measurable commercial value.
-
-**Business takeaway:** Sponsorship planning should prioritize both spend level and network fit, not only brand size.
-
-### Scenario ROI Lift
-
-![Scenario ROI lift](assets/figures/scenario_ranking.svg)
-
-| Scenario | Average predicted ROI | Average ROI delta | Average ROI lift |
-|---|---:|---:|---:|
-| A_baseline | 3.818 | 0.000 | 0.000% |
-| B_core_player_absent | 3.738 | -0.080 | -2.074% |
-| C_sponsor_upgrade | 3.606 | -0.213 | -5.580% |
-| D_media_cooling | 3.608 | -0.210 | -5.521% |
-
-**What it shows:** Figure 2 compares baseline ROI with counterfactual scenarios such as player absence, sponsor activation change, and media cooling.
-
-**Why it matters:** Sponsorship ROI is sensitive to player availability and attention shocks.
-
-**Business takeaway:** Scenario planning should be part of sponsor budget allocation before tournament exposure peaks.
-
-### Prediction Interval / Conformal Prediction
-
-![Prediction interval](assets/figures/roi_uncertainty_intervals.svg)
-
-| Prediction target | Coverage rate | Average interval or set size | qhat |
-|---|---:|---:|---:|
-| Match prediction sets | 0.9021 | 2.3814 | 0.8110 |
-| ROI prediction intervals | 0.8454 | 0.4578 | 0.2289 |
-
-**What it shows:** Figure 3 shows prediction intervals and conformal coverage for match outcomes and ROI estimates.
-
-**Why it matters:** Decision makers need ranges and reliability estimates, not only point predictions.
-
-**Business takeaway:** Sponsors can use interval width and coverage as risk controls before approving higher spend.
-
-### Uncertainty Heatmap
-
-![Uncertainty heatmap](assets/figures/uncertainty_heatmap.png)
-
-**What it shows:** Average ROI interval width by match stage and risk level.
-
-**Why it matters:** Wider intervals identify stage-risk combinations where the model is less certain.
-
-**Business takeaway:** Use high-uncertainty cells for conservative budget controls, staged spend, or additional analyst review.
-
-### Risk vs Marginal Benefit
-
-![Risk marginal benefit](assets/figures/risk_marginal_benefit.png)
-
-**What it shows:** Scenario ROI lift against scenario risk score.
-
-**Why it matters:** The highest ROI lift is not always the best decision if the risk score rises faster than the marginal benefit.
-
-**Business takeaway:** Favor scenarios with positive lift and moderate risk; aggressive strategies need a clear attention or stage-premium reason.
-
-### Monte Carlo Risk Distribution
-
-| Risk signal | Current value | Decision use |
-|---|---:|---|
-| Average negative ROI probability | 0.0000 | Downside screen for sponsor scenarios. |
-| Average interval width | 0.4340 | Confidence band for ROI planning. |
-| Average Monte Carlo standard deviation | 0.1320 | Volatility signal under scenario perturbation. |
-| Medium-risk cases | 119 | Cases needing additional review. |
-| High-risk cases | 0 | Current generated panel has no high-risk cases. |
-
-**What it shows:** The risk summary combines bootstrap intervals, Monte Carlo perturbation, and variance-based risk scoring.
-
-**Why it matters:** ROI forecasts are more useful when the downside distribution is visible.
-
-**Business takeaway:** Sponsors should compare expected ROI with risk score and interval width before selecting a campaign scenario.
-
-### Text Signal Projection
-
-![Text signal projection](assets/figures/text_embedding_map.svg)
-
-**What it shows:** Figure 4 projects real-source text signals from GDELT and Wikimedia into reduced dimensions for modeling.
-
-**Why it matters:** Media narratives and sponsor news can change commercial momentum before the match result is known.
-
-**Business takeaway:** Text evidence should be treated as an early signal for sponsor attention and campaign timing.
-
-### Sponsor-Team-Player Network
-
-![GNN relationship explanation](assets/figures/gnn_relationship_explainer.svg)
-
-| Network signal | Current value | Decision use |
-|---|---:|---|
-| Graph edges | 6112 | Relationship density across sports and sponsor entities. |
-| Graph nodes | 1394 | Scale of the commercial network. |
-| Top sponsor by influence | Hyundai | Current strongest sponsor-network position. |
-| Top sponsor influence score | 1261.417 | Comparable influence score for ranking. |
-
-**What it shows:** The graph layer connects sponsors, teams, players, and matches into a weighted heterogeneous network.
-
-**Why it matters:** Sponsorship effectiveness depends on how brand exposure, team context, player influence, and match stage pass information through the relationship network.
-
-**Business takeaway:** Network centrality and edge strength can help identify sponsors with stronger activation leverage and more resilient commercial pathways.
-
-## Problem
-
-Sports sponsorship is a race against a moving attention market. A brand often invests before the tournament story is fully written, while the return depends on conditions that can change within hours:
-
-- Match importance and tournament stage.
-- Team strength and player availability.
-- Fan attention and media reposts.
-- Sponsor spend, ad exposure, brand heat, and brand fit.
-- Weather, venue, and home/away context.
-- News narratives and public sentiment.
-
-Most sports analytics projects stop at predicting who wins. WorldCupROI treats match probability as only one signal inside a broader sponsor ROI, risk, and recommendation system.
-
-## Why It Matters
-
-Major tournaments compress global attention into a short decision window. Sponsors need to act before all information is known, and poor timing can turn a high-profile campaign into weak commercial return.
-
-| Audience | Value |
-|---|---|
-| Sports business analysts | Compare sponsors, teams, stages, and ROI risk. |
-| ML and data science reviewers | Inspect reproducible modeling, feature engineering, and uncertainty outputs. |
-| Researchers | Study how sports performance, media attention, sentiment, and sponsorship signals interact. |
-
-The goal is to connect predictions to business decisions: what to sponsor, when to activate, where the upside is, and how much risk sits behind the headline ROI.
-
-## Key Innovations
-
-![Data flow](assets/figures/data_flow.svg)
-
-| Innovation | Implementation |
-|---|---|
-| Multi-source data system | World Cup match records, GDELT article metadata, Wikimedia text, sponsor tables, and weather context. |
-| Multimodal text layer | 5,450 real-source text units -> hashed TF-IDF -> 24-dimensional reduced text features. |
-| Sponsorship feature store | FanScore, Sponsor Power Index, Media Exposure Index, and Commercial Momentum Score. |
-| Model stack | Match outcome classification, sponsor ROI regression, scenario simulation, and model registry. |
-| Explainability | SHAP-style contribution tables and ROI driver reports. |
-| Uncertainty quantification | Conformal prediction, bootstrap intervals, Monte Carlo risk, negative ROI probability, and risk score. |
-| Graph intelligence | Team-player-sponsor-match graph with sponsor and player commercial influence scores. |
-| Product workflow | Discover -> Explain -> Predict -> Simulate -> Recommend. |
-
-## Research Questions
-
-1. How much do match probability, team strength, and player availability affect sponsor ROI?
-2. Do sponsor spend and ad exposure matter more than fan attention and media narratives?
-3. Can real-source text signals improve commercial momentum analysis?
-4. Which scenarios create the strongest ROI lift under risk constraints?
-5. How can uncertainty intervals make sponsor decisions more defensible?
-6. What role can graph models play in team-player-sponsor-match relationships?
-
-## Dataset & Data Sources
-
-| Dataset | Role | Boundary |
-|---|---|---|
-| `data/raw/international_results.csv` | Public international match records used to derive World Cup match history. | Historical public data. |
-| `data/raw/gdelt_worldcup_articles_deduped.json` | GDELT article metadata related to World Cup sponsorship and media. | Real-source text metadata. |
-| `data/raw/wikipedia_pages.json` | Wikimedia page text for tournament, marketing, and sponsor context. | Real-source reference text. |
-| `data/real_text_articles.csv` | 5,450 real-source text units and evidence windows. | Real-source text layer. |
-| `data/text_embeddings_reduced.csv` | 24-dimensional reduced text features. | Reproducible derived features. |
-| `data/modeling_dataset.csv` | Joined modeling table. | Feature-engineered analysis data. |
-| `data/panel_dataset.csv` | Dashboard-ready panel data. | Dashboard and reporting layer. |
-| Sponsor spend and ROI fields | Commercial sponsor inputs and ROI targets. | Proxy/mock values where contract-level data is unavailable. |
-
-Commercial metrics such as exact sponsor spend are proxy-derived where public contract-level data is unavailable. These columns are documented so they can be replaced by licensed sponsor datasets or future API connectors.
-
-## Architecture
-
-```mermaid
-flowchart LR
-    A["Historical matches<br/>1930-2022"] --> F["Unified Feature Store"]
-    B["2026 schedule<br/>stage + venue"] --> F
-    C["Sponsors<br/>spend + exposure"] --> F
-    D["Players + coaches<br/>ability + experience"] --> F
-    E["Real-source text<br/>GDELT + Wikimedia"] --> F
-    W["Weather + home/away<br/>context"] --> F
-
-    F --> M["Match Outcome Model<br/>win/draw/loss probability"]
-    F --> R["Sponsor ROI Model<br/>commercial return regression"]
-    F --> G["Graph Intelligence<br/>team-player-sponsor-match network"]
-
-    M --> C1["Conformal Prediction<br/>coverage + prediction sets"]
-    R --> U["Uncertainty Engine<br/>bootstrap + Monte Carlo"]
-    G --> I["Influence Scores<br/>sponsor + player centrality"]
-
-    C1 --> S["Insight Generator"]
-    U --> S
-    I --> S
-    S --> D1["Dashboard<br/>Discover -> Explain -> Predict -> Simulate -> Recommend"]
-    S --> D2["Reports<br/>Markdown + PDF + CSV"]
-```
-
-This flow is the spine of the platform: data enters once, features are reused across models, and every prediction is routed through explanation, uncertainty, and business reporting before it reaches the dashboard.
-
-### Algorithm Upgrade Structure
-
-WorldCupROI now documents the algorithm system as four connected layers instead of isolated scripts. The current implementation keeps lightweight fallback models runnable, while making the production upgrade path explicit.
-
-| Layer | Current method | Output | Upgrade path |
-|---|---|---|---|
-| Match Outcome Layer | CentroidOutcomeModel with deterministic split | win/draw/loss probability, feature importance, conformal set | calibrated logistic regression, LightGBM multiclass, XGBoost multi-class |
-| Sponsor ROI Layer | Standardized RidgeROIModel | predicted ROI, ROI lift, ROI driver ranking, interval estimate | ElasticNet, LightGBMRegressor, XGBoostRegressor, stacked tabular ensemble |
-| Risk & Recommendation Layer | bootstrap, Monte Carlo, conformal intervals | negative ROI probability, scenario ranking, lift-risk recommendation | ensemble variance, Bayesian optimization, portfolio allocation |
-| Relationship Intelligence Layer | weighted heterogeneous graph centrality | sponsor influence, player/team/sponsor graph metrics | GraphSAGE, heterogeneous GNN, temporal graph model |
-
-The structured algorithm manifest is generated at:
+Model governance:
 
 ```text
-reports/algorithm_manifest.json
-reports/algorithm_strategy.md
-```
-
-Each trained fallback model now also writes a model card:
-
-```text
+reports/model_card.md
 reports/match_outcome_model_card.md
 reports/sponsor_roi_model_card.md
 ```
 
-This makes the repository easier to review as a research project: model target, feature count, metrics, artifact path, random seed, and upgrade notes are tracked as explicit artifacts.
+## Explainability & SHAP
 
-![Architecture diagram](assets/figures/architecture.svg)
+Explainability artifacts:
 
-**What it shows:** Figure 5 summarizes the platform architecture from data sources to features, models, uncertainty, report generation, and dashboard delivery.
+```text
+reports/roi_feature_importance.csv
+reports/roi_driver_explanations.csv
+reports/explainability_report.md
+assets/figures/roi_feature_importance_shap.png
+```
 
-**Why it matters:** The system is designed as a reproducible analytics platform rather than a one-off notebook.
+The ROI explanation layer is designed for business review: it connects model output to sponsor spend, brand heat, media exposure, FanScore, stage premium, player influence, and sponsor-team fit.
 
-**Business takeaway:** Sponsors can trace a recommendation back to data, features, models, and risk logic.
+## Uncertainty & Conformal Prediction
 
-![Model architecture](assets/figures/model_pipeline.svg)
+| Reliability layer | Output | Current value |
+|---|---|---:|
+| Match conformal prediction | Coverage rate | 0.9021 |
+| Match conformal prediction | Average set size | 2.3814 |
+| ROI conformal prediction | Coverage rate | 0.8814 |
+| ROI conformal prediction | Average interval width | 0.4771 |
+| Monte Carlo risk | Average std | 0.1320 |
+| Monte Carlo risk | Medium-risk cases | 119 |
 
-**What it shows:** Figure 6 shows the modeling pipeline for match prediction, ROI prediction, uncertainty, and scenario analysis.
+Risk artifacts:
+
+```text
+data/roi_uncertainty.csv
+reports/conformal_prediction_report.md
+reports/uncertainty_summary.md
+assets/figures/monte_carlo_risk_distribution.png
+assets/figures/prediction_interval_conformal.png
+```
+
+## Scenario Simulation
+
+WorldCupROI supports conservative, balanced, and aggressive sponsor strategies. Each scenario includes ROI, lift, risk score, confidence interval, recommendation reason, and rank.
+
+| Strategy | Intended use |
+|---|---|
+| Conservative | Reduce downside when uncertainty is high |
+| Balanced | Default planning mode for stable sponsor activation |
+| Aggressive | Capture high-attention stages when upside justifies risk |
+
+Generated artifacts:
+
+```text
+data/scenario_recommendations.csv
+reports/scenario_ranking.md
+reports/scenario_strategy_summary.csv
+assets/figures/scenario_roi_lift.png
+```
+
+## Graph Intelligence
+
+The graph layer upgrades a flat sponsor table into a heterogeneous team-player-sponsor-match network.
+
+| Graph output | File |
+|---|---|
+| Node centrality | `reports/graph_node_centrality.csv` |
+| Sponsor influence | `reports/sponsor_influence_scores.csv` |
+| Graph report | `reports/graph_analysis_report.md` |
+| Network figure | `assets/figures/sponsor_team_player_network.png` |
+
+Production roadmap includes GCN/GraphSAGE baselines, temporal graph features, and relationship decay by tournament stage.
+
+## Architecture
+
+![Architecture](assets/figures/architecture.svg)
+
+**What it shows:** The full platform architecture from data sources to features, models, risk controls, reports, and dashboard delivery.
+
+**Why it matters:** Reviewers can understand how data, modeling, uncertainty, graph intelligence, and product outputs connect.
+
+**Business takeaway:** Sponsors can trace a recommendation back to evidence rather than treating the dashboard as a black box.
+
+![Model Pipeline](assets/figures/model_pipeline.svg)
+
+**What it shows:** The modeling pipeline for match prediction, ROI prediction, explanation, conformal intervals, and scenario outputs.
 
 **Why it matters:** Separating match outcome modeling from sponsor ROI modeling keeps the business target clear.
 
-**Business takeaway:** Match probability becomes one commercial input rather than the final product.
-
-![Decision flow](assets/figures/decision_workflow.svg)
-
-```mermaid
-flowchart LR
-    D["Discover<br/>select team, sponsor, stage"] --> E["Explain<br/>inspect ROI drivers"]
-    E --> P["Predict<br/>match + ROI forecast"]
-    P --> S["Simulate<br/>spend, exposure, player status"]
-    S --> R["Recommend<br/>lift-risk tradeoff"]
-```
-
-**What it shows:** Figure 7 maps dashboard use to the business workflow Discover -> Explain -> Predict -> Simulate -> Recommend.
-
-**Why it matters:** Each module answers a decision question instead of presenting disconnected charts.
-
-**Business takeaway:** The dashboard supports repeated sponsor planning, not only static reporting.
+**Business takeaway:** Match probability becomes one commercial input, not the final product.
 
 ## Dashboard Gallery
 
-The dashboard is structured around a business decision sequence rather than a loose chart collection. Each screen is designed to answer one sponsor question, then hand the user to the next decision.
+The Streamlit app and static HTML dashboard are structured as:
 
-| Dashboard module | Main interaction | Decision value |
+```text
+Discover -> Explain -> Predict -> Simulate -> Recommend
+```
+
+| Page | Purpose | Interactive/exportable outputs |
 |---|---|---|
-| Overview | KPI cards, ROI ranking, FanScore summary | Identify the strongest commercial opportunities quickly. |
-| Scenario simulation | Sponsor spend, media exposure, player status controls | See ROI move as strategy assumptions change. |
-| Risk analysis | Intervals, Monte Carlo distribution, negative ROI probability | Separate attractive upside from fragile forecasts. |
-| Network analysis | Sponsor-team-player graph and centrality ranking | Find brands and players with stronger activation leverage. |
+| Discover | Select team, sponsor, stage, and year context | KPI export |
+| Explain | Inspect ROI, sponsor ranking, and attention map | Chart hover and filtered tables |
+| Predict | Review FanScore and prediction intervals | Risk CSV / PDF / Markdown |
+| Simulate | Compare weather, venue, and stage effects | Scenario charts |
+| Recommend | Compare conservative/balanced/aggressive strategies | Scenario CSV / PDF / Markdown |
+| Network | Inspect sponsor centrality and influence | Network CSV / PDF / Markdown |
+
+![Dashboard Gallery](assets/figures/dashboard_gallery.svg)
+
+**What it shows:** The dashboard pages as a decision workflow, not a loose chart wall.
+
+**Why it matters:** Each page answers one business question and passes the user to the next step.
+
+**Business takeaway:** Analysts can move from evidence to recommendation without leaving the platform.
+
+Additional GIF previews:
 
 | Preview | GIF |
 |---|---|
@@ -430,148 +319,102 @@ The dashboard is structured around a business decision sequence rather than a lo
 | Risk analysis | ![Risk uncertainty](assets/gifs/risk_uncertainty.gif) |
 | Network analysis | ![Sponsor network graph](assets/gifs/network_graph.gif) |
 
-### Static Platform Workflow
+## Demo Video
 
-The main GIF above is captured directly from `dashboard/panel_dashboard.html`, so it matches the actual static platform rather than a separate mock animation. It highlights the decision flow: Discover -> Explain -> Predict -> Simulate -> Recommend.
-
-Generated showcase files are indexed in [docs/project_artifacts.md](docs/project_artifacts.md), including GIF previews, background images, and regeneration commands.
-
-| Workflow step | Question answered | Output |
-|---|---|---|
-| Discover | Which teams, sponsors, stages, and years are being compared? | Filtered sponsor and match context. |
-| Explain | Which features drive ROI and attention? | ROI drivers, FanScore, SHAP-style ranking. |
-| Predict | What are the expected match and sponsorship outcomes? | Win/draw/loss probability and ROI estimate. |
-| Simulate | How does ROI shift under sponsor, player, weather, and stage changes? | Counterfactual ROI lift and risk movement. |
-| Recommend | Which scenario has the best lift-risk tradeoff? | Strategy ranking and business recommendation. |
-
-Static dashboard:
+The repository includes generated demo media:
 
 ```text
-dashboard/panel_dashboard.html
+assets/videos/worldcuproi_demo.mp4
+assets/gifs/static_platform_dashboard.gif
+assets/gifs/dashboard_overview.gif
 ```
 
-Streamlit dashboard:
+The main README GIF is captured from the real static dashboard page so the preview matches the actual platform behavior.
 
-```bash
-make dashboard
+## Installation & Reproducibility
+
+### Windows PowerShell
+
+```powershell
+git clone https://github.com/2417467487-hub/WorldCupROI.git
+cd WorldCupROI
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python src/pipeline.py --demo
+streamlit run dashboard/app.py -- --demo
 ```
 
-## Installation
-
-Clone the repository:
+### macOS
 
 ```bash
 git clone https://github.com/2417467487-hub/WorldCupROI.git
 cd WorldCupROI
-python -m venv .venv
-```
-
-Windows PowerShell:
-
-```powershell
-.venv\\Scripts\\activate
-pip install -r requirements.txt
-python scripts/run_pipeline.py
-```
-
-macOS:
-
-```bash
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python scripts/run_pipeline.py
+python src/pipeline.py --demo
+streamlit run dashboard/app.py -- --demo
 ```
 
-Linux:
+### Linux
 
 ```bash
+git clone https://github.com/2417467487-hub/WorldCupROI.git
+cd WorldCupROI
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python scripts/run_pipeline.py
+python src/pipeline.py --demo
+streamlit run dashboard/app.py -- --demo
 ```
 
-Direct pipeline entrypoint:
-
-```bash
-python src/pipeline.py
-```
-
-Makefile shortcuts:
+### Make Shortcuts
 
 ```bash
 make pipeline
 make dashboard
 make assets
+make demo
 ```
 
-Docker:
+### Docker
 
 ```bash
 docker build -t worldcuproi .
 docker run --rm -p 8501:8501 worldcuproi
 ```
 
-Engineering reproducibility:
-
-| Component | Role |
-|---|---|
-| `src/pipeline.py` | End-to-end reproducible analytics pipeline. |
-| `src/algorithm_strategy.py` | Algorithm layers, feature groups, model cards, and upgrade manifest. |
-| `src/platform_health.py` | Checks required data, model, report, dashboard, and media artifacts. |
-| `.github/workflows/ci.yml` | GitHub Actions validation. |
-| `Dockerfile` | Containerized execution. |
-| `config/pipeline.yaml` | Pipeline configuration and output tracking. |
-
-Platform health check:
-
-```bash
-python src/platform_health.py
-```
-
-or:
-
-```bash
-make health
-```
-
-Latest generated health artifacts:
+### CI/CD
 
 ```text
-reports/platform_health.json
-reports/platform_health.md
-reports/platform_health.csv
+.github/workflows/ci.yml
+.github/workflows/streamlit-cloud.yml
+docs/deployment.md
 ```
+
+The Streamlit Cloud workflow runs the demo pipeline, smoke-tests the Streamlit app, and optionally calls `STREAMLIT_DEPLOY_HOOK_URL` when configured.
 
 ## Contributions
 
-### Academic Contribution
-
-- Frames sponsorship ROI as a multi-signal modeling problem rather than a post-event descriptive metric.
-- Combines sports analytics, media text signals, business features, uncertainty analysis, and graph intelligence.
-- Provides a reproducible research scaffold for studying fan attention, sponsor exposure, and commercial return.
-- Documents future extensions for GNN sponsor networks, conformal prediction, SHAP explanations, and generated business reports.
-
-### Engineering Contribution
-
-- Provides a one-command pipeline and modular source structure.
-- Adds model registry, explainability, uncertainty, conformal prediction, graph analysis, and generated reporting modules.
-- Includes Docker and GitHub Actions for reproducible execution.
-- Produces dashboard-ready data, reports, visual assets, and PDF output.
-
-### Business Contribution
-
-- Helps compare sponsorship strategies before or during tournament windows.
-- Gives executives risk-aware ROI estimates rather than only point predictions.
-- Supports scenario planning for media exposure, player availability, weather, and stage premium.
-- Turns sports performance and media attention into sponsor ROI decision support.
+| Contribution type | What this project contributes |
+|---|---|
+| Academic | Data card, model card, validation reports, uncertainty quantification, graph intelligence roadmap |
+| Engineering | Reproducible pipeline, Makefile, Dockerfile, CI/CD, dashboard, generated assets |
+| Business | Sponsor ROI ranking, strategy templates, risk-aware recommendations, user research funnel |
 
 ## Roadmap
 
-| Version | Product direction | Planned capability |
-|---|---|---|
-| v1 | Match Prediction | Improve calibrated win/draw/loss forecasting and historical validation. |
-| v2 | Sponsor ROI Modeling | Expand sponsor spend, exposure, and conversion features. |
-| v3 | Graph Intelligence | Add Team-Player-Sponsor-Match graph modeling with GNN baselines. |
-| v4 | Uncertainty-Aware Forecasting | Strengthen conformal coverage, bootstrap intervals, and risk dashboards. |
-| v5 | LLM Sponsorship Analyst | Generate sponsor briefs, scenario explanations, and executive reports. |
-| v6 | Real-Time Sports Intelligence Platform | Connect live APIs for weather, media, social attention, injuries, and campaign monitoring. |
+| Phase | Product goal |
+|---|---|
+| v1 Portfolio platform | Stable demo mode, generated reports, dashboard, README showcase |
+| v2 Data upgrade | Replace proxy commercial data with licensed sponsor CRM, broadcast, social, and sales data |
+| v3 Model upgrade | Calibrated boosted models, uplift modeling, temporal validation, drift monitoring |
+| v4 Graph AI | GraphSAGE/GCN baseline, temporal graph influence, sponsor portfolio optimization |
+| v5 Deployment | Hosted Streamlit Cloud demo, GitHub Pages static site, automated release artifacts |
+
+## License / Contact
+
+This repository is a portfolio and research demonstration project. Commercial sponsor variables are documented as proxy/mock where audited campaign data is unavailable.
+
+Repository: [github.com/2417467487-hub/WorldCupROI](https://github.com/2417467487-hub/WorldCupROI)

@@ -7,9 +7,9 @@ Five-fold cross-validation evaluates whether the current fallback models general
 | task | model | metric | folds | mean | std | min | max |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | match_outcome | CentroidOutcomeModel | accuracy | 5 | 0.5436 | 0.0389 | 0.5026 | 0.6010 |
-| match_outcome | CentroidOutcomeModel | log_loss | 5 | 0.9861 | 0.0230 | 0.9584 | 1.0150 |
-| sponsor_roi | RidgeROIModel | mae | 5 | 0.1162 | 0.0070 | 0.1070 | 0.1248 |
-| sponsor_roi | RidgeROIModel | r2 | 5 | 0.8600 | 0.0210 | 0.8305 | 0.8882 |
+| match_outcome | CentroidOutcomeModel | log_loss | 5 | 0.9861 | 0.0231 | 0.9584 | 1.0150 |
+| sponsor_roi | RidgeROIModel | mae | 5 | 0.1162 | 0.0069 | 0.1070 | 0.1245 |
+| sponsor_roi | RidgeROIModel | r2 | 5 | 0.8540 | 0.0226 | 0.8218 | 0.8837 |
 | sponsor_roi | RidgeROIModel | rmse | 5 | 0.1425 | 0.0073 | 0.1315 | 0.1492 |
 
 ## Interpretation
