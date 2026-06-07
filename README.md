@@ -17,7 +17,7 @@ WorldCupROI turns the World Cup attention market into a sponsorship decision eng
 | Streamlit app | `make dashboard` |
 | Executive summary | [reports/executive_summary.pdf](reports/executive_summary.pdf) |
 | Business insights | [reports/business_insights.md](reports/business_insights.md) |
-| Platform GIF | [assets/gifs/dashboard_overview.gif](assets/gifs/dashboard_overview.gif) |
+| Platform GIF | [assets/gifs/static_platform_dashboard.gif](assets/gifs/static_platform_dashboard.gif) |
 | Data card | [docs/data_card.md](docs/data_card.md) |
 | Model card | [reports/model_card.md](reports/model_card.md) |
 | Deployment guide | [docs/deployment.md](docs/deployment.md) |
@@ -36,7 +36,7 @@ The opening figure is generated with Python from `scripts/generate_readme_assets
 
 ## Interactive Platform Preview
 
-![WorldCupROI interactive dashboard preview](assets/gifs/dashboard_overview.gif)
+![WorldCupROI static decision dashboard preview](assets/gifs/static_platform_dashboard.gif)
 
 The platform is not only a modeling pipeline. It includes an interactive sponsorship intelligence dashboard for KPI discovery, sponsor ROI ranking, FanScore analysis, scenario simulation, uncertainty review, and graph-based sponsor influence exploration.
 
@@ -44,7 +44,7 @@ The platform is not only a modeling pipeline. It includes an interactive sponsor
 |---|---|
 | Live Streamlit dashboard | `make dashboard` |
 | Static dashboard preview | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
-| Animated platform GIF | [assets/gifs/dashboard_overview.gif](assets/gifs/dashboard_overview.gif) |
+| Animated platform GIF | [assets/gifs/static_platform_dashboard.gif](assets/gifs/static_platform_dashboard.gif) |
 | Visual preview page | [preview_visuals.html](preview_visuals.html) |
 
 | Dashboard area | What the interface shows |
@@ -59,7 +59,7 @@ The platform is not only a modeling pipeline. It includes an interactive sponsor
 |---|---|
 | Live Demo | `make dashboard` |
 | Static Demo | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
-| Platform GIF | [assets/gifs/dashboard_overview.gif](assets/gifs/dashboard_overview.gif) |
+| Platform GIF | [assets/gifs/static_platform_dashboard.gif](assets/gifs/static_platform_dashboard.gif) |
 | Report | [sample_report.pdf](sample_report.pdf) |
 | Research Brief | [reports/sponsorship_intelligence_brief.md](reports/sponsorship_intelligence_brief.md) |
 
@@ -376,16 +376,13 @@ The dashboard is structured around a business decision sequence rather than a lo
 
 | Preview | GIF |
 |---|---|
-| Dashboard overview | ![Dashboard overview](assets/gifs/dashboard_overview.gif) |
 | Scenario simulation | ![Scenario simulation](assets/gifs/scenario_simulation.gif) |
 | Risk analysis | ![Risk uncertainty](assets/gifs/risk_uncertainty.gif) |
 | Network analysis | ![Sponsor network graph](assets/gifs/network_graph.gif) |
 
-### Static Platform GIF
+### Static Platform Workflow
 
-![WorldCupROI dashboard walkthrough](assets/gifs/dashboard_overview.gif)
-
-The static decision platform is shown as a GIF so it plays directly inside GitHub README without requiring video controls. It highlights the same decision flow as `dashboard/panel_dashboard.html`: Discover -> Explain -> Predict -> Simulate -> Recommend.
+The main GIF above is captured directly from `dashboard/panel_dashboard.html`, so it matches the actual static platform rather than a separate mock animation. It highlights the decision flow: Discover -> Explain -> Predict -> Simulate -> Recommend.
 
 Generated showcase files are indexed in [docs/project_artifacts.md](docs/project_artifacts.md), including GIF previews, background images, and regeneration commands.
 
