@@ -7,12 +7,12 @@ The platform keeps dependency-free fallback models runnable while documenting op
 | task | model | status | primary_metric | score | secondary_metric | secondary_score | notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | match_outcome | Centroid classifier | trained | accuracy | 0.5566 | log_loss | 0.978 | dependency-free baseline |
-| sponsor_roi | Ridge regression | trained | r2 | 0.8595 | mae | 0.1183 | dependency-free baseline |
+| sponsor_roi | Ridge regression | trained | r2 | 0.8838 | mae | 0.1177 | dependency-free baseline |
 | match_outcome | Logistic Regression | trained | accuracy | 0.5519 | package | sklearn | optional benchmark |
 | match_outcome | Random Forest | trained | accuracy | 0.5142 | package | sklearn | optional benchmark |
-| match_outcome | MLP | trained | accuracy | 0.533 | package | sklearn | optional benchmark |
-| sponsor_roi | Random Forest | trained | r2 | 0.838 | mae | 0.1249 | optional benchmark |
-| sponsor_roi | MLP | trained | r2 | -3.0388 | mae | 0.5924 | optional benchmark |
+| match_outcome | MLP | trained | accuracy | 0.5519 | package | sklearn | optional benchmark |
+| sponsor_roi | Random Forest | trained | r2 | 0.8711 | mae | 0.1262 | optional benchmark |
+| sponsor_roi | MLP | trained | r2 | -0.1074 | mae | 0.2925 | optional benchmark |
 | tabular classification + regression | XGBoost | available |  |  |  |  | install `xgboost` to enable full benchmark |
 | tabular classification + regression | LightGBM | available |  |  |  |  | install `lightgbm` to enable full benchmark |
 | categorical tabular modeling | CatBoost | available |  |  |  |  | install `catboost` to enable full benchmark |

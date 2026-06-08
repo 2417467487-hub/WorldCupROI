@@ -6,14 +6,14 @@
       "artifact": "modeling_dataset",
       "path": "data\\modeling_dataset.csv",
       "exists": true,
-      "size_kb": 791.91,
+      "size_kb": 793.15,
       "rows": 964
     },
     {
       "artifact": "roi_predictions",
       "path": "data\\roi_predictions.csv",
       "exists": true,
-      "size_kb": 800.16,
+      "size_kb": 801.51,
       "rows": 964
     },
     {
@@ -27,21 +27,21 @@
       "artifact": "scenario_recommendations",
       "path": "data\\scenario_recommendations.csv",
       "exists": true,
-      "size_kb": 161.88,
+      "size_kb": 161.92,
       "rows": 600
     },
     {
       "artifact": "roi_uncertainty",
       "path": "data\\roi_uncertainty.csv",
       "exists": true,
-      "size_kb": 95.06,
+      "size_kb": 95.08,
       "rows": 964
     },
     {
       "artifact": "static_dashboard",
       "path": "dashboard\\panel_dashboard.html",
       "exists": true,
-      "size_kb": 929.39,
+      "size_kb": 929.84,
       "rows": null
     },
     {

@@ -16,35 +16,35 @@ WorldCupROI combines real historical football data, real-source text/news contex
 
 | dataset | origin_type | trust_level | shape | size_kb | future_replacement_path |
 | --- | --- | --- | --- | --- | --- |
-| data/advanced_feature_outputs.csv | proxy/mock commercial data | medium-low | 964 rows x 7 columns | 91.6000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
-| data/attention_timeseries.csv | proxy/mock commercial data | medium-low | 10604 rows x 7 columns | 449.2000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
+| data/advanced_feature_outputs.csv | proxy/mock commercial data | medium-low | 964 rows x 7 columns | 91.7000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
+| data/attention_timeseries.csv | proxy/mock commercial data | medium-low | 10604 rows x 7 columns | 449.7000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/coaches.csv | proxy/mock commercial data | medium-low | 82 rows x 7 columns | 6.7000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/fan_score_outputs.csv | proxy/mock commercial data | medium-low | 1440 rows x 4 columns | 56.5000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/historical_matches.csv | real historical/text source | medium-high | 964 rows x 17 columns | 112.8000 | Refresh from source APIs and pin source snapshots with data versioning. |
-| data/media_text_corpus.csv | real historical/text source | medium-high | 4321 rows x 15 columns | 2833.4000 | Refresh from source APIs and pin source snapshots with data versioning. |
-| data/modeling_dataset.csv | proxy/mock commercial data | medium-low | 964 rows x 87 columns | 791.9000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
+| data/media_text_corpus.csv | real historical/text source | medium-high | 6282 rows x 15 columns | 4028.7000 | Refresh from source APIs and pin source snapshots with data versioning. |
+| data/modeling_dataset.csv | proxy/mock commercial data | medium-low | 964 rows x 87 columns | 793.1000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/panel_dataset.csv | proxy/mock commercial data | medium-low | 1928 rows x 30 columns | 381.2000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/players.csv | proxy/mock commercial enrichment | medium-low | 246 rows x 10 columns | 22.9000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
-| data/raw/gdelt_worldcup_article_batches.json | real historical/text source | medium-high |  | 1.0000 | Refresh from source APIs and pin source snapshots with data versioning. |
-| data/raw/gdelt_worldcup_articles_deduped.json | real historical/text source | medium-high |  | 0.0000 | Refresh from source APIs and pin source snapshots with data versioning. |
+| data/raw/gdelt_worldcup_article_batches.json | real historical/text source | medium-high |  | 180.7000 | Refresh from source APIs and pin source snapshots with data versioning. |
+| data/raw/gdelt_worldcup_articles_deduped.json | real historical/text source | medium-high |  | 156.1000 | Refresh from source APIs and pin source snapshots with data versioning. |
 | data/raw/gdelt_worldcup_sponsor_articles.json | real historical/text source | medium-high |  | 28.0000 | Refresh from source APIs and pin source snapshots with data versioning. |
 | data/raw/international_results.csv | real historical/text source | medium-high | 49437 rows x 9 columns | 3683.1000 | Refresh from source APIs and pin source snapshots with data versioning. |
-| data/raw/wikipedia_pages.json | real historical/text source | medium-high |  | 76.2000 | Refresh from source APIs and pin source snapshots with data versioning. |
-| data/real_text_articles.csv | real historical/text source | medium-high | 4321 rows x 10 columns | 2761.0000 | Refresh from source APIs and pin source snapshots with data versioning. |
+| data/raw/wikipedia_pages.json | real historical/text source | medium-high |  | 165.6000 | Refresh from source APIs and pin source snapshots with data versioning. |
+| data/real_text_articles.csv | real historical/text source | medium-high | 6282 rows x 10 columns | 3925.3000 | Refresh from source APIs and pin source snapshots with data versioning. |
 | data/relationship_network.csv | proxy/mock commercial data | medium-low | 328 rows x 4 columns | 16.3000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
-| data/roi_predictions.csv | proxy/mock commercial data | medium-low | 964 rows x 89 columns | 800.2000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
+| data/roi_predictions.csv | proxy/mock commercial data | medium-low | 964 rows x 89 columns | 801.5000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/roi_uncertainty.csv | proxy/mock commercial data | medium-low | 964 rows x 15 columns | 95.1000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/scenario_recommendations.csv | proxy/mock commercial data | medium-low | 600 rows x 15 columns | 161.9000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/schedule_2026.csv | proxy/mock commercial data | medium-low | 72 rows x 10 columns | 5.6000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
-| data/social_media.csv | proxy/mock commercial enrichment | medium-low | 964 rows x 16 columns | 116.7000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
+| data/social_media.csv | proxy/mock commercial enrichment | medium-low | 964 rows x 16 columns | 116.8000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/sponsor_panel_summary.csv | proxy/mock commercial data | medium-low | 10 rows x 7 columns | 0.5000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/sponsor_roi_outputs.csv | proxy/mock commercial data | medium-low | 1440 rows x 6 columns | 73.1000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/sponsors.csv | proxy/mock commercial enrichment | medium-low | 82 rows x 11 columns | 9.6000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
-| data/team_player_sponsor_match_edges.csv | proxy/mock commercial data | medium-low | 6112 rows x 4 columns | 305.5000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
+| data/team_player_sponsor_match_edges.csv | proxy/mock commercial data | medium-low | 6112 rows x 4 columns | 305.6000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/team_profile.csv | proxy/mock commercial data | medium-low | 82 rows x 7 columns | 3.3000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/team_year_panel.csv | proxy/mock commercial data | medium-low | 489 rows x 11 columns | 31.0000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
-| data/text_embeddings_reduced.csv | proxy/mock commercial data | medium-low | 4321 rows x 31 columns | 1225.3000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
-| data/user_behavior_chain.csv | proxy/mock commercial data | medium-low | 1928 rows x 42 columns | 526.6000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
+| data/text_embeddings_reduced.csv | proxy/mock commercial data | medium-low | 6282 rows x 31 columns | 1785.0000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
+| data/user_behavior_chain.csv | proxy/mock commercial data | medium-low | 1928 rows x 42 columns | 526.7000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 | data/weather.csv | proxy/mock commercial enrichment | medium-low | 964 rows x 10 columns | 50.1000 | Replace with licensed sponsor CRM, sales, broadcast, or social platform data. |
 
 ## Limitations

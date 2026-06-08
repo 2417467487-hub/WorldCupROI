@@ -7,22 +7,23 @@ Team-player-sponsor-match relationships are represented as a weighted graph.
 - NetworkX centrality is used for degree, weighted degree, PageRank, betweenness, and closeness.
 - Sponsor Influence combines sponsor-team, sponsor-match exposure, and centrality signals.
 - Player Influence uses player-team edges and is ready to be joined with player availability or injury feeds.
-- GCN / GraphSAGE baseline placeholder: use this edge list as a heterogeneous graph where node features come from team profile, player profile, sponsor attributes, and match context. Candidate labels are sponsor conversion proxy, ROI lift, or high-risk scenario flag.
+- GCN / GraphSAGE baseline: deterministic two-hop weighted propagation over centrality features, producing `reports/gnn_baseline_node_scores.csv`.
+- SHAP bridge: `reports/gnn_explainability_bridge.md` connects graph influence to tabular ROI driver explanations.
 
 ## Top Sponsor Influence
 
 | source | connected_nodes | sponsor_influence | avg_edge_weight | pagerank | betweenness | closeness |
 | --- | --- | --- | --- | --- | --- | --- |
-| sponsor:Hyundai | 262 | 1244.283 | 2.3214 | 0.042276 | 0.000309 | 0.310417 |
-| sponsor:Adidas | 233 | 1107.369 | 2.3662 | 0.037711 | 0.00047 | 0.303346 |
-| sponsor:Coca-Cola | 235 | 1052.637 | 2.2397 | 0.037335 | 0.001105 | 0.303116 |
-| sponsor:Visa | 236 | 1015.704 | 2.1703 | 0.03664 | 0.001399 | 0.304502 |
-| sponsor:Hisense | 185 | 799.936 | 2.1737 | 0.028665 | 0.001115 | 0.29193 |
-| sponsor:Budweiser | 183 | 786.948 | 2.1739 | 0.0286 | 0.001507 | 0.292144 |
-| sponsor:McDonald's | 187 | 725.069 | 1.9703 | 0.028382 | 0.012697 | 0.292357 |
-| sponsor:Qatar Airways | 163 | 647.848 | 1.9873 | 0.025 | 0.008462 | 0.286796 |
-| sponsor:Vivo | 152 | 580.338 | 1.9474 | 0.022989 | 0.010975 | 0.284752 |
-| sponsor:Mengniu | 98 | 367.795 | 1.9156 | 0.01478 | 0.009563 | 0.273447 |
+| sponsor:Hyundai | 262 | 1307.498 | 2.4394 | 0.042622 | 0.000305 | 0.310417 |
+| sponsor:Adidas | 233 | 1136.814 | 2.4291 | 0.037632 | 0.000768 | 0.303346 |
+| sponsor:Coca-Cola | 235 | 1136.317 | 2.4177 | 0.037973 | 0.000257 | 0.303116 |
+| sponsor:Visa | 236 | 1098.354 | 2.3469 | 0.037307 | 0.00072 | 0.304502 |
+| sponsor:Hisense | 185 | 860.286 | 2.3377 | 0.029092 | 0.000491 | 0.29193 |
+| sponsor:Budweiser | 183 | 801.59 | 2.2143 | 0.028419 | 0.002216 | 0.292144 |
+| sponsor:Qatar Airways | 163 | 762.458 | 2.3388 | 0.025816 | 0.000396 | 0.286796 |
+| sponsor:McDonald's | 187 | 743.355 | 2.02 | 0.028115 | 0.013172 | 0.292357 |
+| sponsor:Vivo | 152 | 597.471 | 2.0049 | 0.022846 | 0.01153 | 0.284752 |
+| sponsor:Mengniu | 98 | 376.205 | 1.9594 | 0.014637 | 0.009675 | 0.273447 |
 
 ## Top Player Commercial Influence
 
@@ -43,13 +44,28 @@ Team-player-sponsor-match relationships are represented as a weighted graph.
 
 | node | node_type | degree | weighted_degree | pagerank | betweenness | closeness |
 | --- | --- | --- | --- | --- | --- | --- |
-| sponsor:Hyundai | sponsor | 262 | 965.545 | 0.042276 | 0.000309 | 0.310417 |
-| sponsor:Adidas | sponsor | 233 | 861.446 | 0.037711 | 0.00047 | 0.303346 |
-| sponsor:Coca-Cola | sponsor | 235 | 850.251 | 0.037335 | 0.001105 | 0.303116 |
-| sponsor:Visa | sponsor | 236 | 823.834 | 0.03664 | 0.001399 | 0.304502 |
-| sponsor:Hisense | sponsor | 185 | 643.427 | 0.028665 | 0.001115 | 0.29193 |
-| sponsor:Budweiser | sponsor | 183 | 643.73 | 0.0286 | 0.001507 | 0.292144 |
-| sponsor:McDonald's | sponsor | 187 | 630.562 | 0.028382 | 0.012697 | 0.292357 |
-| sponsor:Qatar Airways | sponsor | 163 | 550.108 | 0.025 | 0.008462 | 0.286796 |
-| sponsor:Vivo | sponsor | 152 | 503.732 | 0.022989 | 0.010975 | 0.284752 |
-| sponsor:Mengniu | sponsor | 98 | 314.433 | 0.01478 | 0.009563 | 0.273447 |
+| sponsor:Hyundai | sponsor | 262 | 1024.272 | 0.042622 | 0.000305 | 0.310417 |
+| sponsor:Coca-Cola | sponsor | 235 | 912.955 | 0.037973 | 0.000257 | 0.303116 |
+| sponsor:Adidas | sponsor | 233 | 899.006 | 0.037632 | 0.000768 | 0.303346 |
+| sponsor:Visa | sponsor | 236 | 886.688 | 0.037307 | 0.00072 | 0.304502 |
+| sponsor:Hisense | sponsor | 185 | 688.56 | 0.029092 | 0.000491 | 0.29193 |
+| sponsor:Budweiser | sponsor | 183 | 666.82 | 0.028419 | 0.002216 | 0.292144 |
+| sponsor:McDonald's | sponsor | 187 | 650.121 | 0.028115 | 0.013172 | 0.292357 |
+| sponsor:Qatar Airways | sponsor | 163 | 604.204 | 0.025816 | 0.000396 | 0.286796 |
+| sponsor:Vivo | sponsor | 152 | 521.768 | 0.022846 | 0.01153 | 0.284752 |
+| sponsor:Mengniu | sponsor | 98 | 323.016 | 0.014637 | 0.009675 | 0.273447 |
+
+## Top GCN / GraphSAGE Baseline Nodes
+
+| node | node_type | gcn_score | graphsage_score | combined_graph_score | embedding_degree | embedding_pagerank | embedding_betweenness | embedding_closeness |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| sponsor:Hyundai | sponsor | 0.296904 | 0.591577 | 0.458974 | 0.667283 | 0.668377 | 0.025295 | 0.934344 |
+| sponsor:Adidas | sponsor | 0.284529 | 0.536526 | 0.423128 | 0.5914 | 0.595773 | 0.03714 | 0.917236 |
+| sponsor:Coca-Cola | sponsor | 0.280435 | 0.538863 | 0.422571 | 0.599159 | 0.600037 | 0.022214 | 0.916854 |
+| sponsor:Visa | sponsor | 0.28276 | 0.531649 | 0.419649 | 0.58341 | 0.590577 | 0.036767 | 0.920366 |
+| match_370 | match | 0.560576 | 0.299498 | 0.416983 | 0.290653 | 0.292163 | 0.019505 | 0.808715 |
+| match_390 | match | 0.556764 | 0.297169 | 0.413987 | 0.287846 | 0.289313 | 0.017953 | 0.808799 |
+| match_923 | match | 0.553655 | 0.296044 | 0.411969 | 0.286016 | 0.287444 | 0.019106 | 0.809357 |
+| match_950 | match | 0.552578 | 0.295633 | 0.411258 | 0.284063 | 0.285343 | 0.025516 | 0.809854 |
+| match_853 | match | 0.550391 | 0.29412 | 0.409442 | 0.284211 | 0.285628 | 0.015642 | 0.809046 |
+| match_10 | match | 0.55026 | 0.294188 | 0.40942 | 0.282226 | 0.283499 | 0.025006 | 0.809829 |

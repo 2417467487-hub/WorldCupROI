@@ -7,8 +7,8 @@ WorldCupROI links match context, fan attention, media exposure, sponsor activati
 ## Model Signals
 
 - Match model: - Accuracy: 0.5566
-- ROI model: - R2: 0.8595
-- Key ROI drivers: a_sponsor_spend_m, a_brand_heat_index, team_a_strength, a_ad_exposure_m, sponsor_team_fit_score, commercial_momentum_score
+- ROI model: - R2: 0.8838
+- Key ROI drivers: a_brand_heat_index, a_sponsor_spend_m, a_ad_exposure_m, team_a_strength, sponsor_team_fit_score, commercial_momentum_score
 
 ## Risk and Uncertainty
 
@@ -30,13 +30,13 @@ WorldCupROI links match context, fan attention, media exposure, sponsor activati
 
 - Coverage rate: 0.9021
 - Average prediction set size: 2.3814
-- qhat: 0.811
+- qhat: 0.8109
 
 ## ROI Prediction Intervals
 
 - Coverage rate: 0.8814
-- Average interval width: 0.4771
-- qhat: 0.2386
+- Average interval width: 0.4745
+- qhat: 0.2373
 
 ## Scenario Recommendations
 
