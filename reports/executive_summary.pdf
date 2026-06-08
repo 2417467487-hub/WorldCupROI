@@ -12,7 +12,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 5 0 obj
-<< /Length 1667 >>
+<< /Length 1956 >>
 stream
 BT
 /F1 17 Tf
@@ -30,7 +30,7 @@ BT
 (Sponsors: 10) Tj
 0 -21 Td
 /F1 10 Tf
-(Average predicted ROI: 3.843x) Tj
+(Average predicted ROI: 3.869x) Tj
 0 -21 Td
 /F1 10 Tf
 (Average FanScore: 0.504) Tj
@@ -90,16 +90,25 @@ BT
 (Sponsor Influence) Tj
 0 -21 Td
 /F1 10 Tf
+(Deep Analysis Extensions) Tj
+0 -21 Td
+/F1 10 Tf
+(**Dynamic ROI trend:** future cycle forecast ranges from 3.94x to 3.96x.) Tj
+0 -21 Td
+/F1 10 Tf
+(**Sentiment and event impact:** largest observed average ROI delta is 0.51x.) Tj
+0 -21 Td
+/F1 10 Tf
+(**Resource optimization:** top risk-adjusted mix is Coca-Cola with 100M budget and media x1.) Tj
+0 -21 Td
+/F1 10 Tf
+(**Extreme scenarios:** widest risk interval is 0.74x across injury, sentiment, policy, and v) Tj
+0 -21 Td
+/F1 10 Tf
+(**Commercial decision score:** top integrated score opportunity is Hungary x Adidas.) Tj
+0 -21 Td
+/F1 10 Tf
 (Landing Recommendation) Tj
-0 -21 Td
-/F1 10 Tf
-(- Use conservative strategy when risk is high or conversion proxy is weak.) Tj
-0 -21 Td
-/F1 10 Tf
-(- Use balanced activation as the default commercial package.) Tj
-0 -21 Td
-/F1 10 Tf
-(- Use aggressive media surge only when attention, stage premium, and player availability ali) Tj
 0 -21 Td
 ET
 endstream
@@ -114,5 +123,5 @@ xref
 0000000311 00000 n 
 trailer << /Size 6 /Root 1 0 R >>
 startxref
-2030
+2319
 %%EOF

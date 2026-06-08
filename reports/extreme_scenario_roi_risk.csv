@@ -1,0 +1,329 @@
+team,sponsor,extreme_scenario,baseline_roi,scenario_roi,roi_ci_low,roi_ci_high,risk_interval_width,recommendation_reason
+Germany,Coca-Cola,key_player_injury,4.2217,3.6306,3.3096,3.9517,0.6421,Player availability shock lowers expected activation.
+Germany,Coca-Cola,sentiment_crisis,4.2217,3.4618,3.0941,3.8294,0.7353,Negative social/news sentiment requires defensive spend.
+Germany,Coca-Cola,sponsor_policy_change,4.2217,3.7995,3.494,4.105,0.611,Policy restriction reduces activation quality.
+Germany,Coca-Cola,positive_viral_moment,4.2217,4.8971,4.5657,5.2285,0.6628,Positive viral attention can lift upside but increases volatility.
+Argentina,Hyundai,key_player_injury,4.1151,3.539,3.218,3.86,0.6421,Player availability shock lowers expected activation.
+Argentina,Hyundai,sentiment_crisis,4.1151,3.3744,3.0067,3.742,0.7353,Negative social/news sentiment requires defensive spend.
+Argentina,Hyundai,sponsor_policy_change,4.1151,3.7036,3.3981,4.0091,0.611,Policy restriction reduces activation quality.
+Argentina,Hyundai,positive_viral_moment,4.1151,4.7735,4.4421,5.1049,0.6628,Positive viral attention can lift upside but increases volatility.
+Brazil,Adidas,key_player_injury,4.0593,3.491,3.17,3.812,0.6421,Player availability shock lowers expected activation.
+Brazil,Adidas,sentiment_crisis,4.0593,3.3286,2.961,3.6963,0.7353,Negative social/news sentiment requires defensive spend.
+Brazil,Adidas,sponsor_policy_change,4.0593,3.6534,3.3479,3.9589,0.611,Policy restriction reduces activation quality.
+Brazil,Adidas,positive_viral_moment,4.0593,4.7088,4.3774,5.0402,0.6628,Positive viral attention can lift upside but increases volatility.
+Belgium,Visa,key_player_injury,4.0453,3.4789,3.1579,3.8,0.6421,Player availability shock lowers expected activation.
+Belgium,Visa,sentiment_crisis,4.0453,3.3171,2.9495,3.6847,0.7353,Negative social/news sentiment requires defensive spend.
+Belgium,Visa,sponsor_policy_change,4.0453,3.6407,3.3352,3.9462,0.611,Policy restriction reduces activation quality.
+Belgium,Visa,positive_viral_moment,4.0453,4.6925,4.3611,5.0239,0.6628,Positive viral attention can lift upside but increases volatility.
+Croatia,Hisense,key_player_injury,4.0241,3.4607,3.1397,3.7818,0.6421,Player availability shock lowers expected activation.
+Croatia,Hisense,sentiment_crisis,4.0241,3.2998,2.9321,3.6674,0.7353,Negative social/news sentiment requires defensive spend.
+Croatia,Hisense,sponsor_policy_change,4.0241,3.6217,3.3162,3.9272,0.611,Policy restriction reduces activation quality.
+Croatia,Hisense,positive_viral_moment,4.0241,4.668,4.3366,4.9993,0.6628,Positive viral attention can lift upside but increases volatility.
+France,Qatar Airways,key_player_injury,4.009,3.4477,3.1267,3.7688,0.6421,Player availability shock lowers expected activation.
+France,Qatar Airways,sentiment_crisis,4.009,3.2874,2.9197,3.655,0.7353,Negative social/news sentiment requires defensive spend.
+France,Qatar Airways,sponsor_policy_change,4.009,3.6081,3.3026,3.9136,0.611,Policy restriction reduces activation quality.
+France,Qatar Airways,positive_viral_moment,4.009,4.6504,4.319,4.9818,0.6628,Positive viral attention can lift upside but increases volatility.
+Saudi Arabia,Visa,key_player_injury,4.008,3.4469,3.1258,3.7679,0.6421,Player availability shock lowers expected activation.
+Saudi Arabia,Visa,sentiment_crisis,4.008,3.2866,2.9189,3.6542,0.7353,Negative social/news sentiment requires defensive spend.
+Saudi Arabia,Visa,sponsor_policy_change,4.008,3.6072,3.3017,3.9127,0.611,Policy restriction reduces activation quality.
+Saudi Arabia,Visa,positive_viral_moment,4.008,4.6493,4.3179,4.9807,0.6628,Positive viral attention can lift upside but increases volatility.
+El Salvador,Budweiser,key_player_injury,3.9967,3.4371,3.1161,3.7582,0.6421,Player availability shock lowers expected activation.
+El Salvador,Budweiser,sentiment_crisis,3.9967,3.2773,2.9096,3.6449,0.7353,Negative social/news sentiment requires defensive spend.
+El Salvador,Budweiser,sponsor_policy_change,3.9967,3.597,3.2915,3.9025,0.611,Policy restriction reduces activation quality.
+El Salvador,Budweiser,positive_viral_moment,3.9967,4.6361,4.3047,4.9675,0.6628,Positive viral attention can lift upside but increases volatility.
+Russia,Hyundai,key_player_injury,3.9915,3.4327,3.1116,3.7537,0.6421,Player availability shock lowers expected activation.
+Russia,Hyundai,sentiment_crisis,3.9915,3.273,2.9054,3.6406,0.7353,Negative social/news sentiment requires defensive spend.
+Russia,Hyundai,sponsor_policy_change,3.9915,3.5923,3.2868,3.8978,0.611,Policy restriction reduces activation quality.
+Russia,Hyundai,positive_viral_moment,3.9915,4.6301,4.2987,4.9615,0.6628,Positive viral attention can lift upside but increases volatility.
+United Arab Emirates,Adidas,key_player_injury,3.991,3.4323,3.1112,3.7533,0.6421,Player availability shock lowers expected activation.
+United Arab Emirates,Adidas,sentiment_crisis,3.991,3.2726,2.905,3.6403,0.7353,Negative social/news sentiment requires defensive spend.
+United Arab Emirates,Adidas,sponsor_policy_change,3.991,3.5919,3.2864,3.8974,0.611,Policy restriction reduces activation quality.
+United Arab Emirates,Adidas,positive_viral_moment,3.991,4.6296,4.2982,4.961,0.6628,Positive viral attention can lift upside but increases volatility.
+Canada,Hisense,key_player_injury,3.9813,3.4239,3.1029,3.745,0.6421,Player availability shock lowers expected activation.
+Canada,Hisense,sentiment_crisis,3.9813,3.2647,2.8971,3.6323,0.7353,Negative social/news sentiment requires defensive spend.
+Canada,Hisense,sponsor_policy_change,3.9813,3.5832,3.2777,3.8887,0.611,Policy restriction reduces activation quality.
+Canada,Hisense,positive_viral_moment,3.9813,4.6183,4.287,4.9497,0.6628,Positive viral attention can lift upside but increases volatility.
+Spain,Budweiser,key_player_injury,3.9742,3.4178,3.0968,3.7388,0.6421,Player availability shock lowers expected activation.
+Spain,Budweiser,sentiment_crisis,3.9742,3.2588,2.8912,3.6265,0.7353,Negative social/news sentiment requires defensive spend.
+Spain,Budweiser,sponsor_policy_change,3.9742,3.5768,3.2713,3.8823,0.611,Policy restriction reduces activation quality.
+Spain,Budweiser,positive_viral_moment,3.9742,4.6101,4.2787,4.9415,0.6628,Positive viral attention can lift upside but increases volatility.
+Ukraine,Qatar Airways,key_player_injury,3.9666,3.4113,3.0902,3.7323,0.6421,Player availability shock lowers expected activation.
+Ukraine,Qatar Airways,sentiment_crisis,3.9666,3.2526,2.885,3.6203,0.7353,Negative social/news sentiment requires defensive spend.
+Ukraine,Qatar Airways,sponsor_policy_change,3.9666,3.5699,3.2644,3.8754,0.611,Policy restriction reduces activation quality.
+Ukraine,Qatar Airways,positive_viral_moment,3.9666,4.6013,4.2699,4.9326,0.6628,Positive viral attention can lift upside but increases volatility.
+Jamaica,Adidas,key_player_injury,3.961,3.4065,3.0854,3.7275,0.6421,Player availability shock lowers expected activation.
+Jamaica,Adidas,sentiment_crisis,3.961,3.248,2.8804,3.6157,0.7353,Negative social/news sentiment requires defensive spend.
+Jamaica,Adidas,sponsor_policy_change,3.961,3.5649,3.2594,3.8704,0.611,Policy restriction reduces activation quality.
+Jamaica,Adidas,positive_viral_moment,3.961,4.5948,4.2634,4.9262,0.6628,Positive viral attention can lift upside but increases volatility.
+Poland,Coca-Cola,key_player_injury,3.9584,3.4042,3.0832,3.7252,0.6421,Player availability shock lowers expected activation.
+Poland,Coca-Cola,sentiment_crisis,3.9584,3.2459,2.8782,3.6135,0.7353,Negative social/news sentiment requires defensive spend.
+Poland,Coca-Cola,sponsor_policy_change,3.9584,3.5625,3.257,3.868,0.611,Policy restriction reduces activation quality.
+Poland,Coca-Cola,positive_viral_moment,3.9584,4.5917,4.2603,4.9231,0.6628,Positive viral attention can lift upside but increases volatility.
+Japan,Adidas,key_player_injury,3.9544,3.4008,3.0798,3.7219,0.6421,Player availability shock lowers expected activation.
+Japan,Adidas,sentiment_crisis,3.9544,3.2426,2.875,3.6103,0.7353,Negative social/news sentiment requires defensive spend.
+Japan,Adidas,sponsor_policy_change,3.9544,3.559,3.2535,3.8645,0.611,Policy restriction reduces activation quality.
+Japan,Adidas,positive_viral_moment,3.9544,4.5872,4.2558,4.9185,0.6628,Positive viral attention can lift upside but increases volatility.
+Chile,Hisense,key_player_injury,3.9517,3.3984,3.0774,3.7195,0.6421,Player availability shock lowers expected activation.
+Chile,Hisense,sentiment_crisis,3.9517,3.2404,2.8727,3.608,0.7353,Negative social/news sentiment requires defensive spend.
+Chile,Hisense,sponsor_policy_change,3.9517,3.5565,3.251,3.862,0.611,Policy restriction reduces activation quality.
+Chile,Hisense,positive_viral_moment,3.9517,4.5839,4.2525,4.9153,0.6628,Positive viral attention can lift upside but increases volatility.
+Ivory Coast,Budweiser,key_player_injury,3.9511,3.398,3.0769,3.719,0.6421,Player availability shock lowers expected activation.
+Ivory Coast,Budweiser,sentiment_crisis,3.9511,3.2399,2.8723,3.6075,0.7353,Negative social/news sentiment requires defensive spend.
+Ivory Coast,Budweiser,sponsor_policy_change,3.9511,3.556,3.2505,3.8615,0.611,Policy restriction reduces activation quality.
+Ivory Coast,Budweiser,positive_viral_moment,3.9511,4.5833,4.2519,4.9147,0.6628,Positive viral attention can lift upside but increases volatility.
+Sweden,Budweiser,key_player_injury,3.9495,3.3965,3.0755,3.7176,0.6421,Player availability shock lowers expected activation.
+Sweden,Budweiser,sentiment_crisis,3.9495,3.2385,2.8709,3.6062,0.7353,Negative social/news sentiment requires defensive spend.
+Sweden,Budweiser,sponsor_policy_change,3.9495,3.5545,3.249,3.86,0.611,Policy restriction reduces activation quality.
+Sweden,Budweiser,positive_viral_moment,3.9495,4.5814,4.25,4.9128,0.6628,Positive viral attention can lift upside but increases volatility.
+Australia,Hyundai,key_player_injury,3.9444,3.3921,3.0711,3.7132,0.6421,Player availability shock lowers expected activation.
+Australia,Hyundai,sentiment_crisis,3.9444,3.2344,2.8667,3.602,0.7353,Negative social/news sentiment requires defensive spend.
+Australia,Hyundai,sponsor_policy_change,3.9444,3.5499,3.2444,3.8554,0.611,Policy restriction reduces activation quality.
+Australia,Hyundai,positive_viral_moment,3.9444,4.5754,4.2441,4.9068,0.6628,Positive viral attention can lift upside but increases volatility.
+German DR,Adidas,key_player_injury,3.9383,3.387,3.0659,3.708,0.6421,Player availability shock lowers expected activation.
+German DR,Adidas,sentiment_crisis,3.9383,3.2294,2.8618,3.5971,0.7353,Negative social/news sentiment requires defensive spend.
+German DR,Adidas,sponsor_policy_change,3.9383,3.5445,3.239,3.85,0.611,Policy restriction reduces activation quality.
+German DR,Adidas,positive_viral_moment,3.9383,4.5685,4.2371,4.8999,0.6628,Positive viral attention can lift upside but increases volatility.
+Mexico,Hyundai,key_player_injury,3.9347,3.3839,3.0628,3.7049,0.6421,Player availability shock lowers expected activation.
+Mexico,Hyundai,sentiment_crisis,3.9347,3.2265,2.8588,3.5941,0.7353,Negative social/news sentiment requires defensive spend.
+Mexico,Hyundai,sponsor_policy_change,3.9347,3.5412,3.2357,3.8467,0.611,Policy restriction reduces activation quality.
+Mexico,Hyundai,positive_viral_moment,3.9347,4.5643,4.2329,4.8957,0.6628,Positive viral attention can lift upside but increases volatility.
+Denmark,Coca-Cola,key_player_injury,3.9327,3.3822,3.0611,3.7032,0.6421,Player availability shock lowers expected activation.
+Denmark,Coca-Cola,sentiment_crisis,3.9327,3.2248,2.8572,3.5925,0.7353,Negative social/news sentiment requires defensive spend.
+Denmark,Coca-Cola,sponsor_policy_change,3.9327,3.5395,3.234,3.845,0.611,Policy restriction reduces activation quality.
+Denmark,Coca-Cola,positive_viral_moment,3.9327,4.562,4.2306,4.8934,0.6628,Positive viral attention can lift upside but increases volatility.
+Nigeria,Coca-Cola,key_player_injury,3.924,3.3746,3.0536,3.6956,0.6421,Player availability shock lowers expected activation.
+Nigeria,Coca-Cola,sentiment_crisis,3.924,3.2176,2.85,3.5853,0.7353,Negative social/news sentiment requires defensive spend.
+Nigeria,Coca-Cola,sponsor_policy_change,3.924,3.5316,3.2261,3.8371,0.611,Policy restriction reduces activation quality.
+Nigeria,Coca-Cola,positive_viral_moment,3.924,4.5518,4.2204,4.8832,0.6628,Positive viral attention can lift upside but increases volatility.
+Iceland,Adidas,key_player_injury,3.9217,3.3726,3.0516,3.6937,0.6421,Player availability shock lowers expected activation.
+Iceland,Adidas,sentiment_crisis,3.9217,3.2158,2.8481,3.5834,0.7353,Negative social/news sentiment requires defensive spend.
+Iceland,Adidas,sponsor_policy_change,3.9217,3.5295,3.224,3.835,0.611,Policy restriction reduces activation quality.
+Iceland,Adidas,positive_viral_moment,3.9217,4.5491,4.2177,4.8805,0.6628,Positive viral attention can lift upside but increases volatility.
+Switzerland,Adidas,key_player_injury,3.909,3.3618,3.0407,3.6828,0.6421,Player availability shock lowers expected activation.
+Switzerland,Adidas,sentiment_crisis,3.909,3.2054,2.8378,3.573,0.7353,Negative social/news sentiment requires defensive spend.
+Switzerland,Adidas,sponsor_policy_change,3.909,3.5181,3.2126,3.8236,0.611,Policy restriction reduces activation quality.
+Switzerland,Adidas,positive_viral_moment,3.909,4.5345,4.2031,4.8659,0.6628,Positive viral attention can lift upside but increases volatility.
+Tunisia,Hyundai,key_player_injury,3.9052,3.3585,3.0375,3.6795,0.6421,Player availability shock lowers expected activation.
+Tunisia,Hyundai,sentiment_crisis,3.9052,3.2023,2.8346,3.5699,0.7353,Negative social/news sentiment requires defensive spend.
+Tunisia,Hyundai,sponsor_policy_change,3.9052,3.5147,3.2092,3.8202,0.611,Policy restriction reduces activation quality.
+Tunisia,Hyundai,positive_viral_moment,3.9052,4.5301,4.1987,4.8615,0.6628,Positive viral attention can lift upside but increases volatility.
+Yugoslavia,Qatar Airways,key_player_injury,3.9051,3.3584,3.0374,3.6794,0.6421,Player availability shock lowers expected activation.
+Yugoslavia,Qatar Airways,sentiment_crisis,3.9051,3.2022,2.8346,3.5698,0.7353,Negative social/news sentiment requires defensive spend.
+Yugoslavia,Qatar Airways,sponsor_policy_change,3.9051,3.5146,3.2091,3.8201,0.611,Policy restriction reduces activation quality.
+Yugoslavia,Qatar Airways,positive_viral_moment,3.9051,4.5299,4.1985,4.8613,0.6628,Positive viral attention can lift upside but increases volatility.
+Netherlands,Hisense,key_player_injury,3.9013,3.3551,3.0341,3.6761,0.6421,Player availability shock lowers expected activation.
+Netherlands,Hisense,sentiment_crisis,3.9013,3.1991,2.8314,3.5667,0.7353,Negative social/news sentiment requires defensive spend.
+Netherlands,Hisense,sponsor_policy_change,3.9013,3.5112,3.2057,3.8167,0.611,Policy restriction reduces activation quality.
+Netherlands,Hisense,positive_viral_moment,3.9013,4.5255,4.1941,4.8569,0.6628,Positive viral attention can lift upside but increases volatility.
+Costa Rica,Visa,key_player_injury,3.895,3.3497,3.0286,3.6707,0.6421,Player availability shock lowers expected activation.
+Costa Rica,Visa,sentiment_crisis,3.895,3.1939,2.8262,3.5615,0.7353,Negative social/news sentiment requires defensive spend.
+Costa Rica,Visa,sponsor_policy_change,3.895,3.5055,3.2,3.811,0.611,Policy restriction reduces activation quality.
+Costa Rica,Visa,positive_viral_moment,3.895,4.5181,4.1868,4.8495,0.6628,Positive viral attention can lift upside but increases volatility.
+Scotland,Budweiser,key_player_injury,3.8873,3.3431,3.022,3.6641,0.6421,Player availability shock lowers expected activation.
+Scotland,Budweiser,sentiment_crisis,3.8873,3.1876,2.82,3.5552,0.7353,Negative social/news sentiment requires defensive spend.
+Scotland,Budweiser,sponsor_policy_change,3.8873,3.4986,3.1931,3.8041,0.611,Policy restriction reduces activation quality.
+Scotland,Budweiser,positive_viral_moment,3.8873,4.5093,4.1779,4.8407,0.6628,Positive viral attention can lift upside but increases volatility.
+Paraguay,Hyundai,key_player_injury,3.8832,3.3396,3.0185,3.6606,0.6421,Player availability shock lowers expected activation.
+Paraguay,Hyundai,sentiment_crisis,3.8832,3.1842,2.8166,3.5519,0.7353,Negative social/news sentiment requires defensive spend.
+Paraguay,Hyundai,sponsor_policy_change,3.8832,3.4949,3.1894,3.8004,0.611,Policy restriction reduces activation quality.
+Paraguay,Hyundai,positive_viral_moment,3.8832,4.5045,4.1731,4.8359,0.6628,Positive viral attention can lift upside but increases volatility.
+Hungary,Adidas,key_player_injury,3.8812,3.3378,3.0168,3.6589,0.6421,Player availability shock lowers expected activation.
+Hungary,Adidas,sentiment_crisis,3.8812,3.1826,2.8149,3.5502,0.7353,Negative social/news sentiment requires defensive spend.
+Hungary,Adidas,sponsor_policy_change,3.8812,3.4931,3.1876,3.7986,0.611,Policy restriction reduces activation quality.
+Hungary,Adidas,positive_viral_moment,3.8812,4.5022,4.1708,4.8336,0.6628,Positive viral attention can lift upside but increases volatility.
+New Zealand,McDonald's,key_player_injury,3.8712,3.3292,3.0082,3.6502,0.6421,Player availability shock lowers expected activation.
+New Zealand,McDonald's,sentiment_crisis,3.8712,3.1744,2.8067,3.542,0.7353,Negative social/news sentiment requires defensive spend.
+New Zealand,McDonald's,sponsor_policy_change,3.8712,3.4841,3.1785,3.7896,0.611,Policy restriction reduces activation quality.
+New Zealand,McDonald's,positive_viral_moment,3.8712,4.4906,4.1592,4.8219,0.6628,Positive viral attention can lift upside but increases volatility.
+Panama,Qatar Airways,key_player_injury,3.8653,3.3242,3.0031,3.6452,0.6421,Player availability shock lowers expected activation.
+Panama,Qatar Airways,sentiment_crisis,3.8653,3.1696,2.8019,3.5372,0.7353,Negative social/news sentiment requires defensive spend.
+Panama,Qatar Airways,sponsor_policy_change,3.8653,3.4788,3.1733,3.7843,0.611,Policy restriction reduces activation quality.
+Panama,Qatar Airways,positive_viral_moment,3.8653,4.4838,4.1524,4.8152,0.6628,Positive viral attention can lift upside but increases volatility.
+Turkey,Mengniu,key_player_injury,3.8637,3.3228,3.0017,3.6438,0.6421,Player availability shock lowers expected activation.
+Turkey,Mengniu,sentiment_crisis,3.8637,3.1682,2.8006,3.5359,0.7353,Negative social/news sentiment requires defensive spend.
+Turkey,Mengniu,sponsor_policy_change,3.8637,3.4773,3.1718,3.7828,0.611,Policy restriction reduces activation quality.
+Turkey,Mengniu,positive_viral_moment,3.8637,4.4819,4.1505,4.8133,0.6628,Positive viral attention can lift upside but increases volatility.
+Indonesia,Coca-Cola,key_player_injury,3.86,3.3196,2.9986,3.6406,0.6421,Player availability shock lowers expected activation.
+Indonesia,Coca-Cola,sentiment_crisis,3.86,3.1652,2.7976,3.5328,0.7353,Negative social/news sentiment requires defensive spend.
+Indonesia,Coca-Cola,sponsor_policy_change,3.86,3.474,3.1685,3.7795,0.611,Policy restriction reduces activation quality.
+Indonesia,Coca-Cola,positive_viral_moment,3.86,4.4776,4.1462,4.809,0.6628,Positive viral attention can lift upside but increases volatility.
+Italy,Visa,key_player_injury,3.8453,3.307,2.9859,3.628,0.6421,Player availability shock lowers expected activation.
+Italy,Visa,sentiment_crisis,3.8453,3.1531,2.7855,3.5208,0.7353,Negative social/news sentiment requires defensive spend.
+Italy,Visa,sponsor_policy_change,3.8453,3.4608,3.1553,3.7663,0.611,Policy restriction reduces activation quality.
+Italy,Visa,positive_viral_moment,3.8453,4.4605,4.1292,4.7919,0.6628,Positive viral attention can lift upside but increases volatility.
+Kuwait,Hisense,key_player_injury,3.8397,3.3021,2.9811,3.6232,0.6421,Player availability shock lowers expected activation.
+Kuwait,Hisense,sentiment_crisis,3.8397,3.1485,2.7809,3.5162,0.7353,Negative social/news sentiment requires defensive spend.
+Kuwait,Hisense,sponsor_policy_change,3.8397,3.4557,3.1502,3.7612,0.611,Policy restriction reduces activation quality.
+Kuwait,Hisense,positive_viral_moment,3.8397,4.454,4.1226,4.7854,0.6628,Positive viral attention can lift upside but increases volatility.
+Cameroon,Coca-Cola,key_player_injury,3.8235,3.2882,2.9671,3.6092,0.6421,Player availability shock lowers expected activation.
+Cameroon,Coca-Cola,sentiment_crisis,3.8235,3.1352,2.7676,3.5029,0.7353,Negative social/news sentiment requires defensive spend.
+Cameroon,Coca-Cola,sponsor_policy_change,3.8235,3.4411,3.1356,3.7466,0.611,Policy restriction reduces activation quality.
+Cameroon,Coca-Cola,positive_viral_moment,3.8235,4.4352,4.1038,4.7666,0.6628,Positive viral attention can lift upside but increases volatility.
+Peru,Hisense,key_player_injury,3.8155,3.2813,2.9603,3.6024,0.6421,Player availability shock lowers expected activation.
+Peru,Hisense,sentiment_crisis,3.8155,3.1287,2.7611,3.4963,0.7353,Negative social/news sentiment requires defensive spend.
+Peru,Hisense,sponsor_policy_change,3.8155,3.434,3.1284,3.7395,0.611,Policy restriction reduces activation quality.
+Peru,Hisense,positive_viral_moment,3.8155,4.426,4.0946,4.7574,0.6628,Positive viral attention can lift upside but increases volatility.
+Senegal,Budweiser,key_player_injury,3.8106,3.2771,2.9561,3.5981,0.6421,Player availability shock lowers expected activation.
+Senegal,Budweiser,sentiment_crisis,3.8106,3.1247,2.757,3.4923,0.7353,Negative social/news sentiment requires defensive spend.
+Senegal,Budweiser,sponsor_policy_change,3.8106,3.4295,3.124,3.735,0.611,Policy restriction reduces activation quality.
+Senegal,Budweiser,positive_viral_moment,3.8106,4.4203,4.0889,4.7517,0.6628,Positive viral attention can lift upside but increases volatility.
+Northern Ireland,Qatar Airways,key_player_injury,3.8053,3.2726,2.9515,3.5936,0.6421,Player availability shock lowers expected activation.
+Northern Ireland,Qatar Airways,sentiment_crisis,3.8053,3.1204,2.7527,3.488,0.7353,Negative social/news sentiment requires defensive spend.
+Northern Ireland,Qatar Airways,sponsor_policy_change,3.8053,3.4248,3.1193,3.7303,0.611,Policy restriction reduces activation quality.
+Northern Ireland,Qatar Airways,positive_viral_moment,3.8053,4.4142,4.0828,4.7455,0.6628,Positive viral attention can lift upside but increases volatility.
+Bosnia and Herzegovina,Mengniu,key_player_injury,3.8003,3.2683,2.9472,3.5893,0.6421,Player availability shock lowers expected activation.
+Bosnia and Herzegovina,Mengniu,sentiment_crisis,3.8003,3.1163,2.7486,3.4839,0.7353,Negative social/news sentiment requires defensive spend.
+Bosnia and Herzegovina,Mengniu,sponsor_policy_change,3.8003,3.4203,3.1148,3.7258,0.611,Policy restriction reduces activation quality.
+Bosnia and Herzegovina,Mengniu,positive_viral_moment,3.8003,4.4084,4.077,4.7398,0.6628,Positive viral attention can lift upside but increases volatility.
+North Korea,Adidas,key_player_injury,3.797,3.2654,2.9444,3.5865,0.6421,Player availability shock lowers expected activation.
+North Korea,Adidas,sentiment_crisis,3.797,3.1135,2.7459,3.4812,0.7353,Negative social/news sentiment requires defensive spend.
+North Korea,Adidas,sponsor_policy_change,3.797,3.4173,3.1118,3.7228,0.611,Policy restriction reduces activation quality.
+North Korea,Adidas,positive_viral_moment,3.797,4.4045,4.0731,4.7359,0.6628,Positive viral attention can lift upside but increases volatility.
+Algeria,Hisense,key_player_injury,3.7839,3.2542,2.9331,3.5752,0.6421,Player availability shock lowers expected activation.
+Algeria,Hisense,sentiment_crisis,3.7839,3.1028,2.7352,3.4705,0.7353,Negative social/news sentiment requires defensive spend.
+Algeria,Hisense,sponsor_policy_change,3.7839,3.4055,3.1,3.711,0.611,Policy restriction reduces activation quality.
+Algeria,Hisense,positive_viral_moment,3.7839,4.3894,4.058,4.7207,0.6628,Positive viral attention can lift upside but increases volatility.
+South Africa,Qatar Airways,key_player_injury,3.7761,3.2475,2.9264,3.5685,0.6421,Player availability shock lowers expected activation.
+South Africa,Qatar Airways,sentiment_crisis,3.7761,3.0964,2.7288,3.464,0.7353,Negative social/news sentiment requires defensive spend.
+South Africa,Qatar Airways,sponsor_policy_change,3.7761,3.3985,3.093,3.704,0.611,Policy restriction reduces activation quality.
+South Africa,Qatar Airways,positive_viral_moment,3.7761,4.3803,4.0489,4.7117,0.6628,Positive viral attention can lift upside but increases volatility.
+Haiti,Coca-Cola,key_player_injury,3.775,3.2465,2.9255,3.5675,0.6421,Player availability shock lowers expected activation.
+Haiti,Coca-Cola,sentiment_crisis,3.775,3.0955,2.7279,3.4631,0.7353,Negative social/news sentiment requires defensive spend.
+Haiti,Coca-Cola,sponsor_policy_change,3.775,3.3975,3.092,3.703,0.611,Policy restriction reduces activation quality.
+Haiti,Coca-Cola,positive_viral_moment,3.775,4.379,4.0476,4.7104,0.6628,Positive viral attention can lift upside but increases volatility.
+Czechoslovakia,Visa,key_player_injury,3.7404,3.2167,2.8957,3.5378,0.6421,Player availability shock lowers expected activation.
+Czechoslovakia,Visa,sentiment_crisis,3.7404,3.0671,2.6995,3.4348,0.7353,Negative social/news sentiment requires defensive spend.
+Czechoslovakia,Visa,sponsor_policy_change,3.7404,3.3664,3.0609,3.6719,0.611,Policy restriction reduces activation quality.
+Czechoslovakia,Visa,positive_viral_moment,3.7404,4.3389,4.0075,4.6703,0.6628,Positive viral attention can lift upside but increases volatility.
+Iraq,Hyundai,key_player_injury,3.7273,3.2055,2.8845,3.5265,0.6421,Player availability shock lowers expected activation.
+Iraq,Hyundai,sentiment_crisis,3.7273,3.0564,2.6888,3.4241,0.7353,Negative social/news sentiment requires defensive spend.
+Iraq,Hyundai,sponsor_policy_change,3.7273,3.3546,3.0491,3.6601,0.611,Policy restriction reduces activation quality.
+Iraq,Hyundai,positive_viral_moment,3.7273,4.3237,3.9923,4.6551,0.6628,Positive viral attention can lift upside but increases volatility.
+Wales,Coca-Cola,key_player_injury,3.7236,3.2023,2.8813,3.5234,0.6421,Player availability shock lowers expected activation.
+Wales,Coca-Cola,sentiment_crisis,3.7236,3.0534,2.6857,3.421,0.7353,Negative social/news sentiment requires defensive spend.
+Wales,Coca-Cola,sponsor_policy_change,3.7236,3.3513,3.0458,3.6568,0.611,Policy restriction reduces activation quality.
+Wales,Coca-Cola,positive_viral_moment,3.7236,4.3194,3.988,4.6508,0.6628,Positive viral attention can lift upside but increases volatility.
+Serbia,Vivo,key_player_injury,3.7231,3.2018,2.8808,3.5229,0.6421,Player availability shock lowers expected activation.
+Serbia,Vivo,sentiment_crisis,3.7231,3.0529,2.6853,3.4206,0.7353,Negative social/news sentiment requires defensive spend.
+Serbia,Vivo,sponsor_policy_change,3.7231,3.3508,3.0453,3.6563,0.611,Policy restriction reduces activation quality.
+Serbia,Vivo,positive_viral_moment,3.7231,4.3188,3.9874,4.6501,0.6628,Positive viral attention can lift upside but increases volatility.
+Honduras,Visa,key_player_injury,3.7127,3.1929,2.8719,3.5139,0.6421,Player availability shock lowers expected activation.
+Honduras,Visa,sentiment_crisis,3.7127,3.0444,2.6767,3.412,0.7353,Negative social/news sentiment requires defensive spend.
+Honduras,Visa,sponsor_policy_change,3.7127,3.3414,3.0359,3.6469,0.611,Policy restriction reduces activation quality.
+Honduras,Visa,positive_viral_moment,3.7127,4.3067,3.9753,4.6381,0.6628,Positive viral attention can lift upside but increases volatility.
+Uruguay,Vivo,key_player_injury,3.7072,3.1882,2.8671,3.5092,0.6421,Player availability shock lowers expected activation.
+Uruguay,Vivo,sentiment_crisis,3.7072,3.0399,2.6723,3.4075,0.7353,Negative social/news sentiment requires defensive spend.
+Uruguay,Vivo,sponsor_policy_change,3.7072,3.3365,3.031,3.642,0.611,Policy restriction reduces activation quality.
+Uruguay,Vivo,positive_viral_moment,3.7072,4.3003,3.9689,4.6317,0.6628,Positive viral attention can lift upside but increases volatility.
+Iran,Visa,key_player_injury,3.7069,3.188,2.8669,3.509,0.6421,Player availability shock lowers expected activation.
+Iran,Visa,sentiment_crisis,3.7069,3.0397,2.6721,3.4073,0.7353,Negative social/news sentiment requires defensive spend.
+Iran,Visa,sponsor_policy_change,3.7069,3.3362,3.0307,3.6418,0.611,Policy restriction reduces activation quality.
+Iran,Visa,positive_viral_moment,3.7069,4.3001,3.9687,4.6314,0.6628,Positive viral attention can lift upside but increases volatility.
+Egypt,Hyundai,key_player_injury,3.6919,3.175,2.854,3.496,0.6421,Player availability shock lowers expected activation.
+Egypt,Hyundai,sentiment_crisis,3.6919,3.0273,2.6597,3.395,0.7353,Negative social/news sentiment requires defensive spend.
+Egypt,Hyundai,sponsor_policy_change,3.6919,3.3227,3.0172,3.6282,0.611,Policy restriction reduces activation quality.
+Egypt,Hyundai,positive_viral_moment,3.6919,4.2826,3.9512,4.6139,0.6628,Positive viral attention can lift upside but increases volatility.
+Ecuador,McDonald's,key_player_injury,3.6912,3.1745,2.8534,3.4955,0.6421,Player availability shock lowers expected activation.
+Ecuador,McDonald's,sentiment_crisis,3.6912,3.0268,2.6592,3.3944,0.7353,Negative social/news sentiment requires defensive spend.
+Ecuador,McDonald's,sponsor_policy_change,3.6912,3.3221,3.0166,3.6276,0.611,Policy restriction reduces activation quality.
+Ecuador,McDonald's,positive_viral_moment,3.6912,4.2818,3.9504,4.6132,0.6628,Positive viral attention can lift upside but increases volatility.
+England,McDonald's,key_player_injury,3.6711,3.1571,2.8361,3.4782,0.6421,Player availability shock lowers expected activation.
+England,McDonald's,sentiment_crisis,3.6711,3.0103,2.6427,3.3779,0.7353,Negative social/news sentiment requires defensive spend.
+England,McDonald's,sponsor_policy_change,3.6711,3.304,2.9985,3.6095,0.611,Policy restriction reduces activation quality.
+England,McDonald's,positive_viral_moment,3.6711,4.2585,3.9271,4.5899,0.6628,Positive viral attention can lift upside but increases volatility.
+Greece,Budweiser,key_player_injury,3.6686,3.155,2.834,3.476,0.6421,Player availability shock lowers expected activation.
+Greece,Budweiser,sentiment_crisis,3.6686,3.0083,2.6406,3.3759,0.7353,Negative social/news sentiment requires defensive spend.
+Greece,Budweiser,sponsor_policy_change,3.6686,3.3017,2.9962,3.6072,0.611,Policy restriction reduces activation quality.
+Greece,Budweiser,positive_viral_moment,3.6686,4.2556,3.9242,4.587,0.6628,Positive viral attention can lift upside but increases volatility.
+Republic of Ireland,McDonald's,key_player_injury,3.6595,3.1471,2.8261,3.4682,0.6421,Player availability shock lowers expected activation.
+Republic of Ireland,McDonald's,sentiment_crisis,3.6595,3.0008,2.6331,3.3684,0.7353,Negative social/news sentiment requires defensive spend.
+Republic of Ireland,McDonald's,sponsor_policy_change,3.6595,3.2935,2.988,3.599,0.611,Policy restriction reduces activation quality.
+Republic of Ireland,McDonald's,positive_viral_moment,3.6595,4.245,3.9136,4.5764,0.6628,Positive viral attention can lift upside but increases volatility.
+Romania,Qatar Airways,key_player_injury,3.6525,3.1412,2.8201,3.4622,0.6421,Player availability shock lowers expected activation.
+Romania,Qatar Airways,sentiment_crisis,3.6525,2.9951,2.6274,3.3627,0.7353,Negative social/news sentiment requires defensive spend.
+Romania,Qatar Airways,sponsor_policy_change,3.6525,3.2873,2.9818,3.5928,0.611,Policy restriction reduces activation quality.
+Romania,Qatar Airways,positive_viral_moment,3.6525,4.2369,3.9055,4.5683,0.6628,Positive viral attention can lift upside but increases volatility.
+Bulgaria,Hisense,key_player_injury,3.629,3.1209,2.7999,3.4419,0.6421,Player availability shock lowers expected activation.
+Bulgaria,Hisense,sentiment_crisis,3.629,2.9757,2.6081,3.3434,0.7353,Negative social/news sentiment requires defensive spend.
+Bulgaria,Hisense,sponsor_policy_change,3.629,3.2661,2.9606,3.5716,0.611,Policy restriction reduces activation quality.
+Bulgaria,Hisense,positive_viral_moment,3.629,4.2096,3.8782,4.541,0.6628,Positive viral attention can lift upside but increases volatility.
+Colombia,Vivo,key_player_injury,3.6203,3.1135,2.7924,3.4345,0.6421,Player availability shock lowers expected activation.
+Colombia,Vivo,sentiment_crisis,3.6203,2.9687,2.601,3.3363,0.7353,Negative social/news sentiment requires defensive spend.
+Colombia,Vivo,sponsor_policy_change,3.6203,3.2583,2.9528,3.5638,0.611,Policy restriction reduces activation quality.
+Colombia,Vivo,positive_viral_moment,3.6203,4.1996,3.8682,4.531,0.6628,Positive viral attention can lift upside but increases volatility.
+Morocco,Mengniu,key_player_injury,3.6063,3.1014,2.7804,3.4225,0.6421,Player availability shock lowers expected activation.
+Morocco,Mengniu,sentiment_crisis,3.6063,2.9572,2.5895,3.3248,0.7353,Negative social/news sentiment requires defensive spend.
+Morocco,Mengniu,sponsor_policy_change,3.6063,3.2457,2.9402,3.5512,0.611,Policy restriction reduces activation quality.
+Morocco,Mengniu,positive_viral_moment,3.6063,4.1833,3.8519,4.5147,0.6628,Positive viral attention can lift upside but increases volatility.
+Norway,McDonald's,key_player_injury,3.5919,3.089,2.768,3.41,0.6421,Player availability shock lowers expected activation.
+Norway,McDonald's,sentiment_crisis,3.5919,2.9453,2.5777,3.313,0.7353,Negative social/news sentiment requires defensive spend.
+Norway,McDonald's,sponsor_policy_change,3.5919,3.2327,2.9272,3.5382,0.611,Policy restriction reduces activation quality.
+Norway,McDonald's,positive_viral_moment,3.5919,4.1666,3.8352,4.498,0.6628,Positive viral attention can lift upside but increases volatility.
+South Korea,McDonald's,key_player_injury,3.5916,3.0888,2.7677,3.4098,0.6421,Player availability shock lowers expected activation.
+South Korea,McDonald's,sentiment_crisis,3.5916,2.9451,2.5775,3.3127,0.7353,Negative social/news sentiment requires defensive spend.
+South Korea,McDonald's,sponsor_policy_change,3.5916,3.2324,2.9269,3.5379,0.611,Policy restriction reduces activation quality.
+South Korea,McDonald's,positive_viral_moment,3.5916,4.1662,3.8348,4.4976,0.6628,Positive viral attention can lift upside but increases volatility.
+China,Mengniu,key_player_injury,3.547,3.0504,2.7294,3.3715,0.6421,Player availability shock lowers expected activation.
+China,Mengniu,sentiment_crisis,3.547,2.9085,2.5409,3.2762,0.7353,Negative social/news sentiment requires defensive spend.
+China,Mengniu,sponsor_policy_change,3.547,3.1923,2.8868,3.4978,0.611,Policy restriction reduces activation quality.
+China,Mengniu,positive_viral_moment,3.547,4.1145,3.7831,4.4459,0.6628,Positive viral attention can lift upside but increases volatility.
+Angola,Vivo,key_player_injury,3.538,3.0427,2.7216,3.3637,0.6421,Player availability shock lowers expected activation.
+Angola,Vivo,sentiment_crisis,3.538,2.9012,2.5335,3.2688,0.7353,Negative social/news sentiment requires defensive spend.
+Angola,Vivo,sponsor_policy_change,3.538,3.1842,2.8787,3.4897,0.611,Policy restriction reduces activation quality.
+Angola,Vivo,positive_viral_moment,3.538,4.1041,3.7727,4.4355,0.6628,Positive viral attention can lift upside but increases volatility.
+Czech Republic,Coca-Cola,key_player_injury,3.5357,3.0407,2.7196,3.3617,0.6421,Player availability shock lowers expected activation.
+Czech Republic,Coca-Cola,sentiment_crisis,3.5357,2.8992,2.5316,3.2669,0.7353,Negative social/news sentiment requires defensive spend.
+Czech Republic,Coca-Cola,sponsor_policy_change,3.5357,3.1821,2.8766,3.4876,0.611,Policy restriction reduces activation quality.
+Czech Republic,Coca-Cola,positive_viral_moment,3.5357,4.1014,3.77,4.4328,0.6628,Positive viral attention can lift upside but increases volatility.
+Portugal,Mengniu,key_player_injury,3.5273,3.0335,2.7125,3.3546,0.6421,Player availability shock lowers expected activation.
+Portugal,Mengniu,sentiment_crisis,3.5273,2.8924,2.5248,3.2601,0.7353,Negative social/news sentiment requires defensive spend.
+Portugal,Mengniu,sponsor_policy_change,3.5273,3.1746,2.8691,3.4801,0.611,Policy restriction reduces activation quality.
+Portugal,Mengniu,positive_viral_moment,3.5273,4.0917,3.7603,4.4231,0.6628,Positive viral attention can lift upside but increases volatility.
+United States,Vivo,key_player_injury,3.5243,3.0309,2.7098,3.3519,0.6421,Player availability shock lowers expected activation.
+United States,Vivo,sentiment_crisis,3.5243,2.8899,2.5223,3.2575,0.7353,Negative social/news sentiment requires defensive spend.
+United States,Vivo,sponsor_policy_change,3.5243,3.1718,2.8663,3.4773,0.611,Policy restriction reduces activation quality.
+United States,Vivo,positive_viral_moment,3.5243,4.0882,3.7568,4.4195,0.6628,Positive viral attention can lift upside but increases volatility.
+Slovenia,Vivo,key_player_injury,3.4997,3.0097,2.6887,3.3308,0.6421,Player availability shock lowers expected activation.
+Slovenia,Vivo,sentiment_crisis,3.4997,2.8697,2.5021,3.2374,0.7353,Negative social/news sentiment requires defensive spend.
+Slovenia,Vivo,sponsor_policy_change,3.4997,3.1497,2.8442,3.4552,0.611,Policy restriction reduces activation quality.
+Slovenia,Vivo,positive_viral_moment,3.4997,4.0596,3.7282,4.391,0.6628,Positive viral attention can lift upside but increases volatility.
+Austria,McDonald's,key_player_injury,3.4733,2.9871,2.666,3.3081,0.6421,Player availability shock lowers expected activation.
+Austria,McDonald's,sentiment_crisis,3.4733,2.8481,2.4805,3.2158,0.7353,Negative social/news sentiment requires defensive spend.
+Austria,McDonald's,sponsor_policy_change,3.4733,3.126,2.8205,3.4315,0.611,Policy restriction reduces activation quality.
+Austria,McDonald's,positive_viral_moment,3.4733,4.0291,3.6977,4.3605,0.6628,Positive viral attention can lift upside but increases volatility.
+Ghana,Mengniu,key_player_injury,3.4672,2.9818,2.6608,3.3028,0.6421,Player availability shock lowers expected activation.
+Ghana,Mengniu,sentiment_crisis,3.4672,2.8431,2.4755,3.2107,0.7353,Negative social/news sentiment requires defensive spend.
+Ghana,Mengniu,sponsor_policy_change,3.4672,3.1205,2.815,3.426,0.611,Policy restriction reduces activation quality.
+Ghana,Mengniu,positive_viral_moment,3.4672,4.022,3.6906,4.3533,0.6628,Positive viral attention can lift upside but increases volatility.
+DR Congo,Visa,key_player_injury,3.456,2.9722,2.6511,3.2932,0.6421,Player availability shock lowers expected activation.
+DR Congo,Visa,sentiment_crisis,3.456,2.8339,2.4663,3.2016,0.7353,Negative social/news sentiment requires defensive spend.
+DR Congo,Visa,sponsor_policy_change,3.456,3.1104,2.8049,3.4159,0.611,Policy restriction reduces activation quality.
+DR Congo,Visa,positive_viral_moment,3.456,4.009,3.6776,4.3404,0.6628,Positive viral attention can lift upside but increases volatility.
+Trinidad and Tobago,Mengniu,key_player_injury,3.4303,2.9501,2.629,3.2711,0.6421,Player availability shock lowers expected activation.
+Trinidad and Tobago,Mengniu,sentiment_crisis,3.4303,2.8129,2.4452,3.1805,0.7353,Negative social/news sentiment requires defensive spend.
+Trinidad and Tobago,Mengniu,sponsor_policy_change,3.4303,3.0873,2.7818,3.3928,0.611,Policy restriction reduces activation quality.
+Trinidad and Tobago,Mengniu,positive_viral_moment,3.4303,3.9792,3.6478,4.3106,0.6628,Positive viral attention can lift upside but increases volatility.
+Bolivia,Qatar Airways,key_player_injury,3.385,2.9111,2.5901,3.2321,0.6421,Player availability shock lowers expected activation.
+Bolivia,Qatar Airways,sentiment_crisis,3.385,2.7757,2.4081,3.1433,0.7353,Negative social/news sentiment requires defensive spend.
+Bolivia,Qatar Airways,sponsor_policy_change,3.385,3.0465,2.741,3.352,0.611,Policy restriction reduces activation quality.
+Bolivia,Qatar Airways,positive_viral_moment,3.385,3.9266,3.5952,4.258,0.6628,Positive viral attention can lift upside but increases volatility.
+Slovakia,Mengniu,key_player_injury,3.3705,2.8986,2.5776,3.2197,0.6421,Player availability shock lowers expected activation.
+Slovakia,Mengniu,sentiment_crisis,3.3705,2.7638,2.3962,3.1314,0.7353,Negative social/news sentiment requires defensive spend.
+Slovakia,Mengniu,sponsor_policy_change,3.3705,3.0334,2.7279,3.339,0.611,Policy restriction reduces activation quality.
+Slovakia,Mengniu,positive_viral_moment,3.3705,3.9098,3.5784,4.2412,0.6628,Positive viral attention can lift upside but increases volatility.
+Israel,Budweiser,key_player_injury,3.1777,2.7328,2.4118,3.0538,0.6421,Player availability shock lowers expected activation.
+Israel,Budweiser,sentiment_crisis,3.1777,2.6057,2.238,2.9733,0.7353,Negative social/news sentiment requires defensive spend.
+Israel,Budweiser,sponsor_policy_change,3.1777,2.8599,2.5544,3.1654,0.611,Policy restriction reduces activation quality.
+Israel,Budweiser,positive_viral_moment,3.1777,3.6861,3.3547,4.0175,0.6628,Positive viral attention can lift upside but increases volatility.
+Togo,Vivo,key_player_injury,3.0867,2.6545,2.3335,2.9756,0.6421,Player availability shock lowers expected activation.
+Togo,Vivo,sentiment_crisis,3.0867,2.5311,2.1634,2.8987,0.7353,Negative social/news sentiment requires defensive spend.
+Togo,Vivo,sponsor_policy_change,3.0867,2.778,2.4725,3.0835,0.611,Policy restriction reduces activation quality.
+Togo,Vivo,positive_viral_moment,3.0867,3.5805,3.2491,3.9119,0.6628,Positive viral attention can lift upside but increases volatility.
+Cuba,Vivo,key_player_injury,3.0507,2.6236,2.3025,2.9446,0.6421,Player availability shock lowers expected activation.
+Cuba,Vivo,sentiment_crisis,3.0507,2.5015,2.1339,2.8692,0.7353,Negative social/news sentiment requires defensive spend.
+Cuba,Vivo,sponsor_policy_change,3.0507,2.7456,2.4401,3.0511,0.611,Policy restriction reduces activation quality.
+Cuba,Vivo,positive_viral_moment,3.0507,3.5388,3.2074,3.8702,0.6628,Positive viral attention can lift upside but increases volatility.
+Qatar,McDonald's,key_player_injury,3.045,2.6187,2.2977,2.9397,0.6421,Player availability shock lowers expected activation.
+Qatar,McDonald's,sentiment_crisis,3.045,2.4969,2.1293,2.8645,0.7353,Negative social/news sentiment requires defensive spend.
+Qatar,McDonald's,sponsor_policy_change,3.045,2.7405,2.435,3.046,0.611,Policy restriction reduces activation quality.
+Qatar,McDonald's,positive_viral_moment,3.045,3.5322,3.2008,3.8636,0.6628,Positive viral attention can lift upside but increases volatility.

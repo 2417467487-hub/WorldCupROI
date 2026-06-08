@@ -1,4 +1,4 @@
-PYTHON ?= ml-python
+PYTHON ?= E:/workspace/tools/bin/ml-python.cmd
 
 .PHONY: pipeline demo dashboard assets platform-gif streamlit-gif hero-gif preview-gifs health
 

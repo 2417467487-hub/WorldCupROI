@@ -129,6 +129,76 @@ WorldCupROI is a reproducible sports sponsorship analytics project with four lay
 
 **Business takeaway:** Use central sponsors and teams as anchor partnerships for campaign portfolios.
 
+### Future Event ROI Trend Forecast
+
+![Future Event ROI Trend Forecast](assets/figures/future_roi_trend.png)
+
+**What it shows:** Shows future sponsor ROI forecasts across the 2026, 2030, and 2034 World Cup cycles.
+
+**Why it matters:** It makes time dependence visible instead of treating every tournament as the same planning context.
+
+**Business takeaway:** Use the trend as a budget planning prior, then review uncertainty before committing long-cycle spend.
+
+### Sentiment Event Impact on ROI
+
+![Sentiment Event Impact on ROI](assets/figures/sentiment_event_roi_impact.png)
+
+**What it shows:** Compares ROI deltas for positive sentiment spikes, stage attention shocks, and baseline attention events.
+
+**Why it matters:** Sentiment can change conversion quality even when media exposure is high.
+
+**Business takeaway:** Prepare contingency messaging and spend limits around high-attention negative events.
+
+### Budget and Media Sensitivity
+
+![Budget and Media Sensitivity](assets/figures/budget_media_sensitivity.png)
+
+**What it shows:** Maps risk-adjusted ROI under different sponsor budgets and media multiplier combinations.
+
+**Why it matters:** Resource optimization converts model output into a concrete allocation recommendation.
+
+**Business takeaway:** Scale spend where the sensitivity surface is high and stable, not only where raw ROI is high.
+
+### Graph Attention ROI Contribution
+
+![Graph Attention ROI Contribution](assets/figures/graph_attention_roi_contribution.png)
+
+**What it shows:** Ranks sponsor nodes by graph attention-style contribution to ROI.
+
+**Why it matters:** It explains relationship leverage beyond flat sponsor ranking or tabular SHAP alone.
+
+**Business takeaway:** Use high-contribution sponsors as anchor nodes in portfolio planning.
+
+### Extreme Scenario ROI and Risk Intervals
+
+![Extreme Scenario ROI and Risk Intervals](assets/figures/extreme_scenario_roi_intervals.png)
+
+**What it shows:** Stress-tests key player injury, sentiment crisis, sponsor policy change, and positive viral upside scenarios.
+
+**Why it matters:** Extreme cases reveal downside intervals that average ROI hides.
+
+**Business takeaway:** Pre-approve response playbooks before the tournament starts.
+
+### Integrated Commercial Decision Score
+
+![Integrated Commercial Decision Score](assets/figures/commercial_decision_scorecard.png)
+
+**What it shows:** Combines ROI, media exposure value, fan conversion, social spread, and brand influence.
+
+**Why it matters:** Sponsor decisions are multi-objective; ROI alone is too narrow for portfolio planning.
+
+**Business takeaway:** Prioritize high composite score opportunities, then review interval width and graph influence.
+
+### Sponsor and Player Influence Network
+
+![Sponsor and Player Influence Network](assets/figures/sponsor_player_influence_network.png)
+
+**What it shows:** Visualizes sponsor and player influence pathways from the heterogeneous commercial graph.
+
+**Why it matters:** Player and sponsor influence can amplify or weaken projected ROI under the same match context.
+
+**Business takeaway:** Pair high-influence sponsors with resilient player/team nodes before selecting activation themes.
+
 ## Problem
 
 Most football analytics projects stop at predicting who wins. Sponsorship decisions need more: media exposure, fan attention, brand fit, player availability, commercial momentum, downside risk, and an explanation a non-technical stakeholder can trust.
@@ -155,7 +225,11 @@ Tournament sponsorship budgets are committed before all outcomes are known. A hi
 | User research chain | Media exposure -> user attention -> social interaction -> sponsor conversion |
 | Explainable ROI modeling | SHAP-style feature contributions and grouped driver reports |
 | Risk-aware decisions | Conformal intervals, bootstrap intervals, Monte Carlo risk, scenario ranking |
-| Graph intelligence | NetworkX centrality plus reproducible GCN/GraphSAGE-style baseline scores |
+| Dynamic ROI and sentiment impact | Future cycle ROI forecast plus key event sentiment ROI deltas |
+| Resource allocation | Budget/media mix optimization and sensitivity analysis |
+| Extreme scenario planning | Key-player injury, sentiment crisis, policy change, and viral upside stress tests |
+| Graph intelligence | NetworkX centrality plus reproducible GCN/GraphSAGE-style and graph-attention contribution scores |
+| Commercial decision score | Media value, fan conversion, social spread, brand influence, and ROI combined |
 | Productized workflow | Dashboard pages: Discover -> Explain -> Predict -> Simulate -> Recommend |
 
 ## Research Questions
@@ -182,6 +256,19 @@ Detailed documentation:
 reports/data_card.md
 reports/data_quality_report.md
 docs/data_card.md
+```
+
+Deep analysis landing artifacts:
+
+```text
+reports/deep_analysis_landing_report.md
+reports/deep_analysis_landing_report.pdf
+reports/future_roi_forecast.csv
+reports/sentiment_event_roi_impact.csv
+reports/resource_optimization_recommendations.csv
+reports/extreme_scenario_roi_risk.csv
+data/commercial_decision_metrics.csv
+assets/figures/deep_analysis_figure_notes.md
 ```
 
 ## Model Performance

@@ -1,0 +1,121 @@
+panel_id,team,sponsor,stage,predicted_roi,media_value_index,fan_conversion_rate,social_spread_index,brand_influence_score,commercial_decision_score
+1982_312_Hungary,Hungary,Adidas,tournament,4.447,0.898905,0.59278,0.895941,0.789636,0.830989
+1994_501_Germany,Germany,Coca-Cola,group_or_knockout,4.651,0.597876,0.646257,0.711077,0.964657,0.803691
+2022_909_Germany,Germany,Coca-Cola,group_or_knockout,4.651,0.630286,0.656606,0.62658,0.964657,0.800854
+2002_582_Germany,Germany,Coca-Cola,group_or_knockout,4.652,0.640647,0.658824,0.605456,0.964657,0.80076
+2014_833_Germany,Germany,Coca-Cola,group_or_knockout,4.427,0.742149,0.680536,0.678956,0.964657,0.795729
+1994_501_Belgium,Belgium,Visa,group_or_knockout,4.651,0.597876,0.698196,0.693478,0.742172,0.788327
+2010_715_Germany,Germany,Coca-Cola,group_or_knockout,4.65,0.583793,0.639603,0.62515,0.964657,0.78718
+2018_846_Germany,Germany,Coca-Cola,group_or_knockout,4.616,0.565524,0.631405,0.63333,0.964657,0.776551
+2006_645_Germany,Germany,Coca-Cola,group_or_knockout,4.642,0.575561,0.635168,0.562029,0.964657,0.774256
+2014_835_Brazil,Brazil,Adidas,group_or_knockout,4.472,0.697794,0.560386,0.710342,0.91059,0.771643
+2010_770_Germany,Germany,Coca-Cola,group_or_knockout,4.578,0.552043,0.624685,0.665922,0.964657,0.769919
+2018_863_Belgium,Belgium,Visa,group_or_knockout,4.41,0.714467,0.718296,0.664431,0.742172,0.769014
+2018_865_Germany,Germany,Coca-Cola,group_or_knockout,4.59,0.563963,0.626903,0.583041,0.964657,0.763554
+1998_545_Germany,Germany,Coca-Cola,group_or_knockout,4.611,0.530934,0.618099,0.603584,0.964657,0.761458
+2018_896_Croatia,Croatia,Hisense,group_or_knockout,4.446,0.659952,0.649014,0.652082,0.860308,0.761284
+2010_760_Germany,Germany,Coca-Cola,group_or_knockout,4.565,0.572826,0.627576,0.571707,0.964657,0.75942
+2018_837_Russia,Russia,Hyundai,group_or_knockout,4.505,0.706031,0.640535,0.633258,0.671751,0.759302
+2010_726_Argentina,Argentina,Hyundai,group_or_knockout,4.415,0.680006,0.589815,0.680611,0.91759,0.759036
+2014_835_Netherlands,Netherlands,Hisense,group_or_knockout,4.472,0.697794,0.517776,0.689019,0.874044,0.757334
+2014_833_Brazil,Brazil,Adidas,group_or_knockout,4.427,0.742149,0.570669,0.58419,0.91059,0.757279
+2014_789_Russia,Russia,Hyundai,group_or_knockout,4.471,0.676844,0.627835,0.709066,0.671751,0.754928
+2022_928_Croatia,Croatia,Hisense,group_or_knockout,4.334,0.701474,0.653923,0.668543,0.860308,0.752919
+1982_328_Germany,Germany,Coca-Cola,tournament,4.588,0.496937,0.603987,0.63657,0.964657,0.751808
+1982_312_El_Salvador,El Salvador,Budweiser,tournament,4.447,0.898905,0.416033,0.696237,0.594815,0.751734
+2014_826_Germany,Germany,Coca-Cola,group_or_knockout,4.556,0.543623,0.617226,0.579334,0.964657,0.750538
+2014_784_Germany,Germany,Coca-Cola,group_or_knockout,4.553,0.554204,0.620183,0.558042,0.964657,0.749863
+2014_836_Germany,Germany,Coca-Cola,group_or_knockout,4.542,0.519344,0.609095,0.618539,0.964657,0.746636
+1986_398_Belgium,Belgium,Visa,group_or_knockout,4.36,0.63038,0.685636,0.743507,0.742172,0.746471
+2022_908_France,France,Qatar Airways,group_or_knockout,4.401,0.704144,0.572547,0.619726,0.865672,0.744937
+2014_782_France,France,Qatar Airways,group_or_knockout,4.421,0.656748,0.559307,0.678806,0.865672,0.744092
+2006_701_Germany,Germany,Coca-Cola,group_or_knockout,4.548,0.509316,0.606138,0.599362,0.964657,0.742321
+1990_430_Germany,Germany,Coca-Cola,group_or_knockout,4.592,0.500909,0.603987,0.554133,0.964657,0.741879
+1990_418_Germany,Germany,Coca-Cola,group_or_knockout,4.557,0.502384,0.603181,0.596067,0.964657,0.741465
+1994_492_Germany,Germany,Coca-Cola,group_or_knockout,4.554,0.507581,0.60392,0.577154,0.964657,0.739539
+2018_846_Mexico,Mexico,Hyundai,group_or_knockout,4.616,0.565524,0.576967,0.596578,0.734737,0.738614
+2014_800_Germany,Germany,Coca-Cola,group_or_knockout,4.539,0.541859,0.613464,0.518945,0.964657,0.737878
+2010_770_Spain,Spain,Budweiser,group_or_knockout,4.578,0.552043,0.584493,0.633836,0.758937,0.73762
+2022_903_England,England,McDonald's,group_or_knockout,3.955,0.913393,0.789848,0.78152,0.519574,0.735746
+2022_910_Spain,Spain,Budweiser,group_or_knockout,4.362,0.720882,0.627642,0.57361,0.758937,0.734203
+1998_544_Argentina,Argentina,Hyundai,group_or_knockout,4.386,0.617778,0.565354,0.662803,0.91759,0.733093
+2006_707_Germany,Germany,Coca-Cola,group_or_knockout,4.549,0.503521,0.601702,0.531437,0.964657,0.730923
+2006_694_Germany,Germany,Coca-Cola,group_or_knockout,4.57,0.473082,0.593637,0.561029,0.964657,0.730796
+2018_896_Russia,Russia,Hyundai,group_or_knockout,4.446,0.659952,0.618964,0.585842,0.671751,0.727746
+2022_954_Brazil,Brazil,Adidas,group_or_knockout,4.387,0.672119,0.540227,0.574657,0.91059,0.72767
+2018_869_Uruguay,Uruguay,Vivo,group_or_knockout,4.399,0.622059,0.769533,0.592713,0.542579,0.725875
+2018_890_Belgium,Belgium,Visa,group_or_knockout,4.311,0.642245,0.684831,0.63211,0.742172,0.72429
+2022_964_Argentina,Argentina,Hyundai,group_or_knockout,4.321,0.685627,0.582963,0.553091,0.91759,0.723824
+2018_865_Sweden,Sweden,Budweiser,group_or_knockout,4.59,0.563963,0.613316,0.490346,0.706456,0.722311
+1998_558_Germany,Germany,Coca-Cola,group_or_knockout,4.544,0.450221,0.58396,0.579774,0.964657,0.721847
+2006_659_Germany,Germany,Coca-Cola,group_or_knockout,4.539,0.453653,0.582415,0.575542,0.964657,0.720808
+1954_89_Germany,Germany,Coca-Cola,tournament,4.501,0.491604,0.594177,0.548128,0.964657,0.720417
+2002_644_Germany,Germany,Coca-Cola,group_or_knockout,4.48,0.485337,0.590414,0.578241,0.964657,0.718698
+2018_900_Croatia,Croatia,Hisense,group_or_knockout,4.313,0.65367,0.633157,0.552996,0.860308,0.718609
+2014_836_Argentina,Argentina,Hyundai,group_or_knockout,4.542,0.519344,0.539813,0.539032,0.91759,0.718327
+2006_701_Argentina,Argentina,Hyundai,group_or_knockout,4.548,0.509316,0.536116,0.549164,0.91759,0.717983
+2006_705_Germany,Germany,Coca-Cola,group_or_knockout,4.531,0.469931,0.588329,0.531553,0.964657,0.717817
+1982_357_Germany,Germany,Coca-Cola,tournament,4.475,0.486962,0.590414,0.564353,0.964657,0.716188
+2010_760_England,England,McDonald's,group_or_knockout,4.565,0.572826,0.730486,0.442301,0.519574,0.715319
+2006_678_Germany,Germany,Coca-Cola,group_or_knockout,4.528,0.468829,0.586851,0.520622,0.964657,0.715224
+2018_837_Saudi_Arabia,Saudi Arabia,Visa,group_or_knockout,4.505,0.706031,0.522529,0.505706,0.611469,0.714175
+2022_964_France,France,Qatar Airways,group_or_knockout,4.321,0.685627,0.559846,0.536412,0.865672,0.712136
+1978_280_Germany,Germany,Coca-Cola,tournament,4.508,0.450134,0.578653,0.555254,0.964657,0.71079
+2006_665_Argentina,Argentina,Hyundai,group_or_knockout,4.33,0.61726,0.558567,0.573334,0.91759,0.708888
+1970_207_Germany,Germany,Coca-Cola,tournament,4.508,0.39878,0.562389,0.643209,0.964657,0.708878
+2002_582_Saudi_Arabia,Saudi Arabia,Visa,group_or_knockout,4.652,0.640647,0.508076,0.394892,0.611469,0.708828
+1986_398_Russia,Russia,Hyundai,group_or_knockout,4.36,0.63038,0.600216,0.618883,0.671751,0.706606
+2022_909_Japan,Japan,Adidas,group_or_knockout,4.651,0.630286,0.454725,0.457081,0.62013,0.706333
+1998_575_Germany,Germany,Coca-Cola,group_or_knockout,4.498,0.456362,0.58087,0.522801,0.964657,0.706169
+2022_963_Croatia,Croatia,Hisense,group_or_knockout,4.232,0.625994,0.617434,0.631764,0.860308,0.705756
+2014_773_Croatia,Croatia,Hisense,group_or_knockout,4.356,0.577811,0.610374,0.545746,0.860308,0.704747
+2018_871_Spain,Spain,Budweiser,group_or_knockout,4.326,0.640744,0.594983,0.577622,0.758937,0.704606
+2018_885_Argentina,Argentina,Hyundai,group_or_knockout,4.265,0.675438,0.573959,0.513885,0.91759,0.704129
+1998_531_Germany,Germany,Coca-Cola,group_or_knockout,4.48,0.439612,0.572672,0.565257,0.964657,0.703627
+2022_950_Argentina,Argentina,Hyundai,group_or_knockout,4.358,0.592291,0.551241,0.546297,0.91759,0.703463
+2018_869_Russia,Russia,Hyundai,group_or_knockout,4.399,0.622059,0.600349,0.556141,0.671751,0.703219
+2018_900_France,France,Qatar Airways,group_or_knockout,4.313,0.65367,0.548018,0.532497,0.865672,0.700951
+1986_383_Germany,Germany,Coca-Cola,group_or_knockout,4.497,0.414329,0.566085,0.563837,0.964657,0.69982
+1998_575_Croatia,Croatia,Hisense,group_or_knockout,4.498,0.456362,0.57744,0.53593,0.860308,0.696954
+2018_885_France,France,Qatar Airways,group_or_knockout,4.265,0.675438,0.550842,0.527107,0.865672,0.696627
+2002_630_Germany,Germany,Coca-Cola,group_or_knockout,4.477,0.422936,0.566758,0.550529,0.964657,0.696278
+2006_700_France,France,Qatar Airways,group_or_knockout,4.291,0.608022,0.530949,0.619404,0.865672,0.695939
+2006_645_Costa_Rica,Costa Rica,Visa,group_or_knockout,4.642,0.575561,0.475565,0.398196,0.695166,0.695642
+2014_798_France,France,Qatar Airways,group_or_knockout,4.124,0.720838,0.560186,0.622067,0.865672,0.695547
+1958_122_Germany,Germany,Coca-Cola,tournament,4.483,0.372033,0.552779,0.623208,0.964657,0.693846
+1998_569_Germany,Germany,Coca-Cola,group_or_knockout,4.486,0.426462,0.569042,0.509122,0.964657,0.69333
+2002_625_Belgium,Belgium,Visa,group_or_knockout,4.248,0.573895,0.653583,0.635797,0.742172,0.692508
+2014_789_South_Korea,South Korea,McDonald's,group_or_knockout,4.471,0.676844,0.534283,0.577484,0.399501,0.692442
+1978_301_Germany,Germany,Coca-Cola,tournament,4.44,0.422829,0.565213,0.574035,0.964657,0.692433
+2002_638_Germany,Germany,Coca-Cola,group_or_knockout,4.501,0.404546,0.56165,0.525364,0.964657,0.692223
+2022_910_Costa_Rica,Costa Rica,Visa,group_or_knockout,4.362,0.720882,0.508971,0.471468,0.695166,0.692165
+2006_700_Spain,Spain,Budweiser,group_or_knockout,4.291,0.608022,0.58161,0.594688,0.758937,0.690924
+1982_328_Chile,Chile,Hisense,tournament,4.588,0.496937,0.521923,0.495709,0.687529,0.689603
+2006_694_Sweden,Sweden,Budweiser,group_or_knockout,4.57,0.473082,0.577765,0.468333,0.706456,0.689142
+2002_644_Brazil,Brazil,Adidas,group_or_knockout,4.48,0.485337,0.479808,0.542686,0.91059,0.688404
+2010_735_Brazil,Brazil,Adidas,group_or_knockout,4.331,0.580726,0.505416,0.556384,0.91059,0.688395
+2014_776_Spain,Spain,Budweiser,group_or_knockout,4.251,0.65511,0.594849,0.537727,0.758937,0.688304
+2014_773_Brazil,Brazil,Adidas,group_or_knockout,4.356,0.577811,0.503198,0.526962,0.91059,0.687854
+1974_263_Germany,Germany,Coca-Cola,tournament,4.488,0.402358,0.560911,0.51045,0.964657,0.687119
+2018_887_Spain,Spain,Budweiser,group_or_knockout,4.339,0.575906,0.573611,0.560142,0.758937,0.686449
+1970_230_Germany,Germany,Coca-Cola,tournament,4.435,0.43467,0.56817,0.514602,0.964657,0.686326
+1990_464_Germany,Germany,Coca-Cola,group_or_knockout,4.424,0.399566,0.557081,0.592235,0.964657,0.685444
+1954_92_Germany,Germany,Coca-Cola,tournament,4.459,0.405987,0.560105,0.527082,0.964657,0.684744
+1994_465_Germany,Germany,Coca-Cola,group_or_knockout,4.501,0.373838,0.5513,0.530707,0.964657,0.684352
+2002_595_Germany,Germany,Coca-Cola,group_or_knockout,4.474,0.416053,0.563062,0.484024,0.964657,0.684233
+2022_903_Iran,Iran,Visa,group_or_knockout,3.955,0.913393,0.518315,0.661938,0.653966,0.683568
+2022_922_Argentina,Argentina,Hyundai,group_or_knockout,4.285,0.568653,0.536257,0.552387,0.91759,0.682934
+2018_853_Russia,Russia,Hyundai,group_or_knockout,4.415,0.577124,0.581868,0.483748,0.671751,0.682827
+2014_806_Brazil,Brazil,Adidas,group_or_knockout,4.379,0.568266,0.501047,0.475761,0.91059,0.682447
+2014_781_Argentina,Argentina,Hyundai,group_or_knockout,4.313,0.551106,0.531888,0.540264,0.91759,0.681762
+2018_894_Belgium,Belgium,Visa,group_or_knockout,4.258,0.554677,0.647735,0.58234,0.742172,0.68159
+2018_859_Croatia,Croatia,Hisense,group_or_knockout,4.25,0.560986,0.595323,0.560123,0.860308,0.68077
+1982_357_France,France,Qatar Airways,tournament,4.475,0.486962,0.499561,0.497773,0.865672,0.680614
+2014_784_Portugal,Portugal,Mengniu,group_or_knockout,4.553,0.554204,0.697803,0.329197,0.451927,0.680523
+2022_927_Belgium,Belgium,Visa,group_or_knockout,4.236,0.565023,0.649886,0.580314,0.742172,0.679906
+1998_545_Serbia,Serbia,Vivo,group_or_knockout,4.611,0.530934,0.571836,0.43265,0.465037,0.679238
+2010_730_Germany,Germany,Coca-Cola,group_or_knockout,4.453,0.419577,0.56454,0.467186,0.964657,0.679039
+2022_951_France,France,Qatar Airways,group_or_knockout,4.277,0.609205,0.527186,0.517882,0.865672,0.678723
+2022_905_Argentina,Argentina,Hyundai,group_or_knockout,4.292,0.575067,0.54002,0.494307,0.91759,0.678185
+2014_798_Switzerland,Switzerland,Adidas,group_or_knockout,4.124,0.720838,0.526114,0.561218,0.830284,0.677357
+2014_776_Netherlands,Netherlands,Hisense,group_or_knockout,4.251,0.65511,0.482565,0.513231,0.874044,0.676174

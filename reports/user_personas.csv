@@ -1,195 +1,194 @@
 team,attention_segment,commercial_segment,rows,avg_media_exposure,avg_attention,avg_social_interaction,avg_conversion_proxy,avg_efficiency,avg_roi,persona
-Germany,High attention,Premium,58,0.4708,0.4819,0.3677,0.7473,1.6238,4.2609,Efficient niche sponsor audience
-Argentina,High attention,Premium,16,0.5714,0.534,0.3643,0.7158,1.2625,4.2519,Efficient niche sponsor audience
-Germany,Mid attention,Premium,31,0.292,0.3572,0.3535,0.7148,2.5462,4.1308,Efficient niche sponsor audience
-Russia,High attention,Premium,5,0.6324,0.5803,0.3803,0.7139,1.1327,4.515,High-intent global fans
-Turkey,Mid attention,Watchlist,1,0.2795,0.3499,0.3743,0.7095,2.5383,4.343,Efficient niche sponsor audience
-Brazil,High attention,Premium,6,0.6292,0.6188,0.3525,0.7052,1.1389,4.3088,High-intent global fans
-Argentina,Mid attention,Premium,49,0.3998,0.4225,0.3447,0.7015,1.8444,4.1934,Efficient niche sponsor audience
-Germany,Mid attention,Scalable,18,0.2338,0.3041,0.322,0.691,3.2556,4.0346,Efficient niche sponsor audience
-Hungary,High attention,Premium,1,0.7747,0.5904,0.7107,0.6862,0.8857,4.467,High-intent global fans
-Uruguay,High attention,Premium,3,0.6129,0.5162,0.3843,0.6737,1.1014,4.0107,Developing attention segment
-Croatia,High attention,Premium,24,0.5206,0.5238,0.354,0.6665,1.301,4.0618,Efficient niche sponsor audience
-Mexico,High attention,Premium,3,0.5314,0.522,0.4161,0.6639,1.2549,4.3057,Efficient niche sponsor audience
-Argentina,Mid attention,Scalable,23,0.276,0.3427,0.3163,0.6627,2.6924,4.0361,Efficient niche sponsor audience
-France,High attention,Premium,10,0.627,0.6101,0.377,0.6619,1.0606,4.1639,High-intent global fans
-Germany,High attention,Scalable,5,0.4181,0.3844,0.2878,0.6581,1.5903,3.9022,Efficient niche sponsor audience
-Slovakia,Mid attention,Watchlist,1,0.6313,0.5797,0.3927,0.658,1.0424,4.22,High-intent global fans
-Brazil,Mid attention,Premium,79,0.3966,0.4315,0.3367,0.6477,1.7296,4.0716,Efficient niche sponsor audience
-Belgium,Mid attention,Premium,3,0.2732,0.4421,0.3263,0.6381,2.3473,4.107,Efficient niche sponsor audience
-Belgium,High attention,Premium,34,0.4507,0.4779,0.3793,0.6306,1.452,4.0756,Efficient niche sponsor audience
-Brazil,Mid attention,Scalable,29,0.236,0.3199,0.3253,0.6283,3.2096,3.9915,Efficient niche sponsor audience
-England,High attention,Scalable,7,0.5452,0.5889,0.3739,0.622,1.1477,3.9171,High-intent global fans
-Sweden,High attention,Scalable,3,0.5343,0.57,0.3867,0.6215,1.1707,4.0663,High-intent global fans
-Croatia,Mid attention,Scalable,4,0.3676,0.4422,0.2736,0.6203,1.6793,3.878,Efficient niche sponsor audience
-Yugoslavia,Mid attention,Premium,2,0.5174,0.5047,0.4758,0.618,1.1987,4.001,Developing attention segment
-France,Mid attention,Premium,37,0.43,0.4722,0.3324,0.6136,1.4659,3.9672,Efficient niche sponsor audience
-France,Mid attention,Scalable,26,0.2946,0.3319,0.3254,0.6079,2.5203,3.9439,Efficient niche sponsor audience
-Spain,High attention,Premium,9,0.573,0.5604,0.4028,0.6077,1.0838,3.9746,Developing attention segment
-Tunisia,Low attention,Scalable,1,0.2071,0.3428,0.3348,0.6033,2.9135,4.279,Efficient niche sponsor audience
-Ecuador,Mid attention,Watchlist,1,0.4512,0.3906,0.2535,0.6028,1.3358,3.929,Efficient niche sponsor audience
-Belgium,High attention,Scalable,7,0.3541,0.4034,0.3268,0.6023,1.7277,3.9631,Efficient niche sponsor audience
-Spain,High attention,Scalable,4,0.5862,0.5386,0.4229,0.601,1.0278,3.9495,Developing attention segment
-Switzerland,Mid attention,Scalable,24,0.2867,0.3583,0.3347,0.5965,2.4674,3.9598,Efficient niche sponsor audience
-Nigeria,Mid attention,Scalable,13,0.5202,0.4772,0.3344,0.5959,1.1617,3.8818,Developing attention segment
-Sweden,High attention,Premium,2,0.53,0.4456,0.366,0.5952,1.1244,3.964,Developing attention segment
-El Salvador,Mid attention,Scalable,1,0.7747,0.5904,0.7107,0.5937,0.7663,4.467,Social amplifiers
-Poland,Mid attention,Scalable,28,0.374,0.4106,0.3306,0.592,1.7145,3.9305,Efficient niche sponsor audience
-Croatia,Mid attention,Premium,2,0.4025,0.3818,0.3417,0.5909,1.4686,3.7575,Efficient niche sponsor audience
-Australia,Mid attention,Scalable,8,0.5722,0.5612,0.3548,0.5906,1.0345,4.0435,Developing attention segment
-Netherlands,Mid attention,Scalable,25,0.3488,0.4319,0.332,0.5903,1.8364,3.9053,Efficient niche sponsor audience
-Belgium,Mid attention,Scalable,7,0.1912,0.2747,0.267,0.5901,3.4998,3.916,Efficient niche sponsor audience
-Iceland,Low attention,Scalable,1,0.4349,0.425,0.3038,0.59,1.3567,4.387,Efficient niche sponsor audience
-Uruguay,High attention,Scalable,18,0.5156,0.4924,0.363,0.5884,1.1577,3.6969,Developing attention segment
-Saudi Arabia,Mid attention,Premium,2,0.518,0.525,0.2892,0.5867,1.1316,4.1735,Developing attention segment
-Mexico,Mid attention,Premium,30,0.4331,0.4497,0.3308,0.585,1.4056,3.9897,Efficient niche sponsor audience
-Bosnia and Herzegovina,Mid attention,Watchlist,2,0.4818,0.4908,0.247,0.5832,1.2104,4.042,Developing attention segment
-Poland,Mid attention,Premium,10,0.4265,0.4682,0.303,0.5811,1.3828,3.8879,Efficient niche sponsor audience
-England,High attention,Premium,4,0.6555,0.6168,0.4855,0.5804,0.8913,3.7618,Broadcast-led awareness audience
-Yugoslavia,Low attention,Scalable,18,0.204,0.2786,0.2981,0.5796,3.1462,3.8476,Efficient niche sponsor audience
-Russia,Mid attention,Premium,19,0.3806,0.4173,0.3267,0.5788,1.6069,3.9838,Efficient niche sponsor audience
-Netherlands,Mid attention,Premium,30,0.4835,0.4815,0.3561,0.5764,1.2416,3.8484,Developing attention segment
-Paraguay,Mid attention,Scalable,20,0.3911,0.4444,0.3322,0.5753,1.5327,3.9624,Efficient niche sponsor audience
-Yugoslavia,Mid attention,Scalable,13,0.3406,0.3915,0.3674,0.5746,1.7358,3.8269,Efficient niche sponsor audience
-Uruguay,Mid attention,Scalable,38,0.2585,0.3377,0.3254,0.5711,2.4338,3.6325,Efficient niche sponsor audience
-Spain,Mid attention,Premium,17,0.4485,0.4875,0.3239,0.5707,1.2861,3.827,Efficient niche sponsor audience
-Nigeria,Low attention,Scalable,8,0.3972,0.457,0.2916,0.5704,1.4361,3.7819,Efficient niche sponsor audience
-Romania,Mid attention,Scalable,12,0.4077,0.4284,0.3581,0.5702,1.4203,3.7959,Efficient niche sponsor audience
-Denmark,High attention,Premium,1,0.5907,0.5928,0.3336,0.5699,0.9648,4.048,Developing attention segment
-Switzerland,High attention,Premium,2,0.6882,0.681,0.4198,0.5648,0.8164,3.83,Broadcast-led awareness audience
-Australia,Low attention,Scalable,9,0.3925,0.4621,0.3071,0.5645,1.5286,3.938,Efficient niche sponsor audience
-Chile,Mid attention,Scalable,28,0.3194,0.3787,0.3054,0.5644,2.0862,3.9339,Efficient niche sponsor audience
-Mexico,Mid attention,Scalable,27,0.2917,0.3581,0.3227,0.561,2.1274,3.8933,Efficient niche sponsor audience
-Canada,Mid attention,Scalable,3,0.5659,0.5779,0.4813,0.5608,1.0115,4.0547,Developing attention segment
-Spain,Mid attention,Scalable,37,0.3037,0.3827,0.3382,0.5592,2.2586,3.7824,Efficient niche sponsor audience
-Sweden,Mid attention,Premium,5,0.4741,0.4497,0.3464,0.5587,1.1798,3.8176,Developing attention segment
-Russia,Mid attention,Scalable,21,0.2974,0.3833,0.3254,0.5548,1.9829,3.8888,Efficient niche sponsor audience
-Switzerland,Mid attention,Premium,15,0.5007,0.5394,0.392,0.5528,1.1918,3.7809,Developing attention segment
-Senegal,Mid attention,Scalable,10,0.4929,0.4835,0.4166,0.5512,1.139,3.7591,Developing attention segment
-Turkey,Mid attention,Scalable,9,0.434,0.4748,0.343,0.551,1.331,3.7719,Efficient niche sponsor audience
-Colombia,Low attention,Watchlist,6,0.3488,0.4168,0.362,0.5503,1.6276,3.68,Efficient niche sponsor audience
-Australia,Mid attention,Premium,3,0.5005,0.5387,0.4049,0.5489,1.0992,3.8767,Developing attention segment
-England,Mid attention,Scalable,60,0.3476,0.4101,0.3393,0.5483,1.7822,3.6435,Efficient niche sponsor audience
-North Korea,Mid attention,Scalable,3,0.5436,0.6494,0.3617,0.5483,1.0385,3.9,Developing attention segment
-Hungary,Mid attention,Scalable,20,0.2795,0.3115,0.3443,0.5448,2.2787,3.8806,Efficient niche sponsor audience
-Sweden,Mid attention,Scalable,41,0.3071,0.3765,0.333,0.541,1.9795,3.7485,Efficient niche sponsor audience
-Italy,Mid attention,Scalable,38,0.3942,0.4258,0.3228,0.5395,1.4297,3.8754,Efficient niche sponsor audience
-Iran,High attention,Premium,1,0.7885,0.733,0.4751,0.5394,0.6842,3.961,Broadcast-led awareness audience
-Italy,Mid attention,Premium,18,0.4564,0.4569,0.3556,0.5385,1.1967,3.8711,Developing attention segment
-Saudi Arabia,Mid attention,Scalable,17,0.4922,0.4869,0.3686,0.5382,1.1133,3.9804,Developing attention segment
-Hungary,Mid attention,Premium,11,0.3391,0.411,0.3527,0.538,1.6897,3.8536,Efficient niche sponsor audience
-Denmark,Mid attention,Scalable,1,0.4414,0.5693,0.3077,0.538,1.2188,3.917,Developing attention segment
-Chile,Mid attention,Premium,4,0.4859,0.5464,0.3377,0.5369,1.118,3.8248,Developing attention segment
-Paraguay,Low attention,Scalable,3,0.1217,0.2181,0.2201,0.5343,4.7945,3.8017,Efficient niche sponsor audience
-Cameroon,Low attention,Scalable,4,0.3004,0.4032,0.3048,0.5327,1.7801,3.8775,Efficient niche sponsor audience
-Scotland,Mid attention,Scalable,22,0.3359,0.3967,0.3245,0.5297,1.6534,3.7628,Efficient niche sponsor audience
-Portugal,Mid attention,Watchlist,3,0.3377,0.3278,0.3435,0.529,1.6182,3.505,Efficient niche sponsor audience
-Japan,Mid attention,Premium,7,0.5625,0.5211,0.3213,0.528,0.9571,4.0194,Developing attention segment
-Portugal,Mid attention,Scalable,32,0.4715,0.4895,0.3403,0.5279,1.2069,3.5009,Developing attention segment
-Ivory Coast,Mid attention,Scalable,9,0.4984,0.5434,0.3843,0.5278,1.0641,3.8312,Developing attention segment
-Ecuador,Mid attention,Scalable,12,0.4761,0.5119,0.3812,0.5265,1.1267,3.6591,Developing attention segment
-Denmark,Mid attention,Premium,21,0.4497,0.4883,0.3294,0.5264,1.1854,3.8709,Developing attention segment
-New Zealand,Low attention,Watchlist,3,0.3606,0.4669,0.3456,0.5261,1.4718,4.1877,Efficient niche sponsor audience
-Colombia,Mid attention,Scalable,9,0.4994,0.5059,0.3688,0.5252,1.0574,3.5889,Developing attention segment
-Romania,Mid attention,Premium,2,0.541,0.481,0.4404,0.5236,0.9644,3.6075,Developing attention segment
-Costa Rica,Mid attention,Scalable,13,0.4714,0.5377,0.3561,0.5216,1.1266,3.9119,Developing attention segment
-German DR,Mid attention,Scalable,6,0.299,0.3212,0.3119,0.5213,1.7464,3.9447,Efficient niche sponsor audience
-Colombia,Mid attention,Watchlist,4,0.441,0.4779,0.3554,0.5212,1.1673,3.575,Developing attention segment
-Canada,Low attention,Scalable,3,0.3586,0.3698,0.3839,0.5206,1.4466,3.8937,Efficient niche sponsor audience
-Czechoslovakia,Mid attention,Scalable,22,0.2572,0.3483,0.3085,0.5168,2.1669,3.7813,Efficient niche sponsor audience
-Cameroon,Mid attention,Scalable,20,0.4551,0.4749,0.3461,0.5117,1.1404,3.7916,Developing attention segment
-Italy,Low attention,Scalable,27,0.2057,0.2832,0.3304,0.5111,2.9337,3.7583,Efficient niche sponsor audience
-Ukraine,Mid attention,Scalable,2,0.5064,0.4554,0.2597,0.5093,1.0084,3.9445,Developing attention segment
-Colombia,Low attention,Scalable,3,0.3256,0.3475,0.3799,0.5092,1.5675,3.5297,Efficient niche sponsor audience
-Ukraine,Mid attention,Premium,1,0.5824,0.513,0.5323,0.5084,0.873,3.94,Developing attention segment
-Japan,Mid attention,Scalable,18,0.4863,0.4931,0.3615,0.5083,1.0655,3.9391,Developing attention segment
-Egypt,Mid attention,Scalable,3,0.5071,0.5247,0.2907,0.5076,1.0072,4.0087,Developing attention segment
-Czechoslovakia,Low attention,Scalable,5,0.0948,0.2225,0.2527,0.5068,5.1473,3.7412,Efficient niche sponsor audience
-Scotland,Mid attention,Premium,1,0.4912,0.4133,0.3844,0.5066,1.0313,3.674,Developing attention segment
-Tunisia,Mid attention,Scalable,14,0.458,0.4654,0.4035,0.5062,1.1625,3.8906,Developing attention segment
-Jamaica,Mid attention,Scalable,2,0.5191,0.5436,0.4123,0.506,0.9672,4.0685,Developing attention segment
-North Korea,Low attention,Scalable,4,0.3021,0.3596,0.3135,0.5041,1.686,3.7258,Efficient niche sponsor audience
-Peru,Mid attention,Scalable,13,0.3481,0.4162,0.352,0.5019,1.5962,3.8873,Efficient niche sponsor audience
-Serbia,Mid attention,Scalable,16,0.4875,0.5509,0.3468,0.4994,1.0576,3.7077,Developing attention segment
-Slovenia,Low attention,Scalable,1,0.4192,0.4732,0.2836,0.4977,1.1874,3.613,Developing attention segment
-Tunisia,Mid attention,Premium,3,0.527,0.5257,0.4413,0.4925,0.9709,3.836,Developing attention segment
-South Africa,Mid attention,Scalable,7,0.4984,0.4703,0.3425,0.4912,1.0128,3.788,Developing attention segment
-Cameroon,Mid attention,Premium,2,0.5783,0.719,0.395,0.4912,0.85,3.7075,Developing attention segment
-Costa Rica,Mid attention,Premium,8,0.5297,0.5338,0.3908,0.491,0.9391,3.7881,Developing attention segment
-United Arab Emirates,Low attention,Scalable,3,0.3952,0.3868,0.3888,0.4899,1.2249,3.9623,Developing attention segment
-Norway,Mid attention,Watchlist,1,0.3745,0.4479,0.358,0.4896,1.3075,3.872,Efficient niche sponsor audience
-Northern Ireland,Mid attention,Scalable,13,0.3022,0.3703,0.3078,0.4894,1.6785,3.765,Efficient niche sponsor audience
-Algeria,Mid attention,Scalable,12,0.4219,0.4569,0.3484,0.4884,1.1898,3.7947,Developing attention segment
-Panama,Low attention,Scalable,2,0.5108,0.5642,0.4376,0.4883,0.9811,3.8645,Developing attention segment
-Kuwait,Low attention,Scalable,3,0.3492,0.421,0.3845,0.488,1.3991,3.8273,Efficient niche sponsor audience
-Slovenia,Mid attention,Watchlist,3,0.5004,0.4714,0.3415,0.4863,0.976,3.5747,Developing attention segment
-Ukraine,Low attention,Scalable,2,0.3958,0.4676,0.356,0.4836,1.2488,3.8375,Developing attention segment
-Czech Republic,Low attention,Scalable,1,0.3725,0.4499,0.2316,0.4834,1.2977,3.63,Efficient niche sponsor audience
-Iran,Mid attention,Scalable,15,0.4378,0.464,0.3471,0.4823,1.1397,3.7293,Developing attention segment
-Ghana,Mid attention,Watchlist,3,0.4811,0.5009,0.2783,0.4763,0.9781,3.723,Developing attention segment
-Panama,Mid attention,Scalable,1,0.6408,0.6823,0.3292,0.4756,0.7423,3.812,Broadcast-led awareness audience
-Chile,Low attention,Scalable,1,0.0253,0.0987,0.3136,0.4738,6.0,3.571,Efficient niche sponsor audience
-New Zealand,Mid attention,Scalable,1,0.5287,0.5039,0.4041,0.4729,0.8945,3.992,Developing attention segment
-Austria,Low attention,Watchlist,1,0.0224,0.197,0.2782,0.4708,6.0,3.606,Efficient niche sponsor audience
-DR Congo,Mid attention,Scalable,1,0.567,0.5248,0.42,0.4697,0.8283,4.141,Developing attention segment
-Romania,Low attention,Scalable,7,0.1928,0.2424,0.327,0.4696,2.9636,3.3899,Efficient niche sponsor audience
-Wales,Low attention,Scalable,5,0.2178,0.2585,0.2826,0.4677,2.3557,3.8826,Efficient niche sponsor audience
-Paraguay,Mid attention,Premium,4,0.4371,0.4618,0.2675,0.4602,1.0861,3.5085,Developing attention segment
-Jamaica,Low attention,Scalable,1,0.4304,0.3805,0.5684,0.4574,1.0629,3.868,Developing attention segment
-South Africa,Mid attention,Premium,2,0.486,0.4688,0.3618,0.4551,0.9454,3.64,Developing attention segment
-Ghana,Low attention,Scalable,1,0.3725,0.4499,0.2316,0.4516,1.2123,3.63,Developing attention segment
-United States,Low attention,Watchlist,5,0.1184,0.2615,0.285,0.4513,4.144,3.7298,Efficient niche sponsor audience
-Bulgaria,Mid attention,Scalable,16,0.4038,0.4169,0.3585,0.4507,1.1226,3.6289,Developing attention segment
-El Salvador,Low attention,Scalable,5,0.3091,0.4083,0.3175,0.4504,1.4537,3.8726,Efficient niche sponsor audience
-England,Mid attention,Watchlist,3,0.1154,0.2033,0.2034,0.4481,4.0156,3.2713,Efficient niche sponsor audience
-Austria,Mid attention,Scalable,19,0.3561,0.3818,0.3477,0.4457,1.3408,3.5107,Efficient niche sponsor audience
-Iraq,Low attention,Scalable,3,0.3263,0.3543,0.3287,0.4452,1.3837,3.8077,Efficient niche sponsor audience
-Greece,Mid attention,Scalable,9,0.4806,0.4817,0.3775,0.4444,0.9342,3.5961,Developing attention segment
-China,Mid attention,Watchlist,2,0.5289,0.4411,0.3752,0.4421,0.8328,3.9085,Developing attention segment
-Peru,Mid attention,Premium,4,0.4135,0.4284,0.318,0.4404,1.0656,3.633,Developing attention segment
-Indonesia,Low attention,Watchlist,1,0.2067,0.4146,0.2884,0.4353,2.1057,3.884,Efficient niche sponsor audience
-Czech Republic,Mid attention,Scalable,2,0.5155,0.5411,0.2636,0.4344,0.8475,3.431,Developing attention segment
-United States,Mid attention,Watchlist,6,0.3377,0.41,0.3206,0.4343,1.3479,3.6637,Efficient niche sponsor audience
-Senegal,Mid attention,Premium,2,0.6256,0.5561,0.3823,0.4312,0.694,3.2705,Broadcast-led awareness audience
-Bulgaria,Low attention,Scalable,9,0.2323,0.3406,0.3615,0.4298,1.9531,3.5441,Efficient niche sponsor audience
-Republic of Ireland,Mid attention,Watchlist,3,0.3476,0.3902,0.304,0.4285,1.2233,3.6717,Developing attention segment
-Czechoslovakia,Mid attention,Premium,3,0.4314,0.3881,0.412,0.4285,1.0051,3.4217,Developing attention segment
-Iceland,Mid attention,Scalable,2,0.597,0.4514,0.4394,0.4256,0.7153,3.7135,Developing attention segment
-Morocco,Mid attention,Scalable,13,0.4989,0.5063,0.321,0.4237,0.854,3.5842,Developing attention segment
-Honduras,Mid attention,Scalable,4,0.5481,0.5311,0.4372,0.4217,0.7625,3.7678,Developing attention segment
-Republic of Ireland,Mid attention,Scalable,10,0.3994,0.4312,0.3913,0.4169,1.0449,3.6273,Developing attention segment
-Morocco,Mid attention,Watchlist,10,0.3619,0.3837,0.35,0.4149,1.1598,3.5522,Developing attention segment
-South Korea,Mid attention,Scalable,38,0.4738,0.4959,0.359,0.4119,0.8933,3.5864,Developing attention segment
-Haiti,Low attention,Scalable,3,0.345,0.4461,0.3363,0.4118,1.1799,3.7773,Developing attention segment
-Austria,Mid attention,Watchlist,8,0.2557,0.3028,0.3565,0.4067,1.6012,3.3634,Efficient niche sponsor audience
-Norway,Low attention,Watchlist,3,0.2693,0.3339,0.3431,0.3984,1.8176,3.531,Efficient niche sponsor audience
-Bulgaria,Mid attention,Premium,1,0.3906,0.5247,0.3827,0.3975,1.0177,3.407,Developing attention segment
-Iran,Mid attention,Premium,2,0.514,0.5154,0.3651,0.3948,0.7752,3.379,Developing attention segment
-Angola,Low attention,Watchlist,3,0.409,0.3893,0.3248,0.3921,1.0365,3.5537,Developing attention segment
-Norway,Mid attention,Scalable,4,0.3694,0.4773,0.374,0.3892,1.0407,3.4968,Developing attention segment
-Egypt,Low attention,Scalable,4,0.3061,0.3704,0.3112,0.3858,1.3523,3.515,Efficient niche sponsor audience
-Ghana,Mid attention,Scalable,11,0.5259,0.5268,0.3704,0.3837,0.734,3.3684,Developing attention segment
-Slovakia,Mid attention,Scalable,1,0.6372,0.5497,0.2682,0.3784,0.5938,3.252,Broadcast-led awareness audience
-Bosnia and Herzegovina,Mid attention,Scalable,1,0.5468,0.6601,0.487,0.3752,0.6862,3.312,Developing attention segment
-United States,Mid attention,Scalable,26,0.4834,0.4951,0.3423,0.3742,0.7869,3.4354,Developing attention segment
-Slovenia,Mid attention,Scalable,1,0.5311,0.6149,0.4408,0.3732,0.7028,3.195,Developing attention segment
-Peru,Low attention,Scalable,1,0.0516,0.0442,0.3263,0.3672,6.0,3.329,Efficient niche sponsor audience
-Greece,Low attention,Scalable,1,0.3891,0.3999,0.2073,0.367,0.9432,3.283,Developing attention segment
-Honduras,Low attention,Scalable,5,0.3443,0.429,0.3739,0.3609,1.0777,3.5224,Developing attention segment
-Algeria,Mid attention,Premium,1,0.6005,0.5112,0.3575,0.3593,0.5983,3.271,Developing attention segment
-Bolivia,Low attention,Scalable,4,0.3697,0.4236,0.3479,0.3448,0.971,3.53,Developing attention segment
-Wales,Mid attention,Scalable,3,0.5029,0.5376,0.3647,0.3438,0.6835,3.3697,Developing attention segment
-Austria,Low attention,Scalable,1,0.0668,0.1627,0.3336,0.3373,5.0492,3.101,Efficient niche sponsor audience
-Slovenia,Low attention,Watchlist,1,0.4474,0.6414,0.4007,0.3323,0.7429,3.054,Developing attention segment
-Cuba,Low attention,Watchlist,3,0.2558,0.2543,0.3402,0.3229,1.4435,3.05,Efficient niche sponsor audience
-Slovakia,Low attention,Watchlist,2,0.4684,0.4642,0.2148,0.2971,0.6404,2.969,Developing attention segment
-Trinidad and Tobago,Low attention,Watchlist,3,0.3942,0.4773,0.3904,0.2765,0.721,3.4537,Developing attention segment
-New Zealand,Mid attention,Watchlist,2,0.4932,0.4694,0.3283,0.2752,0.559,3.2615,Developing attention segment
-Qatar,Mid attention,Scalable,2,0.6202,0.5374,0.4687,0.2732,0.4415,3.0845,Broadcast-led awareness audience
-Togo,Low attention,Watchlist,2,0.4676,0.5357,0.243,0.2624,0.5589,3.101,Developing attention segment
-Togo,Mid attention,Watchlist,1,0.5507,0.5275,0.3542,0.2543,0.4617,3.071,Developing attention segment
-Qatar,Low attention,Watchlist,1,0.4916,0.6785,0.3461,0.2477,0.5039,2.989,Developing attention segment
-Bolivia,Low attention,Watchlist,2,0.1389,0.2416,0.4211,0.22,1.6129,3.018,Efficient niche sponsor audience
-DR Congo,Low attention,Scalable,2,0.2899,0.335,0.2832,0.2126,0.7356,3.082,Developing attention segment
-Israel,Low attention,Watchlist,3,0.2422,0.3524,0.2553,0.1781,0.7554,2.8843,Developing attention segment
-China,Low attention,Watchlist,1,0.5082,0.5647,0.3393,0.153,0.301,2.809,Developing attention segment
+Germany,High attention,Premium,63,0.4666,0.4742,0.3613,0.73,1.5988,4.279,Efficient niche sponsor audience
+Germany,Mid attention,Premium,34,0.2864,0.3516,0.3526,0.7064,2.6131,4.1804,Efficient niche sponsor audience
+Turkey,Mid attention,Watchlist,1,0.2795,0.3499,0.3743,0.6964,2.4913,4.403,Efficient niche sponsor audience
+Argentina,High attention,Premium,16,0.5714,0.534,0.3643,0.6847,1.2071,4.2082,Developing attention segment
+Brazil,High attention,Premium,6,0.6292,0.6188,0.3525,0.6812,1.1002,4.2928,High-intent global fans
+Germany,Mid attention,Scalable,15,0.2348,0.3062,0.3178,0.681,3.1453,4.0747,Efficient niche sponsor audience
+Argentina,Mid attention,Premium,48,0.3995,0.4234,0.3419,0.6698,1.7602,4.1457,Efficient niche sponsor audience
+Russia,High attention,Premium,5,0.6324,0.5803,0.3804,0.6694,1.0621,4.4362,High-intent global fans
+Hungary,High attention,Premium,1,0.7747,0.5904,0.7112,0.6607,0.8529,4.447,High-intent global fans
+Croatia,High attention,Premium,24,0.5206,0.5238,0.3541,0.6494,1.2686,4.0748,Efficient niche sponsor audience
+France,High attention,Premium,10,0.627,0.6101,0.377,0.6478,1.0388,4.1885,High-intent global fans
+Uruguay,High attention,Premium,3,0.6129,0.5162,0.3843,0.6417,1.0493,3.9843,Developing attention segment
+Mexico,High attention,Premium,3,0.5314,0.522,0.4161,0.6402,1.2092,4.3007,Developing attention segment
+Yugoslavia,Mid attention,Premium,2,0.5174,0.5047,0.4758,0.6396,1.247,4.1705,Developing attention segment
+Sweden,High attention,Premium,5,0.5326,0.5203,0.3784,0.6338,1.1959,4.2038,Developing attention segment
+Slovakia,Mid attention,Watchlist,1,0.6313,0.5797,0.3927,0.6334,1.0035,4.249,High-intent global fans
+Argentina,Mid attention,Scalable,24,0.2819,0.3442,0.3232,0.6332,2.5344,3.9918,Efficient niche sponsor audience
+Brazil,Mid attention,Premium,83,0.3954,0.4361,0.3384,0.6286,1.6802,4.0687,Efficient niche sponsor audience
+England,High attention,Scalable,7,0.5452,0.5889,0.3739,0.6233,1.15,4.0124,High-intent global fans
+Spain,High attention,Premium,13,0.5771,0.5537,0.409,0.6188,1.0874,4.1025,Developing attention segment
+Belgium,Mid attention,Premium,3,0.2732,0.4421,0.3265,0.6133,2.2545,4.091,Efficient niche sponsor audience
+Belgium,High attention,Premium,35,0.4506,0.4791,0.3786,0.6119,1.4079,4.0858,Efficient niche sponsor audience
+Brazil,Mid attention,Scalable,25,0.2143,0.2866,0.318,0.6059,3.3532,3.972,Efficient niche sponsor audience
+Croatia,Mid attention,Scalable,3,0.3759,0.414,0.28,0.6032,1.5945,3.884,Efficient niche sponsor audience
+France,Mid attention,Premium,44,0.4135,0.4552,0.3306,0.6017,1.5351,3.994,Efficient niche sponsor audience
+Nigeria,Mid attention,Scalable,12,0.5151,0.4883,0.3376,0.601,1.1839,3.9819,Developing attention segment
+Tunisia,Low attention,Scalable,1,0.2071,0.3428,0.3348,0.5955,2.8761,4.338,Efficient niche sponsor audience
+Nigeria,Mid attention,Premium,1,0.5808,0.3438,0.2966,0.5913,1.018,3.943,Developing attention segment
+France,Mid attention,Scalable,19,0.283,0.3196,0.3272,0.591,2.6339,3.9491,Efficient niche sponsor audience
+Switzerland,Mid attention,Scalable,24,0.2867,0.3583,0.3348,0.5857,2.4149,3.9911,Efficient niche sponsor audience
+Spain,Mid attention,Scalable,29,0.2723,0.3645,0.3239,0.5821,2.5517,3.9518,Efficient niche sponsor audience
+Poland,Mid attention,Premium,15,0.4117,0.447,0.302,0.5803,1.4681,3.9598,Efficient niche sponsor audience
+Poland,Mid attention,Scalable,23,0.3723,0.4119,0.3373,0.5797,1.6937,3.9574,Efficient niche sponsor audience
+Scotland,Mid attention,Premium,3,0.3968,0.4811,0.3067,0.5792,1.5051,4.0387,Efficient niche sponsor audience
+Spain,Mid attention,Premium,25,0.4386,0.475,0.3451,0.5779,1.361,3.9334,Efficient niche sponsor audience
+Yugoslavia,Mid attention,Scalable,13,0.3406,0.3915,0.3674,0.5753,1.7349,3.9068,Efficient niche sponsor audience
+Belgium,High attention,Scalable,6,0.3383,0.3842,0.322,0.574,1.7127,3.9303,Efficient niche sponsor audience
+Croatia,Mid attention,Premium,3,0.3825,0.4301,0.3126,0.5731,1.507,3.759,Efficient niche sponsor audience
+Netherlands,Mid attention,Scalable,21,0.3383,0.4387,0.3359,0.5723,1.8517,3.9028,Efficient niche sponsor audience
+Belgium,Mid attention,Scalable,7,0.1912,0.2747,0.2671,0.5718,3.4391,3.9213,Efficient niche sponsor audience
+Netherlands,Mid attention,Premium,34,0.4742,0.4714,0.3508,0.5718,1.2542,3.9004,Efficient niche sponsor audience
+Uruguay,High attention,Scalable,18,0.5156,0.4924,0.3631,0.57,1.1227,3.7107,Developing attention segment
+Sweden,Mid attention,Scalable,29,0.289,0.3606,0.3315,0.5687,2.2447,3.9375,Efficient niche sponsor audience
+Australia,Mid attention,Scalable,8,0.5722,0.5612,0.3548,0.5687,0.9962,4.0334,Developing attention segment
+El Salvador,Mid attention,Premium,1,0.7747,0.5904,0.7112,0.5683,0.7336,4.447,Social amplifiers
+Yugoslavia,Low attention,Scalable,18,0.204,0.2786,0.2981,0.5675,3.0895,3.8744,Efficient niche sponsor audience
+Denmark,High attention,Premium,1,0.5907,0.5928,0.3336,0.5674,0.9605,4.115,Developing attention segment
+Nigeria,Low attention,Scalable,8,0.3972,0.457,0.2916,0.5648,1.4228,3.8346,Efficient niche sponsor audience
+Romania,Mid attention,Scalable,10,0.4076,0.417,0.348,0.5641,1.406,3.843,Efficient niche sponsor audience
+Uruguay,Mid attention,Scalable,38,0.2585,0.3377,0.3254,0.5631,2.3988,3.6837,Efficient niche sponsor audience
+Russia,Mid attention,Premium,17,0.391,0.4276,0.3305,0.5629,1.4983,4.0028,Efficient niche sponsor audience
+England,High attention,Premium,4,0.6555,0.6168,0.4855,0.5602,0.8611,3.7708,Broadcast-led awareness audience
+Sweden,Mid attention,Premium,17,0.3872,0.4251,0.3398,0.5583,1.5048,3.8951,Efficient niche sponsor audience
+Mexico,Mid attention,Premium,27,0.4377,0.4573,0.3339,0.5551,1.2946,3.9466,Efficient niche sponsor audience
+Ecuador,Mid attention,Watchlist,1,0.4512,0.3906,0.2535,0.5547,1.2293,3.851,Developing attention segment
+Chile,Mid attention,Scalable,26,0.316,0.3766,0.309,0.5527,2.0745,3.9664,Efficient niche sponsor audience
+Bosnia and Herzegovina,Mid attention,Watchlist,2,0.4818,0.4908,0.2472,0.5512,1.1504,4.0305,Developing attention segment
+Canada,Mid attention,Scalable,3,0.5659,0.5779,0.4817,0.5492,0.9899,4.09,Developing attention segment
+Iceland,Low attention,Scalable,1,0.4349,0.425,0.3042,0.5487,1.2617,4.305,Efficient niche sponsor audience
+Paraguay,Mid attention,Scalable,21,0.3935,0.4424,0.3239,0.5483,1.4534,3.9349,Efficient niche sponsor audience
+Senegal,Mid attention,Scalable,7,0.5022,0.4948,0.4356,0.5468,1.1114,3.8106,Developing attention segment
+Senegal,Mid attention,Premium,5,0.5329,0.4967,0.3763,0.5467,1.0894,3.8106,Developing attention segment
+Chile,Mid attention,Premium,6,0.445,0.4995,0.3115,0.5466,1.2937,3.9427,Efficient niche sponsor audience
+Switzerland,High attention,Premium,2,0.6882,0.681,0.4198,0.5443,0.7874,3.8165,Broadcast-led awareness audience
+Ivory Coast,Mid attention,Scalable,8,0.4937,0.5184,0.3867,0.5412,1.1013,3.9633,Developing attention segment
+Australia,Low attention,Scalable,9,0.3925,0.4621,0.3071,0.5409,1.4624,3.9188,Efficient niche sponsor audience
+Mexico,Mid attention,Scalable,30,0.3018,0.3604,0.3209,0.5408,2.0077,3.8875,Efficient niche sponsor audience
+Switzerland,Mid attention,Premium,15,0.5007,0.5394,0.392,0.5381,1.1577,3.7901,Developing attention segment
+Scotland,Mid attention,Scalable,20,0.3345,0.3849,0.3301,0.536,1.6976,3.8646,Efficient niche sponsor audience
+Saudi Arabia,Mid attention,Premium,3,0.4961,0.4915,0.325,0.5351,1.0793,4.0487,Developing attention segment
+Colombia,Low attention,Watchlist,6,0.3488,0.4168,0.362,0.535,1.5781,3.7095,Efficient niche sponsor audience
+Turkey,Mid attention,Scalable,9,0.434,0.4748,0.343,0.5349,1.2917,3.8038,Efficient niche sponsor audience
+Russia,Mid attention,Scalable,23,0.2969,0.3786,0.3227,0.5344,1.9213,3.8864,Efficient niche sponsor audience
+England,Mid attention,Scalable,60,0.3476,0.4101,0.3393,0.5277,1.7156,3.6451,Efficient niche sponsor audience
+Ukraine,Mid attention,Scalable,2,0.5064,0.4554,0.2597,0.5272,1.0476,4.0965,Developing attention segment
+North Korea,Mid attention,Scalable,3,0.5436,0.6494,0.3617,0.5256,0.9947,3.889,Developing attention segment
+Hungary,Mid attention,Scalable,20,0.2795,0.3115,0.3444,0.5254,2.1961,3.87,Efficient niche sponsor audience
+Italy,Mid attention,Premium,21,0.4428,0.4544,0.3491,0.5241,1.2077,3.8814,Developing attention segment
+Italy,Mid attention,Scalable,35,0.397,0.4246,0.324,0.5237,1.3816,3.8797,Efficient niche sponsor audience
+Saudi Arabia,Mid attention,Scalable,16,0.4947,0.4908,0.367,0.5229,1.0786,4.0004,Developing attention segment
+Denmark,Mid attention,Premium,22,0.4494,0.492,0.3285,0.5222,1.1788,3.9245,Developing attention segment
+Hungary,Mid attention,Premium,11,0.3391,0.411,0.3527,0.5203,1.6321,3.85,Efficient niche sponsor audience
+Iran,High attention,Premium,1,0.7885,0.733,0.4751,0.5192,0.6585,3.955,Broadcast-led awareness audience
+Cameroon,Low attention,Scalable,4,0.3004,0.4032,0.3048,0.5181,1.7364,3.8882,Efficient niche sponsor audience
+Ivory Coast,Mid attention,Premium,1,0.5366,0.7432,0.3649,0.5138,0.9575,3.854,Developing attention segment
+Portugal,Mid attention,Scalable,32,0.4715,0.4895,0.3404,0.5132,1.1731,3.5277,Developing attention segment
+Portugal,Mid attention,Watchlist,3,0.3377,0.3278,0.3436,0.512,1.5654,3.5237,Efficient niche sponsor audience
+Colombia,Mid attention,Scalable,9,0.4994,0.5059,0.3689,0.5114,1.0316,3.6209,Developing attention segment
+Romania,Mid attention,Premium,4,0.4745,0.4832,0.4246,0.5101,1.1006,3.6185,Developing attention segment
+Japan,Mid attention,Premium,7,0.5625,0.5211,0.3213,0.5098,0.9227,4.0227,Developing attention segment
+Costa Rica,Mid attention,Scalable,11,0.4664,0.5165,0.3668,0.5089,1.1111,3.9341,Developing attention segment
+Australia,Mid attention,Premium,3,0.5005,0.5387,0.4049,0.5086,1.0183,3.7837,Developing attention segment
+Peru,Mid attention,Scalable,12,0.354,0.4169,0.3476,0.5072,1.6095,3.9824,Efficient niche sponsor audience
+Ecuador,Mid attention,Scalable,12,0.4761,0.5119,0.3812,0.5068,1.0852,3.6779,Developing attention segment
+Cameroon,Mid attention,Scalable,18,0.4595,0.4886,0.3407,0.505,1.1173,3.8338,Developing attention segment
+Paraguay,Low attention,Scalable,3,0.1217,0.2181,0.2201,0.5039,4.6719,3.7563,Efficient niche sponsor audience
+German DR,Mid attention,Scalable,6,0.299,0.3212,0.3119,0.5025,1.6827,3.9383,Efficient niche sponsor audience
+Czechoslovakia,Mid attention,Scalable,22,0.2572,0.3483,0.3085,0.5006,2.099,3.7839,Efficient niche sponsor audience
+Italy,Low attention,Scalable,27,0.2057,0.2832,0.3305,0.4985,2.8873,3.7726,Efficient niche sponsor audience
+Colombia,Mid attention,Watchlist,4,0.441,0.4779,0.3554,0.497,1.1133,3.5678,Developing attention segment
+Canada,Low attention,Scalable,3,0.3586,0.3698,0.3839,0.4967,1.3847,3.8727,Efficient niche sponsor audience
+Ukraine,Mid attention,Premium,1,0.5824,0.513,0.5327,0.4929,0.8463,3.951,Developing attention segment
+Slovenia,Mid attention,Watchlist,3,0.5004,0.4714,0.3417,0.4926,0.9829,3.689,Developing attention segment
+Czechoslovakia,Low attention,Scalable,5,0.0948,0.2225,0.2529,0.4893,5.0902,3.7362,Efficient niche sponsor audience
+Tunisia,Mid attention,Scalable,14,0.458,0.4654,0.4035,0.4893,1.1247,3.8977,Developing attention segment
+Costa Rica,Mid attention,Premium,10,0.5235,0.5579,0.3721,0.4893,0.9449,3.8519,Developing attention segment
+Japan,Mid attention,Scalable,18,0.4863,0.4931,0.3615,0.4869,1.0201,3.9279,Developing attention segment
+North Korea,Low attention,Scalable,4,0.3021,0.3596,0.3135,0.4862,1.6278,3.728,Efficient niche sponsor audience
+New Zealand,Low attention,Watchlist,3,0.3606,0.4669,0.3456,0.4848,1.3577,4.1297,Efficient niche sponsor audience
+Slovenia,Low attention,Scalable,1,0.4192,0.4732,0.2836,0.4841,1.1548,3.659,Developing attention segment
+Serbia,Mid attention,Scalable,16,0.4875,0.5509,0.3468,0.4837,1.0245,3.7231,Developing attention segment
+Algeria,Mid attention,Scalable,11,0.4235,0.4582,0.3524,0.4829,1.1747,3.8438,Developing attention segment
+Colombia,Low attention,Scalable,3,0.3256,0.3475,0.3799,0.4819,1.4837,3.5103,Efficient niche sponsor audience
+Northern Ireland,Mid attention,Scalable,13,0.3022,0.3703,0.3079,0.4817,1.6541,3.8053,Efficient niche sponsor audience
+South Africa,Mid attention,Premium,3,0.4878,0.4532,0.4003,0.4813,0.9921,3.8157,Developing attention segment
+Czech Republic,Low attention,Scalable,1,0.3725,0.4499,0.2316,0.4806,1.2902,3.688,Efficient niche sponsor audience
+Panama,Low attention,Scalable,2,0.5108,0.5642,0.4378,0.478,0.9594,3.8955,Developing attention segment
+Paraguay,Mid attention,Premium,3,0.4355,0.4813,0.3042,0.4775,1.1357,3.6483,Developing attention segment
+United Arab Emirates,Low attention,Scalable,3,0.3952,0.3868,0.3888,0.477,1.191,3.991,Developing attention segment
+Cameroon,Mid attention,Premium,4,0.4966,0.5352,0.3951,0.4765,0.982,3.7122,Developing attention segment
+Jamaica,Mid attention,Scalable,2,0.5191,0.5436,0.4123,0.4765,0.9122,4.0185,Developing attention segment
+Egypt,Mid attention,Scalable,3,0.5071,0.5247,0.2907,0.4759,0.9455,3.9547,Developing attention segment
+Kuwait,Low attention,Scalable,3,0.3492,0.421,0.3845,0.4716,1.3502,3.8397,Efficient niche sponsor audience
+Chile,Low attention,Scalable,1,0.0253,0.0987,0.3136,0.4685,6.0,3.622,Efficient niche sponsor audience
+Norway,Mid attention,Watchlist,1,0.3745,0.4479,0.358,0.4684,1.2508,3.875,Efficient niche sponsor audience
+Ukraine,Low attention,Scalable,2,0.3958,0.4676,0.356,0.4675,1.2037,3.8445,Developing attention segment
+South Africa,Mid attention,Scalable,6,0.4996,0.4783,0.3201,0.4675,0.9666,3.7563,Developing attention segment
+Iran,Mid attention,Scalable,15,0.4378,0.464,0.3471,0.4653,1.1001,3.7307,Developing attention segment
+Tunisia,Mid attention,Premium,3,0.527,0.5257,0.4414,0.4647,0.915,3.796,Developing attention segment
+DR Congo,Mid attention,Scalable,1,0.567,0.5248,0.42,0.4604,0.812,4.178,Developing attention segment
+Wales,Low attention,Scalable,5,0.2178,0.2585,0.2827,0.4585,2.3585,3.9146,Efficient niche sponsor audience
+Romania,Low attention,Scalable,7,0.1928,0.2424,0.327,0.4577,2.9164,3.3999,Efficient niche sponsor audience
+Panama,Mid attention,Scalable,1,0.6408,0.6823,0.3292,0.457,0.7132,3.805,Broadcast-led awareness audience
+Greece,Mid attention,Premium,2,0.5504,0.4938,0.3738,0.4564,0.8296,3.7095,Developing attention segment
+Ghana,Mid attention,Watchlist,3,0.4811,0.5009,0.2785,0.4558,0.9363,3.7207,Developing attention segment
+Austria,Low attention,Watchlist,1,0.0224,0.197,0.2782,0.4524,6.0,3.613,Efficient niche sponsor audience
+New Zealand,Mid attention,Scalable,1,0.5287,0.5039,0.4041,0.4491,0.8495,3.996,Developing attention segment
+Ghana,Low attention,Scalable,1,0.3725,0.4499,0.2316,0.4477,1.202,3.688,Developing attention segment
+Greece,Mid attention,Scalable,7,0.4607,0.4782,0.3786,0.4473,0.9712,3.6719,Developing attention segment
+Bulgaria,Mid attention,Scalable,16,0.4038,0.4169,0.3585,0.4453,1.1053,3.6694,Developing attention segment
+El Salvador,Low attention,Scalable,5,0.3091,0.4083,0.3175,0.4415,1.4402,3.9066,Efficient niche sponsor audience
+United States,Low attention,Watchlist,5,0.1184,0.2615,0.285,0.439,4.0255,3.759,Efficient niche sponsor audience
+Jamaica,Low attention,Scalable,1,0.4304,0.3805,0.5684,0.4363,1.0137,3.846,Developing attention segment
+Austria,Mid attention,Scalable,19,0.3561,0.3818,0.3478,0.4306,1.2947,3.5256,Efficient niche sponsor audience
+England,Mid attention,Watchlist,3,0.1154,0.2033,0.2034,0.4279,3.8356,3.2623,Efficient niche sponsor audience
+Honduras,Mid attention,Scalable,4,0.5481,0.5311,0.4372,0.4273,0.7752,3.8642,Developing attention segment
+Czech Republic,Mid attention,Scalable,2,0.5155,0.5411,0.2636,0.4262,0.8318,3.4595,Developing attention segment
+Bulgaria,Low attention,Scalable,9,0.2323,0.3406,0.3615,0.4235,1.9314,3.5776,Efficient niche sponsor audience
+China,Mid attention,Watchlist,2,0.5289,0.4411,0.3752,0.4219,0.7949,3.915,Developing attention segment
+Greece,Low attention,Scalable,1,0.3891,0.3999,0.2073,0.4208,1.0814,3.564,Developing attention segment
+United States,Mid attention,Watchlist,6,0.3377,0.41,0.3206,0.4203,1.3045,3.6863,Efficient niche sponsor audience
+Morocco,Mid attention,Scalable,13,0.4989,0.5063,0.321,0.4174,0.8397,3.6412,Developing attention segment
+Czechoslovakia,Mid attention,Premium,3,0.4314,0.3881,0.412,0.4158,0.9756,3.4287,Developing attention segment
+Iceland,Mid attention,Scalable,2,0.597,0.4514,0.4394,0.4135,0.6954,3.73,Developing attention segment
+Indonesia,Low attention,Scalable,1,0.2067,0.4146,0.2884,0.4134,1.9998,3.86,Efficient niche sponsor audience
+Republic of Ireland,Mid attention,Watchlist,3,0.3476,0.3902,0.304,0.4103,1.1708,3.6797,Developing attention segment
+Iraq,Low attention,Scalable,3,0.3263,0.3543,0.3287,0.4082,1.2696,3.7273,Efficient niche sponsor audience
+Republic of Ireland,Mid attention,Scalable,10,0.3994,0.4312,0.3914,0.404,1.0128,3.6534,Developing attention segment
+Peru,Mid attention,Premium,5,0.3864,0.4243,0.3356,0.3968,1.0288,3.5118,Developing attention segment
+Morocco,Mid attention,Watchlist,10,0.3619,0.3837,0.35,0.3964,1.1078,3.5609,Developing attention segment
+South Korea,Mid attention,Scalable,38,0.4738,0.4959,0.3591,0.3958,0.8576,3.5916,Developing attention segment
+Haiti,Low attention,Scalable,3,0.345,0.4461,0.3363,0.3946,1.1324,3.775,Developing attention segment
+Bulgaria,Mid attention,Premium,1,0.3906,0.5247,0.3831,0.3929,1.0059,3.444,Developing attention segment
+Austria,Mid attention,Watchlist,8,0.2557,0.3028,0.3567,0.3926,1.5446,3.3772,Efficient niche sponsor audience
+Algeria,Mid attention,Premium,2,0.5028,0.4772,0.3318,0.3906,0.8262,3.4545,Developing attention segment
+Norway,Mid attention,Scalable,4,0.3694,0.4773,0.374,0.3879,1.038,3.567,Developing attention segment
+Iran,Mid attention,Premium,2,0.514,0.5154,0.3651,0.3868,0.7605,3.4045,Developing attention segment
+Norway,Low attention,Watchlist,3,0.2693,0.3339,0.3432,0.3788,1.7302,3.5307,Efficient niche sponsor audience
+Ghana,Mid attention,Scalable,11,0.5259,0.5268,0.3705,0.3694,0.7064,3.378,Developing attention segment
+Egypt,Low attention,Scalable,4,0.3061,0.3704,0.3112,0.3663,1.2683,3.4948,Efficient niche sponsor audience
+Angola,Low attention,Watchlist,3,0.409,0.3893,0.3248,0.3651,0.9617,3.538,Developing attention segment
+Bosnia and Herzegovina,Mid attention,Scalable,1,0.5468,0.6601,0.487,0.3624,0.6629,3.34,Developing attention segment
+Honduras,Low attention,Scalable,5,0.3443,0.429,0.3741,0.3617,1.0903,3.5914,Developing attention segment
+Slovakia,Mid attention,Scalable,1,0.6372,0.5497,0.2682,0.3605,0.5658,3.262,Broadcast-led awareness audience
+United States,Mid attention,Scalable,26,0.4834,0.4951,0.3424,0.3583,0.7529,3.4417,Developing attention segment
+Slovenia,Mid attention,Scalable,1,0.5311,0.6149,0.4408,0.3551,0.6685,3.207,Developing attention segment
+Peru,Low attention,Scalable,1,0.0516,0.0442,0.3263,0.355,6.0,3.331,Efficient niche sponsor audience
+Wales,Mid attention,Scalable,3,0.5029,0.5376,0.3648,0.3397,0.675,3.4053,Developing attention segment
+Bolivia,Low attention,Scalable,4,0.3697,0.4236,0.3479,0.3359,0.9462,3.555,Developing attention segment
+Austria,Low attention,Scalable,1,0.0668,0.1627,0.3336,0.3238,4.8466,3.109,Efficient niche sponsor audience
+Slovenia,Low attention,Watchlist,1,0.4474,0.6414,0.4007,0.3155,0.7052,3.065,Developing attention segment
+Cuba,Low attention,Watchlist,3,0.2558,0.2543,0.3402,0.3065,1.37,3.0507,Efficient niche sponsor audience
+New Zealand,Mid attention,Watchlist,2,0.4932,0.4694,0.3284,0.3,0.6095,3.421,Developing attention segment
+Slovakia,Low attention,Watchlist,2,0.4684,0.4642,0.215,0.2829,0.6096,2.9855,Developing attention segment
+Qatar,Mid attention,Scalable,2,0.6202,0.5374,0.4687,0.2568,0.415,3.0775,Broadcast-led awareness audience
+Trinidad and Tobago,Low attention,Watchlist,3,0.3942,0.4773,0.3906,0.2522,0.6576,3.4303,Developing attention segment
+Togo,Low attention,Watchlist,2,0.4676,0.5357,0.243,0.2428,0.5172,3.094,Developing attention segment
+Israel,Low attention,Scalable,3,0.2422,0.3524,0.2553,0.2383,1.013,3.1777,Developing attention segment
+Togo,Mid attention,Watchlist,1,0.5507,0.5275,0.3542,0.2372,0.4308,3.072,Developing attention segment
+Qatar,Low attention,Watchlist,1,0.4916,0.6785,0.3461,0.2319,0.4717,2.98,Developing attention segment
+Bolivia,Low attention,Watchlist,2,0.1389,0.2416,0.4211,0.2156,1.5818,3.045,Efficient niche sponsor audience
+DR Congo,Low attention,Scalable,2,0.2899,0.335,0.2832,0.2056,0.7119,3.095,Developing attention segment
+China,Low attention,Watchlist,1,0.5082,0.5647,0.3393,0.1413,0.278,2.811,Developing attention segment

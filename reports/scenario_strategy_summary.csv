@@ -1,4 +1,4 @@
 strategy_type,avg_roi,avg_lift,avg_risk,avg_ci_low,avg_ci_high,high_risk_share
-aggressive,3.954,0.194,0.484,3.643,4.266,0.0
-balanced,3.802,0.042,0.324,3.568,4.036,0.0
-conservative,3.719,-0.041,0.314,3.492,3.946,0.0
+aggressive,3.969,0.194,0.484,3.658,4.28,0.0
+balanced,3.817,0.042,0.324,3.583,4.051,0.0
+conservative,3.734,-0.041,0.314,3.507,3.961,0.0

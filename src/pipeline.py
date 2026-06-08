@@ -33,6 +33,7 @@ PIPELINE_STEPS = [
     PipelineStep("ab_simulation", "ab_simulation", "run counterfactual A/B sponsor scenarios"),
     PipelineStep("scenario_engine", "scenario_engine", "rank sponsor strategy scenarios"),
     PipelineStep("risk_visuals", "risk_visuals", "write uncertainty heatmap and risk-benefit visuals"),
+    PipelineStep("deep_analysis_extensions", "deep_analysis_extensions", "build dynamic ROI, sentiment, optimization, graph attention, and stress-test outputs"),
     PipelineStep("project_docs", "project_docs", "write data cards, model card, deployment notes, and executive summary"),
     PipelineStep("generative_report", "generative_report", "write commercial insight brief"),
     PipelineStep("report_generator", "report_generator", "write project report artifacts"),

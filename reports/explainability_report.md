@@ -6,16 +6,16 @@ SHAP package available; tree/linear SHAP can be enabled for production models.
 
 | feature | importance | mean_abs_contribution | direction |
 | --- | --- | --- | --- |
-| a_brand_heat_index | 0.1568154357897503 | 0.12392 | positive |
-| a_sponsor_spend_m | 0.1300426559020262 | 0.10179 | negative |
-| a_ad_exposure_m | 0.125219167319632 | 0.10924 | positive |
-| team_a_strength | 0.1153372763410352 | 0.09561 | positive |
-| sponsor_team_fit_score | 0.0526729831428175 | 0.04145 | positive |
-| commercial_momentum_score | 0.0512481777707158 | 0.04177 | positive |
-| a_activation_quality | 0.0444864523730867 | 0.03418 | negative |
-| elo_diff | 0.0425958198226457 | 0.03508 | positive |
-| fan_score | 0.0402561308892874 | 0.03293 | positive |
-| event_attention_m | 0.0336303241229898 | 0.02795 | positive |
+| a_sponsor_spend_m | 0.1374944677895308 | 0.10762 | negative |
+| a_brand_heat_index | 0.1350113340193232 | 0.10669 | positive |
+| a_ad_exposure_m | 0.1342510159182726 | 0.10692 | positive |
+| team_a_strength | 0.1322968216127188 | 0.10967 | positive |
+| commercial_momentum_score | 0.0486639677749725 | 0.0391 | positive |
+| sponsor_team_fit_score | 0.0443118243346333 | 0.03487 | positive |
+| elo_diff | 0.0431601605236608 | 0.03555 | positive |
+| fan_score | 0.0405822453066129 | 0.0332 | positive |
+| event_attention_m | 0.0346887556420902 | 0.02883 | positive |
+| a_sponsor_power_index | 0.0310148133161391 | 0.02421 | positive |
 
 ## Business Interpretation
 

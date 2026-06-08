@@ -11,10 +11,10 @@ WorldCupROI uses seeded mock data when public APIs are unavailable. This report 
 | sponsors.csv | 82 | 11 | 0 | 0 |
 | weather.csv | 964 | 10 | 0 | 0 |
 | social_media.csv | 964 | 16 | 0 | 0 |
-| real_text_articles.csv | 6282 | 10 | 76 | 0 |
-| text_embeddings_reduced.csv | 6282 | 31 | 0 | 0 |
+| real_text_articles.csv | 5024 | 10 | 64 | 0 |
+| text_embeddings_reduced.csv | 5024 | 31 | 0 | 0 |
 | attention_timeseries.csv | 10604 | 7 | 0 | 0 |
-| media_text_corpus.csv | 6282 | 15 | 12640 | 0 |
+| media_text_corpus.csv | 5024 | 15 | 10112 | 0 |
 | relationship_network.csv | 328 | 4 | 0 | 0 |
 | modeling_dataset.csv | 964 | 87 | 0 | 0 |
 | advanced_feature_outputs.csv | 964 | 7 | 0 | 0 |
