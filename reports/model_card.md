@@ -28,7 +28,7 @@
 | venue_weather | 0.2818 | host_advantage_a | 4 |
 | media_attention | 0.2649 | media_reposts_k | 4 |
 | injury_availability | 0.2500 | availability_diff | 4 |
-| text_sentiment | 0.0640 | news_sentiment_score | 1 |
+| text_sentiment | 0.0641 | news_sentiment_score | 1 |
 
 ## Cross-Validation Generalization
 
@@ -36,24 +36,24 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | kfold | match_outcome | CentroidOutcomeModel | accuracy | 5 | 0.5436 | 0.0389 | 0.5026 | 0.6010 |
 | kfold | match_outcome | CentroidOutcomeModel | log_loss | 5 | 0.9861 | 0.0230 | 0.9584 | 1.0150 |
-| kfold | sponsor_roi | RidgeROIModel | mae | 5 | 0.1161 | 0.0067 | 0.1069 | 0.1242 |
-| kfold | sponsor_roi | RidgeROIModel | r2 | 5 | 0.8836 | 0.0126 | 0.8680 | 0.9026 |
-| kfold | sponsor_roi | RidgeROIModel | rmse | 5 | 0.1423 | 0.0073 | 0.1315 | 0.1485 |
+| kfold | sponsor_roi | RidgeROIModel | mae | 5 | 0.1165 | 0.0072 | 0.1084 | 0.1254 |
+| kfold | sponsor_roi | RidgeROIModel | r2 | 5 | 0.8813 | 0.0131 | 0.8670 | 0.8991 |
+| kfold | sponsor_roi | RidgeROIModel | rmse | 5 | 0.1426 | 0.0074 | 0.1329 | 0.1495 |
 | subsample_55pct | match_outcome | CentroidOutcomeModel | accuracy | 1 | 0.5438 | 0.0000 | 0.5438 | 0.5438 |
 | subsample_55pct | match_outcome | CentroidOutcomeModel | log_loss | 1 | 0.9784 | 0.0000 | 0.9784 | 0.9784 |
-| subsample_55pct | sponsor_roi | RidgeROIModel | mae | 1 | 0.1175 | 0.0000 | 0.1175 | 0.1175 |
-| subsample_55pct | sponsor_roi | RidgeROIModel | r2 | 1 | 0.8819 | 0.0000 | 0.8819 | 0.8819 |
-| subsample_55pct | sponsor_roi | RidgeROIModel | rmse | 1 | 0.1445 | 0.0000 | 0.1445 | 0.1445 |
+| subsample_55pct | sponsor_roi | RidgeROIModel | mae | 1 | 0.1167 | 0.0000 | 0.1167 | 0.1167 |
+| subsample_55pct | sponsor_roi | RidgeROIModel | r2 | 1 | 0.8830 | 0.0000 | 0.8830 | 0.8830 |
+| subsample_55pct | sponsor_roi | RidgeROIModel | rmse | 1 | 0.1439 | 0.0000 | 0.1439 | 0.1439 |
 | subsample_70pct | match_outcome | CentroidOutcomeModel | accuracy | 1 | 0.5552 | 0.0000 | 0.5552 | 0.5552 |
 | subsample_70pct | match_outcome | CentroidOutcomeModel | log_loss | 1 | 0.9401 | 0.0000 | 0.9401 | 0.9401 |
-| subsample_70pct | sponsor_roi | RidgeROIModel | mae | 1 | 0.1145 | 0.0000 | 0.1145 | 0.1145 |
-| subsample_70pct | sponsor_roi | RidgeROIModel | r2 | 1 | 0.8813 | 0.0000 | 0.8813 | 0.8813 |
-| subsample_70pct | sponsor_roi | RidgeROIModel | rmse | 1 | 0.1406 | 0.0000 | 0.1406 | 0.1406 |
+| subsample_70pct | sponsor_roi | RidgeROIModel | mae | 1 | 0.1150 | 0.0000 | 0.1150 | 0.1150 |
+| subsample_70pct | sponsor_roi | RidgeROIModel | r2 | 1 | 0.8797 | 0.0000 | 0.8797 | 0.8797 |
+| subsample_70pct | sponsor_roi | RidgeROIModel | rmse | 1 | 0.1409 | 0.0000 | 0.1409 | 0.1409 |
 | subsample_85pct | match_outcome | CentroidOutcomeModel | accuracy | 1 | 0.5310 | 0.0000 | 0.5310 | 0.5310 |
 | subsample_85pct | match_outcome | CentroidOutcomeModel | log_loss | 1 | 1.0107 | 0.0000 | 1.0107 | 1.0107 |
-| subsample_85pct | sponsor_roi | RidgeROIModel | mae | 1 | 0.1137 | 0.0000 | 0.1137 | 0.1137 |
-| subsample_85pct | sponsor_roi | RidgeROIModel | r2 | 1 | 0.8912 | 0.0000 | 0.8912 | 0.8912 |
-| subsample_85pct | sponsor_roi | RidgeROIModel | rmse | 1 | 0.1422 | 0.0000 | 0.1422 | 0.1422 |
+| subsample_85pct | sponsor_roi | RidgeROIModel | mae | 1 | 0.1126 | 0.0000 | 0.1126 | 0.1126 |
+| subsample_85pct | sponsor_roi | RidgeROIModel | r2 | 1 | 0.8921 | 0.0000 | 0.8921 | 0.8921 |
+| subsample_85pct | sponsor_roi | RidgeROIModel | rmse | 1 | 0.1407 | 0.0000 | 0.1407 | 0.1407 |
 
 ## Sponsor ROI Model
 
@@ -61,22 +61,22 @@
 - Inputs: media exposure, sponsor power, brand fit, activation quality, team strength, stage premium, weather impact, injury risk, text/social momentum.
 - Label construction: `sponsor_roi` is a constructed proxy, not audited revenue.
 - Training split: same deterministic reproducible holdout split.
-- MAE: 0.1177
-- RMSE: 0.1435
-- R2: 0.8838
+- MAE: 0.1184
+- RMSE: 0.1446
+- R2: 0.8779
 
 ### ROI Feature Groups
 
 | feature_group | importance_sum | top_feature | feature_count |
 | --- | --- | --- | --- |
-| sponsor_activation | 0.5081 | a_brand_heat_index | 8 |
-| team_strength | 0.1579 | team_a_strength | 2 |
-| business_intelligence_indices | 0.1395 | sponsor_team_fit_score | 6 |
-| media_attention | 0.1216 | fan_score | 6 |
-| player_influence | 0.0785 | a_player_followers_m | 5 |
-| text_sentiment | 0.0355 | text_signal_score | 2 |
-| venue_weather | 0.0181 | host_advantage_a | 1 |
-| injury_availability | 0.0121 | a_avg_injury_risk | 2 |
+| sponsor_activation | 0.4925 | a_sponsor_spend_m | 8 |
+| team_strength | 0.1755 | team_a_strength | 2 |
+| business_intelligence_indices | 0.1293 | commercial_momentum_score | 6 |
+| media_attention | 0.1233 | fan_score | 6 |
+| player_influence | 0.0873 | a_core_market_value_m | 5 |
+| text_sentiment | 0.0348 | text_signal_score | 2 |
+| venue_weather | 0.0193 | host_advantage_a | 1 |
+| injury_availability | 0.0116 | a_avg_injury_risk | 2 |
 
 ## Limitations
 

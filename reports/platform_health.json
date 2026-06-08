@@ -6,49 +6,49 @@
       "artifact": "modeling_dataset",
       "path": "data\\modeling_dataset.csv",
       "exists": true,
-      "size_kb": 793.15,
+      "size_kb": 793.28,
       "rows": 964
     },
     {
       "artifact": "roi_predictions",
       "path": "data\\roi_predictions.csv",
       "exists": true,
-      "size_kb": 801.51,
+      "size_kb": 801.67,
       "rows": 964
     },
     {
       "artifact": "panel_dataset",
       "path": "data\\panel_dataset.csv",
       "exists": true,
-      "size_kb": 381.24,
+      "size_kb": 381.11,
       "rows": 1928
     },
     {
       "artifact": "scenario_recommendations",
       "path": "data\\scenario_recommendations.csv",
       "exists": true,
-      "size_kb": 161.92,
+      "size_kb": 161.9,
       "rows": 600
     },
     {
       "artifact": "roi_uncertainty",
       "path": "data\\roi_uncertainty.csv",
       "exists": true,
-      "size_kb": 95.08,
+      "size_kb": 95.11,
       "rows": 964
     },
     {
       "artifact": "static_dashboard",
       "path": "dashboard\\panel_dashboard.html",
       "exists": true,
-      "size_kb": 929.84,
+      "size_kb": 1034.98,
       "rows": null
     },
     {
       "artifact": "streamlit_app",
       "path": "dashboard\\app.py",
       "exists": true,
-      "size_kb": 19.85,
+      "size_kb": 25.64,
       "rows": null
     },
     {
@@ -62,7 +62,7 @@
       "artifact": "demo_video",
       "path": "assets\\videos\\worldcuproi_demo.mp4",
       "exists": true,
-      "size_kb": 598.49,
+      "size_kb": 600.48,
       "rows": null
     },
     {

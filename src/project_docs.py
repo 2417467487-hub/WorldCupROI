@@ -361,6 +361,11 @@ def write_business_insights() -> list[str]:
     funnel = pd.read_csv(REPORT_DIR / "attention_funnel.csv") if (REPORT_DIR / "attention_funnel.csv").exists() else pd.DataFrame()
     scenarios = pd.read_csv(DATA_DIR / "scenario_recommendations.csv") if (DATA_DIR / "scenario_recommendations.csv").exists() else pd.DataFrame()
     graph = pd.read_csv(REPORT_DIR / "sponsor_influence_scores.csv") if (REPORT_DIR / "sponsor_influence_scores.csv").exists() else pd.DataFrame()
+    future_roi = pd.read_csv(REPORT_DIR / "future_roi_forecast.csv") if (REPORT_DIR / "future_roi_forecast.csv").exists() else pd.DataFrame()
+    sentiment_events = pd.read_csv(REPORT_DIR / "sentiment_event_roi_impact.csv") if (REPORT_DIR / "sentiment_event_roi_impact.csv").exists() else pd.DataFrame()
+    resource_mix = pd.read_csv(REPORT_DIR / "resource_optimization_top_budget_mix.csv") if (REPORT_DIR / "resource_optimization_top_budget_mix.csv").exists() else pd.DataFrame()
+    extreme = pd.read_csv(REPORT_DIR / "extreme_scenario_roi_risk.csv") if (REPORT_DIR / "extreme_scenario_roi_risk.csv").exists() else pd.DataFrame()
+    commercial = pd.read_csv(DATA_DIR / "commercial_decision_metrics.csv") if (DATA_DIR / "commercial_decision_metrics.csv").exists() else pd.DataFrame()
     top_rows = panel.sort_values("predicted_roi", ascending=False).head(6)
     scenario_summary = (
         scenarios.groupby("strategy_type", as_index=False)
@@ -392,11 +397,24 @@ def write_business_insights() -> list[str]:
         "",
         markdown_table(graph.head(10)) if not graph.empty else "Run graph analysis to generate sponsor influence output.",
         "",
+        "## Deep Analysis Extensions",
+        "",
+        "**Dynamic ROI trend:** " + (f"future cycle forecast ranges from {future_roi['forecast_roi'].min():.2f}x to {future_roi['forecast_roi'].max():.2f}x." if not future_roi.empty else "Run deep analysis to generate future ROI forecasts."),
+        "",
+        "**Sentiment and event impact:** " + (f"largest observed average ROI delta is {sentiment_events['avg_roi_delta'].max():.2f}x." if not sentiment_events.empty else "Run deep analysis to generate sentiment-event ROI impact."),
+        "",
+        "**Resource optimization:** " + (f"top risk-adjusted mix is {resource_mix.iloc[0]['sponsor']} with {resource_mix.iloc[0]['budget_m']}M budget and media x{resource_mix.iloc[0]['media_multiplier']}." if not resource_mix.empty else "Run deep analysis to generate budget/media optimization."),
+        "",
+        "**Extreme scenarios:** " + (f"widest risk interval is {extreme['risk_interval_width'].max():.2f}x across injury, sentiment, policy, and viral shock tests." if not extreme.empty else "Run deep analysis to generate extreme scenario stress tests."),
+        "",
+        "**Commercial decision score:** " + (f"top integrated score opportunity is {commercial.sort_values('commercial_decision_score', ascending=False).iloc[0]['team']} x {commercial.sort_values('commercial_decision_score', ascending=False).iloc[0]['sponsor']}." if not commercial.empty else "Run deep analysis to generate commercial decision metrics."),
+        "",
         "## Landing Recommendation",
         "",
         "- Use conservative strategy when risk is high or conversion proxy is weak.",
         "- Use balanced activation as the default commercial package.",
         "- Use aggressive media surge only when attention, stage premium, and player availability align.",
+        "- Use graph attention and commercial decision score as tie-breakers when ROI forecasts are close.",
     ]
     (REPORT_DIR / "business_insights.md").write_text("\n".join(lines), encoding="utf-8")
     return [line.replace("#", "").strip() for line in lines if line and not line.startswith("|")][:28]

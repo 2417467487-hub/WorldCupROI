@@ -12,7 +12,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 5 0 obj
-<< /Length 1013 >>
+<< /Length 1008 >>
 stream
 BT
 /F1 14 Tf
@@ -30,16 +30,16 @@ BT
 (Sponsors: 10) Tj
 0 -22 Td
 /F1 11 Tf
-(Average predicted ROI: 3.843x) Tj
+(Average predicted ROI: 3.869x) Tj
 0 -22 Td
 /F1 11 Tf
-(Average commercial momentum: 0.563) Tj
+(Average commercial momentum: 0.574) Tj
 0 -22 Td
 /F1 11 Tf
-(Top opportunity: Germany x Coca-Cola vs Saudi Arabia) Tj
+(Top opportunity: Saudi Arabia x Visa vs Germany) Tj
 0 -22 Td
 /F1 11 Tf
-(Top predicted ROI: 4.593x) Tj
+(Top predicted ROI: 4.652x) Tj
 0 -22 Td
 /F1 11 Tf
 () Tj
@@ -51,13 +51,13 @@ BT
 (- A_baseline: delta 0.000, lift 0.00%) Tj
 0 -22 Td
 /F1 11 Tf
-(- B_core_player_absent: delta -0.099, lift -2.44%) Tj
+(- B_core_player_absent: delta -0.089, lift -2.18%) Tj
 0 -22 Td
 /F1 11 Tf
-(- C_sponsor_upgrade: delta -0.234, lift -5.84%) Tj
+(- C_sponsor_upgrade: delta -0.245, lift -6.05%) Tj
 0 -22 Td
 /F1 11 Tf
-(- D_media_cooling: delta -0.203, lift -5.06%) Tj
+(- D_media_cooling: delta -0.207, lift -5.14%) Tj
 0 -22 Td
 /F1 11 Tf
 () Tj
@@ -81,5 +81,5 @@ xref
 0000000311 00000 n 
 trailer << /Size 6 /Root 1 0 R >>
 startxref
-1376
+1371
 %%EOF

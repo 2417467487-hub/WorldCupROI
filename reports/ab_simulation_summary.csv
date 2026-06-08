@@ -1,5 +1,5 @@
 scenario,avg_predicted_roi,avg_roi_delta,avg_roi_lift_pct
-A_baseline,4.04025,0.0,0.0
-B_core_player_absent,3.9411250000000004,-0.09915,-2.4370000000000003
-C_sponsor_upgrade,3.8058750000000003,-0.23445,-5.83625
-D_media_cooling,3.8369750000000002,-0.203275,-5.059
+A_baseline,4.0596,0.0,0.0
+B_core_player_absent,3.9701499999999994,-0.089475,-2.178
+C_sponsor_upgrade,3.815025,-0.24452500000000002,-6.04525
+D_media_cooling,3.852275,-0.20739999999999997,-5.13525
