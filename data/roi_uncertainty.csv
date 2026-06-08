@@ -1,965 +1,965 @@
 match_id,team_a,team_b,stage,roi_mean,roi_ci_low,roi_ci_high,bootstrap_ci_low,bootstrap_ci_high,monte_carlo_std,negative_roi_probability,ensemble_variance,risk_score,risk_level,conformal_interval_width
-1,Belgium,United States,tournament,3.528,3.326,3.731,3.3,3.754,0.1208,0.0,0.0146,0.29,low,0.405
-2,France,Mexico,tournament,3.488,3.255,3.706,3.264,3.72,0.1375,0.0,0.0189,0.353,low,0.451
-3,Brazil,Yugoslavia,tournament,3.813,3.597,4.018,3.585,4.052,0.1267,0.0,0.016,0.311,low,0.421
-4,Peru,Romania,tournament,3.197,2.974,3.413,2.965,3.431,0.1317,0.0,0.0173,0.33,low,0.439
-5,Argentina,France,tournament,3.746,3.528,3.97,3.506,3.976,0.1355,0.0,0.0184,0.346,low,0.442
-6,Chile,Mexico,tournament,3.386,3.182,3.592,3.151,3.618,0.1244,0.0,0.0155,0.304,low,0.41
-7,Bolivia,Yugoslavia,tournament,2.519,2.328,2.714,2.292,2.753,0.1169,0.0,0.0137,0.277,low,0.386
-8,Paraguay,United States,tournament,3.551,3.337,3.76,3.304,3.782,0.1274,0.0,0.0162,0.314,low,0.423
-9,Uruguay,Peru,tournament,3.333,3.142,3.535,3.083,3.563,0.1192,0.0,0.0142,0.284,low,0.393
-10,Argentina,Mexico,tournament,3.938,3.739,4.139,3.721,4.18,0.1227,0.0,0.0151,0.298,low,0.4
-11,Chile,France,tournament,3.273,3.079,3.46,3.027,3.49,0.1191,0.0,0.0142,0.284,low,0.381
-12,Belgium,Paraguay,tournament,3.509,3.304,3.726,3.281,3.763,0.1318,0.0,0.0174,0.332,low,0.422
-13,Bolivia,Brazil,tournament,2.449,2.229,2.668,2.205,2.675,0.1309,0.0,0.0171,0.327,low,0.439
-14,Uruguay,Romania,tournament,3.483,3.293,3.686,3.238,3.707,0.1205,0.0,0.0145,0.289,low,0.393
-15,Argentina,Chile,tournament,3.812,3.602,4.026,3.59,4.045,0.1306,0.0,0.0171,0.327,low,0.424
-16,Argentina,United States,tournament,3.849,3.662,4.056,3.624,4.083,0.1168,0.0,0.0137,0.277,low,0.394
-17,Uruguay,Yugoslavia,tournament,3.465,3.251,3.673,3.227,3.691,0.1276,0.0,0.0163,0.316,low,0.422
-18,Uruguay,Argentina,tournament,3.526,3.317,3.722,3.277,3.761,0.1249,0.0,0.0156,0.305,low,0.405
-19,Argentina,Sweden,tournament,3.89,3.677,4.111,3.658,4.104,0.13,0.0,0.0169,0.324,low,0.434
-20,Austria,France,tournament,3.166,2.971,3.367,2.939,3.396,0.1206,0.0,0.0146,0.29,low,0.396
-21,Belgium,Germany,tournament,3.6,3.391,3.811,3.349,3.834,0.1291,0.0,0.0167,0.321,low,0.42
-22,Brazil,Spain,tournament,3.85,3.604,4.087,3.612,4.061,0.1449,0.0,0.021,0.383,medium,0.483
-23,Czechoslovakia,Romania,tournament,3.23,2.995,3.464,3.001,3.459,0.1395,0.0,0.0195,0.362,low,0.469
-24,Egypt,Hungary,tournament,3.102,2.877,3.321,2.846,3.319,0.1402,0.0,0.0197,0.365,low,0.444
-25,Italy,United States,tournament,3.503,3.304,3.707,3.241,3.708,0.1229,0.0,0.0151,0.298,low,0.403
-26,Netherlands,Switzerland,tournament,3.485,3.29,3.685,3.251,3.718,0.1196,0.0,0.0143,0.286,low,0.395
-27,Austria,Hungary,tournament,3.1,2.876,3.308,2.859,3.331,0.1292,0.0,0.0167,0.321,low,0.432
-28,Czechoslovakia,Switzerland,tournament,3.301,3.1,3.514,3.055,3.535,0.1252,0.0,0.0157,0.307,low,0.414
-29,Germany,Sweden,tournament,3.839,3.616,4.064,3.617,4.056,0.1375,0.0,0.0189,0.353,low,0.448
-30,Italy,Spain,tournament,3.367,3.145,3.598,3.132,3.595,0.1321,0.0,0.0175,0.333,low,0.453
-31,Italy,Spain,tournament,3.242,3.023,3.453,3.008,3.468,0.1285,0.0,0.0165,0.319,low,0.43
-32,Czechoslovakia,Germany,tournament,3.24,3.032,3.447,3.006,3.483,0.1228,0.0,0.0151,0.298,low,0.415
-33,Italy,Austria,tournament,3.277,3.048,3.489,3.042,3.498,0.1365,0.0,0.0186,0.349,low,0.441
-34,Austria,Germany,tournament,3.218,3.003,3.439,2.976,3.438,0.1324,0.0,0.0175,0.333,low,0.436
-35,Italy,Czechoslovakia,tournament,3.321,3.105,3.55,3.088,3.538,0.1375,0.0,0.0189,0.353,low,0.445
-36,Germany,Switzerland,tournament,3.8,3.596,4.014,3.59,4.039,0.1268,0.0,0.0161,0.313,low,0.418
-37,Brazil,Poland,tournament,4.086,3.88,4.269,3.852,4.314,0.1228,0.0,0.0151,0.298,low,0.389
-38,Cuba,Romania,tournament,3.123,2.904,3.339,2.894,3.353,0.1283,0.0,0.0165,0.318,low,0.435
-39,Czechoslovakia,Netherlands,tournament,3.256,3.048,3.452,3.027,3.471,0.1255,0.0,0.0158,0.308,low,0.404
-40,France,Belgium,tournament,3.459,3.259,3.675,3.218,3.689,0.1278,0.0,0.0163,0.316,low,0.416
-41,Hungary,Indonesia,tournament,3.751,3.552,3.954,3.511,3.981,0.119,0.0,0.0142,0.284,low,0.402
-42,Italy,Norway,tournament,3.348,3.128,3.577,3.13,3.582,0.1421,0.0,0.0202,0.372,low,0.449
-43,Cuba,Romania,tournament,2.941,2.748,3.14,2.695,3.18,0.1205,0.0,0.0145,0.289,low,0.392
-44,Germany,Switzerland,tournament,3.894,3.68,4.102,3.668,4.126,0.1285,0.0,0.0165,0.319,low,0.422
-45,Brazil,Czechoslovakia,tournament,3.787,3.565,4.001,3.557,4.011,0.1345,0.0,0.0181,0.342,low,0.436
-46,Cuba,Sweden,tournament,3.098,2.887,3.315,2.861,3.319,0.1265,0.0,0.016,0.311,low,0.428
-47,France,Italy,tournament,3.403,3.184,3.616,3.167,3.642,0.1323,0.0,0.0175,0.333,low,0.432
-48,Hungary,Switzerland,tournament,3.597,3.369,3.83,3.371,3.828,0.1394,0.0,0.0194,0.361,low,0.461
-49,Brazil,Czechoslovakia,tournament,3.842,3.621,4.048,3.621,4.089,0.1279,0.0,0.0164,0.317,low,0.427
-50,Brazil,Italy,tournament,3.81,3.6,4.038,3.587,4.05,0.1347,0.0,0.0182,0.343,low,0.438
-51,Hungary,Sweden,tournament,3.704,3.485,3.905,3.444,3.935,0.1291,0.0,0.0167,0.321,low,0.42
-52,Brazil,Sweden,tournament,3.959,3.748,4.182,3.727,4.189,0.1307,0.0,0.0171,0.327,low,0.434
-53,Hungary,Italy,tournament,3.66,3.458,3.864,3.433,3.915,0.1241,0.0,0.0154,0.302,low,0.406
-54,Brazil,Mexico,tournament,4.019,3.824,4.211,3.785,4.243,0.1186,0.0,0.0141,0.283,low,0.387
-55,Chile,England,tournament,3.425,3.204,3.63,3.195,3.657,0.1311,0.0,0.0172,0.329,low,0.426
-56,Italy,Sweden,tournament,3.391,3.17,3.604,3.161,3.637,0.1358,0.0,0.0184,0.346,low,0.434
-57,Spain,United States,tournament,3.665,3.457,3.872,3.434,3.898,0.1275,0.0,0.0163,0.315,low,0.415
-58,Switzerland,Yugoslavia,tournament,3.637,3.448,3.818,3.416,3.876,0.1169,0.0,0.0137,0.277,low,0.37
-59,Brazil,Switzerland,tournament,3.971,3.765,4.211,3.744,4.186,0.1358,0.0,0.0184,0.346,low,0.446
-60,Mexico,Yugoslavia,tournament,3.614,3.385,3.84,3.391,3.869,0.1387,0.0,0.0192,0.358,low,0.455
-61,Chile,Spain,tournament,3.408,3.191,3.619,3.172,3.646,0.1315,0.0,0.0173,0.33,low,0.428
-62,England,United States,tournament,3.267,3.069,3.465,3.036,3.498,0.12,0.0,0.0144,0.287,low,0.396
-63,Paraguay,Sweden,tournament,3.597,3.382,3.824,3.384,3.842,0.1315,0.0,0.0173,0.33,low,0.442
-64,Brazil,Yugoslavia,tournament,3.925,3.728,4.132,3.684,4.12,0.1235,0.0,0.0152,0.3,low,0.404
-65,Bolivia,Uruguay,tournament,2.708,2.479,2.93,2.458,2.931,0.1374,0.0,0.0189,0.353,low,0.451
-66,Chile,United States,tournament,3.541,3.322,3.758,3.29,3.746,0.1325,0.0,0.0176,0.334,low,0.436
-67,England,Spain,tournament,3.235,3.007,3.474,2.99,3.477,0.1395,0.0,0.0195,0.362,low,0.467
-68,Italy,Paraguay,tournament,3.419,3.207,3.624,3.183,3.657,0.13,0.0,0.0169,0.324,low,0.417
-69,Mexico,Switzerland,tournament,3.526,3.322,3.746,3.306,3.744,0.1309,0.0,0.0171,0.327,low,0.424
-70,Brazil,Sweden,tournament,4.082,3.887,4.276,3.851,4.298,0.1194,0.0,0.0143,0.286,low,0.389
-71,Spain,Uruguay,tournament,3.674,3.463,3.897,3.446,3.927,0.135,0.0,0.0182,0.343,low,0.434
-72,Brazil,Spain,tournament,4.087,3.871,4.306,3.856,4.317,0.1312,0.0,0.0172,0.329,low,0.435
-73,Sweden,Uruguay,tournament,3.54,3.3,3.779,3.312,3.777,0.1427,0.0,0.0204,0.375,low,0.479
-74,Brazil,Uruguay,tournament,3.938,3.711,4.152,3.695,4.154,0.1338,0.0,0.0179,0.339,low,0.441
-75,Spain,Sweden,tournament,3.611,3.404,3.82,3.394,3.852,0.1269,0.0,0.0161,0.313,low,0.416
-76,Austria,Scotland,tournament,3.317,3.124,3.528,3.096,3.535,0.1234,0.0,0.0152,0.3,low,0.404
-77,Brazil,Mexico,tournament,3.957,3.758,4.156,3.717,4.173,0.1214,0.0,0.0147,0.292,low,0.398
-78,Czechoslovakia,Uruguay,tournament,3.254,3.017,3.496,3.017,3.478,0.1463,0.0,0.0214,0.389,medium,0.479
-79,France,Yugoslavia,tournament,3.385,3.156,3.603,3.141,3.597,0.1402,0.0,0.0196,0.364,low,0.447
-80,Belgium,England,tournament,3.695,3.497,3.878,3.455,3.928,0.1188,0.0,0.0141,0.283,low,0.381
-81,Germany,Turkey,tournament,4.005,3.785,4.211,3.759,4.244,0.1333,0.0,0.0178,0.337,low,0.426
-82,Hungary,South Korea,tournament,3.982,3.768,4.174,3.77,4.218,0.1235,0.0,0.0153,0.301,low,0.406
-83,Switzerland,Italy,tournament,3.659,3.47,3.843,3.422,3.877,0.1145,0.0,0.0131,0.268,low,0.373
-84,Austria,Czechoslovakia,tournament,3.252,3.05,3.464,3.008,3.476,0.128,0.0,0.0164,0.317,low,0.414
-85,Brazil,Yugoslavia,tournament,3.836,3.607,4.073,3.597,4.054,0.1411,0.0,0.0199,0.368,low,0.466
-86,France,Mexico,tournament,3.475,3.248,3.701,3.249,3.704,0.1372,0.0,0.0188,0.352,low,0.453
-87,Scotland,Uruguay,tournament,3.456,3.256,3.682,3.228,3.69,0.1344,0.0,0.0181,0.342,low,0.426
-88,Belgium,Italy,tournament,3.633,3.398,3.84,3.386,3.839,0.1319,0.0,0.0174,0.332,low,0.442
-89,Germany,Hungary,tournament,4.097,3.891,4.297,3.877,4.33,0.1276,0.0,0.0163,0.316,low,0.406
-90,South Korea,Turkey,tournament,3.089,2.856,3.336,2.863,3.327,0.1447,0.0,0.0209,0.382,medium,0.48
-91,Switzerland,England,tournament,3.705,3.48,3.927,3.479,3.962,0.1339,0.0,0.0179,0.339,low,0.447
-92,Germany,Turkey,tournament,4.057,3.808,4.295,3.814,4.294,0.1491,0.0,0.0222,0.4,medium,0.487
-93,Switzerland,Italy,tournament,3.729,3.537,3.92,3.495,3.967,0.1139,0.0,0.013,0.266,low,0.383
-94,England,Uruguay,tournament,3.492,3.265,3.715,3.235,3.712,0.14,0.0,0.0196,0.363,low,0.45
-95,Switzerland,Austria,tournament,3.973,3.776,4.163,3.742,4.201,0.12,0.0,0.0144,0.287,low,0.387
-96,Brazil,Hungary,tournament,4.021,3.816,4.22,3.803,4.238,0.1246,0.0,0.0155,0.304,low,0.404
-97,Germany,Yugoslavia,tournament,3.892,3.689,4.088,3.66,4.133,0.1229,0.0,0.0151,0.298,low,0.399
-98,Austria,Germany,tournament,3.265,3.05,3.467,3.047,3.497,0.127,0.0,0.0161,0.313,low,0.417
-99,Hungary,Uruguay,tournament,3.694,3.498,3.904,3.452,3.939,0.1247,0.0,0.0156,0.305,low,0.406
-100,Austria,Uruguay,tournament,3.215,3.033,3.418,2.977,3.431,0.1163,0.0,0.0135,0.274,low,0.385
-101,Germany,Hungary,tournament,3.903,3.684,4.11,3.675,4.132,0.1311,0.0,0.0172,0.329,low,0.426
-102,Argentina,Germany,tournament,3.893,3.691,4.098,3.659,4.131,0.1253,0.0,0.0157,0.307,low,0.407
-103,Austria,Brazil,tournament,3.203,2.991,3.42,2.964,3.435,0.1289,0.0,0.0166,0.32,low,0.429
-104,Czechoslovakia,Northern Ireland,tournament,3.337,3.125,3.546,3.1,3.575,0.1257,0.0,0.0158,0.308,low,0.421
-105,England,Russia,tournament,3.417,3.158,3.66,3.177,3.644,0.1489,0.0,0.0222,0.4,medium,0.502
-106,France,Paraguay,tournament,3.68,3.485,3.859,3.446,3.912,0.114,0.0,0.013,0.266,low,0.374
-107,Hungary,Wales,tournament,3.739,3.531,3.954,3.523,3.977,0.1263,0.0,0.016,0.311,low,0.423
-108,Scotland,Yugoslavia,tournament,3.379,3.143,3.596,3.151,3.603,0.1325,0.0,0.0176,0.334,low,0.453
-109,Sweden,Mexico,tournament,3.622,3.403,3.83,3.39,3.851,0.1284,0.0,0.0165,0.318,low,0.427
-110,Argentina,Northern Ireland,tournament,4.01,3.773,4.249,3.783,4.243,0.1455,0.0,0.0212,0.386,medium,0.476
-111,Austria,Russia,tournament,3.246,3.053,3.455,3.004,3.464,0.1178,0.0,0.0139,0.28,low,0.402
-112,Brazil,England,tournament,3.853,3.624,4.054,3.607,4.084,0.1282,0.0,0.0164,0.317,low,0.43
-113,Czechoslovakia,Germany,tournament,3.32,3.1,3.549,3.091,3.558,0.1382,0.0,0.0191,0.356,low,0.449
-114,France,Yugoslavia,tournament,3.548,3.315,3.778,3.34,3.791,0.1465,0.0,0.0215,0.39,medium,0.463
-115,Mexico,Wales,tournament,3.732,3.498,3.973,3.49,3.965,0.1457,0.0,0.0212,0.386,medium,0.475
-116,Paraguay,Scotland,tournament,3.75,3.543,3.986,3.518,4.004,0.1331,0.0,0.0177,0.336,low,0.443
-117,Sweden,Hungary,tournament,3.666,3.47,3.889,3.441,3.899,0.127,0.0,0.0161,0.313,low,0.419
-118,Argentina,Czechoslovakia,tournament,3.954,3.748,4.183,3.706,4.17,0.1328,0.0,0.0176,0.335,low,0.435
-119,Austria,England,tournament,3.305,3.076,3.522,3.079,3.549,0.1384,0.0,0.0191,0.356,low,0.446
-120,Brazil,Russia,tournament,3.902,3.696,4.1,3.66,4.13,0.1253,0.0,0.0157,0.307,low,0.404
-121,France,Scotland,tournament,3.47,3.253,3.683,3.231,3.672,0.1316,0.0,0.0173,0.33,low,0.43
-122,Germany,Northern Ireland,tournament,4.08,3.881,4.268,3.851,4.318,0.1228,0.0,0.0151,0.298,low,0.387
-123,Hungary,Mexico,tournament,3.755,3.546,3.952,3.528,3.987,0.1263,0.0,0.016,0.311,low,0.406
-124,Paraguay,Yugoslavia,tournament,3.693,3.501,3.879,3.455,3.919,0.1189,0.0,0.0141,0.283,low,0.378
-125,Sweden,Wales,tournament,3.603,3.385,3.834,3.376,3.838,0.1408,0.0,0.0198,0.366,low,0.449
-126,Czechoslovakia,Northern Ireland,tournament,3.334,3.117,3.572,3.107,3.566,0.1317,0.0,0.0173,0.33,low,0.455
-127,England,Russia,tournament,3.295,3.044,3.538,3.075,3.504,0.1473,0.0,0.0217,0.393,medium,0.494
-128,Hungary,Wales,tournament,3.749,3.546,3.958,3.528,3.979,0.124,0.0,0.0154,0.302,low,0.412
-129,Brazil,Wales,tournament,3.908,3.703,4.12,3.687,4.143,0.1269,0.0,0.0161,0.313,low,0.417
-130,France,Northern Ireland,tournament,3.464,3.267,3.651,3.225,3.698,0.1149,0.0,0.0132,0.269,low,0.384
-131,Germany,Yugoslavia,tournament,3.899,3.697,4.113,3.67,4.125,0.1232,0.0,0.0152,0.299,low,0.416
-132,Sweden,Russia,tournament,3.643,3.411,3.875,3.41,3.871,0.1408,0.0,0.0198,0.366,low,0.464
-133,Brazil,France,tournament,4.03,3.803,4.27,3.794,4.272,0.1402,0.0,0.0196,0.364,low,0.467
-134,Sweden,Germany,tournament,3.627,3.396,3.884,3.381,3.877,0.1488,0.0,0.0221,0.399,medium,0.488
-135,France,Germany,tournament,3.584,3.351,3.827,3.337,3.815,0.146,0.0,0.0213,0.388,medium,0.476
-136,Sweden,Brazil,tournament,3.732,3.482,3.974,3.498,3.946,0.1514,0.0,0.0229,0.41,medium,0.492
-137,Argentina,Bulgaria,tournament,3.878,3.651,4.103,3.652,4.11,0.1405,0.0,0.0197,0.365,low,0.452
-138,Brazil,Mexico,tournament,3.913,3.709,4.148,3.699,4.145,0.1341,0.0,0.018,0.34,low,0.439
-139,Chile,Switzerland,tournament,3.6,3.387,3.798,3.367,3.827,0.1252,0.0,0.0157,0.307,low,0.411
-140,Colombia,Uruguay,tournament,3.195,2.983,3.413,2.955,3.44,0.13,0.0,0.0169,0.324,low,0.43
-141,Czechoslovakia,Spain,tournament,3.286,3.077,3.492,3.06,3.491,0.1301,0.0,0.0169,0.325,low,0.415
-142,England,Hungary,tournament,3.388,3.171,3.611,3.158,3.609,0.1334,0.0,0.0178,0.337,low,0.44
-143,Germany,Italy,tournament,3.843,3.627,4.067,3.622,4.075,0.1316,0.0,0.0173,0.33,low,0.44
-144,Russia,Yugoslavia,tournament,3.956,3.762,4.159,3.718,4.147,0.123,0.0,0.0151,0.298,low,0.397
-145,Argentina,England,tournament,3.901,3.7,4.106,3.668,4.127,0.1254,0.0,0.0157,0.307,low,0.406
-146,Brazil,Czechoslovakia,tournament,3.901,3.68,4.125,3.66,4.134,0.1387,0.0,0.0192,0.358,low,0.445
-147,Chile,Italy,tournament,3.533,3.306,3.78,3.302,3.763,0.1441,0.0,0.0208,0.38,medium,0.474
-148,Uruguay,Yugoslavia,tournament,3.445,3.259,3.635,3.209,3.67,0.1182,0.0,0.014,0.281,low,0.376
-149,Bulgaria,Hungary,tournament,3.035,2.771,3.306,2.803,3.286,0.1575,0.0,0.0248,0.436,medium,0.535
-150,Colombia,Russia,tournament,3.371,3.17,3.565,3.135,3.604,0.1213,0.0,0.0147,0.292,low,0.395
-151,Germany,Switzerland,tournament,3.951,3.761,4.151,3.702,4.176,0.1173,0.0,0.0138,0.278,low,0.39
-152,Mexico,Spain,tournament,3.552,3.352,3.758,3.318,3.776,0.1232,0.0,0.0152,0.299,low,0.406
-153,Argentina,Hungary,tournament,3.841,3.596,4.087,3.599,4.087,0.1498,0.0,0.0224,0.403,medium,0.491
-154,Brazil,Spain,tournament,3.878,3.671,4.079,3.636,4.122,0.1218,0.0,0.0148,0.294,low,0.408
-155,Chile,Germany,tournament,3.47,3.285,3.669,3.237,3.694,0.1174,0.0,0.0138,0.278,low,0.384
-156,Russia,Uruguay,tournament,3.881,3.66,4.096,3.636,4.114,0.1331,0.0,0.0177,0.336,low,0.436
-157,Bulgaria,England,tournament,2.811,2.591,3.058,2.59,3.053,0.1449,0.0,0.021,0.383,medium,0.467
-158,Colombia,Yugoslavia,tournament,3.266,3.063,3.482,3.022,3.501,0.1271,0.0,0.0161,0.313,low,0.419
-159,Czechoslovakia,Mexico,tournament,3.431,3.224,3.644,3.202,3.674,0.1266,0.0,0.016,0.311,low,0.42
-160,Italy,Switzerland,tournament,3.363,3.154,3.577,3.124,3.608,0.1278,0.0,0.0163,0.316,low,0.423
-161,Brazil,England,tournament,3.957,3.754,4.159,3.718,4.19,0.1265,0.0,0.016,0.311,low,0.405
-162,Chile,Russia,tournament,3.54,3.358,3.731,3.296,3.773,0.1136,0.0,0.0129,0.265,low,0.373
-163,Czechoslovakia,Hungary,tournament,3.301,3.084,3.536,3.054,3.507,0.1384,0.0,0.0192,0.357,low,0.452
-164,Germany,Yugoslavia,tournament,3.883,3.68,4.084,3.663,4.122,0.1248,0.0,0.0156,0.305,low,0.404
-165,Chile,Brazil,tournament,3.641,3.435,3.845,3.407,3.864,0.1229,0.0,0.0151,0.298,low,0.41
-166,Czechoslovakia,Yugoslavia,tournament,3.376,3.158,3.593,3.16,3.604,0.1331,0.0,0.0177,0.336,low,0.435
-167,Chile,Yugoslavia,tournament,3.583,3.36,3.796,3.356,3.803,0.1292,0.0,0.0167,0.321,low,0.436
-168,Brazil,Czechoslovakia,tournament,3.985,3.79,4.194,3.745,4.217,0.1239,0.0,0.0154,0.302,low,0.404
-169,England,Uruguay,tournament,3.362,3.129,3.589,3.125,3.565,0.1377,0.0,0.0189,0.354,low,0.46
-170,Brazil,Bulgaria,tournament,3.934,3.7,4.158,3.691,4.163,0.1398,0.0,0.0195,0.362,low,0.458
-171,Germany,Switzerland,tournament,4.013,3.823,4.202,3.796,4.244,0.1132,0.0,0.0128,0.263,low,0.379
-172,North Korea,Russia,tournament,3.457,3.208,3.709,3.211,3.681,0.1504,0.0,0.0226,0.406,medium,0.501
-173,Argentina,Spain,tournament,3.967,3.735,4.215,3.734,4.195,0.1421,0.0,0.0202,0.372,low,0.48
-174,Chile,Italy,tournament,3.555,3.364,3.751,3.314,3.783,0.1174,0.0,0.0138,0.278,low,0.387
-175,France,Mexico,tournament,3.527,3.313,3.737,3.299,3.759,0.1341,0.0,0.018,0.34,low,0.424
-176,Hungary,Portugal,tournament,3.711,3.521,3.903,3.482,3.949,0.1187,0.0,0.0141,0.283,low,0.382
-177,Brazil,Hungary,tournament,3.959,3.738,4.176,3.724,4.193,0.1335,0.0,0.0178,0.338,low,0.438
-178,Chile,North Korea,tournament,3.563,3.321,3.796,3.351,3.793,0.1461,0.0,0.0214,0.389,medium,0.475
-179,France,Uruguay,tournament,3.471,3.218,3.724,3.244,3.703,0.1523,0.0,0.0232,0.414,medium,0.506
-180,Spain,Switzerland,tournament,3.773,3.549,3.995,3.547,4.006,0.1367,0.0,0.0187,0.35,low,0.446
-181,Argentina,Germany,tournament,3.812,3.614,4.014,3.574,4.046,0.1203,0.0,0.0145,0.289,low,0.4
-182,Bulgaria,Portugal,tournament,2.907,2.665,3.151,2.672,3.135,0.1524,0.0,0.0232,0.414,medium,0.486
-183,England,Mexico,tournament,3.489,3.258,3.7,3.256,3.704,0.1338,0.0,0.0179,0.339,low,0.442
-184,Italy,Russia,tournament,3.419,3.198,3.638,3.213,3.654,0.1337,0.0,0.0179,0.339,low,0.44
-185,Argentina,Switzerland,tournament,3.947,3.728,4.165,3.718,4.172,0.1335,0.0,0.0178,0.338,low,0.437
-186,Brazil,Portugal,tournament,3.961,3.731,4.202,3.735,4.196,0.1435,0.0,0.0206,0.378,low,0.471
-187,Italy,North Korea,tournament,3.489,3.269,3.705,3.255,3.742,0.1285,0.0,0.0165,0.319,low,0.436
-188,Mexico,Uruguay,tournament,3.621,3.364,3.857,3.395,3.859,0.1486,0.0,0.0221,0.399,medium,0.493
-189,Bulgaria,Hungary,tournament,2.943,2.706,3.16,2.703,3.175,0.1396,0.0,0.0195,0.362,low,0.454
-190,Chile,Russia,tournament,3.514,3.3,3.726,3.29,3.749,0.1294,0.0,0.0167,0.322,low,0.426
-191,England,France,tournament,3.464,3.234,3.699,3.212,3.685,0.1471,0.0,0.0216,0.392,medium,0.465
-192,Germany,Spain,tournament,3.989,3.76,4.201,3.742,4.215,0.1346,0.0,0.0181,0.342,low,0.441
-193,England,Argentina,tournament,3.35,3.122,3.557,3.13,3.59,0.1304,0.0,0.017,0.326,low,0.435
-194,Germany,Uruguay,tournament,3.939,3.718,4.147,3.696,4.174,0.1345,0.0,0.0181,0.342,low,0.429
-195,Hungary,Russia,tournament,3.688,3.468,3.907,3.474,3.916,0.1318,0.0,0.0174,0.332,low,0.439
-196,North Korea,Portugal,tournament,3.49,3.263,3.707,3.263,3.724,0.1332,0.0,0.0178,0.337,low,0.444
-197,Germany,Russia,tournament,3.953,3.754,4.163,3.733,4.183,0.1283,0.0,0.0165,0.318,low,0.409
-198,England,Portugal,tournament,3.462,3.261,3.678,3.24,3.67,0.1235,0.0,0.0153,0.301,low,0.417
-199,Portugal,Russia,tournament,3.249,3.03,3.482,3.001,3.433,0.1378,0.0,0.019,0.355,low,0.452
-200,England,Germany,tournament,3.497,3.256,3.727,3.277,3.727,0.138,0.0,0.019,0.355,low,0.471
-201,Mexico,Russia,tournament,3.609,3.379,3.843,3.387,3.835,0.1379,0.0,0.019,0.355,low,0.464
-202,Bulgaria,Peru,tournament,2.964,2.713,3.219,2.719,3.168,0.1552,0.0,0.0241,0.427,medium,0.506
-203,England,Romania,tournament,3.416,3.188,3.657,3.176,3.642,0.1455,0.0,0.0212,0.386,medium,0.469
-204,Israel,Uruguay,tournament,2.895,2.625,3.162,2.67,3.126,0.1579,0.0,0.0249,0.438,medium,0.537
-205,Belgium,El Salvador,tournament,3.767,3.549,3.985,3.531,3.963,0.129,0.0,0.0166,0.32,low,0.436
-206,Brazil,Czechoslovakia,tournament,4.047,3.848,4.268,3.808,4.272,0.1265,0.0,0.016,0.311,low,0.42
-207,Germany,Morocco,tournament,4.117,3.895,4.341,3.879,4.345,0.1317,0.0,0.0174,0.331,low,0.446
-208,Italy,Sweden,tournament,3.393,3.168,3.615,3.146,3.615,0.1376,0.0,0.0189,0.353,low,0.447
-209,Belgium,Russia,tournament,3.689,3.485,3.896,3.46,3.921,0.1251,0.0,0.0157,0.307,low,0.411
-210,Czechoslovakia,Romania,tournament,3.398,3.188,3.598,3.176,3.632,0.1296,0.0,0.0168,0.323,low,0.41
-211,Italy,Uruguay,tournament,3.339,3.131,3.549,3.11,3.579,0.1263,0.0,0.0159,0.31,low,0.418
-212,Morocco,Peru,tournament,3.03,2.804,3.251,2.787,3.257,0.1361,0.0,0.0185,0.348,low,0.447
-213,Brazil,England,tournament,3.96,3.772,4.183,3.717,4.183,0.1249,0.0,0.0156,0.305,low,0.411
-214,Bulgaria,Germany,tournament,2.934,2.69,3.168,2.697,3.165,0.1481,0.0,0.0219,0.396,medium,0.478
-215,Israel,Sweden,tournament,2.855,2.619,3.08,2.613,3.057,0.1412,0.0,0.0199,0.368,low,0.461
-216,Mexico,El Salvador,tournament,3.815,3.59,4.077,3.588,4.058,0.1445,0.0,0.0209,0.382,medium,0.487
-217,Brazil,Romania,tournament,4.019,3.795,4.234,3.766,4.242,0.1373,0.0,0.0189,0.353,low,0.439
-218,El Salvador,Russia,tournament,2.834,2.617,3.054,2.604,3.064,0.1367,0.0,0.0187,0.35,low,0.437
-219,Germany,Peru,tournament,4.039,3.842,4.237,3.808,4.282,0.1224,0.0,0.015,0.296,low,0.395
-220,Sweden,Uruguay,tournament,3.589,3.328,3.827,3.354,3.824,0.1457,0.0,0.0212,0.386,medium,0.499
-221,Bulgaria,Morocco,tournament,3.01,2.795,3.228,2.768,3.224,0.1399,0.0,0.0196,0.363,low,0.433
-222,Czechoslovakia,England,tournament,3.354,3.129,3.564,3.116,3.579,0.1344,0.0,0.0181,0.342,low,0.435
-223,Israel,Italy,tournament,2.816,2.624,3.003,2.575,3.029,0.1174,0.0,0.0138,0.278,low,0.379
-224,Mexico,Belgium,tournament,3.658,3.412,3.9,3.409,3.886,0.1445,0.0,0.0209,0.382,medium,0.488
-225,Brazil,Peru,tournament,4.121,3.907,4.316,3.89,4.355,0.1243,0.0,0.0154,0.303,low,0.409
-226,England,Germany,tournament,3.414,3.205,3.619,3.18,3.642,0.124,0.0,0.0154,0.302,low,0.414
-227,Mexico,Italy,tournament,3.799,3.557,4.026,3.556,4.027,0.1425,0.0,0.0203,0.373,low,0.469
-228,Russia,Uruguay,tournament,3.929,3.703,4.146,3.707,4.17,0.1324,0.0,0.0175,0.333,low,0.443
-229,Brazil,Uruguay,tournament,4.03,3.824,4.228,3.81,4.265,0.1278,0.0,0.0163,0.316,low,0.404
-230,Germany,Italy,tournament,4.038,3.82,4.273,3.822,4.255,0.1382,0.0,0.0191,0.356,low,0.453
-231,Germany,Uruguay,tournament,3.919,3.673,4.171,3.694,4.132,0.1534,0.0,0.0235,0.418,medium,0.498
-232,Brazil,Italy,tournament,4.058,3.837,4.275,3.826,4.285,0.1349,0.0,0.0182,0.343,low,0.438
-233,Brazil,Yugoslavia,tournament,3.898,3.698,4.106,3.68,4.125,0.1265,0.0,0.016,0.311,low,0.408
-234,DR Congo,Scotland,tournament,2.784,2.569,3.0,2.546,3.021,0.1315,0.0,0.0173,0.33,low,0.431
-235,German DR,Australia,tournament,3.469,3.231,3.706,3.243,3.708,0.1452,0.0,0.0211,0.385,medium,0.475
-236,Germany,Chile,tournament,4.02,3.795,4.225,3.782,4.246,0.1293,0.0,0.0167,0.322,low,0.43
-237,Italy,Haiti,tournament,3.541,3.291,3.789,3.297,3.764,0.151,0.0,0.0228,0.409,medium,0.498
-238,Poland,Argentina,tournament,3.6,3.381,3.82,3.383,3.857,0.1329,0.0,0.0177,0.336,low,0.439
-239,Sweden,Bulgaria,tournament,3.599,3.373,3.833,3.361,3.825,0.142,0.0,0.0202,0.372,low,0.46
-240,Uruguay,Netherlands,tournament,3.403,3.223,3.591,3.164,3.638,0.1106,0.0,0.0122,0.254,low,0.368
-241,Chile,German DR,tournament,3.543,3.343,3.743,3.319,3.772,0.1198,0.0,0.0144,0.287,low,0.4
-242,Germany,Australia,tournament,4.117,3.923,4.317,3.868,4.35,0.1233,0.0,0.0152,0.299,low,0.394
-243,Scotland,Brazil,tournament,3.365,3.165,3.568,3.13,3.594,0.1217,0.0,0.0148,0.293,low,0.403
-244,Yugoslavia,DR Congo,tournament,3.59,3.387,3.793,3.376,3.83,0.1223,0.0,0.0149,0.295,low,0.406
-245,Argentina,Italy,tournament,3.87,3.633,4.107,3.625,4.1,0.1473,0.0,0.0217,0.393,medium,0.474
-246,Bulgaria,Uruguay,tournament,2.901,2.662,3.145,2.651,3.093,0.146,0.0,0.0213,0.388,medium,0.483
-247,Haiti,Poland,tournament,2.787,2.57,3.02,2.55,3.022,0.1383,0.0,0.0191,0.356,low,0.45
-248,Netherlands,Sweden,tournament,3.56,3.351,3.76,3.317,3.788,0.1262,0.0,0.0159,0.31,low,0.409
-249,Australia,Chile,tournament,3.331,3.129,3.523,3.095,3.566,0.122,0.0,0.0149,0.295,low,0.394
-250,DR Congo,Brazil,tournament,2.717,2.484,2.938,2.493,2.967,0.1383,0.0,0.0191,0.356,low,0.454
-251,Germany,German DR,tournament,4.051,3.819,4.28,3.81,4.286,0.1428,0.0,0.0204,0.375,low,0.461
-252,Scotland,Yugoslavia,tournament,3.445,3.235,3.659,3.207,3.675,0.127,0.0,0.0161,0.313,low,0.424
-253,Argentina,Haiti,tournament,4.126,3.897,4.374,3.89,4.336,0.147,0.0,0.0216,0.392,medium,0.477
-254,Bulgaria,Netherlands,tournament,2.966,2.714,3.225,2.733,3.201,0.1555,0.0,0.0242,0.428,medium,0.511
-255,Poland,Italy,tournament,3.657,3.446,3.872,3.438,3.899,0.1303,0.0,0.017,0.326,low,0.426
-256,Sweden,Uruguay,tournament,3.64,3.413,3.871,3.417,3.871,0.1365,0.0,0.0186,0.349,low,0.458
-257,Brazil,German DR,tournament,3.959,3.774,4.163,3.729,4.189,0.1159,0.0,0.0134,0.273,low,0.389
-258,Germany,Yugoslavia,tournament,3.995,3.774,4.212,3.741,4.203,0.1304,0.0,0.017,0.326,low,0.438
-259,Netherlands,Argentina,tournament,3.588,3.365,3.811,3.354,3.826,0.1303,0.0,0.017,0.326,low,0.446
-260,Sweden,Poland,tournament,3.604,3.388,3.824,3.388,3.837,0.1335,0.0,0.0178,0.338,low,0.436
-261,Argentina,Brazil,tournament,4.002,3.784,4.213,3.776,4.237,0.1348,0.0,0.0182,0.343,low,0.429
-262,German DR,Netherlands,tournament,3.409,3.201,3.622,3.193,3.646,0.1293,0.0,0.0167,0.322,low,0.421
-263,Germany,Sweden,tournament,4.091,3.875,4.296,3.856,4.322,0.1291,0.0,0.0167,0.321,low,0.421
-264,Poland,Yugoslavia,tournament,3.576,3.374,3.775,3.341,3.798,0.1195,0.0,0.0143,0.286,low,0.401
-265,Argentina,German DR,tournament,3.978,3.754,4.194,3.74,4.218,0.1327,0.0,0.0176,0.335,low,0.44
-266,Germany,Poland,tournament,3.938,3.71,4.158,3.71,4.178,0.1321,0.0,0.0175,0.333,low,0.448
-267,Netherlands,Brazil,tournament,3.586,3.39,3.795,3.358,3.805,0.1239,0.0,0.0153,0.301,low,0.405
-268,Sweden,Yugoslavia,tournament,3.684,3.488,3.881,3.444,3.916,0.1211,0.0,0.0147,0.292,low,0.393
-269,Brazil,Poland,tournament,3.942,3.722,4.166,3.714,4.173,0.1387,0.0,0.0192,0.358,low,0.444
-270,Germany,Netherlands,tournament,4.015,3.788,4.222,3.788,4.256,0.1335,0.0,0.0178,0.338,low,0.434
-271,Germany,Poland,tournament,3.94,3.738,4.151,3.7,4.158,0.1271,0.0,0.0162,0.314,low,0.413
-272,Argentina,Hungary,tournament,4.021,3.813,4.231,3.8,4.265,0.1287,0.0,0.0166,0.32,low,0.418
-273,France,Italy,tournament,3.494,3.299,3.692,3.28,3.746,0.1211,0.0,0.0147,0.292,low,0.393
-274,Mexico,Tunisia,tournament,3.865,3.638,4.091,3.622,4.107,0.1354,0.0,0.0183,0.345,low,0.453
-275,Austria,Spain,tournament,3.343,3.136,3.544,3.096,3.569,0.1242,0.0,0.0154,0.302,low,0.408
-276,Brazil,Sweden,tournament,4.039,3.815,4.273,3.812,4.279,0.1419,0.0,0.0201,0.371,low,0.458
-277,Iran,Netherlands,tournament,3.26,3.043,3.467,3.023,3.483,0.1286,0.0,0.0165,0.319,low,0.424
-278,Peru,Scotland,tournament,3.408,3.202,3.619,3.177,3.644,0.1236,0.0,0.0153,0.301,low,0.417
-279,Argentina,France,tournament,4.075,3.84,4.29,3.855,4.308,0.1324,0.0,0.0175,0.333,low,0.45
-280,Germany,Mexico,tournament,4.11,3.883,4.334,3.885,4.349,0.136,0.0,0.0185,0.348,low,0.451
-281,Hungary,Italy,tournament,3.759,3.549,3.975,3.519,3.989,0.1331,0.0,0.0177,0.336,low,0.426
-282,Poland,Tunisia,tournament,3.608,3.397,3.809,3.377,3.831,0.1213,0.0,0.0147,0.292,low,0.412
-283,Austria,Sweden,tournament,3.267,3.051,3.461,3.034,3.49,0.1203,0.0,0.0145,0.289,low,0.41
-284,Brazil,Spain,tournament,3.941,3.679,4.202,3.708,4.165,0.1562,0.0,0.0244,0.431,medium,0.523
-285,Iran,Scotland,tournament,3.338,3.142,3.548,3.111,3.582,0.1215,0.0,0.0148,0.293,low,0.406
-286,Netherlands,Peru,tournament,3.587,3.366,3.829,3.337,3.822,0.1404,0.0,0.0197,0.365,low,0.463
-287,Argentina,Italy,tournament,4.011,3.807,4.224,3.78,4.239,0.1297,0.0,0.0168,0.323,low,0.417
-288,France,Hungary,tournament,3.625,3.397,3.853,3.397,3.856,0.1404,0.0,0.0197,0.365,low,0.456
-289,Germany,Tunisia,tournament,3.945,3.736,4.157,3.71,4.171,0.1293,0.0,0.0167,0.322,low,0.421
-290,Mexico,Poland,tournament,3.7,3.485,3.922,3.46,3.927,0.1299,0.0,0.0169,0.324,low,0.437
-291,Austria,Brazil,tournament,3.203,2.989,3.399,2.96,3.42,0.1239,0.0,0.0154,0.302,low,0.41
-292,Iran,Peru,tournament,3.415,3.218,3.6,3.188,3.648,0.1181,0.0,0.014,0.281,low,0.382
-293,Netherlands,Scotland,tournament,3.725,3.514,3.922,3.484,3.956,0.1254,0.0,0.0157,0.307,low,0.408
-294,Spain,Sweden,tournament,3.685,3.479,3.892,3.455,3.915,0.1301,0.0,0.0169,0.325,low,0.413
-295,Argentina,Poland,tournament,4.027,3.798,4.271,3.808,4.267,0.1436,0.0,0.0206,0.378,low,0.473
-296,Austria,Netherlands,tournament,3.387,3.201,3.568,3.146,3.614,0.1105,0.0,0.0122,0.254,low,0.367
-297,Brazil,Peru,tournament,4.128,3.925,4.332,3.878,4.355,0.1218,0.0,0.0148,0.294,low,0.407
-298,Germany,Italy,tournament,3.888,3.684,4.09,3.659,4.097,0.1243,0.0,0.0154,0.303,low,0.406
-299,Argentina,Brazil,tournament,3.917,3.673,4.139,3.666,4.119,0.1426,0.0,0.0203,0.373,low,0.466
-300,Austria,Italy,tournament,3.212,3.015,3.406,2.979,3.441,0.1165,0.0,0.0136,0.275,low,0.391
-301,Germany,Netherlands,tournament,4.048,3.827,4.249,3.804,4.27,0.1288,0.0,0.0166,0.32,low,0.422
-302,Peru,Poland,tournament,3.197,3.003,3.392,2.97,3.421,0.1199,0.0,0.0144,0.287,low,0.389
-303,Argentina,Peru,tournament,4.185,3.987,4.408,3.944,4.407,0.1287,0.0,0.0166,0.32,low,0.421
-304,Austria,Germany,tournament,3.334,3.136,3.528,3.111,3.562,0.1178,0.0,0.0139,0.28,low,0.392
-305,Brazil,Poland,tournament,3.988,3.786,4.197,3.755,4.215,0.1286,0.0,0.0165,0.319,low,0.411
-306,Italy,Netherlands,tournament,3.428,3.192,3.654,3.188,3.665,0.1389,0.0,0.0193,0.359,low,0.462
-307,Brazil,Italy,tournament,4.03,3.8,4.255,3.802,4.269,0.1411,0.0,0.0199,0.368,low,0.455
-308,Argentina,Netherlands,tournament,4.035,3.817,4.262,3.793,4.255,0.1344,0.0,0.0181,0.342,low,0.445
-309,Argentina,Belgium,tournament,3.917,3.708,4.11,3.693,4.154,0.1256,0.0,0.0158,0.308,low,0.402
-310,Brazil,Russia,tournament,4.054,3.841,4.269,3.806,4.261,0.1238,0.0,0.0153,0.301,low,0.428
-311,Italy,Poland,tournament,3.398,3.174,3.601,3.179,3.631,0.1321,0.0,0.0175,0.333,low,0.427
-312,Hungary,El Salvador,tournament,4.345,4.147,4.551,4.11,4.577,0.1244,0.0,0.0155,0.304,low,0.404
-313,Peru,Cameroon,tournament,3.273,3.075,3.465,3.049,3.492,0.1215,0.0,0.0148,0.293,low,0.39
-314,Scotland,New Zealand,tournament,3.651,3.407,3.878,3.426,3.883,0.1427,0.0,0.0204,0.375,low,0.471
-315,England,France,tournament,3.54,3.332,3.75,3.309,3.749,0.1284,0.0,0.0165,0.318,low,0.418
-316,Germany,Algeria,tournament,4.01,3.808,4.223,3.762,4.247,0.1284,0.0,0.0165,0.318,low,0.415
-317,Spain,Honduras,tournament,3.887,3.656,4.122,3.659,4.13,0.1437,0.0,0.0207,0.379,low,0.466
-318,Chile,Austria,tournament,3.659,3.413,3.893,3.428,3.888,0.1469,0.0,0.0216,0.392,medium,0.48
-319,Czechoslovakia,Kuwait,tournament,3.442,3.199,3.693,3.204,3.683,0.1487,0.0,0.0221,0.399,medium,0.494
-320,Yugoslavia,Northern Ireland,tournament,3.224,3.018,3.427,2.977,3.421,0.1253,0.0,0.0157,0.307,low,0.409
-321,Argentina,Hungary,tournament,4.041,3.833,4.251,3.813,4.265,0.1261,0.0,0.0159,0.31,low,0.418
-322,Brazil,Scotland,tournament,4.206,3.993,4.428,3.972,4.468,0.1347,0.0,0.0181,0.342,low,0.435
-323,Italy,Peru,tournament,3.536,3.339,3.753,3.326,3.77,0.1252,0.0,0.0157,0.307,low,0.414
-324,Belgium,El Salvador,tournament,3.758,3.559,3.955,3.528,3.982,0.1204,0.0,0.0145,0.289,low,0.396
-325,Poland,Cameroon,tournament,3.578,3.341,3.819,3.34,3.808,0.1424,0.0,0.0203,0.373,low,0.478
-326,Russia,New Zealand,tournament,4.061,3.869,4.255,3.816,4.286,0.1167,0.0,0.0136,0.276,low,0.386
-327,England,Czechoslovakia,tournament,3.457,3.243,3.678,3.226,3.685,0.1352,0.0,0.0183,0.345,low,0.435
-328,Germany,Chile,tournament,4.192,4.011,4.369,3.965,4.424,0.1125,0.0,0.0127,0.261,low,0.358
-329,Spain,Yugoslavia,tournament,3.834,3.636,4.035,3.595,4.063,0.1237,0.0,0.0153,0.301,low,0.399
-330,Algeria,Austria,tournament,3.252,3.018,3.489,3.022,3.479,0.1415,0.0,0.02,0.369,low,0.471
-331,France,Kuwait,tournament,3.656,3.457,3.867,3.428,3.888,0.1289,0.0,0.0166,0.32,low,0.41
-332,Honduras,Northern Ireland,tournament,2.855,2.594,3.12,2.608,3.083,0.1529,0.0,0.0234,0.417,medium,0.526
-333,Belgium,Hungary,tournament,3.716,3.513,3.926,3.502,3.922,0.1251,0.0,0.0156,0.306,low,0.413
-334,Poland,Peru,tournament,3.683,3.477,3.893,3.445,3.911,0.1258,0.0,0.0158,0.308,low,0.416
-335,Russia,Scotland,tournament,4.038,3.81,4.251,3.807,4.263,0.1347,0.0,0.0182,0.343,low,0.441
-336,Argentina,El Salvador,tournament,4.052,3.854,4.248,3.824,4.29,0.1248,0.0,0.0156,0.305,low,0.394
-337,Brazil,New Zealand,tournament,4.094,3.892,4.311,3.859,4.317,0.129,0.0,0.0166,0.32,low,0.419
-338,Italy,Cameroon,tournament,3.455,3.208,3.721,3.242,3.689,0.155,0.0,0.024,0.425,medium,0.513
-339,Algeria,Chile,tournament,3.316,3.085,3.553,3.073,3.535,0.1428,0.0,0.0204,0.375,low,0.468
-340,France,Czechoslovakia,tournament,3.551,3.327,3.78,3.306,3.782,0.1342,0.0,0.018,0.34,low,0.453
-341,Honduras,Yugoslavia,tournament,2.892,2.675,3.112,2.669,3.118,0.1376,0.0,0.0189,0.353,low,0.437
-342,England,Kuwait,tournament,3.541,3.305,3.787,3.306,3.762,0.1455,0.0,0.0212,0.386,medium,0.482
-343,Germany,Austria,tournament,3.957,3.753,4.17,3.732,4.182,0.1295,0.0,0.0168,0.323,low,0.417
-344,Spain,Northern Ireland,tournament,3.775,3.542,4.004,3.519,3.986,0.1398,0.0,0.0195,0.362,low,0.462
-345,Austria,France,tournament,3.249,3.01,3.484,3.018,3.486,0.1431,0.0,0.0205,0.376,low,0.474
-346,Poland,Belgium,tournament,3.594,3.401,3.802,3.35,3.815,0.1253,0.0,0.0157,0.307,low,0.401
-347,Germany,England,tournament,3.965,3.736,4.193,3.731,4.194,0.1383,0.0,0.0191,0.356,low,0.457
-348,Italy,Argentina,tournament,3.479,3.264,3.687,3.25,3.72,0.1301,0.0,0.0169,0.325,low,0.423
-349,Austria,Northern Ireland,tournament,3.36,3.178,3.547,3.133,3.601,0.111,0.0,0.0123,0.256,low,0.369
-350,Belgium,Russia,tournament,3.655,3.436,3.87,3.415,3.889,0.1306,0.0,0.017,0.326,low,0.434
-351,Argentina,Brazil,tournament,3.999,3.785,4.208,3.764,4.229,0.1314,0.0,0.0173,0.33,low,0.423
-352,Spain,Germany,tournament,3.762,3.547,3.971,3.541,3.994,0.1301,0.0,0.0169,0.325,low,0.424
-353,France,Northern Ireland,tournament,3.59,3.385,3.795,3.359,3.823,0.1264,0.0,0.016,0.311,low,0.41
-354,Poland,Russia,tournament,3.692,3.486,3.912,3.447,3.915,0.1325,0.0,0.0176,0.334,low,0.426
-355,Italy,Brazil,tournament,3.521,3.27,3.772,3.294,3.725,0.1486,0.0,0.0221,0.399,medium,0.502
-356,Spain,England,tournament,3.778,3.559,4.004,3.533,4.001,0.1316,0.0,0.0173,0.33,low,0.445
-357,Germany,France,tournament,4.078,3.866,4.284,3.853,4.311,0.1309,0.0,0.0171,0.327,low,0.418
-358,Poland,Italy,tournament,3.558,3.372,3.755,3.338,3.796,0.1205,0.0,0.0145,0.289,low,0.383
-359,Poland,France,tournament,3.639,3.436,3.841,3.409,3.87,0.1227,0.0,0.0151,0.298,low,0.405
-360,Italy,Germany,tournament,3.613,3.343,3.88,3.385,3.839,0.1608,0.0,0.0259,0.451,medium,0.537
-361,Bulgaria,Italy,group_or_knockout,2.959,2.729,3.188,2.726,3.194,0.1396,0.0,0.0195,0.362,low,0.459
-362,Canada,France,group_or_knockout,3.078,2.886,3.259,2.858,3.292,0.1164,0.0,0.0135,0.274,low,0.373
-363,Spain,Brazil,group_or_knockout,3.7,3.484,3.917,3.462,3.927,0.1327,0.0,0.0176,0.335,low,0.433
-364,Argentina,South Korea,group_or_knockout,4.008,3.782,4.234,3.787,4.242,0.1379,0.0,0.019,0.355,low,0.452
-365,Morocco,Poland,group_or_knockout,3.038,2.829,3.251,2.819,3.259,0.1282,0.0,0.0164,0.317,low,0.422
-366,Russia,Hungary,group_or_knockout,4.05,3.844,4.276,3.813,4.287,0.1323,0.0,0.0175,0.333,low,0.432
-367,Algeria,Northern Ireland,group_or_knockout,3.296,3.063,3.533,3.058,3.549,0.1417,0.0,0.0201,0.37,low,0.47
-368,Mexico,Belgium,group_or_knockout,3.745,3.512,3.973,3.504,3.984,0.1378,0.0,0.019,0.355,low,0.461
-369,Portugal,England,group_or_knockout,3.219,2.952,3.483,2.976,3.44,0.1661,0.0,0.0276,0.475,medium,0.531
-370,Paraguay,Iraq,group_or_knockout,3.792,3.609,3.984,3.554,4.026,0.1151,0.0,0.0132,0.27,low,0.375
-371,Scotland,Denmark,group_or_knockout,3.475,3.275,3.686,3.256,3.699,0.1292,0.0,0.0167,0.321,low,0.411
-372,Uruguay,Germany,group_or_knockout,3.472,3.267,3.677,3.263,3.713,0.128,0.0,0.0164,0.317,low,0.41
-373,France,Russia,group_or_knockout,3.541,3.338,3.745,3.294,3.777,0.1221,0.0,0.0149,0.295,low,0.407
-374,Italy,Argentina,group_or_knockout,3.526,3.304,3.757,3.287,3.763,0.1408,0.0,0.0198,0.366,low,0.453
-375,South Korea,Bulgaria,group_or_knockout,3.199,2.975,3.416,2.951,3.429,0.1275,0.0,0.0162,0.314,low,0.441
-376,Brazil,Algeria,group_or_knockout,4.027,3.821,4.225,3.779,4.244,0.1211,0.0,0.0147,0.292,low,0.404
-377,England,Morocco,group_or_knockout,3.459,3.227,3.676,3.235,3.681,0.1378,0.0,0.019,0.355,low,0.449
-378,Hungary,Canada,group_or_knockout,3.832,3.635,4.026,3.598,4.068,0.122,0.0,0.0149,0.295,low,0.391
-379,Mexico,Paraguay,group_or_knockout,3.832,3.604,4.054,3.591,4.071,0.1402,0.0,0.0197,0.365,low,0.45
-380,Northern Ireland,Spain,group_or_knockout,3.073,2.858,3.279,2.844,3.281,0.1316,0.0,0.0173,0.33,low,0.421
-381,Poland,Portugal,group_or_knockout,3.564,3.31,3.806,3.326,3.795,0.1497,0.0,0.0224,0.403,medium,0.496
-382,Denmark,Uruguay,group_or_knockout,3.618,3.362,3.859,3.382,3.849,0.1481,0.0,0.0219,0.396,medium,0.497
-383,Germany,Scotland,group_or_knockout,4.099,3.899,4.302,3.873,4.31,0.1245,0.0,0.0155,0.304,low,0.403
-384,Iraq,Belgium,group_or_knockout,3.173,2.935,3.402,2.945,3.405,0.1423,0.0,0.0203,0.373,low,0.467
-385,Hungary,France,group_or_knockout,3.74,3.498,3.958,3.507,3.934,0.1404,0.0,0.0197,0.365,low,0.46
-386,Russia,Canada,group_or_knockout,4.127,3.929,4.307,3.902,4.362,0.1123,0.0,0.0126,0.26,low,0.378
-387,Argentina,Bulgaria,group_or_knockout,4.071,3.866,4.273,3.847,4.303,0.1204,0.0,0.0145,0.289,low,0.407
-388,South Korea,Italy,group_or_knockout,3.16,2.957,3.36,2.912,3.376,0.1217,0.0,0.0148,0.293,low,0.403
-389,England,Poland,group_or_knockout,3.572,3.344,3.813,3.358,3.81,0.14,0.0,0.0196,0.363,low,0.469
-390,Mexico,Iraq,group_or_knockout,3.811,3.578,4.049,3.576,4.043,0.1407,0.0,0.0198,0.366,low,0.471
-391,Paraguay,Belgium,group_or_knockout,3.869,3.628,4.086,3.629,4.134,0.1395,0.0,0.0195,0.362,low,0.458
-392,Portugal,Morocco,group_or_knockout,3.382,3.158,3.617,3.143,3.607,0.1389,0.0,0.0193,0.359,low,0.459
-393,Algeria,Spain,group_or_knockout,3.481,3.265,3.693,3.259,3.703,0.1272,0.0,0.0162,0.314,low,0.428
-394,Northern Ireland,Brazil,group_or_knockout,2.997,2.784,3.22,2.771,3.239,0.1352,0.0,0.0183,0.345,low,0.436
-395,Denmark,Germany,group_or_knockout,3.462,3.265,3.663,3.227,3.681,0.1225,0.0,0.015,0.296,low,0.398
-396,Scotland,Uruguay,group_or_knockout,3.462,3.278,3.659,3.232,3.697,0.1158,0.0,0.0134,0.272,low,0.381
-397,Mexico,Bulgaria,group_or_knockout,3.812,3.629,4.012,3.572,4.028,0.1154,0.0,0.0133,0.271,low,0.383
-398,Russia,Belgium,group_or_knockout,4.221,4.02,4.428,3.977,4.448,0.1269,0.0,0.0161,0.313,low,0.408
-399,Argentina,Uruguay,group_or_knockout,3.915,3.695,4.132,3.68,4.132,0.1287,0.0,0.0166,0.32,low,0.437
-400,Brazil,Poland,group_or_knockout,4.104,3.871,4.329,3.864,4.341,0.1388,0.0,0.0193,0.359,low,0.458
-401,Italy,France,group_or_knockout,3.496,3.279,3.71,3.258,3.723,0.1319,0.0,0.0174,0.332,low,0.431
-402,Morocco,Germany,group_or_knockout,2.983,2.758,3.21,2.738,3.212,0.1363,0.0,0.0186,0.349,low,0.452
-403,Denmark,Spain,group_or_knockout,3.562,3.348,3.777,3.323,3.79,0.1288,0.0,0.0166,0.32,low,0.429
-404,England,Paraguay,group_or_knockout,3.592,3.354,3.816,3.365,3.824,0.1396,0.0,0.0195,0.362,low,0.462
-405,Brazil,France,group_or_knockout,4.055,3.843,4.269,3.834,4.299,0.1299,0.0,0.0169,0.324,low,0.426
-406,Mexico,Germany,group_or_knockout,3.683,3.459,3.92,3.437,3.909,0.1392,0.0,0.0194,0.36,low,0.461
-407,Argentina,England,group_or_knockout,3.965,3.729,4.195,3.739,4.199,0.1386,0.0,0.0192,0.358,low,0.466
-408,Spain,Belgium,group_or_knockout,3.748,3.549,3.969,3.525,4.0,0.1301,0.0,0.0169,0.325,low,0.42
-409,Argentina,Belgium,group_or_knockout,3.978,3.747,4.199,3.737,4.198,0.1375,0.0,0.0189,0.353,low,0.452
-410,France,Germany,group_or_knockout,3.548,3.313,3.766,3.333,3.778,0.1385,0.0,0.0192,0.358,low,0.453
-411,France,Belgium,group_or_knockout,3.583,3.373,3.791,3.354,3.812,0.1246,0.0,0.0155,0.304,low,0.418
-412,Argentina,Germany,group_or_knockout,3.956,3.743,4.193,3.719,4.175,0.135,0.0,0.0182,0.343,low,0.45
-413,Argentina,Cameroon,group_or_knockout,4.009,3.785,4.222,3.772,4.23,0.1347,0.0,0.0182,0.343,low,0.437
-414,Italy,Austria,group_or_knockout,3.476,3.252,3.701,3.226,3.675,0.1369,0.0,0.0187,0.351,low,0.449
-415,Russia,Romania,group_or_knockout,4.016,3.839,4.186,3.788,4.25,0.1087,0.0,0.0118,0.248,low,0.347
-416,United Arab Emirates,Colombia,group_or_knockout,3.267,3.026,3.498,3.032,3.484,0.1411,0.0,0.0199,0.368,low,0.472
-417,Brazil,Sweden,group_or_knockout,4.016,3.786,4.242,3.79,4.248,0.1396,0.0,0.0195,0.362,low,0.456
-418,Germany,Yugoslavia,group_or_knockout,4.159,3.926,4.388,3.942,4.391,0.1377,0.0,0.019,0.355,low,0.462
-419,United States,Czechoslovakia,group_or_knockout,3.072,2.873,3.276,2.838,3.325,0.119,0.0,0.0142,0.284,low,0.403
-420,Costa Rica,Scotland,group_or_knockout,3.442,3.249,3.641,3.214,3.662,0.12,0.0,0.0144,0.287,low,0.392
-421,England,Republic of Ireland,group_or_knockout,3.516,3.255,3.761,3.272,3.749,0.16,0.0,0.0256,0.447,medium,0.506
-422,Belgium,South Korea,group_or_knockout,3.797,3.601,3.999,3.558,4.02,0.1241,0.0,0.0154,0.302,low,0.398
-423,Netherlands,Egypt,group_or_knockout,3.737,3.489,3.976,3.499,3.969,0.1471,0.0,0.0216,0.392,medium,0.487
-424,Argentina,Russia,group_or_knockout,3.935,3.725,4.155,3.693,4.137,0.1335,0.0,0.0178,0.338,low,0.43
-425,Uruguay,Spain,group_or_knockout,3.462,3.243,3.657,3.233,3.69,0.1303,0.0,0.017,0.326,low,0.414
-426,Cameroon,Romania,group_or_knockout,3.266,3.034,3.493,3.043,3.509,0.1405,0.0,0.0197,0.365,low,0.459
-427,Italy,United States,group_or_knockout,3.507,3.293,3.718,3.268,3.749,0.1293,0.0,0.0167,0.322,low,0.425
-428,Yugoslavia,Colombia,group_or_knockout,3.382,3.192,3.586,3.143,3.606,0.1239,0.0,0.0154,0.302,low,0.394
-429,Austria,Czechoslovakia,group_or_knockout,3.381,3.17,3.583,3.17,3.622,0.1264,0.0,0.016,0.311,low,0.413
-430,Germany,United Arab Emirates,group_or_knockout,4.19,3.976,4.404,3.96,4.427,0.1282,0.0,0.0164,0.317,low,0.428
-431,Brazil,Costa Rica,group_or_knockout,4.038,3.79,4.289,3.809,4.271,0.1507,0.0,0.0227,0.407,medium,0.499
-432,England,Netherlands,group_or_knockout,3.467,3.203,3.727,3.237,3.688,0.1565,0.0,0.0245,0.432,medium,0.524
-433,Sweden,Scotland,group_or_knockout,3.724,3.489,3.96,3.514,3.966,0.1391,0.0,0.0194,0.36,low,0.471
-434,Belgium,Uruguay,group_or_knockout,3.836,3.648,4.019,3.581,4.062,0.1142,0.0,0.013,0.267,low,0.371
-435,Republic of Ireland,Egypt,group_or_knockout,3.108,2.907,3.31,2.859,3.342,0.1235,0.0,0.0152,0.3,low,0.403
-436,South Korea,Spain,group_or_knockout,3.094,2.851,3.314,2.869,3.326,0.1433,0.0,0.0205,0.376,low,0.463
-437,Argentina,Romania,group_or_knockout,3.984,3.75,4.215,3.755,4.216,0.1443,0.0,0.0208,0.381,medium,0.465
-438,Cameroon,Russia,group_or_knockout,3.308,3.076,3.536,3.077,3.527,0.139,0.0,0.0193,0.359,low,0.46
-439,Austria,United States,group_or_knockout,3.476,3.267,3.693,3.243,3.705,0.1264,0.0,0.016,0.311,low,0.426
-440,Germany,Colombia,group_or_knockout,4.011,3.819,4.213,3.779,4.258,0.1203,0.0,0.0145,0.289,low,0.394
-441,Italy,Czechoslovakia,group_or_knockout,3.504,3.286,3.714,3.277,3.74,0.13,0.0,0.0169,0.324,low,0.428
-442,Yugoslavia,United Arab Emirates,group_or_knockout,3.416,3.187,3.642,3.194,3.647,0.1401,0.0,0.0196,0.363,low,0.455
-443,Brazil,Scotland,group_or_knockout,4.042,3.854,4.234,3.793,4.254,0.117,0.0,0.0137,0.277,low,0.38
-444,Sweden,Costa Rica,group_or_knockout,3.82,3.619,4.022,3.599,4.046,0.1249,0.0,0.0156,0.305,low,0.403
-445,Belgium,Spain,group_or_knockout,3.769,3.549,3.975,3.538,3.976,0.1342,0.0,0.018,0.34,low,0.426
-446,England,Egypt,group_or_knockout,3.549,3.312,3.782,3.327,3.765,0.1421,0.0,0.0202,0.372,low,0.47
-447,Republic of Ireland,Netherlands,group_or_knockout,3.139,2.923,3.355,2.905,3.369,0.1272,0.0,0.0162,0.314,low,0.432
-448,South Korea,Uruguay,group_or_knockout,3.083,2.859,3.312,2.847,3.331,0.1389,0.0,0.0193,0.359,low,0.453
-449,Cameroon,Colombia,group_or_knockout,3.241,3.008,3.474,3.036,3.483,0.1471,0.0,0.0216,0.392,medium,0.466
-450,Czechoslovakia,Costa Rica,group_or_knockout,3.476,3.247,3.69,3.233,3.7,0.1326,0.0,0.0176,0.335,low,0.443
-451,Brazil,Argentina,group_or_knockout,4.065,3.85,4.271,3.831,4.292,0.1298,0.0,0.0168,0.323,low,0.421
-452,Germany,Netherlands,group_or_knockout,3.985,3.774,4.21,3.751,4.197,0.1347,0.0,0.0181,0.342,low,0.436
-453,Republic of Ireland,Romania,group_or_knockout,3.133,2.903,3.355,2.888,3.369,0.1373,0.0,0.0189,0.353,low,0.452
-454,Italy,Uruguay,group_or_knockout,3.563,3.323,3.795,3.334,3.778,0.1443,0.0,0.0208,0.381,medium,0.472
-455,England,Belgium,group_or_knockout,3.432,3.214,3.643,3.197,3.649,0.1274,0.0,0.0162,0.314,low,0.429
-456,Spain,Yugoslavia,group_or_knockout,3.834,3.643,4.044,3.597,4.03,0.1222,0.0,0.0149,0.295,low,0.401
-457,Italy,Republic of Ireland,group_or_knockout,3.481,3.273,3.699,3.236,3.705,0.1338,0.0,0.0179,0.339,low,0.426
-458,Yugoslavia,Argentina,group_or_knockout,3.231,3.043,3.418,2.989,3.461,0.1124,0.0,0.0126,0.26,low,0.375
-459,Cameroon,England,group_or_knockout,3.256,3.049,3.468,3.045,3.492,0.1273,0.0,0.0162,0.314,low,0.419
-460,Germany,Czechoslovakia,group_or_knockout,4.036,3.79,4.261,3.8,4.283,0.141,0.0,0.0199,0.368,low,0.471
-461,Italy,Argentina,group_or_knockout,3.486,3.232,3.712,3.229,3.711,0.1415,0.0,0.02,0.369,low,0.48
-462,Germany,England,group_or_knockout,3.96,3.75,4.16,3.734,4.197,0.1242,0.0,0.0154,0.302,low,0.41
-463,Italy,England,group_or_knockout,3.586,3.348,3.813,3.356,3.799,0.1383,0.0,0.0191,0.356,low,0.465
-464,Germany,Argentina,group_or_knockout,4.029,3.791,4.275,3.8,4.26,0.1451,0.0,0.0211,0.384,medium,0.484
-465,Germany,Bolivia,group_or_knockout,4.1,3.895,4.303,3.874,4.33,0.1217,0.0,0.0148,0.293,low,0.408
-466,Spain,South Korea,group_or_knockout,3.897,3.691,4.109,3.667,4.144,0.13,0.0,0.0169,0.324,low,0.418
-467,Colombia,Romania,group_or_knockout,3.38,3.181,3.573,3.161,3.602,0.1202,0.0,0.0145,0.289,low,0.392
-468,Italy,Republic of Ireland,group_or_knockout,3.525,3.311,3.734,3.307,3.757,0.1295,0.0,0.0168,0.323,low,0.423
-469,United States,Switzerland,group_or_knockout,3.165,2.958,3.374,2.928,3.402,0.1276,0.0,0.0163,0.316,low,0.416
-470,Belgium,Morocco,group_or_knockout,3.751,3.539,3.963,3.497,3.958,0.1299,0.0,0.0169,0.324,low,0.424
-471,Cameroon,Sweden,group_or_knockout,3.283,3.058,3.51,3.057,3.502,0.1399,0.0,0.0196,0.363,low,0.452
-472,Norway,Mexico,group_or_knockout,3.077,2.865,3.279,2.848,3.311,0.1287,0.0,0.0166,0.32,low,0.414
-473,Brazil,Russia,group_or_knockout,4.015,3.795,4.226,3.79,4.255,0.1296,0.0,0.0168,0.323,low,0.431
-474,Netherlands,Saudi Arabia,group_or_knockout,3.706,3.469,3.935,3.463,3.929,0.1455,0.0,0.0212,0.386,medium,0.466
-475,Argentina,Greece,group_or_knockout,4.167,3.949,4.394,3.926,4.388,0.1387,0.0,0.0192,0.358,low,0.445
-476,Germany,Spain,group_or_knockout,4.004,3.777,4.227,3.781,4.229,0.1372,0.0,0.0188,0.352,low,0.45
-477,Nigeria,Bulgaria,group_or_knockout,3.441,3.226,3.645,3.203,3.659,0.1306,0.0,0.0171,0.327,low,0.419
-478,Romania,Switzerland,group_or_knockout,3.392,3.192,3.58,3.144,3.615,0.1189,0.0,0.0141,0.283,low,0.388
-479,United States,Colombia,group_or_knockout,3.157,2.94,3.377,2.92,3.39,0.133,0.0,0.0177,0.336,low,0.437
-480,Italy,Norway,group_or_knockout,3.455,3.218,3.67,3.222,3.69,0.1352,0.0,0.0183,0.345,low,0.452
-481,South Korea,Bolivia,group_or_knockout,3.142,2.968,3.312,2.911,3.372,0.107,0.0,0.0115,0.243,low,0.344
-482,Brazil,Cameroon,group_or_knockout,4.115,3.913,4.327,3.884,4.338,0.1221,0.0,0.0149,0.295,low,0.414
-483,Mexico,Republic of Ireland,group_or_knockout,3.843,3.611,4.099,3.615,4.078,0.1468,0.0,0.0215,0.39,medium,0.488
-484,Sweden,Russia,group_or_knockout,3.76,3.516,4.001,3.522,3.991,0.1467,0.0,0.0215,0.39,medium,0.485
-485,Argentina,Nigeria,group_or_knockout,4.02,3.82,4.208,3.798,4.248,0.1163,0.0,0.0135,0.274,low,0.388
-486,Belgium,Netherlands,group_or_knockout,3.666,3.489,3.852,3.45,3.896,0.113,0.0,0.0128,0.263,low,0.363
-487,Saudi Arabia,Morocco,group_or_knockout,3.538,3.33,3.753,3.288,3.767,0.131,0.0,0.0172,0.329,low,0.423
-488,Bulgaria,Greece,group_or_knockout,3.089,2.821,3.376,2.854,3.316,0.1641,0.0,0.0269,0.465,medium,0.555
-489,Switzerland,Colombia,group_or_knockout,3.76,3.586,3.937,3.513,3.969,0.1101,0.0,0.0121,0.253,low,0.351
-490,United States,Romania,group_or_knockout,3.313,3.112,3.498,3.068,3.546,0.1223,0.0,0.015,0.296,low,0.386
-491,Bolivia,Spain,group_or_knockout,2.748,2.513,3.004,2.52,2.985,0.1473,0.0,0.0217,0.393,medium,0.491
-492,Germany,South Korea,group_or_knockout,4.163,3.991,4.35,3.922,4.384,0.109,0.0,0.0119,0.249,low,0.359
-493,Brazil,Sweden,group_or_knockout,3.99,3.744,4.223,3.748,4.222,0.1466,0.0,0.0215,0.39,medium,0.479
-494,Republic of Ireland,Norway,group_or_knockout,3.113,2.916,3.313,2.879,3.353,0.1224,0.0,0.015,0.296,low,0.397
-495,Italy,Mexico,group_or_knockout,3.512,3.252,3.759,3.282,3.749,0.1504,0.0,0.0226,0.406,medium,0.507
-496,Russia,Cameroon,group_or_knockout,4.129,3.941,4.33,3.914,4.343,0.1183,0.0,0.014,0.281,low,0.389
-497,Belgium,Saudi Arabia,group_or_knockout,3.802,3.59,4.015,3.562,4.028,0.1301,0.0,0.0169,0.325,low,0.425
-498,Morocco,Netherlands,group_or_knockout,3.1,2.848,3.341,2.846,3.302,0.145,0.0,0.021,0.383,medium,0.493
-499,Argentina,Bulgaria,group_or_knockout,4.076,3.834,4.32,3.831,4.305,0.1463,0.0,0.0214,0.389,medium,0.486
-500,Greece,Nigeria,group_or_knockout,3.253,3.036,3.47,3.017,3.478,0.1316,0.0,0.0173,0.33,low,0.434
-501,Germany,Belgium,group_or_knockout,4.251,4.021,4.48,4.022,4.464,0.1421,0.0,0.0202,0.372,low,0.459
-502,Spain,Switzerland,group_or_knockout,3.755,3.531,3.965,3.514,3.983,0.1279,0.0,0.0164,0.317,low,0.434
-503,Romania,Argentina,group_or_knockout,3.35,3.13,3.575,3.111,3.571,0.1318,0.0,0.0174,0.332,low,0.445
-504,Saudi Arabia,Sweden,group_or_knockout,3.559,3.327,3.789,3.327,3.791,0.1414,0.0,0.02,0.369,low,0.462
-505,Netherlands,Republic of Ireland,group_or_knockout,3.757,3.525,3.968,3.518,3.992,0.1334,0.0,0.0178,0.337,low,0.443
-506,United States,Brazil,group_or_knockout,2.984,2.764,3.211,2.75,3.243,0.1335,0.0,0.0178,0.338,low,0.447
-507,Mexico,Bulgaria,group_or_knockout,3.783,3.578,3.977,3.556,4.015,0.1246,0.0,0.0155,0.304,low,0.399
-508,Nigeria,Italy,group_or_knockout,3.314,3.088,3.538,3.078,3.545,0.141,0.0,0.0199,0.368,low,0.45
-509,Italy,Spain,group_or_knockout,3.51,3.307,3.723,3.28,3.753,0.1287,0.0,0.0166,0.32,low,0.416
-510,Netherlands,Brazil,group_or_knockout,3.706,3.456,3.93,3.478,3.934,0.1427,0.0,0.0204,0.375,low,0.474
-511,Bulgaria,Germany,group_or_knockout,2.927,2.68,3.148,2.697,3.165,0.143,0.0,0.0205,0.376,low,0.468
-512,Romania,Sweden,group_or_knockout,3.296,3.099,3.489,3.069,3.531,0.1231,0.0,0.0152,0.299,low,0.39
-513,Bulgaria,Italy,group_or_knockout,3.018,2.749,3.291,2.793,3.268,0.1673,0.0,0.028,0.48,medium,0.542
-514,Sweden,Brazil,group_or_knockout,3.599,3.355,3.84,3.377,3.84,0.1434,0.0,0.0206,0.377,low,0.485
-515,Sweden,Bulgaria,group_or_knockout,3.771,3.567,3.973,3.524,4.002,0.1218,0.0,0.0148,0.294,low,0.406
-516,Brazil,Italy,group_or_knockout,3.991,3.754,4.235,3.764,4.218,0.1477,0.0,0.0218,0.395,medium,0.481
-517,Brazil,Scotland,group_or_knockout,4.109,3.903,4.31,3.882,4.343,0.1278,0.0,0.0163,0.316,low,0.407
-518,Morocco,Norway,group_or_knockout,3.107,2.881,3.323,2.876,3.358,0.1315,0.0,0.0173,0.33,low,0.442
-519,Cameroon,Austria,group_or_knockout,3.269,3.043,3.481,3.038,3.503,0.1289,0.0,0.0166,0.32,low,0.438
-520,Italy,Chile,group_or_knockout,3.632,3.398,3.863,3.396,3.856,0.1387,0.0,0.0192,0.358,low,0.465
-521,France,South Africa,group_or_knockout,3.743,3.508,3.985,3.501,3.954,0.1448,0.0,0.021,0.383,medium,0.477
-522,Paraguay,Bulgaria,group_or_knockout,3.741,3.53,3.946,3.51,3.973,0.127,0.0,0.0161,0.313,low,0.416
-523,Saudi Arabia,Denmark,group_or_knockout,3.437,3.231,3.649,3.2,3.667,0.1259,0.0,0.0159,0.31,low,0.418
-524,South Korea,Mexico,group_or_knockout,3.159,2.954,3.355,2.916,3.393,0.1227,0.0,0.0151,0.298,low,0.401
-525,Netherlands,Belgium,group_or_knockout,3.594,3.372,3.822,3.34,3.839,0.1349,0.0,0.0182,0.343,low,0.45
-526,Spain,Nigeria,group_or_knockout,3.845,3.635,4.046,3.616,4.077,0.1265,0.0,0.016,0.311,low,0.411
-527,Argentina,Japan,group_or_knockout,4.065,3.864,4.277,3.834,4.302,0.1282,0.0,0.0164,0.317,low,0.413
-528,Jamaica,Croatia,group_or_knockout,3.532,3.32,3.736,3.312,3.762,0.1297,0.0,0.0168,0.323,low,0.416
-529,Serbia,Iran,group_or_knockout,3.17,2.951,3.389,2.941,3.4,0.1372,0.0,0.0188,0.352,low,0.438
-530,England,Tunisia,group_or_knockout,3.678,3.451,3.901,3.442,3.914,0.1341,0.0,0.018,0.34,low,0.45
-531,Germany,United States,group_or_knockout,4.086,3.879,4.3,3.848,4.3,0.1228,0.0,0.0151,0.298,low,0.421
-532,Romania,Colombia,group_or_knockout,3.182,2.971,3.371,2.953,3.417,0.1238,0.0,0.0153,0.301,low,0.4
-533,Brazil,Morocco,group_or_knockout,4.08,3.867,4.311,3.843,4.317,0.1295,0.0,0.0168,0.323,low,0.444
-534,Scotland,Norway,group_or_knockout,3.563,3.366,3.753,3.331,3.788,0.1183,0.0,0.014,0.281,low,0.387
-535,Chile,Austria,group_or_knockout,3.556,3.348,3.759,3.321,3.782,0.1265,0.0,0.016,0.311,low,0.411
-536,Italy,Cameroon,group_or_knockout,3.663,3.422,3.887,3.431,3.888,0.1413,0.0,0.02,0.369,low,0.465
-537,France,Saudi Arabia,group_or_knockout,3.763,3.552,3.968,3.528,3.997,0.126,0.0,0.0159,0.31,low,0.416
-538,South Africa,Denmark,group_or_knockout,3.004,2.808,3.213,2.783,3.245,0.1218,0.0,0.0148,0.294,low,0.405
-539,Nigeria,Bulgaria,group_or_knockout,3.339,3.107,3.566,3.121,3.585,0.1427,0.0,0.0204,0.375,low,0.459
-540,Spain,Paraguay,group_or_knockout,3.824,3.598,4.04,3.598,4.059,0.1382,0.0,0.0191,0.356,low,0.442
-541,Belgium,Mexico,group_or_knockout,3.779,3.573,3.993,3.542,3.986,0.1277,0.0,0.0163,0.316,low,0.42
-542,Japan,Croatia,group_or_knockout,3.647,3.42,3.886,3.411,3.873,0.1384,0.0,0.0192,0.357,low,0.466
-543,Netherlands,South Korea,group_or_knockout,3.753,3.517,3.985,3.537,3.987,0.141,0.0,0.0199,0.368,low,0.468
-544,Argentina,Jamaica,group_or_knockout,4.251,4.048,4.447,4.007,4.481,0.1243,0.0,0.0155,0.304,low,0.399
-545,Germany,Serbia,group_or_knockout,4.22,3.971,4.474,3.992,4.447,0.151,0.0,0.0228,0.409,medium,0.503
-546,United States,Iran,group_or_knockout,3.046,2.846,3.251,2.816,3.296,0.1224,0.0,0.015,0.296,low,0.405
-547,Colombia,Tunisia,group_or_knockout,3.311,3.117,3.513,3.073,3.558,0.1216,0.0,0.0148,0.293,low,0.396
-548,Romania,England,group_or_knockout,3.252,3.035,3.465,3.018,3.472,0.1321,0.0,0.0174,0.332,low,0.43
-549,Brazil,Norway,group_or_knockout,4.081,3.869,4.287,3.838,4.305,0.1245,0.0,0.0155,0.304,low,0.418
-550,Chile,Cameroon,group_or_knockout,3.637,3.412,3.873,3.393,3.882,0.1392,0.0,0.0194,0.36,low,0.461
-551,Italy,Austria,group_or_knockout,3.657,3.407,3.912,3.432,3.89,0.1545,0.0,0.0239,0.424,medium,0.505
-552,Scotland,Morocco,group_or_knockout,3.635,3.429,3.838,3.395,3.869,0.1288,0.0,0.0166,0.32,low,0.409
-553,France,Denmark,group_or_knockout,3.725,3.506,3.948,3.496,3.957,0.1367,0.0,0.0187,0.35,low,0.442
-554,Nigeria,Paraguay,group_or_knockout,3.406,3.179,3.632,3.176,3.636,0.1386,0.0,0.0192,0.358,low,0.453
-555,South Africa,Saudi Arabia,group_or_knockout,3.137,2.927,3.358,2.911,3.369,0.1326,0.0,0.0176,0.335,low,0.431
-556,Spain,Bulgaria,group_or_knockout,3.924,3.692,4.153,3.694,4.153,0.1401,0.0,0.0196,0.363,low,0.461
-557,Belgium,South Korea,group_or_knockout,3.817,3.582,4.04,3.585,4.042,0.142,0.0,0.0202,0.372,low,0.458
-558,Germany,Iran,group_or_knockout,4.14,3.895,4.366,3.919,4.371,0.1474,0.0,0.0217,0.393,medium,0.471
-559,Netherlands,Mexico,group_or_knockout,3.705,3.49,3.91,3.483,3.932,0.1288,0.0,0.0166,0.32,low,0.42
-560,United States,Serbia,group_or_knockout,3.116,2.915,3.318,2.902,3.352,0.1239,0.0,0.0153,0.301,low,0.403
-561,Argentina,Croatia,group_or_knockout,4.025,3.806,4.233,3.796,4.256,0.1322,0.0,0.0175,0.333,low,0.427
-562,Colombia,England,group_or_knockout,3.399,3.156,3.612,3.153,3.626,0.138,0.0,0.0191,0.356,low,0.456
-563,Japan,Jamaica,group_or_knockout,3.735,3.488,3.971,3.5,3.962,0.149,0.0,0.0222,0.4,medium,0.483
-564,Romania,Tunisia,group_or_knockout,3.212,3.003,3.43,2.95,3.443,0.1244,0.0,0.0155,0.304,low,0.427
-565,Brazil,Chile,group_or_knockout,4.094,3.854,4.351,3.864,4.331,0.1522,0.0,0.0232,0.414,medium,0.497
-566,Italy,Norway,group_or_knockout,3.537,3.326,3.737,3.314,3.759,0.1282,0.0,0.0164,0.317,low,0.411
-567,France,Paraguay,group_or_knockout,3.695,3.478,3.917,3.431,3.909,0.1318,0.0,0.0174,0.332,low,0.439
-568,Nigeria,Denmark,group_or_knockout,3.426,3.215,3.644,3.18,3.677,0.1361,0.0,0.0185,0.348,low,0.429
-569,Germany,Mexico,group_or_knockout,4.091,3.887,4.307,3.849,4.324,0.1336,0.0,0.0179,0.339,low,0.42
-570,Netherlands,Serbia,group_or_knockout,3.687,3.502,3.881,3.438,3.92,0.1139,0.0,0.013,0.266,low,0.379
-571,Argentina,England,group_or_knockout,4.057,3.825,4.275,3.831,4.271,0.1402,0.0,0.0197,0.365,low,0.45
-572,Romania,Croatia,group_or_knockout,3.175,2.943,3.412,2.946,3.409,0.1409,0.0,0.0199,0.367,low,0.469
-573,Brazil,Denmark,group_or_knockout,4.123,3.912,4.347,3.892,4.356,0.1349,0.0,0.0182,0.343,low,0.435
-574,France,Italy,group_or_knockout,3.635,3.417,3.858,3.402,3.864,0.1314,0.0,0.0173,0.33,low,0.441
-575,Germany,Croatia,group_or_knockout,4.103,3.88,4.317,3.855,4.333,0.1322,0.0,0.0175,0.333,low,0.437
-576,Netherlands,Argentina,group_or_knockout,3.751,3.515,3.968,3.506,3.958,0.1379,0.0,0.019,0.355,low,0.453
-577,Brazil,Netherlands,group_or_knockout,4.042,3.828,4.261,3.805,4.27,0.1264,0.0,0.016,0.311,low,0.433
-578,France,Croatia,group_or_knockout,3.71,3.48,3.941,3.481,3.946,0.1413,0.0,0.02,0.369,low,0.461
-579,Netherlands,Croatia,group_or_knockout,3.723,3.505,3.945,3.502,3.955,0.1359,0.0,0.0185,0.347,low,0.44
-580,France,Brazil,group_or_knockout,3.577,3.363,3.779,3.338,3.804,0.1243,0.0,0.0155,0.304,low,0.416
-581,France,Senegal,group_or_knockout,3.665,3.435,3.893,3.441,3.886,0.1415,0.0,0.02,0.369,low,0.458
-582,Germany,Saudi Arabia,group_or_knockout,4.247,4.063,4.442,4.026,4.489,0.1133,0.0,0.0128,0.263,low,0.379
-583,Republic of Ireland,Cameroon,group_or_knockout,3.249,3.044,3.453,3.008,3.498,0.1271,0.0,0.0161,0.313,low,0.409
-584,Uruguay,Denmark,group_or_knockout,3.599,3.366,3.829,3.377,3.832,0.1415,0.0,0.02,0.369,low,0.463
-585,Argentina,Nigeria,group_or_knockout,4.066,3.855,4.286,3.835,4.3,0.1345,0.0,0.0181,0.342,low,0.431
-586,England,Sweden,group_or_knockout,3.491,3.255,3.744,3.259,3.721,0.146,0.0,0.0213,0.388,medium,0.489
-587,Paraguay,South Africa,group_or_knockout,3.972,3.76,4.171,3.735,4.204,0.1226,0.0,0.015,0.297,low,0.411
-588,Spain,Slovenia,group_or_knockout,3.91,3.713,4.106,3.666,4.141,0.1187,0.0,0.0141,0.283,low,0.393
-589,Brazil,Turkey,group_or_knockout,4.141,3.947,4.34,3.914,4.363,0.121,0.0,0.0147,0.292,low,0.393
-590,Croatia,Mexico,group_or_knockout,3.788,3.556,4.013,3.576,4.025,0.1367,0.0,0.0187,0.35,low,0.457
-591,Italy,Ecuador,group_or_knockout,3.634,3.405,3.856,3.415,3.889,0.1408,0.0,0.0198,0.366,low,0.451
-592,China,Costa Rica,group_or_knockout,2.813,2.615,3.024,2.571,3.033,0.1222,0.0,0.0149,0.295,low,0.409
-593,Japan,Belgium,group_or_knockout,3.763,3.52,4.003,3.519,3.993,0.1458,0.0,0.0213,0.387,medium,0.483
-594,South Korea,Poland,group_or_knockout,3.197,2.957,3.444,2.989,3.424,0.1466,0.0,0.0215,0.39,medium,0.487
-595,Germany,Republic of Ireland,group_or_knockout,4.076,3.866,4.282,3.839,4.306,0.1276,0.0,0.0163,0.316,low,0.416
-596,Russia,Tunisia,group_or_knockout,4.102,3.922,4.298,3.881,4.331,0.1134,0.0,0.0129,0.265,low,0.376
-597,United States,Portugal,group_or_knockout,3.123,2.92,3.321,2.894,3.352,0.1262,0.0,0.0159,0.31,low,0.401
-598,Cameroon,Saudi Arabia,group_or_knockout,3.206,2.994,3.424,2.978,3.417,0.1329,0.0,0.0177,0.336,low,0.43
-599,Denmark,Senegal,group_or_knockout,3.579,3.357,3.806,3.364,3.806,0.1339,0.0,0.0179,0.339,low,0.449
-600,France,Uruguay,group_or_knockout,3.477,3.259,3.694,3.236,3.728,0.1305,0.0,0.017,0.326,low,0.435
-601,Argentina,England,group_or_knockout,4.026,3.79,4.252,3.784,4.272,0.1407,0.0,0.0198,0.366,low,0.462
-602,Spain,Paraguay,group_or_knockout,3.842,3.62,4.056,3.616,4.079,0.1283,0.0,0.0165,0.318,low,0.436
-603,Sweden,Nigeria,group_or_knockout,3.841,3.611,4.067,3.592,4.06,0.1406,0.0,0.0198,0.366,low,0.456
-604,Brazil,China,group_or_knockout,4.188,3.973,4.399,3.961,4.447,0.1321,0.0,0.0174,0.332,low,0.426
-605,Italy,Croatia,group_or_knockout,3.674,3.447,3.904,3.429,3.903,0.135,0.0,0.0182,0.343,low,0.457
-606,South Africa,Slovenia,group_or_knockout,3.129,2.894,3.352,2.888,3.352,0.1408,0.0,0.0198,0.366,low,0.458
-607,Costa Rica,Turkey,group_or_knockout,3.431,3.227,3.626,3.22,3.655,0.1226,0.0,0.015,0.297,low,0.399
-608,Japan,Russia,group_or_knockout,3.762,3.553,3.98,3.539,3.99,0.134,0.0,0.018,0.34,low,0.427
-609,Mexico,Ecuador,group_or_knockout,3.708,3.493,3.92,3.485,3.932,0.1342,0.0,0.018,0.34,low,0.427
-610,South Korea,United States,group_or_knockout,3.17,2.97,3.369,2.929,3.412,0.1214,0.0,0.0147,0.292,low,0.399
-611,Portugal,Poland,group_or_knockout,3.435,3.204,3.665,3.189,3.647,0.1441,0.0,0.0208,0.38,medium,0.461
-612,Tunisia,Belgium,group_or_knockout,3.492,3.26,3.741,3.269,3.741,0.1457,0.0,0.0212,0.386,medium,0.481
-613,Cameroon,Germany,group_or_knockout,3.193,2.975,3.393,2.955,3.415,0.1294,0.0,0.0167,0.322,low,0.418
-614,Denmark,France,group_or_knockout,3.499,3.265,3.735,3.268,3.729,0.1409,0.0,0.0199,0.367,low,0.47
-615,Saudi Arabia,Republic of Ireland,group_or_knockout,3.531,3.297,3.761,3.307,3.765,0.1443,0.0,0.0208,0.381,medium,0.464
-616,Senegal,Uruguay,group_or_knockout,3.476,3.27,3.68,3.221,3.697,0.1245,0.0,0.0155,0.304,low,0.41
-617,Nigeria,England,group_or_knockout,3.355,3.136,3.582,3.117,3.575,0.1434,0.0,0.0206,0.377,low,0.446
-618,Slovenia,Paraguay,group_or_knockout,3.164,2.965,3.357,2.933,3.4,0.1211,0.0,0.0147,0.292,low,0.392
-619,South Africa,Spain,group_or_knockout,3.169,2.968,3.356,2.92,3.396,0.1182,0.0,0.014,0.281,low,0.388
-620,Sweden,Argentina,group_or_knockout,3.707,3.443,3.95,3.492,3.911,0.1557,0.0,0.0242,0.428,medium,0.507
-621,Costa Rica,Brazil,group_or_knockout,3.444,3.265,3.617,3.214,3.669,0.1099,0.0,0.0121,0.252,low,0.352
-622,Ecuador,Croatia,group_or_knockout,3.309,3.082,3.555,3.078,3.536,0.1412,0.0,0.0199,0.368,low,0.473
-623,Mexico,Italy,group_or_knockout,3.695,3.457,3.919,3.454,3.927,0.1401,0.0,0.0196,0.363,low,0.462
-624,Turkey,China,group_or_knockout,3.519,3.278,3.749,3.283,3.742,0.1415,0.0,0.02,0.369,low,0.471
-625,Belgium,Russia,group_or_knockout,3.906,3.686,4.13,3.659,4.135,0.136,0.0,0.0185,0.348,low,0.444
-626,Japan,Tunisia,group_or_knockout,3.972,3.771,4.17,3.74,4.194,0.1212,0.0,0.0147,0.292,low,0.399
-627,South Korea,Portugal,group_or_knockout,3.153,2.934,3.364,2.909,3.382,0.1321,0.0,0.0175,0.333,low,0.43
-628,Poland,United States,group_or_knockout,3.745,3.51,3.971,3.516,3.98,0.1421,0.0,0.0202,0.372,low,0.461
-629,Denmark,England,group_or_knockout,3.594,3.407,3.787,3.34,3.825,0.1147,0.0,0.0132,0.269,low,0.38
-630,Germany,Paraguay,group_or_knockout,4.081,3.855,4.296,3.862,4.311,0.1358,0.0,0.0184,0.346,low,0.441
-631,Spain,Republic of Ireland,group_or_knockout,3.876,3.659,4.081,3.642,4.105,0.1322,0.0,0.0175,0.333,low,0.422
-632,Sweden,Senegal,group_or_knockout,3.732,3.494,3.963,3.514,3.968,0.1428,0.0,0.0204,0.375,low,0.469
-633,Brazil,Belgium,group_or_knockout,4.188,3.991,4.411,3.944,4.392,0.1251,0.0,0.0156,0.306,low,0.42
-634,Mexico,United States,group_or_knockout,3.733,3.519,3.952,3.495,3.977,0.1344,0.0,0.0181,0.342,low,0.433
-635,Japan,Turkey,group_or_knockout,3.774,3.53,4.005,3.56,3.994,0.1451,0.0,0.021,0.383,medium,0.475
-636,South Korea,Italy,group_or_knockout,3.239,3.017,3.482,3.017,3.469,0.1408,0.0,0.0198,0.366,low,0.465
-637,England,Brazil,group_or_knockout,3.538,3.32,3.763,3.32,3.771,0.1346,0.0,0.0181,0.342,low,0.443
-638,Germany,United States,group_or_knockout,4.107,3.902,4.311,3.875,4.325,0.1228,0.0,0.0151,0.298,low,0.409
-639,South Korea,Spain,group_or_knockout,3.277,3.035,3.506,3.047,3.495,0.1428,0.0,0.0204,0.375,low,0.471
-640,Senegal,Turkey,group_or_knockout,3.366,3.121,3.612,3.12,3.598,0.1493,0.0,0.0223,0.401,medium,0.491
-641,South Korea,Germany,group_or_knockout,3.119,2.919,3.324,2.895,3.348,0.127,0.0,0.0161,0.313,low,0.405
-642,Brazil,Turkey,group_or_knockout,4.038,3.805,4.286,3.803,4.259,0.1463,0.0,0.0214,0.389,medium,0.481
-643,South Korea,Turkey,group_or_knockout,3.41,3.193,3.628,3.177,3.631,0.1315,0.0,0.0173,0.33,low,0.435
-644,Germany,Brazil,group_or_knockout,4.085,3.882,4.297,3.85,4.305,0.122,0.0,0.0149,0.295,low,0.415
-645,Germany,Costa Rica,group_or_knockout,4.242,4.031,4.439,4.005,4.454,0.125,0.0,0.0156,0.305,low,0.408
-646,Poland,Ecuador,group_or_knockout,3.718,3.514,3.929,3.476,3.96,0.125,0.0,0.0156,0.305,low,0.415
-647,Argentina,Ivory Coast,group_or_knockout,4.117,3.903,4.314,3.88,4.336,0.1245,0.0,0.0155,0.304,low,0.411
-648,England,Paraguay,group_or_knockout,3.524,3.312,3.743,3.304,3.767,0.1341,0.0,0.018,0.34,low,0.431
-649,Trinidad and Tobago,Sweden,group_or_knockout,2.702,2.497,2.898,2.472,2.919,0.1202,0.0,0.0145,0.289,low,0.401
-650,Angola,Portugal,group_or_knockout,2.85,2.68,3.032,2.604,3.064,0.108,0.0,0.0117,0.246,low,0.352
-651,Mexico,Iran,group_or_knockout,3.888,3.665,4.108,3.661,4.112,0.1327,0.0,0.0176,0.335,low,0.443
-652,Serbia,Netherlands,group_or_knockout,3.152,2.938,3.363,2.921,3.39,0.1317,0.0,0.0174,0.331,low,0.425
-653,Australia,Japan,group_or_knockout,3.639,3.402,3.883,3.408,3.845,0.1441,0.0,0.0208,0.38,medium,0.481
-654,Italy,Ghana,group_or_knockout,3.622,3.382,3.865,3.392,3.851,0.149,0.0,0.0222,0.4,medium,0.483
-655,United States,Czech Republic,group_or_knockout,3.154,2.946,3.356,2.916,3.375,0.1248,0.0,0.0156,0.305,low,0.41
-656,Brazil,Croatia,group_or_knockout,4.064,3.85,4.285,3.81,4.275,0.1323,0.0,0.0175,0.333,low,0.435
-657,France,Switzerland,group_or_knockout,3.665,3.441,3.877,3.423,3.901,0.1374,0.0,0.0189,0.353,low,0.436
-658,South Korea,Togo,group_or_knockout,3.226,3.028,3.426,3.006,3.445,0.1223,0.0,0.015,0.296,low,0.398
-659,Germany,Poland,group_or_knockout,4.145,3.922,4.365,3.899,4.392,0.1368,0.0,0.0187,0.351,low,0.443
-660,Spain,Ukraine,group_or_knockout,3.885,3.675,4.109,3.643,4.106,0.1351,0.0,0.0183,0.345,low,0.434
-661,Tunisia,Saudi Arabia,group_or_knockout,3.778,3.579,3.979,3.562,4.007,0.1239,0.0,0.0154,0.302,low,0.4
-662,Ecuador,Costa Rica,group_or_knockout,3.366,3.168,3.565,3.134,3.593,0.1239,0.0,0.0154,0.302,low,0.397
-663,England,Trinidad and Tobago,group_or_knockout,3.605,3.357,3.854,3.35,3.801,0.1519,0.0,0.0231,0.413,medium,0.497
-664,Sweden,Paraguay,group_or_knockout,3.702,3.436,3.976,3.475,3.955,0.1607,0.0,0.0258,0.45,medium,0.54
-665,Argentina,Serbia,group_or_knockout,4.194,3.976,4.414,3.977,4.43,0.1307,0.0,0.0171,0.327,low,0.438
-666,Mexico,Angola,group_or_knockout,3.753,3.51,3.987,3.509,3.988,0.1437,0.0,0.0207,0.379,low,0.477
-667,Netherlands,Ivory Coast,group_or_knockout,3.739,3.531,3.967,3.51,3.976,0.1299,0.0,0.0169,0.324,low,0.436
-668,Czech Republic,Ghana,group_or_knockout,3.304,3.09,3.52,3.058,3.538,0.1363,0.0,0.0186,0.349,low,0.43
-669,Italy,United States,group_or_knockout,3.593,3.367,3.822,3.371,3.817,0.1373,0.0,0.0189,0.353,low,0.455
-670,Portugal,Iran,group_or_knockout,3.383,3.15,3.624,3.142,3.605,0.1398,0.0,0.0195,0.362,low,0.474
-671,Brazil,Australia,group_or_knockout,4.097,3.906,4.311,3.864,4.331,0.1235,0.0,0.0153,0.301,low,0.405
-672,France,South Korea,group_or_knockout,3.695,3.468,3.927,3.462,3.926,0.1396,0.0,0.0195,0.362,low,0.459
-673,Japan,Croatia,group_or_knockout,3.643,3.404,3.874,3.412,3.862,0.14,0.0,0.0196,0.363,low,0.47
-674,Saudi Arabia,Ukraine,group_or_knockout,3.61,3.385,3.856,3.381,3.842,0.1442,0.0,0.0208,0.38,medium,0.471
-675,Spain,Tunisia,group_or_knockout,3.885,3.686,4.105,3.658,4.117,0.1312,0.0,0.0172,0.329,low,0.419
-676,Togo,Switzerland,group_or_knockout,3.082,2.892,3.265,2.843,3.334,0.1126,0.0,0.0127,0.262,low,0.373
-677,Costa Rica,Poland,group_or_knockout,3.516,3.292,3.754,3.286,3.723,0.1395,0.0,0.0195,0.362,low,0.462
-678,Germany,Ecuador,group_or_knockout,4.128,3.928,4.328,3.905,4.358,0.1231,0.0,0.0152,0.299,low,0.4
-679,Paraguay,Trinidad and Tobago,group_or_knockout,3.865,3.66,4.073,3.613,4.09,0.1286,0.0,0.0165,0.319,low,0.413
-680,Sweden,England,group_or_knockout,3.828,3.586,4.075,3.604,4.043,0.1474,0.0,0.0217,0.393,medium,0.489
-681,Iran,Angola,group_or_knockout,3.517,3.296,3.722,3.306,3.762,0.1294,0.0,0.0167,0.322,low,0.426
-682,Ivory Coast,Serbia,group_or_knockout,3.672,3.458,3.866,3.432,3.889,0.1258,0.0,0.0158,0.308,low,0.408
-683,Netherlands,Argentina,group_or_knockout,3.694,3.494,3.892,3.479,3.937,0.1187,0.0,0.0141,0.283,low,0.398
-684,Portugal,Mexico,group_or_knockout,3.386,3.146,3.597,3.147,3.604,0.139,0.0,0.0193,0.359,low,0.451
-685,Croatia,Australia,group_or_knockout,3.817,3.615,4.021,3.578,4.027,0.1238,0.0,0.0153,0.301,low,0.406
-686,Czech Republic,Italy,group_or_knockout,3.375,3.157,3.607,3.152,3.605,0.1358,0.0,0.0184,0.346,low,0.45
-687,Ghana,United States,group_or_knockout,3.048,2.844,3.241,2.799,3.282,0.123,0.0,0.0151,0.298,low,0.397
-688,Japan,Brazil,group_or_knockout,3.7,3.469,3.924,3.468,3.934,0.1407,0.0,0.0198,0.366,low,0.455
-689,Saudi Arabia,Spain,group_or_knockout,3.421,3.205,3.64,3.189,3.65,0.1315,0.0,0.0173,0.33,low,0.435
-690,Switzerland,South Korea,group_or_knockout,3.825,3.632,4.027,3.594,4.061,0.1183,0.0,0.014,0.281,low,0.395
-691,Togo,France,group_or_knockout,2.966,2.789,3.144,2.733,3.199,0.1079,0.0,0.0116,0.245,low,0.355
-692,Ukraine,Tunisia,group_or_knockout,3.138,2.919,3.378,2.908,3.365,0.1377,0.0,0.019,0.355,low,0.459
-693,Argentina,Mexico,group_or_knockout,4.11,3.889,4.316,3.865,4.335,0.1347,0.0,0.0181,0.342,low,0.427
-694,Germany,Sweden,group_or_knockout,4.169,3.956,4.386,3.937,4.407,0.129,0.0,0.0166,0.32,low,0.43
-695,England,Ecuador,group_or_knockout,3.584,3.346,3.818,3.365,3.824,0.1418,0.0,0.0201,0.371,low,0.472
-696,Portugal,Netherlands,group_or_knockout,3.276,3.057,3.499,3.037,3.512,0.1298,0.0,0.0168,0.323,low,0.442
-697,Italy,Australia,group_or_knockout,3.568,3.302,3.818,3.342,3.781,0.1552,0.0,0.0241,0.427,medium,0.516
-698,Switzerland,Ukraine,group_or_knockout,3.831,3.63,4.046,3.615,4.066,0.1251,0.0,0.0156,0.306,low,0.416
-699,Brazil,Ghana,group_or_knockout,4.11,3.915,4.318,3.874,4.356,0.1251,0.0,0.0156,0.306,low,0.403
-700,Spain,France,group_or_knockout,3.961,3.733,4.185,3.716,4.175,0.14,0.0,0.0196,0.363,low,0.452
-701,Germany,Argentina,group_or_knockout,4.151,3.936,4.36,3.924,4.373,0.129,0.0,0.0166,0.32,low,0.424
-702,Italy,Ukraine,group_or_knockout,3.634,3.405,3.865,3.396,3.873,0.1396,0.0,0.0195,0.362,low,0.46
-703,Brazil,France,group_or_knockout,4.125,3.912,4.352,3.884,4.352,0.1276,0.0,0.0163,0.316,low,0.44
-704,England,Portugal,group_or_knockout,3.443,3.242,3.629,3.217,3.678,0.1208,0.0,0.0146,0.29,low,0.387
-705,Germany,Italy,group_or_knockout,4.137,3.912,4.356,3.896,4.369,0.1342,0.0,0.018,0.34,low,0.444
-706,Portugal,France,group_or_knockout,3.326,3.086,3.564,3.095,3.558,0.1451,0.0,0.0211,0.384,medium,0.478
-707,Germany,Portugal,group_or_knockout,4.148,3.942,4.358,3.921,4.404,0.1275,0.0,0.0162,0.314,low,0.416
-708,Italy,France,group_or_knockout,3.555,3.316,3.796,3.306,3.804,0.1466,0.0,0.0215,0.39,medium,0.48
-709,South Africa,Mexico,group_or_knockout,3.078,2.884,3.272,2.853,3.312,0.1184,0.0,0.014,0.282,low,0.388
-710,Uruguay,France,group_or_knockout,3.575,3.381,3.769,3.327,3.804,0.1173,0.0,0.0138,0.278,low,0.388
-711,Argentina,Nigeria,group_or_knockout,4.115,3.916,4.314,3.9,4.361,0.1214,0.0,0.0147,0.292,low,0.398
-712,England,United States,group_or_knockout,3.598,3.368,3.825,3.381,3.827,0.1405,0.0,0.0197,0.365,low,0.457
-713,South Korea,Greece,group_or_knockout,3.124,2.921,3.322,2.886,3.361,0.1264,0.0,0.016,0.311,low,0.401
-714,Algeria,Slovenia,group_or_knockout,3.31,3.098,3.522,3.113,3.541,0.1312,0.0,0.0172,0.329,low,0.424
-715,Germany,Australia,group_or_knockout,4.252,4.055,4.457,4.021,4.493,0.1216,0.0,0.0148,0.293,low,0.402
-716,Serbia,Ghana,group_or_knockout,3.202,3.014,3.377,2.986,3.423,0.1095,0.0,0.012,0.251,low,0.363
-717,Italy,Paraguay,group_or_knockout,3.511,3.26,3.739,3.294,3.753,0.1448,0.0,0.021,0.383,medium,0.479
-718,Japan,Cameroon,group_or_knockout,3.825,3.596,4.065,3.584,4.059,0.1429,0.0,0.0204,0.375,low,0.469
-719,Netherlands,Denmark,group_or_knockout,3.788,3.572,3.998,3.549,4.011,0.1331,0.0,0.0177,0.336,low,0.426
-720,Brazil,North Korea,group_or_knockout,4.139,3.919,4.365,3.902,4.368,0.134,0.0,0.018,0.34,low,0.446
-721,Ivory Coast,Portugal,group_or_knockout,3.558,3.341,3.766,3.335,3.79,0.1289,0.0,0.0166,0.32,low,0.425
-722,New Zealand,Slovakia,group_or_knockout,2.862,2.656,3.082,2.626,3.093,0.1338,0.0,0.0179,0.339,low,0.426
-723,Honduras,Chile,group_or_knockout,2.964,2.733,3.173,2.744,3.206,0.1326,0.0,0.0176,0.335,low,0.44
-724,South Africa,Uruguay,group_or_knockout,3.158,2.96,3.356,2.901,3.38,0.1214,0.0,0.0147,0.292,low,0.396
-725,Spain,Switzerland,group_or_knockout,3.901,3.688,4.1,3.668,4.098,0.1253,0.0,0.0157,0.307,low,0.412
-726,Argentina,South Korea,group_or_knockout,4.284,4.071,4.494,4.052,4.501,0.1317,0.0,0.0173,0.33,low,0.423
-727,France,Mexico,group_or_knockout,3.668,3.476,3.87,3.429,3.909,0.1241,0.0,0.0154,0.302,low,0.394
-728,Greece,Nigeria,group_or_knockout,3.416,3.197,3.627,3.173,3.645,0.1303,0.0,0.017,0.326,low,0.43
-729,England,Algeria,group_or_knockout,3.567,3.343,3.772,3.33,3.798,0.1349,0.0,0.0182,0.343,low,0.429
-730,Germany,Serbia,group_or_knockout,4.051,3.854,4.254,3.824,4.289,0.1219,0.0,0.0149,0.295,low,0.4
-731,Slovenia,United States,group_or_knockout,3.222,2.98,3.468,2.981,3.447,0.1413,0.0,0.02,0.369,low,0.488
-732,Cameroon,Denmark,group_or_knockout,3.287,3.084,3.497,3.06,3.522,0.1302,0.0,0.0169,0.325,low,0.413
-733,Ghana,Australia,group_or_knockout,3.023,2.817,3.239,2.786,3.258,0.1272,0.0,0.0162,0.314,low,0.422
-734,Netherlands,Japan,group_or_knockout,3.725,3.499,3.952,3.5,3.963,0.1378,0.0,0.019,0.355,low,0.453
-735,Brazil,Ivory Coast,group_or_knockout,4.224,3.999,4.453,3.992,4.454,0.1371,0.0,0.0188,0.352,low,0.454
-736,Italy,New Zealand,group_or_knockout,3.652,3.438,3.868,3.408,3.88,0.129,0.0,0.0167,0.321,low,0.43
-737,Slovakia,Paraguay,group_or_knockout,3.099,2.913,3.293,2.884,3.316,0.1193,0.0,0.0142,0.285,low,0.38
-738,Chile,Switzerland,group_or_knockout,3.697,3.497,3.92,3.449,3.931,0.1311,0.0,0.0172,0.329,low,0.423
-739,Portugal,North Korea,group_or_knockout,3.546,3.337,3.764,3.336,3.785,0.1276,0.0,0.0163,0.316,low,0.427
-740,Spain,Honduras,group_or_knockout,3.953,3.725,4.173,3.732,4.186,0.137,0.0,0.0188,0.352,low,0.448
-741,Greece,Argentina,group_or_knockout,3.286,3.093,3.48,3.053,3.498,0.1174,0.0,0.0138,0.278,low,0.387
-742,Mexico,Uruguay,group_or_knockout,3.86,3.621,4.101,3.613,4.081,0.1494,0.0,0.0223,0.402,medium,0.48
-743,Nigeria,South Korea,group_or_knockout,3.48,3.263,3.69,3.241,3.705,0.1296,0.0,0.0168,0.323,low,0.427
-744,South Africa,France,group_or_knockout,3.128,2.896,3.361,2.883,3.35,0.1421,0.0,0.0202,0.372,low,0.465
-745,Australia,Serbia,group_or_knockout,3.642,3.431,3.862,3.423,3.877,0.1285,0.0,0.0165,0.319,low,0.431
-746,Ghana,Germany,group_or_knockout,2.969,2.732,3.199,2.741,3.203,0.1391,0.0,0.0194,0.36,low,0.467
-747,Slovenia,England,group_or_knockout,3.074,2.865,3.291,2.829,3.321,0.1331,0.0,0.0177,0.336,low,0.426
-748,United States,Algeria,group_or_knockout,3.062,2.844,3.288,2.831,3.285,0.136,0.0,0.0185,0.348,low,0.444
-749,Cameroon,Netherlands,group_or_knockout,3.264,3.03,3.506,3.024,3.496,0.1423,0.0,0.0202,0.372,low,0.476
-750,Denmark,Japan,group_or_knockout,3.72,3.523,3.908,3.471,3.945,0.1156,0.0,0.0134,0.272,low,0.385
-751,Paraguay,New Zealand,group_or_knockout,3.849,3.654,4.045,3.626,4.087,0.1178,0.0,0.0139,0.28,low,0.391
-752,Slovakia,Italy,group_or_knockout,3.274,3.08,3.467,3.044,3.494,0.1174,0.0,0.0138,0.278,low,0.387
-753,Chile,Spain,group_or_knockout,3.697,3.463,3.919,3.472,3.931,0.1374,0.0,0.0189,0.353,low,0.456
-754,North Korea,Ivory Coast,group_or_knockout,3.75,3.519,3.991,3.527,3.978,0.144,0.0,0.0207,0.379,low,0.472
-755,Portugal,Brazil,group_or_knockout,3.244,3.003,3.495,3.022,3.46,0.15,0.0,0.0225,0.404,medium,0.492
-756,Switzerland,Honduras,group_or_knockout,3.893,3.671,4.113,3.661,4.136,0.1313,0.0,0.0172,0.329,low,0.442
-757,Uruguay,South Korea,group_or_knockout,3.735,3.529,3.951,3.505,3.935,0.1295,0.0,0.0168,0.323,low,0.422
-758,United States,Ghana,group_or_knockout,3.24,3.0,3.473,3.011,3.455,0.149,0.0,0.0222,0.4,medium,0.473
-759,Argentina,Mexico,group_or_knockout,4.06,3.828,4.276,3.835,4.291,0.1325,0.0,0.0175,0.333,low,0.448
-760,Germany,England,group_or_knockout,4.165,3.918,4.419,3.949,4.369,0.1499,0.0,0.0225,0.404,medium,0.501
-761,Brazil,Chile,group_or_knockout,4.177,3.947,4.402,3.936,4.363,0.1435,0.0,0.0206,0.378,low,0.455
-762,Netherlands,Slovakia,group_or_knockout,3.901,3.703,4.098,3.673,4.129,0.1192,0.0,0.0142,0.284,low,0.395
-763,Paraguay,Japan,group_or_knockout,3.839,3.653,4.032,3.624,4.071,0.1159,0.0,0.0134,0.273,low,0.379
-764,Spain,Portugal,group_or_knockout,3.808,3.621,3.997,3.579,4.041,0.1176,0.0,0.0138,0.279,low,0.376
-765,Netherlands,Brazil,group_or_knockout,3.72,3.53,3.93,3.472,3.952,0.121,0.0,0.0146,0.291,low,0.4
-766,Uruguay,Ghana,group_or_knockout,3.676,3.468,3.881,3.431,3.908,0.1253,0.0,0.0157,0.307,low,0.413
-767,Argentina,Germany,group_or_knockout,4.029,3.803,4.262,3.796,4.238,0.1391,0.0,0.0193,0.359,low,0.459
-768,Paraguay,Spain,group_or_knockout,3.818,3.612,4.027,3.59,4.057,0.1269,0.0,0.0161,0.313,low,0.415
-769,Uruguay,Netherlands,group_or_knockout,3.73,3.517,3.945,3.509,3.955,0.1283,0.0,0.0165,0.318,low,0.428
-770,Germany,Spain,group_or_knockout,4.18,3.938,4.396,3.949,4.403,0.1387,0.0,0.0192,0.358,low,0.458
-771,Uruguay,Germany,group_or_knockout,3.733,3.54,3.927,3.503,3.939,0.1177,0.0,0.0139,0.28,low,0.387
-772,Netherlands,Spain,group_or_knockout,3.711,3.498,3.924,3.483,3.949,0.1311,0.0,0.0172,0.329,low,0.426
-773,Brazil,Croatia,group_or_knockout,4.248,4.022,4.48,4.023,4.478,0.1411,0.0,0.0199,0.368,low,0.458
-774,Chile,Australia,group_or_knockout,3.819,3.605,4.015,3.59,4.039,0.1211,0.0,0.0147,0.292,low,0.41
-775,Mexico,Cameroon,group_or_knockout,3.836,3.58,4.067,3.59,4.077,0.1489,0.0,0.0222,0.4,medium,0.487
-776,Spain,Netherlands,group_or_knockout,3.919,3.709,4.128,3.694,4.144,0.1273,0.0,0.0162,0.314,low,0.419
-777,Colombia,Greece,group_or_knockout,3.436,3.22,3.636,3.22,3.675,0.128,0.0,0.0164,0.317,low,0.416
-778,England,Italy,group_or_knockout,3.64,3.421,3.865,3.41,3.863,0.1384,0.0,0.0191,0.356,low,0.444
-779,Ivory Coast,Japan,group_or_knockout,3.605,3.38,3.817,3.383,3.831,0.1317,0.0,0.0173,0.33,low,0.437
-780,Uruguay,Costa Rica,group_or_knockout,3.685,3.496,3.871,3.443,3.921,0.115,0.0,0.0132,0.269,low,0.375
-781,Argentina,Bosnia and Herzegovina,group_or_knockout,4.168,3.914,4.396,3.941,4.408,0.1507,0.0,0.0227,0.407,medium,0.482
-782,France,Honduras,group_or_knockout,3.881,3.649,4.103,3.627,4.126,0.1347,0.0,0.0181,0.342,low,0.454
-783,Switzerland,Ecuador,group_or_knockout,3.916,3.706,4.112,3.672,4.153,0.1218,0.0,0.0148,0.294,low,0.406
-784,Germany,Portugal,group_or_knockout,4.162,3.965,4.365,3.93,4.385,0.1261,0.0,0.0159,0.31,low,0.4
-785,Ghana,United States,group_or_knockout,3.057,2.844,3.287,2.83,3.293,0.1321,0.0,0.0174,0.332,low,0.443
-786,Iran,Nigeria,group_or_knockout,3.557,3.352,3.768,3.323,3.789,0.1286,0.0,0.0165,0.319,low,0.416
-787,Belgium,Algeria,group_or_knockout,3.837,3.619,4.048,3.616,4.06,0.1281,0.0,0.0164,0.317,low,0.429
-788,Brazil,Mexico,group_or_knockout,4.123,3.921,4.321,3.897,4.372,0.1233,0.0,0.0152,0.299,low,0.4
-789,Russia,South Korea,group_or_knockout,4.334,4.126,4.541,4.084,4.56,0.1282,0.0,0.0164,0.317,low,0.415
-790,Australia,Netherlands,group_or_knockout,3.613,3.413,3.811,3.388,3.844,0.1223,0.0,0.0149,0.295,low,0.398
-791,Cameroon,Croatia,group_or_knockout,3.321,3.067,3.574,3.075,3.567,0.1522,0.0,0.0232,0.414,medium,0.507
-792,Spain,Chile,group_or_knockout,3.847,3.633,4.043,3.615,4.082,0.1238,0.0,0.0153,0.301,low,0.41
-793,Colombia,Ivory Coast,group_or_knockout,3.501,3.261,3.728,3.285,3.736,0.1429,0.0,0.0204,0.375,low,0.467
-794,Japan,Greece,group_or_knockout,3.81,3.554,4.059,3.566,4.029,0.156,0.0,0.0243,0.429,medium,0.505
-795,Uruguay,England,group_or_knockout,3.792,3.604,3.983,3.587,4.02,0.116,0.0,0.0135,0.274,low,0.379
-796,Honduras,Ecuador,group_or_knockout,3.009,2.769,3.252,2.781,3.242,0.1456,0.0,0.0212,0.386,medium,0.483
-797,Italy,Costa Rica,group_or_knockout,3.584,3.349,3.804,3.338,3.818,0.1385,0.0,0.0192,0.358,low,0.455
-798,Switzerland,France,group_or_knockout,4.027,3.823,4.227,3.809,4.272,0.1202,0.0,0.0145,0.289,low,0.404
-799,Argentina,Iran,group_or_knockout,4.098,3.903,4.3,3.861,4.341,0.1223,0.0,0.015,0.296,low,0.397
-800,Germany,Ghana,group_or_knockout,4.137,3.922,4.362,3.909,4.376,0.1342,0.0,0.018,0.34,low,0.44
-801,Nigeria,Bosnia and Herzegovina,group_or_knockout,3.359,3.128,3.581,3.145,3.589,0.1372,0.0,0.0188,0.352,low,0.453
-802,Belgium,Russia,group_or_knockout,3.748,3.562,3.949,3.505,3.994,0.1195,0.0,0.0143,0.286,low,0.387
-803,South Korea,Algeria,group_or_knockout,3.254,3.032,3.456,3.03,3.479,0.124,0.0,0.0154,0.302,low,0.424
-804,United States,Portugal,group_or_knockout,3.104,2.889,3.317,2.887,3.34,0.133,0.0,0.0177,0.336,low,0.428
-805,Australia,Spain,group_or_knockout,3.607,3.403,3.838,3.355,3.845,0.1336,0.0,0.0179,0.339,low,0.435
-806,Brazil,Cameroon,group_or_knockout,4.272,4.03,4.52,4.037,4.486,0.1482,0.0,0.022,0.397,medium,0.49
-807,Croatia,Mexico,group_or_knockout,3.695,3.48,3.912,3.465,3.909,0.1325,0.0,0.0176,0.334,low,0.432
-808,Netherlands,Chile,group_or_knockout,3.722,3.525,3.916,3.485,3.959,0.1177,0.0,0.0139,0.28,low,0.391
-809,Costa Rica,England,group_or_knockout,3.398,3.167,3.629,3.161,3.64,0.1386,0.0,0.0192,0.358,low,0.462
-810,Greece,Ivory Coast,group_or_knockout,3.374,3.151,3.587,3.131,3.609,0.1308,0.0,0.0171,0.327,low,0.436
-811,Italy,Uruguay,group_or_knockout,3.67,3.449,3.906,3.441,3.908,0.1408,0.0,0.0198,0.366,low,0.457
-812,Japan,Colombia,group_or_knockout,3.805,3.579,4.046,3.578,4.035,0.143,0.0,0.0204,0.375,low,0.467
-813,Bosnia and Herzegovina,Iran,group_or_knockout,3.321,3.104,3.547,3.096,3.568,0.1327,0.0,0.0176,0.335,low,0.443
-814,Ecuador,France,group_or_knockout,3.327,3.114,3.554,3.089,3.548,0.1322,0.0,0.0175,0.333,low,0.44
-815,Honduras,Switzerland,group_or_knockout,3.043,2.795,3.273,2.801,3.254,0.147,0.0,0.0216,0.392,medium,0.478
-816,Nigeria,Argentina,group_or_knockout,3.414,3.203,3.645,3.185,3.651,0.1338,0.0,0.0179,0.339,low,0.442
-817,Algeria,Russia,group_or_knockout,3.305,3.08,3.543,3.083,3.541,0.139,0.0,0.0193,0.359,low,0.463
-818,South Korea,Belgium,group_or_knockout,3.15,2.923,3.366,2.913,3.385,0.1332,0.0,0.0177,0.336,low,0.443
-819,Portugal,Ghana,group_or_knockout,3.447,3.183,3.691,3.226,3.689,0.1534,0.0,0.0235,0.418,medium,0.508
-820,United States,Germany,group_or_knockout,3.043,2.823,3.256,2.824,3.258,0.1323,0.0,0.0175,0.333,low,0.433
-821,Brazil,Chile,group_or_knockout,4.128,3.915,4.337,3.884,4.369,0.128,0.0,0.0164,0.317,low,0.422
-822,Colombia,Uruguay,group_or_knockout,3.49,3.241,3.733,3.256,3.712,0.1481,0.0,0.0219,0.396,medium,0.492
-823,Costa Rica,Greece,group_or_knockout,3.515,3.291,3.754,3.282,3.765,0.1415,0.0,0.02,0.369,low,0.463
-824,Netherlands,Mexico,group_or_knockout,3.775,3.574,4.002,3.533,4.008,0.1296,0.0,0.0168,0.323,low,0.428
-825,France,Nigeria,group_or_knockout,3.686,3.481,3.891,3.459,3.932,0.1283,0.0,0.0165,0.318,low,0.41
-826,Germany,Algeria,group_or_knockout,4.153,3.923,4.39,3.916,4.395,0.1395,0.0,0.0195,0.362,low,0.467
-827,Argentina,Switzerland,group_or_knockout,4.057,3.825,4.276,3.816,4.293,0.1381,0.0,0.0191,0.356,low,0.451
-828,Belgium,United States,group_or_knockout,3.87,3.675,4.072,3.638,4.088,0.118,0.0,0.0139,0.28,low,0.397
-829,Brazil,Colombia,group_or_knockout,4.224,4.001,4.43,3.99,4.454,0.1311,0.0,0.0172,0.329,low,0.429
-830,France,Germany,group_or_knockout,3.564,3.348,3.778,3.322,3.794,0.1301,0.0,0.0169,0.325,low,0.43
-831,Argentina,Belgium,group_or_knockout,3.995,3.772,4.222,3.765,4.245,0.1427,0.0,0.0204,0.375,low,0.45
-832,Netherlands,Costa Rica,group_or_knockout,3.72,3.529,3.912,3.472,3.959,0.1179,0.0,0.0139,0.28,low,0.383
-833,Brazil,Germany,group_or_knockout,4.322,4.122,4.528,4.066,4.555,0.1238,0.0,0.0153,0.301,low,0.406
-834,Netherlands,Argentina,group_or_knockout,3.627,3.431,3.817,3.401,3.864,0.1163,0.0,0.0135,0.274,low,0.386
-835,Brazil,Netherlands,group_or_knockout,4.36,4.14,4.564,4.14,4.597,0.1289,0.0,0.0166,0.32,low,0.424
-836,Germany,Argentina,group_or_knockout,4.151,3.936,4.368,3.921,4.382,0.1309,0.0,0.0171,0.327,low,0.432
-837,Russia,Saudi Arabia,group_or_knockout,4.359,4.162,4.556,4.134,4.588,0.1192,0.0,0.0142,0.284,low,0.394
-838,Egypt,Uruguay,group_or_knockout,3.321,3.11,3.532,3.078,3.557,0.1303,0.0,0.017,0.326,low,0.422
-839,Morocco,Iran,group_or_knockout,3.301,3.114,3.482,3.062,3.526,0.1151,0.0,0.0133,0.271,low,0.368
-840,Portugal,Spain,group_or_knockout,3.512,3.302,3.728,3.266,3.714,0.1325,0.0,0.0176,0.334,low,0.426
-841,France,Australia,group_or_knockout,3.68,3.461,3.908,3.436,3.924,0.1351,0.0,0.0182,0.344,low,0.447
-842,Argentina,Iceland,group_or_knockout,4.177,3.939,4.42,3.939,4.399,0.1454,0.0,0.0211,0.385,medium,0.481
-843,Peru,Denmark,group_or_knockout,3.439,3.214,3.665,3.209,3.67,0.1347,0.0,0.0181,0.342,low,0.451
-844,Croatia,Nigeria,group_or_knockout,3.832,3.63,4.031,3.593,4.048,0.1276,0.0,0.0163,0.316,low,0.401
-845,Costa Rica,Serbia,group_or_knockout,3.482,3.286,3.669,3.239,3.716,0.1156,0.0,0.0134,0.272,low,0.383
-846,Germany,Mexico,group_or_knockout,4.222,3.998,4.446,4.009,4.453,0.1323,0.0,0.0175,0.333,low,0.448
-847,Brazil,Switzerland,group_or_knockout,4.215,3.983,4.427,3.987,4.448,0.1342,0.0,0.018,0.34,low,0.444
-848,Sweden,South Korea,group_or_knockout,3.857,3.608,4.084,3.63,4.1,0.1478,0.0,0.0219,0.396,medium,0.476
-849,Belgium,Panama,group_or_knockout,3.905,3.709,4.091,3.681,4.143,0.122,0.0,0.0149,0.295,low,0.382
-850,Tunisia,England,group_or_knockout,3.621,3.421,3.835,3.391,3.871,0.124,0.0,0.0154,0.302,low,0.414
-851,Colombia,Japan,group_or_knockout,3.589,3.389,3.817,3.367,3.827,0.1288,0.0,0.0166,0.32,low,0.428
-852,Poland,Senegal,group_or_knockout,3.833,3.621,4.032,3.6,4.037,0.1258,0.0,0.0158,0.308,low,0.411
-853,Russia,Egypt,group_or_knockout,4.273,4.06,4.502,4.026,4.502,0.1344,0.0,0.0181,0.342,low,0.442
-854,Portugal,Morocco,group_or_knockout,3.438,3.216,3.653,3.203,3.675,0.132,0.0,0.0174,0.332,low,0.437
-855,Uruguay,Saudi Arabia,group_or_knockout,3.66,3.451,3.849,3.416,3.892,0.1176,0.0,0.0138,0.279,low,0.398
-856,Iran,Spain,group_or_knockout,3.41,3.219,3.609,3.191,3.629,0.1182,0.0,0.014,0.281,low,0.39
-857,Denmark,Australia,group_or_knockout,3.608,3.388,3.851,3.381,3.847,0.1355,0.0,0.0184,0.346,low,0.463
-858,France,Peru,group_or_knockout,3.616,3.393,3.836,3.39,3.843,0.1342,0.0,0.018,0.34,low,0.443
-859,Argentina,Croatia,group_or_knockout,4.115,3.893,4.329,3.886,4.335,0.134,0.0,0.018,0.34,low,0.436
-860,Brazil,Costa Rica,group_or_knockout,4.178,3.962,4.381,3.949,4.398,0.1292,0.0,0.0167,0.321,low,0.419
-861,Nigeria,Iceland,group_or_knockout,3.557,3.348,3.768,3.325,3.779,0.1322,0.0,0.0175,0.333,low,0.42
-862,Serbia,Switzerland,group_or_knockout,3.317,3.109,3.528,3.067,3.531,0.1303,0.0,0.017,0.326,low,0.419
-863,Belgium,Tunisia,group_or_knockout,4.066,3.827,4.308,3.833,4.302,0.1446,0.0,0.0209,0.382,medium,0.481
-864,South Korea,Mexico,group_or_knockout,3.212,2.977,3.457,2.974,3.437,0.1441,0.0,0.0208,0.38,medium,0.48
-865,Germany,Sweden,group_or_knockout,4.19,3.99,4.393,3.957,4.403,0.1226,0.0,0.015,0.297,low,0.403
-866,England,Panama,group_or_knockout,3.821,3.61,4.023,3.592,4.037,0.1296,0.0,0.0168,0.323,low,0.413
-867,Japan,Senegal,group_or_knockout,3.838,3.601,4.08,3.603,4.078,0.1443,0.0,0.0208,0.381,medium,0.479
-868,Poland,Colombia,group_or_knockout,3.77,3.535,4.009,3.556,4.026,0.1398,0.0,0.0196,0.363,low,0.474
-869,Russia,Uruguay,group_or_knockout,4.257,4.049,4.471,4.027,4.489,0.1277,0.0,0.0163,0.316,low,0.422
-870,Saudi Arabia,Egypt,group_or_knockout,3.648,3.446,3.856,3.398,3.896,0.1263,0.0,0.0159,0.31,low,0.41
-871,Spain,Morocco,group_or_knockout,4.0,3.785,4.204,3.76,4.227,0.1257,0.0,0.0158,0.308,low,0.419
-872,Iran,Portugal,group_or_knockout,3.44,3.238,3.63,3.213,3.67,0.1202,0.0,0.0144,0.288,low,0.392
-873,Australia,Peru,group_or_knockout,3.562,3.355,3.788,3.338,3.803,0.1292,0.0,0.0167,0.321,low,0.433
-874,Denmark,France,group_or_knockout,3.599,3.401,3.795,3.385,3.809,0.1197,0.0,0.0143,0.286,low,0.394
-875,Nigeria,Argentina,group_or_knockout,3.478,3.239,3.727,3.245,3.69,0.1462,0.0,0.0214,0.389,medium,0.488
-876,Iceland,Croatia,group_or_knockout,3.413,3.206,3.605,3.184,3.645,0.1257,0.0,0.0158,0.308,low,0.399
-877,South Korea,Germany,group_or_knockout,3.167,2.979,3.374,2.929,3.424,0.1193,0.0,0.0142,0.285,low,0.395
-878,Mexico,Sweden,group_or_knockout,3.813,3.595,4.03,3.563,4.039,0.1274,0.0,0.0162,0.314,low,0.435
-879,Serbia,Brazil,group_or_knockout,3.175,2.961,3.396,2.935,3.402,0.1353,0.0,0.0183,0.345,low,0.435
-880,Switzerland,Costa Rica,group_or_knockout,4.026,3.814,4.244,3.794,4.259,0.1286,0.0,0.0165,0.319,low,0.43
-881,Japan,Poland,group_or_knockout,3.764,3.526,3.988,3.514,3.992,0.1389,0.0,0.0193,0.359,low,0.462
-882,Senegal,Colombia,group_or_knockout,3.4,3.168,3.627,3.174,3.649,0.1423,0.0,0.0203,0.373,low,0.459
-883,Panama,Tunisia,group_or_knockout,2.912,2.707,3.123,2.67,3.113,0.1261,0.0,0.0159,0.31,low,0.416
-884,England,Belgium,group_or_knockout,3.548,3.302,3.777,3.336,3.768,0.1423,0.0,0.0203,0.373,low,0.475
-885,France,Argentina,group_or_knockout,3.728,3.539,3.93,3.478,3.958,0.1178,0.0,0.0139,0.28,low,0.391
-886,Uruguay,Portugal,group_or_knockout,3.75,3.561,3.939,3.527,3.987,0.1175,0.0,0.0138,0.278,low,0.378
-887,Russia,Spain,group_or_knockout,4.198,3.986,4.4,3.976,4.429,0.1238,0.0,0.0153,0.301,low,0.414
-888,Croatia,Denmark,group_or_knockout,3.786,3.562,4.011,3.553,4.01,0.1332,0.0,0.0177,0.336,low,0.449
-889,Brazil,Mexico,group_or_knockout,4.15,3.963,4.359,3.91,4.377,0.1183,0.0,0.014,0.281,low,0.396
-890,Belgium,Japan,group_or_knockout,3.974,3.746,4.194,3.738,4.187,0.1356,0.0,0.0184,0.346,low,0.448
-891,Sweden,Switzerland,group_or_knockout,3.687,3.453,3.922,3.438,3.915,0.1406,0.0,0.0198,0.366,low,0.469
-892,Colombia,England,group_or_knockout,3.368,3.155,3.601,3.125,3.6,0.1358,0.0,0.0184,0.346,low,0.446
-893,Uruguay,France,group_or_knockout,3.604,3.43,3.777,3.366,3.846,0.1047,0.0,0.011,0.235,low,0.347
-894,Brazil,Belgium,group_or_knockout,4.146,3.918,4.361,3.919,4.373,0.1361,0.0,0.0185,0.348,low,0.443
-895,Sweden,England,group_or_knockout,3.772,3.558,3.987,3.524,3.997,0.1327,0.0,0.0176,0.335,low,0.429
-896,Russia,Croatia,group_or_knockout,4.308,4.119,4.512,4.068,4.527,0.1192,0.0,0.0142,0.284,low,0.393
-897,France,Belgium,group_or_knockout,3.633,3.415,3.854,3.394,3.863,0.1294,0.0,0.0168,0.323,low,0.439
-898,Croatia,England,group_or_knockout,3.755,3.541,3.978,3.523,3.99,0.1372,0.0,0.0188,0.352,low,0.437
-899,Belgium,England,group_or_knockout,3.853,3.637,4.078,3.622,4.083,0.1377,0.0,0.019,0.355,low,0.441
-900,France,Croatia,group_or_knockout,3.769,3.523,4.018,3.553,4.008,0.1499,0.0,0.0225,0.404,medium,0.495
-901,Qatar,Ecuador,group_or_knockout,2.987,2.797,3.172,2.758,3.216,0.1152,0.0,0.0133,0.271,low,0.375
-902,Senegal,Netherlands,group_or_knockout,3.459,3.224,3.685,3.241,3.707,0.1431,0.0,0.0205,0.376,low,0.461
-903,England,Iran,group_or_knockout,3.957,3.753,4.157,3.728,4.191,0.1277,0.0,0.0163,0.316,low,0.404
-904,United States,Wales,group_or_knockout,3.111,2.892,3.314,2.865,3.342,0.1318,0.0,0.0174,0.332,low,0.422
-905,Argentina,Saudi Arabia,group_or_knockout,4.156,3.95,4.364,3.925,4.389,0.1258,0.0,0.0158,0.308,low,0.414
-906,Mexico,Poland,group_or_knockout,3.804,3.579,4.02,3.555,4.031,0.134,0.0,0.018,0.34,low,0.441
-907,Denmark,Tunisia,group_or_knockout,3.592,3.39,3.798,3.357,3.84,0.1301,0.0,0.0169,0.325,low,0.408
-908,France,Australia,group_or_knockout,3.856,3.645,4.075,3.618,4.091,0.1321,0.0,0.0175,0.333,low,0.43
-909,Germany,Japan,group_or_knockout,4.252,4.047,4.46,4.031,4.482,0.1266,0.0,0.016,0.311,low,0.413
-910,Spain,Costa Rica,group_or_knockout,4.038,3.809,4.26,3.796,4.264,0.1363,0.0,0.0186,0.349,low,0.451
-911,Morocco,Croatia,group_or_knockout,3.134,2.912,3.356,2.907,3.367,0.1367,0.0,0.0187,0.35,low,0.444
-912,Belgium,Canada,group_or_knockout,3.924,3.71,4.143,3.678,4.158,0.1323,0.0,0.0175,0.333,low,0.433
-913,Switzerland,Cameroon,group_or_knockout,3.914,3.723,4.118,3.661,4.135,0.1197,0.0,0.0143,0.286,low,0.395
-914,Brazil,Serbia,group_or_knockout,4.144,3.898,4.381,3.907,4.387,0.148,0.0,0.0219,0.396,medium,0.483
-915,Uruguay,South Korea,group_or_knockout,3.644,3.435,3.857,3.409,3.86,0.1292,0.0,0.0167,0.321,low,0.422
-916,Portugal,Ghana,group_or_knockout,3.532,3.293,3.765,3.304,3.765,0.1438,0.0,0.0207,0.379,low,0.472
-917,Qatar,Senegal,group_or_knockout,3.101,2.898,3.302,2.854,3.325,0.1205,0.0,0.0145,0.289,low,0.404
-918,Netherlands,Ecuador,group_or_knockout,3.767,3.525,3.986,3.55,4.002,0.1398,0.0,0.0196,0.363,low,0.461
-919,Wales,Iran,group_or_knockout,3.11,2.916,3.304,2.89,3.345,0.12,0.0,0.0144,0.287,low,0.388
-920,England,United States,group_or_knockout,3.482,3.282,3.691,3.253,3.715,0.1251,0.0,0.0157,0.307,low,0.409
-921,Poland,Saudi Arabia,group_or_knockout,3.835,3.593,4.091,3.596,4.064,0.1553,0.0,0.0241,0.427,medium,0.498
-922,Argentina,Mexico,group_or_knockout,4.158,3.941,4.368,3.922,4.385,0.1301,0.0,0.0169,0.325,low,0.427
-923,Tunisia,Australia,group_or_knockout,3.671,3.457,3.878,3.443,3.897,0.1266,0.0,0.016,0.311,low,0.421
-924,France,Denmark,group_or_knockout,3.698,3.462,3.924,3.434,3.924,0.1372,0.0,0.0188,0.352,low,0.462
-925,Japan,Costa Rica,group_or_knockout,3.901,3.631,4.166,3.663,4.126,0.1632,0.0,0.0266,0.461,medium,0.535
-926,Spain,Germany,group_or_knockout,3.834,3.604,4.058,3.595,4.068,0.1384,0.0,0.0192,0.357,low,0.454
-927,Belgium,Morocco,group_or_knockout,3.899,3.685,4.117,3.666,4.112,0.131,0.0,0.0172,0.329,low,0.432
-928,Croatia,Canada,group_or_knockout,3.98,3.726,4.204,3.759,4.216,0.1477,0.0,0.0218,0.395,medium,0.478
-929,Cameroon,Serbia,group_or_knockout,3.431,3.228,3.637,3.19,3.667,0.1268,0.0,0.0161,0.313,low,0.409
-930,Brazil,Switzerland,group_or_knockout,4.152,3.928,4.395,3.921,4.375,0.1422,0.0,0.0202,0.372,low,0.467
-931,South Korea,Ghana,group_or_knockout,3.319,3.108,3.525,3.095,3.539,0.1272,0.0,0.0162,0.314,low,0.417
-932,Portugal,Uruguay,group_or_knockout,3.631,3.4,3.859,3.408,3.855,0.1377,0.0,0.019,0.355,low,0.459
-933,Ecuador,Senegal,group_or_knockout,3.455,3.254,3.648,3.223,3.678,0.1208,0.0,0.0146,0.29,low,0.394
-934,Qatar,Netherlands,group_or_knockout,3.074,2.888,3.269,2.825,3.295,0.1183,0.0,0.014,0.281,low,0.381
-935,Wales,England,group_or_knockout,3.18,2.953,3.404,2.955,3.402,0.1372,0.0,0.0188,0.352,low,0.451
-936,Iran,United States,group_or_knockout,3.489,3.267,3.697,3.255,3.724,0.1302,0.0,0.0169,0.325,low,0.43
-937,Poland,Argentina,group_or_knockout,3.687,3.487,3.885,3.442,3.916,0.1238,0.0,0.0153,0.301,low,0.398
-938,Saudi Arabia,Mexico,group_or_knockout,3.67,3.445,3.905,3.436,3.896,0.1388,0.0,0.0193,0.359,low,0.46
-939,Australia,Denmark,group_or_knockout,3.532,3.311,3.764,3.287,3.74,0.138,0.0,0.019,0.355,low,0.453
-940,Tunisia,France,group_or_knockout,3.718,3.522,3.913,3.496,3.951,0.1198,0.0,0.0143,0.286,low,0.391
-941,Japan,Spain,group_or_knockout,3.797,3.573,4.002,3.562,4.023,0.1325,0.0,0.0176,0.334,low,0.429
-942,Costa Rica,Germany,group_or_knockout,3.468,3.25,3.685,3.227,3.698,0.1302,0.0,0.0169,0.325,low,0.435
-943,Croatia,Belgium,group_or_knockout,3.792,3.575,4.003,3.561,4.017,0.129,0.0,0.0166,0.32,low,0.428
-944,Canada,Morocco,group_or_knockout,3.346,3.154,3.556,3.115,3.576,0.1238,0.0,0.0153,0.301,low,0.402
-945,Serbia,Switzerland,group_or_knockout,3.316,3.107,3.519,3.068,3.54,0.1234,0.0,0.0152,0.3,low,0.412
-946,Cameroon,Brazil,group_or_knockout,3.32,3.109,3.515,3.08,3.544,0.1277,0.0,0.0163,0.316,low,0.406
-947,Ghana,Uruguay,group_or_knockout,3.049,2.817,3.272,2.797,3.278,0.139,0.0,0.0193,0.359,low,0.455
-948,South Korea,Portugal,group_or_knockout,3.134,2.945,3.302,2.898,3.378,0.1094,0.0,0.012,0.251,low,0.357
-949,Netherlands,United States,group_or_knockout,3.817,3.594,4.038,3.607,4.047,0.1311,0.0,0.0172,0.329,low,0.444
-950,Argentina,Australia,group_or_knockout,4.221,3.961,4.483,3.986,4.442,0.1565,0.0,0.0245,0.432,medium,0.522
-951,France,Poland,group_or_knockout,3.732,3.518,3.965,3.506,3.967,0.1392,0.0,0.0194,0.36,low,0.447
-952,England,Senegal,group_or_knockout,3.749,3.492,4.0,3.501,3.962,0.156,0.0,0.0243,0.429,medium,0.508
-953,Japan,Croatia,group_or_knockout,3.746,3.519,3.988,3.499,3.984,0.1417,0.0,0.0201,0.37,low,0.469
-954,Brazil,South Korea,group_or_knockout,4.27,4.048,4.49,4.034,4.519,0.1378,0.0,0.019,0.355,low,0.442
-955,Morocco,Spain,group_or_knockout,3.104,2.89,3.315,2.879,3.322,0.1283,0.0,0.0165,0.318,low,0.425
-956,Portugal,Switzerland,group_or_knockout,3.51,3.249,3.765,3.292,3.738,0.1581,0.0,0.025,0.439,medium,0.516
-957,Croatia,Brazil,group_or_knockout,3.726,3.491,3.948,3.488,3.952,0.1383,0.0,0.0191,0.356,low,0.457
-958,Netherlands,Argentina,group_or_knockout,3.81,3.596,4.006,3.576,4.051,0.1235,0.0,0.0152,0.3,low,0.41
-959,Morocco,Portugal,group_or_knockout,3.269,3.042,3.489,3.047,3.51,0.1378,0.0,0.019,0.355,low,0.447
-960,England,France,group_or_knockout,3.631,3.391,3.85,3.41,3.861,0.1384,0.0,0.0192,0.357,low,0.459
-961,Argentina,Croatia,group_or_knockout,4.052,3.845,4.254,3.814,4.288,0.1265,0.0,0.016,0.311,low,0.409
-962,France,Morocco,group_or_knockout,3.651,3.431,3.87,3.401,3.881,0.1349,0.0,0.0182,0.343,low,0.439
-963,Croatia,Morocco,group_or_knockout,3.884,3.651,4.1,3.657,4.099,0.1355,0.0,0.0184,0.346,low,0.449
-964,Argentina,France,group_or_knockout,4.196,3.984,4.404,3.945,4.412,0.1303,0.0,0.017,0.326,low,0.42
+1,Belgium,United States,tournament,3.857,3.655,4.06,3.624,4.074,0.1208,0.0,0.0146,0.29,low,0.405
+2,France,Mexico,tournament,3.999,3.766,4.217,3.771,4.235,0.1375,0.0,0.0189,0.353,low,0.451
+3,Brazil,Yugoslavia,tournament,3.946,3.73,4.151,3.713,4.183,0.1267,0.0,0.016,0.311,low,0.421
+4,Peru,Romania,tournament,3.492,3.269,3.708,3.264,3.728,0.1317,0.0,0.0173,0.33,low,0.439
+5,Argentina,France,tournament,3.968,3.75,4.192,3.729,4.2,0.1355,0.0,0.0184,0.346,low,0.442
+6,Chile,Mexico,tournament,3.688,3.484,3.894,3.452,3.917,0.1244,0.0,0.0155,0.304,low,0.41
+7,Bolivia,Yugoslavia,tournament,3.053,2.862,3.248,2.817,3.289,0.1169,0.0,0.0137,0.277,low,0.386
+8,Paraguay,United States,tournament,3.757,3.543,3.966,3.512,3.986,0.1274,0.0,0.0162,0.314,low,0.423
+9,Uruguay,Peru,tournament,3.332,3.141,3.534,3.079,3.565,0.1192,0.0,0.0142,0.284,low,0.393
+10,Argentina,Mexico,tournament,4.158,3.959,4.359,3.946,4.402,0.1227,0.0,0.0151,0.298,low,0.4
+11,Chile,France,tournament,3.575,3.381,3.762,3.33,3.802,0.1191,0.0,0.0142,0.284,low,0.381
+12,Belgium,Paraguay,tournament,3.838,3.633,4.055,3.609,4.09,0.1318,0.0,0.0174,0.332,low,0.422
+13,Bolivia,Brazil,tournament,2.98,2.76,3.199,2.731,3.212,0.1309,0.0,0.0171,0.327,low,0.439
+14,Uruguay,Romania,tournament,3.48,3.29,3.683,3.236,3.703,0.1205,0.0,0.0145,0.289,low,0.393
+15,Argentina,Chile,tournament,4.034,3.824,4.248,3.817,4.272,0.1306,0.0,0.0171,0.327,low,0.424
+16,Argentina,United States,tournament,4.071,3.884,4.278,3.851,4.308,0.1168,0.0,0.0137,0.277,low,0.394
+17,Uruguay,Yugoslavia,tournament,3.462,3.248,3.67,3.22,3.678,0.1276,0.0,0.0163,0.316,low,0.422
+18,Uruguay,Argentina,tournament,3.524,3.315,3.72,3.271,3.748,0.1249,0.0,0.0156,0.305,low,0.405
+19,Argentina,Sweden,tournament,4.113,3.9,4.334,3.892,4.326,0.13,0.0,0.0169,0.324,low,0.434
+20,Austria,France,tournament,3.168,2.973,3.369,2.933,3.404,0.1206,0.0,0.0146,0.29,low,0.396
+21,Belgium,Germany,tournament,3.925,3.716,4.136,3.674,4.159,0.1291,0.0,0.0167,0.321,low,0.42
+22,Brazil,Spain,tournament,3.984,3.738,4.221,3.751,4.2,0.1449,0.0,0.021,0.383,medium,0.483
+23,Czechoslovakia,Romania,tournament,3.561,3.326,3.795,3.336,3.792,0.1395,0.0,0.0195,0.362,low,0.469
+24,Egypt,Hungary,tournament,3.341,3.116,3.56,3.072,3.556,0.1402,0.0,0.0197,0.365,low,0.444
+25,Italy,United States,tournament,3.837,3.638,4.041,3.575,4.042,0.1229,0.0,0.0151,0.298,low,0.403
+26,Netherlands,Switzerland,tournament,3.803,3.608,4.003,3.564,4.03,0.1196,0.0,0.0143,0.286,low,0.395
+27,Austria,Hungary,tournament,3.102,2.878,3.31,2.862,3.333,0.1292,0.0,0.0167,0.321,low,0.432
+28,Czechoslovakia,Switzerland,tournament,3.631,3.43,3.844,3.373,3.869,0.1252,0.0,0.0157,0.307,low,0.414
+29,Germany,Sweden,tournament,4.177,3.954,4.402,3.956,4.387,0.1375,0.0,0.0189,0.353,low,0.448
+30,Italy,Spain,tournament,3.703,3.481,3.934,3.47,3.929,0.1321,0.0,0.0175,0.333,low,0.453
+31,Italy,Spain,tournament,3.578,3.359,3.789,3.351,3.806,0.1285,0.0,0.0165,0.319,low,0.43
+32,Czechoslovakia,Germany,tournament,3.57,3.362,3.777,3.33,3.808,0.1228,0.0,0.0151,0.298,low,0.415
+33,Italy,Austria,tournament,3.613,3.384,3.825,3.382,3.832,0.1365,0.0,0.0186,0.349,low,0.441
+34,Austria,Germany,tournament,3.219,3.004,3.44,2.973,3.445,0.1324,0.0,0.0175,0.333,low,0.436
+35,Italy,Czechoslovakia,tournament,3.658,3.442,3.887,3.42,3.878,0.1375,0.0,0.0189,0.353,low,0.445
+36,Germany,Switzerland,tournament,4.139,3.935,4.353,3.932,4.378,0.1268,0.0,0.0161,0.313,low,0.418
+37,Brazil,Poland,tournament,4.221,4.015,4.404,3.986,4.457,0.1228,0.0,0.0151,0.298,low,0.389
+38,Cuba,Romania,tournament,3.121,2.902,3.337,2.896,3.352,0.1283,0.0,0.0165,0.318,low,0.435
+39,Czechoslovakia,Netherlands,tournament,3.586,3.378,3.782,3.352,3.792,0.1255,0.0,0.0158,0.308,low,0.404
+40,France,Belgium,tournament,3.967,3.767,4.183,3.729,4.203,0.1278,0.0,0.0163,0.316,low,0.416
+41,Hungary,Indonesia,tournament,3.887,3.688,4.09,3.645,4.119,0.119,0.0,0.0142,0.284,low,0.402
+42,Italy,Norway,tournament,3.687,3.467,3.916,3.473,3.912,0.1421,0.0,0.0202,0.372,low,0.449
+43,Cuba,Romania,tournament,2.938,2.745,3.137,2.688,3.175,0.1205,0.0,0.0145,0.289,low,0.392
+44,Germany,Switzerland,tournament,4.233,4.019,4.441,3.998,4.47,0.1285,0.0,0.0165,0.319,low,0.422
+45,Brazil,Czechoslovakia,tournament,3.922,3.7,4.136,3.698,4.148,0.1345,0.0,0.0181,0.342,low,0.436
+46,Cuba,Sweden,tournament,3.096,2.885,3.313,2.854,3.316,0.1265,0.0,0.016,0.311,low,0.428
+47,France,Italy,tournament,3.909,3.69,4.122,3.672,4.147,0.1323,0.0,0.0175,0.333,low,0.432
+48,Hungary,Switzerland,tournament,3.731,3.503,3.964,3.509,3.963,0.1394,0.0,0.0194,0.361,low,0.461
+49,Brazil,Czechoslovakia,tournament,3.978,3.757,4.184,3.748,4.226,0.1279,0.0,0.0164,0.317,low,0.427
+50,Brazil,Italy,tournament,3.944,3.734,4.172,3.716,4.185,0.1347,0.0,0.0182,0.343,low,0.438
+51,Hungary,Sweden,tournament,3.837,3.618,4.038,3.575,4.07,0.1291,0.0,0.0167,0.321,low,0.42
+52,Brazil,Sweden,tournament,4.094,3.883,4.317,3.858,4.317,0.1307,0.0,0.0171,0.327,low,0.434
+53,Hungary,Italy,tournament,3.792,3.59,3.996,3.561,4.044,0.1241,0.0,0.0154,0.302,low,0.406
+54,Brazil,Mexico,tournament,4.15,3.955,4.342,3.912,4.379,0.1186,0.0,0.0141,0.283,low,0.387
+55,Chile,England,tournament,3.727,3.506,3.932,3.503,3.966,0.1311,0.0,0.0172,0.329,low,0.426
+56,Italy,Sweden,tournament,3.731,3.51,3.944,3.495,3.973,0.1358,0.0,0.0184,0.346,low,0.434
+57,Spain,United States,tournament,3.695,3.487,3.902,3.457,3.926,0.1275,0.0,0.0163,0.315,low,0.415
+58,Switzerland,Yugoslavia,tournament,3.766,3.577,3.947,3.54,3.995,0.1169,0.0,0.0137,0.277,low,0.37
+59,Brazil,Switzerland,tournament,4.102,3.896,4.342,3.867,4.309,0.1358,0.0,0.0184,0.346,low,0.446
+60,Mexico,Yugoslavia,tournament,3.837,3.608,4.063,3.607,4.09,0.1387,0.0,0.0192,0.358,low,0.455
+61,Chile,Spain,tournament,3.71,3.493,3.921,3.471,3.953,0.1315,0.0,0.0173,0.33,low,0.428
+62,England,United States,tournament,3.271,3.073,3.469,3.037,3.504,0.12,0.0,0.0144,0.287,low,0.396
+63,Paraguay,Sweden,tournament,3.803,3.588,4.03,3.586,4.049,0.1315,0.0,0.0173,0.33,low,0.442
+64,Brazil,Yugoslavia,tournament,4.054,3.857,4.261,3.809,4.259,0.1235,0.0,0.0152,0.3,low,0.404
+65,Bolivia,Uruguay,tournament,3.242,3.013,3.464,2.992,3.461,0.1374,0.0,0.0189,0.353,low,0.451
+66,Chile,United States,tournament,3.843,3.624,4.06,3.588,4.04,0.1325,0.0,0.0176,0.334,low,0.436
+67,England,Spain,tournament,3.238,3.01,3.477,2.984,3.48,0.1395,0.0,0.0195,0.362,low,0.467
+68,Italy,Paraguay,tournament,3.76,3.548,3.965,3.521,4.0,0.13,0.0,0.0169,0.324,low,0.417
+69,Mexico,Switzerland,tournament,3.748,3.544,3.968,3.525,3.96,0.1309,0.0,0.0171,0.327,low,0.424
+70,Brazil,Sweden,tournament,4.213,4.018,4.407,3.975,4.431,0.1194,0.0,0.0143,0.286,low,0.389
+71,Spain,Uruguay,tournament,3.703,3.492,3.926,3.47,3.95,0.135,0.0,0.0182,0.343,low,0.434
+72,Brazil,Spain,tournament,4.217,4.001,4.436,3.977,4.452,0.1312,0.0,0.0172,0.329,low,0.435
+73,Sweden,Uruguay,tournament,3.576,3.336,3.815,3.341,3.811,0.1427,0.0,0.0204,0.375,low,0.479
+74,Brazil,Uruguay,tournament,4.069,3.842,4.283,3.828,4.289,0.1338,0.0,0.0179,0.339,low,0.441
+75,Spain,Sweden,tournament,3.642,3.435,3.851,3.423,3.884,0.1269,0.0,0.0161,0.313,low,0.416
+76,Austria,Scotland,tournament,3.321,3.128,3.532,3.09,3.543,0.1234,0.0,0.0152,0.3,low,0.404
+77,Brazil,Mexico,tournament,4.09,3.891,4.289,3.846,4.3,0.1214,0.0,0.0147,0.292,low,0.398
+78,Czechoslovakia,Uruguay,tournament,3.584,3.347,3.826,3.343,3.8,0.1463,0.0,0.0214,0.389,medium,0.479
+79,France,Yugoslavia,tournament,3.897,3.668,4.115,3.655,4.107,0.1402,0.0,0.0196,0.364,low,0.447
+80,Belgium,England,tournament,4.022,3.824,4.205,3.778,4.26,0.1188,0.0,0.0141,0.283,low,0.381
+81,Germany,Turkey,tournament,4.341,4.121,4.547,4.087,4.578,0.1333,0.0,0.0178,0.337,low,0.426
+82,Hungary,South Korea,tournament,4.115,3.901,4.307,3.89,4.352,0.1235,0.0,0.0153,0.301,low,0.406
+83,Switzerland,Italy,tournament,3.784,3.595,3.968,3.542,3.994,0.1145,0.0,0.0131,0.268,low,0.373
+84,Austria,Czechoslovakia,tournament,3.254,3.052,3.466,3.001,3.476,0.128,0.0,0.0164,0.317,low,0.414
+85,Brazil,Yugoslavia,tournament,3.971,3.742,4.208,3.722,4.181,0.1411,0.0,0.0199,0.368,low,0.466
+86,France,Mexico,tournament,3.986,3.759,4.212,3.756,4.216,0.1372,0.0,0.0188,0.352,low,0.453
+87,Scotland,Uruguay,tournament,3.476,3.276,3.702,3.24,3.712,0.1344,0.0,0.0181,0.342,low,0.426
+88,Belgium,Italy,tournament,3.962,3.727,4.169,3.712,4.164,0.1319,0.0,0.0174,0.332,low,0.442
+89,Germany,Hungary,tournament,4.436,4.23,4.636,4.22,4.662,0.1276,0.0,0.0163,0.316,low,0.406
+90,South Korea,Turkey,tournament,3.109,2.876,3.356,2.877,3.344,0.1447,0.0,0.0209,0.382,medium,0.48
+91,Switzerland,England,tournament,3.83,3.605,4.052,3.6,4.082,0.1339,0.0,0.0179,0.339,low,0.447
+92,Germany,Turkey,tournament,4.394,4.145,4.632,4.148,4.633,0.1491,0.0,0.0222,0.4,medium,0.487
+93,Switzerland,Italy,tournament,3.854,3.662,4.045,3.615,4.091,0.1139,0.0,0.013,0.266,low,0.383
+94,England,Uruguay,tournament,3.494,3.267,3.717,3.234,3.71,0.14,0.0,0.0196,0.363,low,0.45
+95,Switzerland,Austria,tournament,4.096,3.899,4.286,3.86,4.322,0.12,0.0,0.0144,0.287,low,0.387
+96,Brazil,Hungary,tournament,4.155,3.95,4.354,3.938,4.375,0.1246,0.0,0.0155,0.304,low,0.404
+97,Germany,Yugoslavia,tournament,4.231,4.028,4.427,3.992,4.468,0.1229,0.0,0.0151,0.298,low,0.399
+98,Austria,Germany,tournament,3.265,3.05,3.467,3.038,3.51,0.127,0.0,0.0161,0.313,low,0.417
+99,Hungary,Uruguay,tournament,3.827,3.631,4.037,3.585,4.073,0.1247,0.0,0.0156,0.305,low,0.406
+100,Austria,Uruguay,tournament,3.217,3.035,3.42,2.978,3.426,0.1163,0.0,0.0135,0.274,low,0.385
+101,Germany,Hungary,tournament,4.243,4.024,4.45,4.003,4.473,0.1311,0.0,0.0172,0.329,low,0.426
+102,Argentina,Germany,tournament,4.113,3.911,4.318,3.877,4.348,0.1253,0.0,0.0157,0.307,low,0.407
+103,Austria,Brazil,tournament,3.205,2.993,3.422,2.961,3.435,0.1289,0.0,0.0166,0.32,low,0.429
+104,Czechoslovakia,Northern Ireland,tournament,3.668,3.456,3.877,3.433,3.909,0.1257,0.0,0.0158,0.308,low,0.421
+105,England,Russia,tournament,3.42,3.161,3.663,3.176,3.649,0.1489,0.0,0.0222,0.4,medium,0.502
+106,France,Paraguay,tournament,4.191,3.996,4.37,3.952,4.425,0.114,0.0,0.013,0.266,low,0.374
+107,Hungary,Wales,tournament,3.873,3.665,4.088,3.661,4.11,0.1263,0.0,0.016,0.311,low,0.423
+108,Scotland,Yugoslavia,tournament,3.4,3.164,3.617,3.177,3.62,0.1325,0.0,0.0176,0.334,low,0.453
+109,Sweden,Mexico,tournament,3.655,3.436,3.863,3.416,3.889,0.1284,0.0,0.0165,0.318,low,0.427
+110,Argentina,Northern Ireland,tournament,4.232,3.995,4.471,4.002,4.458,0.1455,0.0,0.0212,0.386,medium,0.476
+111,Austria,Russia,tournament,3.248,3.055,3.457,3.0,3.47,0.1178,0.0,0.0139,0.28,low,0.402
+112,Brazil,England,tournament,3.988,3.759,4.189,3.739,4.223,0.1282,0.0,0.0164,0.317,low,0.43
+113,Czechoslovakia,Germany,tournament,3.651,3.431,3.88,3.419,3.893,0.1382,0.0,0.0191,0.356,low,0.449
+114,France,Yugoslavia,tournament,4.058,3.825,4.288,3.852,4.302,0.1465,0.0,0.0215,0.39,medium,0.463
+115,Mexico,Wales,tournament,3.953,3.719,4.194,3.712,4.183,0.1457,0.0,0.0212,0.386,medium,0.475
+116,Paraguay,Scotland,tournament,3.956,3.749,4.192,3.72,4.202,0.1331,0.0,0.0177,0.336,low,0.443
+117,Sweden,Hungary,tournament,3.699,3.503,3.922,3.471,3.937,0.127,0.0,0.0161,0.313,low,0.419
+118,Argentina,Czechoslovakia,tournament,4.177,3.971,4.406,3.921,4.397,0.1328,0.0,0.0176,0.335,low,0.435
+119,Austria,England,tournament,3.308,3.079,3.525,3.075,3.553,0.1384,0.0,0.0191,0.356,low,0.446
+120,Brazil,Russia,tournament,4.036,3.83,4.234,3.795,4.27,0.1253,0.0,0.0157,0.307,low,0.404
+121,France,Scotland,tournament,3.979,3.762,4.192,3.742,4.189,0.1316,0.0,0.0173,0.33,low,0.43
+122,Germany,Northern Ireland,tournament,4.416,4.217,4.604,4.186,4.645,0.1228,0.0,0.0151,0.298,low,0.387
+123,Hungary,Mexico,tournament,3.888,3.679,4.085,3.651,4.12,0.1263,0.0,0.016,0.311,low,0.406
+124,Paraguay,Yugoslavia,tournament,3.896,3.704,4.082,3.65,4.129,0.1189,0.0,0.0141,0.283,low,0.378
+125,Sweden,Wales,tournament,3.637,3.419,3.868,3.416,3.877,0.1408,0.0,0.0198,0.366,low,0.449
+126,Czechoslovakia,Northern Ireland,tournament,3.666,3.449,3.904,3.43,3.887,0.1317,0.0,0.0173,0.33,low,0.455
+127,England,Russia,tournament,3.3,3.049,3.543,3.082,3.505,0.1473,0.0,0.0217,0.393,medium,0.494
+128,Hungary,Wales,tournament,3.884,3.681,4.093,3.667,4.11,0.124,0.0,0.0154,0.302,low,0.412
+129,Brazil,Wales,tournament,4.043,3.838,4.255,3.817,4.273,0.1269,0.0,0.0161,0.313,low,0.417
+130,France,Northern Ireland,tournament,3.976,3.779,4.163,3.736,4.218,0.1149,0.0,0.0132,0.269,low,0.384
+131,Germany,Yugoslavia,tournament,4.239,4.037,4.453,4.003,4.468,0.1232,0.0,0.0152,0.299,low,0.416
+132,Sweden,Russia,tournament,3.676,3.444,3.908,3.433,3.907,0.1408,0.0,0.0198,0.366,low,0.464
+133,Brazil,France,tournament,4.164,3.937,4.404,3.927,4.4,0.1402,0.0,0.0196,0.364,low,0.467
+134,Sweden,Germany,tournament,3.659,3.428,3.916,3.411,3.904,0.1488,0.0,0.0221,0.399,medium,0.488
+135,France,Germany,tournament,4.093,3.86,4.336,3.841,4.328,0.146,0.0,0.0213,0.388,medium,0.476
+136,Sweden,Brazil,tournament,3.761,3.511,4.003,3.52,3.976,0.1514,0.0,0.0229,0.41,medium,0.492
+137,Argentina,Bulgaria,tournament,4.101,3.874,4.326,3.883,4.338,0.1405,0.0,0.0197,0.365,low,0.452
+138,Brazil,Mexico,tournament,4.047,3.843,4.282,3.831,4.275,0.1341,0.0,0.018,0.34,low,0.439
+139,Chile,Switzerland,tournament,3.899,3.686,4.097,3.659,4.133,0.1252,0.0,0.0157,0.307,low,0.411
+140,Colombia,Uruguay,tournament,3.205,2.993,3.423,2.962,3.442,0.13,0.0,0.0169,0.324,low,0.43
+141,Czechoslovakia,Spain,tournament,3.617,3.408,3.823,3.386,3.823,0.1301,0.0,0.0169,0.325,low,0.415
+142,England,Hungary,tournament,3.389,3.172,3.612,3.153,3.608,0.1334,0.0,0.0178,0.337,low,0.44
+143,Germany,Italy,tournament,4.181,3.965,4.405,3.948,4.417,0.1316,0.0,0.0173,0.33,low,0.44
+144,Russia,Yugoslavia,tournament,4.18,3.986,4.383,3.935,4.378,0.123,0.0,0.0151,0.298,low,0.397
+145,Argentina,England,tournament,4.12,3.919,4.325,3.881,4.35,0.1254,0.0,0.0157,0.307,low,0.406
+146,Brazil,Czechoslovakia,tournament,4.037,3.816,4.261,3.797,4.275,0.1387,0.0,0.0192,0.358,low,0.445
+147,Chile,Italy,tournament,3.831,3.604,4.078,3.598,4.06,0.1441,0.0,0.0208,0.38,medium,0.474
+148,Uruguay,Yugoslavia,tournament,3.447,3.261,3.637,3.205,3.676,0.1182,0.0,0.014,0.281,low,0.376
+149,Bulgaria,Hungary,tournament,3.353,3.089,3.624,3.117,3.603,0.1575,0.0,0.0248,0.436,medium,0.535
+150,Colombia,Russia,tournament,3.378,3.177,3.572,3.14,3.612,0.1213,0.0,0.0147,0.292,low,0.395
+151,Germany,Switzerland,tournament,4.29,4.1,4.49,4.046,4.518,0.1173,0.0,0.0138,0.278,low,0.39
+152,Mexico,Spain,tournament,3.774,3.574,3.98,3.539,4.002,0.1232,0.0,0.0152,0.299,low,0.406
+153,Argentina,Hungary,tournament,4.063,3.818,4.309,3.82,4.308,0.1498,0.0,0.0224,0.403,medium,0.491
+154,Brazil,Spain,tournament,4.013,3.806,4.214,3.763,4.254,0.1218,0.0,0.0148,0.294,low,0.408
+155,Chile,Germany,tournament,3.767,3.582,3.966,3.534,3.983,0.1174,0.0,0.0138,0.278,low,0.384
+156,Russia,Uruguay,tournament,4.107,3.886,4.322,3.855,4.342,0.1331,0.0,0.0177,0.336,low,0.436
+157,Bulgaria,England,tournament,3.129,2.909,3.376,2.908,3.364,0.1449,0.0,0.021,0.383,medium,0.467
+158,Colombia,Yugoslavia,tournament,3.275,3.072,3.491,3.034,3.511,0.1271,0.0,0.0161,0.313,low,0.419
+159,Czechoslovakia,Mexico,tournament,3.759,3.552,3.972,3.531,4.003,0.1266,0.0,0.016,0.311,low,0.42
+160,Italy,Switzerland,tournament,3.702,3.493,3.916,3.456,3.943,0.1278,0.0,0.0163,0.316,low,0.423
+161,Brazil,England,tournament,4.092,3.889,4.294,3.853,4.33,0.1265,0.0,0.016,0.311,low,0.405
+162,Chile,Russia,tournament,3.837,3.655,4.028,3.589,4.07,0.1136,0.0,0.0129,0.265,low,0.373
+163,Czechoslovakia,Hungary,tournament,3.631,3.414,3.866,3.386,3.838,0.1384,0.0,0.0192,0.357,low,0.452
+164,Germany,Yugoslavia,tournament,4.222,4.019,4.423,4.006,4.461,0.1248,0.0,0.0156,0.305,low,0.404
+165,Chile,Brazil,tournament,3.938,3.732,4.142,3.703,4.153,0.1229,0.0,0.0151,0.298,low,0.41
+166,Czechoslovakia,Yugoslavia,tournament,3.706,3.488,3.923,3.491,3.934,0.1331,0.0,0.0177,0.336,low,0.435
+167,Chile,Yugoslavia,tournament,3.881,3.658,4.094,3.654,4.106,0.1292,0.0,0.0167,0.321,low,0.436
+168,Brazil,Czechoslovakia,tournament,4.12,3.925,4.329,3.881,4.355,0.1239,0.0,0.0154,0.302,low,0.404
+169,England,Uruguay,tournament,3.36,3.127,3.587,3.117,3.573,0.1377,0.0,0.0189,0.354,low,0.46
+170,Brazil,Bulgaria,tournament,4.068,3.834,4.292,3.826,4.299,0.1398,0.0,0.0195,0.362,low,0.458
+171,Germany,Switzerland,tournament,4.352,4.162,4.541,4.139,4.584,0.1132,0.0,0.0128,0.263,low,0.379
+172,North Korea,Russia,tournament,3.588,3.339,3.84,3.338,3.816,0.1504,0.0,0.0226,0.406,medium,0.501
+173,Argentina,Spain,tournament,4.188,3.956,4.436,3.95,4.408,0.1421,0.0,0.0202,0.372,low,0.48
+174,Chile,Italy,tournament,3.858,3.667,4.054,3.615,4.088,0.1174,0.0,0.0138,0.278,low,0.387
+175,France,Mexico,tournament,4.036,3.822,4.246,3.803,4.268,0.1341,0.0,0.018,0.34,low,0.424
+176,Hungary,Portugal,tournament,3.845,3.655,4.037,3.615,4.079,0.1187,0.0,0.0141,0.283,low,0.382
+177,Brazil,Hungary,tournament,4.092,3.871,4.309,3.848,4.328,0.1335,0.0,0.0178,0.338,low,0.438
+178,Chile,North Korea,tournament,3.866,3.624,4.099,3.65,4.091,0.1461,0.0,0.0214,0.389,medium,0.475
+179,France,Uruguay,tournament,3.983,3.73,4.236,3.754,4.225,0.1523,0.0,0.0232,0.414,medium,0.506
+180,Spain,Switzerland,tournament,3.801,3.577,4.023,3.58,4.036,0.1367,0.0,0.0187,0.35,low,0.446
+181,Argentina,Germany,tournament,4.032,3.834,4.234,3.795,4.267,0.1203,0.0,0.0145,0.289,low,0.4
+182,Bulgaria,Portugal,tournament,3.224,2.982,3.468,2.985,3.457,0.1524,0.0,0.0232,0.414,medium,0.486
+183,England,Mexico,tournament,3.488,3.257,3.699,3.259,3.688,0.1338,0.0,0.0179,0.339,low,0.442
+184,Italy,Russia,tournament,3.759,3.538,3.978,3.55,3.99,0.1337,0.0,0.0179,0.339,low,0.44
+185,Argentina,Switzerland,tournament,4.169,3.95,4.387,3.937,4.398,0.1335,0.0,0.0178,0.338,low,0.437
+186,Brazil,Portugal,tournament,4.096,3.866,4.337,3.875,4.33,0.1435,0.0,0.0206,0.378,low,0.471
+187,Italy,North Korea,tournament,3.828,3.608,4.044,3.589,4.076,0.1285,0.0,0.0165,0.319,low,0.436
+188,Mexico,Uruguay,tournament,3.842,3.585,4.078,3.611,4.076,0.1486,0.0,0.0221,0.399,medium,0.493
+189,Bulgaria,Hungary,tournament,3.261,3.024,3.478,3.022,3.492,0.1396,0.0,0.0195,0.362,low,0.454
+190,Chile,Russia,tournament,3.818,3.604,4.03,3.589,4.056,0.1294,0.0,0.0167,0.322,low,0.426
+191,England,France,tournament,3.461,3.231,3.696,3.211,3.685,0.1471,0.0,0.0216,0.392,medium,0.465
+192,Germany,Spain,tournament,4.326,4.097,4.538,4.074,4.559,0.1346,0.0,0.0181,0.342,low,0.441
+193,England,Argentina,tournament,3.349,3.121,3.556,3.127,3.586,0.1304,0.0,0.017,0.326,low,0.435
+194,Germany,Uruguay,tournament,4.278,4.057,4.486,4.031,4.515,0.1345,0.0,0.0181,0.342,low,0.429
+195,Hungary,Russia,tournament,3.823,3.603,4.042,3.607,4.042,0.1318,0.0,0.0174,0.332,low,0.439
+196,North Korea,Portugal,tournament,3.623,3.396,3.84,3.389,3.851,0.1332,0.0,0.0178,0.337,low,0.444
+197,Germany,Russia,tournament,4.291,4.092,4.501,4.068,4.519,0.1283,0.0,0.0165,0.318,low,0.409
+198,England,Portugal,tournament,3.46,3.259,3.676,3.243,3.662,0.1235,0.0,0.0153,0.301,low,0.417
+199,Portugal,Russia,tournament,3.24,3.021,3.473,2.991,3.418,0.1378,0.0,0.019,0.355,low,0.452
+200,England,Germany,tournament,3.493,3.252,3.723,3.278,3.716,0.138,0.0,0.019,0.355,low,0.471
+201,Mexico,Russia,tournament,3.823,3.593,4.057,3.603,4.051,0.1379,0.0,0.019,0.355,low,0.464
+202,Bulgaria,Peru,tournament,3.283,3.032,3.538,3.037,3.493,0.1552,0.0,0.0241,0.427,medium,0.506
+203,England,Romania,tournament,3.419,3.191,3.66,3.18,3.641,0.1455,0.0,0.0212,0.386,medium,0.469
+204,Israel,Uruguay,tournament,2.925,2.655,3.192,2.695,3.16,0.1579,0.0,0.0249,0.438,medium,0.537
+205,Belgium,El Salvador,tournament,4.095,3.877,4.313,3.858,4.298,0.129,0.0,0.0166,0.32,low,0.436
+206,Brazil,Czechoslovakia,tournament,4.18,3.981,4.401,3.944,4.401,0.1265,0.0,0.016,0.311,low,0.42
+207,Germany,Morocco,tournament,4.456,4.234,4.68,4.214,4.683,0.1317,0.0,0.0174,0.331,low,0.446
+208,Italy,Sweden,tournament,3.733,3.508,3.955,3.487,3.957,0.1376,0.0,0.0189,0.353,low,0.447
+209,Belgium,Russia,tournament,4.015,3.811,4.222,3.777,4.238,0.1251,0.0,0.0157,0.307,low,0.411
+210,Czechoslovakia,Romania,tournament,3.728,3.518,3.928,3.501,3.962,0.1296,0.0,0.0168,0.323,low,0.41
+211,Italy,Uruguay,tournament,3.679,3.471,3.889,3.443,3.92,0.1263,0.0,0.0159,0.31,low,0.418
+212,Morocco,Peru,tournament,3.028,2.802,3.249,2.787,3.242,0.1361,0.0,0.0185,0.348,low,0.447
+213,Brazil,England,tournament,4.093,3.905,4.316,3.843,4.319,0.1249,0.0,0.0156,0.305,low,0.411
+214,Bulgaria,Germany,tournament,3.25,3.006,3.484,3.009,3.483,0.1481,0.0,0.0219,0.396,medium,0.478
+215,Israel,Sweden,tournament,2.886,2.65,3.111,2.638,3.084,0.1412,0.0,0.0199,0.368,low,0.461
+216,Mexico,El Salvador,tournament,4.031,3.806,4.293,3.797,4.269,0.1445,0.0,0.0209,0.382,medium,0.487
+217,Brazil,Romania,tournament,4.155,3.931,4.37,3.9,4.378,0.1373,0.0,0.0189,0.353,low,0.439
+218,El Salvador,Russia,tournament,2.876,2.659,3.096,2.639,3.101,0.1367,0.0,0.0187,0.35,low,0.437
+219,Germany,Peru,tournament,4.379,4.182,4.577,4.143,4.616,0.1224,0.0,0.015,0.296,low,0.395
+220,Sweden,Uruguay,tournament,3.626,3.365,3.864,3.382,3.856,0.1457,0.0,0.0212,0.386,medium,0.499
+221,Bulgaria,Morocco,tournament,3.328,3.113,3.546,3.085,3.544,0.1399,0.0,0.0196,0.363,low,0.433
+222,Czechoslovakia,England,tournament,3.687,3.462,3.897,3.44,3.913,0.1344,0.0,0.0181,0.342,low,0.435
+223,Israel,Italy,tournament,2.847,2.655,3.034,2.605,3.065,0.1174,0.0,0.0138,0.278,low,0.379
+224,Mexico,Belgium,tournament,3.876,3.63,4.118,3.629,4.104,0.1445,0.0,0.0209,0.382,medium,0.488
+225,Brazil,Peru,tournament,4.253,4.039,4.448,4.011,4.488,0.1243,0.0,0.0154,0.303,low,0.409
+226,England,Germany,tournament,3.417,3.208,3.622,3.177,3.648,0.124,0.0,0.0154,0.302,low,0.414
+227,Mexico,Italy,tournament,4.015,3.773,4.242,3.775,4.249,0.1425,0.0,0.0203,0.373,low,0.469
+228,Russia,Uruguay,tournament,4.154,3.928,4.371,3.935,4.395,0.1324,0.0,0.0175,0.333,low,0.443
+229,Brazil,Uruguay,tournament,4.164,3.958,4.362,3.948,4.401,0.1278,0.0,0.0163,0.316,low,0.404
+230,Germany,Italy,tournament,4.375,4.157,4.61,4.157,4.596,0.1382,0.0,0.0191,0.356,low,0.453
+231,Germany,Uruguay,tournament,4.259,4.013,4.511,4.026,4.47,0.1534,0.0,0.0235,0.418,medium,0.498
+232,Brazil,Italy,tournament,4.193,3.972,4.41,3.955,4.423,0.1349,0.0,0.0182,0.343,low,0.438
+233,Brazil,Yugoslavia,tournament,4.034,3.834,4.242,3.804,4.261,0.1265,0.0,0.016,0.311,low,0.408
+234,DR Congo,Scotland,tournament,3.117,2.902,3.333,2.877,3.354,0.1315,0.0,0.0173,0.33,low,0.431
+235,German DR,Australia,tournament,3.601,3.363,3.838,3.38,3.837,0.1452,0.0,0.0211,0.385,medium,0.475
+236,Germany,Chile,tournament,4.354,4.129,4.559,4.11,4.585,0.1293,0.0,0.0167,0.322,low,0.43
+237,Italy,Haiti,tournament,3.88,3.63,4.128,3.635,4.098,0.151,0.0,0.0228,0.409,medium,0.498
+238,Poland,Argentina,tournament,3.923,3.704,4.143,3.702,4.171,0.1329,0.0,0.0177,0.336,low,0.439
+239,Sweden,Bulgaria,tournament,3.634,3.408,3.868,3.392,3.861,0.142,0.0,0.0202,0.372,low,0.46
+240,Uruguay,Netherlands,tournament,3.405,3.225,3.593,3.168,3.639,0.1106,0.0,0.0122,0.254,low,0.368
+241,Chile,German DR,tournament,3.846,3.646,4.046,3.625,4.076,0.1198,0.0,0.0144,0.287,low,0.4
+242,Germany,Australia,tournament,4.452,4.258,4.652,4.194,4.679,0.1233,0.0,0.0152,0.299,low,0.394
+243,Scotland,Brazil,tournament,3.384,3.184,3.587,3.148,3.608,0.1217,0.0,0.0148,0.293,low,0.403
+244,Yugoslavia,DR Congo,tournament,4.141,3.938,4.344,3.927,4.377,0.1223,0.0,0.0149,0.295,low,0.406
+245,Argentina,Italy,tournament,4.089,3.852,4.326,3.847,4.314,0.1473,0.0,0.0217,0.393,medium,0.474
+246,Bulgaria,Uruguay,tournament,3.22,2.981,3.464,2.961,3.421,0.146,0.0,0.0213,0.388,medium,0.483
+247,Haiti,Poland,tournament,3.116,2.899,3.349,2.875,3.355,0.1383,0.0,0.0191,0.356,low,0.45
+248,Netherlands,Sweden,tournament,3.879,3.67,4.079,3.635,4.102,0.1262,0.0,0.0159,0.31,low,0.409
+249,Australia,Chile,tournament,3.565,3.363,3.757,3.329,3.795,0.122,0.0,0.0149,0.295,low,0.394
+250,DR Congo,Brazil,tournament,3.048,2.815,3.269,2.827,3.291,0.1383,0.0,0.0191,0.356,low,0.454
+251,Germany,German DR,tournament,4.386,4.154,4.615,4.141,4.626,0.1428,0.0,0.0204,0.375,low,0.461
+252,Scotland,Yugoslavia,tournament,3.465,3.255,3.679,3.226,3.699,0.127,0.0,0.0161,0.313,low,0.424
+253,Argentina,Haiti,tournament,4.348,4.119,4.596,4.102,4.562,0.147,0.0,0.0216,0.392,medium,0.477
+254,Bulgaria,Netherlands,tournament,3.283,3.031,3.542,3.047,3.512,0.1555,0.0,0.0242,0.428,medium,0.511
+255,Poland,Italy,tournament,3.981,3.77,4.196,3.759,4.231,0.1303,0.0,0.017,0.326,low,0.426
+256,Sweden,Uruguay,tournament,3.676,3.449,3.907,3.449,3.904,0.1365,0.0,0.0186,0.349,low,0.458
+257,Brazil,German DR,tournament,4.095,3.91,4.299,3.862,4.328,0.1159,0.0,0.0134,0.273,low,0.389
+258,Germany,Yugoslavia,tournament,4.329,4.108,4.546,4.08,4.551,0.1304,0.0,0.017,0.326,low,0.438
+259,Netherlands,Argentina,tournament,3.907,3.684,4.13,3.674,4.144,0.1303,0.0,0.017,0.326,low,0.446
+260,Sweden,Poland,tournament,3.639,3.423,3.859,3.422,3.868,0.1335,0.0,0.0178,0.338,low,0.436
+261,Argentina,Brazil,tournament,4.223,4.005,4.434,3.992,4.459,0.1348,0.0,0.0182,0.343,low,0.429
+262,German DR,Netherlands,tournament,3.544,3.336,3.757,3.331,3.777,0.1293,0.0,0.0167,0.322,low,0.421
+263,Germany,Sweden,tournament,4.426,4.21,4.631,4.188,4.659,0.1291,0.0,0.0167,0.321,low,0.421
+264,Poland,Yugoslavia,tournament,3.9,3.698,4.099,3.661,4.109,0.1195,0.0,0.0143,0.286,low,0.401
+265,Argentina,German DR,tournament,4.199,3.975,4.415,3.952,4.433,0.1327,0.0,0.0176,0.335,low,0.44
+266,Germany,Poland,tournament,4.274,4.046,4.494,4.048,4.512,0.1321,0.0,0.0175,0.333,low,0.448
+267,Netherlands,Brazil,tournament,3.903,3.707,4.112,3.671,4.116,0.1239,0.0,0.0153,0.301,low,0.405
+268,Sweden,Yugoslavia,tournament,3.719,3.523,3.916,3.478,3.951,0.1211,0.0,0.0147,0.292,low,0.393
+269,Brazil,Poland,tournament,4.076,3.856,4.3,3.837,4.302,0.1387,0.0,0.0192,0.358,low,0.444
+270,Germany,Netherlands,tournament,4.35,4.123,4.557,4.114,4.592,0.1335,0.0,0.0178,0.338,low,0.434
+271,Germany,Poland,tournament,4.28,4.078,4.491,4.041,4.489,0.1271,0.0,0.0162,0.314,low,0.413
+272,Argentina,Hungary,tournament,4.238,4.03,4.448,4.014,4.479,0.1287,0.0,0.0166,0.32,low,0.418
+273,France,Italy,tournament,4.005,3.81,4.203,3.791,4.251,0.1211,0.0,0.0147,0.292,low,0.393
+274,Mexico,Tunisia,tournament,4.087,3.86,4.313,3.845,4.327,0.1354,0.0,0.0183,0.345,low,0.453
+275,Austria,Spain,tournament,3.346,3.139,3.547,3.095,3.569,0.1242,0.0,0.0154,0.302,low,0.408
+276,Brazil,Sweden,tournament,4.174,3.95,4.408,3.943,4.42,0.1419,0.0,0.0201,0.371,low,0.458
+277,Iran,Netherlands,tournament,3.593,3.376,3.8,3.353,3.819,0.1286,0.0,0.0165,0.319,low,0.424
+278,Peru,Scotland,tournament,3.707,3.501,3.918,3.472,3.942,0.1236,0.0,0.0153,0.301,low,0.417
+279,Argentina,France,tournament,4.291,4.056,4.506,4.065,4.518,0.1324,0.0,0.0175,0.333,low,0.45
+280,Germany,Mexico,tournament,4.446,4.219,4.67,4.214,4.688,0.136,0.0,0.0185,0.348,low,0.451
+281,Hungary,Italy,tournament,3.89,3.68,4.106,3.651,4.123,0.1331,0.0,0.0177,0.336,low,0.426
+282,Poland,Tunisia,tournament,3.932,3.721,4.133,3.693,4.153,0.1213,0.0,0.0147,0.292,low,0.412
+283,Austria,Sweden,tournament,3.269,3.053,3.463,3.03,3.501,0.1203,0.0,0.0145,0.289,low,0.41
+284,Brazil,Spain,tournament,4.077,3.815,4.338,3.838,4.305,0.1562,0.0,0.0244,0.431,medium,0.523
+285,Iran,Scotland,tournament,3.671,3.475,3.881,3.437,3.921,0.1215,0.0,0.0148,0.293,low,0.406
+286,Netherlands,Peru,tournament,3.907,3.686,4.149,3.65,4.145,0.1404,0.0,0.0197,0.365,low,0.463
+287,Argentina,Italy,tournament,4.229,4.025,4.442,4.001,4.456,0.1297,0.0,0.0168,0.323,low,0.417
+288,France,Hungary,tournament,4.132,3.904,4.36,3.901,4.366,0.1404,0.0,0.0197,0.365,low,0.456
+289,Germany,Tunisia,tournament,4.285,4.076,4.497,4.043,4.514,0.1293,0.0,0.0167,0.322,low,0.421
+290,Mexico,Poland,tournament,3.921,3.706,4.143,3.682,4.155,0.1299,0.0,0.0169,0.324,low,0.437
+291,Austria,Brazil,tournament,3.206,2.992,3.402,2.962,3.423,0.1239,0.0,0.0154,0.302,low,0.41
+292,Iran,Peru,tournament,3.749,3.552,3.934,3.513,3.985,0.1181,0.0,0.014,0.281,low,0.382
+293,Netherlands,Scotland,tournament,4.044,3.833,4.241,3.803,4.272,0.1254,0.0,0.0157,0.307,low,0.408
+294,Spain,Sweden,tournament,3.716,3.51,3.923,3.49,3.946,0.1301,0.0,0.0169,0.325,low,0.413
+295,Argentina,Poland,tournament,4.243,4.014,4.487,4.027,4.49,0.1436,0.0,0.0206,0.378,low,0.473
+296,Austria,Netherlands,tournament,3.387,3.201,3.568,3.147,3.611,0.1105,0.0,0.0122,0.254,low,0.367
+297,Brazil,Peru,tournament,4.263,4.06,4.467,4.01,4.495,0.1218,0.0,0.0148,0.294,low,0.407
+298,Germany,Italy,tournament,4.226,4.022,4.428,3.99,4.437,0.1243,0.0,0.0154,0.303,low,0.406
+299,Argentina,Brazil,tournament,4.133,3.889,4.355,3.882,4.348,0.1426,0.0,0.0203,0.373,low,0.466
+300,Austria,Italy,tournament,3.212,3.015,3.406,2.976,3.442,0.1165,0.0,0.0136,0.275,low,0.391
+301,Germany,Netherlands,tournament,4.385,4.164,4.586,4.142,4.604,0.1288,0.0,0.0166,0.32,low,0.422
+302,Peru,Poland,tournament,3.493,3.299,3.688,3.274,3.715,0.1199,0.0,0.0144,0.287,low,0.389
+303,Argentina,Peru,tournament,4.402,4.204,4.625,4.164,4.632,0.1287,0.0,0.0166,0.32,low,0.421
+304,Austria,Germany,tournament,3.336,3.138,3.53,3.109,3.56,0.1178,0.0,0.0139,0.28,low,0.392
+305,Brazil,Poland,tournament,4.121,3.919,4.33,3.885,4.349,0.1286,0.0,0.0165,0.319,low,0.411
+306,Italy,Netherlands,tournament,3.768,3.532,3.994,3.519,4.006,0.1389,0.0,0.0193,0.359,low,0.462
+307,Brazil,Italy,tournament,4.163,3.933,4.388,3.931,4.392,0.1411,0.0,0.0199,0.368,low,0.455
+308,Argentina,Netherlands,tournament,4.251,4.033,4.478,4.005,4.47,0.1344,0.0,0.0181,0.342,low,0.445
+309,Argentina,Belgium,tournament,4.138,3.929,4.331,3.921,4.375,0.1256,0.0,0.0158,0.308,low,0.402
+310,Brazil,Russia,tournament,4.187,3.974,4.402,3.926,4.391,0.1238,0.0,0.0153,0.301,low,0.428
+311,Italy,Poland,tournament,3.738,3.514,3.941,3.517,3.973,0.1321,0.0,0.0175,0.333,low,0.427
+312,Hungary,El Salvador,tournament,4.475,4.277,4.681,4.246,4.709,0.1244,0.0,0.0155,0.304,low,0.404
+313,Peru,Cameroon,tournament,3.571,3.373,3.763,3.344,3.785,0.1215,0.0,0.0148,0.293,low,0.39
+314,Scotland,New Zealand,tournament,3.672,3.428,3.899,3.443,3.904,0.1427,0.0,0.0204,0.375,low,0.471
+315,England,France,tournament,3.542,3.334,3.752,3.308,3.753,0.1284,0.0,0.0165,0.318,low,0.418
+316,Germany,Algeria,tournament,4.349,4.147,4.562,4.102,4.584,0.1284,0.0,0.0165,0.318,low,0.415
+317,Spain,Honduras,tournament,3.912,3.681,4.147,3.676,4.153,0.1437,0.0,0.0207,0.379,low,0.466
+318,Chile,Austria,tournament,3.961,3.715,4.195,3.725,4.193,0.1469,0.0,0.0216,0.392,medium,0.48
+319,Czechoslovakia,Kuwait,tournament,3.774,3.531,4.025,3.537,4.012,0.1487,0.0,0.0221,0.399,medium,0.494
+320,Yugoslavia,Northern Ireland,tournament,3.778,3.572,3.981,3.528,3.984,0.1253,0.0,0.0157,0.307,low,0.409
+321,Argentina,Hungary,tournament,4.263,4.055,4.473,4.041,4.49,0.1261,0.0,0.0159,0.31,low,0.418
+322,Brazil,Scotland,tournament,4.339,4.126,4.561,4.105,4.599,0.1347,0.0,0.0181,0.342,low,0.435
+323,Italy,Peru,tournament,3.876,3.679,4.093,3.666,4.11,0.1252,0.0,0.0157,0.307,low,0.414
+324,Belgium,El Salvador,tournament,4.085,3.886,4.282,3.851,4.309,0.1204,0.0,0.0145,0.289,low,0.396
+325,Poland,Cameroon,tournament,3.903,3.666,4.144,3.656,4.132,0.1424,0.0,0.0203,0.373,low,0.478
+326,Russia,New Zealand,tournament,4.286,4.094,4.48,4.034,4.511,0.1167,0.0,0.0136,0.276,low,0.386
+327,England,Czechoslovakia,tournament,3.458,3.244,3.679,3.225,3.682,0.1352,0.0,0.0183,0.345,low,0.435
+328,Germany,Chile,tournament,4.529,4.348,4.706,4.306,4.764,0.1125,0.0,0.0127,0.261,low,0.358
+329,Spain,Yugoslavia,tournament,3.859,3.661,4.06,3.621,4.093,0.1237,0.0,0.0153,0.301,low,0.399
+330,Algeria,Austria,tournament,3.549,3.315,3.786,3.314,3.775,0.1415,0.0,0.02,0.369,low,0.471
+331,France,Kuwait,tournament,4.166,3.967,4.377,3.934,4.397,0.1289,0.0,0.0166,0.32,low,0.41
+332,Honduras,Northern Ireland,tournament,3.182,2.921,3.447,2.937,3.41,0.1529,0.0,0.0234,0.417,medium,0.526
+333,Belgium,Hungary,tournament,4.042,3.839,4.252,3.828,4.253,0.1251,0.0,0.0156,0.306,low,0.413
+334,Poland,Peru,tournament,4.006,3.8,4.216,3.764,4.235,0.1258,0.0,0.0158,0.308,low,0.416
+335,Russia,Scotland,tournament,4.264,4.036,4.477,4.028,4.479,0.1347,0.0,0.0182,0.343,low,0.441
+336,Argentina,El Salvador,tournament,4.275,4.077,4.471,4.04,4.513,0.1248,0.0,0.0156,0.305,low,0.394
+337,Brazil,New Zealand,tournament,4.228,4.026,4.445,3.987,4.447,0.129,0.0,0.0166,0.32,low,0.419
+338,Italy,Cameroon,tournament,3.795,3.548,4.061,3.581,4.03,0.155,0.0,0.024,0.425,medium,0.513
+339,Algeria,Chile,tournament,3.613,3.382,3.85,3.365,3.837,0.1428,0.0,0.0204,0.375,low,0.468
+340,France,Czechoslovakia,tournament,4.061,3.837,4.29,3.81,4.297,0.1342,0.0,0.018,0.34,low,0.453
+341,Honduras,Yugoslavia,tournament,3.214,2.997,3.434,2.994,3.435,0.1376,0.0,0.0189,0.353,low,0.437
+342,England,Kuwait,tournament,3.544,3.308,3.79,3.302,3.765,0.1455,0.0,0.0212,0.386,medium,0.482
+343,Germany,Austria,tournament,4.295,4.091,4.508,4.075,4.521,0.1295,0.0,0.0168,0.323,low,0.417
+344,Spain,Northern Ireland,tournament,3.803,3.57,4.032,3.547,4.018,0.1398,0.0,0.0195,0.362,low,0.462
+345,Austria,France,tournament,3.251,3.012,3.486,3.018,3.489,0.1431,0.0,0.0205,0.376,low,0.474
+346,Poland,Belgium,tournament,3.919,3.726,4.127,3.671,4.14,0.1253,0.0,0.0157,0.307,low,0.401
+347,Germany,England,tournament,4.303,4.074,4.531,4.063,4.534,0.1383,0.0,0.0191,0.356,low,0.457
+348,Italy,Argentina,tournament,3.82,3.605,4.028,3.589,4.06,0.1301,0.0,0.0169,0.325,low,0.423
+349,Austria,Northern Ireland,tournament,3.361,3.179,3.548,3.136,3.598,0.111,0.0,0.0123,0.256,low,0.369
+350,Belgium,Russia,tournament,3.985,3.766,4.2,3.746,4.22,0.1306,0.0,0.017,0.326,low,0.434
+351,Argentina,Brazil,tournament,4.218,4.004,4.427,3.978,4.451,0.1314,0.0,0.0173,0.33,low,0.423
+352,Spain,Germany,tournament,3.787,3.572,3.996,3.57,4.018,0.1301,0.0,0.0169,0.325,low,0.424
+353,France,Northern Ireland,tournament,4.099,3.894,4.304,3.866,4.339,0.1264,0.0,0.016,0.311,low,0.41
+354,Poland,Russia,tournament,4.015,3.809,4.235,3.771,4.234,0.1325,0.0,0.0176,0.334,low,0.426
+355,Italy,Brazil,tournament,3.861,3.61,4.112,3.636,4.054,0.1486,0.0,0.0221,0.399,medium,0.502
+356,Spain,England,tournament,3.805,3.586,4.031,3.552,4.028,0.1316,0.0,0.0173,0.33,low,0.445
+357,Germany,France,tournament,4.415,4.203,4.621,4.195,4.642,0.1309,0.0,0.0171,0.327,low,0.418
+358,Poland,Italy,tournament,3.882,3.696,4.079,3.665,4.111,0.1205,0.0,0.0145,0.289,low,0.383
+359,Poland,France,tournament,3.964,3.761,4.166,3.726,4.194,0.1227,0.0,0.0151,0.298,low,0.405
+360,Italy,Germany,tournament,3.949,3.679,4.216,3.725,4.177,0.1608,0.0,0.0259,0.451,medium,0.537
+361,Bulgaria,Italy,group_or_knockout,3.276,3.046,3.505,3.038,3.513,0.1396,0.0,0.0195,0.362,low,0.459
+362,Canada,France,group_or_knockout,3.36,3.168,3.541,3.135,3.572,0.1164,0.0,0.0135,0.274,low,0.373
+363,Spain,Brazil,group_or_knockout,3.729,3.513,3.946,3.487,3.961,0.1327,0.0,0.0176,0.335,low,0.433
+364,Argentina,South Korea,group_or_knockout,4.229,4.003,4.455,4.003,4.466,0.1379,0.0,0.019,0.355,low,0.452
+365,Morocco,Poland,group_or_knockout,3.037,2.828,3.25,2.818,3.257,0.1282,0.0,0.0164,0.317,low,0.422
+366,Russia,Hungary,group_or_knockout,4.276,4.07,4.502,4.04,4.515,0.1323,0.0,0.0175,0.333,low,0.432
+367,Algeria,Northern Ireland,group_or_knockout,3.594,3.361,3.831,3.357,3.845,0.1417,0.0,0.0201,0.37,low,0.47
+368,Mexico,Belgium,group_or_knockout,3.96,3.727,4.188,3.719,4.2,0.1378,0.0,0.019,0.355,low,0.461
+369,Portugal,England,group_or_knockout,3.208,2.941,3.472,2.966,3.427,0.1661,0.0,0.0276,0.475,medium,0.531
+370,Paraguay,Iraq,group_or_knockout,3.998,3.815,4.19,3.758,4.232,0.1151,0.0,0.0132,0.27,low,0.375
+371,Scotland,Denmark,group_or_knockout,3.496,3.296,3.707,3.277,3.729,0.1292,0.0,0.0167,0.321,low,0.411
+372,Uruguay,Germany,group_or_knockout,3.473,3.268,3.678,3.267,3.716,0.128,0.0,0.0164,0.317,low,0.41
+373,France,Russia,group_or_knockout,4.052,3.849,4.256,3.801,4.293,0.1221,0.0,0.0149,0.295,low,0.407
+374,Italy,Argentina,group_or_knockout,3.865,3.643,4.096,3.624,4.1,0.1408,0.0,0.0198,0.366,low,0.453
+375,South Korea,Bulgaria,group_or_knockout,3.218,2.994,3.435,2.966,3.454,0.1275,0.0,0.0162,0.314,low,0.441
+376,Brazil,Algeria,group_or_knockout,4.16,3.954,4.358,3.914,4.377,0.1211,0.0,0.0147,0.292,low,0.404
+377,England,Morocco,group_or_knockout,3.461,3.229,3.678,3.241,3.682,0.1378,0.0,0.019,0.355,low,0.449
+378,Hungary,Canada,group_or_knockout,3.967,3.77,4.161,3.729,4.211,0.122,0.0,0.0149,0.295,low,0.391
+379,Mexico,Paraguay,group_or_knockout,4.048,3.82,4.27,3.806,4.288,0.1402,0.0,0.0197,0.365,low,0.45
+380,Northern Ireland,Spain,group_or_knockout,3.616,3.401,3.822,3.379,3.816,0.1316,0.0,0.0173,0.33,low,0.421
+381,Poland,Portugal,group_or_knockout,3.888,3.634,4.13,3.646,4.121,0.1497,0.0,0.0224,0.403,medium,0.496
+382,Denmark,Uruguay,group_or_knockout,3.949,3.693,4.19,3.711,4.182,0.1481,0.0,0.0219,0.396,medium,0.497
+383,Germany,Scotland,group_or_knockout,4.436,4.236,4.639,4.215,4.651,0.1245,0.0,0.0155,0.304,low,0.403
+384,Iraq,Belgium,group_or_knockout,3.396,3.158,3.625,3.165,3.63,0.1423,0.0,0.0203,0.373,low,0.467
+385,Hungary,France,group_or_knockout,3.872,3.63,4.09,3.634,4.075,0.1404,0.0,0.0197,0.365,low,0.46
+386,Russia,Canada,group_or_knockout,4.352,4.154,4.532,4.13,4.589,0.1123,0.0,0.0126,0.26,low,0.378
+387,Argentina,Bulgaria,group_or_knockout,4.292,4.087,4.494,4.06,4.517,0.1204,0.0,0.0145,0.289,low,0.407
+388,South Korea,Italy,group_or_knockout,3.177,2.974,3.377,2.924,3.384,0.1217,0.0,0.0148,0.293,low,0.403
+389,England,Poland,group_or_knockout,3.575,3.347,3.816,3.358,3.818,0.14,0.0,0.0196,0.363,low,0.469
+390,Mexico,Iraq,group_or_knockout,4.028,3.795,4.266,3.793,4.262,0.1407,0.0,0.0198,0.366,low,0.471
+391,Paraguay,Belgium,group_or_knockout,4.072,3.831,4.289,3.823,4.336,0.1395,0.0,0.0195,0.362,low,0.458
+392,Portugal,Morocco,group_or_knockout,3.373,3.149,3.608,3.127,3.598,0.1389,0.0,0.0193,0.359,low,0.459
+393,Algeria,Spain,group_or_knockout,3.777,3.561,3.989,3.55,3.99,0.1272,0.0,0.0162,0.314,low,0.428
+394,Northern Ireland,Brazil,group_or_knockout,3.542,3.329,3.765,3.307,3.787,0.1352,0.0,0.0183,0.345,low,0.436
+395,Denmark,Germany,group_or_knockout,3.791,3.594,3.992,3.565,4.008,0.1225,0.0,0.015,0.296,low,0.398
+396,Scotland,Uruguay,group_or_knockout,3.483,3.299,3.68,3.248,3.719,0.1158,0.0,0.0134,0.272,low,0.381
+397,Mexico,Bulgaria,group_or_knockout,4.028,3.845,4.228,3.789,4.248,0.1154,0.0,0.0133,0.271,low,0.383
+398,Russia,Belgium,group_or_knockout,4.444,4.243,4.651,4.201,4.669,0.1269,0.0,0.0161,0.313,low,0.408
+399,Argentina,Uruguay,group_or_knockout,4.135,3.915,4.352,3.897,4.348,0.1287,0.0,0.0166,0.32,low,0.437
+400,Brazil,Poland,group_or_knockout,4.238,4.005,4.463,3.997,4.475,0.1388,0.0,0.0193,0.359,low,0.458
+401,Italy,France,group_or_knockout,3.836,3.619,4.05,3.593,4.055,0.1319,0.0,0.0174,0.332,low,0.431
+402,Morocco,Germany,group_or_knockout,2.981,2.756,3.208,2.737,3.215,0.1363,0.0,0.0186,0.349,low,0.452
+403,Denmark,Spain,group_or_knockout,3.892,3.678,4.107,3.649,4.12,0.1288,0.0,0.0166,0.32,low,0.429
+404,England,Paraguay,group_or_knockout,3.593,3.355,3.817,3.362,3.816,0.1396,0.0,0.0195,0.362,low,0.462
+405,Brazil,France,group_or_knockout,4.19,3.978,4.404,3.974,4.433,0.1299,0.0,0.0169,0.324,low,0.426
+406,Mexico,Germany,group_or_knockout,3.899,3.675,4.136,3.652,4.125,0.1392,0.0,0.0194,0.36,low,0.461
+407,Argentina,England,group_or_knockout,4.187,3.951,4.417,3.956,4.422,0.1386,0.0,0.0192,0.358,low,0.466
+408,Spain,Belgium,group_or_knockout,3.778,3.579,3.999,3.55,4.025,0.1301,0.0,0.0169,0.325,low,0.42
+409,Argentina,Belgium,group_or_knockout,4.198,3.967,4.419,3.957,4.423,0.1375,0.0,0.0189,0.353,low,0.452
+410,France,Germany,group_or_knockout,4.057,3.822,4.275,3.827,4.286,0.1385,0.0,0.0192,0.358,low,0.453
+411,France,Belgium,group_or_knockout,4.094,3.884,4.302,3.857,4.326,0.1246,0.0,0.0155,0.304,low,0.418
+412,Argentina,Germany,group_or_knockout,4.177,3.964,4.414,3.932,4.394,0.135,0.0,0.0182,0.343,low,0.45
+413,Argentina,Cameroon,group_or_knockout,4.232,4.008,4.445,3.998,4.447,0.1347,0.0,0.0182,0.343,low,0.437
+414,Italy,Austria,group_or_knockout,3.812,3.588,4.037,3.554,4.005,0.1369,0.0,0.0187,0.351,low,0.449
+415,Russia,Romania,group_or_knockout,4.242,4.065,4.412,4.007,4.479,0.1087,0.0,0.0118,0.248,low,0.347
+416,United Arab Emirates,Colombia,group_or_knockout,3.381,3.14,3.612,3.148,3.6,0.1411,0.0,0.0199,0.368,low,0.472
+417,Brazil,Sweden,group_or_knockout,4.151,3.921,4.377,3.92,4.382,0.1396,0.0,0.0195,0.362,low,0.456
+418,Germany,Yugoslavia,group_or_knockout,4.496,4.263,4.725,4.276,4.73,0.1377,0.0,0.019,0.355,low,0.462
+419,United States,Czechoslovakia,group_or_knockout,3.079,2.88,3.283,2.842,3.326,0.119,0.0,0.0142,0.284,low,0.403
+420,Costa Rica,Scotland,group_or_knockout,3.777,3.584,3.976,3.545,3.996,0.12,0.0,0.0144,0.287,low,0.392
+421,England,Republic of Ireland,group_or_knockout,3.516,3.255,3.761,3.268,3.751,0.16,0.0,0.0256,0.447,medium,0.506
+422,Belgium,South Korea,group_or_knockout,4.124,3.928,4.326,3.881,4.353,0.1241,0.0,0.0154,0.302,low,0.398
+423,Netherlands,Egypt,group_or_knockout,4.056,3.808,4.295,3.812,4.288,0.1471,0.0,0.0216,0.392,medium,0.487
+424,Argentina,Russia,group_or_knockout,4.157,3.947,4.377,3.911,4.357,0.1335,0.0,0.0178,0.338,low,0.43
+425,Uruguay,Spain,group_or_knockout,3.465,3.246,3.66,3.226,3.699,0.1303,0.0,0.017,0.326,low,0.414
+426,Cameroon,Romania,group_or_knockout,3.601,3.369,3.828,3.382,3.847,0.1405,0.0,0.0197,0.365,low,0.459
+427,Italy,United States,group_or_knockout,3.843,3.629,4.054,3.609,4.079,0.1293,0.0,0.0167,0.322,low,0.425
+428,Yugoslavia,Colombia,group_or_knockout,3.933,3.743,4.137,3.693,4.154,0.1239,0.0,0.0154,0.302,low,0.394
+429,Austria,Czechoslovakia,group_or_knockout,3.383,3.172,3.585,3.158,3.631,0.1264,0.0,0.016,0.311,low,0.413
+430,Germany,United Arab Emirates,group_or_knockout,4.527,4.313,4.741,4.293,4.767,0.1282,0.0,0.0164,0.317,low,0.428
+431,Brazil,Costa Rica,group_or_knockout,4.172,3.924,4.423,3.938,4.408,0.1507,0.0,0.0227,0.407,medium,0.499
+432,England,Netherlands,group_or_knockout,3.47,3.206,3.73,3.239,3.693,0.1565,0.0,0.0245,0.432,medium,0.524
+433,Sweden,Scotland,group_or_knockout,3.761,3.526,3.997,3.555,4.0,0.1391,0.0,0.0194,0.36,low,0.471
+434,Belgium,Uruguay,group_or_knockout,4.163,3.975,4.346,3.894,4.388,0.1142,0.0,0.013,0.267,low,0.371
+435,Republic of Ireland,Egypt,group_or_knockout,3.115,2.914,3.317,2.863,3.351,0.1235,0.0,0.0152,0.3,low,0.403
+436,South Korea,Spain,group_or_knockout,3.111,2.868,3.331,2.879,3.337,0.1433,0.0,0.0205,0.376,low,0.463
+437,Argentina,Romania,group_or_knockout,4.205,3.971,4.436,3.97,4.437,0.1443,0.0,0.0208,0.381,medium,0.465
+438,Cameroon,Russia,group_or_knockout,3.641,3.409,3.869,3.405,3.849,0.139,0.0,0.0193,0.359,low,0.46
+439,Austria,United States,group_or_knockout,3.479,3.27,3.696,3.24,3.713,0.1264,0.0,0.016,0.311,low,0.426
+440,Germany,Colombia,group_or_knockout,4.349,4.157,4.551,4.119,4.597,0.1203,0.0,0.0145,0.289,low,0.394
+441,Italy,Czechoslovakia,group_or_knockout,3.839,3.621,4.049,3.601,4.077,0.13,0.0,0.0169,0.324,low,0.428
+442,Yugoslavia,United Arab Emirates,group_or_knockout,3.967,3.738,4.193,3.735,4.203,0.1401,0.0,0.0196,0.363,low,0.455
+443,Brazil,Scotland,group_or_knockout,4.175,3.987,4.367,3.919,4.392,0.117,0.0,0.0137,0.277,low,0.38
+444,Sweden,Costa Rica,group_or_knockout,3.855,3.654,4.057,3.639,4.074,0.1249,0.0,0.0156,0.305,low,0.403
+445,Belgium,Spain,group_or_knockout,4.096,3.876,4.302,3.861,4.304,0.1342,0.0,0.018,0.34,low,0.426
+446,England,Egypt,group_or_knockout,3.551,3.314,3.784,3.324,3.771,0.1421,0.0,0.0202,0.372,low,0.47
+447,Republic of Ireland,Netherlands,group_or_knockout,3.142,2.926,3.358,2.902,3.375,0.1272,0.0,0.0162,0.314,low,0.432
+448,South Korea,Uruguay,group_or_knockout,3.101,2.877,3.33,2.861,3.345,0.1389,0.0,0.0193,0.359,low,0.453
+449,Cameroon,Colombia,group_or_knockout,3.573,3.34,3.806,3.366,3.812,0.1471,0.0,0.0216,0.392,medium,0.466
+450,Czechoslovakia,Costa Rica,group_or_knockout,3.803,3.574,4.017,3.556,4.024,0.1326,0.0,0.0176,0.335,low,0.443
+451,Brazil,Argentina,group_or_knockout,4.199,3.984,4.405,3.962,4.43,0.1298,0.0,0.0168,0.323,low,0.421
+452,Germany,Netherlands,group_or_knockout,4.324,4.113,4.549,4.084,4.54,0.1347,0.0,0.0181,0.342,low,0.436
+453,Republic of Ireland,Romania,group_or_knockout,3.136,2.906,3.358,2.892,3.374,0.1373,0.0,0.0189,0.353,low,0.452
+454,Italy,Uruguay,group_or_knockout,3.897,3.657,4.129,3.659,4.1,0.1443,0.0,0.0208,0.381,medium,0.472
+455,England,Belgium,group_or_knockout,3.435,3.217,3.646,3.194,3.651,0.1274,0.0,0.0162,0.314,low,0.429
+456,Spain,Yugoslavia,group_or_knockout,3.863,3.672,4.073,3.622,4.065,0.1222,0.0,0.0149,0.295,low,0.401
+457,Italy,Republic of Ireland,group_or_knockout,3.818,3.61,4.036,3.567,4.047,0.1338,0.0,0.0179,0.339,low,0.426
+458,Yugoslavia,Argentina,group_or_knockout,3.782,3.594,3.969,3.539,4.014,0.1124,0.0,0.0126,0.26,low,0.375
+459,Cameroon,England,group_or_knockout,3.592,3.385,3.804,3.38,3.83,0.1273,0.0,0.0162,0.314,low,0.419
+460,Germany,Czechoslovakia,group_or_knockout,4.375,4.129,4.6,4.135,4.621,0.141,0.0,0.0199,0.368,low,0.471
+461,Italy,Argentina,group_or_knockout,3.82,3.566,4.046,3.56,4.04,0.1415,0.0,0.02,0.369,low,0.48
+462,Germany,England,group_or_knockout,4.299,4.089,4.499,4.077,4.537,0.1242,0.0,0.0154,0.302,low,0.41
+463,Italy,England,group_or_knockout,3.922,3.684,4.149,3.686,4.131,0.1383,0.0,0.0191,0.356,low,0.465
+464,Germany,Argentina,group_or_knockout,4.365,4.127,4.611,4.145,4.599,0.1451,0.0,0.0211,0.384,medium,0.484
+465,Germany,Bolivia,group_or_knockout,4.439,4.234,4.642,4.218,4.674,0.1217,0.0,0.0148,0.293,low,0.408
+466,Spain,South Korea,group_or_knockout,3.927,3.721,4.139,3.69,4.17,0.13,0.0,0.0169,0.324,low,0.418
+467,Colombia,Romania,group_or_knockout,3.386,3.187,3.579,3.168,3.611,0.1202,0.0,0.0145,0.289,low,0.392
+468,Italy,Republic of Ireland,group_or_knockout,3.864,3.65,4.073,3.645,4.099,0.1295,0.0,0.0168,0.323,low,0.423
+469,United States,Switzerland,group_or_knockout,3.168,2.961,3.377,2.935,3.399,0.1276,0.0,0.0163,0.316,low,0.416
+470,Belgium,Morocco,group_or_knockout,4.08,3.868,4.292,3.827,4.281,0.1299,0.0,0.0169,0.324,low,0.424
+471,Cameroon,Sweden,group_or_knockout,3.617,3.392,3.844,3.385,3.84,0.1399,0.0,0.0196,0.363,low,0.452
+472,Norway,Mexico,group_or_knockout,3.073,2.861,3.275,2.839,3.302,0.1287,0.0,0.0166,0.32,low,0.414
+473,Brazil,Russia,group_or_knockout,4.146,3.926,4.357,3.918,4.388,0.1296,0.0,0.0168,0.323,low,0.431
+474,Netherlands,Saudi Arabia,group_or_knockout,4.027,3.79,4.256,3.785,4.247,0.1455,0.0,0.0212,0.386,medium,0.466
+475,Argentina,Greece,group_or_knockout,4.385,4.167,4.612,4.141,4.61,0.1387,0.0,0.0192,0.358,low,0.445
+476,Germany,Spain,group_or_knockout,4.341,4.114,4.564,4.123,4.567,0.1372,0.0,0.0188,0.352,low,0.45
+477,Nigeria,Bulgaria,group_or_knockout,3.764,3.549,3.968,3.527,3.973,0.1306,0.0,0.0171,0.327,low,0.419
+478,Romania,Switzerland,group_or_knockout,3.948,3.748,4.136,3.697,4.174,0.1189,0.0,0.0141,0.283,low,0.388
+479,United States,Colombia,group_or_knockout,3.16,2.943,3.38,2.921,3.394,0.133,0.0,0.0177,0.336,low,0.437
+480,Italy,Norway,group_or_knockout,3.796,3.559,4.011,3.552,4.032,0.1352,0.0,0.0183,0.345,low,0.452
+481,South Korea,Bolivia,group_or_knockout,3.163,2.989,3.333,2.922,3.393,0.107,0.0,0.0115,0.243,low,0.344
+482,Brazil,Cameroon,group_or_knockout,4.249,4.047,4.461,4.014,4.466,0.1221,0.0,0.0149,0.295,low,0.414
+483,Mexico,Republic of Ireland,group_or_knockout,4.062,3.83,4.318,3.838,4.295,0.1468,0.0,0.0215,0.39,medium,0.488
+484,Sweden,Russia,group_or_knockout,3.794,3.55,4.035,3.553,4.022,0.1467,0.0,0.0215,0.39,medium,0.485
+485,Argentina,Nigeria,group_or_knockout,4.241,4.041,4.429,4.016,4.46,0.1163,0.0,0.0135,0.274,low,0.388
+486,Belgium,Netherlands,group_or_knockout,3.992,3.815,4.178,3.777,4.223,0.113,0.0,0.0128,0.263,low,0.363
+487,Saudi Arabia,Morocco,group_or_knockout,3.864,3.656,4.079,3.61,4.098,0.131,0.0,0.0172,0.329,low,0.423
+488,Bulgaria,Greece,group_or_knockout,3.407,3.139,3.694,3.169,3.633,0.1641,0.0,0.0269,0.465,medium,0.555
+489,Switzerland,Colombia,group_or_knockout,3.889,3.715,4.066,3.634,4.098,0.1101,0.0,0.0121,0.253,low,0.351
+490,United States,Romania,group_or_knockout,3.314,3.113,3.499,3.07,3.549,0.1223,0.0,0.015,0.296,low,0.386
+491,Bolivia,Spain,group_or_knockout,3.28,3.045,3.536,3.043,3.515,0.1473,0.0,0.0217,0.393,medium,0.491
+492,Germany,South Korea,group_or_knockout,4.501,4.329,4.688,4.256,4.724,0.109,0.0,0.0119,0.249,low,0.359
+493,Brazil,Sweden,group_or_knockout,4.125,3.879,4.358,3.884,4.358,0.1466,0.0,0.0215,0.39,medium,0.479
+494,Republic of Ireland,Norway,group_or_knockout,3.117,2.92,3.317,2.877,3.353,0.1224,0.0,0.015,0.296,low,0.397
+495,Italy,Mexico,group_or_knockout,3.85,3.59,4.097,3.616,4.089,0.1504,0.0,0.0226,0.406,medium,0.507
+496,Russia,Cameroon,group_or_knockout,4.353,4.165,4.554,4.137,4.571,0.1183,0.0,0.014,0.281,low,0.389
+497,Belgium,Saudi Arabia,group_or_knockout,4.129,3.917,4.342,3.888,4.36,0.1301,0.0,0.0169,0.325,low,0.425
+498,Morocco,Netherlands,group_or_knockout,3.098,2.846,3.339,2.831,3.286,0.145,0.0,0.021,0.383,medium,0.493
+499,Argentina,Bulgaria,group_or_knockout,4.298,4.056,4.542,4.044,4.529,0.1463,0.0,0.0214,0.389,medium,0.486
+500,Greece,Nigeria,group_or_knockout,3.29,3.073,3.507,3.05,3.512,0.1316,0.0,0.0173,0.33,low,0.434
+501,Germany,Belgium,group_or_knockout,4.588,4.358,4.817,4.355,4.811,0.1421,0.0,0.0202,0.372,low,0.459
+502,Spain,Switzerland,group_or_knockout,3.787,3.563,3.997,3.542,4.005,0.1279,0.0,0.0164,0.317,low,0.434
+503,Romania,Argentina,group_or_knockout,3.905,3.685,4.13,3.665,4.118,0.1318,0.0,0.0174,0.332,low,0.445
+504,Saudi Arabia,Sweden,group_or_knockout,3.885,3.653,4.115,3.647,4.119,0.1414,0.0,0.02,0.369,low,0.462
+505,Netherlands,Republic of Ireland,group_or_knockout,4.076,3.844,4.287,3.836,4.309,0.1334,0.0,0.0178,0.337,low,0.443
+506,United States,Brazil,group_or_knockout,2.987,2.767,3.214,2.756,3.24,0.1335,0.0,0.0178,0.338,low,0.447
+507,Mexico,Bulgaria,group_or_knockout,4.004,3.799,4.198,3.782,4.236,0.1246,0.0,0.0155,0.304,low,0.399
+508,Nigeria,Italy,group_or_knockout,3.639,3.413,3.863,3.398,3.873,0.141,0.0,0.0199,0.368,low,0.45
+509,Italy,Spain,group_or_knockout,3.849,3.646,4.062,3.62,4.099,0.1287,0.0,0.0166,0.32,low,0.416
+510,Netherlands,Brazil,group_or_knockout,4.024,3.774,4.248,3.8,4.259,0.1427,0.0,0.0204,0.375,low,0.474
+511,Bulgaria,Germany,group_or_knockout,3.246,2.999,3.467,3.006,3.48,0.143,0.0,0.0205,0.376,low,0.468
+512,Romania,Sweden,group_or_knockout,3.851,3.654,4.044,3.628,4.087,0.1231,0.0,0.0152,0.299,low,0.39
+513,Bulgaria,Italy,group_or_knockout,3.335,3.066,3.608,3.104,3.58,0.1673,0.0,0.028,0.48,medium,0.542
+514,Sweden,Brazil,group_or_knockout,3.636,3.392,3.877,3.405,3.88,0.1434,0.0,0.0206,0.377,low,0.485
+515,Sweden,Bulgaria,group_or_knockout,3.806,3.602,4.008,3.559,4.036,0.1218,0.0,0.0148,0.294,low,0.406
+516,Brazil,Italy,group_or_knockout,4.126,3.889,4.37,3.896,4.366,0.1477,0.0,0.0218,0.395,medium,0.481
+517,Brazil,Scotland,group_or_knockout,4.243,4.037,4.444,4.009,4.475,0.1278,0.0,0.0163,0.316,low,0.407
+518,Morocco,Norway,group_or_knockout,3.108,2.882,3.324,2.872,3.354,0.1315,0.0,0.0173,0.33,low,0.442
+519,Cameroon,Austria,group_or_knockout,3.604,3.378,3.816,3.371,3.83,0.1289,0.0,0.0166,0.32,low,0.438
+520,Italy,Chile,group_or_knockout,3.971,3.737,4.202,3.73,4.201,0.1387,0.0,0.0192,0.358,low,0.465
+521,France,South Africa,group_or_knockout,4.25,4.015,4.492,4.001,4.459,0.1448,0.0,0.021,0.383,medium,0.477
+522,Paraguay,Bulgaria,group_or_knockout,3.947,3.736,4.152,3.71,4.175,0.127,0.0,0.0161,0.313,low,0.416
+523,Saudi Arabia,Denmark,group_or_knockout,3.763,3.557,3.975,3.527,3.988,0.1259,0.0,0.0159,0.31,low,0.418
+524,South Korea,Mexico,group_or_knockout,3.178,2.973,3.374,2.936,3.408,0.1227,0.0,0.0151,0.298,low,0.401
+525,Netherlands,Belgium,group_or_knockout,3.911,3.689,4.139,3.653,4.152,0.1349,0.0,0.0182,0.343,low,0.45
+526,Spain,Nigeria,group_or_knockout,3.874,3.664,4.075,3.636,4.105,0.1265,0.0,0.016,0.311,low,0.411
+527,Argentina,Japan,group_or_knockout,4.286,4.085,4.498,4.046,4.518,0.1282,0.0,0.0164,0.317,low,0.413
+528,Jamaica,Croatia,group_or_knockout,3.659,3.447,3.863,3.43,3.881,0.1297,0.0,0.0168,0.323,low,0.416
+529,Serbia,Iran,group_or_knockout,3.181,2.962,3.4,2.941,3.406,0.1372,0.0,0.0188,0.352,low,0.438
+530,England,Tunisia,group_or_knockout,3.678,3.451,3.901,3.438,3.909,0.1341,0.0,0.018,0.34,low,0.45
+531,Germany,United States,group_or_knockout,4.422,4.215,4.636,4.179,4.639,0.1228,0.0,0.0151,0.298,low,0.421
+532,Romania,Colombia,group_or_knockout,3.74,3.529,3.929,3.51,3.977,0.1238,0.0,0.0153,0.301,low,0.4
+533,Brazil,Morocco,group_or_knockout,4.215,4.002,4.446,3.975,4.452,0.1295,0.0,0.0168,0.323,low,0.444
+534,Scotland,Norway,group_or_knockout,3.585,3.388,3.775,3.344,3.809,0.1183,0.0,0.014,0.281,low,0.387
+535,Chile,Austria,group_or_knockout,3.859,3.651,4.062,3.62,4.075,0.1265,0.0,0.016,0.311,low,0.411
+536,Italy,Cameroon,group_or_knockout,4.002,3.761,4.226,3.758,4.228,0.1413,0.0,0.02,0.369,low,0.465
+537,France,Saudi Arabia,group_or_knockout,4.269,4.058,4.474,4.037,4.506,0.126,0.0,0.0159,0.31,low,0.416
+538,South Africa,Denmark,group_or_knockout,3.518,3.322,3.727,3.305,3.762,0.1218,0.0,0.0148,0.294,low,0.405
+539,Nigeria,Bulgaria,group_or_knockout,3.663,3.431,3.89,3.437,3.91,0.1427,0.0,0.0204,0.375,low,0.459
+540,Spain,Paraguay,group_or_knockout,3.856,3.63,4.072,3.628,4.09,0.1382,0.0,0.0191,0.356,low,0.442
+541,Belgium,Mexico,group_or_knockout,4.105,3.899,4.319,3.869,4.306,0.1277,0.0,0.0163,0.316,low,0.42
+542,Japan,Croatia,group_or_knockout,3.782,3.555,4.021,3.544,4.011,0.1384,0.0,0.0192,0.357,low,0.466
+543,Netherlands,South Korea,group_or_knockout,4.072,3.836,4.304,3.857,4.308,0.141,0.0,0.0199,0.368,low,0.468
+544,Argentina,Jamaica,group_or_knockout,4.47,4.267,4.666,4.229,4.7,0.1243,0.0,0.0155,0.304,low,0.399
+545,Germany,Serbia,group_or_knockout,4.557,4.308,4.811,4.331,4.787,0.151,0.0,0.0228,0.409,medium,0.503
+546,United States,Iran,group_or_knockout,3.051,2.851,3.256,2.816,3.299,0.1224,0.0,0.015,0.296,low,0.405
+547,Colombia,Tunisia,group_or_knockout,3.318,3.124,3.52,3.076,3.562,0.1216,0.0,0.0148,0.293,low,0.396
+548,Romania,England,group_or_knockout,3.808,3.591,4.021,3.566,4.024,0.1321,0.0,0.0174,0.332,low,0.43
+549,Brazil,Norway,group_or_knockout,4.213,4.001,4.419,3.971,4.44,0.1245,0.0,0.0155,0.304,low,0.418
+550,Chile,Cameroon,group_or_knockout,3.941,3.716,4.177,3.7,4.183,0.1392,0.0,0.0194,0.36,low,0.461
+551,Italy,Austria,group_or_knockout,3.996,3.746,4.251,3.764,4.237,0.1545,0.0,0.0239,0.424,medium,0.505
+552,Scotland,Morocco,group_or_knockout,3.656,3.45,3.859,3.417,3.892,0.1288,0.0,0.0166,0.32,low,0.409
+553,France,Denmark,group_or_knockout,4.23,4.011,4.453,3.992,4.46,0.1367,0.0,0.0187,0.35,low,0.442
+554,Nigeria,Paraguay,group_or_knockout,3.73,3.503,3.956,3.497,3.96,0.1386,0.0,0.0192,0.358,low,0.453
+555,South Africa,Saudi Arabia,group_or_knockout,3.65,3.44,3.871,3.425,3.882,0.1326,0.0,0.0176,0.335,low,0.431
+556,Spain,Bulgaria,group_or_knockout,3.954,3.722,4.183,3.715,4.178,0.1401,0.0,0.0196,0.363,low,0.461
+557,Belgium,South Korea,group_or_knockout,4.143,3.908,4.366,3.904,4.373,0.142,0.0,0.0202,0.372,low,0.458
+558,Germany,Iran,group_or_knockout,4.478,4.233,4.704,4.26,4.713,0.1474,0.0,0.0217,0.393,medium,0.471
+559,Netherlands,Mexico,group_or_knockout,4.023,3.808,4.228,3.793,4.24,0.1288,0.0,0.0166,0.32,low,0.42
+560,United States,Serbia,group_or_knockout,3.124,2.923,3.326,2.913,3.361,0.1239,0.0,0.0153,0.301,low,0.403
+561,Argentina,Croatia,group_or_knockout,4.245,4.026,4.453,4.012,4.48,0.1322,0.0,0.0175,0.333,low,0.427
+562,Colombia,England,group_or_knockout,3.409,3.166,3.622,3.16,3.64,0.138,0.0,0.0191,0.356,low,0.456
+563,Japan,Jamaica,group_or_knockout,3.868,3.621,4.104,3.627,4.088,0.149,0.0,0.0222,0.4,medium,0.483
+564,Romania,Tunisia,group_or_knockout,3.769,3.56,3.987,3.501,3.997,0.1244,0.0,0.0155,0.304,low,0.427
+565,Brazil,Chile,group_or_knockout,4.228,3.988,4.485,3.999,4.458,0.1522,0.0,0.0232,0.414,medium,0.497
+566,Italy,Norway,group_or_knockout,3.877,3.666,4.077,3.655,4.101,0.1282,0.0,0.0164,0.317,low,0.411
+567,France,Paraguay,group_or_knockout,4.2,3.983,4.422,3.932,4.416,0.1318,0.0,0.0174,0.332,low,0.439
+568,Nigeria,Denmark,group_or_knockout,3.749,3.538,3.967,3.499,4.002,0.1361,0.0,0.0185,0.348,low,0.429
+569,Germany,Mexico,group_or_knockout,4.428,4.224,4.644,4.188,4.656,0.1336,0.0,0.0179,0.339,low,0.42
+570,Netherlands,Serbia,group_or_knockout,4.006,3.821,4.2,3.745,4.245,0.1139,0.0,0.013,0.266,low,0.379
+571,Argentina,England,group_or_knockout,4.278,4.046,4.496,4.057,4.49,0.1402,0.0,0.0197,0.365,low,0.45
+572,Romania,Croatia,group_or_knockout,3.731,3.499,3.968,3.499,3.971,0.1409,0.0,0.0199,0.367,low,0.469
+573,Brazil,Denmark,group_or_knockout,4.257,4.046,4.481,4.016,4.493,0.1349,0.0,0.0182,0.343,low,0.435
+574,France,Italy,group_or_knockout,4.141,3.923,4.364,3.899,4.37,0.1314,0.0,0.0173,0.33,low,0.441
+575,Germany,Croatia,group_or_knockout,4.44,4.217,4.654,4.189,4.673,0.1322,0.0,0.0175,0.333,low,0.437
+576,Netherlands,Argentina,group_or_knockout,4.071,3.835,4.288,3.827,4.287,0.1379,0.0,0.019,0.355,low,0.453
+577,Brazil,Netherlands,group_or_knockout,4.175,3.961,4.394,3.933,4.398,0.1264,0.0,0.016,0.311,low,0.433
+578,France,Croatia,group_or_knockout,4.218,3.988,4.449,3.985,4.458,0.1413,0.0,0.02,0.369,low,0.461
+579,Netherlands,Croatia,group_or_knockout,4.042,3.824,4.264,3.827,4.271,0.1359,0.0,0.0185,0.347,low,0.44
+580,France,Brazil,group_or_knockout,4.082,3.868,4.284,3.844,4.312,0.1243,0.0,0.0155,0.304,low,0.416
+581,France,Senegal,group_or_knockout,4.174,3.944,4.402,3.947,4.399,0.1415,0.0,0.02,0.369,low,0.458
+582,Germany,Saudi Arabia,group_or_knockout,4.586,4.402,4.781,4.36,4.831,0.1133,0.0,0.0128,0.263,low,0.379
+583,Republic of Ireland,Cameroon,group_or_knockout,3.254,3.049,3.458,3.014,3.496,0.1271,0.0,0.0161,0.313,low,0.409
+584,Uruguay,Denmark,group_or_knockout,3.602,3.369,3.832,3.382,3.842,0.1415,0.0,0.02,0.369,low,0.463
+585,Argentina,Nigeria,group_or_knockout,4.286,4.075,4.506,4.05,4.522,0.1345,0.0,0.0181,0.342,low,0.431
+586,England,Sweden,group_or_knockout,3.495,3.259,3.748,3.259,3.718,0.146,0.0,0.0213,0.388,medium,0.489
+587,Paraguay,South Africa,group_or_knockout,4.174,3.962,4.373,3.934,4.407,0.1226,0.0,0.015,0.297,low,0.411
+588,Spain,Slovenia,group_or_knockout,3.942,3.745,4.138,3.699,4.168,0.1187,0.0,0.0141,0.283,low,0.393
+589,Brazil,Turkey,group_or_knockout,4.274,4.08,4.473,4.038,4.496,0.121,0.0,0.0147,0.292,low,0.393
+590,Croatia,Mexico,group_or_knockout,4.093,3.861,4.318,3.887,4.324,0.1367,0.0,0.0187,0.35,low,0.457
+591,Italy,Ecuador,group_or_knockout,3.974,3.745,4.196,3.754,4.22,0.1408,0.0,0.0198,0.366,low,0.451
+592,China,Costa Rica,group_or_knockout,2.809,2.611,3.02,2.562,3.023,0.1222,0.0,0.0149,0.295,low,0.409
+593,Japan,Belgium,group_or_knockout,3.892,3.649,4.132,3.648,4.121,0.1458,0.0,0.0213,0.387,medium,0.483
+594,South Korea,Poland,group_or_knockout,3.213,2.973,3.46,3.003,3.444,0.1466,0.0,0.0215,0.39,medium,0.487
+595,Germany,Republic of Ireland,group_or_knockout,4.415,4.205,4.621,4.174,4.65,0.1276,0.0,0.0163,0.316,low,0.416
+596,Russia,Tunisia,group_or_knockout,4.328,4.148,4.524,4.107,4.555,0.1134,0.0,0.0129,0.265,low,0.376
+597,United States,Portugal,group_or_knockout,3.129,2.926,3.327,2.905,3.36,0.1262,0.0,0.0159,0.31,low,0.401
+598,Cameroon,Saudi Arabia,group_or_knockout,3.54,3.328,3.758,3.32,3.755,0.1329,0.0,0.0177,0.336,low,0.43
+599,Denmark,Senegal,group_or_knockout,3.908,3.686,4.135,3.684,4.123,0.1339,0.0,0.0179,0.339,low,0.449
+600,France,Uruguay,group_or_knockout,3.985,3.767,4.202,3.746,4.235,0.1305,0.0,0.017,0.326,low,0.435
+601,Argentina,England,group_or_knockout,4.247,4.011,4.473,4.006,4.486,0.1407,0.0,0.0198,0.366,low,0.462
+602,Spain,Paraguay,group_or_knockout,3.871,3.649,4.085,3.649,4.109,0.1283,0.0,0.0165,0.318,low,0.436
+603,Sweden,Nigeria,group_or_knockout,3.877,3.647,4.103,3.622,4.091,0.1406,0.0,0.0198,0.366,low,0.456
+604,Brazil,China,group_or_knockout,4.321,4.106,4.532,4.089,4.573,0.1321,0.0,0.0174,0.332,low,0.426
+605,Italy,Croatia,group_or_knockout,4.01,3.783,4.24,3.77,4.243,0.135,0.0,0.0182,0.343,low,0.457
+606,South Africa,Slovenia,group_or_knockout,3.645,3.41,3.868,3.402,3.872,0.1408,0.0,0.0198,0.366,low,0.458
+607,Costa Rica,Turkey,group_or_knockout,3.766,3.562,3.961,3.548,3.981,0.1226,0.0,0.015,0.297,low,0.399
+608,Japan,Russia,group_or_knockout,3.893,3.684,4.111,3.675,4.126,0.134,0.0,0.018,0.34,low,0.427
+609,Mexico,Ecuador,group_or_knockout,3.929,3.714,4.141,3.71,4.149,0.1342,0.0,0.018,0.34,low,0.427
+610,South Korea,United States,group_or_knockout,3.186,2.986,3.385,2.942,3.425,0.1214,0.0,0.0147,0.292,low,0.399
+611,Portugal,Poland,group_or_knockout,3.427,3.196,3.657,3.179,3.634,0.1441,0.0,0.0208,0.38,medium,0.461
+612,Tunisia,Belgium,group_or_knockout,3.701,3.469,3.95,3.474,3.954,0.1457,0.0,0.0212,0.386,medium,0.481
+613,Cameroon,Germany,group_or_knockout,3.526,3.308,3.726,3.289,3.74,0.1294,0.0,0.0167,0.322,low,0.418
+614,Denmark,France,group_or_knockout,3.829,3.595,4.065,3.593,4.055,0.1409,0.0,0.0199,0.367,low,0.47
+615,Saudi Arabia,Republic of Ireland,group_or_knockout,3.859,3.625,4.089,3.631,4.091,0.1443,0.0,0.0208,0.381,medium,0.464
+616,Senegal,Uruguay,group_or_knockout,3.519,3.313,3.723,3.261,3.742,0.1245,0.0,0.0155,0.304,low,0.41
+617,Nigeria,England,group_or_knockout,3.68,3.461,3.907,3.435,3.902,0.1434,0.0,0.0206,0.377,low,0.446
+618,Slovenia,Paraguay,group_or_knockout,3.141,2.942,3.334,2.906,3.38,0.1211,0.0,0.0147,0.292,low,0.392
+619,South Africa,Spain,group_or_knockout,3.682,3.481,3.869,3.431,3.909,0.1182,0.0,0.014,0.281,low,0.388
+620,Sweden,Argentina,group_or_knockout,3.745,3.481,3.988,3.532,3.952,0.1557,0.0,0.0242,0.428,medium,0.507
+621,Costa Rica,Brazil,group_or_knockout,3.78,3.601,3.953,3.548,3.999,0.1099,0.0,0.0121,0.252,low,0.352
+622,Ecuador,Croatia,group_or_knockout,3.292,3.065,3.538,3.054,3.526,0.1412,0.0,0.0199,0.368,low,0.473
+623,Mexico,Italy,group_or_knockout,3.918,3.68,4.142,3.678,4.152,0.1401,0.0,0.0196,0.363,low,0.462
+624,Turkey,China,group_or_knockout,3.493,3.252,3.723,3.258,3.701,0.1415,0.0,0.02,0.369,low,0.471
+625,Belgium,Russia,group_or_knockout,4.233,4.013,4.457,3.982,4.465,0.136,0.0,0.0185,0.348,low,0.444
+626,Japan,Tunisia,group_or_knockout,4.101,3.9,4.299,3.864,4.308,0.1212,0.0,0.0147,0.292,low,0.399
+627,South Korea,Portugal,group_or_knockout,3.167,2.948,3.378,2.922,3.394,0.1321,0.0,0.0175,0.333,low,0.43
+628,Poland,United States,group_or_knockout,4.07,3.835,4.296,3.833,4.309,0.1421,0.0,0.0202,0.372,low,0.461
+629,Denmark,England,group_or_knockout,3.923,3.736,4.116,3.663,4.153,0.1147,0.0,0.0132,0.269,low,0.38
+630,Germany,Paraguay,group_or_knockout,4.42,4.194,4.635,4.202,4.648,0.1358,0.0,0.0184,0.346,low,0.441
+631,Spain,Republic of Ireland,group_or_knockout,3.907,3.69,4.112,3.669,4.141,0.1322,0.0,0.0175,0.333,low,0.422
+632,Sweden,Senegal,group_or_knockout,3.769,3.531,4.0,3.541,4.009,0.1428,0.0,0.0204,0.375,low,0.469
+633,Brazil,Belgium,group_or_knockout,4.321,4.124,4.544,4.08,4.522,0.1251,0.0,0.0156,0.306,low,0.42
+634,Mexico,United States,group_or_knockout,3.956,3.742,4.175,3.719,4.19,0.1344,0.0,0.0181,0.342,low,0.433
+635,Japan,Turkey,group_or_knockout,3.905,3.661,4.136,3.69,4.123,0.1451,0.0,0.021,0.383,medium,0.475
+636,South Korea,Italy,group_or_knockout,3.253,3.031,3.496,3.022,3.48,0.1408,0.0,0.0198,0.366,low,0.465
+637,England,Brazil,group_or_knockout,3.537,3.319,3.762,3.312,3.771,0.1346,0.0,0.0181,0.342,low,0.443
+638,Germany,United States,group_or_knockout,4.445,4.24,4.649,4.201,4.661,0.1228,0.0,0.0151,0.298,low,0.409
+639,South Korea,Spain,group_or_knockout,3.289,3.047,3.518,3.046,3.494,0.1428,0.0,0.0204,0.375,low,0.471
+640,Senegal,Turkey,group_or_knockout,3.411,3.166,3.657,3.162,3.638,0.1493,0.0,0.0223,0.401,medium,0.491
+641,South Korea,Germany,group_or_knockout,3.134,2.934,3.339,2.914,3.366,0.127,0.0,0.0161,0.313,low,0.405
+642,Brazil,Turkey,group_or_knockout,4.172,3.939,4.42,3.932,4.389,0.1463,0.0,0.0214,0.389,medium,0.481
+643,South Korea,Turkey,group_or_knockout,3.423,3.206,3.641,3.184,3.64,0.1315,0.0,0.0173,0.33,low,0.435
+644,Germany,Brazil,group_or_knockout,4.424,4.221,4.636,4.185,4.644,0.122,0.0,0.0149,0.295,low,0.415
+645,Germany,Costa Rica,group_or_knockout,4.576,4.365,4.773,4.34,4.783,0.125,0.0,0.0156,0.305,low,0.408
+646,Poland,Ecuador,group_or_knockout,4.042,3.838,4.253,3.806,4.287,0.125,0.0,0.0156,0.305,low,0.415
+647,Argentina,Ivory Coast,group_or_knockout,4.337,4.123,4.534,4.1,4.559,0.1245,0.0,0.0155,0.304,low,0.411
+648,England,Paraguay,group_or_knockout,3.525,3.313,3.744,3.299,3.772,0.1341,0.0,0.018,0.34,low,0.431
+649,Trinidad and Tobago,Sweden,group_or_knockout,2.699,2.494,2.895,2.457,2.916,0.1202,0.0,0.0145,0.289,low,0.401
+650,Angola,Portugal,group_or_knockout,2.838,2.668,3.02,2.591,3.051,0.108,0.0,0.0117,0.246,low,0.352
+651,Mexico,Iran,group_or_knockout,4.107,3.884,4.327,3.873,4.331,0.1327,0.0,0.0176,0.335,low,0.443
+652,Serbia,Netherlands,group_or_knockout,3.161,2.947,3.372,2.928,3.395,0.1317,0.0,0.0174,0.331,low,0.425
+653,Australia,Japan,group_or_knockout,3.869,3.632,4.113,3.63,4.077,0.1441,0.0,0.0208,0.38,medium,0.481
+654,Italy,Ghana,group_or_knockout,3.962,3.722,4.205,3.738,4.194,0.149,0.0,0.0222,0.4,medium,0.483
+655,United States,Czech Republic,group_or_knockout,3.163,2.955,3.365,2.919,3.38,0.1248,0.0,0.0156,0.305,low,0.41
+656,Brazil,Croatia,group_or_knockout,4.199,3.985,4.42,3.939,4.413,0.1323,0.0,0.0175,0.333,low,0.435
+657,France,Switzerland,group_or_knockout,4.175,3.951,4.387,3.925,4.401,0.1374,0.0,0.0189,0.353,low,0.436
+658,South Korea,Togo,group_or_knockout,3.244,3.046,3.444,3.028,3.466,0.1223,0.0,0.015,0.296,low,0.398
+659,Germany,Poland,group_or_knockout,4.476,4.253,4.696,4.233,4.721,0.1368,0.0,0.0187,0.351,low,0.443
+660,Spain,Ukraine,group_or_knockout,3.916,3.706,4.14,3.675,4.139,0.1351,0.0,0.0183,0.345,low,0.434
+661,Tunisia,Saudi Arabia,group_or_knockout,3.989,3.79,4.19,3.771,4.215,0.1239,0.0,0.0154,0.302,low,0.4
+662,Ecuador,Costa Rica,group_or_knockout,3.35,3.152,3.549,3.123,3.581,0.1239,0.0,0.0154,0.302,low,0.397
+663,England,Trinidad and Tobago,group_or_knockout,3.607,3.359,3.856,3.349,3.818,0.1519,0.0,0.0231,0.413,medium,0.497
+664,Sweden,Paraguay,group_or_knockout,3.736,3.47,4.01,3.513,3.983,0.1607,0.0,0.0258,0.45,medium,0.54
+665,Argentina,Serbia,group_or_knockout,4.416,4.198,4.636,4.202,4.653,0.1307,0.0,0.0171,0.327,low,0.438
+666,Mexico,Angola,group_or_knockout,3.974,3.731,4.208,3.731,4.207,0.1437,0.0,0.0207,0.379,low,0.477
+667,Netherlands,Ivory Coast,group_or_knockout,4.056,3.848,4.284,3.818,4.294,0.1299,0.0,0.0169,0.324,low,0.436
+668,Czech Republic,Ghana,group_or_knockout,3.636,3.422,3.852,3.384,3.87,0.1363,0.0,0.0186,0.349,low,0.43
+669,Italy,United States,group_or_knockout,3.933,3.707,4.162,3.704,4.157,0.1373,0.0,0.0189,0.353,low,0.455
+670,Portugal,Iran,group_or_knockout,3.372,3.139,3.613,3.127,3.599,0.1398,0.0,0.0195,0.362,low,0.474
+671,Brazil,Australia,group_or_knockout,4.233,4.042,4.447,3.991,4.468,0.1235,0.0,0.0153,0.301,low,0.405
+672,France,South Korea,group_or_knockout,4.208,3.981,4.44,3.977,4.432,0.1396,0.0,0.0195,0.362,low,0.459
+673,Japan,Croatia,group_or_knockout,3.779,3.54,4.01,3.541,3.988,0.14,0.0,0.0196,0.363,low,0.47
+674,Saudi Arabia,Ukraine,group_or_knockout,3.935,3.71,4.181,3.7,4.169,0.1442,0.0,0.0208,0.38,medium,0.471
+675,Spain,Tunisia,group_or_knockout,3.915,3.716,4.135,3.687,4.15,0.1312,0.0,0.0172,0.329,low,0.419
+676,Togo,Switzerland,group_or_knockout,3.068,2.878,3.251,2.83,3.316,0.1126,0.0,0.0127,0.262,low,0.373
+677,Costa Rica,Poland,group_or_knockout,3.853,3.629,4.091,3.615,4.058,0.1395,0.0,0.0195,0.362,low,0.462
+678,Germany,Ecuador,group_or_knockout,4.461,4.261,4.661,4.241,4.697,0.1231,0.0,0.0152,0.299,low,0.4
+679,Paraguay,Trinidad and Tobago,group_or_knockout,4.071,3.866,4.279,3.816,4.3,0.1286,0.0,0.0165,0.319,low,0.413
+680,Sweden,England,group_or_knockout,3.864,3.622,4.111,3.646,4.071,0.1474,0.0,0.0217,0.393,medium,0.489
+681,Iran,Angola,group_or_knockout,3.85,3.629,4.055,3.642,4.097,0.1294,0.0,0.0167,0.322,low,0.426
+682,Ivory Coast,Serbia,group_or_knockout,3.705,3.491,3.899,3.461,3.922,0.1258,0.0,0.0158,0.308,low,0.408
+683,Netherlands,Argentina,group_or_knockout,4.012,3.812,4.21,3.8,4.252,0.1187,0.0,0.0141,0.283,low,0.398
+684,Portugal,Mexico,group_or_knockout,3.375,3.135,3.586,3.128,3.596,0.139,0.0,0.0193,0.359,low,0.451
+685,Croatia,Australia,group_or_knockout,4.124,3.922,4.328,3.887,4.341,0.1238,0.0,0.0153,0.301,low,0.406
+686,Czech Republic,Italy,group_or_knockout,3.707,3.489,3.939,3.485,3.928,0.1358,0.0,0.0184,0.346,low,0.45
+687,Ghana,United States,group_or_knockout,3.036,2.832,3.229,2.792,3.268,0.123,0.0,0.0151,0.298,low,0.397
+688,Japan,Brazil,group_or_knockout,3.834,3.603,4.058,3.599,4.071,0.1407,0.0,0.0198,0.366,low,0.455
+689,Saudi Arabia,Spain,group_or_knockout,3.749,3.533,3.968,3.515,3.977,0.1315,0.0,0.0173,0.33,low,0.435
+690,Switzerland,South Korea,group_or_knockout,3.954,3.761,4.156,3.714,4.193,0.1183,0.0,0.014,0.281,low,0.395
+691,Togo,France,group_or_knockout,2.954,2.777,3.132,2.72,3.186,0.1079,0.0,0.0116,0.245,low,0.355
+692,Ukraine,Tunisia,group_or_knockout,3.714,3.495,3.954,3.488,3.937,0.1377,0.0,0.019,0.355,low,0.459
+693,Argentina,Mexico,group_or_knockout,4.329,4.108,4.535,4.071,4.546,0.1347,0.0,0.0181,0.342,low,0.427
+694,Germany,Sweden,group_or_knockout,4.502,4.289,4.719,4.268,4.737,0.129,0.0,0.0166,0.32,low,0.43
+695,England,Ecuador,group_or_knockout,3.586,3.348,3.82,3.365,3.823,0.1418,0.0,0.0201,0.371,low,0.472
+696,Portugal,Netherlands,group_or_knockout,3.267,3.048,3.49,3.024,3.502,0.1298,0.0,0.0168,0.323,low,0.442
+697,Italy,Australia,group_or_knockout,3.908,3.642,4.158,3.686,4.124,0.1552,0.0,0.0241,0.427,medium,0.516
+698,Switzerland,Ukraine,group_or_knockout,3.961,3.76,4.176,3.745,4.19,0.1251,0.0,0.0156,0.306,low,0.416
+699,Brazil,Ghana,group_or_knockout,4.243,4.048,4.451,4.008,4.489,0.1251,0.0,0.0156,0.306,low,0.403
+700,Spain,France,group_or_knockout,3.991,3.763,4.215,3.748,4.2,0.14,0.0,0.0196,0.363,low,0.452
+701,Germany,Argentina,group_or_knockout,4.485,4.27,4.694,4.251,4.706,0.129,0.0,0.0166,0.32,low,0.424
+702,Italy,Ukraine,group_or_knockout,3.974,3.745,4.205,3.733,4.21,0.1396,0.0,0.0195,0.362,low,0.46
+703,Brazil,France,group_or_knockout,4.26,4.047,4.487,4.02,4.492,0.1276,0.0,0.0163,0.316,low,0.44
+704,England,Portugal,group_or_knockout,3.447,3.246,3.633,3.228,3.681,0.1208,0.0,0.0146,0.29,low,0.387
+705,Germany,Italy,group_or_knockout,4.471,4.246,4.69,4.229,4.701,0.1342,0.0,0.018,0.34,low,0.444
+706,Portugal,France,group_or_knockout,3.316,3.076,3.554,3.081,3.55,0.1451,0.0,0.0211,0.384,medium,0.478
+707,Germany,Portugal,group_or_knockout,4.48,4.274,4.69,4.247,4.731,0.1275,0.0,0.0162,0.314,low,0.416
+708,Italy,France,group_or_knockout,3.896,3.657,4.137,3.643,4.139,0.1466,0.0,0.0215,0.39,medium,0.48
+709,South Africa,Mexico,group_or_knockout,3.591,3.397,3.785,3.355,3.824,0.1184,0.0,0.014,0.282,low,0.388
+710,Uruguay,France,group_or_knockout,3.577,3.383,3.771,3.325,3.803,0.1173,0.0,0.0138,0.278,low,0.388
+711,Argentina,Nigeria,group_or_knockout,4.334,4.135,4.533,4.114,4.582,0.1214,0.0,0.0147,0.292,low,0.398
+712,England,United States,group_or_knockout,3.598,3.368,3.825,3.384,3.827,0.1405,0.0,0.0197,0.365,low,0.457
+713,South Korea,Greece,group_or_knockout,3.145,2.942,3.343,2.904,3.381,0.1264,0.0,0.016,0.311,low,0.401
+714,Algeria,Slovenia,group_or_knockout,3.609,3.397,3.821,3.419,3.843,0.1312,0.0,0.0172,0.329,low,0.424
+715,Germany,Australia,group_or_knockout,4.589,4.392,4.794,4.353,4.833,0.1216,0.0,0.0148,0.293,low,0.402
+716,Serbia,Ghana,group_or_knockout,3.213,3.025,3.388,2.996,3.438,0.1095,0.0,0.012,0.251,low,0.363
+717,Italy,Paraguay,group_or_knockout,3.852,3.601,4.08,3.631,4.099,0.1448,0.0,0.021,0.383,medium,0.479
+718,Japan,Cameroon,group_or_knockout,3.96,3.731,4.2,3.715,4.196,0.1429,0.0,0.0204,0.375,low,0.469
+719,Netherlands,Denmark,group_or_knockout,4.108,3.892,4.318,3.865,4.333,0.1331,0.0,0.0177,0.336,low,0.426
+720,Brazil,North Korea,group_or_knockout,4.274,4.054,4.5,4.031,4.511,0.134,0.0,0.018,0.34,low,0.446
+721,Ivory Coast,Portugal,group_or_knockout,3.593,3.376,3.801,3.36,3.828,0.1289,0.0,0.0166,0.32,low,0.425
+722,New Zealand,Slovakia,group_or_knockout,2.845,2.639,3.065,2.612,3.071,0.1338,0.0,0.0179,0.339,low,0.426
+723,Honduras,Chile,group_or_knockout,3.288,3.057,3.497,3.056,3.528,0.1326,0.0,0.0176,0.335,low,0.44
+724,South Africa,Uruguay,group_or_knockout,3.667,3.469,3.865,3.407,3.892,0.1214,0.0,0.0147,0.292,low,0.396
+725,Spain,Switzerland,group_or_knockout,3.931,3.718,4.13,3.693,4.122,0.1253,0.0,0.0157,0.307,low,0.412
+726,Argentina,South Korea,group_or_knockout,4.504,4.291,4.714,4.278,4.718,0.1317,0.0,0.0173,0.33,low,0.423
+727,France,Mexico,group_or_knockout,4.178,3.986,4.38,3.94,4.419,0.1241,0.0,0.0154,0.302,low,0.394
+728,Greece,Nigeria,group_or_knockout,3.453,3.234,3.664,3.207,3.682,0.1303,0.0,0.017,0.326,low,0.43
+729,England,Algeria,group_or_knockout,3.57,3.346,3.775,3.328,3.803,0.1349,0.0,0.0182,0.343,low,0.429
+730,Germany,Serbia,group_or_knockout,4.391,4.194,4.594,4.16,4.634,0.1219,0.0,0.0149,0.295,low,0.4
+731,Slovenia,United States,group_or_knockout,3.201,2.959,3.447,2.955,3.427,0.1413,0.0,0.02,0.369,low,0.488
+732,Cameroon,Denmark,group_or_knockout,3.62,3.417,3.83,3.383,3.854,0.1302,0.0,0.0169,0.325,low,0.413
+733,Ghana,Australia,group_or_knockout,3.013,2.807,3.229,2.777,3.25,0.1272,0.0,0.0162,0.314,low,0.422
+734,Netherlands,Japan,group_or_knockout,4.044,3.818,4.271,3.812,4.281,0.1378,0.0,0.019,0.355,low,0.453
+735,Brazil,Ivory Coast,group_or_knockout,4.358,4.133,4.587,4.134,4.583,0.1371,0.0,0.0188,0.352,low,0.454
+736,Italy,New Zealand,group_or_knockout,3.992,3.778,4.208,3.741,4.224,0.129,0.0,0.0167,0.321,low,0.43
+737,Slovakia,Paraguay,group_or_knockout,3.081,2.895,3.275,2.867,3.295,0.1193,0.0,0.0142,0.285,low,0.38
+738,Chile,Switzerland,group_or_knockout,3.999,3.799,4.222,3.741,4.236,0.1311,0.0,0.0172,0.329,low,0.423
+739,Portugal,North Korea,group_or_knockout,3.534,3.325,3.752,3.323,3.774,0.1276,0.0,0.0163,0.316,low,0.427
+740,Spain,Honduras,group_or_knockout,3.984,3.756,4.204,3.762,4.217,0.137,0.0,0.0188,0.352,low,0.448
+741,Greece,Argentina,group_or_knockout,3.321,3.128,3.515,3.08,3.528,0.1174,0.0,0.0138,0.278,low,0.387
+742,Mexico,Uruguay,group_or_knockout,4.082,3.843,4.323,3.838,4.307,0.1494,0.0,0.0223,0.402,medium,0.48
+743,Nigeria,South Korea,group_or_knockout,3.804,3.587,4.014,3.563,4.032,0.1296,0.0,0.0168,0.323,low,0.427
+744,South Africa,France,group_or_knockout,3.637,3.405,3.87,3.392,3.851,0.1421,0.0,0.0202,0.372,low,0.465
+745,Australia,Serbia,group_or_knockout,3.874,3.663,4.094,3.65,4.103,0.1285,0.0,0.0165,0.319,low,0.431
+746,Ghana,Germany,group_or_knockout,2.959,2.722,3.189,2.724,3.194,0.1391,0.0,0.0194,0.36,low,0.467
+747,Slovenia,England,group_or_knockout,3.052,2.843,3.269,2.804,3.296,0.1331,0.0,0.0177,0.336,low,0.426
+748,United States,Algeria,group_or_knockout,3.069,2.851,3.295,2.83,3.287,0.136,0.0,0.0185,0.348,low,0.444
+749,Cameroon,Netherlands,group_or_knockout,3.598,3.364,3.84,3.357,3.832,0.1423,0.0,0.0202,0.372,low,0.476
+750,Denmark,Japan,group_or_knockout,4.049,3.852,4.237,3.794,4.274,0.1156,0.0,0.0134,0.272,low,0.385
+751,Paraguay,New Zealand,group_or_knockout,4.053,3.858,4.249,3.833,4.294,0.1178,0.0,0.0139,0.28,low,0.391
+752,Slovakia,Italy,group_or_knockout,3.256,3.062,3.449,3.031,3.472,0.1174,0.0,0.0138,0.278,low,0.387
+753,Chile,Spain,group_or_knockout,3.998,3.764,4.22,3.765,4.227,0.1374,0.0,0.0189,0.353,low,0.456
+754,North Korea,Ivory Coast,group_or_knockout,3.881,3.65,4.122,3.655,4.112,0.144,0.0,0.0207,0.379,low,0.472
+755,Portugal,Brazil,group_or_knockout,3.234,2.993,3.485,3.023,3.459,0.15,0.0,0.0225,0.404,medium,0.492
+756,Switzerland,Honduras,group_or_knockout,4.024,3.802,4.244,3.786,4.265,0.1313,0.0,0.0172,0.329,low,0.442
+757,Uruguay,South Korea,group_or_knockout,3.738,3.532,3.954,3.513,3.942,0.1295,0.0,0.0168,0.323,low,0.422
+758,United States,Ghana,group_or_knockout,3.246,3.006,3.479,3.024,3.456,0.149,0.0,0.0222,0.4,medium,0.473
+759,Argentina,Mexico,group_or_knockout,4.282,4.05,4.498,4.052,4.51,0.1325,0.0,0.0175,0.333,low,0.448
+760,Germany,England,group_or_knockout,4.504,4.257,4.758,4.289,4.71,0.1499,0.0,0.0225,0.404,medium,0.501
+761,Brazil,Chile,group_or_knockout,4.311,4.081,4.536,4.067,4.504,0.1435,0.0,0.0206,0.378,low,0.455
+762,Netherlands,Slovakia,group_or_knockout,4.22,4.022,4.417,3.983,4.454,0.1192,0.0,0.0142,0.284,low,0.395
+763,Paraguay,Japan,group_or_knockout,4.045,3.859,4.238,3.829,4.279,0.1159,0.0,0.0134,0.273,low,0.379
+764,Spain,Portugal,group_or_knockout,3.838,3.651,4.027,3.603,4.07,0.1176,0.0,0.0138,0.279,low,0.376
+765,Netherlands,Brazil,group_or_knockout,4.037,3.847,4.247,3.781,4.268,0.121,0.0,0.0146,0.291,low,0.4
+766,Uruguay,Ghana,group_or_knockout,3.678,3.47,3.883,3.433,3.911,0.1253,0.0,0.0157,0.307,low,0.413
+767,Argentina,Germany,group_or_knockout,4.25,4.024,4.483,4.008,4.459,0.1391,0.0,0.0193,0.359,low,0.459
+768,Paraguay,Spain,group_or_knockout,4.022,3.816,4.231,3.789,4.255,0.1269,0.0,0.0161,0.313,low,0.415
+769,Uruguay,Netherlands,group_or_knockout,3.731,3.518,3.946,3.507,3.959,0.1283,0.0,0.0165,0.318,low,0.428
+770,Germany,Spain,group_or_knockout,4.516,4.274,4.732,4.277,4.725,0.1387,0.0,0.0192,0.358,low,0.458
+771,Uruguay,Germany,group_or_knockout,3.73,3.537,3.924,3.492,3.926,0.1177,0.0,0.0139,0.28,low,0.387
+772,Netherlands,Spain,group_or_knockout,4.03,3.817,4.243,3.8,4.267,0.1311,0.0,0.0172,0.329,low,0.426
+773,Brazil,Croatia,group_or_knockout,4.377,4.151,4.609,4.156,4.609,0.1411,0.0,0.0199,0.368,low,0.458
+774,Chile,Australia,group_or_knockout,4.118,3.904,4.314,3.88,4.332,0.1211,0.0,0.0147,0.292,low,0.41
+775,Mexico,Cameroon,group_or_knockout,4.059,3.803,4.29,3.814,4.301,0.1489,0.0,0.0222,0.4,medium,0.487
+776,Spain,Netherlands,group_or_knockout,3.948,3.738,4.157,3.716,4.17,0.1273,0.0,0.0162,0.314,low,0.419
+777,Colombia,Greece,group_or_knockout,3.444,3.228,3.644,3.234,3.688,0.128,0.0,0.0164,0.317,low,0.416
+778,England,Italy,group_or_knockout,3.642,3.423,3.867,3.404,3.865,0.1384,0.0,0.0191,0.356,low,0.444
+779,Ivory Coast,Japan,group_or_knockout,3.64,3.415,3.852,3.417,3.868,0.1317,0.0,0.0173,0.33,low,0.437
+780,Uruguay,Costa Rica,group_or_knockout,3.686,3.497,3.872,3.43,3.911,0.115,0.0,0.0132,0.269,low,0.375
+781,Argentina,Bosnia and Herzegovina,group_or_knockout,4.389,4.135,4.617,4.158,4.619,0.1507,0.0,0.0227,0.407,medium,0.482
+782,France,Honduras,group_or_knockout,4.392,4.16,4.614,4.133,4.634,0.1347,0.0,0.0181,0.342,low,0.454
+783,Switzerland,Ecuador,group_or_knockout,4.043,3.833,4.239,3.802,4.281,0.1218,0.0,0.0148,0.294,low,0.406
+784,Germany,Portugal,group_or_knockout,4.498,4.301,4.701,4.256,4.723,0.1261,0.0,0.0159,0.31,low,0.4
+785,Ghana,United States,group_or_knockout,3.047,2.834,3.277,2.826,3.282,0.1321,0.0,0.0174,0.332,low,0.443
+786,Iran,Nigeria,group_or_knockout,3.89,3.685,4.101,3.654,4.124,0.1286,0.0,0.0165,0.319,low,0.416
+787,Belgium,Algeria,group_or_knockout,4.163,3.945,4.374,3.939,4.39,0.1281,0.0,0.0164,0.317,low,0.429
+788,Brazil,Mexico,group_or_knockout,4.253,4.051,4.451,4.022,4.499,0.1233,0.0,0.0152,0.299,low,0.4
+789,Russia,South Korea,group_or_knockout,4.557,4.349,4.764,4.309,4.785,0.1282,0.0,0.0164,0.317,low,0.415
+790,Australia,Netherlands,group_or_knockout,3.844,3.644,4.042,3.61,4.067,0.1223,0.0,0.0149,0.295,low,0.398
+791,Cameroon,Croatia,group_or_knockout,3.655,3.401,3.908,3.399,3.898,0.1522,0.0,0.0232,0.414,medium,0.507
+792,Spain,Chile,group_or_knockout,3.878,3.664,4.074,3.644,4.112,0.1238,0.0,0.0153,0.301,low,0.41
+793,Colombia,Ivory Coast,group_or_knockout,3.507,3.267,3.734,3.29,3.744,0.1429,0.0,0.0204,0.375,low,0.467
+794,Japan,Greece,group_or_knockout,3.945,3.689,4.194,3.701,4.159,0.156,0.0,0.0243,0.429,medium,0.505
+795,Uruguay,England,group_or_knockout,3.793,3.605,3.984,3.584,4.03,0.116,0.0,0.0135,0.274,low,0.379
+796,Honduras,Ecuador,group_or_knockout,3.332,3.092,3.575,3.099,3.573,0.1456,0.0,0.0212,0.386,medium,0.483
+797,Italy,Costa Rica,group_or_knockout,3.923,3.688,4.143,3.678,4.157,0.1385,0.0,0.0192,0.358,low,0.455
+798,Switzerland,France,group_or_knockout,4.157,3.953,4.357,3.945,4.405,0.1202,0.0,0.0145,0.289,low,0.404
+799,Argentina,Iran,group_or_knockout,4.32,4.125,4.522,4.082,4.566,0.1223,0.0,0.015,0.296,low,0.397
+800,Germany,Ghana,group_or_knockout,4.477,4.262,4.702,4.245,4.717,0.1342,0.0,0.018,0.34,low,0.44
+801,Nigeria,Bosnia and Herzegovina,group_or_knockout,3.685,3.454,3.907,3.473,3.92,0.1372,0.0,0.0188,0.352,low,0.453
+802,Belgium,Russia,group_or_knockout,4.076,3.89,4.277,3.83,4.32,0.1195,0.0,0.0143,0.286,low,0.387
+803,South Korea,Algeria,group_or_knockout,3.272,3.05,3.474,3.038,3.49,0.124,0.0,0.0154,0.302,low,0.424
+804,United States,Portugal,group_or_knockout,3.114,2.899,3.327,2.897,3.342,0.133,0.0,0.0177,0.336,low,0.428
+805,Australia,Spain,group_or_knockout,3.837,3.633,4.068,3.584,4.075,0.1336,0.0,0.0179,0.339,low,0.435
+806,Brazil,Cameroon,group_or_knockout,4.4,4.158,4.648,4.158,4.613,0.1482,0.0,0.022,0.397,medium,0.49
+807,Croatia,Mexico,group_or_knockout,3.999,3.784,4.216,3.768,4.21,0.1325,0.0,0.0176,0.334,low,0.432
+808,Netherlands,Chile,group_or_knockout,4.039,3.842,4.233,3.794,4.272,0.1177,0.0,0.0139,0.28,low,0.391
+809,Costa Rica,England,group_or_knockout,3.737,3.506,3.968,3.495,3.976,0.1386,0.0,0.0192,0.358,low,0.462
+810,Greece,Ivory Coast,group_or_knockout,3.409,3.186,3.622,3.159,3.646,0.1308,0.0,0.0171,0.327,low,0.436
+811,Italy,Uruguay,group_or_knockout,4.01,3.789,4.246,3.78,4.251,0.1408,0.0,0.0198,0.366,low,0.457
+812,Japan,Colombia,group_or_knockout,3.937,3.711,4.178,3.706,4.168,0.143,0.0,0.0204,0.375,low,0.467
+813,Bosnia and Herzegovina,Iran,group_or_knockout,3.302,3.085,3.528,3.073,3.545,0.1327,0.0,0.0176,0.335,low,0.443
+814,Ecuador,France,group_or_knockout,3.311,3.098,3.538,3.067,3.536,0.1322,0.0,0.0175,0.333,low,0.44
+815,Honduras,Switzerland,group_or_knockout,3.367,3.119,3.597,3.121,3.574,0.147,0.0,0.0216,0.392,medium,0.478
+816,Nigeria,Argentina,group_or_knockout,3.739,3.528,3.97,3.505,3.976,0.1338,0.0,0.0179,0.339,low,0.442
+817,Algeria,Russia,group_or_knockout,3.602,3.377,3.84,3.383,3.844,0.139,0.0,0.0193,0.359,low,0.463
+818,South Korea,Belgium,group_or_knockout,3.171,2.944,3.387,2.929,3.41,0.1332,0.0,0.0177,0.336,low,0.443
+819,Portugal,Ghana,group_or_knockout,3.436,3.172,3.68,3.222,3.676,0.1534,0.0,0.0235,0.418,medium,0.508
+820,United States,Germany,group_or_knockout,3.05,2.83,3.263,2.834,3.263,0.1323,0.0,0.0175,0.333,low,0.433
+821,Brazil,Chile,group_or_knockout,4.259,4.046,4.468,4.012,4.494,0.128,0.0,0.0164,0.317,low,0.422
+822,Colombia,Uruguay,group_or_knockout,3.496,3.247,3.739,3.257,3.722,0.1481,0.0,0.0219,0.396,medium,0.492
+823,Costa Rica,Greece,group_or_knockout,3.852,3.628,4.091,3.614,4.099,0.1415,0.0,0.02,0.369,low,0.463
+824,Netherlands,Mexico,group_or_knockout,4.094,3.893,4.321,3.854,4.329,0.1296,0.0,0.0168,0.323,low,0.428
+825,France,Nigeria,group_or_knockout,4.196,3.991,4.401,3.962,4.439,0.1283,0.0,0.0165,0.318,low,0.41
+826,Germany,Algeria,group_or_knockout,4.492,4.262,4.729,4.256,4.733,0.1395,0.0,0.0195,0.362,low,0.467
+827,Argentina,Switzerland,group_or_knockout,4.277,4.045,4.496,4.035,4.511,0.1381,0.0,0.0191,0.356,low,0.451
+828,Belgium,United States,group_or_knockout,4.198,4.003,4.4,3.961,4.42,0.118,0.0,0.0139,0.28,low,0.397
+829,Brazil,Colombia,group_or_knockout,4.354,4.131,4.56,4.116,4.589,0.1311,0.0,0.0172,0.329,low,0.429
+830,France,Germany,group_or_knockout,4.075,3.859,4.289,3.826,4.303,0.1301,0.0,0.0169,0.325,low,0.43
+831,Argentina,Belgium,group_or_knockout,4.215,3.992,4.442,3.985,4.463,0.1427,0.0,0.0204,0.375,low,0.45
+832,Netherlands,Costa Rica,group_or_knockout,4.04,3.849,4.232,3.785,4.279,0.1179,0.0,0.0139,0.28,low,0.383
+833,Brazil,Germany,group_or_knockout,4.448,4.248,4.654,4.182,4.675,0.1238,0.0,0.0153,0.301,low,0.406
+834,Netherlands,Argentina,group_or_knockout,3.944,3.748,4.134,3.715,4.176,0.1163,0.0,0.0135,0.274,low,0.386
+835,Brazil,Netherlands,group_or_knockout,4.488,4.268,4.692,4.271,4.724,0.1289,0.0,0.0166,0.32,low,0.424
+836,Germany,Argentina,group_or_knockout,4.489,4.274,4.706,4.254,4.719,0.1309,0.0,0.0171,0.327,low,0.432
+837,Russia,Saudi Arabia,group_or_knockout,4.581,4.384,4.778,4.349,4.814,0.1192,0.0,0.0142,0.284,low,0.394
+838,Egypt,Uruguay,group_or_knockout,3.558,3.347,3.769,3.308,3.795,0.1303,0.0,0.017,0.326,low,0.422
+839,Morocco,Iran,group_or_knockout,3.298,3.111,3.479,3.057,3.528,0.1151,0.0,0.0133,0.271,low,0.368
+840,Portugal,Spain,group_or_knockout,3.499,3.289,3.715,3.248,3.704,0.1325,0.0,0.0176,0.334,low,0.426
+841,France,Australia,group_or_knockout,4.189,3.97,4.417,3.946,4.43,0.1351,0.0,0.0182,0.344,low,0.447
+842,Argentina,Iceland,group_or_knockout,4.397,4.159,4.64,4.168,4.621,0.1454,0.0,0.0211,0.385,medium,0.481
+843,Peru,Denmark,group_or_knockout,3.735,3.51,3.961,3.499,3.973,0.1347,0.0,0.0181,0.342,low,0.451
+844,Croatia,Nigeria,group_or_knockout,4.137,3.935,4.336,3.894,4.353,0.1276,0.0,0.0163,0.316,low,0.401
+845,Costa Rica,Serbia,group_or_knockout,3.818,3.622,4.005,3.568,4.053,0.1156,0.0,0.0134,0.272,low,0.383
+846,Germany,Mexico,group_or_knockout,4.558,4.334,4.782,4.346,4.788,0.1323,0.0,0.0175,0.333,low,0.448
+847,Brazil,Switzerland,group_or_knockout,4.346,4.114,4.558,4.123,4.585,0.1342,0.0,0.018,0.34,low,0.444
+848,Sweden,South Korea,group_or_knockout,3.895,3.646,4.122,3.677,4.137,0.1478,0.0,0.0219,0.396,medium,0.476
+849,Belgium,Panama,group_or_knockout,4.233,4.037,4.419,4.002,4.474,0.122,0.0,0.0149,0.295,low,0.382
+850,Tunisia,England,group_or_knockout,3.83,3.63,4.044,3.595,4.073,0.124,0.0,0.0154,0.302,low,0.414
+851,Colombia,Japan,group_or_knockout,3.598,3.398,3.826,3.367,3.838,0.1288,0.0,0.0166,0.32,low,0.428
+852,Poland,Senegal,group_or_knockout,4.157,3.945,4.356,3.919,4.358,0.1258,0.0,0.0158,0.308,low,0.411
+853,Russia,Egypt,group_or_knockout,4.496,4.283,4.725,4.245,4.726,0.1344,0.0,0.0181,0.342,low,0.442
+854,Portugal,Morocco,group_or_knockout,3.429,3.207,3.644,3.19,3.659,0.132,0.0,0.0174,0.332,low,0.437
+855,Uruguay,Saudi Arabia,group_or_knockout,3.663,3.454,3.852,3.415,3.897,0.1176,0.0,0.0138,0.279,low,0.398
+856,Iran,Spain,group_or_knockout,3.744,3.553,3.943,3.517,3.958,0.1182,0.0,0.014,0.281,low,0.39
+857,Denmark,Australia,group_or_knockout,3.939,3.719,4.182,3.717,4.175,0.1355,0.0,0.0184,0.346,low,0.463
+858,France,Peru,group_or_knockout,4.128,3.905,4.348,3.904,4.356,0.1342,0.0,0.018,0.34,low,0.443
+859,Argentina,Croatia,group_or_knockout,4.335,4.113,4.549,4.112,4.546,0.134,0.0,0.018,0.34,low,0.436
+860,Brazil,Costa Rica,group_or_knockout,4.311,4.095,4.514,4.077,4.524,0.1292,0.0,0.0167,0.321,low,0.419
+861,Nigeria,Iceland,group_or_knockout,3.88,3.671,4.091,3.643,4.099,0.1322,0.0,0.0175,0.333,low,0.42
+862,Serbia,Switzerland,group_or_knockout,3.326,3.118,3.537,3.075,3.536,0.1303,0.0,0.017,0.326,low,0.419
+863,Belgium,Tunisia,group_or_knockout,4.391,4.152,4.633,4.153,4.624,0.1446,0.0,0.0209,0.382,medium,0.481
+864,South Korea,Mexico,group_or_knockout,3.232,2.997,3.477,2.994,3.446,0.1441,0.0,0.0208,0.38,medium,0.48
+865,Germany,Sweden,group_or_knockout,4.526,4.326,4.729,4.289,4.744,0.1226,0.0,0.015,0.297,low,0.403
+866,England,Panama,group_or_knockout,3.824,3.613,4.026,3.597,4.042,0.1296,0.0,0.0168,0.323,low,0.413
+867,Japan,Senegal,group_or_knockout,3.97,3.733,4.212,3.732,4.202,0.1443,0.0,0.0208,0.381,medium,0.479
+868,Poland,Colombia,group_or_knockout,4.093,3.858,4.332,3.879,4.343,0.1398,0.0,0.0196,0.363,low,0.474
+869,Russia,Uruguay,group_or_knockout,4.478,4.27,4.692,4.242,4.713,0.1277,0.0,0.0163,0.316,low,0.422
+870,Saudi Arabia,Egypt,group_or_knockout,3.975,3.773,4.183,3.713,4.221,0.1263,0.0,0.0159,0.31,low,0.41
+871,Spain,Morocco,group_or_knockout,4.03,3.815,4.234,3.788,4.26,0.1257,0.0,0.0158,0.308,low,0.419
+872,Iran,Portugal,group_or_knockout,3.772,3.57,3.962,3.548,4.005,0.1202,0.0,0.0144,0.288,low,0.392
+873,Australia,Peru,group_or_knockout,3.794,3.587,4.02,3.561,4.039,0.1292,0.0,0.0167,0.321,low,0.433
+874,Denmark,France,group_or_knockout,3.929,3.731,4.125,3.716,4.137,0.1197,0.0,0.0143,0.286,low,0.394
+875,Nigeria,Argentina,group_or_knockout,3.8,3.561,4.049,3.566,4.007,0.1462,0.0,0.0214,0.389,medium,0.488
+876,Iceland,Croatia,group_or_knockout,3.547,3.34,3.739,3.309,3.782,0.1257,0.0,0.0158,0.308,low,0.399
+877,South Korea,Germany,group_or_knockout,3.186,2.998,3.393,2.949,3.435,0.1193,0.0,0.0142,0.285,low,0.395
+878,Mexico,Sweden,group_or_knockout,4.032,3.814,4.249,3.781,4.258,0.1274,0.0,0.0162,0.314,low,0.435
+879,Serbia,Brazil,group_or_knockout,3.184,2.97,3.405,2.943,3.415,0.1353,0.0,0.0183,0.345,low,0.435
+880,Switzerland,Costa Rica,group_or_knockout,4.155,3.943,4.373,3.919,4.393,0.1286,0.0,0.0165,0.319,low,0.43
+881,Japan,Poland,group_or_knockout,3.9,3.662,4.124,3.647,4.13,0.1389,0.0,0.0193,0.359,low,0.462
+882,Senegal,Colombia,group_or_knockout,3.447,3.215,3.674,3.226,3.691,0.1423,0.0,0.0203,0.373,low,0.459
+883,Panama,Tunisia,group_or_knockout,3.492,3.287,3.703,3.251,3.709,0.1261,0.0,0.0159,0.31,low,0.416
+884,England,Belgium,group_or_knockout,3.55,3.304,3.779,3.335,3.774,0.1423,0.0,0.0203,0.373,low,0.475
+885,France,Argentina,group_or_knockout,4.237,4.048,4.439,3.986,4.471,0.1178,0.0,0.0139,0.28,low,0.391
+886,Uruguay,Portugal,group_or_knockout,3.749,3.56,3.938,3.522,3.981,0.1175,0.0,0.0138,0.278,low,0.378
+887,Russia,Spain,group_or_knockout,4.418,4.206,4.62,4.195,4.65,0.1238,0.0,0.0153,0.301,low,0.414
+888,Croatia,Denmark,group_or_knockout,4.089,3.865,4.314,3.853,4.315,0.1332,0.0,0.0177,0.336,low,0.449
+889,Brazil,Mexico,group_or_knockout,4.285,4.098,4.494,4.046,4.507,0.1183,0.0,0.014,0.281,low,0.396
+890,Belgium,Japan,group_or_knockout,4.301,4.073,4.521,4.071,4.513,0.1356,0.0,0.0184,0.346,low,0.448
+891,Sweden,Switzerland,group_or_knockout,3.724,3.49,3.959,3.472,3.951,0.1406,0.0,0.0198,0.366,low,0.469
+892,Colombia,England,group_or_knockout,3.377,3.164,3.61,3.128,3.601,0.1358,0.0,0.0184,0.346,low,0.446
+893,Uruguay,France,group_or_knockout,3.605,3.431,3.778,3.366,3.845,0.1047,0.0,0.011,0.235,low,0.347
+894,Brazil,Belgium,group_or_knockout,4.276,4.048,4.491,4.059,4.507,0.1361,0.0,0.0185,0.348,low,0.443
+895,Sweden,England,group_or_knockout,3.808,3.594,4.023,3.555,4.041,0.1327,0.0,0.0176,0.335,low,0.429
+896,Russia,Croatia,group_or_knockout,4.528,4.339,4.732,4.284,4.745,0.1192,0.0,0.0142,0.284,low,0.393
+897,France,Belgium,group_or_knockout,4.143,3.925,4.364,3.9,4.371,0.1294,0.0,0.0168,0.323,low,0.439
+898,Croatia,England,group_or_knockout,4.06,3.846,4.283,3.819,4.296,0.1372,0.0,0.0188,0.352,low,0.437
+899,Belgium,England,group_or_knockout,4.179,3.963,4.404,3.938,4.405,0.1377,0.0,0.019,0.355,low,0.441
+900,France,Croatia,group_or_knockout,4.278,4.032,4.527,4.057,4.518,0.1499,0.0,0.0225,0.404,medium,0.495
+901,Qatar,Ecuador,group_or_knockout,2.992,2.802,3.177,2.772,3.223,0.1152,0.0,0.0133,0.271,low,0.375
+902,Senegal,Netherlands,group_or_knockout,3.503,3.268,3.729,3.278,3.751,0.1431,0.0,0.0205,0.376,low,0.461
+903,England,Iran,group_or_knockout,3.958,3.754,4.158,3.726,4.195,0.1277,0.0,0.0163,0.316,low,0.404
+904,United States,Wales,group_or_knockout,3.12,2.901,3.323,2.873,3.354,0.1318,0.0,0.0174,0.332,low,0.422
+905,Argentina,Saudi Arabia,group_or_knockout,4.376,4.17,4.584,4.138,4.61,0.1258,0.0,0.0158,0.308,low,0.414
+906,Mexico,Poland,group_or_knockout,4.023,3.798,4.239,3.775,4.252,0.134,0.0,0.018,0.34,low,0.441
+907,Denmark,Tunisia,group_or_knockout,3.921,3.719,4.127,3.683,4.161,0.1301,0.0,0.0169,0.325,low,0.408
+908,France,Australia,group_or_knockout,4.366,4.155,4.585,4.128,4.598,0.1321,0.0,0.0175,0.333,low,0.43
+909,Germany,Japan,group_or_knockout,4.591,4.386,4.799,4.372,4.828,0.1266,0.0,0.016,0.311,low,0.413
+910,Spain,Costa Rica,group_or_knockout,4.066,3.837,4.288,3.821,4.287,0.1363,0.0,0.0186,0.349,low,0.451
+911,Morocco,Croatia,group_or_knockout,3.133,2.911,3.355,2.9,3.366,0.1367,0.0,0.0187,0.35,low,0.444
+912,Belgium,Canada,group_or_knockout,4.25,4.036,4.469,4.006,4.479,0.1323,0.0,0.0175,0.333,low,0.433
+913,Switzerland,Cameroon,group_or_knockout,4.043,3.852,4.247,3.79,4.266,0.1197,0.0,0.0143,0.286,low,0.395
+914,Brazil,Serbia,group_or_knockout,4.279,4.033,4.516,4.043,4.519,0.148,0.0,0.0219,0.396,medium,0.483
+915,Uruguay,South Korea,group_or_knockout,3.647,3.438,3.86,3.411,3.864,0.1292,0.0,0.0167,0.321,low,0.422
+916,Portugal,Ghana,group_or_knockout,3.522,3.283,3.755,3.301,3.759,0.1438,0.0,0.0207,0.379,low,0.472
+917,Qatar,Senegal,group_or_knockout,3.104,2.901,3.305,2.851,3.336,0.1205,0.0,0.0145,0.289,low,0.404
+918,Netherlands,Ecuador,group_or_knockout,4.084,3.842,4.303,3.854,4.32,0.1398,0.0,0.0196,0.363,low,0.461
+919,Wales,Iran,group_or_knockout,3.459,3.265,3.653,3.243,3.696,0.12,0.0,0.0144,0.287,low,0.388
+920,England,United States,group_or_knockout,3.484,3.284,3.693,3.251,3.716,0.1251,0.0,0.0157,0.307,low,0.409
+921,Poland,Saudi Arabia,group_or_knockout,4.158,3.916,4.414,3.917,4.39,0.1553,0.0,0.0241,0.427,medium,0.498
+922,Argentina,Mexico,group_or_knockout,4.378,4.161,4.588,4.131,4.607,0.1301,0.0,0.0169,0.325,low,0.427
+923,Tunisia,Australia,group_or_knockout,3.882,3.668,4.089,3.646,4.115,0.1266,0.0,0.016,0.311,low,0.421
+924,France,Denmark,group_or_knockout,4.208,3.972,4.434,3.945,4.436,0.1372,0.0,0.0188,0.352,low,0.462
+925,Japan,Costa Rica,group_or_knockout,4.037,3.767,4.302,3.795,4.26,0.1632,0.0,0.0266,0.461,medium,0.535
+926,Spain,Germany,group_or_knockout,3.865,3.635,4.089,3.627,4.094,0.1384,0.0,0.0192,0.357,low,0.454
+927,Belgium,Morocco,group_or_knockout,4.224,4.01,4.442,3.997,4.439,0.131,0.0,0.0172,0.329,low,0.432
+928,Croatia,Canada,group_or_knockout,4.284,4.03,4.508,4.068,4.521,0.1477,0.0,0.0218,0.395,medium,0.478
+929,Cameroon,Serbia,group_or_knockout,3.765,3.562,3.971,3.523,3.999,0.1268,0.0,0.0161,0.313,low,0.409
+930,Brazil,Switzerland,group_or_knockout,4.284,4.06,4.527,4.06,4.501,0.1422,0.0,0.0202,0.372,low,0.467
+931,South Korea,Ghana,group_or_knockout,3.336,3.125,3.542,3.104,3.549,0.1272,0.0,0.0162,0.314,low,0.417
+932,Portugal,Uruguay,group_or_knockout,3.618,3.387,3.846,3.399,3.842,0.1377,0.0,0.019,0.355,low,0.459
+933,Ecuador,Senegal,group_or_knockout,3.437,3.236,3.63,3.202,3.659,0.1208,0.0,0.0146,0.29,low,0.394
+934,Qatar,Netherlands,group_or_knockout,3.074,2.888,3.269,2.818,3.299,0.1183,0.0,0.014,0.281,low,0.381
+935,Wales,England,group_or_knockout,3.526,3.299,3.75,3.294,3.756,0.1372,0.0,0.0188,0.352,low,0.451
+936,Iran,United States,group_or_knockout,3.824,3.602,4.032,3.588,4.053,0.1302,0.0,0.0169,0.325,low,0.43
+937,Poland,Argentina,group_or_knockout,4.011,3.811,4.209,3.769,4.242,0.1238,0.0,0.0153,0.301,low,0.398
+938,Saudi Arabia,Mexico,group_or_knockout,3.996,3.771,4.231,3.754,4.221,0.1388,0.0,0.0193,0.359,low,0.46
+939,Australia,Denmark,group_or_knockout,3.764,3.543,3.996,3.521,3.967,0.138,0.0,0.019,0.355,low,0.453
+940,Tunisia,France,group_or_knockout,3.928,3.732,4.123,3.701,4.154,0.1198,0.0,0.0143,0.286,low,0.391
+941,Japan,Spain,group_or_knockout,3.931,3.707,4.136,3.694,4.152,0.1325,0.0,0.0176,0.334,low,0.429
+942,Costa Rica,Germany,group_or_knockout,3.804,3.586,4.021,3.559,4.04,0.1302,0.0,0.0169,0.325,low,0.435
+943,Croatia,Belgium,group_or_knockout,4.096,3.879,4.307,3.859,4.308,0.129,0.0,0.0166,0.32,low,0.428
+944,Canada,Morocco,group_or_knockout,3.629,3.437,3.839,3.394,3.862,0.1238,0.0,0.0153,0.301,low,0.402
+945,Serbia,Switzerland,group_or_knockout,3.327,3.118,3.53,3.079,3.549,0.1234,0.0,0.0152,0.3,low,0.412
+946,Cameroon,Brazil,group_or_knockout,3.651,3.44,3.846,3.412,3.871,0.1277,0.0,0.0163,0.316,low,0.406
+947,Ghana,Uruguay,group_or_knockout,3.039,2.807,3.262,2.785,3.268,0.139,0.0,0.0193,0.359,low,0.455
+948,South Korea,Portugal,group_or_knockout,3.152,2.963,3.32,2.917,3.391,0.1094,0.0,0.012,0.251,low,0.357
+949,Netherlands,United States,group_or_knockout,4.135,3.912,4.356,3.926,4.363,0.1311,0.0,0.0172,0.329,low,0.444
+950,Argentina,Australia,group_or_knockout,4.442,4.182,4.704,4.202,4.662,0.1565,0.0,0.0245,0.432,medium,0.522
+951,France,Poland,group_or_knockout,4.243,4.029,4.476,4.012,4.486,0.1392,0.0,0.0194,0.36,low,0.447
+952,England,Senegal,group_or_knockout,3.748,3.491,3.999,3.497,3.966,0.156,0.0,0.0243,0.429,medium,0.508
+953,Japan,Croatia,group_or_knockout,3.882,3.655,4.124,3.636,4.113,0.1417,0.0,0.0201,0.37,low,0.469
+954,Brazil,South Korea,group_or_knockout,4.404,4.182,4.624,4.17,4.65,0.1378,0.0,0.019,0.355,low,0.442
+955,Morocco,Spain,group_or_knockout,3.102,2.888,3.313,2.871,3.315,0.1283,0.0,0.0165,0.318,low,0.425
+956,Portugal,Switzerland,group_or_knockout,3.497,3.236,3.752,3.276,3.725,0.1581,0.0,0.025,0.439,medium,0.516
+957,Croatia,Brazil,group_or_knockout,4.028,3.793,4.25,3.785,4.254,0.1383,0.0,0.0191,0.356,low,0.457
+958,Netherlands,Argentina,group_or_knockout,4.128,3.914,4.324,3.89,4.365,0.1235,0.0,0.0152,0.3,low,0.41
+959,Morocco,Portugal,group_or_knockout,3.266,3.039,3.486,3.048,3.508,0.1378,0.0,0.019,0.355,low,0.447
+960,England,France,group_or_knockout,3.634,3.394,3.853,3.41,3.864,0.1384,0.0,0.0192,0.357,low,0.459
+961,Argentina,Croatia,group_or_knockout,4.271,4.064,4.473,4.03,4.505,0.1265,0.0,0.016,0.311,low,0.409
+962,France,Morocco,group_or_knockout,4.161,3.941,4.38,3.905,4.391,0.1349,0.0,0.0182,0.343,low,0.439
+963,Croatia,Morocco,group_or_knockout,4.189,3.956,4.405,3.966,4.397,0.1355,0.0,0.0184,0.346,low,0.449
+964,Argentina,France,group_or_knockout,4.415,4.203,4.623,4.158,4.63,0.1303,0.0,0.017,0.326,low,0.42

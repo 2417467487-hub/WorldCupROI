@@ -1,6 +1,6 @@
 PYTHON ?= ml-python
 
-.PHONY: pipeline demo dashboard assets platform-gif streamlit-gif health
+.PHONY: pipeline demo dashboard assets platform-gif streamlit-gif hero-gif preview-gifs health
 
 pipeline:
 	$(PYTHON) scripts/run_pipeline.py
@@ -17,6 +17,8 @@ assets:
 	$(PYTHON) scripts/generate_academic_figures.py
 	$(PYTHON) scripts/generate_showcase_media.py
 	node scripts/capture_static_platform_gif.js
+	node scripts/capture_static_preview_gifs.js
+	node scripts/capture_static_hero_gif.js
 	node scripts/capture_streamlit_dashboard_gif.js
 
 platform-gif:
@@ -24,6 +26,12 @@ platform-gif:
 
 streamlit-gif:
 	node scripts/capture_streamlit_dashboard_gif.js
+
+hero-gif:
+	node scripts/capture_static_hero_gif.js
+
+preview-gifs:
+	node scripts/capture_static_preview_gifs.js
 
 health:
 	$(PYTHON) src/platform_health.py

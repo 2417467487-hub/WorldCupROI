@@ -305,7 +305,7 @@ def write_model_card() -> None:
         "| --- | --- | --- |",
         "| Data credibility | Historical match outcomes are real-source; commercial ROI labels are proxy/mock | Keep data card visible and replace proxy labels before production decisions |",
         "| Label construction | `result` from match scores; `sponsor_roi` from engineered commercial proxy | Avoid using model outputs or post-decision artifacts as labels |",
-        "| Training validation | Deterministic holdout plus five-fold cross-validation | Monitor fold variance and add temporal splits before production |",
+        "| Training validation | Deterministic holdout plus k-fold, sub-sample, and temporal sliding validation | Monitor fold variance, sample-size sensitivity, and tournament-era drift before production |",
         "| Deployment use | Decision support and portfolio demo | Use risk intervals and data-origin labels in business review |",
         "",
         "## Match Outcome Model",

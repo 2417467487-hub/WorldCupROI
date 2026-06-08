@@ -5,12 +5,12 @@
 
 | Artifact | Exists | Size KB | Rows | Path |
 |---|---|---:|---:|---|
-| modeling_dataset | True | 791.91 | 964 | `data\modeling_dataset.csv` |
-| roi_predictions | True | 800.16 | 964 | `data\roi_predictions.csv` |
+| modeling_dataset | True | 793.15 | 964 | `data\modeling_dataset.csv` |
+| roi_predictions | True | 801.51 | 964 | `data\roi_predictions.csv` |
 | panel_dataset | True | 381.24 | 1928 | `data\panel_dataset.csv` |
-| scenario_recommendations | True | 161.88 | 600 | `data\scenario_recommendations.csv` |
-| roi_uncertainty | True | 95.06 | 964 | `data\roi_uncertainty.csv` |
-| static_dashboard | True | 929.39 |  | `dashboard\panel_dashboard.html` |
+| scenario_recommendations | True | 161.92 | 600 | `data\scenario_recommendations.csv` |
+| roi_uncertainty | True | 95.08 | 964 | `data\roi_uncertainty.csv` |
+| static_dashboard | True | 929.84 |  | `dashboard\panel_dashboard.html` |
 | streamlit_app | True | 19.85 |  | `dashboard\app.py` |
 | readme_hero | True | 95.84 |  | `assets\images\readme_hero.png` |
 | demo_video | True | 598.49 |  | `assets\videos\worldcuproi_demo.mp4` |

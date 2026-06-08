@@ -28,7 +28,7 @@
   ],
   "metrics": {
     "accuracy": 0.556604,
-    "log_loss": 0.97797
+    "log_loss": 0.977983
   },
   "artifact_path": "models\\match_outcome_model.pkl",
   "report_path": "reports\\match_model_metrics.md",
