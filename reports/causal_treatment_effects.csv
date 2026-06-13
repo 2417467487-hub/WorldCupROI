@@ -1,0 +1,5 @@
+treatment,label,standardized_effect,ci_low,ci_high,method,sample_size
+media_exposure_index,Media exposure,0.2786,0.2466,0.3106,backdoor-adjusted OLS baseline,964
+fan_score,Fan influence,0.3775,0.3455,0.4095,backdoor-adjusted OLS baseline,964
+team_a_strength,Team strength,0.3106,0.2742,0.347,backdoor-adjusted OLS baseline,964
+commercial_momentum_score,Commercial momentum,0.688,0.661,0.7151,backdoor-adjusted OLS baseline,964

@@ -1,0 +1,21 @@
+<svg width="1280" height="600" viewBox="0 0 1280 600" xmlns="http://www.w3.org/2000/svg">
+<rect width="1280" height="600" fill="#ffffff"/>
+<text x="64" y="72" font-family="Arial" font-size="34" font-weight="700" fill="#111827">Counterfactual ROI Interventions</text>
+<text x="64" y="106" font-family="Arial" font-size="17" fill="#4b5563">Scenario-level ROI changes under SCM-style interventions.</text>
+<line x1="640" y1="145" x2="640" y2="470" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 7"/>
+<text x="110" y="192" font-family="Arial" font-size="17" fill="#111827">player_injury_shock</text>
+<rect x="210.0" y="170" width="430.0" height="30" rx="15" fill="#D55E00"/>
+<text x="1080" y="192" font-family="Arial" font-size="15" fill="#4b5563">-0.263</text>
+<text x="110" y="248" font-family="Arial" font-size="17" fill="#111827">budget_cut</text>
+<rect x="410.6" y="226" width="229.4" height="30" rx="15" fill="#D55E00"/>
+<text x="1080" y="248" font-family="Arial" font-size="15" fill="#4b5563">-0.140</text>
+<text x="110" y="304" font-family="Arial" font-size="17" fill="#111827">budget_reallocation</text>
+<rect x="640.0" y="282" width="184.3" height="30" rx="15" fill="#009E73"/>
+<text x="1080" y="304" font-family="Arial" font-size="15" fill="#4b5563">+0.113</text>
+<text x="110" y="360" font-family="Arial" font-size="17" fill="#111827">late_stage_activation</text>
+<rect x="640.0" y="338" width="307.8" height="30" rx="15" fill="#009E73"/>
+<text x="1080" y="360" font-family="Arial" font-size="15" fill="#4b5563">+0.188</text>
+<text x="110" y="416" font-family="Arial" font-size="17" fill="#111827">media_surge</text>
+<rect x="640.0" y="394" width="372.5" height="30" rx="15" fill="#009E73"/>
+<text x="1080" y="416" font-family="Arial" font-size="15" fill="#4b5563">+0.228</text>
+</svg>

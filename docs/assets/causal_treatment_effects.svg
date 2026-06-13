@@ -1,0 +1,21 @@
+<rect width="1280" height="620" fill="#ffffff"/>
+<text x="64" y="72" font-family="Arial" font-size="34" font-weight="700" fill="#111827">Causal Treatment Effects on Sponsor ROI</text>
+<text x="64" y="108" font-family="Arial" font-size="17" fill="#4b5563">Backdoor-adjusted baseline estimates; positive values indicate higher predicted ROI after controlling for observed confounders.</text>
+<line x1="575.2" y1="110" x2="575.2" y2="500" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 7"/>
+<text x="76" y="168" font-family="Arial" font-size="18" fill="#111827">Media exposure</text>
+<line x1="766.5" y1="162" x2="816.2" y2="162" stroke="#9ca3af" stroke-width="8" stroke-linecap="round"/>
+<circle cx="791.3" cy="162" r="11" fill="#009E73"/>
+<text x="834.2" y="168" font-family="Arial" font-size="15" fill="#4b5563">+0.279</text>
+<text x="76" y="240" font-family="Arial" font-size="18" fill="#111827">Fan influence</text>
+<line x1="843.2" y1="234" x2="892.9" y2="234" stroke="#9ca3af" stroke-width="8" stroke-linecap="round"/>
+<circle cx="868.1" cy="234" r="11" fill="#009E73"/>
+<text x="910.9" y="240" font-family="Arial" font-size="15" fill="#4b5563">+0.378</text>
+<text x="76" y="312" font-family="Arial" font-size="18" fill="#111827">Team strength</text>
+<line x1="787.9" y1="306" x2="844.4" y2="306" stroke="#9ca3af" stroke-width="8" stroke-linecap="round"/>
+<circle cx="816.2" cy="306" r="11" fill="#009E73"/>
+<text x="862.4" y="312" font-family="Arial" font-size="15" fill="#4b5563">+0.311</text>
+<text x="76" y="384" font-family="Arial" font-size="18" fill="#111827">Commercial momentum</text>
+<line x1="1088.0" y1="378" x2="1130.0" y2="378" stroke="#9ca3af" stroke-width="8" stroke-linecap="round"/>
+<circle cx="1109.0" cy="378" r="11" fill="#009E73"/>
+<text x="1148.0" y="384" font-family="Arial" font-size="15" fill="#4b5563">+0.688</text>
+<text x="64" y="552" font-family="Arial" font-size="15" fill="#4b5563">Interpretation: correlation is not treated as causation; estimates are adjusted for observed sponsor, team, stage, weather and injury context.</text>

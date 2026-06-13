@@ -1,0 +1,601 @@
+panel_id,team,sponsor,scenario,baseline_roi,counterfactual_roi,roi_delta,roi_low,roi_high,method
+2018_837_Russia,Russia,Hyundai,player_injury_shock,4.476,4.2128,-0.2632,4.0558,4.3698,SCM-style deterministic intervention baseline
+2018_837_Russia,Russia,Hyundai,media_surge,4.476,4.704,0.228,4.561,4.847,SCM-style deterministic intervention baseline
+2018_837_Russia,Russia,Hyundai,budget_cut,4.476,4.3356,-0.1404,4.2136,4.4576,SCM-style deterministic intervention baseline
+2018_837_Russia,Russia,Hyundai,budget_reallocation,4.476,4.5888,0.1128,4.4773,4.7003,SCM-style deterministic intervention baseline
+2018_837_Russia,Russia,Hyundai,late_stage_activation,4.476,4.6644,0.1884,4.5319,4.7969,SCM-style deterministic intervention baseline
+2018_837_Saudi_Arabia,Saudi Arabia,Visa,player_injury_shock,4.476,4.2128,-0.2632,4.0558,4.3698,SCM-style deterministic intervention baseline
+2018_837_Saudi_Arabia,Saudi Arabia,Visa,media_surge,4.476,4.704,0.228,4.561,4.847,SCM-style deterministic intervention baseline
+2018_837_Saudi_Arabia,Saudi Arabia,Visa,budget_cut,4.476,4.3356,-0.1404,4.2136,4.4576,SCM-style deterministic intervention baseline
+2018_837_Saudi_Arabia,Saudi Arabia,Visa,budget_reallocation,4.476,4.5888,0.1128,4.4773,4.7003,SCM-style deterministic intervention baseline
+2018_837_Saudi_Arabia,Saudi Arabia,Visa,late_stage_activation,4.476,4.6644,0.1884,4.5319,4.7969,SCM-style deterministic intervention baseline
+2014_789_South_Korea,South Korea,McDonald's,player_injury_shock,4.444,4.1808,-0.2632,4.0238,4.3378,SCM-style deterministic intervention baseline
+2014_789_South_Korea,South Korea,McDonald's,media_surge,4.444,4.672,0.228,4.529,4.815,SCM-style deterministic intervention baseline
+2014_789_South_Korea,South Korea,McDonald's,budget_cut,4.444,4.3036,-0.1404,4.1816,4.4256,SCM-style deterministic intervention baseline
+2014_789_South_Korea,South Korea,McDonald's,budget_reallocation,4.444,4.5568,0.1128,4.4453,4.6683,SCM-style deterministic intervention baseline
+2014_789_South_Korea,South Korea,McDonald's,late_stage_activation,4.444,4.6324,0.1884,4.4999,4.7649,SCM-style deterministic intervention baseline
+2014_789_Russia,Russia,Hyundai,player_injury_shock,4.444,4.1808,-0.2632,4.0238,4.3378,SCM-style deterministic intervention baseline
+2014_789_Russia,Russia,Hyundai,media_surge,4.444,4.672,0.228,4.529,4.815,SCM-style deterministic intervention baseline
+2014_789_Russia,Russia,Hyundai,budget_cut,4.444,4.3036,-0.1404,4.1816,4.4256,SCM-style deterministic intervention baseline
+2014_789_Russia,Russia,Hyundai,budget_reallocation,4.444,4.5568,0.1128,4.4453,4.6683,SCM-style deterministic intervention baseline
+2014_789_Russia,Russia,Hyundai,late_stage_activation,4.444,4.6324,0.1884,4.4999,4.7649,SCM-style deterministic intervention baseline
+2018_896_Croatia,Croatia,Hisense,player_injury_shock,4.418,4.1548,-0.2632,3.9978,4.3118,SCM-style deterministic intervention baseline
+2018_896_Croatia,Croatia,Hisense,media_surge,4.418,4.646,0.228,4.503,4.789,SCM-style deterministic intervention baseline
+2018_896_Croatia,Croatia,Hisense,budget_cut,4.418,4.2776,-0.1404,4.1556,4.3996,SCM-style deterministic intervention baseline
+2018_896_Croatia,Croatia,Hisense,budget_reallocation,4.418,4.5308,0.1128,4.4193,4.6423,SCM-style deterministic intervention baseline
+2018_896_Croatia,Croatia,Hisense,late_stage_activation,4.418,4.6064,0.1884,4.4739,4.7389,SCM-style deterministic intervention baseline
+2018_896_Russia,Russia,Hyundai,player_injury_shock,4.418,4.1548,-0.2632,3.9978,4.3118,SCM-style deterministic intervention baseline
+2018_896_Russia,Russia,Hyundai,media_surge,4.418,4.646,0.228,4.503,4.789,SCM-style deterministic intervention baseline
+2018_896_Russia,Russia,Hyundai,budget_cut,4.418,4.2776,-0.1404,4.1556,4.3996,SCM-style deterministic intervention baseline
+2018_896_Russia,Russia,Hyundai,budget_reallocation,4.418,4.5308,0.1128,4.4193,4.6423,SCM-style deterministic intervention baseline
+2018_896_Russia,Russia,Hyundai,late_stage_activation,4.418,4.6064,0.1884,4.4739,4.7389,SCM-style deterministic intervention baseline
+2010_726_South_Korea,South Korea,McDonald's,player_injury_shock,4.385,4.1218,-0.2632,3.9648,4.2788,SCM-style deterministic intervention baseline
+2010_726_South_Korea,South Korea,McDonald's,media_surge,4.385,4.613,0.228,4.47,4.756,SCM-style deterministic intervention baseline
+2010_726_South_Korea,South Korea,McDonald's,budget_cut,4.385,4.2446,-0.1404,4.1226,4.3666,SCM-style deterministic intervention baseline
+2010_726_South_Korea,South Korea,McDonald's,budget_reallocation,4.385,4.4978,0.1128,4.3863,4.6093,SCM-style deterministic intervention baseline
+2010_726_South_Korea,South Korea,McDonald's,late_stage_activation,4.385,4.5734,0.1884,4.4409,4.7059,SCM-style deterministic intervention baseline
+2010_726_Argentina,Argentina,Hyundai,player_injury_shock,4.385,4.1218,-0.2632,3.9648,4.2788,SCM-style deterministic intervention baseline
+2010_726_Argentina,Argentina,Hyundai,media_surge,4.385,4.613,0.228,4.47,4.756,SCM-style deterministic intervention baseline
+2010_726_Argentina,Argentina,Hyundai,budget_cut,4.385,4.2446,-0.1404,4.1226,4.3666,SCM-style deterministic intervention baseline
+2010_726_Argentina,Argentina,Hyundai,budget_reallocation,4.385,4.4978,0.1128,4.3863,4.6093,SCM-style deterministic intervention baseline
+2010_726_Argentina,Argentina,Hyundai,late_stage_activation,4.385,4.5734,0.1884,4.4409,4.7059,SCM-style deterministic intervention baseline
+2018_853_Russia,Russia,Hyundai,player_injury_shock,4.384,4.1208,-0.2632,3.9638,4.2778,SCM-style deterministic intervention baseline
+2018_853_Russia,Russia,Hyundai,media_surge,4.384,4.612,0.228,4.469,4.755,SCM-style deterministic intervention baseline
+2018_853_Russia,Russia,Hyundai,budget_cut,4.384,4.2436,-0.1404,4.1216,4.3656,SCM-style deterministic intervention baseline
+2018_853_Russia,Russia,Hyundai,budget_reallocation,4.384,4.4968,0.1128,4.3853,4.6083,SCM-style deterministic intervention baseline
+2018_853_Russia,Russia,Hyundai,late_stage_activation,4.384,4.5724,0.1884,4.4399,4.7049,SCM-style deterministic intervention baseline
+2018_853_Egypt,Egypt,Hyundai,player_injury_shock,4.384,4.1208,-0.2632,3.9638,4.2778,SCM-style deterministic intervention baseline
+2018_853_Egypt,Egypt,Hyundai,media_surge,4.384,4.612,0.228,4.469,4.755,SCM-style deterministic intervention baseline
+2018_853_Egypt,Egypt,Hyundai,budget_cut,4.384,4.2436,-0.1404,4.1216,4.3656,SCM-style deterministic intervention baseline
+2018_853_Egypt,Egypt,Hyundai,budget_reallocation,4.384,4.4968,0.1128,4.3853,4.6083,SCM-style deterministic intervention baseline
+2018_853_Egypt,Egypt,Hyundai,late_stage_activation,4.384,4.5724,0.1884,4.4399,4.7049,SCM-style deterministic intervention baseline
+2018_869_Russia,Russia,Hyundai,player_injury_shock,4.37,4.1068,-0.2632,3.9498,4.2638,SCM-style deterministic intervention baseline
+2018_869_Russia,Russia,Hyundai,media_surge,4.37,4.598,0.228,4.455,4.741,SCM-style deterministic intervention baseline
+2018_869_Russia,Russia,Hyundai,budget_cut,4.37,4.2296,-0.1404,4.1076,4.3516,SCM-style deterministic intervention baseline
+2018_869_Russia,Russia,Hyundai,budget_reallocation,4.37,4.4828,0.1128,4.3713,4.5943,SCM-style deterministic intervention baseline
+2018_869_Russia,Russia,Hyundai,late_stage_activation,4.37,4.5584,0.1884,4.4259,4.6909,SCM-style deterministic intervention baseline
+2018_869_Uruguay,Uruguay,Vivo,player_injury_shock,4.37,4.1068,-0.2632,3.9498,4.2638,SCM-style deterministic intervention baseline
+2018_869_Uruguay,Uruguay,Vivo,media_surge,4.37,4.598,0.228,4.455,4.741,SCM-style deterministic intervention baseline
+2018_869_Uruguay,Uruguay,Vivo,budget_cut,4.37,4.2296,-0.1404,4.1076,4.3516,SCM-style deterministic intervention baseline
+2018_869_Uruguay,Uruguay,Vivo,budget_reallocation,4.37,4.4828,0.1128,4.3713,4.5943,SCM-style deterministic intervention baseline
+2018_869_Uruguay,Uruguay,Vivo,late_stage_activation,4.37,4.5584,0.1884,4.4259,4.6909,SCM-style deterministic intervention baseline
+1998_544_Argentina,Argentina,Hyundai,player_injury_shock,4.358,4.0948,-0.2632,3.9378,4.2518,SCM-style deterministic intervention baseline
+1998_544_Argentina,Argentina,Hyundai,media_surge,4.358,4.586,0.228,4.443,4.729,SCM-style deterministic intervention baseline
+1998_544_Argentina,Argentina,Hyundai,budget_cut,4.358,4.2176,-0.1404,4.0956,4.3396,SCM-style deterministic intervention baseline
+1998_544_Argentina,Argentina,Hyundai,budget_reallocation,4.358,4.4708,0.1128,4.3593,4.5823,SCM-style deterministic intervention baseline
+1998_544_Argentina,Argentina,Hyundai,late_stage_activation,4.358,4.5464,0.1884,4.4139,4.6789,SCM-style deterministic intervention baseline
+1998_544_Jamaica,Jamaica,Adidas,player_injury_shock,4.358,4.0948,-0.2632,3.9378,4.2518,SCM-style deterministic intervention baseline
+1998_544_Jamaica,Jamaica,Adidas,media_surge,4.358,4.586,0.228,4.443,4.729,SCM-style deterministic intervention baseline
+1998_544_Jamaica,Jamaica,Adidas,budget_cut,4.358,4.2176,-0.1404,4.0956,4.3396,SCM-style deterministic intervention baseline
+1998_544_Jamaica,Jamaica,Adidas,budget_reallocation,4.358,4.4708,0.1128,4.3593,4.5823,SCM-style deterministic intervention baseline
+1998_544_Jamaica,Jamaica,Adidas,late_stage_activation,4.358,4.5464,0.1884,4.4139,4.6789,SCM-style deterministic intervention baseline
+1986_398_Belgium,Belgium,Visa,player_injury_shock,4.333,4.0698,-0.2632,3.9128,4.2268,SCM-style deterministic intervention baseline
+1986_398_Belgium,Belgium,Visa,media_surge,4.333,4.561,0.228,4.418,4.704,SCM-style deterministic intervention baseline
+1986_398_Belgium,Belgium,Visa,budget_cut,4.333,4.1926,-0.1404,4.0706,4.3146,SCM-style deterministic intervention baseline
+1986_398_Belgium,Belgium,Visa,budget_reallocation,4.333,4.4458,0.1128,4.3343,4.5573,SCM-style deterministic intervention baseline
+1986_398_Belgium,Belgium,Visa,late_stage_activation,4.333,4.5214,0.1884,4.3889,4.6539,SCM-style deterministic intervention baseline
+1986_398_Russia,Russia,Hyundai,player_injury_shock,4.333,4.0698,-0.2632,3.9128,4.2268,SCM-style deterministic intervention baseline
+1986_398_Russia,Russia,Hyundai,media_surge,4.333,4.561,0.228,4.418,4.704,SCM-style deterministic intervention baseline
+1986_398_Russia,Russia,Hyundai,budget_cut,4.333,4.1926,-0.1404,4.0706,4.3146,SCM-style deterministic intervention baseline
+1986_398_Russia,Russia,Hyundai,budget_reallocation,4.333,4.4458,0.1128,4.3343,4.5573,SCM-style deterministic intervention baseline
+1986_398_Russia,Russia,Hyundai,late_stage_activation,4.333,4.5214,0.1884,4.3889,4.6539,SCM-style deterministic intervention baseline
+2022_950_Argentina,Argentina,Hyundai,player_injury_shock,4.324,4.0608,-0.2632,3.9038,4.2178,SCM-style deterministic intervention baseline
+2022_950_Argentina,Argentina,Hyundai,media_surge,4.324,4.552,0.228,4.409,4.695,SCM-style deterministic intervention baseline
+2022_950_Argentina,Argentina,Hyundai,budget_cut,4.324,4.1836,-0.1404,4.0616,4.3056,SCM-style deterministic intervention baseline
+2022_950_Argentina,Argentina,Hyundai,budget_reallocation,4.324,4.4368,0.1128,4.3253,4.5483,SCM-style deterministic intervention baseline
+2022_950_Argentina,Argentina,Hyundai,late_stage_activation,4.324,4.5124,0.1884,4.3799,4.6449,SCM-style deterministic intervention baseline
+2022_950_Australia,Australia,Hyundai,player_injury_shock,4.324,4.0608,-0.2632,3.9038,4.2178,SCM-style deterministic intervention baseline
+2022_950_Australia,Australia,Hyundai,media_surge,4.324,4.552,0.228,4.409,4.695,SCM-style deterministic intervention baseline
+2022_950_Australia,Australia,Hyundai,budget_cut,4.324,4.1836,-0.1404,4.0616,4.3056,SCM-style deterministic intervention baseline
+2022_950_Australia,Australia,Hyundai,budget_reallocation,4.324,4.4368,0.1128,4.3253,4.5483,SCM-style deterministic intervention baseline
+2022_950_Australia,Australia,Hyundai,late_stage_activation,4.324,4.5124,0.1884,4.3799,4.6449,SCM-style deterministic intervention baseline
+2018_887_Spain,Spain,Budweiser,player_injury_shock,4.311,4.0478,-0.2632,3.8908,4.2048,SCM-style deterministic intervention baseline
+2018_887_Spain,Spain,Budweiser,media_surge,4.311,4.539,0.228,4.396,4.682,SCM-style deterministic intervention baseline
+2018_887_Spain,Spain,Budweiser,budget_cut,4.311,4.1706,-0.1404,4.0486,4.2926,SCM-style deterministic intervention baseline
+2018_887_Spain,Spain,Budweiser,budget_reallocation,4.311,4.4238,0.1128,4.3123,4.5353,SCM-style deterministic intervention baseline
+2018_887_Spain,Spain,Budweiser,late_stage_activation,4.311,4.4994,0.1884,4.3669,4.6319,SCM-style deterministic intervention baseline
+2018_887_Russia,Russia,Hyundai,player_injury_shock,4.311,4.0478,-0.2632,3.8908,4.2048,SCM-style deterministic intervention baseline
+2018_887_Russia,Russia,Hyundai,media_surge,4.311,4.539,0.228,4.396,4.682,SCM-style deterministic intervention baseline
+2018_887_Russia,Russia,Hyundai,budget_cut,4.311,4.1706,-0.1404,4.0486,4.2926,SCM-style deterministic intervention baseline
+2018_887_Russia,Russia,Hyundai,budget_reallocation,4.311,4.4238,0.1128,4.3123,4.5353,SCM-style deterministic intervention baseline
+2018_887_Russia,Russia,Hyundai,late_stage_activation,4.311,4.4994,0.1884,4.3669,4.6319,SCM-style deterministic intervention baseline
+2014_835_Brazil,Brazil,Adidas,player_injury_shock,4.303,4.0398,-0.2632,3.8828,4.1968,SCM-style deterministic intervention baseline
+2014_835_Brazil,Brazil,Adidas,media_surge,4.303,4.531,0.228,4.388,4.674,SCM-style deterministic intervention baseline
+2014_835_Brazil,Brazil,Adidas,budget_cut,4.303,4.1626,-0.1404,4.0406,4.2846,SCM-style deterministic intervention baseline
+2014_835_Brazil,Brazil,Adidas,budget_reallocation,4.303,4.4158,0.1128,4.3043,4.5273,SCM-style deterministic intervention baseline
+2014_835_Brazil,Brazil,Adidas,late_stage_activation,4.303,4.4914,0.1884,4.3589,4.6239,SCM-style deterministic intervention baseline
+2014_835_Netherlands,Netherlands,Hisense,player_injury_shock,4.303,4.0398,-0.2632,3.8828,4.1968,SCM-style deterministic intervention baseline
+2014_835_Netherlands,Netherlands,Hisense,media_surge,4.303,4.531,0.228,4.388,4.674,SCM-style deterministic intervention baseline
+2014_835_Netherlands,Netherlands,Hisense,budget_cut,4.303,4.1626,-0.1404,4.0406,4.2846,SCM-style deterministic intervention baseline
+2014_835_Netherlands,Netherlands,Hisense,budget_reallocation,4.303,4.4158,0.1128,4.3043,4.5273,SCM-style deterministic intervention baseline
+2014_835_Netherlands,Netherlands,Hisense,late_stage_activation,4.303,4.4914,0.1884,4.3589,4.6239,SCM-style deterministic intervention baseline
+2006_665_Argentina,Argentina,Hyundai,player_injury_shock,4.299,4.0358,-0.2632,3.8788,4.1928,SCM-style deterministic intervention baseline
+2006_665_Argentina,Argentina,Hyundai,media_surge,4.299,4.527,0.228,4.384,4.67,SCM-style deterministic intervention baseline
+2006_665_Argentina,Argentina,Hyundai,budget_cut,4.299,4.1586,-0.1404,4.0366,4.2806,SCM-style deterministic intervention baseline
+2006_665_Argentina,Argentina,Hyundai,budget_reallocation,4.299,4.4118,0.1128,4.3003,4.5233,SCM-style deterministic intervention baseline
+2006_665_Argentina,Argentina,Hyundai,late_stage_activation,4.299,4.4874,0.1884,4.3549,4.6199,SCM-style deterministic intervention baseline
+2006_665_Serbia,Serbia,Vivo,player_injury_shock,4.299,4.0358,-0.2632,3.8788,4.1928,SCM-style deterministic intervention baseline
+2006_665_Serbia,Serbia,Vivo,media_surge,4.299,4.527,0.228,4.384,4.67,SCM-style deterministic intervention baseline
+2006_665_Serbia,Serbia,Vivo,budget_cut,4.299,4.1586,-0.1404,4.0366,4.2806,SCM-style deterministic intervention baseline
+2006_665_Serbia,Serbia,Vivo,budget_reallocation,4.299,4.4118,0.1128,4.3003,4.5233,SCM-style deterministic intervention baseline
+2006_665_Serbia,Serbia,Vivo,late_stage_activation,4.299,4.4874,0.1884,4.3549,4.6199,SCM-style deterministic intervention baseline
+1978_303_Peru,Peru,Hisense,player_injury_shock,4.291,4.0278,-0.2632,3.8708,4.1848,SCM-style deterministic intervention baseline
+1978_303_Peru,Peru,Hisense,media_surge,4.291,4.519,0.228,4.376,4.662,SCM-style deterministic intervention baseline
+1978_303_Peru,Peru,Hisense,budget_cut,4.291,4.1506,-0.1404,4.0286,4.2726,SCM-style deterministic intervention baseline
+1978_303_Peru,Peru,Hisense,budget_reallocation,4.291,4.4038,0.1128,4.2923,4.5153,SCM-style deterministic intervention baseline
+1978_303_Peru,Peru,Hisense,late_stage_activation,4.291,4.4794,0.1884,4.3469,4.6119,SCM-style deterministic intervention baseline
+1978_303_Argentina,Argentina,Hyundai,player_injury_shock,4.291,4.0278,-0.2632,3.8708,4.1848,SCM-style deterministic intervention baseline
+1978_303_Argentina,Argentina,Hyundai,media_surge,4.291,4.519,0.228,4.376,4.662,SCM-style deterministic intervention baseline
+1978_303_Argentina,Argentina,Hyundai,budget_cut,4.291,4.1506,-0.1404,4.0286,4.2726,SCM-style deterministic intervention baseline
+1978_303_Argentina,Argentina,Hyundai,budget_reallocation,4.291,4.4038,0.1128,4.2923,4.5153,SCM-style deterministic intervention baseline
+1978_303_Argentina,Argentina,Hyundai,late_stage_activation,4.291,4.4794,0.1884,4.3469,4.6119,SCM-style deterministic intervention baseline
+2022_964_France,France,Qatar Airways,player_injury_shock,4.291,4.0278,-0.2632,3.8708,4.1848,SCM-style deterministic intervention baseline
+2022_964_France,France,Qatar Airways,media_surge,4.291,4.519,0.228,4.376,4.662,SCM-style deterministic intervention baseline
+2022_964_France,France,Qatar Airways,budget_cut,4.291,4.1506,-0.1404,4.0286,4.2726,SCM-style deterministic intervention baseline
+2022_964_France,France,Qatar Airways,budget_reallocation,4.291,4.4038,0.1128,4.2923,4.5153,SCM-style deterministic intervention baseline
+2022_964_France,France,Qatar Airways,late_stage_activation,4.291,4.4794,0.1884,4.3469,4.6119,SCM-style deterministic intervention baseline
+2022_964_Argentina,Argentina,Hyundai,player_injury_shock,4.291,4.0278,-0.2632,3.8708,4.1848,SCM-style deterministic intervention baseline
+2022_964_Argentina,Argentina,Hyundai,media_surge,4.291,4.519,0.228,4.376,4.662,SCM-style deterministic intervention baseline
+2022_964_Argentina,Argentina,Hyundai,budget_cut,4.291,4.1506,-0.1404,4.0286,4.2726,SCM-style deterministic intervention baseline
+2022_964_Argentina,Argentina,Hyundai,budget_reallocation,4.291,4.4038,0.1128,4.2923,4.5153,SCM-style deterministic intervention baseline
+2022_964_Argentina,Argentina,Hyundai,late_stage_activation,4.291,4.4794,0.1884,4.3469,4.6119,SCM-style deterministic intervention baseline
+1982_312_Hungary,Hungary,Adidas,player_injury_shock,4.284,4.0208,-0.2632,3.8638,4.1778,SCM-style deterministic intervention baseline
+1982_312_Hungary,Hungary,Adidas,media_surge,4.284,4.512,0.228,4.369,4.655,SCM-style deterministic intervention baseline
+1982_312_Hungary,Hungary,Adidas,budget_cut,4.284,4.1436,-0.1404,4.0216,4.2656,SCM-style deterministic intervention baseline
+1982_312_Hungary,Hungary,Adidas,budget_reallocation,4.284,4.3968,0.1128,4.2853,4.5083,SCM-style deterministic intervention baseline
+1982_312_Hungary,Hungary,Adidas,late_stage_activation,4.284,4.4724,0.1884,4.3399,4.6049,SCM-style deterministic intervention baseline
+1982_312_El_Salvador,El Salvador,Budweiser,player_injury_shock,4.284,4.0208,-0.2632,3.8638,4.1778,SCM-style deterministic intervention baseline
+1982_312_El_Salvador,El Salvador,Budweiser,media_surge,4.284,4.512,0.228,4.369,4.655,SCM-style deterministic intervention baseline
+1982_312_El_Salvador,El Salvador,Budweiser,budget_cut,4.284,4.1436,-0.1404,4.0216,4.2656,SCM-style deterministic intervention baseline
+1982_312_El_Salvador,El Salvador,Budweiser,budget_reallocation,4.284,4.3968,0.1128,4.2853,4.5083,SCM-style deterministic intervention baseline
+1982_312_El_Salvador,El Salvador,Budweiser,late_stage_activation,4.284,4.4724,0.1884,4.3399,4.6049,SCM-style deterministic intervention baseline
+2014_781_Bosnia_and_Herzegovina,Bosnia and Herzegovina,Mengniu,player_injury_shock,4.281,4.0178,-0.2632,3.8608,4.1748,SCM-style deterministic intervention baseline
+2014_781_Bosnia_and_Herzegovina,Bosnia and Herzegovina,Mengniu,media_surge,4.281,4.509,0.228,4.366,4.652,SCM-style deterministic intervention baseline
+2014_781_Bosnia_and_Herzegovina,Bosnia and Herzegovina,Mengniu,budget_cut,4.281,4.1406,-0.1404,4.0186,4.2626,SCM-style deterministic intervention baseline
+2014_781_Bosnia_and_Herzegovina,Bosnia and Herzegovina,Mengniu,budget_reallocation,4.281,4.3938,0.1128,4.2823,4.5053,SCM-style deterministic intervention baseline
+2014_781_Bosnia_and_Herzegovina,Bosnia and Herzegovina,Mengniu,late_stage_activation,4.281,4.4694,0.1884,4.3369,4.6019,SCM-style deterministic intervention baseline
+2014_781_Argentina,Argentina,Hyundai,player_injury_shock,4.281,4.0178,-0.2632,3.8608,4.1748,SCM-style deterministic intervention baseline
+2014_781_Argentina,Argentina,Hyundai,media_surge,4.281,4.509,0.228,4.366,4.652,SCM-style deterministic intervention baseline
+2014_781_Argentina,Argentina,Hyundai,budget_cut,4.281,4.1406,-0.1404,4.0186,4.2626,SCM-style deterministic intervention baseline
+2014_781_Argentina,Argentina,Hyundai,budget_reallocation,4.281,4.3938,0.1128,4.2823,4.5053,SCM-style deterministic intervention baseline
+2014_781_Argentina,Argentina,Hyundai,late_stage_activation,4.281,4.4694,0.1884,4.3369,4.6019,SCM-style deterministic intervention baseline
+2018_842_Argentina,Argentina,Hyundai,player_injury_shock,4.272,4.0088,-0.2632,3.8518,4.1658,SCM-style deterministic intervention baseline
+2018_842_Argentina,Argentina,Hyundai,media_surge,4.272,4.5,0.228,4.357,4.643,SCM-style deterministic intervention baseline
+2018_842_Argentina,Argentina,Hyundai,budget_cut,4.272,4.1316,-0.1404,4.0096,4.2536,SCM-style deterministic intervention baseline
+2018_842_Argentina,Argentina,Hyundai,budget_reallocation,4.272,4.3848,0.1128,4.2733,4.4963,SCM-style deterministic intervention baseline
+2018_842_Argentina,Argentina,Hyundai,late_stage_activation,4.272,4.4604,0.1884,4.3279,4.5929,SCM-style deterministic intervention baseline
+2018_842_Iceland,Iceland,Adidas,player_injury_shock,4.272,4.0088,-0.2632,3.8518,4.1658,SCM-style deterministic intervention baseline
+2018_842_Iceland,Iceland,Adidas,media_surge,4.272,4.5,0.228,4.357,4.643,SCM-style deterministic intervention baseline
+2018_842_Iceland,Iceland,Adidas,budget_cut,4.272,4.1316,-0.1404,4.0096,4.2536,SCM-style deterministic intervention baseline
+2018_842_Iceland,Iceland,Adidas,budget_reallocation,4.272,4.3848,0.1128,4.2733,4.4963,SCM-style deterministic intervention baseline
+2018_842_Iceland,Iceland,Adidas,late_stage_activation,4.272,4.4604,0.1884,4.3279,4.5929,SCM-style deterministic intervention baseline
+1994_475_Argentina,Argentina,Hyundai,player_injury_shock,4.266,4.0028,-0.2632,3.8458,4.1598,SCM-style deterministic intervention baseline
+1994_475_Argentina,Argentina,Hyundai,media_surge,4.266,4.494,0.228,4.351,4.637,SCM-style deterministic intervention baseline
+1994_475_Argentina,Argentina,Hyundai,budget_cut,4.266,4.1256,-0.1404,4.0036,4.2476,SCM-style deterministic intervention baseline
+1994_475_Argentina,Argentina,Hyundai,budget_reallocation,4.266,4.3788,0.1128,4.2673,4.4903,SCM-style deterministic intervention baseline
+1994_475_Argentina,Argentina,Hyundai,late_stage_activation,4.266,4.4544,0.1884,4.3219,4.5869,SCM-style deterministic intervention baseline
+1994_475_Greece,Greece,Budweiser,player_injury_shock,4.266,4.0028,-0.2632,3.8458,4.1598,SCM-style deterministic intervention baseline
+1994_475_Greece,Greece,Budweiser,media_surge,4.266,4.494,0.228,4.351,4.637,SCM-style deterministic intervention baseline
+1994_475_Greece,Greece,Budweiser,budget_cut,4.266,4.1256,-0.1404,4.0036,4.2476,SCM-style deterministic intervention baseline
+1994_475_Greece,Greece,Budweiser,budget_reallocation,4.266,4.3788,0.1128,4.2673,4.4903,SCM-style deterministic intervention baseline
+1994_475_Greece,Greece,Budweiser,late_stage_activation,4.266,4.4544,0.1884,4.3219,4.5869,SCM-style deterministic intervention baseline
+2022_905_Argentina,Argentina,Hyundai,player_injury_shock,4.26,3.9968,-0.2632,3.8398,4.1538,SCM-style deterministic intervention baseline
+2022_905_Argentina,Argentina,Hyundai,media_surge,4.26,4.488,0.228,4.345,4.631,SCM-style deterministic intervention baseline
+2022_905_Argentina,Argentina,Hyundai,budget_cut,4.26,4.1196,-0.1404,3.9976,4.2416,SCM-style deterministic intervention baseline
+2022_905_Argentina,Argentina,Hyundai,budget_reallocation,4.26,4.3728,0.1128,4.2613,4.4843,SCM-style deterministic intervention baseline
+2022_905_Argentina,Argentina,Hyundai,late_stage_activation,4.26,4.4484,0.1884,4.3159,4.5809,SCM-style deterministic intervention baseline
+2022_905_Saudi_Arabia,Saudi Arabia,Visa,player_injury_shock,4.26,3.9968,-0.2632,3.8398,4.1538,SCM-style deterministic intervention baseline
+2022_905_Saudi_Arabia,Saudi Arabia,Visa,media_surge,4.26,4.488,0.228,4.345,4.631,SCM-style deterministic intervention baseline
+2022_905_Saudi_Arabia,Saudi Arabia,Visa,budget_cut,4.26,4.1196,-0.1404,3.9976,4.2416,SCM-style deterministic intervention baseline
+2022_905_Saudi_Arabia,Saudi Arabia,Visa,budget_reallocation,4.26,4.3728,0.1128,4.2613,4.4843,SCM-style deterministic intervention baseline
+2022_905_Saudi_Arabia,Saudi Arabia,Visa,late_stage_activation,4.26,4.4484,0.1884,4.3159,4.5809,SCM-style deterministic intervention baseline
+2014_833_Germany,Germany,Coca-Cola,player_injury_shock,4.257,3.9938,-0.2632,3.8368,4.1508,SCM-style deterministic intervention baseline
+2014_833_Germany,Germany,Coca-Cola,media_surge,4.257,4.485,0.228,4.342,4.628,SCM-style deterministic intervention baseline
+2014_833_Germany,Germany,Coca-Cola,budget_cut,4.257,4.1166,-0.1404,3.9946,4.2386,SCM-style deterministic intervention baseline
+2014_833_Germany,Germany,Coca-Cola,budget_reallocation,4.257,4.3698,0.1128,4.2583,4.4813,SCM-style deterministic intervention baseline
+2014_833_Germany,Germany,Coca-Cola,late_stage_activation,4.257,4.4454,0.1884,4.3129,4.5779,SCM-style deterministic intervention baseline
+2014_833_Brazil,Brazil,Adidas,player_injury_shock,4.257,3.9938,-0.2632,3.8368,4.1508,SCM-style deterministic intervention baseline
+2014_833_Brazil,Brazil,Adidas,media_surge,4.257,4.485,0.228,4.342,4.628,SCM-style deterministic intervention baseline
+2014_833_Brazil,Brazil,Adidas,budget_cut,4.257,4.1166,-0.1404,3.9946,4.2386,SCM-style deterministic intervention baseline
+2014_833_Brazil,Brazil,Adidas,budget_reallocation,4.257,4.3698,0.1128,4.2583,4.4813,SCM-style deterministic intervention baseline
+2014_833_Brazil,Brazil,Adidas,late_stage_activation,4.257,4.4454,0.1884,4.3129,4.5779,SCM-style deterministic intervention baseline
+2022_922_Argentina,Argentina,Hyundai,player_injury_shock,4.255,3.9918,-0.2632,3.8348,4.1488,SCM-style deterministic intervention baseline
+2022_922_Argentina,Argentina,Hyundai,media_surge,4.255,4.483,0.228,4.34,4.626,SCM-style deterministic intervention baseline
+2022_922_Argentina,Argentina,Hyundai,budget_cut,4.255,4.1146,-0.1404,3.9926,4.2366,SCM-style deterministic intervention baseline
+2022_922_Argentina,Argentina,Hyundai,budget_reallocation,4.255,4.3678,0.1128,4.2563,4.4793,SCM-style deterministic intervention baseline
+2022_922_Argentina,Argentina,Hyundai,late_stage_activation,4.255,4.4434,0.1884,4.3109,4.5759,SCM-style deterministic intervention baseline
+2022_922_Mexico,Mexico,Hyundai,player_injury_shock,4.255,3.9918,-0.2632,3.8348,4.1488,SCM-style deterministic intervention baseline
+2022_922_Mexico,Mexico,Hyundai,media_surge,4.255,4.483,0.228,4.34,4.626,SCM-style deterministic intervention baseline
+2022_922_Mexico,Mexico,Hyundai,budget_cut,4.255,4.1146,-0.1404,3.9926,4.2366,SCM-style deterministic intervention baseline
+2022_922_Mexico,Mexico,Hyundai,budget_reallocation,4.255,4.3678,0.1128,4.2563,4.4793,SCM-style deterministic intervention baseline
+2022_922_Mexico,Mexico,Hyundai,late_stage_activation,4.255,4.4434,0.1884,4.3109,4.5759,SCM-style deterministic intervention baseline
+1994_501_Belgium,Belgium,Visa,player_injury_shock,4.253,3.9898,-0.2632,3.8328,4.1468,SCM-style deterministic intervention baseline
+1994_501_Belgium,Belgium,Visa,media_surge,4.253,4.481,0.228,4.338,4.624,SCM-style deterministic intervention baseline
+1994_501_Belgium,Belgium,Visa,budget_cut,4.253,4.1126,-0.1404,3.9906,4.2346,SCM-style deterministic intervention baseline
+1994_501_Belgium,Belgium,Visa,budget_reallocation,4.253,4.3658,0.1128,4.2543,4.4773,SCM-style deterministic intervention baseline
+1994_501_Belgium,Belgium,Visa,late_stage_activation,4.253,4.4414,0.1884,4.3089,4.5739,SCM-style deterministic intervention baseline
+1994_501_Germany,Germany,Coca-Cola,player_injury_shock,4.253,3.9898,-0.2632,3.8328,4.1468,SCM-style deterministic intervention baseline
+1994_501_Germany,Germany,Coca-Cola,media_surge,4.253,4.481,0.228,4.338,4.624,SCM-style deterministic intervention baseline
+1994_501_Germany,Germany,Coca-Cola,budget_cut,4.253,4.1126,-0.1404,3.9906,4.2346,SCM-style deterministic intervention baseline
+1994_501_Germany,Germany,Coca-Cola,budget_reallocation,4.253,4.3658,0.1128,4.2543,4.4773,SCM-style deterministic intervention baseline
+1994_501_Germany,Germany,Coca-Cola,late_stage_activation,4.253,4.4414,0.1884,4.3089,4.5739,SCM-style deterministic intervention baseline
+2002_582_Saudi_Arabia,Saudi Arabia,Visa,player_injury_shock,4.252,3.9888,-0.2632,3.8318,4.1458,SCM-style deterministic intervention baseline
+2002_582_Saudi_Arabia,Saudi Arabia,Visa,media_surge,4.252,4.48,0.228,4.337,4.623,SCM-style deterministic intervention baseline
+2002_582_Saudi_Arabia,Saudi Arabia,Visa,budget_cut,4.252,4.1116,-0.1404,3.9896,4.2336,SCM-style deterministic intervention baseline
+2002_582_Saudi_Arabia,Saudi Arabia,Visa,budget_reallocation,4.252,4.3648,0.1128,4.2533,4.4763,SCM-style deterministic intervention baseline
+2002_582_Saudi_Arabia,Saudi Arabia,Visa,late_stage_activation,4.252,4.4404,0.1884,4.3079,4.5729,SCM-style deterministic intervention baseline
+2002_582_Germany,Germany,Coca-Cola,player_injury_shock,4.252,3.9888,-0.2632,3.8318,4.1458,SCM-style deterministic intervention baseline
+2002_582_Germany,Germany,Coca-Cola,media_surge,4.252,4.48,0.228,4.337,4.623,SCM-style deterministic intervention baseline
+2002_582_Germany,Germany,Coca-Cola,budget_cut,4.252,4.1116,-0.1404,3.9896,4.2336,SCM-style deterministic intervention baseline
+2002_582_Germany,Germany,Coca-Cola,budget_reallocation,4.252,4.3648,0.1128,4.2533,4.4763,SCM-style deterministic intervention baseline
+2002_582_Germany,Germany,Coca-Cola,late_stage_activation,4.252,4.4404,0.1884,4.3079,4.5729,SCM-style deterministic intervention baseline
+1994_496_Russia,Russia,Hyundai,player_injury_shock,4.25,3.9868,-0.2632,3.8298,4.1438,SCM-style deterministic intervention baseline
+1994_496_Russia,Russia,Hyundai,media_surge,4.25,4.478,0.228,4.335,4.621,SCM-style deterministic intervention baseline
+1994_496_Russia,Russia,Hyundai,budget_cut,4.25,4.1096,-0.1404,3.9876,4.2316,SCM-style deterministic intervention baseline
+1994_496_Russia,Russia,Hyundai,budget_reallocation,4.25,4.3628,0.1128,4.2513,4.4743,SCM-style deterministic intervention baseline
+1994_496_Russia,Russia,Hyundai,late_stage_activation,4.25,4.4384,0.1884,4.3059,4.5709,SCM-style deterministic intervention baseline
+2010_715_Australia,Australia,Hyundai,player_injury_shock,4.25,3.9868,-0.2632,3.8298,4.1438,SCM-style deterministic intervention baseline
+2010_715_Australia,Australia,Hyundai,media_surge,4.25,4.478,0.228,4.335,4.621,SCM-style deterministic intervention baseline
+2010_715_Australia,Australia,Hyundai,budget_cut,4.25,4.1096,-0.1404,3.9876,4.2316,SCM-style deterministic intervention baseline
+2010_715_Australia,Australia,Hyundai,budget_reallocation,4.25,4.3628,0.1128,4.2513,4.4743,SCM-style deterministic intervention baseline
+2010_715_Australia,Australia,Hyundai,late_stage_activation,4.25,4.4384,0.1884,4.3059,4.5709,SCM-style deterministic intervention baseline
+2022_909_Japan,Japan,Adidas,player_injury_shock,4.25,3.9868,-0.2632,3.8298,4.1438,SCM-style deterministic intervention baseline
+2022_909_Japan,Japan,Adidas,media_surge,4.25,4.478,0.228,4.335,4.621,SCM-style deterministic intervention baseline
+2022_909_Japan,Japan,Adidas,budget_cut,4.25,4.1096,-0.1404,3.9876,4.2316,SCM-style deterministic intervention baseline
+2022_909_Japan,Japan,Adidas,budget_reallocation,4.25,4.3628,0.1128,4.2513,4.4743,SCM-style deterministic intervention baseline
+2022_909_Japan,Japan,Adidas,late_stage_activation,4.25,4.4384,0.1884,4.3059,4.5709,SCM-style deterministic intervention baseline
+1994_496_Cameroon,Cameroon,Coca-Cola,player_injury_shock,4.25,3.9868,-0.2632,3.8298,4.1438,SCM-style deterministic intervention baseline
+1994_496_Cameroon,Cameroon,Coca-Cola,media_surge,4.25,4.478,0.228,4.335,4.621,SCM-style deterministic intervention baseline
+1994_496_Cameroon,Cameroon,Coca-Cola,budget_cut,4.25,4.1096,-0.1404,3.9876,4.2316,SCM-style deterministic intervention baseline
+1994_496_Cameroon,Cameroon,Coca-Cola,budget_reallocation,4.25,4.3628,0.1128,4.2513,4.4743,SCM-style deterministic intervention baseline
+1994_496_Cameroon,Cameroon,Coca-Cola,late_stage_activation,4.25,4.4384,0.1884,4.3059,4.5709,SCM-style deterministic intervention baseline
+2010_715_Germany,Germany,Coca-Cola,player_injury_shock,4.25,3.9868,-0.2632,3.8298,4.1438,SCM-style deterministic intervention baseline
+2010_715_Germany,Germany,Coca-Cola,media_surge,4.25,4.478,0.228,4.335,4.621,SCM-style deterministic intervention baseline
+2010_715_Germany,Germany,Coca-Cola,budget_cut,4.25,4.1096,-0.1404,3.9876,4.2316,SCM-style deterministic intervention baseline
+2010_715_Germany,Germany,Coca-Cola,budget_reallocation,4.25,4.3628,0.1128,4.2513,4.4743,SCM-style deterministic intervention baseline
+2010_715_Germany,Germany,Coca-Cola,late_stage_activation,4.25,4.4384,0.1884,4.3059,4.5709,SCM-style deterministic intervention baseline
+2022_909_Germany,Germany,Coca-Cola,player_injury_shock,4.25,3.9868,-0.2632,3.8298,4.1438,SCM-style deterministic intervention baseline
+2022_909_Germany,Germany,Coca-Cola,media_surge,4.25,4.478,0.228,4.335,4.621,SCM-style deterministic intervention baseline
+2022_909_Germany,Germany,Coca-Cola,budget_cut,4.25,4.1096,-0.1404,3.9876,4.2316,SCM-style deterministic intervention baseline
+2022_909_Germany,Germany,Coca-Cola,budget_reallocation,4.25,4.3628,0.1128,4.2513,4.4743,SCM-style deterministic intervention baseline
+2022_909_Germany,Germany,Coca-Cola,late_stage_activation,4.25,4.4384,0.1884,4.3059,4.5709,SCM-style deterministic intervention baseline
+1986_386_Canada,Canada,Hisense,player_injury_shock,4.246,3.9828,-0.2632,3.8258,4.1398,SCM-style deterministic intervention baseline
+1986_386_Canada,Canada,Hisense,media_surge,4.246,4.474,0.228,4.331,4.617,SCM-style deterministic intervention baseline
+1986_386_Canada,Canada,Hisense,budget_cut,4.246,4.1056,-0.1404,3.9836,4.2276,SCM-style deterministic intervention baseline
+1986_386_Canada,Canada,Hisense,budget_reallocation,4.246,4.3588,0.1128,4.2473,4.4703,SCM-style deterministic intervention baseline
+1986_386_Canada,Canada,Hisense,late_stage_activation,4.246,4.4344,0.1884,4.3019,4.5669,SCM-style deterministic intervention baseline
+1986_386_Russia,Russia,Hyundai,player_injury_shock,4.246,3.9828,-0.2632,3.8258,4.1398,SCM-style deterministic intervention baseline
+1986_386_Russia,Russia,Hyundai,media_surge,4.246,4.474,0.228,4.331,4.617,SCM-style deterministic intervention baseline
+1986_386_Russia,Russia,Hyundai,budget_cut,4.246,4.1056,-0.1404,3.9836,4.2276,SCM-style deterministic intervention baseline
+1986_386_Russia,Russia,Hyundai,budget_reallocation,4.246,4.3588,0.1128,4.2473,4.4703,SCM-style deterministic intervention baseline
+1986_386_Russia,Russia,Hyundai,late_stage_activation,4.246,4.4344,0.1884,4.3019,4.5669,SCM-style deterministic intervention baseline
+2006_645_Costa_Rica,Costa Rica,Visa,player_injury_shock,4.242,3.9788,-0.2632,3.8218,4.1358,SCM-style deterministic intervention baseline
+2006_645_Costa_Rica,Costa Rica,Visa,media_surge,4.242,4.47,0.228,4.327,4.613,SCM-style deterministic intervention baseline
+2006_645_Costa_Rica,Costa Rica,Visa,budget_cut,4.242,4.1016,-0.1404,3.9796,4.2236,SCM-style deterministic intervention baseline
+2006_645_Costa_Rica,Costa Rica,Visa,budget_reallocation,4.242,4.3548,0.1128,4.2433,4.4663,SCM-style deterministic intervention baseline
+2006_645_Costa_Rica,Costa Rica,Visa,late_stage_activation,4.242,4.4304,0.1884,4.2979,4.5629,SCM-style deterministic intervention baseline
+2006_645_Germany,Germany,Coca-Cola,player_injury_shock,4.242,3.9788,-0.2632,3.8218,4.1358,SCM-style deterministic intervention baseline
+2006_645_Germany,Germany,Coca-Cola,media_surge,4.242,4.47,0.228,4.327,4.613,SCM-style deterministic intervention baseline
+2006_645_Germany,Germany,Coca-Cola,budget_cut,4.242,4.1016,-0.1404,3.9796,4.2236,SCM-style deterministic intervention baseline
+2006_645_Germany,Germany,Coca-Cola,budget_reallocation,4.242,4.3548,0.1128,4.2433,4.4663,SCM-style deterministic intervention baseline
+2006_645_Germany,Germany,Coca-Cola,late_stage_activation,4.242,4.4304,0.1884,4.2979,4.5629,SCM-style deterministic intervention baseline
+2010_711_Argentina,Argentina,Hyundai,player_injury_shock,4.232,3.9688,-0.2632,3.8118,4.1258,SCM-style deterministic intervention baseline
+2010_711_Argentina,Argentina,Hyundai,media_surge,4.232,4.46,0.228,4.317,4.603,SCM-style deterministic intervention baseline
+2010_711_Argentina,Argentina,Hyundai,budget_cut,4.232,4.0916,-0.1404,3.9696,4.2136,SCM-style deterministic intervention baseline
+2010_711_Argentina,Argentina,Hyundai,budget_reallocation,4.232,4.3448,0.1128,4.2333,4.4563,SCM-style deterministic intervention baseline
+2010_711_Argentina,Argentina,Hyundai,late_stage_activation,4.232,4.4204,0.1884,4.2879,4.5529,SCM-style deterministic intervention baseline
+2010_711_Nigeria,Nigeria,Coca-Cola,player_injury_shock,4.232,3.9688,-0.2632,3.8118,4.1258,SCM-style deterministic intervention baseline
+2010_711_Nigeria,Nigeria,Coca-Cola,media_surge,4.232,4.46,0.228,4.317,4.603,SCM-style deterministic intervention baseline
+2010_711_Nigeria,Nigeria,Coca-Cola,budget_cut,4.232,4.0916,-0.1404,3.9696,4.2136,SCM-style deterministic intervention baseline
+2010_711_Nigeria,Nigeria,Coca-Cola,budget_reallocation,4.232,4.3448,0.1128,4.2333,4.4563,SCM-style deterministic intervention baseline
+2010_711_Nigeria,Nigeria,Coca-Cola,late_stage_activation,4.232,4.4204,0.1884,4.2879,4.5529,SCM-style deterministic intervention baseline
+2006_647_Ivory_Coast,Ivory Coast,Budweiser,player_injury_shock,4.226,3.9628,-0.2632,3.8058,4.1198,SCM-style deterministic intervention baseline
+2006_647_Ivory_Coast,Ivory Coast,Budweiser,media_surge,4.226,4.454,0.228,4.311,4.597,SCM-style deterministic intervention baseline
+2006_647_Ivory_Coast,Ivory Coast,Budweiser,budget_cut,4.226,4.0856,-0.1404,3.9636,4.2076,SCM-style deterministic intervention baseline
+2006_647_Ivory_Coast,Ivory Coast,Budweiser,budget_reallocation,4.226,4.3388,0.1128,4.2273,4.4503,SCM-style deterministic intervention baseline
+2006_647_Ivory_Coast,Ivory Coast,Budweiser,late_stage_activation,4.226,4.4144,0.1884,4.2819,4.5469,SCM-style deterministic intervention baseline
+2006_647_Argentina,Argentina,Hyundai,player_injury_shock,4.226,3.9628,-0.2632,3.8058,4.1198,SCM-style deterministic intervention baseline
+2006_647_Argentina,Argentina,Hyundai,media_surge,4.226,4.454,0.228,4.311,4.597,SCM-style deterministic intervention baseline
+2006_647_Argentina,Argentina,Hyundai,budget_cut,4.226,4.0856,-0.1404,3.9636,4.2076,SCM-style deterministic intervention baseline
+2006_647_Argentina,Argentina,Hyundai,budget_reallocation,4.226,4.3388,0.1128,4.2273,4.4503,SCM-style deterministic intervention baseline
+2006_647_Argentina,Argentina,Hyundai,late_stage_activation,4.226,4.4144,0.1884,4.2819,4.5469,SCM-style deterministic intervention baseline
+1974_253_Haiti,Haiti,Coca-Cola,player_injury_shock,4.225,3.9618,-0.2632,3.8048,4.1188,SCM-style deterministic intervention baseline
+1974_253_Haiti,Haiti,Coca-Cola,media_surge,4.225,4.453,0.228,4.31,4.596,SCM-style deterministic intervention baseline
+1974_253_Haiti,Haiti,Coca-Cola,budget_cut,4.225,4.0846,-0.1404,3.9626,4.2066,SCM-style deterministic intervention baseline
+1974_253_Haiti,Haiti,Coca-Cola,budget_reallocation,4.225,4.3378,0.1128,4.2263,4.4493,SCM-style deterministic intervention baseline
+1974_253_Haiti,Haiti,Coca-Cola,late_stage_activation,4.225,4.4134,0.1884,4.2809,4.5459,SCM-style deterministic intervention baseline
+1974_253_Argentina,Argentina,Hyundai,player_injury_shock,4.225,3.9618,-0.2632,3.8048,4.1188,SCM-style deterministic intervention baseline
+1974_253_Argentina,Argentina,Hyundai,media_surge,4.225,4.453,0.228,4.31,4.596,SCM-style deterministic intervention baseline
+1974_253_Argentina,Argentina,Hyundai,budget_cut,4.225,4.0846,-0.1404,3.9626,4.2066,SCM-style deterministic intervention baseline
+1974_253_Argentina,Argentina,Hyundai,budget_reallocation,4.225,4.3378,0.1128,4.2263,4.4493,SCM-style deterministic intervention baseline
+1974_253_Argentina,Argentina,Hyundai,late_stage_activation,4.225,4.4134,0.1884,4.2809,4.5459,SCM-style deterministic intervention baseline
+2006_693_Argentina,Argentina,Hyundai,player_injury_shock,4.221,3.9578,-0.2632,3.8008,4.1148,SCM-style deterministic intervention baseline
+2006_693_Argentina,Argentina,Hyundai,media_surge,4.221,4.449,0.228,4.306,4.592,SCM-style deterministic intervention baseline
+2006_693_Argentina,Argentina,Hyundai,budget_cut,4.221,4.0806,-0.1404,3.9586,4.2026,SCM-style deterministic intervention baseline
+2006_693_Argentina,Argentina,Hyundai,budget_reallocation,4.221,4.3338,0.1128,4.2223,4.4453,SCM-style deterministic intervention baseline
+2006_693_Argentina,Argentina,Hyundai,late_stage_activation,4.221,4.4094,0.1884,4.2769,4.5419,SCM-style deterministic intervention baseline
+2006_693_Mexico,Mexico,Hyundai,player_injury_shock,4.221,3.9578,-0.2632,3.8008,4.1148,SCM-style deterministic intervention baseline
+2006_693_Mexico,Mexico,Hyundai,media_surge,4.221,4.449,0.228,4.306,4.592,SCM-style deterministic intervention baseline
+2006_693_Mexico,Mexico,Hyundai,budget_cut,4.221,4.0806,-0.1404,3.9586,4.2026,SCM-style deterministic intervention baseline
+2006_693_Mexico,Mexico,Hyundai,budget_reallocation,4.221,4.3338,0.1128,4.2223,4.4453,SCM-style deterministic intervention baseline
+2006_693_Mexico,Mexico,Hyundai,late_stage_activation,4.221,4.4094,0.1884,4.2769,4.5419,SCM-style deterministic intervention baseline
+2018_846_Germany,Germany,Coca-Cola,player_injury_shock,4.218,3.9548,-0.2632,3.7978,4.1118,SCM-style deterministic intervention baseline
+2018_846_Germany,Germany,Coca-Cola,media_surge,4.218,4.446,0.228,4.303,4.589,SCM-style deterministic intervention baseline
+2018_846_Germany,Germany,Coca-Cola,budget_cut,4.218,4.0776,-0.1404,3.9556,4.1996,SCM-style deterministic intervention baseline
+2018_846_Germany,Germany,Coca-Cola,budget_reallocation,4.218,4.3308,0.1128,4.2193,4.4423,SCM-style deterministic intervention baseline
+2018_846_Germany,Germany,Coca-Cola,late_stage_activation,4.218,4.4064,0.1884,4.2739,4.5389,SCM-style deterministic intervention baseline
+2018_859_Argentina,Argentina,Hyundai,player_injury_shock,4.218,3.9548,-0.2632,3.7978,4.1118,SCM-style deterministic intervention baseline
+2018_859_Argentina,Argentina,Hyundai,media_surge,4.218,4.446,0.228,4.303,4.589,SCM-style deterministic intervention baseline
+2018_859_Argentina,Argentina,Hyundai,budget_cut,4.218,4.0776,-0.1404,3.9556,4.1996,SCM-style deterministic intervention baseline
+2018_859_Argentina,Argentina,Hyundai,budget_reallocation,4.218,4.3308,0.1128,4.2193,4.4423,SCM-style deterministic intervention baseline
+2018_859_Argentina,Argentina,Hyundai,late_stage_activation,4.218,4.4064,0.1884,4.2739,4.5389,SCM-style deterministic intervention baseline
+2002_596_Russia,Russia,Hyundai,player_injury_shock,4.218,3.9548,-0.2632,3.7978,4.1118,SCM-style deterministic intervention baseline
+2002_596_Russia,Russia,Hyundai,media_surge,4.218,4.446,0.228,4.303,4.589,SCM-style deterministic intervention baseline
+2002_596_Russia,Russia,Hyundai,budget_cut,4.218,4.0776,-0.1404,3.9556,4.1996,SCM-style deterministic intervention baseline
+2002_596_Russia,Russia,Hyundai,budget_reallocation,4.218,4.3308,0.1128,4.2193,4.4423,SCM-style deterministic intervention baseline
+2002_596_Russia,Russia,Hyundai,late_stage_activation,4.218,4.4064,0.1884,4.2739,4.5389,SCM-style deterministic intervention baseline
+2002_596_Tunisia,Tunisia,Hyundai,player_injury_shock,4.218,3.9548,-0.2632,3.7978,4.1118,SCM-style deterministic intervention baseline
+2002_596_Tunisia,Tunisia,Hyundai,media_surge,4.218,4.446,0.228,4.303,4.589,SCM-style deterministic intervention baseline
+2002_596_Tunisia,Tunisia,Hyundai,budget_cut,4.218,4.0776,-0.1404,3.9556,4.1996,SCM-style deterministic intervention baseline
+2002_596_Tunisia,Tunisia,Hyundai,budget_reallocation,4.218,4.3308,0.1128,4.2193,4.4423,SCM-style deterministic intervention baseline
+2002_596_Tunisia,Tunisia,Hyundai,late_stage_activation,4.218,4.4064,0.1884,4.2739,4.5389,SCM-style deterministic intervention baseline
+2018_859_Croatia,Croatia,Hisense,player_injury_shock,4.218,3.9548,-0.2632,3.7978,4.1118,SCM-style deterministic intervention baseline
+2018_859_Croatia,Croatia,Hisense,media_surge,4.218,4.446,0.228,4.303,4.589,SCM-style deterministic intervention baseline
+2018_859_Croatia,Croatia,Hisense,budget_cut,4.218,4.0776,-0.1404,3.9556,4.1996,SCM-style deterministic intervention baseline
+2018_859_Croatia,Croatia,Hisense,budget_reallocation,4.218,4.3308,0.1128,4.2193,4.4423,SCM-style deterministic intervention baseline
+2018_859_Croatia,Croatia,Hisense,late_stage_activation,4.218,4.4064,0.1884,4.2739,4.5389,SCM-style deterministic intervention baseline
+2018_846_Mexico,Mexico,Hyundai,player_injury_shock,4.218,3.9548,-0.2632,3.7978,4.1118,SCM-style deterministic intervention baseline
+2018_846_Mexico,Mexico,Hyundai,media_surge,4.218,4.446,0.228,4.303,4.589,SCM-style deterministic intervention baseline
+2018_846_Mexico,Mexico,Hyundai,budget_cut,4.218,4.0776,-0.1404,3.9556,4.1996,SCM-style deterministic intervention baseline
+2018_846_Mexico,Mexico,Hyundai,budget_reallocation,4.218,4.3308,0.1128,4.2193,4.4423,SCM-style deterministic intervention baseline
+2018_846_Mexico,Mexico,Hyundai,late_stage_activation,4.218,4.4064,0.1884,4.2739,4.5389,SCM-style deterministic intervention baseline
+2022_954_Brazil,Brazil,Adidas,player_injury_shock,4.215,3.9518,-0.2632,3.7948,4.1088,SCM-style deterministic intervention baseline
+2022_954_Brazil,Brazil,Adidas,media_surge,4.215,4.443,0.228,4.3,4.586,SCM-style deterministic intervention baseline
+2022_954_Brazil,Brazil,Adidas,budget_cut,4.215,4.0746,-0.1404,3.9526,4.1966,SCM-style deterministic intervention baseline
+2022_954_Brazil,Brazil,Adidas,budget_reallocation,4.215,4.3278,0.1128,4.2163,4.4393,SCM-style deterministic intervention baseline
+2022_954_Brazil,Brazil,Adidas,late_stage_activation,4.215,4.4034,0.1884,4.2709,4.5359,SCM-style deterministic intervention baseline
+2022_954_South_Korea,South Korea,McDonald's,player_injury_shock,4.215,3.9518,-0.2632,3.7948,4.1088,SCM-style deterministic intervention baseline
+2022_954_South_Korea,South Korea,McDonald's,media_surge,4.215,4.443,0.228,4.3,4.586,SCM-style deterministic intervention baseline
+2022_954_South_Korea,South Korea,McDonald's,budget_cut,4.215,4.0746,-0.1404,3.9526,4.1966,SCM-style deterministic intervention baseline
+2022_954_South_Korea,South Korea,McDonald's,budget_reallocation,4.215,4.3278,0.1128,4.2163,4.4393,SCM-style deterministic intervention baseline
+2022_954_South_Korea,South Korea,McDonald's,late_stage_activation,4.215,4.4034,0.1884,4.2709,4.5359,SCM-style deterministic intervention baseline
+1998_545_Serbia,Serbia,Vivo,player_injury_shock,4.211,3.9478,-0.2632,3.7908,4.1048,SCM-style deterministic intervention baseline
+1998_545_Serbia,Serbia,Vivo,media_surge,4.211,4.439,0.228,4.296,4.582,SCM-style deterministic intervention baseline
+1998_545_Serbia,Serbia,Vivo,budget_cut,4.211,4.0706,-0.1404,3.9486,4.1926,SCM-style deterministic intervention baseline
+1998_545_Serbia,Serbia,Vivo,budget_reallocation,4.211,4.3238,0.1128,4.2123,4.4353,SCM-style deterministic intervention baseline
+1998_545_Serbia,Serbia,Vivo,late_stage_activation,4.211,4.3994,0.1884,4.2669,4.5319,SCM-style deterministic intervention baseline
+1998_545_Germany,Germany,Coca-Cola,player_injury_shock,4.211,3.9478,-0.2632,3.7908,4.1048,SCM-style deterministic intervention baseline
+1998_545_Germany,Germany,Coca-Cola,media_surge,4.211,4.439,0.228,4.296,4.582,SCM-style deterministic intervention baseline
+1998_545_Germany,Germany,Coca-Cola,budget_cut,4.211,4.0706,-0.1404,3.9486,4.1926,SCM-style deterministic intervention baseline
+1998_545_Germany,Germany,Coca-Cola,budget_reallocation,4.211,4.3238,0.1128,4.2123,4.4353,SCM-style deterministic intervention baseline
+1998_545_Germany,Germany,Coca-Cola,late_stage_activation,4.211,4.3994,0.1884,4.2669,4.5319,SCM-style deterministic intervention baseline
+2014_799_Argentina,Argentina,Hyundai,player_injury_shock,4.207,3.9438,-0.2632,3.7868,4.1008,SCM-style deterministic intervention baseline
+2014_799_Argentina,Argentina,Hyundai,media_surge,4.207,4.435,0.228,4.292,4.578,SCM-style deterministic intervention baseline
+2014_799_Argentina,Argentina,Hyundai,budget_cut,4.207,4.0666,-0.1404,3.9446,4.1886,SCM-style deterministic intervention baseline
+2014_799_Argentina,Argentina,Hyundai,budget_reallocation,4.207,4.3198,0.1128,4.2083,4.4313,SCM-style deterministic intervention baseline
+2014_799_Argentina,Argentina,Hyundai,late_stage_activation,4.207,4.3954,0.1884,4.2629,4.5279,SCM-style deterministic intervention baseline
+2014_806_Brazil,Brazil,Adidas,player_injury_shock,4.207,3.9438,-0.2632,3.7868,4.1008,SCM-style deterministic intervention baseline
+2014_806_Brazil,Brazil,Adidas,media_surge,4.207,4.435,0.228,4.292,4.578,SCM-style deterministic intervention baseline
+2014_806_Brazil,Brazil,Adidas,budget_cut,4.207,4.0666,-0.1404,3.9446,4.1886,SCM-style deterministic intervention baseline
+2014_806_Brazil,Brazil,Adidas,budget_reallocation,4.207,4.3198,0.1128,4.2083,4.4313,SCM-style deterministic intervention baseline
+2014_806_Brazil,Brazil,Adidas,late_stage_activation,4.207,4.3954,0.1884,4.2629,4.5279,SCM-style deterministic intervention baseline
+2014_799_Iran,Iran,Visa,player_injury_shock,4.207,3.9438,-0.2632,3.7868,4.1008,SCM-style deterministic intervention baseline
+2014_799_Iran,Iran,Visa,media_surge,4.207,4.435,0.228,4.292,4.578,SCM-style deterministic intervention baseline
+2014_799_Iran,Iran,Visa,budget_cut,4.207,4.0666,-0.1404,3.9446,4.1886,SCM-style deterministic intervention baseline
+2014_799_Iran,Iran,Visa,budget_reallocation,4.207,4.3198,0.1128,4.2083,4.4313,SCM-style deterministic intervention baseline
+2014_799_Iran,Iran,Visa,late_stage_activation,4.207,4.3954,0.1884,4.2629,4.5279,SCM-style deterministic intervention baseline
+2014_806_Cameroon,Cameroon,Coca-Cola,player_injury_shock,4.207,3.9438,-0.2632,3.7868,4.1008,SCM-style deterministic intervention baseline
+2014_806_Cameroon,Cameroon,Coca-Cola,media_surge,4.207,4.435,0.228,4.292,4.578,SCM-style deterministic intervention baseline
+2014_806_Cameroon,Cameroon,Coca-Cola,budget_cut,4.207,4.0666,-0.1404,3.9446,4.1886,SCM-style deterministic intervention baseline
+2014_806_Cameroon,Cameroon,Coca-Cola,budget_reallocation,4.207,4.3198,0.1128,4.2083,4.4313,SCM-style deterministic intervention baseline
+2014_806_Cameroon,Cameroon,Coca-Cola,late_stage_activation,4.207,4.3954,0.1884,4.2629,4.5279,SCM-style deterministic intervention baseline
+1990_430_Germany,Germany,Coca-Cola,player_injury_shock,4.192,3.9288,-0.2632,3.7718,4.0858,SCM-style deterministic intervention baseline
+1990_430_Germany,Germany,Coca-Cola,media_surge,4.192,4.42,0.228,4.277,4.563,SCM-style deterministic intervention baseline
+1990_430_Germany,Germany,Coca-Cola,budget_cut,4.192,4.0516,-0.1404,3.9296,4.1736,SCM-style deterministic intervention baseline
+1990_430_Germany,Germany,Coca-Cola,budget_reallocation,4.192,4.3048,0.1128,4.1933,4.4163,SCM-style deterministic intervention baseline
+1990_430_Germany,Germany,Coca-Cola,late_stage_activation,4.192,4.3804,0.1884,4.2479,4.5129,SCM-style deterministic intervention baseline
+1982_328_Germany,Germany,Coca-Cola,player_injury_shock,4.192,3.9288,-0.2632,3.7718,4.0858,SCM-style deterministic intervention baseline
+1982_328_Germany,Germany,Coca-Cola,media_surge,4.192,4.42,0.228,4.277,4.563,SCM-style deterministic intervention baseline
+1982_328_Germany,Germany,Coca-Cola,budget_cut,4.192,4.0516,-0.1404,3.9296,4.1736,SCM-style deterministic intervention baseline
+1982_328_Germany,Germany,Coca-Cola,budget_reallocation,4.192,4.3048,0.1128,4.1933,4.4163,SCM-style deterministic intervention baseline
+1982_328_Germany,Germany,Coca-Cola,late_stage_activation,4.192,4.3804,0.1884,4.2479,4.5129,SCM-style deterministic intervention baseline
+1982_328_Chile,Chile,Hisense,player_injury_shock,4.192,3.9288,-0.2632,3.7718,4.0858,SCM-style deterministic intervention baseline
+1982_328_Chile,Chile,Hisense,media_surge,4.192,4.42,0.228,4.277,4.563,SCM-style deterministic intervention baseline
+1982_328_Chile,Chile,Hisense,budget_cut,4.192,4.0516,-0.1404,3.9296,4.1736,SCM-style deterministic intervention baseline
+1982_328_Chile,Chile,Hisense,budget_reallocation,4.192,4.3048,0.1128,4.1933,4.4163,SCM-style deterministic intervention baseline
+1982_328_Chile,Chile,Hisense,late_stage_activation,4.192,4.3804,0.1884,4.2479,4.5129,SCM-style deterministic intervention baseline
+1990_430_United_Arab_Emirates,United Arab Emirates,Adidas,player_injury_shock,4.192,3.9288,-0.2632,3.7718,4.0858,SCM-style deterministic intervention baseline
+1990_430_United_Arab_Emirates,United Arab Emirates,Adidas,media_surge,4.192,4.42,0.228,4.277,4.563,SCM-style deterministic intervention baseline
+1990_430_United_Arab_Emirates,United Arab Emirates,Adidas,budget_cut,4.192,4.0516,-0.1404,3.9296,4.1736,SCM-style deterministic intervention baseline
+1990_430_United_Arab_Emirates,United Arab Emirates,Adidas,budget_reallocation,4.192,4.3048,0.1128,4.1933,4.4163,SCM-style deterministic intervention baseline
+1990_430_United_Arab_Emirates,United Arab Emirates,Adidas,late_stage_activation,4.192,4.3804,0.1884,4.2479,4.5129,SCM-style deterministic intervention baseline
+2018_865_Germany,Germany,Coca-Cola,player_injury_shock,4.191,3.9278,-0.2632,3.7708,4.0848,SCM-style deterministic intervention baseline
+2018_865_Germany,Germany,Coca-Cola,media_surge,4.191,4.419,0.228,4.276,4.562,SCM-style deterministic intervention baseline
+2018_865_Germany,Germany,Coca-Cola,budget_cut,4.191,4.0506,-0.1404,3.9286,4.1726,SCM-style deterministic intervention baseline
+2018_865_Germany,Germany,Coca-Cola,budget_reallocation,4.191,4.3038,0.1128,4.1923,4.4153,SCM-style deterministic intervention baseline
+2018_865_Germany,Germany,Coca-Cola,late_stage_activation,4.191,4.3794,0.1884,4.2469,4.5119,SCM-style deterministic intervention baseline
+2018_865_Sweden,Sweden,Budweiser,player_injury_shock,4.191,3.9278,-0.2632,3.7708,4.0848,SCM-style deterministic intervention baseline
+2018_865_Sweden,Sweden,Budweiser,media_surge,4.191,4.419,0.228,4.276,4.562,SCM-style deterministic intervention baseline
+2018_865_Sweden,Sweden,Budweiser,budget_cut,4.191,4.0506,-0.1404,3.9286,4.1726,SCM-style deterministic intervention baseline
+2018_865_Sweden,Sweden,Budweiser,budget_reallocation,4.191,4.3038,0.1128,4.1923,4.4153,SCM-style deterministic intervention baseline
+2018_865_Sweden,Sweden,Budweiser,late_stage_activation,4.191,4.3794,0.1884,4.2469,4.5119,SCM-style deterministic intervention baseline
+1978_279_France,France,Qatar Airways,player_injury_shock,4.185,3.9218,-0.2632,3.7648,4.0788,SCM-style deterministic intervention baseline
+1978_279_France,France,Qatar Airways,media_surge,4.185,4.413,0.228,4.27,4.556,SCM-style deterministic intervention baseline
+1978_279_France,France,Qatar Airways,budget_cut,4.185,4.0446,-0.1404,3.9226,4.1666,SCM-style deterministic intervention baseline
+1978_279_France,France,Qatar Airways,budget_reallocation,4.185,4.2978,0.1128,4.1863,4.4093,SCM-style deterministic intervention baseline
+1978_279_France,France,Qatar Airways,late_stage_activation,4.185,4.3734,0.1884,4.2409,4.5059,SCM-style deterministic intervention baseline
+1978_279_Argentina,Argentina,Hyundai,player_injury_shock,4.185,3.9218,-0.2632,3.7648,4.0788,SCM-style deterministic intervention baseline
+1978_279_Argentina,Argentina,Hyundai,media_surge,4.185,4.413,0.228,4.27,4.556,SCM-style deterministic intervention baseline
+1978_279_Argentina,Argentina,Hyundai,budget_cut,4.185,4.0446,-0.1404,3.9226,4.1666,SCM-style deterministic intervention baseline
+1978_279_Argentina,Argentina,Hyundai,budget_reallocation,4.185,4.2978,0.1128,4.1863,4.4093,SCM-style deterministic intervention baseline
+1978_279_Argentina,Argentina,Hyundai,late_stage_activation,4.185,4.3734,0.1884,4.2409,4.5059,SCM-style deterministic intervention baseline
+1994_499_Bulgaria,Bulgaria,Hisense,player_injury_shock,4.185,3.9218,-0.2632,3.7648,4.0788,SCM-style deterministic intervention baseline
+1994_499_Bulgaria,Bulgaria,Hisense,media_surge,4.185,4.413,0.228,4.27,4.556,SCM-style deterministic intervention baseline
+1994_499_Bulgaria,Bulgaria,Hisense,budget_cut,4.185,4.0446,-0.1404,3.9226,4.1666,SCM-style deterministic intervention baseline
+1994_499_Bulgaria,Bulgaria,Hisense,budget_reallocation,4.185,4.2978,0.1128,4.1863,4.4093,SCM-style deterministic intervention baseline
+1994_499_Bulgaria,Bulgaria,Hisense,late_stage_activation,4.185,4.3734,0.1884,4.2409,4.5059,SCM-style deterministic intervention baseline
+1994_499_Argentina,Argentina,Hyundai,player_injury_shock,4.185,3.9218,-0.2632,3.7648,4.0788,SCM-style deterministic intervention baseline
+1994_499_Argentina,Argentina,Hyundai,media_surge,4.185,4.413,0.228,4.27,4.556,SCM-style deterministic intervention baseline
+1994_499_Argentina,Argentina,Hyundai,budget_cut,4.185,4.0446,-0.1404,3.9226,4.1666,SCM-style deterministic intervention baseline
+1994_499_Argentina,Argentina,Hyundai,budget_reallocation,4.185,4.2978,0.1128,4.1863,4.4093,SCM-style deterministic intervention baseline
+1994_499_Argentina,Argentina,Hyundai,late_stage_activation,4.185,4.3734,0.1884,4.2409,4.5059,SCM-style deterministic intervention baseline
+2014_773_Brazil,Brazil,Adidas,player_injury_shock,4.184,3.9208,-0.2632,3.7638,4.0778,SCM-style deterministic intervention baseline
+2014_773_Brazil,Brazil,Adidas,media_surge,4.184,4.412,0.228,4.269,4.555,SCM-style deterministic intervention baseline
+2014_773_Brazil,Brazil,Adidas,budget_cut,4.184,4.0436,-0.1404,3.9216,4.1656,SCM-style deterministic intervention baseline
+2014_773_Brazil,Brazil,Adidas,budget_reallocation,4.184,4.2968,0.1128,4.1853,4.4083,SCM-style deterministic intervention baseline
+2014_773_Brazil,Brazil,Adidas,late_stage_activation,4.184,4.3724,0.1884,4.2399,4.5049,SCM-style deterministic intervention baseline
+1986_387_Argentina,Argentina,Hyundai,player_injury_shock,4.184,3.9208,-0.2632,3.7638,4.0778,SCM-style deterministic intervention baseline
+1986_387_Argentina,Argentina,Hyundai,media_surge,4.184,4.412,0.228,4.269,4.555,SCM-style deterministic intervention baseline
+1986_387_Argentina,Argentina,Hyundai,budget_cut,4.184,4.0436,-0.1404,3.9216,4.1656,SCM-style deterministic intervention baseline
+1986_387_Argentina,Argentina,Hyundai,budget_reallocation,4.184,4.2968,0.1128,4.1853,4.4083,SCM-style deterministic intervention baseline
+1986_387_Argentina,Argentina,Hyundai,late_stage_activation,4.184,4.3724,0.1884,4.2399,4.5049,SCM-style deterministic intervention baseline
+1986_387_Bulgaria,Bulgaria,Hisense,player_injury_shock,4.184,3.9208,-0.2632,3.7638,4.0778,SCM-style deterministic intervention baseline
+1986_387_Bulgaria,Bulgaria,Hisense,media_surge,4.184,4.412,0.228,4.269,4.555,SCM-style deterministic intervention baseline
+1986_387_Bulgaria,Bulgaria,Hisense,budget_cut,4.184,4.0436,-0.1404,3.9216,4.1656,SCM-style deterministic intervention baseline
+1986_387_Bulgaria,Bulgaria,Hisense,budget_reallocation,4.184,4.2968,0.1128,4.1853,4.4083,SCM-style deterministic intervention baseline
+1986_387_Bulgaria,Bulgaria,Hisense,late_stage_activation,4.184,4.3724,0.1884,4.2399,4.5049,SCM-style deterministic intervention baseline
+2014_773_Croatia,Croatia,Hisense,player_injury_shock,4.184,3.9208,-0.2632,3.7638,4.0778,SCM-style deterministic intervention baseline
+2014_773_Croatia,Croatia,Hisense,media_surge,4.184,4.412,0.228,4.269,4.555,SCM-style deterministic intervention baseline
+2014_773_Croatia,Croatia,Hisense,budget_cut,4.184,4.0436,-0.1404,3.9216,4.1656,SCM-style deterministic intervention baseline
+2014_773_Croatia,Croatia,Hisense,budget_reallocation,4.184,4.2968,0.1128,4.1853,4.4083,SCM-style deterministic intervention baseline
+2014_773_Croatia,Croatia,Hisense,late_stage_activation,4.184,4.3724,0.1884,4.2399,4.5049,SCM-style deterministic intervention baseline
+1982_326_New_Zealand,New Zealand,McDonald's,player_injury_shock,4.179,3.9158,-0.2632,3.7588,4.0728,SCM-style deterministic intervention baseline
+1982_326_New_Zealand,New Zealand,McDonald's,media_surge,4.179,4.407,0.228,4.264,4.55,SCM-style deterministic intervention baseline
+1982_326_New_Zealand,New Zealand,McDonald's,budget_cut,4.179,4.0386,-0.1404,3.9166,4.1606,SCM-style deterministic intervention baseline
+1982_326_New_Zealand,New Zealand,McDonald's,budget_reallocation,4.179,4.2918,0.1128,4.1803,4.4033,SCM-style deterministic intervention baseline
+1982_326_New_Zealand,New Zealand,McDonald's,late_stage_activation,4.179,4.3674,0.1884,4.2349,4.4999,SCM-style deterministic intervention baseline
+1982_326_Russia,Russia,Hyundai,player_injury_shock,4.179,3.9158,-0.2632,3.7588,4.0728,SCM-style deterministic intervention baseline
+1982_326_Russia,Russia,Hyundai,media_surge,4.179,4.407,0.228,4.264,4.55,SCM-style deterministic intervention baseline
+1982_326_Russia,Russia,Hyundai,budget_cut,4.179,4.0386,-0.1404,3.9166,4.1606,SCM-style deterministic intervention baseline
+1982_326_Russia,Russia,Hyundai,budget_reallocation,4.179,4.2918,0.1128,4.1803,4.4033,SCM-style deterministic intervention baseline
+1982_326_Russia,Russia,Hyundai,late_stage_activation,4.179,4.3674,0.1884,4.2349,4.4999,SCM-style deterministic intervention baseline
+2010_770_Spain,Spain,Budweiser,player_injury_shock,4.178,3.9148,-0.2632,3.7578,4.0718,SCM-style deterministic intervention baseline
+2010_770_Spain,Spain,Budweiser,media_surge,4.178,4.406,0.228,4.263,4.549,SCM-style deterministic intervention baseline
+2010_770_Spain,Spain,Budweiser,budget_cut,4.178,4.0376,-0.1404,3.9156,4.1596,SCM-style deterministic intervention baseline
+2010_770_Spain,Spain,Budweiser,budget_reallocation,4.178,4.2908,0.1128,4.1793,4.4023,SCM-style deterministic intervention baseline
+2010_770_Spain,Spain,Budweiser,late_stage_activation,4.178,4.3664,0.1884,4.2339,4.4989,SCM-style deterministic intervention baseline
+2010_770_Germany,Germany,Coca-Cola,player_injury_shock,4.178,3.9148,-0.2632,3.7578,4.0718,SCM-style deterministic intervention baseline
+2010_770_Germany,Germany,Coca-Cola,media_surge,4.178,4.406,0.228,4.263,4.549,SCM-style deterministic intervention baseline
+2010_770_Germany,Germany,Coca-Cola,budget_cut,4.178,4.0376,-0.1404,3.9156,4.1596,SCM-style deterministic intervention baseline
+2010_770_Germany,Germany,Coca-Cola,budget_reallocation,4.178,4.2908,0.1128,4.1793,4.4023,SCM-style deterministic intervention baseline
+2010_770_Germany,Germany,Coca-Cola,late_stage_activation,4.178,4.3664,0.1884,4.2339,4.4989,SCM-style deterministic intervention baseline
+2002_585_Nigeria,Nigeria,Coca-Cola,player_injury_shock,4.173,3.9098,-0.2632,3.7528,4.0668,SCM-style deterministic intervention baseline
+2002_585_Nigeria,Nigeria,Coca-Cola,media_surge,4.173,4.401,0.228,4.258,4.544,SCM-style deterministic intervention baseline
+2002_585_Nigeria,Nigeria,Coca-Cola,budget_cut,4.173,4.0326,-0.1404,3.9106,4.1546,SCM-style deterministic intervention baseline
+2002_585_Nigeria,Nigeria,Coca-Cola,budget_reallocation,4.173,4.2858,0.1128,4.1743,4.3973,SCM-style deterministic intervention baseline
+2002_585_Nigeria,Nigeria,Coca-Cola,late_stage_activation,4.173,4.3614,0.1884,4.2289,4.4939,SCM-style deterministic intervention baseline
+2002_585_Argentina,Argentina,Hyundai,player_injury_shock,4.173,3.9098,-0.2632,3.7528,4.0668,SCM-style deterministic intervention baseline
+2002_585_Argentina,Argentina,Hyundai,media_surge,4.173,4.401,0.228,4.258,4.544,SCM-style deterministic intervention baseline
+2002_585_Argentina,Argentina,Hyundai,budget_cut,4.173,4.0326,-0.1404,3.9106,4.1546,SCM-style deterministic intervention baseline
+2002_585_Argentina,Argentina,Hyundai,budget_reallocation,4.173,4.2858,0.1128,4.1743,4.3973,SCM-style deterministic intervention baseline
+2002_585_Argentina,Argentina,Hyundai,late_stage_activation,4.173,4.3614,0.1884,4.2289,4.4939,SCM-style deterministic intervention baseline
+1986_366_Russia,Russia,Hyundai,player_injury_shock,4.171,3.9078,-0.2632,3.7508,4.0648,SCM-style deterministic intervention baseline
+1986_366_Russia,Russia,Hyundai,media_surge,4.171,4.399,0.228,4.256,4.542,SCM-style deterministic intervention baseline
+1986_366_Russia,Russia,Hyundai,budget_cut,4.171,4.0306,-0.1404,3.9086,4.1526,SCM-style deterministic intervention baseline
+1986_366_Russia,Russia,Hyundai,budget_reallocation,4.171,4.2838,0.1128,4.1723,4.3953,SCM-style deterministic intervention baseline
+1986_366_Russia,Russia,Hyundai,late_stage_activation,4.171,4.3594,0.1884,4.2269,4.4919,SCM-style deterministic intervention baseline
+1986_366_Hungary,Hungary,Adidas,player_injury_shock,4.171,3.9078,-0.2632,3.7508,4.0648,SCM-style deterministic intervention baseline
+1986_366_Hungary,Hungary,Adidas,media_surge,4.171,4.399,0.228,4.256,4.542,SCM-style deterministic intervention baseline
+1986_366_Hungary,Hungary,Adidas,budget_cut,4.171,4.0306,-0.1404,3.9086,4.1526,SCM-style deterministic intervention baseline
+1986_366_Hungary,Hungary,Adidas,budget_reallocation,4.171,4.2838,0.1128,4.1723,4.3953,SCM-style deterministic intervention baseline
+1986_366_Hungary,Hungary,Adidas,late_stage_activation,4.171,4.3594,0.1884,4.2269,4.4919,SCM-style deterministic intervention baseline
+2010_759_Mexico,Mexico,Hyundai,player_injury_shock,4.17,3.9068,-0.2632,3.7498,4.0638,SCM-style deterministic intervention baseline
+2010_759_Mexico,Mexico,Hyundai,media_surge,4.17,4.398,0.228,4.255,4.541,SCM-style deterministic intervention baseline
+2010_759_Mexico,Mexico,Hyundai,budget_cut,4.17,4.0296,-0.1404,3.9076,4.1516,SCM-style deterministic intervention baseline
+2010_759_Mexico,Mexico,Hyundai,budget_reallocation,4.17,4.2828,0.1128,4.1713,4.3943,SCM-style deterministic intervention baseline
+2010_759_Mexico,Mexico,Hyundai,late_stage_activation,4.17,4.3584,0.1884,4.2259,4.4909,SCM-style deterministic intervention baseline
+2010_759_Argentina,Argentina,Hyundai,player_injury_shock,4.17,3.9068,-0.2632,3.7498,4.0638,SCM-style deterministic intervention baseline
+2010_759_Argentina,Argentina,Hyundai,media_surge,4.17,4.398,0.228,4.255,4.541,SCM-style deterministic intervention baseline
+2010_759_Argentina,Argentina,Hyundai,budget_cut,4.17,4.0296,-0.1404,3.9076,4.1516,SCM-style deterministic intervention baseline
+2010_759_Argentina,Argentina,Hyundai,budget_reallocation,4.17,4.2828,0.1128,4.1713,4.3943,SCM-style deterministic intervention baseline
+2010_759_Argentina,Argentina,Hyundai,late_stage_activation,4.17,4.3584,0.1884,4.2259,4.4909,SCM-style deterministic intervention baseline
+1998_527_Argentina,Argentina,Hyundai,player_injury_shock,4.168,3.9048,-0.2632,3.7478,4.0618,SCM-style deterministic intervention baseline
+1998_527_Argentina,Argentina,Hyundai,media_surge,4.168,4.396,0.228,4.253,4.539,SCM-style deterministic intervention baseline
+1998_527_Argentina,Argentina,Hyundai,budget_cut,4.168,4.0276,-0.1404,3.9056,4.1496,SCM-style deterministic intervention baseline
+1998_527_Argentina,Argentina,Hyundai,budget_reallocation,4.168,4.2808,0.1128,4.1693,4.3923,SCM-style deterministic intervention baseline
+1998_527_Argentina,Argentina,Hyundai,late_stage_activation,4.168,4.3564,0.1884,4.2239,4.4889,SCM-style deterministic intervention baseline
+1998_527_Japan,Japan,Adidas,player_injury_shock,4.168,3.9048,-0.2632,3.7478,4.0618,SCM-style deterministic intervention baseline
+1998_527_Japan,Japan,Adidas,media_surge,4.168,4.396,0.228,4.253,4.539,SCM-style deterministic intervention baseline
+1998_527_Japan,Japan,Adidas,budget_cut,4.168,4.0276,-0.1404,3.9056,4.1496,SCM-style deterministic intervention baseline
+1998_527_Japan,Japan,Adidas,budget_reallocation,4.168,4.2808,0.1128,4.1693,4.3923,SCM-style deterministic intervention baseline
+1998_527_Japan,Japan,Adidas,late_stage_activation,4.168,4.3564,0.1884,4.2239,4.4889,SCM-style deterministic intervention baseline
+2006_694_Germany,Germany,Coca-Cola,player_injury_shock,4.168,3.9048,-0.2632,3.7478,4.0618,SCM-style deterministic intervention baseline
+2006_694_Germany,Germany,Coca-Cola,media_surge,4.168,4.396,0.228,4.253,4.539,SCM-style deterministic intervention baseline
+2006_694_Germany,Germany,Coca-Cola,budget_cut,4.168,4.0276,-0.1404,3.9056,4.1496,SCM-style deterministic intervention baseline
+2006_694_Germany,Germany,Coca-Cola,budget_reallocation,4.168,4.2808,0.1128,4.1693,4.3923,SCM-style deterministic intervention baseline
+2006_694_Germany,Germany,Coca-Cola,late_stage_activation,4.168,4.3564,0.1884,4.2239,4.4889,SCM-style deterministic intervention baseline
+2006_694_Sweden,Sweden,Budweiser,player_injury_shock,4.168,3.9048,-0.2632,3.7478,4.0618,SCM-style deterministic intervention baseline
+2006_694_Sweden,Sweden,Budweiser,media_surge,4.168,4.396,0.228,4.253,4.539,SCM-style deterministic intervention baseline
+2006_694_Sweden,Sweden,Budweiser,budget_cut,4.168,4.0276,-0.1404,3.9056,4.1496,SCM-style deterministic intervention baseline
+2006_694_Sweden,Sweden,Budweiser,budget_reallocation,4.168,4.2808,0.1128,4.1693,4.3923,SCM-style deterministic intervention baseline
+2006_694_Sweden,Sweden,Budweiser,late_stage_activation,4.168,4.3564,0.1884,4.2239,4.4889,SCM-style deterministic intervention baseline
+2010_760_England,England,McDonald's,player_injury_shock,4.164,3.9008,-0.2632,3.7438,4.0578,SCM-style deterministic intervention baseline
+2010_760_England,England,McDonald's,media_surge,4.164,4.392,0.228,4.249,4.535,SCM-style deterministic intervention baseline
+2010_760_England,England,McDonald's,budget_cut,4.164,4.0236,-0.1404,3.9016,4.1456,SCM-style deterministic intervention baseline
+2010_760_England,England,McDonald's,budget_reallocation,4.164,4.2768,0.1128,4.1653,4.3883,SCM-style deterministic intervention baseline
+2010_760_England,England,McDonald's,late_stage_activation,4.164,4.3524,0.1884,4.2199,4.4849,SCM-style deterministic intervention baseline
+2010_760_Germany,Germany,Coca-Cola,player_injury_shock,4.164,3.9008,-0.2632,3.7438,4.0578,SCM-style deterministic intervention baseline
+2010_760_Germany,Germany,Coca-Cola,media_surge,4.164,4.392,0.228,4.249,4.535,SCM-style deterministic intervention baseline
+2010_760_Germany,Germany,Coca-Cola,budget_cut,4.164,4.0236,-0.1404,3.9016,4.1456,SCM-style deterministic intervention baseline
+2010_760_Germany,Germany,Coca-Cola,budget_reallocation,4.164,4.2768,0.1128,4.1653,4.3883,SCM-style deterministic intervention baseline
+2010_760_Germany,Germany,Coca-Cola,late_stage_activation,4.164,4.3524,0.1884,4.2199,4.4849,SCM-style deterministic intervention baseline
+2014_829_Brazil,Brazil,Adidas,player_injury_shock,4.163,3.8998,-0.2632,3.7428,4.0568,SCM-style deterministic intervention baseline
+2014_829_Brazil,Brazil,Adidas,media_surge,4.163,4.391,0.228,4.248,4.534,SCM-style deterministic intervention baseline
+2014_829_Brazil,Brazil,Adidas,budget_cut,4.163,4.0226,-0.1404,3.9006,4.1446,SCM-style deterministic intervention baseline
+2014_829_Brazil,Brazil,Adidas,budget_reallocation,4.163,4.2758,0.1128,4.1643,4.3873,SCM-style deterministic intervention baseline
+2014_829_Brazil,Brazil,Adidas,late_stage_activation,4.163,4.3514,0.1884,4.2189,4.4839,SCM-style deterministic intervention baseline
+2014_829_Colombia,Colombia,Vivo,player_injury_shock,4.163,3.8998,-0.2632,3.7428,4.0568,SCM-style deterministic intervention baseline
+2014_829_Colombia,Colombia,Vivo,media_surge,4.163,4.391,0.228,4.248,4.534,SCM-style deterministic intervention baseline
+2014_829_Colombia,Colombia,Vivo,budget_cut,4.163,4.0226,-0.1404,3.9006,4.1446,SCM-style deterministic intervention baseline
+2014_829_Colombia,Colombia,Vivo,budget_reallocation,4.163,4.2758,0.1128,4.1643,4.3873,SCM-style deterministic intervention baseline
+2014_829_Colombia,Colombia,Vivo,late_stage_activation,4.163,4.3514,0.1884,4.2189,4.4839,SCM-style deterministic intervention baseline
+1998_571_Argentina,Argentina,Hyundai,player_injury_shock,4.162,3.8988,-0.2632,3.7418,4.0558,SCM-style deterministic intervention baseline
+1998_571_Argentina,Argentina,Hyundai,media_surge,4.162,4.39,0.228,4.247,4.533,SCM-style deterministic intervention baseline
+1998_571_Argentina,Argentina,Hyundai,budget_cut,4.162,4.0216,-0.1404,3.8996,4.1436,SCM-style deterministic intervention baseline
+1998_571_Argentina,Argentina,Hyundai,budget_reallocation,4.162,4.2748,0.1128,4.1633,4.3863,SCM-style deterministic intervention baseline
+1998_571_Argentina,Argentina,Hyundai,late_stage_activation,4.162,4.3504,0.1884,4.2179,4.4829,SCM-style deterministic intervention baseline
+1998_571_England,England,McDonald's,player_injury_shock,4.162,3.8988,-0.2632,3.7418,4.0558,SCM-style deterministic intervention baseline
+1998_571_England,England,McDonald's,media_surge,4.162,4.39,0.228,4.247,4.533,SCM-style deterministic intervention baseline
+1998_571_England,England,McDonald's,budget_cut,4.162,4.0216,-0.1404,3.8996,4.1436,SCM-style deterministic intervention baseline
+1998_571_England,England,McDonald's,budget_reallocation,4.162,4.2748,0.1128,4.1633,4.3863,SCM-style deterministic intervention baseline
+1998_571_England,England,McDonald's,late_stage_activation,4.162,4.3504,0.1884,4.2179,4.4829,SCM-style deterministic intervention baseline
+2014_827_Argentina,Argentina,Hyundai,player_injury_shock,4.161,3.8978,-0.2632,3.7408,4.0548,SCM-style deterministic intervention baseline
+2014_827_Argentina,Argentina,Hyundai,media_surge,4.161,4.389,0.228,4.246,4.532,SCM-style deterministic intervention baseline
+2014_827_Argentina,Argentina,Hyundai,budget_cut,4.161,4.0206,-0.1404,3.8986,4.1426,SCM-style deterministic intervention baseline
+2014_827_Argentina,Argentina,Hyundai,budget_reallocation,4.161,4.2738,0.1128,4.1623,4.3853,SCM-style deterministic intervention baseline
+2014_827_Argentina,Argentina,Hyundai,late_stage_activation,4.161,4.3494,0.1884,4.2169,4.4819,SCM-style deterministic intervention baseline
+2014_827_Switzerland,Switzerland,Adidas,player_injury_shock,4.161,3.8978,-0.2632,3.7408,4.0548,SCM-style deterministic intervention baseline
+2014_827_Switzerland,Switzerland,Adidas,media_surge,4.161,4.389,0.228,4.246,4.532,SCM-style deterministic intervention baseline
+2014_827_Switzerland,Switzerland,Adidas,budget_cut,4.161,4.0206,-0.1404,3.8986,4.1426,SCM-style deterministic intervention baseline
+2014_827_Switzerland,Switzerland,Adidas,budget_reallocation,4.161,4.2738,0.1128,4.1623,4.3853,SCM-style deterministic intervention baseline
+2014_827_Switzerland,Switzerland,Adidas,late_stage_activation,4.161,4.3494,0.1884,4.2169,4.4819,SCM-style deterministic intervention baseline
+2010_735_Ivory_Coast,Ivory Coast,Budweiser,player_injury_shock,4.16,3.8968,-0.2632,3.7398,4.0538,SCM-style deterministic intervention baseline
+2010_735_Ivory_Coast,Ivory Coast,Budweiser,media_surge,4.16,4.388,0.228,4.245,4.531,SCM-style deterministic intervention baseline
+2010_735_Ivory_Coast,Ivory Coast,Budweiser,budget_cut,4.16,4.0196,-0.1404,3.8976,4.1416,SCM-style deterministic intervention baseline
+2010_735_Ivory_Coast,Ivory Coast,Budweiser,budget_reallocation,4.16,4.2728,0.1128,4.1613,4.3843,SCM-style deterministic intervention baseline
+2010_735_Ivory_Coast,Ivory Coast,Budweiser,late_stage_activation,4.16,4.3484,0.1884,4.2159,4.4809,SCM-style deterministic intervention baseline
+2010_735_Brazil,Brazil,Adidas,player_injury_shock,4.16,3.8968,-0.2632,3.7398,4.0538,SCM-style deterministic intervention baseline
+2010_735_Brazil,Brazil,Adidas,media_surge,4.16,4.388,0.228,4.245,4.531,SCM-style deterministic intervention baseline
+2010_735_Brazil,Brazil,Adidas,budget_cut,4.16,4.0196,-0.1404,3.8976,4.1416,SCM-style deterministic intervention baseline
+2010_735_Brazil,Brazil,Adidas,budget_reallocation,4.16,4.2728,0.1128,4.1613,4.3843,SCM-style deterministic intervention baseline
+2010_735_Brazil,Brazil,Adidas,late_stage_activation,4.16,4.3484,0.1884,4.2159,4.4809,SCM-style deterministic intervention baseline
+1990_418_Germany,Germany,Coca-Cola,player_injury_shock,4.159,3.8958,-0.2632,3.7388,4.0528,SCM-style deterministic intervention baseline
+1990_418_Germany,Germany,Coca-Cola,media_surge,4.159,4.387,0.228,4.244,4.53,SCM-style deterministic intervention baseline
+1990_418_Germany,Germany,Coca-Cola,budget_cut,4.159,4.0186,-0.1404,3.8966,4.1406,SCM-style deterministic intervention baseline
+1990_418_Germany,Germany,Coca-Cola,budget_reallocation,4.159,4.2718,0.1128,4.1603,4.3833,SCM-style deterministic intervention baseline
+1990_418_Germany,Germany,Coca-Cola,late_stage_activation,4.159,4.3474,0.1884,4.2149,4.4799,SCM-style deterministic intervention baseline
+1990_418_Yugoslavia,Yugoslavia,Qatar Airways,player_injury_shock,4.159,3.8958,-0.2632,3.7388,4.0528,SCM-style deterministic intervention baseline
+1990_418_Yugoslavia,Yugoslavia,Qatar Airways,media_surge,4.159,4.387,0.228,4.244,4.53,SCM-style deterministic intervention baseline
+1990_418_Yugoslavia,Yugoslavia,Qatar Airways,budget_cut,4.159,4.0186,-0.1404,3.8966,4.1406,SCM-style deterministic intervention baseline
+1990_418_Yugoslavia,Yugoslavia,Qatar Airways,budget_reallocation,4.159,4.2718,0.1128,4.1603,4.3833,SCM-style deterministic intervention baseline
+1990_418_Yugoslavia,Yugoslavia,Qatar Airways,late_stage_activation,4.159,4.3474,0.1884,4.2149,4.4799,SCM-style deterministic intervention baseline
+1982_336_Argentina,Argentina,Hyundai,player_injury_shock,4.158,3.8948,-0.2632,3.7378,4.0518,SCM-style deterministic intervention baseline
+1982_336_Argentina,Argentina,Hyundai,media_surge,4.158,4.386,0.228,4.243,4.529,SCM-style deterministic intervention baseline
+1982_336_Argentina,Argentina,Hyundai,budget_cut,4.158,4.0176,-0.1404,3.8956,4.1396,SCM-style deterministic intervention baseline
+1982_336_Argentina,Argentina,Hyundai,budget_reallocation,4.158,4.2708,0.1128,4.1593,4.3823,SCM-style deterministic intervention baseline
+1982_336_Argentina,Argentina,Hyundai,late_stage_activation,4.158,4.3464,0.1884,4.2139,4.4789,SCM-style deterministic intervention baseline
+1982_335_Russia,Russia,Hyundai,player_injury_shock,4.158,3.8948,-0.2632,3.7378,4.0518,SCM-style deterministic intervention baseline
+1982_335_Russia,Russia,Hyundai,media_surge,4.158,4.386,0.228,4.243,4.529,SCM-style deterministic intervention baseline
+1982_335_Russia,Russia,Hyundai,budget_cut,4.158,4.0176,-0.1404,3.8956,4.1396,SCM-style deterministic intervention baseline
+1982_335_Russia,Russia,Hyundai,budget_reallocation,4.158,4.2708,0.1128,4.1593,4.3823,SCM-style deterministic intervention baseline
+1982_335_Russia,Russia,Hyundai,late_stage_activation,4.158,4.3464,0.1884,4.2139,4.4789,SCM-style deterministic intervention baseline

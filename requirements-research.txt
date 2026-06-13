@@ -1,0 +1,12 @@
+# Optional research-grade dependencies.
+# The core pipeline runs without these packages; install this file when upgrading
+# the lightweight baselines to full causal, graph-learning, and optimization models.
+
+dowhy>=0.11
+econml>=0.15
+lightgbm>=4.0.0
+catboost>=1.2.0
+xgboost>=2.0.0
+networkx>=3.2
+optuna>=3.5.0
+torch>=2.1.0
