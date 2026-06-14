@@ -366,6 +366,9 @@ def write_business_insights() -> list[str]:
     resource_mix = pd.read_csv(REPORT_DIR / "resource_optimization_top_budget_mix.csv") if (REPORT_DIR / "resource_optimization_top_budget_mix.csv").exists() else pd.DataFrame()
     extreme = pd.read_csv(REPORT_DIR / "extreme_scenario_roi_risk.csv") if (REPORT_DIR / "extreme_scenario_roi_risk.csv").exists() else pd.DataFrame()
     commercial = pd.read_csv(DATA_DIR / "commercial_decision_metrics.csv") if (DATA_DIR / "commercial_decision_metrics.csv").exists() else pd.DataFrame()
+    opt = pd.read_csv(REPORT_DIR / "sponsor_optimization_summary.csv") if (REPORT_DIR / "sponsor_optimization_summary.csv").exists() else pd.DataFrame()
+    causal = pd.read_csv(REPORT_DIR / "causal_effect_estimates.csv") if (REPORT_DIR / "causal_effect_estimates.csv").exists() else pd.DataFrame()
+    tail = pd.read_csv(REPORT_DIR / "tail_risk_decisions.csv") if (REPORT_DIR / "tail_risk_decisions.csv").exists() else pd.DataFrame()
     top_rows = panel.sort_values("predicted_roi", ascending=False).head(6)
     scenario_summary = (
         scenarios.groupby("strategy_type", as_index=False)
@@ -408,6 +411,14 @@ def write_business_insights() -> list[str]:
         "**Extreme scenarios:** " + (f"widest risk interval is {extreme['risk_interval_width'].max():.2f}x across injury, sentiment, policy, and viral shock tests." if not extreme.empty else "Run deep analysis to generate extreme scenario stress tests."),
         "",
         "**Commercial decision score:** " + (f"top integrated score opportunity is {commercial.sort_values('commercial_decision_score', ascending=False).iloc[0]['team']} x {commercial.sort_values('commercial_decision_score', ascending=False).iloc[0]['sponsor']}." if not commercial.empty else "Run deep analysis to generate commercial decision metrics."),
+        "",
+        "## Causal + Decision Intelligence",
+        "",
+        "**Sponsor optimization:** " + (f"best budget cap reaches {opt.sort_values('risk_adjusted_roi', ascending=False).iloc[0]['risk_adjusted_roi']:.2f}x risk-adjusted ROI." if not opt.empty else "Run sponsor optimization to generate portfolio recommendations."),
+        "",
+        "**Causal evidence:** " + (f"strongest residualized signal is {causal.reindex(causal['causal_effect_residualized'].abs().sort_values(ascending=False).index).iloc[0]['treatment']}." if not causal.empty else "Run causal inference to separate correlation from causal evidence."),
+        "",
+        "**Tail-risk decision:** " + (f"top risk-sensitive opportunity is {tail.sort_values('risk_sensitive_roi', ascending=False).iloc[0]['team']} x {tail.sort_values('risk_sensitive_roi', ascending=False).iloc[0]['sponsor']}." if not tail.empty else "Run tail-risk analysis to rank worst-case ROI."),
         "",
         "## Landing Recommendation",
         "",

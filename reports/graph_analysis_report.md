@@ -14,58 +14,58 @@ Team-player-sponsor-match relationships are represented as a weighted graph.
 
 | source | connected_nodes | sponsor_influence | avg_edge_weight | pagerank | betweenness | closeness |
 | --- | --- | --- | --- | --- | --- | --- |
-| sponsor:Hyundai | 262 | 1295.818 | 2.4176 | 0.0423 | 0.000339 | 0.310417 |
-| sponsor:Coca-Cola | 235 | 1160.19 | 2.4685 | 0.038128 | 0.000137 | 0.303116 |
-| sponsor:Adidas | 233 | 1139.384 | 2.4346 | 0.037488 | 0.00071 | 0.303346 |
-| sponsor:Visa | 236 | 1107.365 | 2.3662 | 0.037248 | 0.000464 | 0.304502 |
-| sponsor:Hisense | 185 | 872.702 | 2.3715 | 0.029128 | 0.000294 | 0.29193 |
-| sponsor:Budweiser | 183 | 855.746 | 2.3639 | 0.029011 | 0.000527 | 0.292144 |
-| sponsor:Qatar Airways | 163 | 773.688 | 2.3733 | 0.025864 | 0.000358 | 0.286796 |
-| sponsor:McDonald's | 187 | 745.719 | 2.0264 | 0.028072 | 0.013263 | 0.292357 |
-| sponsor:Vivo | 152 | 601.024 | 2.0169 | 0.022854 | 0.011549 | 0.284752 |
-| sponsor:Mengniu | 98 | 378.481 | 1.9713 | 0.014644 | 0.009753 | 0.273447 |
+| sponsor:Adidas | 246 | 1181.877 | 2.3638 | 0.039471 | 0.000798 | 0.306554 |
+| sponsor:Coca-Cola | 253 | 1127.993 | 2.2118 | 0.039392 | 0.002738 | 0.307841 |
+| sponsor:Visa | 239 | 1092.408 | 2.2664 | 0.037438 | 0.0013 | 0.304817 |
+| sponsor:Hyundai | 220 | 1014.342 | 2.3265 | 0.034533 | 0.000943 | 0.300501 |
+| sponsor:Hisense | 194 | 840.322 | 2.1883 | 0.0298 | 0.00237 | 0.294467 |
+| sponsor:Budweiser | 177 | 777.636 | 2.2346 | 0.027287 | 0.001297 | 0.290542 |
+| sponsor:Qatar Airways | 174 | 768.503 | 2.2471 | 0.027033 | 0.001549 | 0.289915 |
+| sponsor:Vivo | 170 | 654.003 | 1.9581 | 0.025342 | 0.020464 | 0.289188 |
+| sponsor:McDonald's | 151 | 571.764 | 1.9581 | 0.022303 | 0.012939 | 0.284998 |
+| sponsor:Mengniu | 134 | 507.249 | 1.951 | 0.019882 | 0.014714 | 0.281418 |
 
 ## Top Player Commercial Influence
 
 | source | connected_teams | player_commercial_influence | avg_influence | pagerank | betweenness | closeness |
 | --- | --- | --- | --- | --- | --- | --- |
-| Spain team_attack_unit | 1 | 10.417 | 10.417 | 0.000842 | 0.0 | 0.006563 |
-| Uruguay team_attack_unit | 1 | 8.684 | 8.684 | 0.000678 | 0.0 | 0.006563 |
-| Argentina team_defense_unit | 1 | 8.479 | 8.479 | 0.000739 | 0.0 | 0.006563 |
-| Switzerland team_attack_unit | 1 | 8.226 | 8.226 | 0.000765 | 0.0 | 0.007326 |
-| Brazil team_midfield_unit | 1 | 8.108 | 8.108 | 0.000752 | 0.0 | 0.007326 |
-| Denmark team_defense_unit | 1 | 7.995 | 7.995 | 0.000695 | 0.0 | 0.007326 |
-| Croatia team_midfield_unit | 1 | 7.929 | 7.929 | 0.000688 | 0.0 | 0.006563 |
-| Austria team_attack_unit | 1 | 7.539 | 7.539 | 0.000797 | 0.0 | 0.006563 |
-| Germany team_midfield_unit | 1 | 7.469 | 7.469 | 0.000714 | 0.0 | 0.007326 |
-| Hungary team_defense_unit | 1 | 7.461 | 7.461 | 0.000704 | 0.0 | 0.007326 |
+| Switzerland team_defense_unit | 1 | 8.396 | 8.396 | 0.000644 | 0.0 | 0.006526 |
+| Germany team_defense_unit | 1 | 8.364 | 8.364 | 0.000753 | 0.0 | 0.007284 |
+| Brazil team_attack_unit | 1 | 8.21 | 8.21 | 0.000694 | 0.0 | 0.007284 |
+| Russia team_defense_unit | 1 | 8.072 | 8.072 | 0.00072 | 0.0 | 0.006526 |
+| Sweden team_attack_unit | 1 | 8.013 | 8.013 | 0.000679 | 0.0 | 0.006526 |
+| Brazil team_midfield_unit | 1 | 7.952 | 7.952 | 0.000676 | 0.0 | 0.007284 |
+| Colombia team_midfield_unit | 1 | 7.73 | 7.73 | 0.000737 | 0.0 | 0.006526 |
+| Denmark team_defense_unit | 1 | 7.171 | 7.171 | 0.000678 | 0.0 | 0.007284 |
+| England team_defense_unit | 1 | 7.14 | 7.14 | 0.000686 | 0.0 | 0.006526 |
+| Netherlands team_defense_unit | 1 | 7.114 | 7.114 | 0.000607 | 0.0 | 0.006526 |
 
 ## Top Network Centrality
 
 | node | node_type | degree | weighted_degree | pagerank | betweenness | closeness |
 | --- | --- | --- | --- | --- | --- | --- |
-| sponsor:Hyundai | sponsor | 262 | 1018.259 | 0.0423 | 0.000339 | 0.310417 |
-| sponsor:Coca-Cola | sponsor | 235 | 923.755 | 0.038128 | 0.000137 | 0.303116 |
-| sponsor:Adidas | sponsor | 233 | 899.095 | 0.037488 | 0.00071 | 0.303346 |
-| sponsor:Visa | sponsor | 236 | 889.534 | 0.037248 | 0.000464 | 0.304502 |
-| sponsor:Hisense | sponsor | 185 | 693.459 | 0.029128 | 0.000294 | 0.29193 |
-| sponsor:Budweiser | sponsor | 183 | 692.192 | 0.029011 | 0.000527 | 0.292144 |
-| sponsor:McDonald's | sponsor | 187 | 652.361 | 0.028072 | 0.013263 | 0.292357 |
-| sponsor:Qatar Airways | sponsor | 163 | 609.262 | 0.025864 | 0.000358 | 0.286796 |
-| sponsor:Vivo | sponsor | 152 | 525.303 | 0.022854 | 0.011549 | 0.284752 |
-| sponsor:Mengniu | sponsor | 98 | 325.213 | 0.014644 | 0.009753 | 0.273447 |
+| sponsor:Adidas | sponsor | 246 | 927.416 | 0.039471 | 0.000798 | 0.306554 |
+| sponsor:Coca-Cola | sponsor | 253 | 910.462 | 0.039392 | 0.002738 | 0.307841 |
+| sponsor:Visa | sponsor | 239 | 867.482 | 0.037438 | 0.0013 | 0.304817 |
+| sponsor:Hyundai | sponsor | 220 | 808.922 | 0.034533 | 0.000943 | 0.300501 |
+| sponsor:Hisense | sponsor | 194 | 687.414 | 0.0298 | 0.00237 | 0.294467 |
+| sponsor:Budweiser | sponsor | 177 | 632.555 | 0.027287 | 0.001297 | 0.290542 |
+| sponsor:Qatar Airways | sponsor | 174 | 627.124 | 0.027033 | 0.001549 | 0.289915 |
+| sponsor:Vivo | sponsor | 170 | 575.851 | 0.025342 | 0.020464 | 0.289188 |
+| sponsor:McDonald's | sponsor | 151 | 503.418 | 0.022303 | 0.012939 | 0.284998 |
+| sponsor:Mengniu | sponsor | 134 | 446.62 | 0.019882 | 0.014714 | 0.281418 |
 
 ## Top GCN / GraphSAGE Baseline Nodes
 
 | node | node_type | gcn_score | graphsage_score | combined_graph_score | embedding_degree | embedding_pagerank | embedding_betweenness | embedding_closeness |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| sponsor:Hyundai | sponsor | 0.297283 | 0.591777 | 0.459255 | 0.667633 | 0.668555 | 0.025279 | 0.934261 |
-| sponsor:Coca-Cola | sponsor | 0.283463 | 0.545728 | 0.427708 | 0.609817 | 0.607142 | 0.021853 | 0.917156 |
-| sponsor:Adidas | sponsor | 0.285922 | 0.538941 | 0.425082 | 0.595246 | 0.598215 | 0.036852 | 0.917306 |
-| sponsor:Visa | sponsor | 0.28456 | 0.535037 | 0.422322 | 0.588914 | 0.594271 | 0.035558 | 0.920516 |
-| match_370 | match | 0.560123 | 0.299262 | 0.41665 | 0.29033 | 0.291858 | 0.019534 | 0.808643 |
-| match_390 | match | 0.556257 | 0.296919 | 0.413621 | 0.287484 | 0.28898 | 0.018055 | 0.808728 |
-| match_923 | match | 0.552988 | 0.295706 | 0.411483 | 0.285547 | 0.286985 | 0.019182 | 0.809291 |
-| match_950 | match | 0.551991 | 0.295342 | 0.410834 | 0.283616 | 0.28492 | 0.02576 | 0.809799 |
-| match_853 | match | 0.5498 | 0.29383 | 0.409017 | 0.283793 | 0.285228 | 0.015772 | 0.808979 |
-| match_10 | match | 0.549579 | 0.293854 | 0.40893 | 0.281713 | 0.283009 | 0.025288 | 0.809771 |
+| sponsor:Coca-Cola | sponsor | 0.302217 | 0.591623 | 0.461391 | 0.656058 | 0.667406 | 0.0592 | 0.934913 |
+| sponsor:Adidas | sponsor | 0.298936 | 0.592834 | 0.46058 | 0.668131 | 0.66931 | 0.03058 | 0.931937 |
+| sponsor:Visa | sponsor | 0.296199 | 0.567602 | 0.445471 | 0.628015 | 0.637437 | 0.046372 | 0.928129 |
+| sponsor:Hyundai | sponsor | 0.285392 | 0.534516 | 0.42241 | 0.588913 | 0.591775 | 0.038269 | 0.917957 |
+| match_41 | match | 0.561099 | 0.306393 | 0.421011 | 0.291066 | 0.294628 | 0.024271 | 0.861232 |
+| match_129 | match | 0.559294 | 0.305863 | 0.419907 | 0.288563 | 0.291917 | 0.032531 | 0.861827 |
+| match_107 | match | 0.55897 | 0.304983 | 0.419277 | 0.289543 | 0.293019 | 0.022555 | 0.861393 |
+| match_383 | match | 0.557249 | 0.305955 | 0.419038 | 0.284337 | 0.287758 | 0.052419 | 0.862011 |
+| match_128 | match | 0.55792 | 0.304042 | 0.418288 | 0.288975 | 0.292446 | 0.019352 | 0.861329 |
+| match_430 | match | 0.556131 | 0.304279 | 0.417612 | 0.284244 | 0.287807 | 0.042795 | 0.860935 |

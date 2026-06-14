@@ -1,6 +1,6 @@
 strategy_type,scenario,avg_roi_lift,avg_risk,avg_roi
-aggressive,knockout_takeover,0.226,0.5038833333333333,4.000958333333333
-aggressive,aggressive_media_surge,0.162,0.4638833333333333,3.9369583333333336
-balanced,balanced_activation,0.042,0.32388333333333336,3.8169583333333335
-conservative,conservative_efficiency,-0.002,0.22388333333333332,3.7729583333333334
-conservative,player_risk_defense,-0.08,0.4038833333333333,3.694958333333333
+aggressive,knockout_takeover,0.226,0.510575,3.8396333333333335
+aggressive,aggressive_media_surge,0.162,0.470575,3.7756333333333334
+balanced,balanced_activation,0.042,0.33057499999999995,3.6556333333333333
+conservative,conservative_efficiency,-0.002,0.230575,3.6116333333333333
+conservative,player_risk_defense,-0.08,0.41057499999999997,3.5336333333333334

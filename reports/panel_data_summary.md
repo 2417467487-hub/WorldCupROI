@@ -2,11 +2,11 @@
 
 Panel grain: `year x match_id x team x sponsor`.
 
-- Panel rows: 1928
+- Panel rows: 1944
 - Teams: 82
 - Sponsors: 10
-- Average predicted ROI: 3.869
-- Average commercial momentum: 0.574
+- Average predicted ROI: 3.695
+- Average commercial momentum: 0.562
 
 ## Core Variables
 

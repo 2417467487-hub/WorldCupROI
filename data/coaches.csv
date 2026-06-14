@@ -2,12 +2,12 @@ team,coach_name,coach_wc_matches,coach_win_rate,coach_tenure_years,international
 Algeria,Algeria national team coach,2,0.304,1.4,0,proxy_from_real_team_history
 Angola,Angola national team coach,1,0.16,0.9,0,proxy_from_real_team_history
 Argentina,Argentina national team coach,15,0.566,3.5,1,proxy_from_real_team_history
-Australia,Australia national team coach,3,0.299,1.7,0,proxy_from_real_team_history
+Australia,Australia national team coach,3,0.325,1.7,0,proxy_from_real_team_history
 Austria,Austria national team coach,5,0.45,2.2,0,proxy_from_real_team_history
 Belgium,Belgium national team coach,9,0.468,2.9,1,proxy_from_real_team_history
 Bolivia,Bolivia national team coach,1,0.16,0.9,0,proxy_from_real_team_history
-Bosnia and Herzegovina,Bosnia and Herzegovina national team coach,1,0.328,0.9,0,proxy_from_real_team_history
-Brazil,Brazil national team coach,20,0.661,3.8,1,proxy_from_real_team_history
+Bosnia and Herzegovina,Bosnia and Herzegovina national team coach,1,0.281,0.9,0,proxy_from_real_team_history
+Brazil,Brazil national team coach,20,0.658,3.8,1,proxy_from_real_team_history
 Bulgaria,Bulgaria national team coach,4,0.252,2.0,0,proxy_from_real_team_history
 Cameroon,Cameroon national team coach,4,0.302,2.0,0,proxy_from_real_team_history
 Canada,Canada national team coach,1,0.16,0.9,0,proxy_from_real_team_history
@@ -15,9 +15,9 @@ Chile,Chile national team coach,5,0.402,2.2,0,proxy_from_real_team_history
 China,China national team coach,1,0.16,0.9,0,proxy_from_real_team_history
 Colombia,Colombia national team coach,3,0.438,1.7,0,proxy_from_real_team_history
 Costa Rica,Costa Rica national team coach,3,0.356,1.7,0,proxy_from_real_team_history
-Croatia,Croatia national team coach,5,0.464,2.2,0,proxy_from_real_team_history
+Croatia,Croatia national team coach,5,0.464,2.2,1,proxy_from_real_team_history
 Cuba,Cuba national team coach,1,0.328,0.9,0,proxy_from_real_team_history
-Czech Republic,Czech Republic national team coach,1,0.328,0.9,0,proxy_from_real_team_history
+Czech Republic,Czech Republic national team coach,1,0.281,0.9,0,proxy_from_real_team_history
 Czechoslovakia,Czechoslovakia national team coach,5,0.42,2.2,0,proxy_from_real_team_history
 DR Congo,DR Congo national team coach,1,0.16,0.9,0,proxy_from_real_team_history
 Denmark,Denmark national team coach,4,0.428,2.0,0,proxy_from_real_team_history
@@ -43,8 +43,8 @@ Ivory Coast,Ivory Coast national team coach,1,0.359,0.9,0,proxy_from_real_team_h
 Jamaica,Jamaica national team coach,1,0.328,0.9,0,proxy_from_real_team_history
 Japan,Japan national team coach,4,0.358,2.0,0,proxy_from_real_team_history
 Kuwait,Kuwait national team coach,1,0.16,0.9,0,proxy_from_real_team_history
-Mexico,Mexico national team coach,10,0.39,3.0,0,proxy_from_real_team_history
-Morocco,Morocco national team coach,4,0.315,2.0,0,proxy_from_real_team_history
+Mexico,Mexico national team coach,10,0.399,3.0,0,proxy_from_real_team_history
+Morocco,Morocco national team coach,4,0.31,2.0,0,proxy_from_real_team_history
 Netherlands,Netherlands national team coach,9,0.558,2.9,1,proxy_from_real_team_history
 New Zealand,New Zealand national team coach,1,0.16,0.9,0,proxy_from_real_team_history
 Nigeria,Nigeria national team coach,3,0.356,1.7,0,proxy_from_real_team_history
@@ -52,7 +52,7 @@ North Korea,North Korea national team coach,1,0.228,0.9,0,proxy_from_real_team_h
 Northern Ireland,Northern Ireland national team coach,2,0.304,1.4,0,proxy_from_real_team_history
 Norway,Norway national team coach,1,0.301,0.9,0,proxy_from_real_team_history
 Panama,Panama national team coach,1,0.16,0.9,0,proxy_from_real_team_history
-Paraguay,Paraguay national team coach,4,0.348,2.0,0,proxy_from_real_team_history
+Paraguay,Paraguay national team coach,5,0.342,2.2,0,proxy_from_real_team_history
 Peru,Peru national team coach,3,0.345,1.7,0,proxy_from_real_team_history
 Poland,Poland national team coach,6,0.481,2.4,1,proxy_from_real_team_history
 Portugal,Portugal national team coach,6,0.502,2.4,1,proxy_from_real_team_history
@@ -61,23 +61,23 @@ Republic of Ireland,Republic of Ireland national team coach,2,0.254,1.4,0,proxy_
 Romania,Romania national team coach,3,0.418,1.7,0,proxy_from_real_team_history
 Russia,Russia national team coach,8,0.47,2.7,1,proxy_from_real_team_history
 Saudi Arabia,Saudi Arabia national team coach,3,0.304,1.7,0,proxy_from_real_team_history
-Scotland,Scotland national team coach,4,0.286,2.0,0,proxy_from_real_team_history
+Scotland,Scotland national team coach,4,0.31,2.0,0,proxy_from_real_team_history
 Senegal,Senegal national team coach,2,0.422,1.4,0,proxy_from_real_team_history
 Serbia,Serbia national team coach,2,0.324,1.4,0,proxy_from_real_team_history
 Slovakia,Slovakia national team coach,1,0.281,0.9,0,proxy_from_real_team_history
 Slovenia,Slovenia national team coach,1,0.239,0.9,0,proxy_from_real_team_history
-South Africa,South Africa national team coach,1,0.288,0.9,0,proxy_from_real_team_history
-South Korea,South Korea national team coach,6,0.31,2.4,0,proxy_from_real_team_history
+South Africa,South Africa national team coach,1,0.276,0.9,0,proxy_from_real_team_history
+South Korea,South Korea national team coach,7,0.324,2.6,0,proxy_from_real_team_history
 Spain,Spain national team coach,12,0.51,3.2,1,proxy_from_real_team_history
 Sweden,Sweden national team coach,9,0.442,2.9,0,proxy_from_real_team_history
-Switzerland,Switzerland national team coach,7,0.415,2.6,0,proxy_from_real_team_history
+Switzerland,Switzerland national team coach,7,0.41,2.6,0,proxy_from_real_team_history
 Togo,Togo national team coach,1,0.16,0.9,0,proxy_from_real_team_history
 Trinidad and Tobago,Trinidad and Tobago national team coach,1,0.16,0.9,0,proxy_from_real_team_history
 Tunisia,Tunisia national team coach,3,0.274,1.7,0,proxy_from_real_team_history
-Turkey,Turkey national team coach,1,0.471,0.9,1,proxy_from_real_team_history
+Turkey,Turkey national team coach,1,0.444,0.9,0,proxy_from_real_team_history
 Ukraine,Ukraine national team coach,1,0.385,0.9,0,proxy_from_real_team_history
 United Arab Emirates,United Arab Emirates national team coach,1,0.16,0.9,0,proxy_from_real_team_history
-United States,United States national team coach,6,0.348,2.4,0,proxy_from_real_team_history
+United States,United States national team coach,6,0.361,2.4,0,proxy_from_real_team_history
 Uruguay,Uruguay national team coach,10,0.48,3.0,1,proxy_from_real_team_history
 Wales,Wales national team coach,1,0.22,0.9,0,proxy_from_real_team_history
 Yugoslavia,Yugoslavia national team coach,5,0.461,2.2,0,proxy_from_real_team_history

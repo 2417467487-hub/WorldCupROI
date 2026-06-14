@@ -27,8 +27,8 @@
     "injury_risk_diff"
   ],
   "metrics": {
-    "accuracy": 0.556604,
-    "log_loss": 0.97798
+    "accuracy": 0.502347,
+    "log_loss": 1.009739
   },
   "artifact_path": "models\\match_outcome_model.pkl",
   "report_path": "reports\\match_model_metrics.md",

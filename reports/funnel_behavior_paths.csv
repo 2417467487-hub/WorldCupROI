@@ -1,0 +1,83 @@
+team,sponsor,Exposure,Attention,Engagement,Conversion,ROI,exposure_to_attention,attention_to_engagement,engagement_to_conversion,conversion_to_roi,behavior_decay_rate,recommended_action
+Brazil,Adidas,0.4959,0.4611,0.7917,1.0,0.7399,0.9298,1.717,1.2631,0.7399,-0.492,tighten_sponsor_offer_and_landing_path
+Indonesia,Coca-Cola,0.2881,0.0136,0.148,0.3959,0.7003,0.0472,3.0,2.675,1.7689,-1.0,scale_high_quality_funnel
+Argentina,Hyundai,0.5281,0.4037,0.7296,0.9932,0.6374,0.7644,1.8073,1.3613,0.6418,-0.207,tighten_sponsor_offer_and_landing_path
+China,Adidas,0.634,0.3607,0.4798,0.7172,0.6277,0.5689,1.3302,1.4948,0.8752,0.0099,tighten_sponsor_offer_and_landing_path
+Ukraine,Qatar Airways,0.6343,0.4098,0.5794,0.7722,0.6207,0.6461,1.4139,1.3328,0.8038,0.0214,tighten_sponsor_offer_and_landing_path
+France,Qatar Airways,0.545,0.4117,0.6201,0.909,0.6147,0.7554,1.5062,1.4659,0.6762,-0.1279,tighten_sponsor_offer_and_landing_path
+Hungary,Adidas,0.3981,0.3431,0.6079,0.8006,0.6131,0.8618,1.7718,1.317,0.7658,-0.5401,tighten_sponsor_offer_and_landing_path
+New Zealand,McDonald's,0.5916,0.3427,0.1404,0.0982,0.6083,0.5793,0.4097,0.6994,3.0,-0.0282,improve_creative_and_social_activation
+Japan,Adidas,0.6656,0.4049,0.6191,0.785,0.5882,0.6083,1.529,1.268,0.7493,0.1163,tighten_sponsor_offer_and_landing_path
+Germany,Coca-Cola,0.5098,0.372,0.6045,0.8965,0.5873,0.7297,1.625,1.483,0.6551,-0.152,tighten_sponsor_offer_and_landing_path
+Russia,Hyundai,0.4925,0.4148,0.6505,0.9309,0.5858,0.8422,1.5682,1.4311,0.6293,-0.1894,tighten_sponsor_offer_and_landing_path
+Italy,Visa,0.448,0.3366,0.6104,0.9956,0.584,0.7513,1.8134,1.6311,0.5866,-0.3036,tighten_sponsor_offer_and_landing_path
+Costa Rica,Visa,0.6761,0.4323,0.6138,0.6993,0.5794,0.6394,1.4198,1.1393,0.8285,0.143,tighten_sponsor_offer_and_landing_path
+Denmark,Adidas,0.6358,0.4453,0.7621,0.9781,0.5788,0.7004,1.7114,1.2834,0.5918,0.0897,tighten_sponsor_offer_and_landing_path
+Turkey,Hyundai,0.5765,0.3311,0.5605,0.867,0.576,0.5743,1.6928,1.5468,0.6644,0.0009,tighten_sponsor_offer_and_landing_path
+Saudi Arabia,Qatar Airways,0.6623,0.4459,0.6277,0.7028,0.5742,0.6733,1.4077,1.1196,0.817,0.133,tighten_sponsor_offer_and_landing_path
+Netherlands,Hisense,0.5698,0.4725,0.7306,0.9044,0.5727,0.8292,1.5462,1.2379,0.6332,-0.0051,tighten_sponsor_offer_and_landing_path
+Spain,Budweiser,0.5265,0.4515,0.6859,0.8021,0.5656,0.8575,1.5192,1.1694,0.7051,-0.0743,tighten_sponsor_offer_and_landing_path
+Croatia,Hisense,0.6788,0.3592,0.547,0.7217,0.5623,0.5292,1.5228,1.3194,0.7791,0.1716,tighten_sponsor_offer_and_landing_path
+Belgium,Visa,0.5436,0.3346,0.5392,0.7632,0.552,0.6155,1.6115,1.4154,0.7233,-0.0155,tighten_sponsor_offer_and_landing_path
+Cameroon,Hyundai,0.6075,0.3701,0.6054,0.7635,0.551,0.6092,1.6358,1.2611,0.7217,0.093,tighten_sponsor_offer_and_landing_path
+Switzerland,Visa,0.516,0.4115,0.6939,0.8414,0.5491,0.7975,1.6863,1.2126,0.6526,-0.0641,tighten_sponsor_offer_and_landing_path
+United Arab Emirates,Adidas,0.6046,0.3006,0.4581,0.7546,0.5489,0.4972,1.524,1.6472,0.7274,0.0921,tighten_sponsor_offer_and_landing_path
+Sweden,Budweiser,0.4593,0.3694,0.6373,0.8084,0.5482,0.8043,1.7252,1.2685,0.6781,-0.1936,tighten_sponsor_offer_and_landing_path
+South Africa,Hyundai,0.6551,0.411,0.5858,0.7185,0.5386,0.6274,1.4253,1.2265,0.7496,0.1778,tighten_sponsor_offer_and_landing_path
+Senegal,Budweiser,0.7013,0.4774,0.6876,0.8178,0.5366,0.6807,1.4403,1.1894,0.6562,0.2348,tighten_sponsor_offer_and_landing_path
+Kuwait,Hisense,0.4711,0.2349,0.3141,0.3787,0.5354,0.4986,1.3372,1.2057,1.4138,-0.1365,scale_high_quality_funnel
+Iceland,Visa,0.7192,0.3843,0.4574,0.5799,0.5322,0.5343,1.1902,1.2678,0.9177,0.26,scale_high_quality_funnel
+South Korea,Hisense,0.6378,0.4106,0.5343,0.6964,0.5314,0.6438,1.3013,1.3034,0.7631,0.1668,tighten_sponsor_offer_and_landing_path
+Nigeria,Coca-Cola,0.6364,0.4153,0.5341,0.6896,0.5306,0.6526,1.2861,1.2911,0.7694,0.1662,tighten_sponsor_offer_and_landing_path
+El Salvador,Budweiser,0.4755,0.2368,0.3802,0.6452,0.5295,0.498,1.6056,1.697,0.8207,-0.1136,tighten_sponsor_offer_and_landing_path
+Panama,Qatar Airways,0.8127,0.4402,0.4739,0.5498,0.5291,0.5417,1.0766,1.1602,0.9623,0.349,scale_high_quality_funnel
+Jamaica,Vivo,0.6498,0.3972,0.2507,0.1241,0.5273,0.6113,0.6312,0.495,3.0,0.1885,improve_creative_and_social_activation
+Bosnia and Herzegovina,Budweiser,0.7234,0.4491,0.5704,0.6601,0.5249,0.6208,1.2701,1.1573,0.7952,0.2744,tighten_sponsor_offer_and_landing_path
+Yugoslavia,Qatar Airways,0.3547,0.3452,0.5483,0.7039,0.5236,0.9732,1.5884,1.2838,0.7439,-0.4762,tighten_sponsor_offer_and_landing_path
+Paraguay,Hyundai,0.5108,0.3512,0.6062,0.7385,0.52,0.6875,1.7261,1.2182,0.7041,-0.018,tighten_sponsor_offer_and_landing_path
+German DR,Visa,0.3617,0.1806,0.4185,0.7861,0.5177,0.4993,2.3173,1.8784,0.6586,-0.4313,tighten_sponsor_offer_and_landing_path
+Peru,Budweiser,0.4555,0.2942,0.462,0.7114,0.5164,0.6459,1.5704,1.5398,0.7259,-0.1337,tighten_sponsor_offer_and_landing_path
+Ivory Coast,McDonald's,0.693,0.4097,0.3469,0.2278,0.5153,0.5912,0.8467,0.6567,2.2621,0.2564,improve_creative_and_social_activation
+Scotland,Adidas,0.4631,0.288,0.4773,0.7962,0.511,0.6219,1.6573,1.6681,0.6418,-0.1034,tighten_sponsor_offer_and_landing_path
+North Korea,Adidas,0.5431,0.3371,0.5293,0.7641,0.5104,0.6207,1.5702,1.4436,0.668,0.0602,tighten_sponsor_offer_and_landing_path
+Canada,Qatar Airways,0.6363,0.2726,0.4076,0.555,0.5063,0.4284,1.4952,1.3616,0.9123,0.2043,scale_high_quality_funnel
+Czechoslovakia,Coca-Cola,0.3341,0.2946,0.4976,0.6924,0.5046,0.8818,1.6891,1.3915,0.7288,-0.5103,tighten_sponsor_offer_and_landing_path
+Norway,McDonald's,0.4862,0.2696,0.1942,0.2793,0.4968,0.5545,0.7203,1.4382,1.7787,-0.0218,improve_creative_and_social_activation
+Honduras,Visa,0.5804,0.3128,0.4566,0.5396,0.4956,0.5389,1.4597,1.1818,0.9185,0.1461,scale_high_quality_funnel
+Tunisia,Coca-Cola,0.6121,0.39,0.567,0.7157,0.4952,0.6372,1.4538,1.2623,0.6919,0.191,tighten_sponsor_offer_and_landing_path
+Wales,Coca-Cola,0.4326,0.208,0.4005,0.6928,0.4921,0.4808,1.9255,1.7298,0.7103,-0.1375,tighten_sponsor_offer_and_landing_path
+Poland,Coca-Cola,0.5226,0.3674,0.579,0.8576,0.4914,0.703,1.5759,1.4812,0.573,0.0597,tighten_sponsor_offer_and_landing_path
+Northern Ireland,Hisense,0.4115,0.3071,0.4572,0.6385,0.4875,0.7463,1.4888,1.3965,0.7635,-0.1847,tighten_sponsor_offer_and_landing_path
+Algeria,Budweiser,0.5883,0.3615,0.4897,0.5986,0.4871,0.6145,1.3546,1.2224,0.8137,0.172,tighten_sponsor_offer_and_landing_path
+Morocco,Coca-Cola,0.5926,0.3276,0.4785,0.5171,0.484,0.5528,1.4606,1.0807,0.936,0.1833,scale_high_quality_funnel
+Egypt,Hyundai,0.5458,0.2523,0.4455,0.7046,0.4785,0.4623,1.7658,1.5816,0.6791,0.1233,tighten_sponsor_offer_and_landing_path
+Mexico,Vivo,0.5072,0.3691,0.3019,0.3536,0.4784,0.7277,0.8179,1.1712,1.3529,0.0568,improve_creative_and_social_activation
+Colombia,Mengniu,0.5993,0.4357,0.3412,0.2303,0.4765,0.727,0.7831,0.675,2.069,0.2049,improve_creative_and_social_activation
+Australia,Mengniu,0.6676,0.3994,0.3402,0.2502,0.4761,0.5983,0.8518,0.7354,1.9029,0.2868,scale_high_quality_funnel
+Greece,Qatar Airways,0.6449,0.3941,0.5692,0.6411,0.4749,0.6111,1.4443,1.1263,0.7408,0.2636,tighten_sponsor_offer_and_landing_path
+Serbia,Vivo,0.6817,0.3686,0.3009,0.2464,0.4635,0.5407,0.8163,0.8189,1.8811,0.3201,improve_creative_and_social_activation
+Chile,Hisense,0.437,0.2701,0.4425,0.7152,0.4577,0.6181,1.6383,1.6163,0.64,-0.0474,tighten_sponsor_offer_and_landing_path
+Romania,Qatar Airways,0.4387,0.3425,0.5643,0.8946,0.4546,0.7807,1.6476,1.5853,0.5082,-0.0362,tighten_sponsor_offer_and_landing_path
+Bulgaria,Visa,0.4713,0.297,0.4911,0.706,0.4528,0.6302,1.6535,1.4376,0.6414,0.0393,tighten_sponsor_offer_and_landing_path
+Iran,Adidas,0.6355,0.3591,0.6069,0.7452,0.4445,0.5651,1.6901,1.2279,0.5965,0.3006,tighten_sponsor_offer_and_landing_path
+Ecuador,McDonald's,0.6601,0.4425,0.3726,0.3599,0.4436,0.6704,0.842,0.9659,1.2326,0.328,improve_creative_and_social_activation
+Republic of Ireland,Hisense,0.5146,0.2757,0.4263,0.6233,0.4422,0.5358,1.5462,1.4621,0.7094,0.1407,tighten_sponsor_offer_and_landing_path
+Ghana,Vivo,0.6958,0.4042,0.3151,0.2469,0.4408,0.5809,0.7796,0.7836,1.7853,0.3665,improve_creative_and_social_activation
+United States,Mengniu,0.5653,0.4133,0.3239,0.2174,0.4389,0.7311,0.7837,0.6712,2.0189,0.2236,improve_creative_and_social_activation
+DR Congo,Hyundai,0.5007,0.3318,0.402,0.6875,0.4376,0.6627,1.2116,1.7102,0.6365,0.126,tighten_sponsor_offer_and_landing_path
+Portugal,Mengniu,0.627,0.4195,0.3845,0.4084,0.4368,0.6691,0.9166,1.0622,1.0695,0.3033,scale_high_quality_funnel
+Uruguay,Vivo,0.4785,0.3856,0.3499,0.3574,0.4359,0.8059,0.9074,1.0214,1.2196,0.089,scale_high_quality_funnel
+England,McDonald's,0.5042,0.3733,0.3972,0.4851,0.4224,0.7404,1.064,1.2213,0.8707,0.1622,tighten_sponsor_offer_and_landing_path
+Haiti,Mengniu,0.5758,0.2922,0.1249,0.0,0.3685,0.5075,0.4274,0.0,0.0,0.36,improve_creative_and_social_activation
+Angola,Coca-Cola,0.5727,0.3186,0.4321,0.6221,0.3557,0.5563,1.3562,1.4397,0.5718,0.3789,tighten_sponsor_offer_and_landing_path
+Austria,McDonald's,0.3952,0.3266,0.2694,0.2803,0.3475,0.8264,0.8249,1.0405,1.2397,0.1207,improve_creative_and_social_activation
+Slovenia,Vivo,0.639,0.3265,0.2603,0.1329,0.3474,0.511,0.7972,0.5106,2.614,0.4563,improve_creative_and_social_activation
+Trinidad and Tobago,Mengniu,0.5859,0.2594,0.1425,0.1382,0.341,0.4427,0.5493,0.9698,2.4674,0.418,improve_creative_and_social_activation
+Slovakia,McDonald's,0.6978,0.4684,0.2657,0.1459,0.3304,0.6713,0.5673,0.5491,2.2646,0.5265,improve_creative_and_social_activation
+Czech Republic,Mengniu,0.6731,0.3139,0.2422,0.1169,0.3291,0.4663,0.7716,0.4827,2.8152,0.5111,improve_creative_and_social_activation
+Iraq,McDonald's,0.4519,0.2275,0.0594,0.0285,0.312,0.5034,0.2611,0.4798,3.0,0.3096,improve_creative_and_social_activation
+Bolivia,Hisense,0.3799,0.1551,0.2806,0.5359,0.2824,0.4083,1.8092,1.9098,0.527,0.2566,tighten_sponsor_offer_and_landing_path
+Togo,Vivo,0.6375,0.4085,0.1425,0.134,0.1954,0.6408,0.3488,0.9404,1.4582,0.6935,improve_creative_and_social_activation
+Qatar,Vivo,0.7704,0.3983,0.2185,0.1038,0.1596,0.517,0.5486,0.4751,1.5376,0.7928,improve_creative_and_social_activation
+Cuba,Mengniu,0.2718,0.0943,0.0402,0.142,0.1293,0.3469,0.4263,3.0,0.9106,0.5243,improve_creative_and_social_activation
+Israel,Budweiser,0.3177,0.0879,0.2364,0.4981,0.0718,0.2767,2.6894,2.107,0.1441,0.774,tighten_sponsor_offer_and_landing_path

@@ -1,965 +1,973 @@
 match_id,year,temperature_c,humidity,weather,stadium_capacity_k,neutral_site,host_advantage_a,venue_region,weather_severity
-1,1930,22.8,71.9,clear,62.0,True,0.0,Uruguay,0.12
-2,1930,14.8,69.7,clear,44.5,True,0.0,Uruguay,0.12
-3,1930,21.5,30.5,hot,67.8,True,0.0,Uruguay,0.62
-4,1930,18.5,51.5,rain,70.2,True,0.0,Uruguay,0.48
-5,1930,28.5,44.2,windy,32.6,True,0.0,Uruguay,0.48
-6,1930,23.2,78.7,clear,41.1,True,0.0,Uruguay,0.12
-7,1930,21.3,36.4,cloudy,59.7,True,0.0,Uruguay,0.22
-8,1930,22.4,83.7,clear,53.9,True,0.0,Uruguay,0.12
-9,1930,24.3,57.5,cloudy,57.8,False,0.18,Uruguay,0.22
-10,1930,26.7,39.4,clear,46.9,True,0.0,Uruguay,0.12
-11,1930,17.0,47.2,clear,69.4,True,0.0,Uruguay,0.12
-12,1930,16.8,45.2,cloudy,68.1,True,0.0,Uruguay,0.22
-13,1930,29.6,37.6,clear,58.9,True,0.0,Uruguay,0.12
-14,1930,20.5,59.5,cloudy,72.7,False,0.18,Uruguay,0.22
-15,1930,14.5,38.4,cloudy,64.1,True,0.0,Uruguay,0.22
-16,1930,25.7,23.1,clear,46.8,True,0.0,Uruguay,0.12
-17,1930,25.8,51.9,windy,62.8,False,0.18,Uruguay,0.48
-18,1930,13.8,29.2,cloudy,45.5,False,0.18,Uruguay,0.22
-19,1934,24.4,46.0,rain,69.4,True,0.0,Italy,0.48
-20,1934,27.4,43.5,cloudy,57.4,True,0.0,Italy,0.22
-21,1934,25.2,44.1,rain,55.6,True,0.0,Italy,0.48
-22,1934,26.8,90.0,rain,49.1,True,0.0,Italy,0.48
-23,1934,14.6,58.9,hot,73.9,True,0.0,Italy,0.62
-24,1934,25.0,61.9,cloudy,56.0,True,0.0,Italy,0.22
-25,1934,21.2,29.6,clear,52.4,False,0.18,Italy,0.12
-26,1934,20.1,47.5,clear,53.4,True,0.0,Italy,0.12
-27,1934,28.2,61.4,cloudy,64.9,True,0.0,Italy,0.22
-28,1934,31.9,41.6,clear,62.8,True,0.0,Italy,0.12
-29,1934,33.8,72.5,clear,63.4,True,0.0,Italy,0.12
-30,1934,30.9,38.8,clear,63.6,False,0.18,Italy,0.12
-31,1934,22.3,53.4,cloudy,85.8,False,0.18,Italy,0.22
-32,1934,25.1,48.6,clear,52.7,True,0.0,Italy,0.12
-33,1934,27.6,60.6,cloudy,51.3,False,0.18,Italy,0.22
-34,1934,23.7,47.8,rain,47.4,True,0.0,Italy,0.48
-35,1934,23.8,53.7,hot,66.0,False,0.18,Italy,0.62
-36,1938,27.9,54.2,clear,72.7,True,0.0,France,0.12
-37,1938,22.6,46.2,cloudy,56.5,True,0.0,France,0.22
-38,1938,18.6,65.8,cloudy,47.1,True,0.0,France,0.22
-39,1938,20.5,61.8,cloudy,47.3,True,0.0,France,0.22
-40,1938,26.8,56.6,cloudy,66.5,False,0.18,France,0.22
-41,1938,23.0,51.1,clear,67.7,True,0.0,France,0.12
-42,1938,25.0,70.7,windy,65.1,True,0.0,France,0.48
-43,1938,27.0,54.2,clear,49.3,True,0.0,France,0.12
-44,1938,20.8,53.1,hot,61.0,True,0.0,France,0.62
-45,1938,27.5,59.7,cloudy,59.5,True,0.0,France,0.22
-46,1938,25.3,85.1,clear,60.8,True,0.0,France,0.12
-47,1938,15.6,36.6,rain,69.3,False,0.18,France,0.48
-48,1938,31.7,70.3,clear,60.9,True,0.0,France,0.12
-49,1938,20.0,27.7,rain,66.8,True,0.0,France,0.48
-50,1938,13.1,61.5,cloudy,58.9,True,0.0,France,0.22
-51,1938,16.7,83.2,clear,61.8,True,0.0,France,0.12
-52,1938,16.9,65.8,clear,66.2,True,0.0,France,0.12
-53,1938,23.3,60.7,rain,39.1,True,0.0,France,0.48
-54,1950,21.4,49.0,clear,53.8,False,0.18,Brazil,0.12
-55,1950,21.0,58.5,hot,51.9,True,0.0,Brazil,0.62
-56,1950,26.7,54.0,rain,49.7,True,0.0,Brazil,0.48
-57,1950,25.0,45.4,rain,54.4,True,0.0,Brazil,0.48
-58,1950,24.9,53.4,clear,77.4,True,0.0,Brazil,0.12
-59,1950,25.5,61.2,rain,46.7,False,0.18,Brazil,0.48
-60,1950,26.7,45.7,windy,70.6,True,0.0,Brazil,0.48
-61,1950,10.4,45.1,clear,36.1,True,0.0,Brazil,0.12
-62,1950,20.8,36.2,clear,53.6,True,0.0,Brazil,0.12
-63,1950,9.9,64.3,clear,60.1,True,0.0,Brazil,0.12
-64,1950,23.2,66.7,clear,65.6,False,0.18,Brazil,0.12
-65,1950,23.0,61.7,rain,67.2,True,0.0,Brazil,0.48
-66,1950,29.3,73.4,cloudy,68.3,True,0.0,Brazil,0.22
-67,1950,30.1,59.4,cloudy,53.5,True,0.0,Brazil,0.22
-68,1950,24.2,64.3,clear,52.0,True,0.0,Brazil,0.12
-69,1950,20.0,62.9,clear,69.2,True,0.0,Brazil,0.12
-70,1950,25.9,56.5,clear,55.5,False,0.18,Brazil,0.12
-71,1950,19.8,49.5,hot,41.4,True,0.0,Brazil,0.62
-72,1950,23.0,93.4,cloudy,43.3,False,0.18,Brazil,0.22
-73,1950,28.9,50.8,clear,46.0,True,0.0,Brazil,0.12
-74,1950,19.7,47.3,rain,64.5,False,0.18,Brazil,0.48
-75,1950,27.8,64.9,clear,59.9,True,0.0,Brazil,0.12
-76,1954,27.1,62.0,clear,67.0,True,0.0,Switzerland,0.12
-77,1954,17.3,35.5,clear,52.4,True,0.0,Switzerland,0.12
-78,1954,28.8,76.0,windy,60.1,True,0.0,Switzerland,0.48
-79,1954,27.2,56.5,rain,66.1,True,0.0,Switzerland,0.48
-80,1954,23.6,40.2,cloudy,54.0,True,0.0,Switzerland,0.22
-81,1954,18.4,77.0,clear,63.9,True,0.0,Switzerland,0.12
-82,1954,17.8,68.0,clear,49.4,True,0.0,Switzerland,0.12
-83,1954,19.8,37.8,cloudy,53.3,False,0.18,Switzerland,0.22
-84,1954,26.3,86.4,clear,53.0,True,0.0,Switzerland,0.12
-85,1954,17.3,68.5,windy,42.5,True,0.0,Switzerland,0.48
-86,1954,25.6,57.8,rain,64.3,True,0.0,Switzerland,0.48
-87,1954,15.5,83.4,cloudy,51.9,True,0.0,Switzerland,0.22
-88,1954,21.8,60.5,rain,58.2,True,0.0,Switzerland,0.48
-89,1954,23.7,57.6,windy,64.2,True,0.0,Switzerland,0.48
-90,1954,37.7,47.4,cloudy,63.8,True,0.0,Switzerland,0.22
-91,1954,14.7,67.3,cloudy,66.7,False,0.18,Switzerland,0.22
-92,1954,31.8,65.6,hot,56.7,True,0.0,Switzerland,0.62
-93,1954,23.9,58.2,clear,52.5,False,0.18,Switzerland,0.12
-94,1954,25.5,45.4,hot,57.0,True,0.0,Switzerland,0.62
-95,1954,23.7,60.1,clear,36.1,False,0.18,Switzerland,0.12
-96,1954,25.7,56.9,cloudy,39.2,True,0.0,Switzerland,0.22
-97,1954,22.1,36.7,rain,40.8,True,0.0,Switzerland,0.48
-98,1954,31.7,34.5,cloudy,45.0,True,0.0,Switzerland,0.22
-99,1954,20.3,67.0,cloudy,63.2,True,0.0,Switzerland,0.22
-100,1954,29.8,16.4,cloudy,46.2,True,0.0,Switzerland,0.22
-101,1954,19.1,61.3,clear,53.1,True,0.0,Switzerland,0.12
-102,1958,22.6,50.4,clear,74.9,True,0.0,Sweden,0.12
-103,1958,16.6,78.9,clear,53.4,True,0.0,Sweden,0.12
-104,1958,25.7,50.1,cloudy,67.6,True,0.0,Sweden,0.22
-105,1958,31.7,68.6,cloudy,45.9,True,0.0,Sweden,0.22
-106,1958,22.5,51.6,clear,55.3,True,0.0,Sweden,0.12
-107,1958,21.8,59.8,hot,45.6,True,0.0,Sweden,0.62
-108,1958,16.3,69.8,clear,53.6,True,0.0,Sweden,0.12
-109,1958,21.6,50.6,cloudy,68.9,False,0.18,Sweden,0.22
-110,1958,13.4,73.9,clear,35.5,True,0.0,Sweden,0.12
-111,1958,17.5,42.1,clear,63.6,True,0.0,Sweden,0.12
-112,1958,24.4,62.7,rain,61.1,True,0.0,Sweden,0.48
-113,1958,30.9,72.8,cloudy,50.3,True,0.0,Sweden,0.22
-114,1958,39.0,68.6,clear,39.2,True,0.0,Sweden,0.12
-115,1958,19.5,88.7,windy,58.9,True,0.0,Sweden,0.48
-116,1958,31.6,45.8,rain,51.1,True,0.0,Sweden,0.48
-117,1958,24.5,35.9,rain,61.0,False,0.18,Sweden,0.48
-118,1958,22.1,42.1,hot,58.3,True,0.0,Sweden,0.62
-119,1958,25.6,68.6,hot,78.8,True,0.0,Sweden,0.62
-120,1958,23.4,66.0,clear,54.9,True,0.0,Sweden,0.12
-121,1958,23.7,59.6,cloudy,44.7,True,0.0,Sweden,0.22
-122,1958,20.6,40.0,cloudy,60.3,True,0.0,Sweden,0.22
-123,1958,14.6,70.3,clear,60.9,True,0.0,Sweden,0.12
-124,1958,13.7,38.4,clear,75.7,True,0.0,Sweden,0.12
-125,1958,26.9,76.5,clear,68.9,False,0.18,Sweden,0.12
-126,1958,21.3,96.0,cloudy,62.6,True,0.0,Sweden,0.22
-127,1958,19.4,63.9,rain,77.0,True,0.0,Sweden,0.48
-128,1958,23.1,67.3,rain,42.5,True,0.0,Sweden,0.48
-129,1958,27.8,50.1,clear,49.7,True,0.0,Sweden,0.12
-130,1958,24.1,29.0,clear,46.0,True,0.0,Sweden,0.12
-131,1958,19.1,48.4,cloudy,52.9,True,0.0,Sweden,0.22
-132,1958,30.4,40.5,cloudy,40.1,False,0.18,Sweden,0.22
-133,1958,32.5,34.8,hot,66.3,True,0.0,Sweden,0.62
-134,1958,26.0,85.6,hot,55.1,False,0.18,Sweden,0.62
-135,1958,28.8,62.4,hot,38.9,True,0.0,Sweden,0.62
-136,1958,30.5,64.1,hot,44.8,False,0.18,Sweden,0.62
-137,1962,29.8,53.1,windy,62.1,True,0.0,Chile,0.48
-138,1962,26.7,55.2,cloudy,68.9,True,0.0,Chile,0.22
-139,1962,26.6,73.4,clear,84.0,False,0.18,Chile,0.12
-140,1962,26.1,57.5,clear,95.0,True,0.0,Chile,0.12
-141,1962,16.4,66.5,clear,63.4,True,0.0,Chile,0.12
-142,1962,27.2,54.9,clear,45.1,True,0.0,Chile,0.12
-143,1962,14.9,52.5,clear,30.3,True,0.0,Chile,0.12
-144,1962,18.2,35.5,windy,61.5,True,0.0,Chile,0.48
-145,1962,30.8,26.4,clear,47.4,True,0.0,Chile,0.12
-146,1962,28.0,53.8,windy,52.6,True,0.0,Chile,0.48
-147,1962,31.9,58.9,rain,50.0,False,0.18,Chile,0.48
-148,1962,21.4,37.4,cloudy,56.2,True,0.0,Chile,0.22
-149,1962,16.1,57.4,rain,71.9,True,0.0,Chile,0.48
-150,1962,21.6,58.9,clear,60.0,True,0.0,Chile,0.12
-151,1962,23.6,23.5,cloudy,55.9,True,0.0,Chile,0.22
-152,1962,23.5,43.4,clear,44.5,True,0.0,Chile,0.12
-153,1962,29.8,64.5,windy,36.2,True,0.0,Chile,0.48
-154,1962,20.8,64.2,clear,51.7,True,0.0,Chile,0.12
-155,1962,25.1,39.5,clear,57.3,False,0.18,Chile,0.12
-156,1962,17.1,60.5,rain,81.0,True,0.0,Chile,0.48
-157,1962,25.7,74.4,cloudy,59.7,True,0.0,Chile,0.22
-158,1962,23.0,70.4,cloudy,70.8,True,0.0,Chile,0.22
-159,1962,18.5,56.5,cloudy,51.5,True,0.0,Chile,0.22
-160,1962,21.6,50.5,clear,42.6,True,0.0,Chile,0.12
-161,1962,21.9,47.9,rain,45.5,True,0.0,Chile,0.48
-162,1962,21.4,65.5,clear,48.6,False,0.18,Chile,0.12
-163,1962,33.6,61.1,clear,85.7,True,0.0,Chile,0.12
-164,1962,22.4,68.1,clear,47.3,True,0.0,Chile,0.12
-165,1962,21.5,60.1,clear,68.9,False,0.18,Chile,0.12
-166,1962,10.4,71.1,clear,46.3,True,0.0,Chile,0.12
-167,1962,17.6,59.5,cloudy,70.1,False,0.18,Chile,0.22
-168,1962,21.4,70.6,clear,63.0,True,0.0,Chile,0.12
-169,1966,18.9,71.9,clear,56.0,False,0.18,England,0.12
-170,1966,31.3,45.1,cloudy,57.5,True,0.0,England,0.22
-171,1966,22.0,29.1,clear,49.5,True,0.0,England,0.12
-172,1966,30.7,82.7,rain,63.8,True,0.0,England,0.48
-173,1966,23.4,62.1,windy,52.1,True,0.0,England,0.48
-174,1966,23.2,30.6,cloudy,42.1,True,0.0,England,0.22
-175,1966,22.5,46.6,hot,41.4,True,0.0,England,0.62
-176,1966,23.0,70.3,clear,60.2,True,0.0,England,0.12
-177,1966,33.3,53.5,clear,78.5,True,0.0,England,0.12
-178,1966,9.1,49.8,rain,60.1,True,0.0,England,0.48
-179,1966,11.0,80.4,rain,56.5,True,0.0,England,0.48
-180,1966,19.7,41.2,hot,61.7,True,0.0,England,0.62
-181,1966,23.1,45.2,clear,75.0,True,0.0,England,0.12
-182,1966,27.1,61.4,rain,60.9,True,0.0,England,0.48
-183,1966,25.8,64.2,clear,52.7,False,0.18,England,0.12
-184,1966,20.7,65.9,clear,72.4,True,0.0,England,0.12
-185,1966,29.1,72.6,clear,63.6,True,0.0,England,0.12
-186,1966,29.2,61.2,windy,78.0,True,0.0,England,0.48
-187,1966,24.1,65.8,clear,60.4,True,0.0,England,0.12
-188,1966,28.8,53.9,hot,42.1,True,0.0,England,0.62
-189,1966,24.6,59.0,cloudy,40.2,True,0.0,England,0.22
-190,1966,19.6,59.7,rain,79.5,True,0.0,England,0.48
-191,1966,27.2,61.4,rain,80.4,False,0.18,England,0.48
-192,1966,23.7,70.4,hot,55.7,True,0.0,England,0.62
-193,1966,23.0,66.9,clear,53.0,False,0.18,England,0.12
-194,1966,31.8,58.7,clear,77.0,True,0.0,England,0.12
-195,1966,8.3,45.1,cloudy,43.6,True,0.0,England,0.22
-196,1966,14.5,59.1,clear,46.4,True,0.0,England,0.12
-197,1966,15.9,57.6,clear,66.4,True,0.0,England,0.12
-198,1966,20.8,61.1,clear,52.9,False,0.18,England,0.12
-199,1966,21.5,93.3,clear,57.9,True,0.0,England,0.12
-200,1966,14.0,49.6,clear,55.9,False,0.18,England,0.12
-201,1970,17.1,64.8,clear,62.4,False,0.18,Mexico,0.12
-202,1970,17.8,75.1,hot,76.3,True,0.0,Mexico,0.62
-203,1970,37.7,59.6,clear,59.2,True,0.0,Mexico,0.12
-204,1970,33.8,95.4,windy,66.4,True,0.0,Mexico,0.48
-205,1970,20.5,52.0,windy,31.3,True,0.0,Mexico,0.48
-206,1970,20.8,63.2,clear,57.4,True,0.0,Mexico,0.12
-207,1970,16.1,45.2,rain,47.0,True,0.0,Mexico,0.48
-208,1970,11.6,52.4,cloudy,42.2,True,0.0,Mexico,0.22
-209,1970,22.3,62.0,rain,46.6,True,0.0,Mexico,0.48
-210,1970,17.0,71.5,clear,53.7,True,0.0,Mexico,0.12
-211,1970,22.5,63.1,clear,69.9,True,0.0,Mexico,0.12
-212,1970,13.4,78.1,clear,40.8,True,0.0,Mexico,0.12
-213,1970,18.4,56.5,cloudy,58.4,True,0.0,Mexico,0.22
-214,1970,23.9,52.7,windy,51.7,True,0.0,Mexico,0.48
-215,1970,25.2,96.0,rain,53.7,True,0.0,Mexico,0.48
-216,1970,25.5,64.3,rain,71.0,False,0.18,Mexico,0.48
-217,1970,15.1,46.5,windy,65.0,True,0.0,Mexico,0.48
-218,1970,28.1,46.9,rain,75.4,True,0.0,Mexico,0.48
-219,1970,18.2,42.9,clear,56.0,True,0.0,Mexico,0.12
-220,1970,26.8,73.0,hot,49.0,True,0.0,Mexico,0.62
-221,1970,22.9,52.2,clear,55.1,True,0.0,Mexico,0.12
-222,1970,14.7,60.0,clear,61.2,True,0.0,Mexico,0.12
-223,1970,21.1,57.0,cloudy,60.3,True,0.0,Mexico,0.22
-224,1970,25.2,69.7,windy,43.9,False,0.18,Mexico,0.48
-225,1970,26.7,44.5,clear,59.2,True,0.0,Mexico,0.12
-226,1970,22.2,40.8,cloudy,61.0,True,0.0,Mexico,0.22
-227,1970,32.2,61.6,clear,90.7,False,0.18,Mexico,0.12
-228,1970,29.0,67.6,clear,82.4,True,0.0,Mexico,0.12
-229,1970,21.5,63.3,clear,46.9,True,0.0,Mexico,0.12
-230,1970,27.5,45.0,rain,54.3,True,0.0,Mexico,0.48
-231,1970,34.6,68.8,hot,39.0,True,0.0,Mexico,0.62
-232,1970,34.8,46.1,clear,50.3,True,0.0,Mexico,0.12
-233,1974,15.6,49.7,clear,62.1,True,0.0,Germany,0.12
-234,1974,17.4,42.9,clear,73.7,True,0.0,Germany,0.12
-235,1974,31.9,78.8,clear,48.5,True,0.0,Germany,0.12
-236,1974,16.7,68.1,cloudy,49.5,False,0.18,Germany,0.22
-237,1974,15.1,67.7,rain,30.1,True,0.0,Germany,0.48
-238,1974,20.1,78.0,cloudy,55.9,True,0.0,Germany,0.22
-239,1974,25.5,96.0,clear,44.2,True,0.0,Germany,0.12
-240,1974,22.4,30.7,cloudy,51.1,True,0.0,Germany,0.22
-241,1974,19.1,46.2,clear,46.6,True,0.0,Germany,0.12
-242,1974,19.0,48.1,clear,56.8,False,0.18,Germany,0.12
-243,1974,18.7,44.4,windy,35.1,True,0.0,Germany,0.48
-244,1974,17.7,40.8,rain,38.9,True,0.0,Germany,0.48
-245,1974,36.7,53.2,windy,85.7,True,0.0,Germany,0.48
-246,1974,24.8,38.5,hot,41.3,True,0.0,Germany,0.62
-247,1974,28.3,63.4,cloudy,43.7,True,0.0,Germany,0.22
-248,1974,20.1,58.8,windy,81.9,True,0.0,Germany,0.48
-249,1974,21.9,65.7,clear,95.0,True,0.0,Germany,0.12
-250,1974,18.7,66.1,clear,42.8,True,0.0,Germany,0.12
-251,1974,7.1,67.6,clear,53.2,False,0.18,Germany,0.12
-252,1974,14.7,52.0,clear,62.4,True,0.0,Germany,0.12
-253,1974,12.1,91.9,clear,80.5,True,0.0,Germany,0.12
-254,1974,9.5,61.8,clear,45.2,True,0.0,Germany,0.12
-255,1974,15.8,28.2,rain,54.8,True,0.0,Germany,0.48
-256,1974,30.9,42.0,rain,68.1,True,0.0,Germany,0.48
-257,1974,22.7,30.2,cloudy,63.7,True,0.0,Germany,0.22
-258,1974,30.7,58.3,clear,53.1,False,0.18,Germany,0.12
-259,1974,25.5,56.1,rain,56.3,True,0.0,Germany,0.48
-260,1974,27.7,50.5,clear,40.1,True,0.0,Germany,0.12
-261,1974,17.6,90.2,clear,54.9,True,0.0,Germany,0.12
-262,1974,26.1,66.8,clear,54.5,True,0.0,Germany,0.12
-263,1974,27.4,69.6,clear,61.0,False,0.18,Germany,0.12
-264,1974,19.5,43.1,clear,50.8,True,0.0,Germany,0.12
-265,1974,26.4,42.0,rain,64.1,True,0.0,Germany,0.48
-266,1974,26.4,58.6,rain,71.2,False,0.18,Germany,0.48
-267,1974,19.7,60.8,rain,60.0,True,0.0,Germany,0.48
-268,1974,16.3,28.3,clear,62.6,True,0.0,Germany,0.12
-269,1974,15.9,55.1,rain,58.7,True,0.0,Germany,0.48
-270,1974,23.5,58.2,rain,58.0,False,0.18,Germany,0.48
-271,1978,25.0,54.6,clear,48.6,True,0.0,Argentina,0.12
-272,1978,18.2,45.0,cloudy,62.1,False,0.18,Argentina,0.22
-273,1978,23.2,49.4,cloudy,56.7,True,0.0,Argentina,0.22
-274,1978,26.4,55.2,cloudy,85.2,True,0.0,Argentina,0.22
-275,1978,26.7,59.5,clear,78.5,True,0.0,Argentina,0.12
-276,1978,32.3,67.7,cloudy,63.0,True,0.0,Argentina,0.22
-277,1978,30.7,75.3,clear,48.1,True,0.0,Argentina,0.12
-278,1978,17.0,53.3,clear,43.5,True,0.0,Argentina,0.12
-279,1978,33.1,50.7,clear,73.5,False,0.18,Argentina,0.12
-280,1978,19.8,65.0,windy,61.4,True,0.0,Argentina,0.48
-281,1978,29.3,67.8,clear,64.2,True,0.0,Argentina,0.12
-282,1978,23.4,51.1,clear,35.3,True,0.0,Argentina,0.12
-283,1978,20.5,70.6,clear,70.1,True,0.0,Argentina,0.12
-284,1978,12.2,73.7,hot,63.9,True,0.0,Argentina,0.62
-285,1978,22.0,78.7,cloudy,43.6,True,0.0,Argentina,0.22
-286,1978,13.6,86.5,hot,51.9,True,0.0,Argentina,0.62
-287,1978,28.8,44.1,clear,61.4,False,0.18,Argentina,0.12
-288,1978,32.1,58.2,clear,58.7,True,0.0,Argentina,0.12
-289,1978,18.2,58.2,cloudy,54.2,True,0.0,Argentina,0.22
-290,1978,24.8,56.4,clear,56.7,True,0.0,Argentina,0.12
-291,1978,18.6,47.6,rain,54.7,True,0.0,Argentina,0.48
-292,1978,19.2,34.2,hot,60.0,True,0.0,Argentina,0.62
-293,1978,27.6,59.5,cloudy,77.1,True,0.0,Argentina,0.22
-294,1978,22.8,45.7,windy,24.6,True,0.0,Argentina,0.48
-295,1978,33.4,59.4,cloudy,54.9,False,0.18,Argentina,0.22
-296,1978,20.1,45.3,clear,60.3,True,0.0,Argentina,0.12
-297,1978,29.0,40.4,cloudy,61.8,True,0.0,Argentina,0.22
-298,1978,23.6,61.7,clear,53.2,True,0.0,Argentina,0.12
-299,1978,27.8,60.4,rain,35.2,False,0.18,Argentina,0.48
-300,1978,20.3,67.3,clear,62.3,True,0.0,Argentina,0.12
-301,1978,22.7,93.0,clear,80.5,True,0.0,Argentina,0.12
-302,1978,22.3,62.4,cloudy,38.1,True,0.0,Argentina,0.22
-303,1978,18.0,65.8,clear,69.2,False,0.18,Argentina,0.12
-304,1978,27.0,40.8,clear,53.7,True,0.0,Argentina,0.12
-305,1978,26.9,37.4,rain,57.2,True,0.0,Argentina,0.48
-306,1978,26.6,83.3,clear,44.3,True,0.0,Argentina,0.12
-307,1978,32.2,43.2,cloudy,53.7,True,0.0,Argentina,0.22
-308,1978,31.7,41.3,clear,74.9,False,0.18,Argentina,0.12
-309,1982,20.8,57.4,clear,65.6,True,0.0,Spain,0.12
-310,1982,25.2,56.6,clear,80.5,True,0.0,Spain,0.12
-311,1982,19.3,43.6,rain,73.3,True,0.0,Spain,0.48
-312,1982,23.1,53.1,windy,63.7,True,0.0,Spain,0.48
-313,1982,19.4,77.7,clear,80.7,True,0.0,Spain,0.12
-314,1982,32.7,45.1,windy,63.7,True,0.0,Spain,0.48
-315,1982,25.2,35.7,cloudy,68.8,True,0.0,Spain,0.22
-316,1982,21.7,73.1,cloudy,54.1,True,0.0,Spain,0.22
-317,1982,30.2,65.9,rain,58.9,False,0.18,Spain,0.48
-318,1982,10.0,48.1,rain,48.9,True,0.0,Spain,0.48
-319,1982,10.9,32.7,rain,70.9,True,0.0,Spain,0.48
-320,1982,27.8,46.1,cloudy,42.7,True,0.0,Spain,0.22
-321,1982,23.4,57.1,cloudy,68.2,True,0.0,Spain,0.22
-322,1982,24.5,76.7,clear,55.5,True,0.0,Spain,0.12
-323,1982,15.0,41.4,clear,73.2,True,0.0,Spain,0.12
-324,1982,22.9,56.6,rain,67.8,True,0.0,Spain,0.48
-325,1982,35.0,68.8,clear,81.7,True,0.0,Spain,0.12
-326,1982,27.9,19.9,clear,67.5,True,0.0,Spain,0.12
-327,1982,24.0,74.5,clear,37.6,True,0.0,Spain,0.12
-328,1982,20.4,39.1,clear,57.1,True,0.0,Spain,0.12
-329,1982,20.6,63.3,cloudy,42.8,False,0.18,Spain,0.22
-330,1982,10.2,61.9,cloudy,51.3,True,0.0,Spain,0.22
-331,1982,24.5,75.4,cloudy,77.6,True,0.0,Spain,0.22
-332,1982,28.1,66.8,clear,66.3,True,0.0,Spain,0.12
-333,1982,13.5,20.0,cloudy,48.9,True,0.0,Spain,0.22
-334,1982,19.0,45.4,clear,44.8,True,0.0,Spain,0.12
-335,1982,16.1,60.2,rain,58.4,True,0.0,Spain,0.48
-336,1982,17.2,54.9,cloudy,42.2,True,0.0,Spain,0.22
-337,1982,23.3,65.6,cloudy,49.3,True,0.0,Spain,0.22
-338,1982,10.5,70.6,cloudy,62.1,True,0.0,Spain,0.22
-339,1982,26.7,67.7,windy,73.0,True,0.0,Spain,0.48
-340,1982,27.5,54.6,rain,65.9,True,0.0,Spain,0.48
-341,1982,21.5,28.5,cloudy,28.2,True,0.0,Spain,0.22
-342,1982,8.1,50.7,cloudy,62.0,True,0.0,Spain,0.22
-343,1982,17.0,64.7,clear,58.9,True,0.0,Spain,0.12
-344,1982,30.4,40.6,windy,63.4,False,0.18,Spain,0.48
-345,1982,6.3,68.1,clear,79.0,True,0.0,Spain,0.12
-346,1982,20.9,72.5,clear,31.2,True,0.0,Spain,0.12
-347,1982,15.9,60.0,windy,50.3,True,0.0,Spain,0.48
-348,1982,27.8,15.0,rain,65.7,True,0.0,Spain,0.48
-349,1982,18.9,37.6,clear,37.4,True,0.0,Spain,0.12
-350,1982,25.4,88.2,clear,77.2,True,0.0,Spain,0.12
-351,1982,26.4,49.3,clear,62.8,True,0.0,Spain,0.12
-352,1982,34.0,26.3,cloudy,69.0,False,0.18,Spain,0.22
-353,1982,21.8,77.8,clear,50.6,True,0.0,Spain,0.12
-354,1982,25.3,58.2,windy,68.6,True,0.0,Spain,0.48
-355,1982,14.1,75.7,windy,71.9,True,0.0,Spain,0.48
-356,1982,30.1,62.4,cloudy,61.0,False,0.18,Spain,0.22
-357,1982,18.4,65.3,cloudy,61.0,True,0.0,Spain,0.22
-358,1982,19.6,63.8,clear,61.5,True,0.0,Spain,0.12
-359,1982,22.9,69.2,clear,46.8,True,0.0,Spain,0.12
-360,1982,13.6,94.4,rain,56.1,True,0.0,Spain,0.48
-361,1986,24.4,73.5,clear,56.0,True,0.0,Mexico,0.12
-362,1986,28.8,32.7,clear,63.0,True,0.0,Mexico,0.12
-363,1986,24.8,65.1,clear,71.0,True,0.0,Mexico,0.12
-364,1986,13.5,76.3,clear,44.2,True,0.0,Mexico,0.12
-365,1986,22.3,77.2,cloudy,56.4,True,0.0,Mexico,0.22
-366,1986,27.5,51.2,rain,77.3,True,0.0,Mexico,0.48
-367,1986,11.7,76.6,rain,48.3,True,0.0,Mexico,0.48
-368,1986,16.6,72.8,cloudy,47.3,False,0.18,Mexico,0.22
-369,1986,28.3,96.0,hot,60.6,True,0.0,Mexico,0.62
-370,1986,24.6,46.0,clear,69.0,True,0.0,Mexico,0.12
-371,1986,25.5,49.9,hot,58.1,True,0.0,Mexico,0.62
-372,1986,34.2,53.1,cloudy,75.3,True,0.0,Mexico,0.22
-373,1986,25.8,50.2,clear,69.1,True,0.0,Mexico,0.12
-374,1986,26.9,43.8,windy,68.9,True,0.0,Mexico,0.48
-375,1986,39.0,15.0,clear,65.2,True,0.0,Mexico,0.12
-376,1986,21.7,51.0,clear,88.3,True,0.0,Mexico,0.12
-377,1986,18.2,63.9,clear,55.3,True,0.0,Mexico,0.12
-378,1986,25.6,50.1,clear,32.0,True,0.0,Mexico,0.12
-379,1986,25.6,89.0,clear,78.9,False,0.18,Mexico,0.12
-380,1986,19.8,58.2,cloudy,52.0,True,0.0,Mexico,0.22
-381,1986,16.8,78.7,hot,59.4,True,0.0,Mexico,0.62
-382,1986,36.9,62.2,clear,75.0,True,0.0,Mexico,0.12
-383,1986,25.0,71.2,cloudy,37.2,True,0.0,Mexico,0.22
-384,1986,18.6,62.5,clear,41.7,True,0.0,Mexico,0.12
-385,1986,28.5,79.9,hot,37.2,True,0.0,Mexico,0.62
-386,1986,22.3,58.9,clear,47.7,True,0.0,Mexico,0.12
-387,1986,21.5,65.9,clear,63.7,True,0.0,Mexico,0.12
-388,1986,26.4,63.9,cloudy,64.8,True,0.0,Mexico,0.22
-389,1986,15.2,53.4,rain,61.6,True,0.0,Mexico,0.48
-390,1986,25.1,64.5,rain,39.6,False,0.18,Mexico,0.48
-391,1986,34.5,93.8,cloudy,28.0,True,0.0,Mexico,0.22
-392,1986,25.8,53.7,rain,58.7,True,0.0,Mexico,0.48
-393,1986,20.7,64.7,clear,51.9,True,0.0,Mexico,0.12
-394,1986,20.0,78.1,clear,64.0,True,0.0,Mexico,0.12
-395,1986,20.5,76.2,clear,67.1,True,0.0,Mexico,0.12
-396,1986,21.5,58.2,clear,59.8,True,0.0,Mexico,0.12
-397,1986,20.7,19.9,clear,67.9,False,0.18,Mexico,0.12
-398,1986,28.5,66.3,cloudy,61.0,True,0.0,Mexico,0.22
-399,1986,12.6,22.5,clear,64.9,True,0.0,Mexico,0.12
-400,1986,28.2,81.5,cloudy,48.8,True,0.0,Mexico,0.22
-401,1986,20.7,60.7,cloudy,55.7,True,0.0,Mexico,0.22
-402,1986,25.3,74.0,rain,60.6,True,0.0,Mexico,0.48
-403,1986,16.2,43.6,rain,68.7,True,0.0,Mexico,0.48
-404,1986,31.0,33.2,clear,52.9,True,0.0,Mexico,0.12
-405,1986,30.5,62.2,clear,64.8,True,0.0,Mexico,0.12
-406,1986,28.8,57.5,cloudy,54.5,False,0.18,Mexico,0.22
-407,1986,13.9,50.1,cloudy,56.5,True,0.0,Mexico,0.22
-408,1986,28.0,59.4,clear,68.8,True,0.0,Mexico,0.12
-409,1986,25.4,96.0,clear,32.1,True,0.0,Mexico,0.12
-410,1986,13.4,71.4,rain,41.1,True,0.0,Mexico,0.48
-411,1986,22.9,74.8,cloudy,38.7,True,0.0,Mexico,0.22
-412,1986,25.2,71.5,clear,27.7,True,0.0,Mexico,0.12
-413,1990,26.3,81.7,cloudy,49.2,True,0.0,Italy,0.22
-414,1990,24.1,55.0,hot,67.7,False,0.18,Italy,0.62
-415,1990,24.7,25.1,clear,54.3,True,0.0,Italy,0.12
-416,1990,31.8,55.0,hot,60.6,True,0.0,Italy,0.62
-417,1990,30.4,71.0,clear,72.2,True,0.0,Italy,0.12
-418,1990,5.8,42.5,cloudy,75.3,True,0.0,Italy,0.22
-419,1990,21.1,55.2,cloudy,57.1,True,0.0,Italy,0.22
-420,1990,22.0,46.9,clear,75.6,True,0.0,Italy,0.12
-421,1990,12.5,82.0,hot,59.2,True,0.0,Italy,0.62
-422,1990,23.6,70.0,cloudy,47.1,True,0.0,Italy,0.22
-423,1990,30.5,68.4,windy,50.3,True,0.0,Italy,0.48
-424,1990,16.5,67.9,clear,38.8,True,0.0,Italy,0.12
-425,1990,25.0,57.4,hot,46.5,True,0.0,Italy,0.62
-426,1990,17.5,61.2,windy,53.3,True,0.0,Italy,0.48
-427,1990,19.0,39.0,cloudy,68.4,False,0.18,Italy,0.22
-428,1990,31.9,23.0,clear,80.4,True,0.0,Italy,0.12
-429,1990,19.7,60.4,rain,40.0,True,0.0,Italy,0.48
-430,1990,25.8,63.2,cloudy,63.1,True,0.0,Italy,0.22
-431,1990,11.8,77.3,windy,44.5,True,0.0,Italy,0.48
-432,1990,34.2,83.1,cloudy,64.2,True,0.0,Italy,0.22
-433,1990,26.6,83.1,clear,56.3,True,0.0,Italy,0.12
-434,1990,21.9,42.0,clear,34.2,True,0.0,Italy,0.12
-435,1990,26.5,52.4,rain,70.1,True,0.0,Italy,0.48
-436,1990,14.5,65.7,windy,50.1,True,0.0,Italy,0.48
-437,1990,30.1,96.0,clear,51.1,True,0.0,Italy,0.12
-438,1990,21.1,81.7,rain,44.1,True,0.0,Italy,0.48
-439,1990,21.8,75.9,windy,49.5,True,0.0,Italy,0.48
-440,1990,20.1,51.8,clear,63.6,True,0.0,Italy,0.12
-441,1990,19.5,43.9,clear,55.5,False,0.18,Italy,0.12
-442,1990,27.2,70.6,rain,62.3,True,0.0,Italy,0.48
-443,1990,24.5,40.4,cloudy,62.7,True,0.0,Italy,0.22
-444,1990,26.9,54.2,clear,75.2,True,0.0,Italy,0.12
-445,1990,22.9,56.2,hot,53.5,True,0.0,Italy,0.62
-446,1990,26.1,83.5,cloudy,38.8,True,0.0,Italy,0.22
-447,1990,20.5,52.3,hot,71.9,True,0.0,Italy,0.62
-448,1990,36.4,19.0,hot,53.7,True,0.0,Italy,0.62
-449,1990,13.6,66.1,rain,72.5,True,0.0,Italy,0.48
-450,1990,30.6,46.8,cloudy,63.0,True,0.0,Italy,0.22
-451,1990,31.2,58.7,clear,56.3,True,0.0,Italy,0.12
-452,1990,17.9,56.6,cloudy,62.5,True,0.0,Italy,0.22
-453,1990,36.4,53.6,clear,83.4,True,0.0,Italy,0.12
-454,1990,29.0,70.6,cloudy,85.0,False,0.18,Italy,0.22
-455,1990,28.8,33.5,clear,58.9,True,0.0,Italy,0.12
-456,1990,23.2,49.7,cloudy,60.1,True,0.0,Italy,0.22
-457,1990,21.7,68.9,clear,72.0,False,0.18,Italy,0.12
-458,1990,21.7,48.2,clear,47.0,True,0.0,Italy,0.12
-459,1990,25.3,32.3,clear,62.3,True,0.0,Italy,0.12
-460,1990,31.4,68.7,cloudy,57.7,True,0.0,Italy,0.22
-461,1990,24.1,76.0,rain,62.1,False,0.18,Italy,0.48
-462,1990,17.5,57.3,clear,47.2,True,0.0,Italy,0.12
-463,1990,27.9,26.6,hot,37.3,False,0.18,Italy,0.62
-464,1990,28.5,69.3,hot,31.1,True,0.0,Italy,0.62
-465,1994,26.9,31.4,clear,43.5,True,0.0,United States,0.12
-466,1994,27.5,62.9,cloudy,52.0,True,0.0,United States,0.22
-467,1994,21.4,43.8,clear,54.2,True,0.0,United States,0.12
-468,1994,17.4,39.4,clear,83.2,True,0.0,United States,0.12
-469,1994,17.8,50.9,cloudy,72.4,False,0.18,United States,0.22
-470,1994,13.2,55.1,clear,45.5,True,0.0,United States,0.12
-471,1994,24.4,47.7,hot,62.5,True,0.0,United States,0.62
-472,1994,22.5,67.4,windy,52.7,True,0.0,United States,0.48
-473,1994,20.4,50.9,hot,54.3,True,0.0,United States,0.62
-474,1994,5.3,73.7,cloudy,60.4,True,0.0,United States,0.22
-475,1994,15.5,62.5,cloudy,66.0,True,0.0,United States,0.22
-476,1994,29.7,46.8,windy,53.6,True,0.0,United States,0.48
-477,1994,19.0,44.1,clear,71.8,True,0.0,United States,0.12
-478,1994,25.2,31.6,clear,43.2,True,0.0,United States,0.12
-479,1994,14.7,62.7,cloudy,58.1,False,0.18,United States,0.22
-480,1994,31.6,52.3,clear,91.8,True,0.0,United States,0.12
-481,1994,22.1,20.0,clear,60.9,True,0.0,United States,0.12
-482,1994,24.7,49.4,clear,76.6,True,0.0,United States,0.12
-483,1994,37.0,43.6,cloudy,59.2,True,0.0,United States,0.22
-484,1994,32.1,83.2,clear,65.6,True,0.0,United States,0.12
-485,1994,21.2,30.8,clear,57.3,True,0.0,United States,0.12
-486,1994,19.4,34.9,clear,55.8,True,0.0,United States,0.12
-487,1994,21.0,75.8,clear,47.9,True,0.0,United States,0.12
-488,1994,26.1,79.7,hot,63.6,True,0.0,United States,0.62
-489,1994,22.4,46.1,clear,46.9,True,0.0,United States,0.12
-490,1994,20.6,47.9,rain,66.7,False,0.18,United States,0.48
-491,1994,31.8,67.9,rain,72.1,True,0.0,United States,0.48
-492,1994,22.3,20.8,clear,62.8,True,0.0,United States,0.12
-493,1994,36.8,28.2,hot,54.3,True,0.0,United States,0.62
-494,1994,23.5,53.5,rain,63.9,True,0.0,United States,0.48
-495,1994,33.7,82.8,cloudy,54.0,True,0.0,United States,0.22
-496,1994,25.1,51.0,clear,70.2,True,0.0,United States,0.12
-497,1994,28.8,59.6,clear,34.2,True,0.0,United States,0.12
-498,1994,18.7,76.1,windy,53.6,True,0.0,United States,0.48
-499,1994,17.9,91.7,rain,32.1,True,0.0,United States,0.48
-500,1994,25.8,48.8,windy,38.6,True,0.0,United States,0.48
-501,1994,28.9,57.7,hot,75.7,True,0.0,United States,0.62
-502,1994,23.2,87.2,clear,69.6,True,0.0,United States,0.12
-503,1994,15.3,33.6,rain,48.6,True,0.0,United States,0.48
-504,1994,14.8,74.4,cloudy,38.5,True,0.0,United States,0.22
-505,1994,14.4,41.7,rain,24.0,True,0.0,United States,0.48
-506,1994,12.4,59.6,clear,50.9,False,0.18,United States,0.12
-507,1994,23.7,54.1,clear,89.5,True,0.0,United States,0.12
-508,1994,29.8,42.7,rain,63.7,True,0.0,United States,0.48
-509,1994,22.9,42.3,rain,50.7,True,0.0,United States,0.48
-510,1994,9.4,62.4,cloudy,64.0,True,0.0,United States,0.22
-511,1994,21.9,73.9,clear,37.7,True,0.0,United States,0.12
-512,1994,22.0,55.9,clear,54.1,True,0.0,United States,0.12
-513,1994,35.6,59.1,windy,59.3,True,0.0,United States,0.48
-514,1994,14.3,67.1,cloudy,56.9,True,0.0,United States,0.22
-515,1994,20.7,42.5,cloudy,68.3,True,0.0,United States,0.22
-516,1994,33.2,69.8,cloudy,62.5,True,0.0,United States,0.22
-517,1998,25.7,71.1,clear,66.7,True,0.0,France,0.12
-518,1998,26.4,96.0,cloudy,49.1,True,0.0,France,0.22
-519,1998,23.7,52.0,cloudy,69.7,True,0.0,France,0.22
-520,1998,25.0,50.7,hot,79.2,True,0.0,France,0.62
-521,1998,27.7,70.3,hot,45.4,False,0.18,France,0.62
-522,1998,18.1,71.1,windy,46.5,True,0.0,France,0.48
-523,1998,28.3,49.4,cloudy,75.4,True,0.0,France,0.22
-524,1998,14.8,51.5,cloudy,55.5,True,0.0,France,0.22
-525,1998,25.0,66.7,rain,76.2,True,0.0,France,0.48
-526,1998,24.1,44.8,hot,52.2,True,0.0,France,0.62
-527,1998,19.3,51.4,cloudy,76.9,True,0.0,France,0.22
-528,1998,22.9,59.4,rain,59.7,True,0.0,France,0.48
-529,1998,19.3,73.9,rain,61.4,True,0.0,France,0.48
-530,1998,16.6,48.3,rain,78.3,True,0.0,France,0.48
-531,1998,20.9,28.5,rain,53.3,True,0.0,France,0.48
-532,1998,16.4,27.3,clear,45.8,True,0.0,France,0.12
-533,1998,24.9,37.8,cloudy,52.2,True,0.0,France,0.22
-534,1998,16.1,37.0,cloudy,63.9,True,0.0,France,0.22
-535,1998,27.3,55.5,clear,37.6,True,0.0,France,0.12
-536,1998,15.9,39.0,hot,66.3,True,0.0,France,0.62
-537,1998,19.6,46.8,cloudy,51.0,False,0.18,France,0.22
-538,1998,19.3,45.6,clear,72.9,True,0.0,France,0.12
-539,1998,31.0,51.0,rain,26.9,True,0.0,France,0.48
-540,1998,25.0,79.2,rain,47.8,True,0.0,France,0.48
-541,1998,21.7,68.6,rain,36.1,True,0.0,France,0.48
-542,1998,26.0,58.3,clear,47.3,True,0.0,France,0.12
-543,1998,10.4,50.6,hot,61.2,True,0.0,France,0.62
-544,1998,22.7,51.1,clear,55.7,True,0.0,France,0.12
-545,1998,35.0,63.2,cloudy,54.7,True,0.0,France,0.22
-546,1998,23.8,67.3,clear,55.9,True,0.0,France,0.12
-547,1998,23.4,43.5,cloudy,60.6,True,0.0,France,0.22
-548,1998,26.3,58.6,rain,44.9,True,0.0,France,0.48
-549,1998,28.4,25.5,cloudy,67.2,True,0.0,France,0.22
-550,1998,11.0,61.4,cloudy,66.6,True,0.0,France,0.22
-551,1998,12.9,70.2,rain,63.0,True,0.0,France,0.48
-552,1998,24.3,53.5,rain,65.2,True,0.0,France,0.48
-553,1998,18.7,87.1,clear,61.9,False,0.18,France,0.12
-554,1998,30.9,43.9,windy,84.5,True,0.0,France,0.48
-555,1998,21.1,61.5,rain,56.9,True,0.0,France,0.48
-556,1998,11.4,57.4,windy,54.0,True,0.0,France,0.48
-557,1998,15.4,56.4,windy,48.2,True,0.0,France,0.48
-558,1998,6.5,56.2,hot,44.6,True,0.0,France,0.62
-559,1998,21.6,59.7,rain,41.8,True,0.0,France,0.48
-560,1998,21.9,71.6,cloudy,46.4,True,0.0,France,0.22
-561,1998,20.5,80.0,clear,57.1,True,0.0,France,0.12
-562,1998,29.5,58.0,cloudy,62.3,True,0.0,France,0.22
-563,1998,30.2,71.0,rain,58.7,True,0.0,France,0.48
-564,1998,22.0,46.8,cloudy,48.0,True,0.0,France,0.22
-565,1998,10.2,70.3,hot,69.7,True,0.0,France,0.62
-566,1998,26.7,45.8,clear,67.6,True,0.0,France,0.12
-567,1998,26.3,75.5,clear,55.9,False,0.18,France,0.12
-568,1998,24.9,93.4,cloudy,49.5,True,0.0,France,0.22
-569,1998,28.9,56.0,cloudy,65.1,True,0.0,France,0.22
-570,1998,16.0,22.9,clear,60.4,True,0.0,France,0.12
-571,1998,35.1,49.2,clear,39.2,True,0.0,France,0.12
-572,1998,17.2,77.7,hot,57.1,True,0.0,France,0.62
-573,1998,27.5,66.8,cloudy,61.4,True,0.0,France,0.22
-574,1998,12.9,62.0,clear,46.3,False,0.18,France,0.12
-575,1998,17.4,74.1,clear,60.5,True,0.0,France,0.12
-576,1998,32.1,65.8,cloudy,39.1,True,0.0,France,0.22
-577,1998,21.4,77.5,clear,75.4,True,0.0,France,0.12
-578,1998,28.0,72.7,rain,74.2,False,0.18,France,0.48
-579,1998,24.4,82.3,rain,54.7,True,0.0,France,0.48
-580,1998,22.4,63.7,clear,62.7,False,0.18,France,0.12
-581,2002,31.2,72.5,cloudy,26.7,True,0.0,South Korea,0.22
-582,2002,21.6,53.1,clear,43.0,True,0.0,Japan,0.12
-583,2002,12.3,48.4,clear,54.2,True,0.0,Japan,0.12
-584,2002,18.2,85.3,hot,44.1,True,0.0,South Korea,0.62
-585,2002,26.3,61.5,cloudy,67.3,True,0.0,Japan,0.22
-586,2002,25.4,70.9,hot,84.0,True,0.0,Japan,0.62
-587,2002,13.6,60.0,clear,42.7,True,0.0,South Korea,0.12
-588,2002,18.7,48.6,clear,47.1,True,0.0,South Korea,0.12
-589,2002,19.5,58.2,cloudy,61.1,True,0.0,South Korea,0.22
-590,2002,20.8,81.0,cloudy,78.9,True,0.0,Japan,0.22
-591,2002,14.7,66.9,windy,42.1,True,0.0,Japan,0.48
-592,2002,19.2,30.6,clear,61.2,True,0.0,South Korea,0.12
-593,2002,18.6,54.6,hot,81.7,False,0.18,Japan,0.62
-594,2002,27.6,86.5,hot,36.5,False,0.18,South Korea,0.62
-595,2002,27.9,54.6,cloudy,41.3,True,0.0,Japan,0.22
-596,2002,22.1,29.2,clear,52.5,True,0.0,Japan,0.12
-597,2002,20.6,88.3,cloudy,51.2,True,0.0,South Korea,0.22
-598,2002,23.8,68.9,clear,68.6,True,0.0,Japan,0.12
-599,2002,18.1,56.9,rain,61.1,True,0.0,South Korea,0.48
-600,2002,16.1,52.1,cloudy,34.9,True,0.0,South Korea,0.22
-601,2002,17.4,75.3,windy,64.7,True,0.0,Japan,0.48
-602,2002,19.2,49.3,cloudy,50.5,True,0.0,South Korea,0.22
-603,2002,16.0,76.4,cloudy,74.6,True,0.0,Japan,0.22
-604,2002,24.0,66.7,rain,49.8,True,0.0,South Korea,0.48
-605,2002,27.4,61.9,cloudy,49.7,True,0.0,Japan,0.22
-606,2002,13.5,60.3,hot,65.0,True,0.0,South Korea,0.62
-607,2002,23.2,55.2,clear,67.9,True,0.0,South Korea,0.12
-608,2002,21.7,74.7,windy,63.8,False,0.18,Japan,0.48
-609,2002,25.0,44.2,rain,36.1,True,0.0,Japan,0.48
-610,2002,22.9,32.0,hot,65.0,False,0.18,South Korea,0.62
-611,2002,14.3,67.8,cloudy,44.6,True,0.0,South Korea,0.22
-612,2002,15.4,68.1,hot,61.1,True,0.0,Japan,0.62
-613,2002,23.2,65.7,clear,39.5,True,0.0,Japan,0.12
-614,2002,29.2,64.5,rain,63.8,True,0.0,South Korea,0.48
-615,2002,9.7,52.9,clear,47.5,True,0.0,Japan,0.12
-616,2002,25.1,70.6,clear,41.3,True,0.0,South Korea,0.12
-617,2002,30.1,57.3,cloudy,67.3,True,0.0,Japan,0.22
-618,2002,22.1,50.2,clear,61.1,True,0.0,South Korea,0.12
-619,2002,26.3,53.0,clear,50.0,True,0.0,South Korea,0.12
-620,2002,18.8,90.3,hot,76.9,True,0.0,Japan,0.62
-621,2002,22.3,30.2,clear,52.3,True,0.0,South Korea,0.12
-622,2002,13.3,66.0,rain,58.4,True,0.0,Japan,0.48
-623,2002,8.9,31.1,clear,61.5,True,0.0,Japan,0.12
-624,2002,28.7,56.3,rain,49.9,True,0.0,South Korea,0.48
-625,2002,17.1,51.1,rain,64.1,True,0.0,Japan,0.48
-626,2002,20.3,24.6,clear,51.1,False,0.18,Japan,0.12
-627,2002,14.7,64.2,rain,52.6,False,0.18,South Korea,0.48
-628,2002,14.5,51.9,hot,75.7,True,0.0,South Korea,0.62
-629,2002,22.0,24.4,rain,44.5,True,0.0,Japan,0.48
-630,2002,18.6,71.4,clear,26.6,True,0.0,South Korea,0.12
-631,2002,25.3,81.0,cloudy,78.9,True,0.0,South Korea,0.22
-632,2002,25.7,81.8,rain,91.1,True,0.0,Japan,0.48
-633,2002,24.9,63.7,clear,52.7,True,0.0,Japan,0.12
-634,2002,24.4,58.7,rain,32.8,True,0.0,South Korea,0.48
-635,2002,32.5,79.3,clear,54.0,False,0.18,Japan,0.12
-636,2002,16.6,84.9,rain,54.3,False,0.18,South Korea,0.48
-637,2002,22.7,76.1,clear,55.5,True,0.0,Japan,0.12
-638,2002,29.8,42.9,clear,43.5,True,0.0,South Korea,0.12
-639,2002,30.6,61.2,windy,65.5,False,0.18,South Korea,0.48
-640,2002,14.5,65.0,hot,64.8,True,0.0,Japan,0.62
-641,2002,21.1,29.0,hot,38.6,False,0.18,South Korea,0.62
-642,2002,31.1,65.5,windy,67.1,True,0.0,Japan,0.48
-643,2002,26.0,94.4,cloudy,84.7,False,0.18,South Korea,0.22
-644,2002,24.2,68.2,clear,60.2,True,0.0,Japan,0.12
-645,2006,21.7,81.6,clear,53.6,False,0.18,Germany,0.12
-646,2006,20.7,60.9,cloudy,56.2,True,0.0,Germany,0.22
-647,2006,24.7,56.8,clear,66.0,True,0.0,Germany,0.12
-648,2006,21.5,64.1,windy,35.5,True,0.0,Germany,0.48
-649,2006,22.7,44.9,clear,60.1,True,0.0,Germany,0.12
-650,2006,23.5,42.6,clear,52.9,True,0.0,Germany,0.12
-651,2006,18.9,78.3,clear,82.0,True,0.0,Germany,0.12
-652,2006,26.2,80.0,clear,55.7,True,0.0,Germany,0.12
-653,2006,39.0,42.1,clear,79.7,True,0.0,Germany,0.12
-654,2006,12.3,73.5,cloudy,43.7,True,0.0,Germany,0.22
-655,2006,24.9,56.6,clear,65.6,True,0.0,Germany,0.12
-656,2006,18.4,63.4,cloudy,62.2,True,0.0,Germany,0.22
-657,2006,26.5,65.4,hot,46.7,True,0.0,Germany,0.62
-658,2006,23.3,73.9,cloudy,60.3,True,0.0,Germany,0.22
-659,2006,27.6,59.3,rain,73.8,False,0.18,Germany,0.48
-660,2006,30.1,80.6,clear,53.8,True,0.0,Germany,0.12
-661,2006,24.2,63.0,clear,36.0,True,0.0,Germany,0.12
-662,2006,29.8,68.0,clear,57.8,True,0.0,Germany,0.12
-663,2006,8.9,44.7,windy,46.3,True,0.0,Germany,0.48
-664,2006,32.5,92.5,cloudy,53.5,True,0.0,Germany,0.22
-665,2006,25.3,65.5,clear,56.9,True,0.0,Germany,0.12
-666,2006,29.5,69.4,cloudy,35.8,True,0.0,Germany,0.22
-667,2006,15.7,32.3,hot,37.0,True,0.0,Germany,0.62
-668,2006,18.0,44.8,rain,64.3,True,0.0,Germany,0.48
-669,2006,23.9,77.8,cloudy,51.2,True,0.0,Germany,0.22
-670,2006,22.9,62.6,hot,24.7,True,0.0,Germany,0.62
-671,2006,24.7,27.4,rain,68.2,True,0.0,Germany,0.48
-672,2006,29.5,74.6,cloudy,61.5,True,0.0,Germany,0.22
-673,2006,12.4,49.3,clear,48.7,True,0.0,Germany,0.12
-674,2006,28.8,80.6,clear,40.9,True,0.0,Germany,0.12
-675,2006,23.0,56.6,windy,68.9,True,0.0,Germany,0.48
-676,2006,21.8,61.3,cloudy,62.5,True,0.0,Germany,0.22
-677,2006,14.2,76.9,clear,89.0,True,0.0,Germany,0.12
-678,2006,26.0,43.6,cloudy,63.5,False,0.18,Germany,0.22
-679,2006,8.5,42.1,clear,63.0,True,0.0,Germany,0.12
-680,2006,26.9,54.9,hot,55.8,True,0.0,Germany,0.62
-681,2006,14.0,71.2,clear,68.6,True,0.0,Germany,0.12
-682,2006,23.3,36.7,rain,66.1,True,0.0,Germany,0.48
-683,2006,22.3,31.3,cloudy,74.3,True,0.0,Germany,0.22
-684,2006,30.0,71.2,clear,51.2,True,0.0,Germany,0.12
-685,2006,21.9,48.4,clear,52.3,True,0.0,Germany,0.12
-686,2006,18.8,51.7,rain,51.8,True,0.0,Germany,0.48
-687,2006,20.0,28.3,clear,68.3,True,0.0,Germany,0.12
-688,2006,30.6,47.1,clear,77.5,True,0.0,Germany,0.12
-689,2006,26.2,57.9,rain,52.0,True,0.0,Germany,0.48
-690,2006,20.7,72.9,clear,52.5,True,0.0,Germany,0.12
-691,2006,21.6,45.7,clear,62.1,True,0.0,Germany,0.12
-692,2006,13.6,84.5,clear,54.8,True,0.0,Germany,0.12
-693,2006,25.3,47.0,hot,70.4,True,0.0,Germany,0.62
-694,2006,12.4,47.1,clear,28.7,False,0.18,Germany,0.12
-695,2006,27.5,82.6,clear,47.3,True,0.0,Germany,0.12
-696,2006,23.8,61.4,clear,47.8,True,0.0,Germany,0.12
-697,2006,37.3,49.2,clear,27.8,True,0.0,Germany,0.12
-698,2006,16.4,55.5,clear,45.5,True,0.0,Germany,0.12
-699,2006,22.4,79.6,clear,46.1,True,0.0,Germany,0.12
-700,2006,33.8,81.5,clear,55.4,True,0.0,Germany,0.12
-701,2006,30.1,44.9,clear,72.5,False,0.18,Germany,0.12
-702,2006,18.8,57.3,hot,54.8,True,0.0,Germany,0.62
-703,2006,24.3,59.4,clear,44.6,True,0.0,Germany,0.12
-704,2006,23.0,42.2,clear,57.3,True,0.0,Germany,0.12
-705,2006,24.7,57.1,hot,71.6,False,0.18,Germany,0.62
-706,2006,18.8,58.1,hot,45.3,True,0.0,Germany,0.62
-707,2006,22.5,76.2,rain,46.2,False,0.18,Germany,0.48
-708,2006,13.4,77.3,clear,65.3,True,0.0,Germany,0.12
-709,2010,23.8,52.7,clear,55.1,False,0.18,South Africa,0.12
-710,2010,25.7,54.6,clear,66.4,True,0.0,South Africa,0.12
-711,2010,21.6,68.6,clear,57.8,True,0.0,South Africa,0.12
-712,2010,13.3,48.6,clear,67.1,True,0.0,South Africa,0.12
-713,2010,28.9,67.4,cloudy,44.5,True,0.0,South Africa,0.22
-714,2010,25.2,56.6,clear,57.8,True,0.0,South Africa,0.12
-715,2010,18.6,42.5,cloudy,55.3,True,0.0,South Africa,0.22
-716,2010,21.3,42.7,clear,42.2,True,0.0,South Africa,0.12
-717,2010,14.0,81.2,clear,37.7,True,0.0,South Africa,0.12
-718,2010,16.8,55.5,rain,66.9,True,0.0,South Africa,0.48
-719,2010,19.8,84.2,hot,53.4,True,0.0,South Africa,0.62
-720,2010,30.4,49.8,clear,44.7,True,0.0,South Africa,0.12
-721,2010,19.2,62.7,cloudy,56.7,True,0.0,South Africa,0.22
-722,2010,26.8,96.0,clear,72.7,True,0.0,South Africa,0.12
-723,2010,19.8,41.1,clear,28.4,True,0.0,South Africa,0.12
-724,2010,24.5,27.6,rain,38.5,False,0.18,South Africa,0.48
-725,2010,22.2,78.6,clear,46.0,True,0.0,South Africa,0.12
-726,2010,28.2,44.8,cloudy,77.0,True,0.0,South Africa,0.22
-727,2010,19.8,57.7,cloudy,61.7,True,0.0,South Africa,0.22
-728,2010,13.6,48.6,clear,68.0,True,0.0,South Africa,0.12
-729,2010,14.7,62.3,clear,43.2,True,0.0,South Africa,0.12
-730,2010,19.8,42.8,clear,43.4,True,0.0,South Africa,0.12
-731,2010,15.5,55.1,windy,63.8,True,0.0,South Africa,0.48
-732,2010,25.5,65.2,cloudy,58.8,True,0.0,South Africa,0.22
-733,2010,20.2,41.9,clear,65.1,True,0.0,South Africa,0.12
-734,2010,37.2,46.8,clear,55.6,True,0.0,South Africa,0.12
-735,2010,12.6,52.4,cloudy,61.6,True,0.0,South Africa,0.22
-736,2010,24.2,35.1,clear,60.1,True,0.0,South Africa,0.12
-737,2010,16.2,51.2,cloudy,68.1,True,0.0,South Africa,0.22
-738,2010,20.0,59.9,rain,68.5,True,0.0,South Africa,0.48
-739,2010,23.8,51.6,cloudy,36.9,True,0.0,South Africa,0.22
-740,2010,9.0,53.7,clear,28.8,True,0.0,South Africa,0.12
-741,2010,24.4,57.7,clear,71.0,True,0.0,South Africa,0.12
-742,2010,34.4,47.5,clear,73.4,True,0.0,South Africa,0.12
-743,2010,20.3,69.1,cloudy,44.7,True,0.0,South Africa,0.22
-744,2010,24.6,81.0,hot,33.8,False,0.18,South Africa,0.62
-745,2010,29.1,50.6,clear,59.3,True,0.0,South Africa,0.12
-746,2010,22.0,65.8,cloudy,70.1,True,0.0,South Africa,0.22
-747,2010,19.5,54.2,rain,81.4,True,0.0,South Africa,0.48
-748,2010,9.3,63.8,clear,64.7,True,0.0,South Africa,0.12
-749,2010,26.8,83.1,clear,53.2,True,0.0,South Africa,0.12
-750,2010,22.3,66.1,clear,46.4,True,0.0,South Africa,0.12
-751,2010,16.9,29.6,rain,58.1,True,0.0,South Africa,0.48
-752,2010,23.8,65.3,cloudy,54.1,True,0.0,South Africa,0.22
-753,2010,19.5,77.7,rain,44.8,True,0.0,South Africa,0.48
-754,2010,19.8,54.5,hot,84.6,True,0.0,South Africa,0.62
-755,2010,26.6,73.9,rain,81.2,True,0.0,South Africa,0.48
-756,2010,15.0,47.0,windy,72.8,True,0.0,South Africa,0.48
-757,2010,29.3,34.2,rain,46.0,True,0.0,South Africa,0.48
-758,2010,14.6,60.3,hot,69.1,True,0.0,South Africa,0.62
-759,2010,19.0,29.9,hot,66.3,True,0.0,South Africa,0.62
-760,2010,34.5,54.2,rain,63.8,True,0.0,South Africa,0.48
-761,2010,29.8,78.6,rain,74.2,True,0.0,South Africa,0.48
-762,2010,23.6,27.4,windy,66.3,True,0.0,South Africa,0.48
-763,2010,17.4,37.5,cloudy,67.6,True,0.0,South Africa,0.22
-764,2010,19.8,41.5,cloudy,66.3,True,0.0,South Africa,0.22
-765,2010,23.4,57.0,cloudy,62.4,True,0.0,South Africa,0.22
-766,2010,23.2,52.1,hot,34.8,True,0.0,South Africa,0.62
-767,2010,22.5,80.4,cloudy,59.1,True,0.0,South Africa,0.22
-768,2010,22.8,73.3,rain,50.8,True,0.0,South Africa,0.48
-769,2010,21.7,65.9,rain,41.4,True,0.0,South Africa,0.48
-770,2010,14.3,60.3,windy,79.9,True,0.0,South Africa,0.48
-771,2010,19.9,64.3,clear,80.5,True,0.0,South Africa,0.12
-772,2010,28.5,44.2,rain,75.7,True,0.0,South Africa,0.48
-773,2014,14.8,71.7,rain,61.3,False,0.18,Brazil,0.48
-774,2014,21.9,40.2,windy,75.6,True,0.0,Brazil,0.48
-775,2014,18.1,71.4,hot,58.2,True,0.0,Brazil,0.62
-776,2014,23.7,77.0,cloudy,60.6,True,0.0,Brazil,0.22
-777,2014,20.7,61.4,cloudy,43.8,True,0.0,Brazil,0.22
-778,2014,31.9,55.2,clear,63.2,True,0.0,Brazil,0.12
-779,2014,26.0,64.4,windy,58.8,True,0.0,Brazil,0.48
-780,2014,15.1,15.0,clear,41.1,True,0.0,Brazil,0.12
-781,2014,27.0,62.8,rain,57.3,True,0.0,Brazil,0.48
-782,2014,18.4,56.2,rain,57.0,True,0.0,Brazil,0.48
-783,2014,19.5,57.2,cloudy,81.4,True,0.0,Brazil,0.22
-784,2014,24.9,69.3,clear,69.6,True,0.0,Brazil,0.12
-785,2014,20.0,56.8,clear,58.1,True,0.0,Brazil,0.12
-786,2014,28.4,39.8,hot,61.2,True,0.0,Brazil,0.62
-787,2014,18.4,55.7,cloudy,58.6,True,0.0,Brazil,0.22
-788,2014,19.3,59.1,clear,55.4,False,0.18,Brazil,0.12
-789,2014,19.1,59.8,rain,43.9,True,0.0,Brazil,0.48
-790,2014,19.6,60.6,clear,56.0,True,0.0,Brazil,0.12
-791,2014,29.6,74.6,hot,48.3,True,0.0,Brazil,0.62
-792,2014,26.8,40.6,clear,41.7,True,0.0,Brazil,0.12
-793,2014,33.3,60.8,clear,64.6,True,0.0,Brazil,0.12
-794,2014,36.6,78.6,clear,63.1,True,0.0,Brazil,0.12
-795,2014,16.8,30.2,cloudy,34.8,True,0.0,Brazil,0.22
-796,2014,23.4,60.9,cloudy,56.4,True,0.0,Brazil,0.22
-797,2014,15.9,48.6,rain,70.9,True,0.0,Brazil,0.48
-798,2014,18.3,52.1,cloudy,71.8,True,0.0,Brazil,0.22
-799,2014,19.2,43.5,clear,71.3,True,0.0,Brazil,0.12
-800,2014,16.7,55.3,clear,58.5,True,0.0,Brazil,0.12
-801,2014,16.7,87.5,clear,47.0,True,0.0,Brazil,0.12
-802,2014,22.1,37.8,windy,43.9,True,0.0,Brazil,0.48
-803,2014,15.7,39.3,clear,62.5,True,0.0,Brazil,0.12
-804,2014,28.1,37.2,windy,62.9,True,0.0,Brazil,0.48
-805,2014,17.5,85.6,clear,74.7,True,0.0,Brazil,0.12
-806,2014,39.0,50.6,clear,72.3,False,0.18,Brazil,0.12
-807,2014,20.3,57.6,clear,56.3,True,0.0,Brazil,0.12
-808,2014,23.4,51.6,clear,41.8,True,0.0,Brazil,0.12
-809,2014,15.2,42.9,rain,53.9,True,0.0,Brazil,0.48
-810,2014,33.2,54.2,cloudy,60.8,True,0.0,Brazil,0.22
-811,2014,29.7,96.0,clear,55.4,True,0.0,Brazil,0.12
-812,2014,24.8,80.3,rain,50.5,True,0.0,Brazil,0.48
-813,2014,14.9,44.4,cloudy,61.3,True,0.0,Brazil,0.22
-814,2014,24.3,68.4,windy,51.4,True,0.0,Brazil,0.48
-815,2014,16.3,44.7,windy,49.8,True,0.0,Brazil,0.48
-816,2014,31.8,29.6,rain,62.0,True,0.0,Brazil,0.48
-817,2014,27.9,74.3,rain,52.8,True,0.0,Brazil,0.48
-818,2014,23.6,76.6,rain,61.2,True,0.0,Brazil,0.48
-819,2014,8.4,74.7,cloudy,61.6,True,0.0,Brazil,0.22
-820,2014,17.1,50.5,rain,43.2,True,0.0,Brazil,0.48
-821,2014,27.1,55.3,clear,51.7,False,0.18,Brazil,0.12
-822,2014,30.3,70.0,rain,76.7,True,0.0,Brazil,0.48
-823,2014,29.7,64.3,windy,42.9,True,0.0,Brazil,0.48
-824,2014,13.4,51.7,clear,30.5,True,0.0,Brazil,0.12
-825,2014,24.8,32.1,hot,33.8,True,0.0,Brazil,0.62
-826,2014,29.1,59.8,windy,58.4,True,0.0,Brazil,0.48
-827,2014,13.0,75.3,clear,58.4,True,0.0,Brazil,0.12
-828,2014,23.0,38.8,cloudy,56.5,True,0.0,Brazil,0.22
-829,2014,24.6,68.2,windy,73.8,False,0.18,Brazil,0.48
-830,2014,21.2,63.3,windy,24.0,True,0.0,Brazil,0.48
-831,2014,11.9,70.0,clear,63.1,True,0.0,Brazil,0.12
-832,2014,21.0,72.0,clear,78.3,True,0.0,Brazil,0.12
-833,2014,21.0,46.9,rain,43.3,False,0.18,Brazil,0.48
-834,2014,22.1,32.1,clear,53.1,True,0.0,Brazil,0.12
-835,2014,19.6,49.5,clear,48.2,False,0.18,Brazil,0.12
-836,2014,20.3,72.2,clear,46.4,True,0.0,Brazil,0.12
-837,2018,22.8,49.3,clear,53.8,False,0.18,Russia,0.12
-838,2018,25.7,46.9,cloudy,76.6,True,0.0,Russia,0.22
-839,2018,21.2,28.9,cloudy,81.9,True,0.0,Russia,0.22
-840,2018,20.5,86.0,cloudy,53.6,True,0.0,Russia,0.22
-841,2018,23.6,71.2,rain,82.8,True,0.0,Russia,0.48
-842,2018,11.5,70.3,clear,58.5,True,0.0,Russia,0.12
-843,2018,25.9,73.5,clear,80.8,True,0.0,Russia,0.12
-844,2018,23.0,67.2,clear,56.8,True,0.0,Russia,0.12
-845,2018,23.2,54.1,clear,59.7,True,0.0,Russia,0.12
-846,2018,28.8,55.4,clear,62.8,True,0.0,Russia,0.12
-847,2018,11.3,51.2,clear,95.0,True,0.0,Russia,0.12
-848,2018,11.2,96.0,clear,69.1,True,0.0,Russia,0.12
-849,2018,24.6,66.9,clear,48.8,True,0.0,Russia,0.12
-850,2018,23.0,50.6,rain,70.6,True,0.0,Russia,0.48
-851,2018,24.0,65.4,cloudy,53.3,True,0.0,Russia,0.22
-852,2018,20.2,41.8,windy,51.6,True,0.0,Russia,0.48
-853,2018,27.0,82.1,rain,69.8,False,0.18,Russia,0.48
-854,2018,28.6,47.4,cloudy,58.4,True,0.0,Russia,0.22
-855,2018,25.9,66.0,clear,61.6,True,0.0,Russia,0.12
-856,2018,21.4,75.1,cloudy,58.2,True,0.0,Russia,0.22
-857,2018,10.4,64.2,clear,62.4,True,0.0,Russia,0.12
-858,2018,27.6,59.5,cloudy,63.5,True,0.0,Russia,0.22
-859,2018,30.3,58.2,clear,32.8,True,0.0,Russia,0.12
-860,2018,26.9,57.1,cloudy,66.7,True,0.0,Russia,0.22
-861,2018,17.7,48.8,clear,45.2,True,0.0,Russia,0.12
-862,2018,27.0,50.8,rain,39.3,True,0.0,Russia,0.48
-863,2018,28.2,81.7,hot,57.2,True,0.0,Russia,0.62
-864,2018,32.4,56.3,rain,59.1,True,0.0,Russia,0.48
-865,2018,17.7,45.4,cloudy,49.0,True,0.0,Russia,0.22
-866,2018,21.6,49.7,cloudy,68.8,True,0.0,Russia,0.22
-867,2018,27.5,75.6,clear,40.6,True,0.0,Russia,0.12
-868,2018,23.3,68.8,rain,52.7,True,0.0,Russia,0.48
-869,2018,16.3,67.0,cloudy,50.4,False,0.18,Russia,0.22
-870,2018,25.5,53.9,clear,57.4,True,0.0,Russia,0.12
-871,2018,26.5,67.2,clear,61.6,True,0.0,Russia,0.12
-872,2018,23.5,47.7,windy,44.9,True,0.0,Russia,0.48
-873,2018,24.3,53.8,cloudy,67.4,True,0.0,Russia,0.22
-874,2018,21.4,73.5,cloudy,58.8,True,0.0,Russia,0.22
-875,2018,31.9,72.0,cloudy,33.4,True,0.0,Russia,0.22
-876,2018,17.6,42.3,clear,32.5,True,0.0,Russia,0.12
-877,2018,19.5,44.3,cloudy,57.8,True,0.0,Russia,0.22
-878,2018,23.1,59.7,clear,55.1,True,0.0,Russia,0.12
-879,2018,28.3,85.6,cloudy,56.7,True,0.0,Russia,0.22
-880,2018,14.0,27.4,rain,57.6,True,0.0,Russia,0.48
-881,2018,15.1,62.5,clear,60.9,True,0.0,Russia,0.12
-882,2018,10.8,36.0,rain,70.3,True,0.0,Russia,0.48
-883,2018,23.2,47.9,clear,43.6,True,0.0,Russia,0.12
-884,2018,16.3,52.2,rain,42.8,True,0.0,Russia,0.48
-885,2018,20.7,51.3,cloudy,43.8,True,0.0,Russia,0.22
-886,2018,27.0,49.5,cloudy,61.8,True,0.0,Russia,0.22
-887,2018,19.2,58.1,cloudy,74.2,False,0.18,Russia,0.22
-888,2018,24.4,49.4,windy,52.4,True,0.0,Russia,0.48
-889,2018,21.2,34.6,cloudy,25.5,True,0.0,Russia,0.22
-890,2018,27.0,70.5,rain,35.8,True,0.0,Russia,0.48
-891,2018,25.9,70.0,rain,47.2,True,0.0,Russia,0.48
-892,2018,18.8,71.5,clear,50.7,True,0.0,Russia,0.12
-893,2018,22.0,33.3,clear,52.7,True,0.0,Russia,0.12
-894,2018,29.3,62.8,cloudy,58.5,True,0.0,Russia,0.22
-895,2018,25.4,68.8,clear,53.9,True,0.0,Russia,0.12
-896,2018,14.6,41.5,clear,71.6,False,0.18,Russia,0.12
-897,2018,26.9,58.1,clear,49.2,True,0.0,Russia,0.12
-898,2018,16.5,56.1,cloudy,46.8,True,0.0,Russia,0.22
-899,2018,31.5,87.5,clear,64.2,True,0.0,Russia,0.12
-900,2018,29.1,88.8,rain,38.0,True,0.0,Russia,0.48
-901,2022,24.7,31.4,cloudy,63.1,False,0.18,Qatar,0.22
-902,2022,23.9,96.0,rain,59.3,True,0.0,Qatar,0.48
-903,2022,21.7,43.4,clear,56.1,True,0.0,Qatar,0.12
-904,2022,27.1,73.7,cloudy,78.6,True,0.0,Qatar,0.22
-905,2022,20.8,73.5,clear,49.9,True,0.0,Qatar,0.12
-906,2022,24.4,42.1,rain,84.8,True,0.0,Qatar,0.48
-907,2022,28.2,65.9,clear,55.1,True,0.0,Qatar,0.12
-908,2022,19.6,56.3,windy,41.4,True,0.0,Qatar,0.48
-909,2022,19.3,66.9,clear,58.9,True,0.0,Qatar,0.12
-910,2022,15.8,61.7,cloudy,44.0,True,0.0,Qatar,0.22
-911,2022,16.6,77.1,clear,48.2,True,0.0,Qatar,0.12
-912,2022,12.0,59.2,cloudy,63.2,True,0.0,Qatar,0.22
-913,2022,27.4,55.3,cloudy,65.2,True,0.0,Qatar,0.22
-914,2022,33.9,75.5,clear,49.9,True,0.0,Qatar,0.12
-915,2022,31.6,67.3,clear,70.8,True,0.0,Qatar,0.12
-916,2022,13.2,69.7,clear,73.0,True,0.0,Qatar,0.12
-917,2022,27.3,47.4,clear,76.7,False,0.18,Qatar,0.12
-918,2022,31.5,41.3,windy,64.9,True,0.0,Qatar,0.48
-919,2022,20.3,48.9,clear,75.7,True,0.0,Qatar,0.12
-920,2022,23.6,48.1,clear,33.5,True,0.0,Qatar,0.12
-921,2022,11.0,70.6,windy,53.9,True,0.0,Qatar,0.48
-922,2022,24.6,73.6,clear,46.7,True,0.0,Qatar,0.12
-923,2022,16.6,55.5,clear,59.5,True,0.0,Qatar,0.12
-924,2022,24.2,80.9,rain,50.6,True,0.0,Qatar,0.48
-925,2022,13.6,79.9,hot,55.8,True,0.0,Qatar,0.62
-926,2022,26.3,61.9,rain,82.5,True,0.0,Qatar,0.48
-927,2022,29.1,44.8,cloudy,55.8,True,0.0,Qatar,0.22
-928,2022,18.3,83.2,windy,63.4,True,0.0,Qatar,0.48
-929,2022,16.2,57.0,clear,55.0,True,0.0,Qatar,0.12
-930,2022,10.1,60.0,windy,59.0,True,0.0,Qatar,0.48
-931,2022,21.4,52.6,hot,58.1,True,0.0,Qatar,0.62
-932,2022,19.5,43.8,windy,63.8,True,0.0,Qatar,0.48
-933,2022,13.7,34.5,clear,73.1,True,0.0,Qatar,0.12
-934,2022,25.7,68.1,clear,79.4,False,0.18,Qatar,0.12
-935,2022,20.3,45.5,rain,62.0,True,0.0,Qatar,0.48
-936,2022,16.5,96.0,cloudy,65.7,True,0.0,Qatar,0.22
-937,2022,19.7,40.6,cloudy,43.0,True,0.0,Qatar,0.22
-938,2022,29.4,37.9,windy,56.9,True,0.0,Qatar,0.48
-939,2022,26.6,66.2,cloudy,70.2,True,0.0,Qatar,0.22
-940,2022,22.2,82.5,clear,69.3,True,0.0,Qatar,0.12
-941,2022,26.7,59.0,clear,60.8,True,0.0,Qatar,0.12
-942,2022,16.0,67.2,clear,69.5,True,0.0,Qatar,0.12
-943,2022,23.2,28.5,clear,64.4,True,0.0,Qatar,0.12
-944,2022,23.9,47.2,clear,73.6,True,0.0,Qatar,0.12
-945,2022,20.2,40.8,rain,61.8,True,0.0,Qatar,0.48
-946,2022,25.6,27.7,rain,53.4,True,0.0,Qatar,0.48
-947,2022,18.3,59.9,cloudy,62.4,True,0.0,Qatar,0.22
-948,2022,26.1,22.1,clear,24.0,True,0.0,Qatar,0.12
-949,2022,26.3,36.8,rain,63.0,True,0.0,Qatar,0.48
-950,2022,5.5,49.4,rain,24.0,True,0.0,Qatar,0.48
-951,2022,30.1,44.7,hot,35.6,True,0.0,Qatar,0.62
-952,2022,4.7,64.3,cloudy,63.9,True,0.0,Qatar,0.22
-953,2022,19.3,62.9,rain,64.2,True,0.0,Qatar,0.48
-954,2022,29.2,72.3,cloudy,42.9,True,0.0,Qatar,0.22
-955,2022,21.1,70.0,cloudy,48.7,True,0.0,Qatar,0.22
-956,2022,14.2,76.3,hot,75.8,True,0.0,Qatar,0.62
-957,2022,16.4,58.0,clear,51.7,True,0.0,Qatar,0.12
-958,2022,29.2,62.9,clear,87.2,True,0.0,Qatar,0.12
-959,2022,11.5,66.2,clear,58.0,True,0.0,Qatar,0.12
-960,2022,29.8,60.3,cloudy,63.3,True,0.0,Qatar,0.22
-961,2022,22.7,51.6,cloudy,79.0,True,0.0,Qatar,0.22
-962,2022,15.8,52.7,rain,59.7,True,0.0,Qatar,0.48
-963,2022,19.5,44.9,cloudy,45.0,True,0.0,Qatar,0.22
-964,2022,16.9,64.7,clear,56.6,True,0.0,Qatar,0.12
+1,1930,24.3,51.9,cloudy,62.0,True,0.0,Uruguay,0.22
+2,1930,26.7,29.2,clear,44.5,True,0.0,Uruguay,0.12
+3,1930,17.0,46.0,clear,67.8,True,0.0,Uruguay,0.12
+4,1930,16.8,43.5,clear,70.2,True,0.0,Uruguay,0.12
+5,1930,29.6,44.1,cloudy,32.6,True,0.0,Uruguay,0.22
+6,1930,20.5,90.0,clear,41.1,True,0.0,Uruguay,0.12
+7,1930,14.5,58.9,cloudy,59.7,True,0.0,Uruguay,0.22
+8,1930,25.7,61.9,rain,53.9,True,0.0,Uruguay,0.48
+9,1930,25.8,29.6,hot,57.8,False,0.18,Uruguay,0.62
+10,1930,13.8,47.5,clear,46.9,True,0.0,Uruguay,0.12
+11,1930,24.4,61.4,cloudy,69.4,True,0.0,Uruguay,0.22
+12,1930,27.4,41.6,cloudy,68.1,True,0.0,Uruguay,0.22
+13,1930,25.2,72.5,cloudy,58.9,True,0.0,Uruguay,0.22
+14,1930,26.8,38.8,cloudy,72.7,False,0.18,Uruguay,0.22
+15,1930,14.6,53.4,clear,64.1,True,0.0,Uruguay,0.12
+16,1930,25.0,48.6,windy,46.8,True,0.0,Uruguay,0.48
+17,1930,21.2,60.6,clear,62.8,False,0.18,Uruguay,0.12
+18,1930,20.1,47.8,hot,45.5,False,0.18,Uruguay,0.62
+19,1934,28.2,53.7,cloudy,69.4,True,0.0,Italy,0.22
+20,1934,31.9,54.2,clear,57.4,True,0.0,Italy,0.12
+21,1934,33.8,46.2,rain,55.6,True,0.0,Italy,0.48
+22,1934,30.9,65.8,clear,49.1,True,0.0,Italy,0.12
+23,1934,22.3,61.8,rain,73.9,True,0.0,Italy,0.48
+24,1934,25.1,56.6,cloudy,56.0,True,0.0,Italy,0.22
+25,1934,27.6,51.1,clear,52.4,False,0.18,Italy,0.12
+26,1934,23.7,70.7,clear,53.4,True,0.0,Italy,0.12
+27,1934,23.8,54.2,rain,64.9,True,0.0,Italy,0.48
+28,1934,27.9,53.1,clear,62.8,True,0.0,Italy,0.12
+29,1934,22.6,59.7,hot,63.4,True,0.0,Italy,0.62
+30,1934,18.6,85.1,rain,63.6,False,0.18,Italy,0.48
+31,1934,20.5,36.6,rain,85.8,False,0.18,Italy,0.48
+32,1934,26.8,70.3,clear,52.7,True,0.0,Italy,0.12
+33,1934,23.0,27.7,rain,51.3,False,0.18,Italy,0.48
+34,1934,25.0,61.5,windy,47.4,True,0.0,Italy,0.48
+35,1934,27.0,83.2,clear,66.0,False,0.18,Italy,0.12
+36,1938,20.8,65.8,clear,72.7,True,0.0,France,0.12
+37,1938,27.5,60.7,clear,56.5,True,0.0,France,0.12
+38,1938,25.3,49.0,clear,47.1,True,0.0,France,0.12
+39,1938,15.6,58.5,rain,47.3,True,0.0,France,0.48
+40,1938,31.7,54.0,cloudy,66.5,False,0.18,France,0.22
+41,1938,20.0,45.4,cloudy,67.7,True,0.0,France,0.22
+42,1938,13.1,53.4,clear,65.1,True,0.0,France,0.12
+43,1938,16.7,61.2,clear,49.3,True,0.0,France,0.12
+44,1938,16.9,45.7,clear,61.0,True,0.0,France,0.12
+45,1938,23.3,45.1,hot,59.5,True,0.0,France,0.62
+46,1938,21.4,36.2,cloudy,60.8,True,0.0,France,0.22
+47,1938,21.0,64.3,clear,69.3,False,0.18,France,0.12
+48,1938,26.7,66.7,rain,60.9,True,0.0,France,0.48
+49,1938,25.0,61.7,clear,66.8,True,0.0,France,0.12
+50,1938,24.9,73.4,clear,58.9,True,0.0,France,0.12
+51,1938,25.5,59.4,clear,61.8,True,0.0,France,0.12
+52,1938,26.7,64.3,windy,66.2,True,0.0,France,0.48
+53,1938,10.4,62.9,rain,39.1,True,0.0,France,0.48
+54,1950,20.8,56.5,cloudy,53.8,False,0.18,Brazil,0.22
+55,1950,9.9,49.5,clear,51.9,True,0.0,Brazil,0.12
+56,1950,23.2,93.4,clear,49.7,True,0.0,Brazil,0.12
+57,1950,23.0,50.8,cloudy,54.4,True,0.0,Brazil,0.22
+58,1950,29.3,47.3,clear,77.4,True,0.0,Brazil,0.12
+59,1950,30.1,64.9,windy,46.7,False,0.18,Brazil,0.48
+60,1950,24.2,62.0,rain,70.6,True,0.0,Brazil,0.48
+61,1950,20.0,35.5,cloudy,36.1,True,0.0,Brazil,0.22
+62,1950,25.9,76.0,rain,53.6,True,0.0,Brazil,0.48
+63,1950,19.8,56.5,windy,60.1,True,0.0,Brazil,0.48
+64,1950,23.0,40.2,cloudy,65.6,False,0.18,Brazil,0.22
+65,1950,28.9,77.0,cloudy,67.2,True,0.0,Brazil,0.22
+66,1950,19.7,68.0,hot,68.3,True,0.0,Brazil,0.62
+67,1950,27.8,37.8,clear,53.5,True,0.0,Brazil,0.12
+68,1950,27.1,86.4,hot,52.0,True,0.0,Brazil,0.62
+69,1950,17.3,68.5,clear,69.2,True,0.0,Brazil,0.12
+70,1950,28.8,57.8,cloudy,55.5,False,0.18,Brazil,0.22
+71,1950,27.2,83.4,rain,41.4,True,0.0,Brazil,0.48
+72,1950,23.6,60.5,cloudy,43.3,False,0.18,Brazil,0.22
+73,1950,18.4,57.6,cloudy,46.0,True,0.0,Brazil,0.22
+74,1950,17.8,47.4,cloudy,64.5,False,0.18,Brazil,0.22
+75,1950,19.8,67.3,clear,59.9,True,0.0,Brazil,0.12
+76,1954,26.3,65.6,clear,67.0,True,0.0,Switzerland,0.12
+77,1954,17.3,58.2,clear,52.4,True,0.0,Switzerland,0.12
+78,1954,25.6,45.4,cloudy,60.1,True,0.0,Switzerland,0.22
+79,1954,15.5,60.1,cloudy,66.1,True,0.0,Switzerland,0.22
+80,1954,21.8,56.9,clear,54.0,True,0.0,Switzerland,0.12
+81,1954,23.7,36.7,hot,63.9,True,0.0,Switzerland,0.62
+82,1954,37.7,34.5,clear,49.4,True,0.0,Switzerland,0.12
+83,1954,14.7,67.0,cloudy,53.3,False,0.18,Switzerland,0.22
+84,1954,31.8,16.4,clear,53.0,True,0.0,Switzerland,0.12
+85,1954,23.9,61.3,clear,42.5,True,0.0,Switzerland,0.12
+86,1954,25.5,50.4,rain,64.3,True,0.0,Switzerland,0.48
+87,1954,23.7,78.9,cloudy,51.9,True,0.0,Switzerland,0.22
+88,1954,25.7,50.1,clear,58.2,True,0.0,Switzerland,0.12
+89,1954,22.1,68.6,windy,64.2,True,0.0,Switzerland,0.48
+90,1954,31.7,51.6,rain,63.8,True,0.0,Switzerland,0.48
+91,1954,20.3,59.8,rain,66.7,False,0.18,Switzerland,0.48
+92,1954,29.8,69.8,hot,56.7,True,0.0,Switzerland,0.62
+93,1954,19.1,50.6,hot,52.5,False,0.18,Switzerland,0.62
+94,1954,22.6,73.9,clear,57.0,True,0.0,Switzerland,0.12
+95,1954,16.6,42.1,cloudy,36.1,False,0.18,Switzerland,0.22
+96,1954,25.7,62.7,cloudy,39.2,True,0.0,Switzerland,0.22
+97,1954,31.7,72.8,clear,40.8,True,0.0,Switzerland,0.12
+98,1954,22.5,68.6,clear,45.0,True,0.0,Switzerland,0.12
+99,1954,21.8,88.7,clear,63.2,True,0.0,Switzerland,0.12
+100,1954,16.3,45.8,cloudy,46.2,True,0.0,Switzerland,0.22
+101,1954,21.6,35.9,rain,53.1,True,0.0,Switzerland,0.48
+102,1958,13.4,42.1,rain,74.9,True,0.0,Sweden,0.48
+103,1958,17.5,68.6,clear,53.4,True,0.0,Sweden,0.12
+104,1958,24.4,66.0,clear,67.6,True,0.0,Sweden,0.12
+105,1958,30.9,59.6,cloudy,45.9,True,0.0,Sweden,0.22
+106,1958,39.0,40.0,cloudy,55.3,True,0.0,Sweden,0.22
+107,1958,19.5,70.3,hot,45.6,True,0.0,Sweden,0.62
+108,1958,31.6,38.4,hot,53.6,True,0.0,Sweden,0.62
+109,1958,24.5,76.5,hot,68.9,False,0.18,Sweden,0.62
+110,1958,22.1,96.0,hot,35.5,True,0.0,Sweden,0.62
+111,1958,25.6,63.9,windy,63.6,True,0.0,Sweden,0.48
+112,1958,23.4,67.3,cloudy,61.1,True,0.0,Sweden,0.22
+113,1958,23.7,50.1,clear,50.3,True,0.0,Sweden,0.12
+114,1958,20.6,29.0,clear,39.2,True,0.0,Sweden,0.12
+115,1958,14.6,48.4,clear,58.9,True,0.0,Sweden,0.12
+116,1958,13.7,40.5,clear,51.1,True,0.0,Sweden,0.12
+117,1958,26.9,34.8,clear,61.0,False,0.18,Sweden,0.12
+118,1958,21.3,85.6,windy,58.3,True,0.0,Sweden,0.48
+119,1958,19.4,62.4,clear,78.8,True,0.0,Sweden,0.12
+120,1958,23.1,64.1,windy,54.9,True,0.0,Sweden,0.48
+121,1958,27.8,53.1,rain,44.7,True,0.0,Sweden,0.48
+122,1958,24.1,55.2,cloudy,60.3,True,0.0,Sweden,0.22
+123,1958,19.1,73.4,rain,60.9,True,0.0,Sweden,0.48
+124,1958,30.4,57.5,clear,75.7,True,0.0,Sweden,0.12
+125,1958,32.5,66.5,cloudy,68.9,False,0.18,Sweden,0.22
+126,1958,26.0,54.9,clear,62.6,True,0.0,Sweden,0.12
+127,1958,28.8,52.5,windy,77.0,True,0.0,Sweden,0.48
+128,1958,30.5,35.5,clear,42.5,True,0.0,Sweden,0.12
+129,1958,29.8,26.4,clear,49.7,True,0.0,Sweden,0.12
+130,1958,26.7,53.8,rain,46.0,True,0.0,Sweden,0.48
+131,1958,26.6,58.9,cloudy,52.9,True,0.0,Sweden,0.22
+132,1958,26.1,37.4,cloudy,40.1,False,0.18,Sweden,0.22
+133,1958,16.4,57.4,cloudy,66.3,True,0.0,Sweden,0.22
+134,1958,27.2,58.9,clear,55.1,False,0.18,Sweden,0.12
+135,1958,14.9,23.5,rain,38.9,True,0.0,Sweden,0.48
+136,1958,18.2,43.4,clear,44.8,False,0.18,Sweden,0.12
+137,1962,30.8,64.5,clear,62.1,True,0.0,Chile,0.12
+138,1962,28.0,64.2,clear,68.9,True,0.0,Chile,0.12
+139,1962,31.9,39.5,clear,84.0,False,0.18,Chile,0.12
+140,1962,21.4,60.5,clear,95.0,True,0.0,Chile,0.12
+141,1962,16.1,74.4,cloudy,63.4,True,0.0,Chile,0.22
+142,1962,21.6,70.4,clear,45.1,True,0.0,Chile,0.12
+143,1962,23.6,56.5,clear,30.3,True,0.0,Chile,0.12
+144,1962,23.5,50.5,cloudy,61.5,True,0.0,Chile,0.22
+145,1962,29.8,47.9,clear,47.4,True,0.0,Chile,0.12
+146,1962,20.8,65.5,rain,52.6,True,0.0,Chile,0.48
+147,1962,25.1,61.1,windy,50.0,False,0.18,Chile,0.48
+148,1962,17.1,68.1,cloudy,56.2,True,0.0,Chile,0.22
+149,1962,25.7,60.1,hot,71.9,True,0.0,Chile,0.62
+150,1962,23.0,71.1,clear,60.0,True,0.0,Chile,0.12
+151,1962,18.5,59.5,clear,55.9,True,0.0,Chile,0.12
+152,1962,21.6,70.6,rain,44.5,True,0.0,Chile,0.48
+153,1962,21.9,71.9,rain,36.2,True,0.0,Chile,0.48
+154,1962,21.4,45.1,hot,51.7,True,0.0,Chile,0.62
+155,1962,33.6,29.1,clear,57.3,False,0.18,Chile,0.12
+156,1962,22.4,82.7,rain,81.0,True,0.0,Chile,0.48
+157,1962,21.5,62.1,clear,59.7,True,0.0,Chile,0.12
+158,1962,10.4,30.6,clear,70.8,True,0.0,Chile,0.12
+159,1962,17.6,46.6,clear,51.5,True,0.0,Chile,0.12
+160,1962,21.4,70.3,windy,42.6,True,0.0,Chile,0.48
+161,1962,18.9,53.5,clear,45.5,True,0.0,Chile,0.12
+162,1962,31.3,49.8,hot,48.6,False,0.18,Chile,0.62
+163,1962,22.0,80.4,cloudy,85.7,True,0.0,Chile,0.22
+164,1962,30.7,41.2,rain,47.3,True,0.0,Chile,0.48
+165,1962,23.4,45.2,rain,68.9,False,0.18,Chile,0.48
+166,1962,23.2,61.4,hot,46.3,True,0.0,Chile,0.62
+167,1962,22.5,64.2,clear,70.1,False,0.18,Chile,0.12
+168,1962,23.0,65.9,clear,63.0,True,0.0,Chile,0.12
+169,1966,33.3,72.6,cloudy,56.0,False,0.18,England,0.22
+170,1966,9.1,61.2,clear,57.5,True,0.0,England,0.12
+171,1966,11.0,65.8,clear,49.5,True,0.0,England,0.12
+172,1966,19.7,53.9,clear,63.8,True,0.0,England,0.12
+173,1966,23.1,59.0,clear,52.1,True,0.0,England,0.12
+174,1966,27.1,59.7,clear,42.1,True,0.0,England,0.12
+175,1966,25.8,61.4,clear,41.4,True,0.0,England,0.12
+176,1966,20.7,70.4,hot,60.2,True,0.0,England,0.62
+177,1966,29.1,66.9,clear,78.5,True,0.0,England,0.12
+178,1966,29.2,58.7,windy,60.1,True,0.0,England,0.48
+179,1966,24.1,45.1,windy,56.5,True,0.0,England,0.48
+180,1966,28.8,59.1,clear,61.7,True,0.0,England,0.12
+181,1966,24.6,57.6,rain,75.0,True,0.0,England,0.48
+182,1966,19.6,61.1,cloudy,60.9,True,0.0,England,0.22
+183,1966,27.2,93.3,rain,52.7,False,0.18,England,0.48
+184,1966,23.7,49.6,clear,72.4,True,0.0,England,0.12
+185,1966,23.0,64.8,clear,63.6,True,0.0,England,0.12
+186,1966,31.8,75.1,clear,78.0,True,0.0,England,0.12
+187,1966,8.3,59.6,cloudy,60.4,True,0.0,England,0.22
+188,1966,14.5,95.4,windy,42.1,True,0.0,England,0.48
+189,1966,15.9,52.0,rain,40.2,True,0.0,England,0.48
+190,1966,20.8,63.2,rain,79.5,True,0.0,England,0.48
+191,1966,21.5,45.2,windy,80.4,False,0.18,England,0.48
+192,1966,14.0,52.4,rain,55.7,True,0.0,England,0.48
+193,1966,17.1,62.0,clear,53.0,False,0.18,England,0.12
+194,1966,17.8,71.5,hot,77.0,True,0.0,England,0.62
+195,1966,37.7,63.1,clear,43.6,True,0.0,England,0.12
+196,1966,33.8,78.1,clear,46.4,True,0.0,England,0.12
+197,1966,20.5,56.5,cloudy,66.4,True,0.0,England,0.22
+198,1966,20.8,52.7,windy,52.9,False,0.18,England,0.48
+199,1966,16.1,96.0,clear,57.9,True,0.0,England,0.12
+200,1966,11.6,64.3,cloudy,55.9,False,0.18,England,0.22
+201,1970,22.3,46.5,clear,62.4,False,0.18,Mexico,0.12
+202,1970,17.0,46.9,clear,76.3,True,0.0,Mexico,0.12
+203,1970,22.5,42.9,clear,59.2,True,0.0,Mexico,0.12
+204,1970,13.4,73.0,rain,66.4,True,0.0,Mexico,0.48
+205,1970,18.4,52.2,hot,31.3,True,0.0,Mexico,0.62
+206,1970,23.9,60.0,clear,57.4,True,0.0,Mexico,0.12
+207,1970,25.2,57.0,clear,47.0,True,0.0,Mexico,0.12
+208,1970,25.5,69.7,clear,42.2,True,0.0,Mexico,0.12
+209,1970,15.1,44.5,clear,46.6,True,0.0,Mexico,0.12
+210,1970,28.1,40.8,cloudy,53.7,True,0.0,Mexico,0.22
+211,1970,18.2,61.6,rain,69.9,True,0.0,Mexico,0.48
+212,1970,26.8,67.6,cloudy,40.8,True,0.0,Mexico,0.22
+213,1970,22.9,63.3,clear,58.4,True,0.0,Mexico,0.12
+214,1970,14.7,45.0,cloudy,51.7,True,0.0,Mexico,0.22
+215,1970,21.1,68.8,clear,53.7,True,0.0,Mexico,0.12
+216,1970,25.2,46.1,clear,71.0,False,0.18,Mexico,0.12
+217,1970,26.7,49.7,windy,65.0,True,0.0,Mexico,0.48
+218,1970,22.2,42.9,rain,75.4,True,0.0,Mexico,0.48
+219,1970,32.2,78.8,windy,56.0,True,0.0,Mexico,0.48
+220,1970,29.0,68.1,hot,49.0,True,0.0,Mexico,0.62
+221,1970,21.5,67.7,cloudy,55.1,True,0.0,Mexico,0.22
+222,1970,27.5,78.0,windy,61.2,True,0.0,Mexico,0.48
+223,1970,34.6,96.0,clear,60.3,True,0.0,Mexico,0.12
+224,1970,34.8,30.7,clear,43.9,False,0.18,Mexico,0.12
+225,1970,15.6,46.2,clear,59.2,True,0.0,Mexico,0.12
+226,1970,17.4,48.1,clear,61.0,True,0.0,Mexico,0.12
+227,1970,31.9,44.4,clear,90.7,False,0.18,Mexico,0.12
+228,1970,16.7,40.8,clear,82.4,True,0.0,Mexico,0.12
+229,1970,15.1,53.2,rain,46.9,True,0.0,Mexico,0.48
+230,1970,20.1,38.5,rain,54.3,True,0.0,Mexico,0.48
+231,1970,25.5,63.4,cloudy,39.0,True,0.0,Mexico,0.22
+232,1970,22.4,58.8,clear,50.3,True,0.0,Mexico,0.12
+233,1974,19.1,65.7,rain,62.1,True,0.0,Germany,0.48
+234,1974,19.0,66.1,clear,73.7,True,0.0,Germany,0.12
+235,1974,18.7,67.6,clear,48.5,True,0.0,Germany,0.12
+236,1974,17.7,52.0,clear,49.5,False,0.18,Germany,0.12
+237,1974,36.7,91.9,clear,30.1,True,0.0,Germany,0.12
+238,1974,24.8,61.8,clear,55.9,True,0.0,Germany,0.12
+239,1974,28.3,28.2,rain,44.2,True,0.0,Germany,0.48
+240,1974,20.1,42.0,rain,51.1,True,0.0,Germany,0.48
+241,1974,21.9,30.2,rain,46.6,True,0.0,Germany,0.48
+242,1974,18.7,58.3,clear,56.8,False,0.18,Germany,0.12
+243,1974,7.1,56.1,rain,35.1,True,0.0,Germany,0.48
+244,1974,14.7,50.5,rain,38.9,True,0.0,Germany,0.48
+245,1974,12.1,90.2,clear,85.7,True,0.0,Germany,0.12
+246,1974,9.5,66.8,cloudy,41.3,True,0.0,Germany,0.22
+247,1974,15.8,69.6,cloudy,43.7,True,0.0,Germany,0.22
+248,1974,30.9,43.1,cloudy,81.9,True,0.0,Germany,0.22
+249,1974,22.7,42.0,clear,95.0,True,0.0,Germany,0.12
+250,1974,30.7,58.6,cloudy,42.8,True,0.0,Germany,0.22
+251,1974,25.5,60.8,clear,53.2,False,0.18,Germany,0.12
+252,1974,27.7,28.3,clear,62.4,True,0.0,Germany,0.12
+253,1974,17.6,55.1,clear,80.5,True,0.0,Germany,0.12
+254,1974,26.1,58.2,windy,45.2,True,0.0,Germany,0.48
+255,1974,27.4,54.6,clear,54.8,True,0.0,Germany,0.12
+256,1974,19.5,45.0,clear,68.1,True,0.0,Germany,0.12
+257,1974,26.4,49.4,clear,63.7,True,0.0,Germany,0.12
+258,1974,26.4,55.2,hot,53.1,False,0.18,Germany,0.62
+259,1974,19.7,59.5,cloudy,56.3,True,0.0,Germany,0.22
+260,1974,16.3,67.7,hot,40.1,True,0.0,Germany,0.62
+261,1974,15.9,75.3,clear,54.9,True,0.0,Germany,0.12
+262,1974,23.5,53.3,clear,54.5,True,0.0,Germany,0.12
+263,1974,25.0,50.7,cloudy,61.0,False,0.18,Germany,0.22
+264,1974,18.2,65.0,clear,50.8,True,0.0,Germany,0.12
+265,1974,23.2,67.8,rain,64.1,True,0.0,Germany,0.48
+266,1974,26.4,51.1,hot,71.2,False,0.18,Germany,0.62
+267,1974,26.7,70.6,cloudy,60.0,True,0.0,Germany,0.22
+268,1974,32.3,73.7,windy,62.6,True,0.0,Germany,0.48
+269,1974,30.7,78.7,cloudy,58.7,True,0.0,Germany,0.22
+270,1974,17.0,86.5,clear,58.0,False,0.18,Germany,0.12
+271,1978,33.1,44.1,cloudy,48.6,True,0.0,Argentina,0.22
+272,1978,19.8,58.2,clear,62.1,False,0.18,Argentina,0.12
+273,1978,29.3,58.2,rain,56.7,True,0.0,Argentina,0.48
+274,1978,23.4,56.4,clear,85.2,True,0.0,Argentina,0.12
+275,1978,20.5,47.6,clear,78.5,True,0.0,Argentina,0.12
+276,1978,12.2,34.2,cloudy,63.0,True,0.0,Argentina,0.22
+277,1978,22.0,59.5,clear,48.1,True,0.0,Argentina,0.12
+278,1978,13.6,45.7,clear,43.5,True,0.0,Argentina,0.12
+279,1978,28.8,59.4,rain,73.5,False,0.18,Argentina,0.48
+280,1978,32.1,45.3,clear,61.4,True,0.0,Argentina,0.12
+281,1978,18.2,40.4,cloudy,64.2,True,0.0,Argentina,0.22
+282,1978,24.8,61.7,clear,35.3,True,0.0,Argentina,0.12
+283,1978,18.6,60.4,clear,70.1,True,0.0,Argentina,0.12
+284,1978,19.2,67.3,clear,63.9,True,0.0,Argentina,0.12
+285,1978,27.6,93.0,rain,43.6,True,0.0,Argentina,0.48
+286,1978,22.8,62.4,windy,51.9,True,0.0,Argentina,0.48
+287,1978,33.4,65.8,clear,61.4,False,0.18,Argentina,0.12
+288,1978,20.1,40.8,windy,58.7,True,0.0,Argentina,0.48
+289,1978,29.0,37.4,cloudy,54.2,True,0.0,Argentina,0.22
+290,1978,23.6,83.3,cloudy,56.7,True,0.0,Argentina,0.22
+291,1978,27.8,43.2,rain,54.7,True,0.0,Argentina,0.48
+292,1978,20.3,41.3,rain,60.0,True,0.0,Argentina,0.48
+293,1978,22.7,57.4,rain,77.1,True,0.0,Argentina,0.48
+294,1978,22.3,56.6,cloudy,24.6,True,0.0,Argentina,0.22
+295,1978,18.0,43.6,cloudy,54.9,False,0.18,Argentina,0.22
+296,1978,27.0,53.1,clear,60.3,True,0.0,Argentina,0.12
+297,1978,26.9,77.7,clear,61.8,True,0.0,Argentina,0.12
+298,1978,26.6,45.1,rain,53.2,True,0.0,Argentina,0.48
+299,1978,32.2,35.7,clear,35.2,False,0.18,Argentina,0.12
+300,1978,31.7,73.1,clear,62.3,True,0.0,Argentina,0.12
+301,1978,20.8,65.9,clear,80.5,True,0.0,Argentina,0.12
+302,1978,25.2,48.1,clear,38.1,True,0.0,Argentina,0.12
+303,1978,19.3,32.7,cloudy,69.2,False,0.18,Argentina,0.22
+304,1978,23.1,46.1,cloudy,53.7,True,0.0,Argentina,0.22
+305,1978,19.4,57.1,cloudy,57.2,True,0.0,Argentina,0.22
+306,1978,32.7,76.7,clear,44.3,True,0.0,Argentina,0.12
+307,1978,25.2,41.4,cloudy,53.7,True,0.0,Argentina,0.22
+308,1978,21.7,56.6,clear,74.9,False,0.18,Argentina,0.12
+309,1982,30.2,68.8,rain,65.6,True,0.0,Spain,0.48
+310,1982,10.0,19.9,cloudy,80.5,True,0.0,Spain,0.22
+311,1982,10.9,74.5,cloudy,73.3,True,0.0,Spain,0.22
+312,1982,27.8,39.1,cloudy,63.7,True,0.0,Spain,0.22
+313,1982,23.4,63.3,windy,80.7,True,0.0,Spain,0.48
+314,1982,24.5,61.9,rain,63.7,True,0.0,Spain,0.48
+315,1982,15.0,75.4,cloudy,68.8,True,0.0,Spain,0.22
+316,1982,22.9,66.8,cloudy,54.1,True,0.0,Spain,0.22
+317,1982,35.0,20.0,clear,58.9,False,0.18,Spain,0.12
+318,1982,27.9,45.4,windy,48.9,True,0.0,Spain,0.48
+319,1982,24.0,60.2,clear,70.9,True,0.0,Spain,0.12
+320,1982,20.4,54.9,clear,42.7,True,0.0,Spain,0.12
+321,1982,20.6,65.6,windy,68.2,True,0.0,Spain,0.48
+322,1982,10.2,70.6,rain,55.5,True,0.0,Spain,0.48
+323,1982,24.5,67.7,clear,73.2,True,0.0,Spain,0.12
+324,1982,28.1,54.6,clear,67.8,True,0.0,Spain,0.12
+325,1982,13.5,28.5,clear,81.7,True,0.0,Spain,0.12
+326,1982,19.0,50.7,cloudy,67.5,True,0.0,Spain,0.22
+327,1982,16.1,64.7,clear,37.6,True,0.0,Spain,0.12
+328,1982,17.2,40.6,windy,57.1,True,0.0,Spain,0.48
+329,1982,23.3,68.1,windy,42.8,False,0.18,Spain,0.48
+330,1982,10.5,72.5,cloudy,51.3,True,0.0,Spain,0.22
+331,1982,26.7,60.0,cloudy,77.6,True,0.0,Spain,0.22
+332,1982,27.5,15.0,clear,66.3,True,0.0,Spain,0.12
+333,1982,21.5,37.6,clear,48.9,True,0.0,Spain,0.12
+334,1982,8.1,88.2,rain,44.8,True,0.0,Spain,0.48
+335,1982,17.0,49.3,clear,58.4,True,0.0,Spain,0.12
+336,1982,30.4,26.3,clear,42.2,True,0.0,Spain,0.12
+337,1982,6.3,77.8,clear,49.3,True,0.0,Spain,0.12
+338,1982,20.9,58.2,clear,62.1,True,0.0,Spain,0.12
+339,1982,15.9,75.7,cloudy,73.0,True,0.0,Spain,0.22
+340,1982,27.8,62.4,rain,65.9,True,0.0,Spain,0.48
+341,1982,18.9,65.3,rain,28.2,True,0.0,Spain,0.48
+342,1982,25.4,63.8,cloudy,62.0,True,0.0,Spain,0.22
+343,1982,26.4,69.2,hot,58.9,True,0.0,Spain,0.62
+344,1982,34.0,94.4,clear,63.4,False,0.18,Spain,0.12
+345,1982,21.8,73.5,hot,79.0,True,0.0,Spain,0.62
+346,1982,25.3,32.7,cloudy,31.2,True,0.0,Spain,0.22
+347,1982,14.1,65.1,clear,50.3,True,0.0,Spain,0.12
+348,1982,30.1,76.3,windy,65.7,True,0.0,Spain,0.48
+349,1982,18.4,77.2,clear,37.4,True,0.0,Spain,0.12
+350,1982,19.6,51.2,clear,77.2,True,0.0,Spain,0.12
+351,1982,22.9,76.6,clear,62.8,True,0.0,Spain,0.12
+352,1982,13.6,72.8,clear,69.0,False,0.18,Spain,0.12
+353,1982,24.4,96.0,clear,50.6,True,0.0,Spain,0.12
+354,1982,28.8,46.0,cloudy,68.6,True,0.0,Spain,0.22
+355,1982,24.8,49.9,hot,71.9,True,0.0,Spain,0.62
+356,1982,13.5,53.1,clear,61.0,False,0.18,Spain,0.12
+357,1982,22.3,50.2,cloudy,61.0,True,0.0,Spain,0.22
+358,1982,27.5,43.8,clear,61.5,True,0.0,Spain,0.12
+359,1982,11.7,15.0,hot,46.8,True,0.0,Spain,0.62
+360,1982,16.6,51.0,clear,56.1,True,0.0,Spain,0.12
+361,1986,28.3,63.9,clear,56.0,True,0.0,Mexico,0.12
+362,1986,24.6,50.1,cloudy,63.0,True,0.0,Mexico,0.22
+363,1986,25.5,89.0,rain,71.0,True,0.0,Mexico,0.48
+364,1986,34.2,58.2,rain,44.2,True,0.0,Mexico,0.48
+365,1986,25.8,78.7,cloudy,56.4,True,0.0,Mexico,0.22
+366,1986,26.9,62.2,rain,77.3,True,0.0,Mexico,0.48
+367,1986,39.0,71.2,clear,48.3,True,0.0,Mexico,0.12
+368,1986,21.7,62.5,clear,47.3,False,0.18,Mexico,0.12
+369,1986,18.2,79.9,clear,60.6,True,0.0,Mexico,0.12
+370,1986,25.6,58.9,clear,69.0,True,0.0,Mexico,0.12
+371,1986,25.6,65.9,clear,58.1,True,0.0,Mexico,0.12
+372,1986,19.8,63.9,cloudy,75.3,True,0.0,Mexico,0.22
+373,1986,16.8,53.4,clear,69.1,True,0.0,Mexico,0.12
+374,1986,36.9,64.5,cloudy,68.9,True,0.0,Mexico,0.22
+375,1986,25.0,93.8,cloudy,65.2,True,0.0,Mexico,0.22
+376,1986,18.6,53.7,rain,88.3,True,0.0,Mexico,0.48
+377,1986,28.5,64.7,rain,55.3,True,0.0,Mexico,0.48
+378,1986,22.3,78.1,clear,32.0,True,0.0,Mexico,0.12
+379,1986,21.5,76.2,clear,78.9,False,0.18,Mexico,0.12
+380,1986,26.4,58.2,cloudy,52.0,True,0.0,Mexico,0.22
+381,1986,15.2,19.9,cloudy,59.4,True,0.0,Mexico,0.22
+382,1986,25.1,66.3,clear,75.0,True,0.0,Mexico,0.12
+383,1986,34.5,22.5,clear,37.2,True,0.0,Mexico,0.12
+384,1986,25.8,81.5,rain,41.7,True,0.0,Mexico,0.48
+385,1986,20.7,60.7,cloudy,37.2,True,0.0,Mexico,0.22
+386,1986,20.0,74.0,clear,47.7,True,0.0,Mexico,0.12
+387,1986,20.5,43.6,cloudy,63.7,True,0.0,Mexico,0.22
+388,1986,21.5,33.2,hot,64.8,True,0.0,Mexico,0.62
+389,1986,20.7,62.2,clear,61.6,True,0.0,Mexico,0.12
+390,1986,28.5,57.5,hot,39.6,False,0.18,Mexico,0.62
+391,1986,12.6,50.1,clear,28.0,True,0.0,Mexico,0.12
+392,1986,28.2,59.4,cloudy,58.7,True,0.0,Mexico,0.22
+393,1986,20.7,96.0,cloudy,51.9,True,0.0,Mexico,0.22
+394,1986,25.3,71.4,clear,64.0,True,0.0,Mexico,0.12
+395,1986,16.2,74.8,hot,67.1,True,0.0,Mexico,0.62
+396,1986,31.0,71.5,cloudy,59.8,True,0.0,Mexico,0.22
+397,1986,30.5,81.7,windy,67.9,False,0.18,Mexico,0.48
+398,1986,28.8,55.0,clear,61.0,True,0.0,Mexico,0.12
+399,1986,13.9,25.1,hot,64.9,True,0.0,Mexico,0.62
+400,1986,28.0,55.0,windy,48.8,True,0.0,Mexico,0.48
+401,1986,25.4,71.0,cloudy,55.7,True,0.0,Mexico,0.22
+402,1986,13.4,42.5,clear,60.6,True,0.0,Mexico,0.12
+403,1986,22.9,55.2,rain,68.7,True,0.0,Mexico,0.48
+404,1986,25.2,46.9,cloudy,52.9,True,0.0,Mexico,0.22
+405,1986,26.3,82.0,windy,64.8,True,0.0,Mexico,0.48
+406,1986,24.1,70.0,cloudy,54.5,False,0.18,Mexico,0.22
+407,1986,24.7,68.4,clear,56.5,True,0.0,Mexico,0.12
+408,1986,31.8,67.9,clear,68.8,True,0.0,Mexico,0.12
+409,1986,30.4,57.4,rain,32.1,True,0.0,Mexico,0.48
+410,1986,5.8,61.2,windy,41.1,True,0.0,Mexico,0.48
+411,1986,21.1,39.0,clear,38.7,True,0.0,Mexico,0.12
+412,1986,22.0,23.0,rain,27.7,True,0.0,Mexico,0.48
+413,1990,12.5,60.4,windy,49.2,True,0.0,Italy,0.48
+414,1990,23.6,63.2,clear,67.7,False,0.18,Italy,0.12
+415,1990,30.5,77.3,clear,54.3,True,0.0,Italy,0.12
+416,1990,16.5,83.1,rain,60.6,True,0.0,Italy,0.48
+417,1990,25.0,83.1,cloudy,72.2,True,0.0,Italy,0.22
+418,1990,17.5,42.0,clear,75.3,True,0.0,Italy,0.12
+419,1990,19.0,52.4,hot,57.1,True,0.0,Italy,0.62
+420,1990,31.9,65.7,cloudy,75.6,True,0.0,Italy,0.22
+421,1990,19.7,96.0,hot,59.2,True,0.0,Italy,0.62
+422,1990,25.8,81.7,hot,47.1,True,0.0,Italy,0.62
+423,1990,11.8,75.9,rain,50.3,True,0.0,Italy,0.48
+424,1990,34.2,51.8,cloudy,38.8,True,0.0,Italy,0.22
+425,1990,26.6,43.9,clear,46.5,True,0.0,Italy,0.12
+426,1990,21.9,70.6,cloudy,53.3,True,0.0,Italy,0.22
+427,1990,26.5,40.4,clear,68.4,False,0.18,Italy,0.12
+428,1990,14.5,54.2,cloudy,80.4,True,0.0,Italy,0.22
+429,1990,30.1,56.2,clear,40.0,True,0.0,Italy,0.12
+430,1990,21.1,83.5,cloudy,63.1,True,0.0,Italy,0.22
+431,1990,21.8,52.3,clear,44.5,True,0.0,Italy,0.12
+432,1990,20.1,19.0,clear,64.2,True,0.0,Italy,0.12
+433,1990,19.5,66.1,clear,56.3,True,0.0,Italy,0.12
+434,1990,27.2,46.8,cloudy,34.2,True,0.0,Italy,0.22
+435,1990,24.5,58.7,rain,70.1,True,0.0,Italy,0.48
+436,1990,26.9,56.6,clear,50.1,True,0.0,Italy,0.12
+437,1990,22.9,53.6,hot,51.1,True,0.0,Italy,0.62
+438,1990,26.1,70.6,hot,44.1,True,0.0,Italy,0.62
+439,1990,20.5,33.5,clear,49.5,True,0.0,Italy,0.12
+440,1990,36.4,49.7,cloudy,63.6,True,0.0,Italy,0.22
+441,1990,13.6,68.9,clear,55.5,False,0.18,Italy,0.12
+442,1990,30.6,48.2,clear,62.3,True,0.0,Italy,0.12
+443,1990,31.2,32.3,cloudy,62.7,True,0.0,Italy,0.22
+444,1990,17.9,68.7,clear,75.2,True,0.0,Italy,0.12
+445,1990,36.4,76.0,hot,53.5,True,0.0,Italy,0.62
+446,1990,29.0,57.3,windy,38.8,True,0.0,Italy,0.48
+447,1990,28.8,26.6,hot,71.9,True,0.0,Italy,0.62
+448,1990,23.2,69.3,cloudy,53.7,True,0.0,Italy,0.22
+449,1990,21.7,31.4,cloudy,72.5,True,0.0,Italy,0.22
+450,1990,21.7,62.9,windy,63.0,True,0.0,Italy,0.48
+451,1990,25.3,43.8,clear,56.3,True,0.0,Italy,0.12
+452,1990,31.4,39.4,clear,62.5,True,0.0,Italy,0.12
+453,1990,24.1,50.9,cloudy,83.4,True,0.0,Italy,0.22
+454,1990,17.5,55.1,clear,85.0,False,0.18,Italy,0.12
+455,1990,27.9,47.7,clear,58.9,True,0.0,Italy,0.12
+456,1990,28.5,67.4,clear,60.1,True,0.0,Italy,0.12
+457,1990,26.9,50.9,cloudy,72.0,False,0.18,Italy,0.22
+458,1990,27.5,73.7,clear,47.0,True,0.0,Italy,0.12
+459,1990,21.4,62.5,clear,62.3,True,0.0,Italy,0.12
+460,1990,17.4,46.8,clear,57.7,True,0.0,Italy,0.12
+461,1990,17.8,44.1,clear,62.1,False,0.18,Italy,0.12
+462,1990,13.2,31.6,hot,47.2,True,0.0,Italy,0.62
+463,1990,24.4,62.7,clear,37.3,False,0.18,Italy,0.12
+464,1990,22.5,52.3,rain,31.1,True,0.0,Italy,0.48
+465,1994,20.4,20.0,rain,43.5,True,0.0,United States,0.48
+466,1994,5.3,49.4,clear,52.0,True,0.0,United States,0.12
+467,1994,15.5,43.6,hot,54.2,True,0.0,United States,0.62
+468,1994,29.7,83.2,rain,83.2,True,0.0,United States,0.48
+469,1994,19.0,30.8,cloudy,72.4,False,0.18,United States,0.22
+470,1994,25.2,34.9,clear,45.5,True,0.0,United States,0.12
+471,1994,14.7,75.8,clear,62.5,True,0.0,United States,0.12
+472,1994,31.6,79.7,windy,52.7,True,0.0,United States,0.48
+473,1994,22.1,46.1,rain,54.3,True,0.0,United States,0.48
+474,1994,24.7,47.9,windy,60.4,True,0.0,United States,0.48
+475,1994,37.0,67.9,hot,66.0,True,0.0,United States,0.62
+476,1994,32.1,20.8,clear,53.6,True,0.0,United States,0.12
+477,1994,21.2,28.2,rain,71.8,True,0.0,United States,0.48
+478,1994,19.4,53.5,cloudy,43.2,True,0.0,United States,0.22
+479,1994,21.0,82.8,rain,58.1,False,0.18,United States,0.48
+480,1994,26.1,51.0,clear,91.8,True,0.0,United States,0.12
+481,1994,22.4,59.6,clear,60.9,True,0.0,United States,0.12
+482,1994,20.6,76.1,rain,76.6,True,0.0,United States,0.48
+483,1994,31.8,91.7,rain,59.2,True,0.0,United States,0.48
+484,1994,22.3,48.8,cloudy,65.6,True,0.0,United States,0.22
+485,1994,36.8,57.7,clear,57.3,True,0.0,United States,0.12
+486,1994,23.5,87.2,clear,55.8,True,0.0,United States,0.12
+487,1994,33.7,33.6,windy,47.9,True,0.0,United States,0.48
+488,1994,25.1,74.4,cloudy,63.6,True,0.0,United States,0.22
+489,1994,28.8,41.7,cloudy,46.9,True,0.0,United States,0.22
+490,1994,18.7,59.6,cloudy,66.7,False,0.18,United States,0.22
+491,1994,17.9,54.1,clear,72.1,True,0.0,United States,0.12
+492,1994,25.8,42.7,cloudy,62.8,True,0.0,United States,0.22
+493,1994,28.9,42.3,cloudy,54.3,True,0.0,United States,0.22
+494,1994,23.2,62.4,hot,63.9,True,0.0,United States,0.62
+495,1994,15.3,73.9,hot,54.0,True,0.0,United States,0.62
+496,1994,14.8,55.9,windy,70.2,True,0.0,United States,0.48
+497,1994,14.4,59.1,cloudy,34.2,True,0.0,United States,0.22
+498,1994,12.4,67.1,cloudy,53.6,True,0.0,United States,0.22
+499,1994,23.7,42.5,rain,32.1,True,0.0,United States,0.48
+500,1994,29.8,69.8,hot,38.6,True,0.0,United States,0.62
+501,1994,22.9,71.1,cloudy,75.7,True,0.0,United States,0.22
+502,1994,9.4,96.0,rain,69.6,True,0.0,United States,0.48
+503,1994,21.9,52.0,rain,48.6,True,0.0,United States,0.48
+504,1994,22.0,50.7,rain,38.5,True,0.0,United States,0.48
+505,1994,35.6,70.3,rain,24.0,True,0.0,United States,0.48
+506,1994,14.3,71.1,clear,50.9,False,0.18,United States,0.12
+507,1994,20.7,49.4,cloudy,89.5,True,0.0,United States,0.22
+508,1994,33.2,51.5,cloudy,63.7,True,0.0,United States,0.22
+509,1994,25.7,66.7,clear,50.7,True,0.0,United States,0.12
+510,1994,26.4,44.8,hot,64.0,True,0.0,United States,0.62
+511,1994,23.7,51.4,cloudy,37.7,True,0.0,United States,0.22
+512,1994,25.0,59.4,clear,54.1,True,0.0,United States,0.12
+513,1994,27.7,73.9,rain,59.3,True,0.0,United States,0.48
+514,1994,18.1,48.3,rain,56.9,True,0.0,United States,0.48
+515,1994,28.3,28.5,rain,68.3,True,0.0,United States,0.48
+516,1994,14.8,27.3,clear,62.5,True,0.0,United States,0.12
+517,1998,25.0,37.8,hot,66.7,True,0.0,France,0.62
+518,1998,24.1,37.0,clear,49.1,True,0.0,France,0.12
+519,1998,19.3,55.5,cloudy,69.7,True,0.0,France,0.22
+520,1998,22.9,39.0,clear,79.2,True,0.0,France,0.12
+521,1998,19.3,46.8,cloudy,45.4,False,0.18,France,0.22
+522,1998,16.6,45.6,rain,46.5,True,0.0,France,0.48
+523,1998,20.9,51.0,cloudy,75.4,True,0.0,France,0.22
+524,1998,16.4,79.2,cloudy,55.5,True,0.0,France,0.22
+525,1998,24.9,68.6,rain,76.2,True,0.0,France,0.48
+526,1998,16.1,58.3,rain,52.2,True,0.0,France,0.48
+527,1998,27.3,50.6,clear,76.9,True,0.0,France,0.12
+528,1998,15.9,51.1,windy,59.7,True,0.0,France,0.48
+529,1998,19.6,63.2,rain,61.4,True,0.0,France,0.48
+530,1998,19.3,67.3,windy,78.3,True,0.0,France,0.48
+531,1998,31.0,43.5,windy,53.3,True,0.0,France,0.48
+532,1998,25.0,58.6,hot,45.8,True,0.0,France,0.62
+533,1998,21.7,25.5,rain,52.2,True,0.0,France,0.48
+534,1998,26.0,61.4,cloudy,63.9,True,0.0,France,0.22
+535,1998,10.4,70.2,clear,37.6,True,0.0,France,0.12
+536,1998,22.7,53.5,cloudy,66.3,True,0.0,France,0.22
+537,1998,35.0,87.1,rain,51.0,False,0.18,France,0.48
+538,1998,23.8,43.9,cloudy,72.9,True,0.0,France,0.22
+539,1998,23.4,61.5,hot,26.9,True,0.0,France,0.62
+540,1998,26.3,57.4,clear,47.8,True,0.0,France,0.12
+541,1998,28.4,56.4,clear,36.1,True,0.0,France,0.12
+542,1998,11.0,56.2,cloudy,47.3,True,0.0,France,0.22
+543,1998,12.9,59.7,cloudy,61.2,True,0.0,France,0.22
+544,1998,24.3,71.6,clear,55.7,True,0.0,France,0.12
+545,1998,18.7,80.0,clear,54.7,True,0.0,France,0.12
+546,1998,30.9,58.0,hot,55.9,True,0.0,France,0.62
+547,1998,21.1,71.0,cloudy,60.6,True,0.0,France,0.22
+548,1998,11.4,46.8,clear,44.9,True,0.0,France,0.12
+549,1998,15.4,70.3,clear,67.2,True,0.0,France,0.12
+550,1998,6.5,45.8,cloudy,66.6,True,0.0,France,0.22
+551,1998,21.6,75.5,clear,63.0,True,0.0,France,0.12
+552,1998,21.9,93.4,rain,65.2,True,0.0,France,0.48
+553,1998,20.5,56.0,rain,61.9,False,0.18,France,0.48
+554,1998,29.5,22.9,clear,84.5,True,0.0,France,0.12
+555,1998,30.2,49.2,cloudy,56.9,True,0.0,France,0.22
+556,1998,22.0,77.7,clear,54.0,True,0.0,France,0.12
+557,1998,10.2,66.8,clear,48.2,True,0.0,France,0.12
+558,1998,26.7,62.0,hot,44.6,True,0.0,France,0.62
+559,1998,26.3,74.1,cloudy,41.8,True,0.0,France,0.22
+560,1998,24.9,65.8,hot,46.4,True,0.0,France,0.62
+561,1998,28.9,77.5,clear,57.1,True,0.0,France,0.12
+562,1998,16.0,72.7,clear,62.3,True,0.0,France,0.12
+563,1998,35.1,82.3,cloudy,58.7,True,0.0,France,0.22
+564,1998,17.2,63.7,cloudy,48.0,True,0.0,France,0.22
+565,1998,27.5,72.5,windy,69.7,True,0.0,France,0.48
+566,1998,12.9,53.1,clear,67.6,True,0.0,France,0.12
+567,1998,17.4,48.4,hot,55.9,False,0.18,France,0.62
+568,1998,32.1,85.3,hot,49.5,True,0.0,France,0.62
+569,1998,21.4,61.5,cloudy,65.1,True,0.0,France,0.22
+570,1998,28.0,70.9,clear,60.4,True,0.0,France,0.12
+571,1998,24.4,60.0,cloudy,39.2,True,0.0,France,0.22
+572,1998,22.4,48.6,clear,57.1,True,0.0,France,0.12
+573,1998,31.2,58.2,rain,61.4,True,0.0,France,0.48
+574,1998,21.6,81.0,cloudy,46.3,False,0.18,France,0.22
+575,1998,12.3,66.9,windy,60.5,True,0.0,France,0.48
+576,1998,18.2,30.6,cloudy,39.1,True,0.0,France,0.22
+577,1998,26.3,54.6,cloudy,75.4,True,0.0,France,0.22
+578,1998,25.4,86.5,rain,74.2,False,0.18,France,0.48
+579,1998,13.6,54.6,cloudy,54.7,True,0.0,France,0.22
+580,1998,18.7,29.2,hot,62.7,False,0.18,France,0.62
+581,2002,19.5,88.3,clear,26.7,True,0.0,South Korea,0.12
+582,2002,20.8,68.9,windy,43.0,True,0.0,Japan,0.48
+583,2002,14.7,56.9,rain,54.2,True,0.0,Japan,0.48
+584,2002,19.2,52.1,hot,44.1,True,0.0,South Korea,0.62
+585,2002,18.6,75.3,cloudy,67.3,True,0.0,Japan,0.22
+586,2002,27.6,49.3,hot,84.0,True,0.0,Japan,0.62
+587,2002,27.9,76.4,clear,42.7,True,0.0,South Korea,0.12
+588,2002,22.1,66.7,rain,47.1,True,0.0,South Korea,0.48
+589,2002,20.6,61.9,clear,61.1,True,0.0,South Korea,0.12
+590,2002,23.8,60.3,clear,78.9,True,0.0,Japan,0.12
+591,2002,18.1,55.2,cloudy,42.1,True,0.0,Japan,0.22
+592,2002,16.1,74.7,clear,61.2,True,0.0,South Korea,0.12
+593,2002,17.4,44.2,clear,81.7,False,0.18,Japan,0.12
+594,2002,19.2,32.0,hot,36.5,False,0.18,South Korea,0.62
+595,2002,16.0,67.8,clear,41.3,True,0.0,Japan,0.12
+596,2002,24.0,68.1,rain,52.5,True,0.0,Japan,0.48
+597,2002,27.4,65.7,clear,51.2,True,0.0,South Korea,0.12
+598,2002,13.5,64.5,rain,68.6,True,0.0,Japan,0.48
+599,2002,23.2,52.9,rain,61.1,True,0.0,South Korea,0.48
+600,2002,21.7,70.6,clear,34.9,True,0.0,South Korea,0.12
+601,2002,25.0,57.3,rain,64.7,True,0.0,Japan,0.48
+602,2002,22.9,50.2,hot,50.5,True,0.0,South Korea,0.62
+603,2002,14.3,53.0,rain,74.6,True,0.0,Japan,0.48
+604,2002,15.4,90.3,clear,49.8,True,0.0,South Korea,0.12
+605,2002,23.2,30.2,cloudy,49.7,True,0.0,Japan,0.22
+606,2002,29.2,66.0,rain,65.0,True,0.0,South Korea,0.48
+607,2002,9.7,31.1,clear,67.9,True,0.0,South Korea,0.12
+608,2002,25.1,56.3,rain,63.8,False,0.18,Japan,0.48
+609,2002,30.1,51.1,clear,36.1,True,0.0,Japan,0.12
+610,2002,22.1,24.6,rain,65.0,False,0.18,South Korea,0.48
+611,2002,26.3,64.2,clear,44.6,True,0.0,South Korea,0.12
+612,2002,18.8,51.9,clear,61.1,True,0.0,Japan,0.12
+613,2002,22.3,24.4,windy,39.5,True,0.0,Japan,0.48
+614,2002,13.3,71.4,hot,63.8,True,0.0,South Korea,0.62
+615,2002,8.9,81.0,hot,47.5,True,0.0,Japan,0.62
+616,2002,28.7,81.8,windy,41.3,True,0.0,South Korea,0.48
+617,2002,17.1,63.7,cloudy,67.3,True,0.0,Japan,0.22
+618,2002,20.3,58.7,clear,61.1,True,0.0,South Korea,0.12
+619,2002,14.7,79.3,clear,50.0,True,0.0,South Korea,0.12
+620,2002,14.5,84.9,cloudy,76.9,True,0.0,Japan,0.22
+621,2002,22.0,76.1,clear,52.3,True,0.0,South Korea,0.12
+622,2002,18.6,42.9,windy,58.4,True,0.0,Japan,0.48
+623,2002,25.3,61.2,clear,61.5,True,0.0,Japan,0.12
+624,2002,25.7,65.0,clear,49.9,True,0.0,South Korea,0.12
+625,2002,24.9,29.0,clear,64.1,True,0.0,Japan,0.12
+626,2002,24.4,65.5,clear,51.1,False,0.18,Japan,0.12
+627,2002,32.5,94.4,clear,52.6,False,0.18,South Korea,0.12
+628,2002,16.6,68.2,cloudy,75.7,True,0.0,South Korea,0.22
+629,2002,22.7,81.6,clear,44.5,True,0.0,Japan,0.12
+630,2002,29.8,60.9,cloudy,26.6,True,0.0,South Korea,0.22
+631,2002,30.6,56.8,hot,78.9,True,0.0,South Korea,0.62
+632,2002,14.5,64.1,cloudy,91.1,True,0.0,Japan,0.22
+633,2002,21.1,44.9,rain,52.7,True,0.0,Japan,0.48
+634,2002,31.1,42.6,clear,32.8,True,0.0,South Korea,0.12
+635,2002,26.0,78.3,clear,54.0,False,0.18,Japan,0.12
+636,2002,24.2,80.0,clear,54.3,False,0.18,South Korea,0.12
+637,2002,21.7,42.1,windy,55.5,True,0.0,Japan,0.48
+638,2002,20.7,73.5,cloudy,43.5,True,0.0,South Korea,0.22
+639,2002,24.7,56.6,clear,65.5,False,0.18,South Korea,0.12
+640,2002,21.5,63.4,cloudy,64.8,True,0.0,Japan,0.22
+641,2002,22.7,65.4,hot,38.6,False,0.18,South Korea,0.62
+642,2002,23.5,73.9,rain,67.1,True,0.0,Japan,0.48
+643,2002,18.9,59.3,cloudy,84.7,False,0.18,South Korea,0.22
+644,2002,26.2,80.6,hot,60.2,True,0.0,Japan,0.62
+645,2006,39.0,63.0,rain,53.6,False,0.18,Germany,0.48
+646,2006,12.3,68.0,cloudy,56.2,True,0.0,Germany,0.22
+647,2006,24.9,44.7,clear,66.0,True,0.0,Germany,0.12
+648,2006,18.4,92.5,clear,35.5,True,0.0,Germany,0.12
+649,2006,26.5,65.5,windy,60.1,True,0.0,Germany,0.48
+650,2006,23.3,69.4,cloudy,52.9,True,0.0,Germany,0.22
+651,2006,27.6,32.3,clear,82.0,True,0.0,Germany,0.12
+652,2006,30.1,44.8,cloudy,55.7,True,0.0,Germany,0.22
+653,2006,24.2,77.8,clear,79.7,True,0.0,Germany,0.12
+654,2006,29.8,62.6,hot,43.7,True,0.0,Germany,0.62
+655,2006,8.9,27.4,clear,65.6,True,0.0,Germany,0.12
+656,2006,32.5,74.6,rain,62.2,True,0.0,Germany,0.48
+657,2006,25.3,49.3,cloudy,46.7,True,0.0,Germany,0.22
+658,2006,29.5,80.6,clear,60.3,True,0.0,Germany,0.12
+659,2006,15.7,56.6,clear,73.8,False,0.18,Germany,0.12
+660,2006,18.0,61.3,rain,53.8,True,0.0,Germany,0.48
+661,2006,23.9,76.9,clear,36.0,True,0.0,Germany,0.12
+662,2006,22.9,43.6,clear,57.8,True,0.0,Germany,0.12
+663,2006,24.7,42.1,rain,46.3,True,0.0,Germany,0.48
+664,2006,29.5,54.9,clear,53.5,True,0.0,Germany,0.12
+665,2006,12.4,71.2,clear,56.9,True,0.0,Germany,0.12
+666,2006,28.8,36.7,clear,35.8,True,0.0,Germany,0.12
+667,2006,23.0,31.3,hot,37.0,True,0.0,Germany,0.62
+668,2006,21.8,71.2,clear,64.3,True,0.0,Germany,0.12
+669,2006,14.2,48.4,clear,51.2,True,0.0,Germany,0.12
+670,2006,26.0,51.7,clear,24.7,True,0.0,Germany,0.12
+671,2006,8.5,28.3,clear,68.2,True,0.0,Germany,0.12
+672,2006,26.9,47.1,clear,61.5,True,0.0,Germany,0.12
+673,2006,14.0,57.9,clear,48.7,True,0.0,Germany,0.12
+674,2006,23.3,72.9,clear,40.9,True,0.0,Germany,0.12
+675,2006,22.3,45.7,clear,68.9,True,0.0,Germany,0.12
+676,2006,30.0,84.5,hot,62.5,True,0.0,Germany,0.62
+677,2006,21.9,47.0,clear,89.0,True,0.0,Germany,0.12
+678,2006,18.8,47.1,clear,63.5,False,0.18,Germany,0.12
+679,2006,20.0,82.6,hot,63.0,True,0.0,Germany,0.62
+680,2006,30.6,61.4,hot,55.8,True,0.0,Germany,0.62
+681,2006,26.2,49.2,rain,68.6,True,0.0,Germany,0.48
+682,2006,20.7,55.5,clear,66.1,True,0.0,Germany,0.12
+683,2006,21.6,79.6,clear,74.3,True,0.0,Germany,0.12
+684,2006,13.6,81.5,clear,51.2,True,0.0,Germany,0.12
+685,2006,25.3,44.9,clear,52.3,True,0.0,Germany,0.12
+686,2006,12.4,57.3,clear,51.8,True,0.0,Germany,0.12
+687,2006,27.5,59.4,cloudy,68.3,True,0.0,Germany,0.22
+688,2006,23.8,42.2,clear,77.5,True,0.0,Germany,0.12
+689,2006,37.3,57.1,cloudy,52.0,True,0.0,Germany,0.22
+690,2006,16.4,58.1,clear,52.5,True,0.0,Germany,0.12
+691,2006,22.4,76.2,clear,62.1,True,0.0,Germany,0.12
+692,2006,33.8,77.3,rain,54.8,True,0.0,Germany,0.48
+693,2006,30.1,52.7,hot,70.4,True,0.0,Germany,0.62
+694,2006,18.8,54.6,clear,28.7,False,0.18,Germany,0.12
+695,2006,24.3,68.6,cloudy,47.3,True,0.0,Germany,0.22
+696,2006,23.0,48.6,clear,47.8,True,0.0,Germany,0.12
+697,2006,24.7,67.4,clear,27.8,True,0.0,Germany,0.12
+698,2006,18.8,56.6,rain,45.5,True,0.0,Germany,0.48
+699,2006,22.5,42.5,clear,46.1,True,0.0,Germany,0.12
+700,2006,13.4,42.7,cloudy,55.4,True,0.0,Germany,0.22
+701,2006,23.8,81.2,cloudy,72.5,False,0.18,Germany,0.22
+702,2006,25.7,55.5,clear,54.8,True,0.0,Germany,0.12
+703,2006,21.6,84.2,clear,44.6,True,0.0,Germany,0.12
+704,2006,13.3,49.8,clear,57.3,True,0.0,Germany,0.12
+705,2006,28.9,62.7,windy,71.6,False,0.18,Germany,0.48
+706,2006,25.2,96.0,cloudy,45.3,True,0.0,Germany,0.22
+707,2006,18.6,41.1,clear,46.2,False,0.18,Germany,0.12
+708,2006,21.3,27.6,clear,65.3,True,0.0,Germany,0.12
+709,2010,14.0,78.6,cloudy,55.1,False,0.18,South Africa,0.22
+710,2010,16.8,44.8,clear,66.4,True,0.0,South Africa,0.12
+711,2010,19.8,57.7,cloudy,57.8,True,0.0,South Africa,0.22
+712,2010,30.4,48.6,rain,67.1,True,0.0,South Africa,0.48
+713,2010,19.2,62.3,cloudy,44.5,True,0.0,South Africa,0.22
+714,2010,26.8,42.8,clear,57.8,True,0.0,South Africa,0.12
+715,2010,19.8,55.1,clear,55.3,True,0.0,South Africa,0.12
+716,2010,24.5,65.2,clear,42.2,True,0.0,South Africa,0.12
+717,2010,22.2,41.9,cloudy,37.7,True,0.0,South Africa,0.22
+718,2010,28.2,46.8,hot,66.9,True,0.0,South Africa,0.62
+719,2010,19.8,52.4,clear,53.4,True,0.0,South Africa,0.12
+720,2010,13.6,35.1,cloudy,44.7,True,0.0,South Africa,0.22
+721,2010,14.7,51.2,rain,56.7,True,0.0,South Africa,0.48
+722,2010,19.8,59.9,clear,72.7,True,0.0,South Africa,0.12
+723,2010,15.5,51.6,clear,28.4,True,0.0,South Africa,0.12
+724,2010,25.5,53.7,clear,38.5,False,0.18,South Africa,0.12
+725,2010,20.2,57.7,rain,46.0,True,0.0,South Africa,0.48
+726,2010,37.2,47.5,cloudy,77.0,True,0.0,South Africa,0.22
+727,2010,12.6,69.1,rain,61.7,True,0.0,South Africa,0.48
+728,2010,24.2,81.0,hot,68.0,True,0.0,South Africa,0.62
+729,2010,16.2,50.6,rain,43.2,True,0.0,South Africa,0.48
+730,2010,20.0,65.8,windy,43.4,True,0.0,South Africa,0.48
+731,2010,23.8,54.2,rain,63.8,True,0.0,South Africa,0.48
+732,2010,9.0,63.8,hot,58.8,True,0.0,South Africa,0.62
+733,2010,24.4,83.1,hot,65.1,True,0.0,South Africa,0.62
+734,2010,34.4,66.1,rain,55.6,True,0.0,South Africa,0.48
+735,2010,20.3,29.6,rain,61.6,True,0.0,South Africa,0.48
+736,2010,24.6,65.3,windy,60.1,True,0.0,South Africa,0.48
+737,2010,29.1,77.7,cloudy,68.1,True,0.0,South Africa,0.22
+738,2010,22.0,54.5,cloudy,68.5,True,0.0,South Africa,0.22
+739,2010,19.5,73.9,cloudy,36.9,True,0.0,South Africa,0.22
+740,2010,9.3,47.0,hot,28.8,True,0.0,South Africa,0.62
+741,2010,26.8,34.2,cloudy,71.0,True,0.0,South Africa,0.22
+742,2010,22.3,60.3,rain,73.4,True,0.0,South Africa,0.48
+743,2010,16.9,29.9,rain,44.7,True,0.0,South Africa,0.48
+744,2010,23.8,54.2,windy,33.8,False,0.18,South Africa,0.48
+745,2010,19.5,78.6,clear,59.3,True,0.0,South Africa,0.12
+746,2010,19.8,27.4,rain,70.1,True,0.0,South Africa,0.48
+747,2010,26.6,37.5,rain,81.4,True,0.0,South Africa,0.48
+748,2010,15.0,41.5,windy,64.7,True,0.0,South Africa,0.48
+749,2010,29.3,57.0,hot,53.2,True,0.0,South Africa,0.62
+750,2010,14.6,52.1,cloudy,46.4,True,0.0,South Africa,0.22
+751,2010,19.0,80.4,cloudy,58.1,True,0.0,South Africa,0.22
+752,2010,34.5,73.3,clear,54.1,True,0.0,South Africa,0.12
+753,2010,29.8,65.9,windy,44.8,True,0.0,South Africa,0.48
+754,2010,23.6,60.3,clear,84.6,True,0.0,South Africa,0.12
+755,2010,17.4,64.3,rain,81.2,True,0.0,South Africa,0.48
+756,2010,19.8,44.2,rain,72.8,True,0.0,South Africa,0.48
+757,2010,23.4,71.7,cloudy,46.0,True,0.0,South Africa,0.22
+758,2010,23.2,40.2,clear,69.1,True,0.0,South Africa,0.12
+759,2010,22.5,71.4,clear,66.3,True,0.0,South Africa,0.12
+760,2010,22.8,77.0,hot,63.8,True,0.0,South Africa,0.62
+761,2010,21.7,61.4,cloudy,74.2,True,0.0,South Africa,0.22
+762,2010,14.3,55.2,clear,66.3,True,0.0,South Africa,0.12
+763,2010,19.9,64.4,rain,67.6,True,0.0,South Africa,0.48
+764,2010,28.5,15.0,clear,66.3,True,0.0,South Africa,0.12
+765,2010,14.8,62.8,hot,62.4,True,0.0,South Africa,0.62
+766,2010,21.9,56.2,clear,34.8,True,0.0,South Africa,0.12
+767,2010,18.1,57.2,clear,59.1,True,0.0,South Africa,0.12
+768,2010,23.7,69.3,clear,50.8,True,0.0,South Africa,0.12
+769,2010,20.7,56.8,cloudy,41.4,True,0.0,South Africa,0.22
+770,2010,31.9,39.8,cloudy,79.9,True,0.0,South Africa,0.22
+771,2010,26.0,55.7,rain,80.5,True,0.0,South Africa,0.48
+772,2010,15.1,59.1,cloudy,75.7,True,0.0,South Africa,0.22
+773,2014,27.0,59.8,clear,61.3,False,0.18,Brazil,0.12
+774,2014,18.4,60.6,clear,75.6,True,0.0,Brazil,0.12
+775,2014,19.5,74.6,clear,58.2,True,0.0,Brazil,0.12
+776,2014,24.9,40.6,windy,60.6,True,0.0,Brazil,0.48
+777,2014,20.0,60.8,clear,43.8,True,0.0,Brazil,0.12
+778,2014,28.4,78.6,windy,63.2,True,0.0,Brazil,0.48
+779,2014,18.4,30.2,clear,58.8,True,0.0,Brazil,0.12
+780,2014,19.3,60.9,clear,41.1,True,0.0,Brazil,0.12
+781,2014,19.1,48.6,clear,57.3,True,0.0,Brazil,0.12
+782,2014,19.6,52.1,clear,57.0,True,0.0,Brazil,0.12
+783,2014,29.6,43.5,rain,81.4,True,0.0,Brazil,0.48
+784,2014,26.8,55.3,cloudy,69.6,True,0.0,Brazil,0.22
+785,2014,33.3,87.5,clear,58.1,True,0.0,Brazil,0.12
+786,2014,36.6,37.8,rain,61.2,True,0.0,Brazil,0.48
+787,2014,16.8,39.3,cloudy,58.6,True,0.0,Brazil,0.22
+788,2014,23.4,37.2,windy,55.4,False,0.18,Brazil,0.48
+789,2014,15.9,85.6,windy,43.9,True,0.0,Brazil,0.48
+790,2014,18.3,50.6,rain,56.0,True,0.0,Brazil,0.48
+791,2014,19.2,57.6,rain,48.3,True,0.0,Brazil,0.48
+792,2014,16.7,51.6,rain,41.7,True,0.0,Brazil,0.48
+793,2014,16.7,42.9,cloudy,64.6,True,0.0,Brazil,0.22
+794,2014,22.1,54.2,rain,63.1,True,0.0,Brazil,0.48
+795,2014,15.7,96.0,clear,34.8,True,0.0,Brazil,0.12
+796,2014,28.1,80.3,rain,56.4,True,0.0,Brazil,0.48
+797,2014,17.5,44.4,windy,70.9,True,0.0,Brazil,0.48
+798,2014,39.0,68.4,clear,71.8,True,0.0,Brazil,0.12
+799,2014,20.3,44.7,hot,71.3,True,0.0,Brazil,0.62
+800,2014,23.4,29.6,windy,58.5,True,0.0,Brazil,0.48
+801,2014,15.2,74.3,clear,47.0,True,0.0,Brazil,0.12
+802,2014,33.2,76.6,cloudy,43.9,True,0.0,Brazil,0.22
+803,2014,29.7,74.7,windy,62.5,True,0.0,Brazil,0.48
+804,2014,24.8,50.5,windy,62.9,True,0.0,Brazil,0.48
+805,2014,14.9,55.3,clear,74.7,True,0.0,Brazil,0.12
+806,2014,24.3,70.0,clear,72.3,False,0.18,Brazil,0.12
+807,2014,16.3,64.3,rain,56.3,True,0.0,Brazil,0.48
+808,2014,31.8,51.7,clear,41.8,True,0.0,Brazil,0.12
+809,2014,27.9,32.1,clear,53.9,True,0.0,Brazil,0.12
+810,2014,23.6,59.8,clear,60.8,True,0.0,Brazil,0.12
+811,2014,8.4,75.3,clear,55.4,True,0.0,Brazil,0.12
+812,2014,17.1,38.8,cloudy,50.5,True,0.0,Brazil,0.22
+813,2014,27.1,68.2,cloudy,61.3,True,0.0,Brazil,0.22
+814,2014,30.3,63.3,cloudy,51.4,True,0.0,Brazil,0.22
+815,2014,29.7,70.0,rain,49.8,True,0.0,Brazil,0.48
+816,2014,13.4,72.0,clear,62.0,True,0.0,Brazil,0.12
+817,2014,24.8,46.9,clear,52.8,True,0.0,Brazil,0.12
+818,2014,29.1,32.1,clear,61.2,True,0.0,Brazil,0.12
+819,2014,13.0,49.5,clear,61.6,True,0.0,Brazil,0.12
+820,2014,23.0,72.2,clear,43.2,True,0.0,Brazil,0.12
+821,2014,24.6,49.3,clear,51.7,False,0.18,Brazil,0.12
+822,2014,21.2,46.9,clear,76.7,True,0.0,Brazil,0.12
+823,2014,11.9,28.9,clear,42.9,True,0.0,Brazil,0.12
+824,2014,21.0,86.0,rain,30.5,True,0.0,Brazil,0.48
+825,2014,21.0,71.2,cloudy,33.8,True,0.0,Brazil,0.22
+826,2014,22.1,70.3,windy,58.4,True,0.0,Brazil,0.48
+827,2014,19.6,73.5,rain,58.4,True,0.0,Brazil,0.48
+828,2014,20.3,67.2,cloudy,56.5,True,0.0,Brazil,0.22
+829,2014,22.8,54.1,clear,73.8,False,0.18,Brazil,0.12
+830,2014,25.7,55.4,cloudy,24.0,True,0.0,Brazil,0.22
+831,2014,21.2,51.2,clear,63.1,True,0.0,Brazil,0.12
+832,2014,20.5,96.0,cloudy,78.3,True,0.0,Brazil,0.22
+833,2014,23.6,66.9,clear,43.3,False,0.18,Brazil,0.12
+834,2014,11.5,50.6,cloudy,53.1,True,0.0,Brazil,0.22
+835,2014,25.9,65.4,clear,48.2,False,0.18,Brazil,0.12
+836,2014,23.0,41.8,rain,46.4,True,0.0,Brazil,0.48
+837,2018,23.2,82.1,hot,53.8,False,0.18,Russia,0.62
+838,2018,28.8,47.4,rain,76.6,True,0.0,Russia,0.48
+839,2018,11.3,66.0,cloudy,81.9,True,0.0,Russia,0.22
+840,2018,11.2,75.1,cloudy,53.6,True,0.0,Russia,0.22
+841,2018,24.6,64.2,clear,82.8,True,0.0,Russia,0.12
+842,2018,23.0,59.5,rain,58.5,True,0.0,Russia,0.48
+843,2018,24.0,58.2,cloudy,80.8,True,0.0,Russia,0.22
+844,2018,20.2,57.1,clear,56.8,True,0.0,Russia,0.12
+845,2018,27.0,48.8,clear,59.7,True,0.0,Russia,0.12
+846,2018,28.6,50.8,windy,62.8,True,0.0,Russia,0.48
+847,2018,25.9,81.7,cloudy,95.0,True,0.0,Russia,0.22
+848,2018,21.4,56.3,cloudy,69.1,True,0.0,Russia,0.22
+849,2018,10.4,45.4,cloudy,48.8,True,0.0,Russia,0.22
+850,2018,27.6,49.7,clear,70.6,True,0.0,Russia,0.12
+851,2018,30.3,75.6,cloudy,53.3,True,0.0,Russia,0.22
+852,2018,26.9,68.8,clear,51.6,True,0.0,Russia,0.12
+853,2018,17.7,67.0,cloudy,69.8,False,0.18,Russia,0.22
+854,2018,27.0,53.9,rain,58.4,True,0.0,Russia,0.48
+855,2018,28.2,67.2,clear,61.6,True,0.0,Russia,0.12
+856,2018,32.4,47.7,rain,58.2,True,0.0,Russia,0.48
+857,2018,17.7,53.8,clear,62.4,True,0.0,Russia,0.12
+858,2018,21.6,73.5,rain,63.5,True,0.0,Russia,0.48
+859,2018,27.5,72.0,cloudy,32.8,True,0.0,Russia,0.22
+860,2018,23.3,42.3,cloudy,66.7,True,0.0,Russia,0.22
+861,2018,16.3,44.3,cloudy,45.2,True,0.0,Russia,0.22
+862,2018,25.5,59.7,windy,39.3,True,0.0,Russia,0.48
+863,2018,26.5,85.6,cloudy,57.2,True,0.0,Russia,0.22
+864,2018,23.5,27.4,rain,59.1,True,0.0,Russia,0.48
+865,2018,24.3,62.5,rain,49.0,True,0.0,Russia,0.48
+866,2018,21.4,36.0,clear,68.8,True,0.0,Russia,0.12
+867,2018,31.9,47.9,clear,40.6,True,0.0,Russia,0.12
+868,2018,17.6,52.2,cloudy,52.7,True,0.0,Russia,0.22
+869,2018,19.5,51.3,clear,50.4,False,0.18,Russia,0.12
+870,2018,23.1,49.5,clear,57.4,True,0.0,Russia,0.12
+871,2018,28.3,58.1,clear,61.6,True,0.0,Russia,0.12
+872,2018,14.0,49.4,cloudy,44.9,True,0.0,Russia,0.22
+873,2018,15.1,34.6,clear,67.4,True,0.0,Russia,0.12
+874,2018,10.8,70.5,rain,58.8,True,0.0,Russia,0.48
+875,2018,23.2,70.0,cloudy,33.4,True,0.0,Russia,0.22
+876,2018,16.3,71.5,rain,32.5,True,0.0,Russia,0.48
+877,2018,20.7,33.3,clear,57.8,True,0.0,Russia,0.12
+878,2018,27.0,62.8,cloudy,55.1,True,0.0,Russia,0.22
+879,2018,19.2,68.8,clear,56.7,True,0.0,Russia,0.12
+880,2018,24.4,41.5,rain,57.6,True,0.0,Russia,0.48
+881,2018,21.2,58.1,clear,60.9,True,0.0,Russia,0.12
+882,2018,27.0,56.1,windy,70.3,True,0.0,Russia,0.48
+883,2018,25.9,87.5,clear,43.6,True,0.0,Russia,0.12
+884,2018,18.8,88.8,cloudy,42.8,True,0.0,Russia,0.22
+885,2018,22.0,31.4,clear,43.8,True,0.0,Russia,0.12
+886,2018,29.3,96.0,cloudy,61.8,True,0.0,Russia,0.22
+887,2018,25.4,43.4,cloudy,74.2,False,0.18,Russia,0.22
+888,2018,14.6,73.7,clear,52.4,True,0.0,Russia,0.12
+889,2018,26.9,73.5,clear,25.5,True,0.0,Russia,0.12
+890,2018,16.5,42.1,clear,35.8,True,0.0,Russia,0.12
+891,2018,31.5,65.9,clear,47.2,True,0.0,Russia,0.12
+892,2018,29.1,56.3,windy,50.7,True,0.0,Russia,0.48
+893,2018,24.7,66.9,clear,52.7,True,0.0,Russia,0.12
+894,2018,23.9,61.7,clear,58.5,True,0.0,Russia,0.12
+895,2018,21.7,77.1,windy,53.9,True,0.0,Russia,0.48
+896,2018,27.1,59.2,clear,71.6,False,0.18,Russia,0.12
+897,2018,20.8,55.3,clear,49.2,True,0.0,Russia,0.12
+898,2018,24.4,75.5,rain,46.8,True,0.0,Russia,0.48
+899,2018,28.2,67.3,hot,64.2,True,0.0,Russia,0.62
+900,2018,19.6,69.7,rain,38.0,True,0.0,Russia,0.48
+901,2022,19.3,47.4,cloudy,63.1,False,0.18,Qatar,0.22
+902,2022,15.8,41.3,windy,59.3,True,0.0,Qatar,0.48
+903,2022,16.6,48.9,clear,56.1,True,0.0,Qatar,0.12
+904,2022,12.0,48.1,windy,78.6,True,0.0,Qatar,0.48
+905,2022,27.4,70.6,hot,49.9,True,0.0,Qatar,0.62
+906,2022,33.9,73.6,windy,84.8,True,0.0,Qatar,0.48
+907,2022,31.6,55.5,clear,55.1,True,0.0,Qatar,0.12
+908,2022,13.2,80.9,clear,41.4,True,0.0,Qatar,0.12
+909,2022,27.3,79.9,rain,58.9,True,0.0,Qatar,0.48
+910,2022,31.5,61.9,cloudy,44.0,True,0.0,Qatar,0.22
+911,2022,20.3,44.8,cloudy,48.2,True,0.0,Qatar,0.22
+912,2022,23.6,83.2,windy,63.2,True,0.0,Qatar,0.48
+913,2022,11.0,57.0,cloudy,65.2,True,0.0,Qatar,0.22
+914,2022,24.6,60.0,clear,49.9,True,0.0,Qatar,0.12
+915,2022,16.6,52.6,clear,70.8,True,0.0,Qatar,0.12
+916,2022,24.2,43.8,clear,73.0,True,0.0,Qatar,0.12
+917,2022,13.6,34.5,clear,76.7,False,0.18,Qatar,0.12
+918,2022,26.3,68.1,clear,64.9,True,0.0,Qatar,0.12
+919,2022,29.1,45.5,rain,75.7,True,0.0,Qatar,0.48
+920,2022,18.3,96.0,rain,33.5,True,0.0,Qatar,0.48
+921,2022,16.2,40.6,cloudy,53.9,True,0.0,Qatar,0.22
+922,2022,10.1,37.9,clear,46.7,True,0.0,Qatar,0.12
+923,2022,21.4,66.2,rain,59.5,True,0.0,Qatar,0.48
+924,2022,19.5,82.5,rain,50.6,True,0.0,Qatar,0.48
+925,2022,13.7,59.0,hot,55.8,True,0.0,Qatar,0.62
+926,2022,25.7,67.2,cloudy,82.5,True,0.0,Qatar,0.22
+927,2022,20.3,28.5,rain,55.8,True,0.0,Qatar,0.48
+928,2022,16.5,47.2,cloudy,63.4,True,0.0,Qatar,0.22
+929,2022,19.7,40.8,cloudy,55.0,True,0.0,Qatar,0.22
+930,2022,29.4,27.7,hot,59.0,True,0.0,Qatar,0.62
+931,2022,26.6,59.9,clear,58.1,True,0.0,Qatar,0.12
+932,2022,22.2,22.1,clear,63.8,True,0.0,Qatar,0.12
+933,2022,26.7,36.8,clear,73.1,True,0.0,Qatar,0.12
+934,2022,16.0,49.4,cloudy,79.4,False,0.18,Qatar,0.22
+935,2022,23.2,44.7,cloudy,62.0,True,0.0,Qatar,0.22
+936,2022,23.9,64.3,rain,65.7,True,0.0,Qatar,0.48
+937,2022,20.2,62.9,cloudy,43.0,True,0.0,Qatar,0.22
+938,2022,25.6,72.3,clear,56.9,True,0.0,Qatar,0.12
+939,2022,18.3,70.0,hot,70.2,True,0.0,Qatar,0.62
+940,2022,26.1,76.3,clear,69.3,True,0.0,Qatar,0.12
+941,2022,26.3,58.0,windy,60.8,True,0.0,Qatar,0.48
+942,2022,5.5,62.9,clear,69.5,True,0.0,Qatar,0.12
+943,2022,30.1,66.2,cloudy,64.4,True,0.0,Qatar,0.22
+944,2022,4.7,60.3,cloudy,73.6,True,0.0,Qatar,0.22
+945,2022,19.3,51.6,hot,61.8,True,0.0,Qatar,0.62
+946,2022,29.2,52.7,clear,53.4,True,0.0,Qatar,0.12
+947,2022,21.1,44.9,hot,62.4,True,0.0,Qatar,0.62
+948,2022,14.2,64.7,cloudy,24.0,True,0.0,Qatar,0.22
+949,2022,16.4,56.5,cloudy,63.0,True,0.0,Qatar,0.22
+950,2022,29.2,47.4,cloudy,24.0,True,0.0,Qatar,0.22
+951,2022,11.5,47.4,clear,35.6,True,0.0,Qatar,0.12
+952,2022,29.8,38.6,cloudy,63.9,True,0.0,Qatar,0.22
+953,2022,22.7,73.7,clear,64.2,True,0.0,Qatar,0.12
+954,2022,15.8,59.3,clear,42.9,True,0.0,Qatar,0.12
+955,2022,19.5,44.2,cloudy,48.7,True,0.0,Qatar,0.22
+956,2022,16.9,70.9,cloudy,75.8,True,0.0,Qatar,0.22
+957,2022,28.2,49.0,clear,51.7,True,0.0,Qatar,0.12
+958,2022,27.4,35.5,clear,87.2,True,0.0,Qatar,0.12
+959,2022,12.7,74.3,clear,58.0,True,0.0,Qatar,0.12
+960,2022,20.6,49.4,clear,63.3,True,0.0,Qatar,0.12
+961,2022,17.8,51.5,cloudy,79.0,True,0.0,Qatar,0.22
+962,2022,30.8,58.7,clear,59.7,True,0.0,Qatar,0.12
+963,2022,14.9,76.3,hot,45.0,True,0.0,Qatar,0.62
+964,2022,32.6,58.3,clear,56.6,True,0.0,Qatar,0.12
+965,2026,22.8,38.8,clear,57.5,False,0.18,Mexico,0.12
+966,2026,16.0,66.7,hot,40.3,True,0.0,Mexico,0.62
+967,2026,18.9,50.2,clear,54.7,False,0.18,Canada,0.12
+968,2026,18.2,88.2,cloudy,48.4,False,0.18,United States,0.22
+969,2026,15.4,58.0,windy,70.0,True,0.0,United States,0.48
+970,2026,23.6,22.2,windy,58.4,True,0.0,United States,0.48
+971,2026,15.6,63.7,rain,54.3,True,0.0,United States,0.48
+972,2026,9.9,89.1,clear,56.6,True,0.0,Canada,0.12

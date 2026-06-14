@@ -1,0 +1,103 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1911 >>
+stream
+BT
+/F1 17 Tf
+50 780 Td
+/F1 18 Tf
+(# Causal + Decision Intelligence Brief) Tj
+0 -21 Td
+/F1 10 Tf
+(## Executive Summary) Tj
+0 -21 Td
+/F1 10 Tf
+(WorldCupROI has been upgraded from an ROI prediction workflow into a decision intelligence p) Tj
+0 -21 Td
+/F1 10 Tf
+(## Recommended Sponsor Investment Logic) Tj
+0 -21 Td
+/F1 10 Tf
+(- Budget policy: under a 25M cap, expected portfolio ROI is 4.14x with risk-adjusted ROI 3.9) Tj
+0 -21 Td
+/F1 10 Tf
+(- Causal evidence: media_exposure has the strongest residualized effect signal \(0.7113\); tre) Tj
+0 -21 Td
+/F1 10 Tf
+(- Counterfactual risk: negative_news_shock has the lowest worst-case ROI \(2.95x\).) Tj
+0 -21 Td
+/F1 10 Tf
+(- Risk-sensitive pick: Brazil x Adidas leads after tail-risk adjustment.) Tj
+0 -21 Td
+/F1 10 Tf
+(- Future link: Brazil x Adidas is the top graph-learning future sponsor link.) Tj
+0 -21 Td
+/F1 10 Tf
+(- Funnel path: Brazil x Adidas has the strongest Exposure -> ROI path.) Tj
+0 -21 Td
+/F1 10 Tf
+(## Operating Guidance) Tj
+0 -21 Td
+/F1 10 Tf
+(- Use optimization results to shortlist sponsor portfolios.) Tj
+0 -21 Td
+/F1 10 Tf
+(- Use causal inference to check whether exposure and player signals are decision evidence or) Tj
+0 -21 Td
+/F1 10 Tf
+(- Use counterfactual and tail-risk outputs before scaling spend.) Tj
+0 -21 Td
+/F1 10 Tf
+(- Use graph learning for future partnership discovery, not as a standalone investment decisi) Tj
+0 -21 Td
+/F1 10 Tf
+(## Generated Artifacts) Tj
+0 -21 Td
+/F1 10 Tf
+(- `reports/sponsor_optimization_report.md`) Tj
+0 -21 Td
+/F1 10 Tf
+(- `reports/causal_inference_report.md`) Tj
+0 -21 Td
+/F1 10 Tf
+(- `reports/temporal_modeling_report.md`) Tj
+0 -21 Td
+/F1 10 Tf
+(- `reports/funnel_behavior_modeling_report.md`) Tj
+0 -21 Td
+/F1 10 Tf
+(- `reports/graph_learning_report.md`) Tj
+0 -21 Td
+/F1 10 Tf
+(- `reports/counterfactual_engine_report.md`) Tj
+0 -21 Td
+/F1 10 Tf
+(- `reports/tail_risk_analysis_report.md`) Tj
+0 -21 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+2274
+%%EOF

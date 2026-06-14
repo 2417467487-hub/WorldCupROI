@@ -38,9 +38,9 @@
     "stage_premium_score"
   ],
   "metrics": {
-    "mae": 0.118383,
-    "rmse": 0.144551,
-    "r2": 0.87788
+    "mae": 0.116457,
+    "rmse": 0.144255,
+    "r2": 0.84778
   },
   "artifact_path": "models\\sponsor_roi_model.pkl",
   "report_path": "reports\\roi_model_metrics.md",

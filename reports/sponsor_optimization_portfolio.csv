@@ -1,0 +1,14 @@
+team,sponsor,stage,expected_roi,avg_spend_m,fan_score,exposure,momentum,risk_score,downside_roi,samples,ucb_score,rl_value_score,optimizer_score,min_budget_m,recommended_budget_m,budget_cap_m,decision_rule
+Brazil,Adidas,group_or_knockout,4.1407,26.5,0.7592,0.528,0.7395,0.3424,3.9175,58,4.3183,4.3983,4.3543,26.5,25.0,25.0,bayesian_ucb_plus_rl_value
+Brazil,Adidas,group_or_knockout,4.1407,26.5,0.7592,0.528,0.7395,0.3424,3.9175,58,4.3183,4.3983,4.3543,26.5,26.5,50.0,bayesian_ucb_plus_rl_value
+Russia,Hyundai,group_or_knockout,4.0095,27.7,0.6335,0.5504,0.6604,0.3345,3.7925,21,4.1413,4.2344,4.1832,27.7,23.5,50.0,bayesian_ucb_plus_rl_value
+Brazil,Adidas,group_or_knockout,4.1407,26.5,0.7592,0.528,0.7395,0.3424,3.9175,58,4.3183,4.3983,4.3543,26.5,26.5,100.0,bayesian_ucb_plus_rl_value
+Russia,Hyundai,group_or_knockout,4.0095,27.7,0.6335,0.5504,0.6604,0.3345,3.7925,21,4.1413,4.2344,4.1832,27.7,27.7,100.0,bayesian_ucb_plus_rl_value
+Hungary,Adidas,group_or_knockout,4.0503,26.96,0.5923,0.4337,0.613,0.3297,3.8317,3,4.1644,4.1175,4.1433,26.96,20.22,100.0,bayesian_ucb_plus_rl_value
+Argentina,Hyundai,group_or_knockout,3.9357,33.96,0.6084,0.5074,0.6974,0.3444,3.7108,54,4.0535,4.1457,4.095,33.96,25.47,100.0,bayesian_ucb_plus_rl_value
+Brazil,Adidas,group_or_knockout,4.1407,26.5,0.7592,0.528,0.7395,0.3424,3.9175,58,4.3183,4.3983,4.3543,26.5,26.5,150.0,bayesian_ucb_plus_rl_value
+Russia,Hyundai,group_or_knockout,4.0095,27.7,0.6335,0.5504,0.6604,0.3345,3.7925,21,4.1413,4.2344,4.1832,27.7,27.7,150.0,bayesian_ucb_plus_rl_value
+Hungary,Adidas,group_or_knockout,4.0503,26.96,0.5923,0.4337,0.613,0.3297,3.8317,3,4.1644,4.1175,4.1433,26.96,20.22,150.0,bayesian_ucb_plus_rl_value
+Argentina,Hyundai,group_or_knockout,3.9357,33.96,0.6084,0.5074,0.6974,0.3444,3.7108,54,4.0535,4.1457,4.095,33.96,25.47,150.0,bayesian_ucb_plus_rl_value
+Brazil,Adidas,tournament,3.996,26.5,0.6486,0.3284,0.6594,0.3513,3.7703,57,4.099,4.0018,4.0553,26.5,19.875,150.0,bayesian_ucb_plus_rl_value
+France,Qatar Airways,group_or_knockout,3.8852,27.11,0.5788,0.517,0.6357,0.3369,3.6646,46,3.989,4.0947,4.0366,27.11,27.11,150.0,bayesian_ucb_plus_rl_value

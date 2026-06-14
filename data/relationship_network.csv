@@ -1,329 +1,329 @@
 source,target,edge_type,weight
-Adidas,Brazil,sponsor_team,0.809
-Coca-Cola,Germany,sponsor_team,0.859
-Visa,Italy,sponsor_team,0.761
-Hyundai,Argentina,sponsor_team,0.813
-Qatar Airways,France,sponsor_team,0.801
-Hisense,Netherlands,sponsor_team,0.811
-Budweiser,Spain,sponsor_team,0.724
-McDonald's,England,sponsor_team,0.819
-Mengniu,Portugal,sponsor_team,0.8
-Vivo,Uruguay,sponsor_team,0.797
-Adidas,Hungary,sponsor_team,0.712
-Coca-Cola,Poland,sponsor_team,0.749
-Visa,Belgium,sponsor_team,0.72
-Hyundai,Russia,sponsor_team,0.69
-Qatar Airways,Yugoslavia,sponsor_team,0.762
-Hisense,Croatia,sponsor_team,0.792
-Budweiser,Sweden,sponsor_team,0.705
-McDonald's,Austria,sponsor_team,0.702
-Mengniu,Turkey,sponsor_team,0.714
-Vivo,Colombia,sponsor_team,0.764
-Adidas,Switzerland,sponsor_team,0.774
-Coca-Cola,Denmark,sponsor_team,0.715
-Visa,Czechoslovakia,sponsor_team,0.715
-Hyundai,Mexico,sponsor_team,0.712
-Qatar Airways,Romania,sponsor_team,0.75
-Hisense,Chile,sponsor_team,0.681
-Budweiser,Senegal,sponsor_team,0.754
-McDonald's,Ecuador,sponsor_team,0.689
-Mengniu,Ghana,sponsor_team,0.715
-Vivo,United States,sponsor_team,0.676
-Adidas,Japan,sponsor_team,0.648
-Coca-Cola,Nigeria,sponsor_team,0.744
-Visa,Costa Rica,sponsor_team,0.677
-Hyundai,Paraguay,sponsor_team,0.667
-Qatar Airways,Ukraine,sponsor_team,0.637
-Hisense,Peru,sponsor_team,0.647
-Budweiser,Ivory Coast,sponsor_team,0.659
-McDonald's,South Korea,sponsor_team,0.67
-Mengniu,Morocco,sponsor_team,0.668
-Vivo,Serbia,sponsor_team,0.729
-Adidas,German DR,sponsor_team,0.653
-Coca-Cola,Cameroon,sponsor_team,0.693
-Visa,Saudi Arabia,sponsor_team,0.648
-Hyundai,Australia,sponsor_team,0.705
-Qatar Airways,Northern Ireland,sponsor_team,0.682
-Hisense,Algeria,sponsor_team,0.66
-Budweiser,Scotland,sponsor_team,0.686
-McDonald's,Norway,sponsor_team,0.651
-Mengniu,Bosnia and Herzegovina,sponsor_team,0.615
-Vivo,Cuba,sponsor_team,0.682
-Adidas,Jamaica,sponsor_team,0.601
-Coca-Cola,Czech Republic,sponsor_team,0.72
-Visa,Iran,sponsor_team,0.637
-Hyundai,Tunisia,sponsor_team,0.649
-Qatar Airways,South Africa,sponsor_team,0.668
-Hisense,Bulgaria,sponsor_team,0.675
-Budweiser,Greece,sponsor_team,0.686
-McDonald's,Republic of Ireland,sponsor_team,0.646
-Mengniu,Slovakia,sponsor_team,0.642
-Vivo,Slovenia,sponsor_team,0.658
-Adidas,North Korea,sponsor_team,0.656
-Coca-Cola,Wales,sponsor_team,0.631
-Visa,Honduras,sponsor_team,0.538
-Hyundai,Egypt,sponsor_team,0.597
-Qatar Airways,Bolivia,sponsor_team,0.575
-Hisense,Canada,sponsor_team,0.646
-Budweiser,El Salvador,sponsor_team,0.582
-McDonald's,New Zealand,sponsor_team,0.556
-Mengniu,China,sponsor_team,0.58
-Vivo,Angola,sponsor_team,0.538
-Adidas,Iceland,sponsor_team,0.583
-Coca-Cola,Haiti,sponsor_team,0.561
-Visa,DR Congo,sponsor_team,0.521
-Hyundai,Iraq,sponsor_team,0.596
-Qatar Airways,Panama,sponsor_team,0.609
-Hisense,Kuwait,sponsor_team,0.628
-Budweiser,Israel,sponsor_team,0.524
-McDonald's,Qatar,sponsor_team,0.619
-Mengniu,Trinidad and Tobago,sponsor_team,0.531
-Vivo,Togo,sponsor_team,0.56
-Adidas,United Arab Emirates,sponsor_team,0.554
-Coca-Cola,Indonesia,sponsor_team,0.569
-Algeria team_attack_unit,Algeria,player_team,5.136
-Algeria team_midfield_unit,Algeria,player_team,2.292
-Algeria team_defense_unit,Algeria,player_team,3.307
-Angola team_attack_unit,Angola,player_team,0.919
-Angola team_midfield_unit,Angola,player_team,2.015
-Angola team_defense_unit,Angola,player_team,0.703
-Argentina team_attack_unit,Argentina,player_team,3.708
-Argentina team_midfield_unit,Argentina,player_team,4.566
-Argentina team_defense_unit,Argentina,player_team,8.479
-Australia team_attack_unit,Australia,player_team,1.843
-Australia team_midfield_unit,Australia,player_team,2.56
-Australia team_defense_unit,Australia,player_team,2.276
-Austria team_attack_unit,Austria,player_team,7.539
-Austria team_midfield_unit,Austria,player_team,3.725
-Austria team_defense_unit,Austria,player_team,1.861
-Belgium team_attack_unit,Belgium,player_team,6.727
-Belgium team_midfield_unit,Belgium,player_team,7.159
-Belgium team_defense_unit,Belgium,player_team,4.857
-Bolivia team_attack_unit,Bolivia,player_team,0.791
-Bolivia team_midfield_unit,Bolivia,player_team,2.492
-Bolivia team_defense_unit,Bolivia,player_team,1.567
-Bosnia and Herzegovina team_attack_unit,Bosnia and Herzegovina,player_team,2.793
-Bosnia and Herzegovina team_midfield_unit,Bosnia and Herzegovina,player_team,3.278
-Bosnia and Herzegovina team_defense_unit,Bosnia and Herzegovina,player_team,1.267
-Brazil team_attack_unit,Brazil,player_team,5.968
-Brazil team_midfield_unit,Brazil,player_team,8.108
-Brazil team_defense_unit,Brazil,player_team,1.494
-Bulgaria team_attack_unit,Bulgaria,player_team,4.767
-Bulgaria team_midfield_unit,Bulgaria,player_team,0.848
-Bulgaria team_defense_unit,Bulgaria,player_team,2.2
-Cameroon team_attack_unit,Cameroon,player_team,2.639
-Cameroon team_midfield_unit,Cameroon,player_team,1.934
-Cameroon team_defense_unit,Cameroon,player_team,4.934
-Canada team_attack_unit,Canada,player_team,2.794
-Canada team_midfield_unit,Canada,player_team,3.156
-Canada team_defense_unit,Canada,player_team,1.536
-Chile team_attack_unit,Chile,player_team,5.948
-Chile team_midfield_unit,Chile,player_team,3.636
-Chile team_defense_unit,Chile,player_team,4.545
-China team_attack_unit,China,player_team,2.102
-China team_midfield_unit,China,player_team,2.26
-China team_defense_unit,China,player_team,2.742
-Colombia team_attack_unit,Colombia,player_team,1.546
-Colombia team_midfield_unit,Colombia,player_team,1.922
-Colombia team_defense_unit,Colombia,player_team,4.022
-Costa Rica team_attack_unit,Costa Rica,player_team,6.036
-Costa Rica team_midfield_unit,Costa Rica,player_team,2.724
-Costa Rica team_defense_unit,Costa Rica,player_team,5.717
-Croatia team_attack_unit,Croatia,player_team,4.606
-Croatia team_midfield_unit,Croatia,player_team,7.929
-Croatia team_defense_unit,Croatia,player_team,4.491
-Cuba team_attack_unit,Cuba,player_team,2.274
-Cuba team_midfield_unit,Cuba,player_team,2.035
-Cuba team_defense_unit,Cuba,player_team,1.811
-Czech Republic team_attack_unit,Czech Republic,player_team,3.455
-Czech Republic team_midfield_unit,Czech Republic,player_team,1.066
-Czech Republic team_defense_unit,Czech Republic,player_team,2.567
-Czechoslovakia team_attack_unit,Czechoslovakia,player_team,3.165
-Czechoslovakia team_midfield_unit,Czechoslovakia,player_team,4.482
-Czechoslovakia team_defense_unit,Czechoslovakia,player_team,3.566
-DR Congo team_attack_unit,DR Congo,player_team,2.345
-DR Congo team_midfield_unit,DR Congo,player_team,2.333
-DR Congo team_defense_unit,DR Congo,player_team,0.863
-Denmark team_attack_unit,Denmark,player_team,3.835
-Denmark team_midfield_unit,Denmark,player_team,5.311
-Denmark team_defense_unit,Denmark,player_team,7.995
-Ecuador team_attack_unit,Ecuador,player_team,3.259
-Ecuador team_midfield_unit,Ecuador,player_team,5.457
-Ecuador team_defense_unit,Ecuador,player_team,3.686
-Egypt team_attack_unit,Egypt,player_team,0.859
-Egypt team_midfield_unit,Egypt,player_team,2.149
-Egypt team_defense_unit,Egypt,player_team,2.866
-El Salvador team_attack_unit,El Salvador,player_team,2.125
-El Salvador team_midfield_unit,El Salvador,player_team,1.425
-El Salvador team_defense_unit,El Salvador,player_team,2.283
-England team_attack_unit,England,player_team,5.528
-England team_midfield_unit,England,player_team,6.381
-England team_defense_unit,England,player_team,2.794
-France team_attack_unit,France,player_team,2.626
-France team_midfield_unit,France,player_team,7.457
-France team_defense_unit,France,player_team,6.641
-German DR team_attack_unit,German DR,player_team,2.342
-German DR team_midfield_unit,German DR,player_team,3.423
-German DR team_defense_unit,German DR,player_team,4.731
-Germany team_attack_unit,Germany,player_team,3.08
-Germany team_midfield_unit,Germany,player_team,7.469
-Germany team_defense_unit,Germany,player_team,4.916
-Ghana team_attack_unit,Ghana,player_team,2.798
-Ghana team_midfield_unit,Ghana,player_team,3.258
-Ghana team_defense_unit,Ghana,player_team,1.836
-Greece team_attack_unit,Greece,player_team,3.706
-Greece team_midfield_unit,Greece,player_team,1.125
-Greece team_defense_unit,Greece,player_team,2.423
-Haiti team_attack_unit,Haiti,player_team,2.085
-Haiti team_midfield_unit,Haiti,player_team,2.491
-Haiti team_defense_unit,Haiti,player_team,1.495
-Honduras team_attack_unit,Honduras,player_team,2.59
-Honduras team_midfield_unit,Honduras,player_team,1.432
-Honduras team_defense_unit,Honduras,player_team,0.891
-Hungary team_attack_unit,Hungary,player_team,5.188
-Hungary team_midfield_unit,Hungary,player_team,2.704
-Hungary team_defense_unit,Hungary,player_team,7.461
-Iceland team_attack_unit,Iceland,player_team,2.154
-Iceland team_midfield_unit,Iceland,player_team,0.926
-Iceland team_defense_unit,Iceland,player_team,1.993
-Indonesia team_attack_unit,Indonesia,player_team,1.207
-Indonesia team_midfield_unit,Indonesia,player_team,0.889
-Indonesia team_defense_unit,Indonesia,player_team,1.185
-Iran team_attack_unit,Iran,player_team,2.595
-Iran team_midfield_unit,Iran,player_team,3.688
-Iran team_defense_unit,Iran,player_team,3.366
-Iraq team_attack_unit,Iraq,player_team,1.727
-Iraq team_midfield_unit,Iraq,player_team,2.073
-Iraq team_defense_unit,Iraq,player_team,1.216
-Israel team_attack_unit,Israel,player_team,1.891
-Israel team_midfield_unit,Israel,player_team,1.251
-Israel team_defense_unit,Israel,player_team,0.978
-Italy team_attack_unit,Italy,player_team,2.46
-Italy team_midfield_unit,Italy,player_team,2.535
-Italy team_defense_unit,Italy,player_team,5.844
-Ivory Coast team_attack_unit,Ivory Coast,player_team,1.549
-Ivory Coast team_midfield_unit,Ivory Coast,player_team,2.728
-Ivory Coast team_defense_unit,Ivory Coast,player_team,2.023
-Jamaica team_attack_unit,Jamaica,player_team,1.459
-Jamaica team_midfield_unit,Jamaica,player_team,3.025
-Jamaica team_defense_unit,Jamaica,player_team,3.226
-Japan team_attack_unit,Japan,player_team,5.111
-Japan team_midfield_unit,Japan,player_team,2.151
-Japan team_defense_unit,Japan,player_team,2.06
-Kuwait team_attack_unit,Kuwait,player_team,2.065
-Kuwait team_midfield_unit,Kuwait,player_team,0.734
-Kuwait team_defense_unit,Kuwait,player_team,0.905
-Mexico team_attack_unit,Mexico,player_team,3.356
-Mexico team_midfield_unit,Mexico,player_team,6.094
-Mexico team_defense_unit,Mexico,player_team,3.831
-Morocco team_attack_unit,Morocco,player_team,2.426
-Morocco team_midfield_unit,Morocco,player_team,2.217
-Morocco team_defense_unit,Morocco,player_team,6.358
-Netherlands team_attack_unit,Netherlands,player_team,3.024
-Netherlands team_midfield_unit,Netherlands,player_team,4.528
-Netherlands team_defense_unit,Netherlands,player_team,4.308
-New Zealand team_attack_unit,New Zealand,player_team,2.011
-New Zealand team_midfield_unit,New Zealand,player_team,2.287
-New Zealand team_defense_unit,New Zealand,player_team,2.84
-Nigeria team_attack_unit,Nigeria,player_team,3.065
-Nigeria team_midfield_unit,Nigeria,player_team,2.221
-Nigeria team_defense_unit,Nigeria,player_team,2.25
-North Korea team_attack_unit,North Korea,player_team,2.581
-North Korea team_midfield_unit,North Korea,player_team,2.791
-North Korea team_defense_unit,North Korea,player_team,0.795
-Northern Ireland team_attack_unit,Northern Ireland,player_team,4.435
-Northern Ireland team_midfield_unit,Northern Ireland,player_team,2.011
-Northern Ireland team_defense_unit,Northern Ireland,player_team,2.622
-Norway team_attack_unit,Norway,player_team,3.298
-Norway team_midfield_unit,Norway,player_team,3.673
-Norway team_defense_unit,Norway,player_team,1.192
-Panama team_attack_unit,Panama,player_team,0.318
-Panama team_midfield_unit,Panama,player_team,2.311
-Panama team_defense_unit,Panama,player_team,0.858
-Paraguay team_attack_unit,Paraguay,player_team,7.153
-Paraguay team_midfield_unit,Paraguay,player_team,2.03
-Paraguay team_defense_unit,Paraguay,player_team,3.485
-Peru team_attack_unit,Peru,player_team,3.247
-Peru team_midfield_unit,Peru,player_team,5.654
-Peru team_defense_unit,Peru,player_team,4.013
-Poland team_attack_unit,Poland,player_team,5.047
-Poland team_midfield_unit,Poland,player_team,2.79
-Poland team_defense_unit,Poland,player_team,4.839
-Portugal team_attack_unit,Portugal,player_team,2.509
-Portugal team_midfield_unit,Portugal,player_team,3.647
-Portugal team_defense_unit,Portugal,player_team,4.343
-Qatar team_attack_unit,Qatar,player_team,0.809
-Qatar team_midfield_unit,Qatar,player_team,1.077
-Qatar team_defense_unit,Qatar,player_team,1.73
-Republic of Ireland team_attack_unit,Republic of Ireland,player_team,1.269
-Republic of Ireland team_midfield_unit,Republic of Ireland,player_team,4.881
-Republic of Ireland team_defense_unit,Republic of Ireland,player_team,3.668
-Romania team_attack_unit,Romania,player_team,1.813
-Romania team_midfield_unit,Romania,player_team,3.584
-Romania team_defense_unit,Romania,player_team,2.51
-Russia team_attack_unit,Russia,player_team,4.642
-Russia team_midfield_unit,Russia,player_team,4.531
-Russia team_defense_unit,Russia,player_team,3.507
-Saudi Arabia team_attack_unit,Saudi Arabia,player_team,1.736
-Saudi Arabia team_midfield_unit,Saudi Arabia,player_team,3.209
-Saudi Arabia team_defense_unit,Saudi Arabia,player_team,4.558
-Scotland team_attack_unit,Scotland,player_team,6.412
-Scotland team_midfield_unit,Scotland,player_team,4.918
-Scotland team_defense_unit,Scotland,player_team,4.052
-Senegal team_attack_unit,Senegal,player_team,4.844
-Senegal team_midfield_unit,Senegal,player_team,1.758
-Senegal team_defense_unit,Senegal,player_team,1.667
-Serbia team_attack_unit,Serbia,player_team,5.55
-Serbia team_midfield_unit,Serbia,player_team,2.366
-Serbia team_defense_unit,Serbia,player_team,5.37
-Slovakia team_attack_unit,Slovakia,player_team,3.431
-Slovakia team_midfield_unit,Slovakia,player_team,1.95
-Slovakia team_defense_unit,Slovakia,player_team,1.082
-Slovenia team_attack_unit,Slovenia,player_team,3.153
-Slovenia team_midfield_unit,Slovenia,player_team,1.51
-Slovenia team_defense_unit,Slovenia,player_team,3.247
-South Africa team_attack_unit,South Africa,player_team,2.989
-South Africa team_midfield_unit,South Africa,player_team,3.823
-South Africa team_defense_unit,South Africa,player_team,3.258
-South Korea team_attack_unit,South Korea,player_team,2.319
-South Korea team_midfield_unit,South Korea,player_team,4.174
-South Korea team_defense_unit,South Korea,player_team,4.601
-Spain team_attack_unit,Spain,player_team,10.417
-Spain team_midfield_unit,Spain,player_team,4.415
-Spain team_defense_unit,Spain,player_team,3.256
-Sweden team_attack_unit,Sweden,player_team,3.434
-Sweden team_midfield_unit,Sweden,player_team,4.181
-Sweden team_defense_unit,Sweden,player_team,4.411
-Switzerland team_attack_unit,Switzerland,player_team,8.226
-Switzerland team_midfield_unit,Switzerland,player_team,2.078
-Switzerland team_defense_unit,Switzerland,player_team,5.107
-Togo team_attack_unit,Togo,player_team,1.47
-Togo team_midfield_unit,Togo,player_team,1.738
-Togo team_defense_unit,Togo,player_team,2.816
-Trinidad and Tobago team_attack_unit,Trinidad and Tobago,player_team,1.54
-Trinidad and Tobago team_midfield_unit,Trinidad and Tobago,player_team,1.693
-Trinidad and Tobago team_defense_unit,Trinidad and Tobago,player_team,0.997
-Tunisia team_attack_unit,Tunisia,player_team,4.143
-Tunisia team_midfield_unit,Tunisia,player_team,2.119
-Tunisia team_defense_unit,Tunisia,player_team,3.819
-Turkey team_attack_unit,Turkey,player_team,5.336
-Turkey team_midfield_unit,Turkey,player_team,4.996
-Turkey team_defense_unit,Turkey,player_team,4.185
-Ukraine team_attack_unit,Ukraine,player_team,1.618
-Ukraine team_midfield_unit,Ukraine,player_team,2.925
-Ukraine team_defense_unit,Ukraine,player_team,1.253
-United Arab Emirates team_attack_unit,United Arab Emirates,player_team,2.175
-United Arab Emirates team_midfield_unit,United Arab Emirates,player_team,0.793
-United Arab Emirates team_defense_unit,United Arab Emirates,player_team,2.294
-United States team_attack_unit,United States,player_team,3.01
-United States team_midfield_unit,United States,player_team,3.295
-United States team_defense_unit,United States,player_team,4.483
-Uruguay team_attack_unit,Uruguay,player_team,8.684
-Uruguay team_midfield_unit,Uruguay,player_team,3.892
-Uruguay team_defense_unit,Uruguay,player_team,7.331
-Wales team_attack_unit,Wales,player_team,1.809
-Wales team_midfield_unit,Wales,player_team,1.813
-Wales team_defense_unit,Wales,player_team,3.322
-Yugoslavia team_attack_unit,Yugoslavia,player_team,1.841
-Yugoslavia team_midfield_unit,Yugoslavia,player_team,4.177
-Yugoslavia team_defense_unit,Yugoslavia,player_team,3.01
+Adidas,Brazil,sponsor_team,0.815
+Coca-Cola,Germany,sponsor_team,0.841
+Visa,Italy,sponsor_team,0.817
+Hyundai,Argentina,sponsor_team,0.745
+Qatar Airways,France,sponsor_team,0.824
+Hisense,Netherlands,sponsor_team,0.843
+Budweiser,Spain,sponsor_team,0.743
+McDonald's,England,sponsor_team,0.766
+Mengniu,Portugal,sponsor_team,0.755
+Vivo,Uruguay,sponsor_team,0.744
+Adidas,Hungary,sponsor_team,0.697
+Coca-Cola,Poland,sponsor_team,0.757
+Visa,Belgium,sponsor_team,0.713
+Hyundai,Russia,sponsor_team,0.778
+Qatar Airways,Yugoslavia,sponsor_team,0.685
+Hisense,Croatia,sponsor_team,0.696
+Budweiser,Sweden,sponsor_team,0.694
+McDonald's,Austria,sponsor_team,0.745
+Mengniu,Colombia,sponsor_team,0.688
+Vivo,Mexico,sponsor_team,0.748
+Adidas,Denmark,sponsor_team,0.735
+Coca-Cola,Czechoslovakia,sponsor_team,0.724
+Visa,Switzerland,sponsor_team,0.698
+Hyundai,Turkey,sponsor_team,0.733
+Qatar Airways,Romania,sponsor_team,0.771
+Hisense,Chile,sponsor_team,0.74
+Budweiser,Senegal,sponsor_team,0.769
+McDonald's,Ecuador,sponsor_team,0.708
+Mengniu,United States,sponsor_team,0.677
+Vivo,Ghana,sponsor_team,0.704
+Adidas,Japan,sponsor_team,0.685
+Coca-Cola,Nigeria,sponsor_team,0.727
+Visa,Costa Rica,sponsor_team,0.668
+Hyundai,Paraguay,sponsor_team,0.645
+Qatar Airways,Ukraine,sponsor_team,0.719
+Hisense,South Korea,sponsor_team,0.743
+Budweiser,Peru,sponsor_team,0.717
+McDonald's,Ivory Coast,sponsor_team,0.643
+Mengniu,Australia,sponsor_team,0.671
+Vivo,Serbia,sponsor_team,0.666
+Adidas,Scotland,sponsor_team,0.681
+Coca-Cola,Morocco,sponsor_team,0.622
+Visa,German DR,sponsor_team,0.68
+Hyundai,Cameroon,sponsor_team,0.633
+Qatar Airways,Saudi Arabia,sponsor_team,0.699
+Hisense,Northern Ireland,sponsor_team,0.657
+Budweiser,Algeria,sponsor_team,0.655
+McDonald's,Norway,sponsor_team,0.683
+Mengniu,Cuba,sponsor_team,0.626
+Vivo,Jamaica,sponsor_team,0.61
+Adidas,Iran,sponsor_team,0.62
+Coca-Cola,Tunisia,sponsor_team,0.692
+Visa,Bulgaria,sponsor_team,0.634
+Hyundai,South Africa,sponsor_team,0.626
+Qatar Airways,Greece,sponsor_team,0.635
+Hisense,Republic of Ireland,sponsor_team,0.651
+Budweiser,Bosnia and Herzegovina,sponsor_team,0.628
+McDonald's,Slovakia,sponsor_team,0.649
+Mengniu,Czech Republic,sponsor_team,0.633
+Vivo,Slovenia,sponsor_team,0.588
+Adidas,North Korea,sponsor_team,0.649
+Coca-Cola,Wales,sponsor_team,0.649
+Visa,Honduras,sponsor_team,0.556
+Hyundai,Egypt,sponsor_team,0.638
+Qatar Airways,Canada,sponsor_team,0.581
+Hisense,Bolivia,sponsor_team,0.637
+Budweiser,El Salvador,sponsor_team,0.623
+McDonald's,New Zealand,sponsor_team,0.614
+Mengniu,Haiti,sponsor_team,0.529
+Vivo,Qatar,sponsor_team,0.612
+Adidas,China,sponsor_team,0.585
+Coca-Cola,Angola,sponsor_team,0.615
+Visa,Iceland,sponsor_team,0.618
+Hyundai,DR Congo,sponsor_team,0.625
+Qatar Airways,Panama,sponsor_team,0.607
+Hisense,Kuwait,sponsor_team,0.534
+Budweiser,Israel,sponsor_team,0.566
+McDonald's,Iraq,sponsor_team,0.539
+Mengniu,Trinidad and Tobago,sponsor_team,0.603
+Vivo,Togo,sponsor_team,0.628
+Adidas,United Arab Emirates,sponsor_team,0.596
+Coca-Cola,Indonesia,sponsor_team,0.552
+Algeria team_attack_unit,Algeria,player_team,2.766
+Algeria team_midfield_unit,Algeria,player_team,2.126
+Algeria team_defense_unit,Algeria,player_team,2.844
+Angola team_attack_unit,Angola,player_team,0.965
+Angola team_midfield_unit,Angola,player_team,1.382
+Angola team_defense_unit,Angola,player_team,2.063
+Argentina team_attack_unit,Argentina,player_team,3.151
+Argentina team_midfield_unit,Argentina,player_team,6.221
+Argentina team_defense_unit,Argentina,player_team,5.224
+Australia team_attack_unit,Australia,player_team,2.663
+Australia team_midfield_unit,Australia,player_team,3.829
+Australia team_defense_unit,Australia,player_team,6.023
+Austria team_attack_unit,Austria,player_team,6.141
+Austria team_midfield_unit,Austria,player_team,3.376
+Austria team_defense_unit,Austria,player_team,4.521
+Belgium team_attack_unit,Belgium,player_team,3.397
+Belgium team_midfield_unit,Belgium,player_team,4.011
+Belgium team_defense_unit,Belgium,player_team,2.42
+Bolivia team_attack_unit,Bolivia,player_team,3.322
+Bolivia team_midfield_unit,Bolivia,player_team,1.217
+Bolivia team_defense_unit,Bolivia,player_team,1.997
+Bosnia and Herzegovina team_attack_unit,Bosnia and Herzegovina,player_team,3.351
+Bosnia and Herzegovina team_midfield_unit,Bosnia and Herzegovina,player_team,1.307
+Bosnia and Herzegovina team_defense_unit,Bosnia and Herzegovina,player_team,3.413
+Brazil team_attack_unit,Brazil,player_team,8.21
+Brazil team_midfield_unit,Brazil,player_team,7.952
+Brazil team_defense_unit,Brazil,player_team,1.652
+Bulgaria team_attack_unit,Bulgaria,player_team,2.496
+Bulgaria team_midfield_unit,Bulgaria,player_team,6.51
+Bulgaria team_defense_unit,Bulgaria,player_team,2.433
+Cameroon team_attack_unit,Cameroon,player_team,5.211
+Cameroon team_midfield_unit,Cameroon,player_team,2.869
+Cameroon team_defense_unit,Cameroon,player_team,1.869
+Canada team_attack_unit,Canada,player_team,1.987
+Canada team_midfield_unit,Canada,player_team,1.842
+Canada team_defense_unit,Canada,player_team,1.749
+Chile team_attack_unit,Chile,player_team,4.391
+Chile team_midfield_unit,Chile,player_team,2.035
+Chile team_defense_unit,Chile,player_team,2.232
+China team_attack_unit,China,player_team,0.551
+China team_midfield_unit,China,player_team,2.435
+China team_defense_unit,China,player_team,0.924
+Colombia team_attack_unit,Colombia,player_team,2.351
+Colombia team_midfield_unit,Colombia,player_team,7.73
+Colombia team_defense_unit,Colombia,player_team,5.133
+Costa Rica team_attack_unit,Costa Rica,player_team,2.961
+Costa Rica team_midfield_unit,Costa Rica,player_team,2.14
+Costa Rica team_defense_unit,Costa Rica,player_team,3.783
+Croatia team_attack_unit,Croatia,player_team,1.621
+Croatia team_midfield_unit,Croatia,player_team,1.72
+Croatia team_defense_unit,Croatia,player_team,1.715
+Cuba team_attack_unit,Cuba,player_team,2.127
+Cuba team_midfield_unit,Cuba,player_team,1.695
+Cuba team_defense_unit,Cuba,player_team,1.47
+Czech Republic team_attack_unit,Czech Republic,player_team,3.596
+Czech Republic team_midfield_unit,Czech Republic,player_team,2.061
+Czech Republic team_defense_unit,Czech Republic,player_team,3.403
+Czechoslovakia team_attack_unit,Czechoslovakia,player_team,5.496
+Czechoslovakia team_midfield_unit,Czechoslovakia,player_team,5.131
+Czechoslovakia team_defense_unit,Czechoslovakia,player_team,5.561
+DR Congo team_attack_unit,DR Congo,player_team,0.689
+DR Congo team_midfield_unit,DR Congo,player_team,1.713
+DR Congo team_defense_unit,DR Congo,player_team,1.843
+Denmark team_attack_unit,Denmark,player_team,4.106
+Denmark team_midfield_unit,Denmark,player_team,4.317
+Denmark team_defense_unit,Denmark,player_team,7.171
+Ecuador team_attack_unit,Ecuador,player_team,4.469
+Ecuador team_midfield_unit,Ecuador,player_team,2.289
+Ecuador team_defense_unit,Ecuador,player_team,2.248
+Egypt team_attack_unit,Egypt,player_team,1.373
+Egypt team_midfield_unit,Egypt,player_team,1.85
+Egypt team_defense_unit,Egypt,player_team,2.204
+El Salvador team_attack_unit,El Salvador,player_team,3.798
+El Salvador team_midfield_unit,El Salvador,player_team,1.247
+El Salvador team_defense_unit,El Salvador,player_team,1.805
+England team_attack_unit,England,player_team,4.414
+England team_midfield_unit,England,player_team,4.082
+England team_defense_unit,England,player_team,7.14
+France team_attack_unit,France,player_team,3.832
+France team_midfield_unit,France,player_team,3.974
+France team_defense_unit,France,player_team,2.805
+German DR team_attack_unit,German DR,player_team,3.792
+German DR team_midfield_unit,German DR,player_team,1.226
+German DR team_defense_unit,German DR,player_team,1.328
+Germany team_attack_unit,Germany,player_team,5.09
+Germany team_midfield_unit,Germany,player_team,3.039
+Germany team_defense_unit,Germany,player_team,8.364
+Ghana team_attack_unit,Ghana,player_team,4.24
+Ghana team_midfield_unit,Ghana,player_team,1.48
+Ghana team_defense_unit,Ghana,player_team,2.466
+Greece team_attack_unit,Greece,player_team,2.979
+Greece team_midfield_unit,Greece,player_team,5.576
+Greece team_defense_unit,Greece,player_team,2.667
+Haiti team_attack_unit,Haiti,player_team,2.165
+Haiti team_midfield_unit,Haiti,player_team,0.941
+Haiti team_defense_unit,Haiti,player_team,0.638
+Honduras team_attack_unit,Honduras,player_team,1.88
+Honduras team_midfield_unit,Honduras,player_team,1.309
+Honduras team_defense_unit,Honduras,player_team,3.33
+Hungary team_attack_unit,Hungary,player_team,6.442
+Hungary team_midfield_unit,Hungary,player_team,2.168
+Hungary team_defense_unit,Hungary,player_team,5.552
+Iceland team_attack_unit,Iceland,player_team,1.62
+Iceland team_midfield_unit,Iceland,player_team,1.206
+Iceland team_defense_unit,Iceland,player_team,2.689
+Indonesia team_attack_unit,Indonesia,player_team,0.623
+Indonesia team_midfield_unit,Indonesia,player_team,1.041
+Indonesia team_defense_unit,Indonesia,player_team,1.275
+Iran team_attack_unit,Iran,player_team,4.841
+Iran team_midfield_unit,Iran,player_team,4.033
+Iran team_defense_unit,Iran,player_team,2.09
+Iraq team_attack_unit,Iraq,player_team,1.557
+Iraq team_midfield_unit,Iraq,player_team,1.271
+Iraq team_defense_unit,Iraq,player_team,0.958
+Israel team_attack_unit,Israel,player_team,0.785
+Israel team_midfield_unit,Israel,player_team,0.681
+Israel team_defense_unit,Israel,player_team,1.167
+Italy team_attack_unit,Italy,player_team,3.054
+Italy team_midfield_unit,Italy,player_team,4.833
+Italy team_defense_unit,Italy,player_team,4.221
+Ivory Coast team_attack_unit,Ivory Coast,player_team,1.66
+Ivory Coast team_midfield_unit,Ivory Coast,player_team,4.046
+Ivory Coast team_defense_unit,Ivory Coast,player_team,3.547
+Jamaica team_attack_unit,Jamaica,player_team,2.749
+Jamaica team_midfield_unit,Jamaica,player_team,1.173
+Jamaica team_defense_unit,Jamaica,player_team,1.443
+Japan team_attack_unit,Japan,player_team,6.623
+Japan team_midfield_unit,Japan,player_team,1.443
+Japan team_defense_unit,Japan,player_team,1.889
+Kuwait team_attack_unit,Kuwait,player_team,1.37
+Kuwait team_midfield_unit,Kuwait,player_team,2.078
+Kuwait team_defense_unit,Kuwait,player_team,1.736
+Mexico team_attack_unit,Mexico,player_team,4.116
+Mexico team_midfield_unit,Mexico,player_team,3.684
+Mexico team_defense_unit,Mexico,player_team,6.994
+Morocco team_attack_unit,Morocco,player_team,2.037
+Morocco team_midfield_unit,Morocco,player_team,2.674
+Morocco team_defense_unit,Morocco,player_team,2.954
+Netherlands team_attack_unit,Netherlands,player_team,5.663
+Netherlands team_midfield_unit,Netherlands,player_team,5.614
+Netherlands team_defense_unit,Netherlands,player_team,7.114
+New Zealand team_attack_unit,New Zealand,player_team,1.418
+New Zealand team_midfield_unit,New Zealand,player_team,1.014
+New Zealand team_defense_unit,New Zealand,player_team,1.582
+Nigeria team_attack_unit,Nigeria,player_team,2.715
+Nigeria team_midfield_unit,Nigeria,player_team,4.706
+Nigeria team_defense_unit,Nigeria,player_team,1.271
+North Korea team_attack_unit,North Korea,player_team,2.475
+North Korea team_midfield_unit,North Korea,player_team,1.615
+North Korea team_defense_unit,North Korea,player_team,1.794
+Northern Ireland team_attack_unit,Northern Ireland,player_team,4.927
+Northern Ireland team_midfield_unit,Northern Ireland,player_team,2.99
+Northern Ireland team_defense_unit,Northern Ireland,player_team,1.543
+Norway team_attack_unit,Norway,player_team,0.593
+Norway team_midfield_unit,Norway,player_team,3.847
+Norway team_defense_unit,Norway,player_team,1.63
+Panama team_attack_unit,Panama,player_team,1.968
+Panama team_midfield_unit,Panama,player_team,0.641
+Panama team_defense_unit,Panama,player_team,1.129
+Paraguay team_attack_unit,Paraguay,player_team,3.62
+Paraguay team_midfield_unit,Paraguay,player_team,5.659
+Paraguay team_defense_unit,Paraguay,player_team,5.37
+Peru team_attack_unit,Peru,player_team,3.446
+Peru team_midfield_unit,Peru,player_team,3.072
+Peru team_defense_unit,Peru,player_team,3.875
+Poland team_attack_unit,Poland,player_team,2.434
+Poland team_midfield_unit,Poland,player_team,4.02
+Poland team_defense_unit,Poland,player_team,4.844
+Portugal team_attack_unit,Portugal,player_team,2.879
+Portugal team_midfield_unit,Portugal,player_team,3.719
+Portugal team_defense_unit,Portugal,player_team,6.815
+Qatar team_attack_unit,Qatar,player_team,0.905
+Qatar team_midfield_unit,Qatar,player_team,2.746
+Qatar team_defense_unit,Qatar,player_team,1.889
+Republic of Ireland team_attack_unit,Republic of Ireland,player_team,1.147
+Republic of Ireland team_midfield_unit,Republic of Ireland,player_team,3.311
+Republic of Ireland team_defense_unit,Republic of Ireland,player_team,1.719
+Romania team_attack_unit,Romania,player_team,4.588
+Romania team_midfield_unit,Romania,player_team,4.457
+Romania team_defense_unit,Romania,player_team,2.89
+Russia team_attack_unit,Russia,player_team,2.58
+Russia team_midfield_unit,Russia,player_team,5.722
+Russia team_defense_unit,Russia,player_team,8.072
+Saudi Arabia team_attack_unit,Saudi Arabia,player_team,6.878
+Saudi Arabia team_midfield_unit,Saudi Arabia,player_team,5.0
+Saudi Arabia team_defense_unit,Saudi Arabia,player_team,5.012
+Scotland team_attack_unit,Scotland,player_team,3.746
+Scotland team_midfield_unit,Scotland,player_team,2.038
+Scotland team_defense_unit,Scotland,player_team,1.698
+Senegal team_attack_unit,Senegal,player_team,6.255
+Senegal team_midfield_unit,Senegal,player_team,2.677
+Senegal team_defense_unit,Senegal,player_team,6.694
+Serbia team_attack_unit,Serbia,player_team,4.434
+Serbia team_midfield_unit,Serbia,player_team,3.33
+Serbia team_defense_unit,Serbia,player_team,1.911
+Slovakia team_attack_unit,Slovakia,player_team,2.838
+Slovakia team_midfield_unit,Slovakia,player_team,1.789
+Slovakia team_defense_unit,Slovakia,player_team,3.257
+Slovenia team_attack_unit,Slovenia,player_team,2.239
+Slovenia team_midfield_unit,Slovenia,player_team,3.342
+Slovenia team_defense_unit,Slovenia,player_team,2.939
+South Africa team_attack_unit,South Africa,player_team,1.709
+South Africa team_midfield_unit,South Africa,player_team,3.656
+South Africa team_defense_unit,South Africa,player_team,3.339
+South Korea team_attack_unit,South Korea,player_team,6.352
+South Korea team_midfield_unit,South Korea,player_team,3.331
+South Korea team_defense_unit,South Korea,player_team,2.411
+Spain team_attack_unit,Spain,player_team,4.877
+Spain team_midfield_unit,Spain,player_team,4.811
+Spain team_defense_unit,Spain,player_team,6.219
+Sweden team_attack_unit,Sweden,player_team,8.013
+Sweden team_midfield_unit,Sweden,player_team,3.062
+Sweden team_defense_unit,Sweden,player_team,6.448
+Switzerland team_attack_unit,Switzerland,player_team,4.211
+Switzerland team_midfield_unit,Switzerland,player_team,7.11
+Switzerland team_defense_unit,Switzerland,player_team,8.396
+Togo team_attack_unit,Togo,player_team,1.841
+Togo team_midfield_unit,Togo,player_team,1.383
+Togo team_defense_unit,Togo,player_team,0.904
+Trinidad and Tobago team_attack_unit,Trinidad and Tobago,player_team,1.456
+Trinidad and Tobago team_midfield_unit,Trinidad and Tobago,player_team,0.838
+Trinidad and Tobago team_defense_unit,Trinidad and Tobago,player_team,2.078
+Tunisia team_attack_unit,Tunisia,player_team,3.949
+Tunisia team_midfield_unit,Tunisia,player_team,3.838
+Tunisia team_defense_unit,Tunisia,player_team,3.123
+Turkey team_attack_unit,Turkey,player_team,1.969
+Turkey team_midfield_unit,Turkey,player_team,3.703
+Turkey team_defense_unit,Turkey,player_team,2.145
+Ukraine team_attack_unit,Ukraine,player_team,5.8
+Ukraine team_midfield_unit,Ukraine,player_team,1.433
+Ukraine team_defense_unit,Ukraine,player_team,3.993
+United Arab Emirates team_attack_unit,United Arab Emirates,player_team,0.831
+United Arab Emirates team_midfield_unit,United Arab Emirates,player_team,1.104
+United Arab Emirates team_defense_unit,United Arab Emirates,player_team,1.604
+United States team_attack_unit,United States,player_team,5.788
+United States team_midfield_unit,United States,player_team,2.958
+United States team_defense_unit,United States,player_team,5.9
+Uruguay team_attack_unit,Uruguay,player_team,3.941
+Uruguay team_midfield_unit,Uruguay,player_team,3.38
+Uruguay team_defense_unit,Uruguay,player_team,6.799
+Wales team_attack_unit,Wales,player_team,1.27
+Wales team_midfield_unit,Wales,player_team,2.306
+Wales team_defense_unit,Wales,player_team,1.642
+Yugoslavia team_attack_unit,Yugoslavia,player_team,4.431
+Yugoslavia team_midfield_unit,Yugoslavia,player_team,4.921
+Yugoslavia team_defense_unit,Yugoslavia,player_team,5.559

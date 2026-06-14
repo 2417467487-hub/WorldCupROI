@@ -1,0 +1,821 @@
+team,sponsor,existing_edge,link_prediction_score,future_sponsor_roi_prediction,model_family,rank
+Brazil,Adidas,True,2.8845,2.9813,HGT_GNN_compatible_link_prediction_baseline,1
+Brazil,Hyundai,False,2.8525,2.951,HGT_GNN_compatible_link_prediction_baseline,2
+Brazil,Qatar Airways,False,2.8293,2.9146,HGT_GNN_compatible_link_prediction_baseline,3
+Brazil,Visa,False,2.8277,2.9189,HGT_GNN_compatible_link_prediction_baseline,4
+Brazil,Coca-Cola,False,2.815,2.8964,HGT_GNN_compatible_link_prediction_baseline,5
+Brazil,Budweiser,False,2.8142,2.9007,HGT_GNN_compatible_link_prediction_baseline,6
+Argentina,Adidas,False,2.8028,2.8969,HGT_GNN_compatible_link_prediction_baseline,7
+Brazil,Hisense,False,2.8011,2.8805,HGT_GNN_compatible_link_prediction_baseline,8
+France,Adidas,False,2.7849,2.8784,HGT_GNN_compatible_link_prediction_baseline,9
+Hungary,Adidas,True,2.7831,2.8765,HGT_GNN_compatible_link_prediction_baseline,10
+Netherlands,Adidas,False,2.7812,2.8745,HGT_GNN_compatible_link_prediction_baseline,11
+Ukraine,Adidas,False,2.7788,2.872,HGT_GNN_compatible_link_prediction_baseline,12
+Indonesia,Adidas,False,2.7772,2.8705,HGT_GNN_compatible_link_prediction_baseline,13
+Denmark,Adidas,True,2.7708,2.8638,HGT_GNN_compatible_link_prediction_baseline,14
+Argentina,Hyundai,True,2.7708,2.8665,HGT_GNN_compatible_link_prediction_baseline,14
+Russia,Adidas,False,2.7701,2.8631,HGT_GNN_compatible_link_prediction_baseline,15
+Spain,Adidas,False,2.7698,2.8628,HGT_GNN_compatible_link_prediction_baseline,16
+Saudi Arabia,Adidas,False,2.7687,2.8617,HGT_GNN_compatible_link_prediction_baseline,17
+Germany,Adidas,False,2.7681,2.861,HGT_GNN_compatible_link_prediction_baseline,18
+China,Adidas,True,2.7603,2.8529,HGT_GNN_compatible_link_prediction_baseline,19
+Costa Rica,Adidas,False,2.7597,2.8523,HGT_GNN_compatible_link_prediction_baseline,20
+Japan,Adidas,True,2.7592,2.8519,HGT_GNN_compatible_link_prediction_baseline,21
+Italy,Adidas,False,2.7563,2.8488,HGT_GNN_compatible_link_prediction_baseline,22
+Switzerland,Adidas,False,2.7536,2.846,HGT_GNN_compatible_link_prediction_baseline,23
+France,Hyundai,False,2.7529,2.848,HGT_GNN_compatible_link_prediction_baseline,24
+Hungary,Hyundai,False,2.7511,2.8461,HGT_GNN_compatible_link_prediction_baseline,25
+Netherlands,Hyundai,False,2.7491,2.8441,HGT_GNN_compatible_link_prediction_baseline,26
+Argentina,Qatar Airways,False,2.7476,2.8304,HGT_GNN_compatible_link_prediction_baseline,27
+Ukraine,Hyundai,False,2.7467,2.8416,HGT_GNN_compatible_link_prediction_baseline,28
+Argentina,Visa,False,2.746,2.8346,HGT_GNN_compatible_link_prediction_baseline,29
+Senegal,Adidas,False,2.7454,2.8376,HGT_GNN_compatible_link_prediction_baseline,30
+Indonesia,Hyundai,False,2.7452,2.84,HGT_GNN_compatible_link_prediction_baseline,31
+New Zealand,Adidas,False,2.745,2.8372,HGT_GNN_compatible_link_prediction_baseline,32
+Sweden,Adidas,False,2.7443,2.8364,HGT_GNN_compatible_link_prediction_baseline,33
+Turkey,Adidas,False,2.7417,2.8337,HGT_GNN_compatible_link_prediction_baseline,34
+Denmark,Hyundai,False,2.7388,2.8334,HGT_GNN_compatible_link_prediction_baseline,35
+Russia,Hyundai,True,2.738,2.8326,HGT_GNN_compatible_link_prediction_baseline,36
+Spain,Hyundai,False,2.7378,2.8324,HGT_GNN_compatible_link_prediction_baseline,37
+Saudi Arabia,Hyundai,False,2.7367,2.8312,HGT_GNN_compatible_link_prediction_baseline,38
+Germany,Hyundai,False,2.7361,2.8306,HGT_GNN_compatible_link_prediction_baseline,39
+Argentina,Coca-Cola,False,2.7333,2.8124,HGT_GNN_compatible_link_prediction_baseline,40
+Cameroon,Adidas,False,2.7331,2.8248,HGT_GNN_compatible_link_prediction_baseline,41
+Argentina,Budweiser,False,2.7325,2.8165,HGT_GNN_compatible_link_prediction_baseline,42
+South Korea,Adidas,False,2.7322,2.8239,HGT_GNN_compatible_link_prediction_baseline,43
+France,Qatar Airways,True,2.7297,2.812,HGT_GNN_compatible_link_prediction_baseline,44
+Croatia,Adidas,False,2.7291,2.8207,HGT_GNN_compatible_link_prediction_baseline,45
+Belgium,Adidas,False,2.7289,2.8205,HGT_GNN_compatible_link_prediction_baseline,46
+China,Hyundai,False,2.7282,2.8225,HGT_GNN_compatible_link_prediction_baseline,47
+France,Visa,False,2.7281,2.8161,HGT_GNN_compatible_link_prediction_baseline,48
+Hungary,Qatar Airways,False,2.7279,2.8101,HGT_GNN_compatible_link_prediction_baseline,49
+Nigeria,Adidas,False,2.7276,2.8191,HGT_GNN_compatible_link_prediction_baseline,50
+Costa Rica,Hyundai,False,2.7276,2.8218,HGT_GNN_compatible_link_prediction_baseline,50
+Japan,Hyundai,False,2.7272,2.8214,HGT_GNN_compatible_link_prediction_baseline,51
+Hungary,Visa,False,2.7263,2.8143,HGT_GNN_compatible_link_prediction_baseline,52
+Netherlands,Qatar Airways,False,2.726,2.8081,HGT_GNN_compatible_link_prediction_baseline,53
+Yugoslavia,Adidas,False,2.7253,2.8168,HGT_GNN_compatible_link_prediction_baseline,54
+Netherlands,Visa,False,2.7243,2.8123,HGT_GNN_compatible_link_prediction_baseline,55
+Italy,Hyundai,False,2.7242,2.8183,HGT_GNN_compatible_link_prediction_baseline,56
+Ukraine,Qatar Airways,True,2.7236,2.8057,HGT_GNN_compatible_link_prediction_baseline,57
+South Africa,Adidas,False,2.7224,2.8138,HGT_GNN_compatible_link_prediction_baseline,58
+Paraguay,Adidas,False,2.7222,2.8135,HGT_GNN_compatible_link_prediction_baseline,59
+Indonesia,Qatar Airways,False,2.722,2.8041,HGT_GNN_compatible_link_prediction_baseline,60
+Brazil,Vivo,False,2.722,2.7643,HGT_GNN_compatible_link_prediction_baseline,60
+Ukraine,Visa,False,2.7219,2.8098,HGT_GNN_compatible_link_prediction_baseline,61
+Switzerland,Hyundai,False,2.7216,2.8156,HGT_GNN_compatible_link_prediction_baseline,62
+Indonesia,Visa,False,2.7204,2.8082,HGT_GNN_compatible_link_prediction_baseline,63
+Argentina,Hisense,False,2.7194,2.7965,HGT_GNN_compatible_link_prediction_baseline,64
+Denmark,Qatar Airways,False,2.7156,2.7975,HGT_GNN_compatible_link_prediction_baseline,65
+France,Coca-Cola,False,2.7154,2.7939,HGT_GNN_compatible_link_prediction_baseline,66
+Bosnia and Herzegovina,Adidas,False,2.7153,2.8064,HGT_GNN_compatible_link_prediction_baseline,67
+Brazil,Mengniu,False,2.715,2.7568,HGT_GNN_compatible_link_prediction_baseline,68
+Brazil,McDonald's,False,2.715,2.761,HGT_GNN_compatible_link_prediction_baseline,68
+Russia,Qatar Airways,False,2.7149,2.7967,HGT_GNN_compatible_link_prediction_baseline,69
+France,Budweiser,False,2.7146,2.7981,HGT_GNN_compatible_link_prediction_baseline,70
+Spain,Qatar Airways,False,2.7146,2.7964,HGT_GNN_compatible_link_prediction_baseline,70
+Ivory Coast,Adidas,False,2.7145,2.8056,HGT_GNN_compatible_link_prediction_baseline,71
+Denmark,Visa,False,2.714,2.8016,HGT_GNN_compatible_link_prediction_baseline,72
+Hungary,Coca-Cola,False,2.7136,2.7921,HGT_GNN_compatible_link_prediction_baseline,73
+Saudi Arabia,Qatar Airways,True,2.7135,2.7953,HGT_GNN_compatible_link_prediction_baseline,74
+Senegal,Hyundai,False,2.7134,2.8071,HGT_GNN_compatible_link_prediction_baseline,75
+Russia,Visa,False,2.7132,2.8008,HGT_GNN_compatible_link_prediction_baseline,76
+Spain,Visa,False,2.713,2.8005,HGT_GNN_compatible_link_prediction_baseline,77
+New Zealand,Hyundai,False,2.713,2.8067,HGT_GNN_compatible_link_prediction_baseline,77
+Germany,Qatar Airways,False,2.7129,2.7947,HGT_GNN_compatible_link_prediction_baseline,78
+Hungary,Budweiser,False,2.7128,2.7962,HGT_GNN_compatible_link_prediction_baseline,79
+Iceland,Adidas,False,2.7124,2.8034,HGT_GNN_compatible_link_prediction_baseline,80
+Sweden,Hyundai,False,2.7122,2.8059,HGT_GNN_compatible_link_prediction_baseline,81
+Saudi Arabia,Visa,False,2.7119,2.7994,HGT_GNN_compatible_link_prediction_baseline,82
+Netherlands,Coca-Cola,False,2.7117,2.7901,HGT_GNN_compatible_link_prediction_baseline,83
+Germany,Visa,False,2.7113,2.7988,HGT_GNN_compatible_link_prediction_baseline,84
+Netherlands,Budweiser,False,2.7109,2.7942,HGT_GNN_compatible_link_prediction_baseline,85
+Czechoslovakia,Adidas,False,2.7104,2.8014,HGT_GNN_compatible_link_prediction_baseline,86
+Panama,Adidas,False,2.7098,2.8007,HGT_GNN_compatible_link_prediction_baseline,87
+Turkey,Hyundai,True,2.7097,2.8033,HGT_GNN_compatible_link_prediction_baseline,88
+Ukraine,Coca-Cola,False,2.7093,2.7876,HGT_GNN_compatible_link_prediction_baseline,89
+Jamaica,Adidas,False,2.7091,2.8001,HGT_GNN_compatible_link_prediction_baseline,90
+United Arab Emirates,Adidas,True,2.7087,2.7996,HGT_GNN_compatible_link_prediction_baseline,91
+Ukraine,Budweiser,False,2.7085,2.7918,HGT_GNN_compatible_link_prediction_baseline,92
+Indonesia,Coca-Cola,True,2.7078,2.786,HGT_GNN_compatible_link_prediction_baseline,93
+Indonesia,Budweiser,False,2.7069,2.7902,HGT_GNN_compatible_link_prediction_baseline,94
+China,Qatar Airways,False,2.7051,2.7866,HGT_GNN_compatible_link_prediction_baseline,95
+Tunisia,Adidas,False,2.7049,2.7957,HGT_GNN_compatible_link_prediction_baseline,96
+Peru,Adidas,False,2.7045,2.7953,HGT_GNN_compatible_link_prediction_baseline,97
+Costa Rica,Qatar Airways,False,2.7045,2.786,HGT_GNN_compatible_link_prediction_baseline,97
+Japan,Qatar Airways,False,2.704,2.7855,HGT_GNN_compatible_link_prediction_baseline,98
+China,Visa,False,2.7035,2.7907,HGT_GNN_compatible_link_prediction_baseline,99
+Costa Rica,Visa,True,2.7028,2.7901,HGT_GNN_compatible_link_prediction_baseline,100
+North Korea,Adidas,True,2.7025,2.7932,HGT_GNN_compatible_link_prediction_baseline,101
+Japan,Visa,False,2.7024,2.7896,HGT_GNN_compatible_link_prediction_baseline,102
+France,Hisense,False,2.7015,2.7781,HGT_GNN_compatible_link_prediction_baseline,103
+Denmark,Coca-Cola,False,2.7013,2.7794,HGT_GNN_compatible_link_prediction_baseline,104
+Italy,Qatar Airways,False,2.7011,2.7825,HGT_GNN_compatible_link_prediction_baseline,105
+Cameroon,Hyundai,True,2.701,2.7943,HGT_GNN_compatible_link_prediction_baseline,106
+Russia,Coca-Cola,False,2.7006,2.7787,HGT_GNN_compatible_link_prediction_baseline,107
+Denmark,Budweiser,False,2.7005,2.7836,HGT_GNN_compatible_link_prediction_baseline,108
+Spain,Coca-Cola,False,2.7003,2.7784,HGT_GNN_compatible_link_prediction_baseline,109
+Poland,Adidas,False,2.7003,2.791,HGT_GNN_compatible_link_prediction_baseline,109
+South Korea,Hyundai,False,2.7002,2.7934,HGT_GNN_compatible_link_prediction_baseline,110
+Russia,Budweiser,False,2.6998,2.7828,HGT_GNN_compatible_link_prediction_baseline,111
+Hungary,Hisense,False,2.6997,2.7763,HGT_GNN_compatible_link_prediction_baseline,112
+Spain,Budweiser,True,2.6995,2.7825,HGT_GNN_compatible_link_prediction_baseline,113
+Italy,Visa,True,2.6995,2.7866,HGT_GNN_compatible_link_prediction_baseline,113
+Colombia,Adidas,False,2.6994,2.79,HGT_GNN_compatible_link_prediction_baseline,114
+Saudi Arabia,Coca-Cola,False,2.6993,2.7773,HGT_GNN_compatible_link_prediction_baseline,115
+Australia,Adidas,False,2.6992,2.7898,HGT_GNN_compatible_link_prediction_baseline,116
+Germany,Coca-Cola,True,2.6986,2.7766,HGT_GNN_compatible_link_prediction_baseline,117
+Switzerland,Qatar Airways,False,2.6984,2.7798,HGT_GNN_compatible_link_prediction_baseline,118
+Saudi Arabia,Budweiser,False,2.6984,2.7814,HGT_GNN_compatible_link_prediction_baseline,118
+Germany,Budweiser,False,2.6978,2.7808,HGT_GNN_compatible_link_prediction_baseline,119
+Netherlands,Hisense,True,2.6977,2.7743,HGT_GNN_compatible_link_prediction_baseline,120
+Mexico,Adidas,False,2.6976,2.7881,HGT_GNN_compatible_link_prediction_baseline,121
+El Salvador,Adidas,False,2.6973,2.7879,HGT_GNN_compatible_link_prediction_baseline,122
+Kuwait,Adidas,False,2.6973,2.7878,HGT_GNN_compatible_link_prediction_baseline,122
+Croatia,Hyundai,False,2.697,2.7902,HGT_GNN_compatible_link_prediction_baseline,123
+Belgium,Hyundai,False,2.6969,2.79,HGT_GNN_compatible_link_prediction_baseline,124
+Switzerland,Visa,True,2.6968,2.7838,HGT_GNN_compatible_link_prediction_baseline,125
+Nigeria,Hyundai,False,2.6955,2.7886,HGT_GNN_compatible_link_prediction_baseline,126
+Ukraine,Hisense,False,2.6953,2.7718,HGT_GNN_compatible_link_prediction_baseline,127
+Scotland,Adidas,True,2.6942,2.7847,HGT_GNN_compatible_link_prediction_baseline,128
+Indonesia,Hisense,False,2.6938,2.7702,HGT_GNN_compatible_link_prediction_baseline,129
+Yugoslavia,Hyundai,False,2.6933,2.7863,HGT_GNN_compatible_link_prediction_baseline,130
+Greece,Adidas,False,2.6912,2.7815,HGT_GNN_compatible_link_prediction_baseline,131
+China,Coca-Cola,False,2.6908,2.7686,HGT_GNN_compatible_link_prediction_baseline,132
+South Africa,Hyundai,True,2.6903,2.7833,HGT_GNN_compatible_link_prediction_baseline,133
+Costa Rica,Coca-Cola,False,2.6902,2.768,HGT_GNN_compatible_link_prediction_baseline,134
+Senegal,Qatar Airways,False,2.6902,2.7713,HGT_GNN_compatible_link_prediction_baseline,134
+Paraguay,Hyundai,True,2.6901,2.7831,HGT_GNN_compatible_link_prediction_baseline,135
+China,Budweiser,False,2.69,2.7727,HGT_GNN_compatible_link_prediction_baseline,136
+New Zealand,Qatar Airways,False,2.6898,2.7709,HGT_GNN_compatible_link_prediction_baseline,137
+Japan,Coca-Cola,False,2.6898,2.7675,HGT_GNN_compatible_link_prediction_baseline,137
+Algeria,Adidas,False,2.6895,2.7798,HGT_GNN_compatible_link_prediction_baseline,138
+Costa Rica,Budweiser,False,2.6894,2.7721,HGT_GNN_compatible_link_prediction_baseline,139
+Sweden,Qatar Airways,False,2.6891,2.7701,HGT_GNN_compatible_link_prediction_baseline,140
+Japan,Budweiser,False,2.6889,2.7716,HGT_GNN_compatible_link_prediction_baseline,141
+Senegal,Visa,False,2.6886,2.7754,HGT_GNN_compatible_link_prediction_baseline,142
+New Zealand,Visa,False,2.6882,2.7749,HGT_GNN_compatible_link_prediction_baseline,143
+Canada,Adidas,False,2.6874,2.7776,HGT_GNN_compatible_link_prediction_baseline,144
+Denmark,Hisense,False,2.6874,2.7636,HGT_GNN_compatible_link_prediction_baseline,144
+Sweden,Visa,False,2.6874,2.7741,HGT_GNN_compatible_link_prediction_baseline,144
+Morocco,Adidas,False,2.6872,2.7774,HGT_GNN_compatible_link_prediction_baseline,145
+Italy,Coca-Cola,False,2.6868,2.7645,HGT_GNN_compatible_link_prediction_baseline,146
+German DR,Adidas,False,2.6866,2.7768,HGT_GNN_compatible_link_prediction_baseline,147
+Russia,Hisense,False,2.6866,2.7629,HGT_GNN_compatible_link_prediction_baseline,147
+Turkey,Qatar Airways,False,2.6865,2.7675,HGT_GNN_compatible_link_prediction_baseline,148
+Spain,Hisense,False,2.6864,2.7626,HGT_GNN_compatible_link_prediction_baseline,149
+Italy,Budweiser,False,2.686,2.7686,HGT_GNN_compatible_link_prediction_baseline,150
+Saudi Arabia,Hisense,False,2.6853,2.7615,HGT_GNN_compatible_link_prediction_baseline,151
+Honduras,Adidas,False,2.6851,2.7752,HGT_GNN_compatible_link_prediction_baseline,152
+Turkey,Visa,False,2.6849,2.7715,HGT_GNN_compatible_link_prediction_baseline,153
+Germany,Hisense,False,2.6847,2.7608,HGT_GNN_compatible_link_prediction_baseline,154
+Switzerland,Coca-Cola,False,2.6841,2.7617,HGT_GNN_compatible_link_prediction_baseline,155
+Switzerland,Budweiser,False,2.6833,2.7658,HGT_GNN_compatible_link_prediction_baseline,156
+Bosnia and Herzegovina,Hyundai,False,2.6833,2.776,HGT_GNN_compatible_link_prediction_baseline,156
+Norway,Adidas,False,2.6832,2.7733,HGT_GNN_compatible_link_prediction_baseline,157
+Northern Ireland,Adidas,False,2.6831,2.7732,HGT_GNN_compatible_link_prediction_baseline,158
+Ivory Coast,Hyundai,False,2.6824,2.7751,HGT_GNN_compatible_link_prediction_baseline,159
+Iceland,Hyundai,False,2.6803,2.7729,HGT_GNN_compatible_link_prediction_baseline,160
+United States,Adidas,False,2.6793,2.7692,HGT_GNN_compatible_link_prediction_baseline,161
+Czechoslovakia,Hyundai,False,2.6784,2.7709,HGT_GNN_compatible_link_prediction_baseline,162
+Serbia,Adidas,False,2.6784,2.7683,HGT_GNN_compatible_link_prediction_baseline,162
+Cameroon,Qatar Airways,False,2.6779,2.7586,HGT_GNN_compatible_link_prediction_baseline,163
+Uruguay,Adidas,False,2.6779,2.7678,HGT_GNN_compatible_link_prediction_baseline,163
+Panama,Hyundai,False,2.6777,2.7702,HGT_GNN_compatible_link_prediction_baseline,164
+Jamaica,Hyundai,False,2.6771,2.7696,HGT_GNN_compatible_link_prediction_baseline,165
+Romania,Adidas,False,2.6771,2.767,HGT_GNN_compatible_link_prediction_baseline,165
+South Korea,Qatar Airways,False,2.677,2.7577,HGT_GNN_compatible_link_prediction_baseline,166
+China,Hisense,False,2.6768,2.7528,HGT_GNN_compatible_link_prediction_baseline,167
+United Arab Emirates,Hyundai,False,2.6766,2.7691,HGT_GNN_compatible_link_prediction_baseline,168
+Cameroon,Visa,False,2.6762,2.7626,HGT_GNN_compatible_link_prediction_baseline,169
+Costa Rica,Hisense,False,2.6762,2.7522,HGT_GNN_compatible_link_prediction_baseline,169
+Senegal,Coca-Cola,False,2.676,2.7533,HGT_GNN_compatible_link_prediction_baseline,170
+Japan,Hisense,False,2.6758,2.7517,HGT_GNN_compatible_link_prediction_baseline,171
+Portugal,Adidas,False,2.6757,2.7656,HGT_GNN_compatible_link_prediction_baseline,172
+New Zealand,Coca-Cola,False,2.6756,2.7529,HGT_GNN_compatible_link_prediction_baseline,173
+South Korea,Visa,False,2.6754,2.7617,HGT_GNN_compatible_link_prediction_baseline,174
+Senegal,Budweiser,True,2.6752,2.7574,HGT_GNN_compatible_link_prediction_baseline,175
+Sweden,Coca-Cola,False,2.6748,2.7521,HGT_GNN_compatible_link_prediction_baseline,176
+New Zealand,Budweiser,False,2.6747,2.757,HGT_GNN_compatible_link_prediction_baseline,177
+Sweden,Budweiser,True,2.674,2.7562,HGT_GNN_compatible_link_prediction_baseline,178
+Croatia,Qatar Airways,False,2.6739,2.7545,HGT_GNN_compatible_link_prediction_baseline,179
+Belgium,Qatar Airways,False,2.6737,2.7543,HGT_GNN_compatible_link_prediction_baseline,180
+Ecuador,Adidas,False,2.6734,2.7631,HGT_GNN_compatible_link_prediction_baseline,181
+Iran,Adidas,True,2.6731,2.7629,HGT_GNN_compatible_link_prediction_baseline,182
+Tunisia,Hyundai,False,2.6729,2.7652,HGT_GNN_compatible_link_prediction_baseline,183
+Italy,Hisense,False,2.6728,2.7487,HGT_GNN_compatible_link_prediction_baseline,184
+Peru,Hyundai,False,2.6725,2.7648,HGT_GNN_compatible_link_prediction_baseline,185
+Nigeria,Qatar Airways,False,2.6724,2.7529,HGT_GNN_compatible_link_prediction_baseline,186
+Turkey,Coca-Cola,False,2.6722,2.7495,HGT_GNN_compatible_link_prediction_baseline,187
+Croatia,Visa,False,2.6722,2.7585,HGT_GNN_compatible_link_prediction_baseline,187
+Belgium,Visa,True,2.6721,2.7583,HGT_GNN_compatible_link_prediction_baseline,188
+Turkey,Budweiser,False,2.6714,2.7535,HGT_GNN_compatible_link_prediction_baseline,189
+Nigeria,Visa,False,2.6707,2.7569,HGT_GNN_compatible_link_prediction_baseline,190
+North Korea,Hyundai,False,2.6704,2.7627,HGT_GNN_compatible_link_prediction_baseline,191
+Switzerland,Hisense,False,2.6702,2.7459,HGT_GNN_compatible_link_prediction_baseline,192
+Yugoslavia,Qatar Airways,True,2.6701,2.7506,HGT_GNN_compatible_link_prediction_baseline,193
+Egypt,Adidas,False,2.6699,2.7595,HGT_GNN_compatible_link_prediction_baseline,194
+Wales,Adidas,False,2.669,2.7586,HGT_GNN_compatible_link_prediction_baseline,195
+Ghana,Adidas,False,2.6688,2.7584,HGT_GNN_compatible_link_prediction_baseline,196
+Chile,Adidas,False,2.6685,2.7581,HGT_GNN_compatible_link_prediction_baseline,197
+Yugoslavia,Visa,False,2.6685,2.7546,HGT_GNN_compatible_link_prediction_baseline,197
+Poland,Hyundai,False,2.6683,2.7605,HGT_GNN_compatible_link_prediction_baseline,198
+Colombia,Hyundai,False,2.6673,2.7595,HGT_GNN_compatible_link_prediction_baseline,199
+South Africa,Qatar Airways,False,2.6672,2.7476,HGT_GNN_compatible_link_prediction_baseline,200
+England,Adidas,False,2.6672,2.7568,HGT_GNN_compatible_link_prediction_baseline,200
+Australia,Hyundai,False,2.6672,2.7593,HGT_GNN_compatible_link_prediction_baseline,200
+Paraguay,Qatar Airways,False,2.667,2.7474,HGT_GNN_compatible_link_prediction_baseline,201
+Bulgaria,Adidas,False,2.667,2.7565,HGT_GNN_compatible_link_prediction_baseline,201
+South Africa,Visa,False,2.6656,2.7516,HGT_GNN_compatible_link_prediction_baseline,202
+Mexico,Hyundai,False,2.6656,2.7576,HGT_GNN_compatible_link_prediction_baseline,202
+El Salvador,Hyundai,False,2.6653,2.7573,HGT_GNN_compatible_link_prediction_baseline,203
+Paraguay,Visa,False,2.6653,2.7513,HGT_GNN_compatible_link_prediction_baseline,203
+Kuwait,Hyundai,False,2.6653,2.7573,HGT_GNN_compatible_link_prediction_baseline,203
+Cameroon,Coca-Cola,False,2.6636,2.7406,HGT_GNN_compatible_link_prediction_baseline,204
+Cameroon,Budweiser,False,2.6628,2.7447,HGT_GNN_compatible_link_prediction_baseline,205
+South Korea,Coca-Cola,False,2.6627,2.7397,HGT_GNN_compatible_link_prediction_baseline,206
+Scotland,Hyundai,False,2.6622,2.7542,HGT_GNN_compatible_link_prediction_baseline,207
+Senegal,Hisense,False,2.662,2.7375,HGT_GNN_compatible_link_prediction_baseline,208
+South Korea,Budweiser,False,2.6619,2.7438,HGT_GNN_compatible_link_prediction_baseline,209
+New Zealand,Hisense,False,2.6616,2.7371,HGT_GNN_compatible_link_prediction_baseline,210
+Sweden,Hisense,False,2.6608,2.7363,HGT_GNN_compatible_link_prediction_baseline,211
+Bosnia and Herzegovina,Qatar Airways,False,2.6601,2.7403,HGT_GNN_compatible_link_prediction_baseline,212
+Croatia,Coca-Cola,False,2.6596,2.7365,HGT_GNN_compatible_link_prediction_baseline,213
+Belgium,Coca-Cola,False,2.6595,2.7363,HGT_GNN_compatible_link_prediction_baseline,214
+Ivory Coast,Qatar Airways,False,2.6593,2.7394,HGT_GNN_compatible_link_prediction_baseline,215
+Greece,Hyundai,False,2.6592,2.751,HGT_GNN_compatible_link_prediction_baseline,216
+Croatia,Budweiser,False,2.6588,2.7405,HGT_GNN_compatible_link_prediction_baseline,217
+Belgium,Budweiser,False,2.6586,2.7404,HGT_GNN_compatible_link_prediction_baseline,218
+Bosnia and Herzegovina,Visa,False,2.6585,2.7443,HGT_GNN_compatible_link_prediction_baseline,219
+Turkey,Hisense,False,2.6583,2.7337,HGT_GNN_compatible_link_prediction_baseline,220
+Nigeria,Coca-Cola,True,2.6581,2.7349,HGT_GNN_compatible_link_prediction_baseline,221
+Ivory Coast,Visa,False,2.6576,2.7434,HGT_GNN_compatible_link_prediction_baseline,222
+Algeria,Hyundai,False,2.6575,2.7493,HGT_GNN_compatible_link_prediction_baseline,223
+Nigeria,Budweiser,False,2.6573,2.739,HGT_GNN_compatible_link_prediction_baseline,224
+Iceland,Qatar Airways,False,2.6572,2.7373,HGT_GNN_compatible_link_prediction_baseline,225
+Yugoslavia,Coca-Cola,False,2.6558,2.7326,HGT_GNN_compatible_link_prediction_baseline,226
+Iceland,Visa,True,2.6555,2.7412,HGT_GNN_compatible_link_prediction_baseline,227
+Canada,Hyundai,False,2.6554,2.7471,HGT_GNN_compatible_link_prediction_baseline,228
+Czechoslovakia,Qatar Airways,False,2.6552,2.7353,HGT_GNN_compatible_link_prediction_baseline,229
+Morocco,Hyundai,False,2.6552,2.7469,HGT_GNN_compatible_link_prediction_baseline,229
+Yugoslavia,Budweiser,False,2.655,2.7366,HGT_GNN_compatible_link_prediction_baseline,230
+Panama,Qatar Airways,True,2.6546,2.7346,HGT_GNN_compatible_link_prediction_baseline,231
+German DR,Hyundai,False,2.6546,2.7463,HGT_GNN_compatible_link_prediction_baseline,231
+Jamaica,Qatar Airways,False,2.6539,2.7339,HGT_GNN_compatible_link_prediction_baseline,232
+Czechoslovakia,Visa,False,2.6536,2.7392,HGT_GNN_compatible_link_prediction_baseline,233
+United Arab Emirates,Qatar Airways,False,2.6535,2.7335,HGT_GNN_compatible_link_prediction_baseline,234
+Honduras,Hyundai,False,2.653,2.7447,HGT_GNN_compatible_link_prediction_baseline,235
+Panama,Visa,False,2.653,2.7386,HGT_GNN_compatible_link_prediction_baseline,235
+South Africa,Coca-Cola,False,2.6529,2.7296,HGT_GNN_compatible_link_prediction_baseline,236
+Paraguay,Coca-Cola,False,2.6527,2.7294,HGT_GNN_compatible_link_prediction_baseline,237
+Jamaica,Visa,False,2.6523,2.7379,HGT_GNN_compatible_link_prediction_baseline,238
+South Africa,Budweiser,False,2.6521,2.7336,HGT_GNN_compatible_link_prediction_baseline,239
+Paraguay,Budweiser,False,2.6519,2.7334,HGT_GNN_compatible_link_prediction_baseline,240
+United Arab Emirates,Visa,False,2.6518,2.7374,HGT_GNN_compatible_link_prediction_baseline,241
+Norway,Hyundai,False,2.6512,2.7428,HGT_GNN_compatible_link_prediction_baseline,242
+Northern Ireland,Hyundai,False,2.6511,2.7427,HGT_GNN_compatible_link_prediction_baseline,243
+Tunisia,Qatar Airways,False,2.6497,2.7296,HGT_GNN_compatible_link_prediction_baseline,244
+Cameroon,Hisense,False,2.6496,2.7248,HGT_GNN_compatible_link_prediction_baseline,245
+Peru,Qatar Airways,False,2.6494,2.7292,HGT_GNN_compatible_link_prediction_baseline,246
+South Korea,Hisense,True,2.6488,2.7239,HGT_GNN_compatible_link_prediction_baseline,247
+Republic of Ireland,Adidas,False,2.6487,2.7376,HGT_GNN_compatible_link_prediction_baseline,248
+Tunisia,Visa,False,2.6481,2.7336,HGT_GNN_compatible_link_prediction_baseline,249
+Peru,Visa,False,2.6477,2.7332,HGT_GNN_compatible_link_prediction_baseline,250
+North Korea,Qatar Airways,False,2.6473,2.7271,HGT_GNN_compatible_link_prediction_baseline,251
+United States,Hyundai,False,2.6473,2.7387,HGT_GNN_compatible_link_prediction_baseline,251
+Serbia,Hyundai,False,2.6464,2.7378,HGT_GNN_compatible_link_prediction_baseline,252
+Uruguay,Hyundai,False,2.6459,2.7373,HGT_GNN_compatible_link_prediction_baseline,253
+Bosnia and Herzegovina,Coca-Cola,False,2.6458,2.7223,HGT_GNN_compatible_link_prediction_baseline,254
+North Korea,Visa,False,2.6456,2.731,HGT_GNN_compatible_link_prediction_baseline,255
+Croatia,Hisense,True,2.6456,2.7207,HGT_GNN_compatible_link_prediction_baseline,255
+Belgium,Hisense,False,2.6455,2.7205,HGT_GNN_compatible_link_prediction_baseline,256
+Romania,Hyundai,False,2.6451,2.7364,HGT_GNN_compatible_link_prediction_baseline,257
+Poland,Qatar Airways,False,2.6451,2.7249,HGT_GNN_compatible_link_prediction_baseline,257
+Bosnia and Herzegovina,Budweiser,True,2.645,2.7263,HGT_GNN_compatible_link_prediction_baseline,258
+Ivory Coast,Coca-Cola,False,2.645,2.7215,HGT_GNN_compatible_link_prediction_baseline,258
+Ivory Coast,Budweiser,False,2.6442,2.7255,HGT_GNN_compatible_link_prediction_baseline,259
+Colombia,Qatar Airways,False,2.6442,2.7239,HGT_GNN_compatible_link_prediction_baseline,259
+Nigeria,Hisense,False,2.6441,2.7191,HGT_GNN_compatible_link_prediction_baseline,260
+Australia,Qatar Airways,False,2.644,2.7237,HGT_GNN_compatible_link_prediction_baseline,261
+Portugal,Hyundai,False,2.6437,2.735,HGT_GNN_compatible_link_prediction_baseline,262
+Poland,Visa,False,2.6435,2.7288,HGT_GNN_compatible_link_prediction_baseline,263
+Iceland,Coca-Cola,False,2.6429,2.7193,HGT_GNN_compatible_link_prediction_baseline,264
+Colombia,Visa,False,2.6425,2.7278,HGT_GNN_compatible_link_prediction_baseline,265
+Australia,Visa,False,2.6424,2.7277,HGT_GNN_compatible_link_prediction_baseline,266
+Mexico,Qatar Airways,False,2.6424,2.722,HGT_GNN_compatible_link_prediction_baseline,266
+Iceland,Budweiser,False,2.6421,2.7233,HGT_GNN_compatible_link_prediction_baseline,267
+Kuwait,Qatar Airways,False,2.6421,2.7217,HGT_GNN_compatible_link_prediction_baseline,267
+El Salvador,Qatar Airways,False,2.6421,2.7218,HGT_GNN_compatible_link_prediction_baseline,267
+Yugoslavia,Hisense,False,2.6419,2.7168,HGT_GNN_compatible_link_prediction_baseline,268
+Ecuador,Hyundai,False,2.6414,2.7326,HGT_GNN_compatible_link_prediction_baseline,269
+Iran,Hyundai,False,2.6411,2.7323,HGT_GNN_compatible_link_prediction_baseline,270
+Czechoslovakia,Coca-Cola,True,2.641,2.7173,HGT_GNN_compatible_link_prediction_baseline,271
+Mexico,Visa,False,2.6408,2.726,HGT_GNN_compatible_link_prediction_baseline,272
+El Salvador,Visa,False,2.6405,2.7257,HGT_GNN_compatible_link_prediction_baseline,273
+Kuwait,Visa,False,2.6405,2.7257,HGT_GNN_compatible_link_prediction_baseline,273
+Argentina,Vivo,False,2.6403,2.6813,HGT_GNN_compatible_link_prediction_baseline,274
+Panama,Coca-Cola,False,2.6403,2.7166,HGT_GNN_compatible_link_prediction_baseline,274
+Czechoslovakia,Budweiser,False,2.6401,2.7213,HGT_GNN_compatible_link_prediction_baseline,275
+DR Congo,Adidas,False,2.6399,2.7286,HGT_GNN_compatible_link_prediction_baseline,276
+Jamaica,Coca-Cola,False,2.6397,2.716,HGT_GNN_compatible_link_prediction_baseline,277
+Panama,Budweiser,False,2.6395,2.7207,HGT_GNN_compatible_link_prediction_baseline,278
+United Arab Emirates,Coca-Cola,False,2.6392,2.7155,HGT_GNN_compatible_link_prediction_baseline,279
+Scotland,Qatar Airways,False,2.639,2.7186,HGT_GNN_compatible_link_prediction_baseline,280
+South Africa,Hisense,False,2.6389,2.7138,HGT_GNN_compatible_link_prediction_baseline,281
+Jamaica,Budweiser,False,2.6388,2.72,HGT_GNN_compatible_link_prediction_baseline,282
+Paraguay,Hisense,False,2.6387,2.7136,HGT_GNN_compatible_link_prediction_baseline,283
+United Arab Emirates,Budweiser,False,2.6384,2.7195,HGT_GNN_compatible_link_prediction_baseline,284
+Egypt,Hyundai,True,2.6379,2.729,HGT_GNN_compatible_link_prediction_baseline,285
+Scotland,Visa,False,2.6374,2.7225,HGT_GNN_compatible_link_prediction_baseline,286
+Wales,Hyundai,False,2.637,2.7281,HGT_GNN_compatible_link_prediction_baseline,287
+Ghana,Hyundai,False,2.6368,2.7278,HGT_GNN_compatible_link_prediction_baseline,288
+Chile,Hyundai,False,2.6365,2.7276,HGT_GNN_compatible_link_prediction_baseline,289
+Greece,Qatar Airways,True,2.636,2.7155,HGT_GNN_compatible_link_prediction_baseline,290
+Tunisia,Coca-Cola,True,2.6355,2.7116,HGT_GNN_compatible_link_prediction_baseline,291
+England,Hyundai,False,2.6352,2.7262,HGT_GNN_compatible_link_prediction_baseline,292
+Peru,Coca-Cola,False,2.6351,2.7113,HGT_GNN_compatible_link_prediction_baseline,293
+Bulgaria,Hyundai,False,2.635,2.726,HGT_GNN_compatible_link_prediction_baseline,294
+Tunisia,Budweiser,False,2.6346,2.7156,HGT_GNN_compatible_link_prediction_baseline,295
+Greece,Visa,False,2.6344,2.7194,HGT_GNN_compatible_link_prediction_baseline,296
+Algeria,Qatar Airways,False,2.6343,2.7137,HGT_GNN_compatible_link_prediction_baseline,297
+Peru,Budweiser,True,2.6343,2.7153,HGT_GNN_compatible_link_prediction_baseline,297
+Argentina,McDonald's,False,2.6333,2.678,HGT_GNN_compatible_link_prediction_baseline,298
+Argentina,Mengniu,False,2.6333,2.6738,HGT_GNN_compatible_link_prediction_baseline,298
+North Korea,Coca-Cola,False,2.633,2.7091,HGT_GNN_compatible_link_prediction_baseline,299
+Algeria,Visa,False,2.6327,2.7177,HGT_GNN_compatible_link_prediction_baseline,300
+Canada,Qatar Airways,True,2.6322,2.7116,HGT_GNN_compatible_link_prediction_baseline,301
+North Korea,Budweiser,False,2.6322,2.7131,HGT_GNN_compatible_link_prediction_baseline,301
+Morocco,Qatar Airways,False,2.632,2.7114,HGT_GNN_compatible_link_prediction_baseline,302
+Bosnia and Herzegovina,Hisense,False,2.6319,2.7065,HGT_GNN_compatible_link_prediction_baseline,303
+German DR,Qatar Airways,False,2.6314,2.7107,HGT_GNN_compatible_link_prediction_baseline,304
+Ivory Coast,Hisense,False,2.631,2.7057,HGT_GNN_compatible_link_prediction_baseline,305
+Poland,Coca-Cola,True,2.6309,2.7069,HGT_GNN_compatible_link_prediction_baseline,306
+Canada,Visa,False,2.6306,2.7155,HGT_GNN_compatible_link_prediction_baseline,307
+Morocco,Visa,False,2.6304,2.7153,HGT_GNN_compatible_link_prediction_baseline,308
+Poland,Budweiser,False,2.63,2.7109,HGT_GNN_compatible_link_prediction_baseline,309
+Colombia,Coca-Cola,False,2.6299,2.7059,HGT_GNN_compatible_link_prediction_baseline,310
+Honduras,Qatar Airways,False,2.6299,2.7091,HGT_GNN_compatible_link_prediction_baseline,310
+German DR,Visa,True,2.6298,2.7146,HGT_GNN_compatible_link_prediction_baseline,311
+Australia,Coca-Cola,False,2.6298,2.7058,HGT_GNN_compatible_link_prediction_baseline,311
+Colombia,Budweiser,False,2.6291,2.7099,HGT_GNN_compatible_link_prediction_baseline,312
+Australia,Budweiser,False,2.6289,2.7098,HGT_GNN_compatible_link_prediction_baseline,313
+Iceland,Hisense,False,2.6289,2.7035,HGT_GNN_compatible_link_prediction_baseline,313
+Honduras,Visa,True,2.6282,2.7131,HGT_GNN_compatible_link_prediction_baseline,314
+Mexico,Coca-Cola,False,2.6281,2.7041,HGT_GNN_compatible_link_prediction_baseline,315
+Norway,Qatar Airways,False,2.628,2.7072,HGT_GNN_compatible_link_prediction_baseline,316
+Northern Ireland,Qatar Airways,False,2.6279,2.7072,HGT_GNN_compatible_link_prediction_baseline,317
+El Salvador,Coca-Cola,False,2.6279,2.7038,HGT_GNN_compatible_link_prediction_baseline,317
+Kuwait,Coca-Cola,False,2.6278,2.7038,HGT_GNN_compatible_link_prediction_baseline,318
+Mexico,Budweiser,False,2.6273,2.7081,HGT_GNN_compatible_link_prediction_baseline,319
+El Salvador,Budweiser,True,2.627,2.7078,HGT_GNN_compatible_link_prediction_baseline,320
+Czechoslovakia,Hisense,False,2.627,2.7015,HGT_GNN_compatible_link_prediction_baseline,320
+Kuwait,Budweiser,False,2.627,2.7078,HGT_GNN_compatible_link_prediction_baseline,320
+Norway,Visa,False,2.6264,2.7111,HGT_GNN_compatible_link_prediction_baseline,321
+Panama,Hisense,False,2.6263,2.7009,HGT_GNN_compatible_link_prediction_baseline,322
+Northern Ireland,Visa,False,2.6263,2.7111,HGT_GNN_compatible_link_prediction_baseline,322
+Jamaica,Hisense,False,2.6257,2.7002,HGT_GNN_compatible_link_prediction_baseline,323
+United Arab Emirates,Hisense,False,2.6252,2.6997,HGT_GNN_compatible_link_prediction_baseline,324
+Scotland,Coca-Cola,False,2.6248,2.7006,HGT_GNN_compatible_link_prediction_baseline,325
+United States,Qatar Airways,False,2.6241,2.7032,HGT_GNN_compatible_link_prediction_baseline,326
+Scotland,Budweiser,False,2.6239,2.7046,HGT_GNN_compatible_link_prediction_baseline,327
+Serbia,Qatar Airways,False,2.6232,2.7023,HGT_GNN_compatible_link_prediction_baseline,328
+Uruguay,Qatar Airways,False,2.6227,2.7018,HGT_GNN_compatible_link_prediction_baseline,329
+United States,Visa,False,2.6225,2.7071,HGT_GNN_compatible_link_prediction_baseline,330
+France,Vivo,False,2.6224,2.6631,HGT_GNN_compatible_link_prediction_baseline,331
+Romania,Qatar Airways,True,2.6219,2.7009,HGT_GNN_compatible_link_prediction_baseline,332
+Greece,Coca-Cola,False,2.6217,2.6975,HGT_GNN_compatible_link_prediction_baseline,333
+Serbia,Visa,False,2.6216,2.7062,HGT_GNN_compatible_link_prediction_baseline,334
+Tunisia,Hisense,False,2.6215,2.6959,HGT_GNN_compatible_link_prediction_baseline,335
+Peru,Hisense,False,2.6211,2.6955,HGT_GNN_compatible_link_prediction_baseline,336
+Uruguay,Visa,False,2.6211,2.7057,HGT_GNN_compatible_link_prediction_baseline,336
+Greece,Budweiser,False,2.6209,2.7015,HGT_GNN_compatible_link_prediction_baseline,337
+Hungary,Vivo,False,2.6206,2.6613,HGT_GNN_compatible_link_prediction_baseline,338
+Portugal,Qatar Airways,False,2.6206,2.6995,HGT_GNN_compatible_link_prediction_baseline,338
+Romania,Visa,False,2.6203,2.7048,HGT_GNN_compatible_link_prediction_baseline,339
+Algeria,Coca-Cola,False,2.6201,2.6958,HGT_GNN_compatible_link_prediction_baseline,340
+Algeria,Budweiser,True,2.6192,2.6998,HGT_GNN_compatible_link_prediction_baseline,341
+North Korea,Hisense,False,2.619,2.6933,HGT_GNN_compatible_link_prediction_baseline,342
+Portugal,Visa,False,2.6189,2.7034,HGT_GNN_compatible_link_prediction_baseline,343
+Netherlands,Vivo,False,2.6187,2.6593,HGT_GNN_compatible_link_prediction_baseline,344
+Ecuador,Qatar Airways,False,2.6182,2.6971,HGT_GNN_compatible_link_prediction_baseline,345
+Canada,Coca-Cola,False,2.618,2.6936,HGT_GNN_compatible_link_prediction_baseline,346
+Austria,Adidas,False,2.6179,2.7057,HGT_GNN_compatible_link_prediction_baseline,347
+Iran,Qatar Airways,False,2.6179,2.6968,HGT_GNN_compatible_link_prediction_baseline,347
+Morocco,Coca-Cola,True,2.6178,2.6934,HGT_GNN_compatible_link_prediction_baseline,348
+German DR,Coca-Cola,False,2.6171,2.6928,HGT_GNN_compatible_link_prediction_baseline,349
+Canada,Budweiser,False,2.6171,2.6976,HGT_GNN_compatible_link_prediction_baseline,349
+Morocco,Budweiser,False,2.6169,2.6974,HGT_GNN_compatible_link_prediction_baseline,350
+Poland,Hisense,False,2.6169,2.6911,HGT_GNN_compatible_link_prediction_baseline,350
+Republic of Ireland,Hyundai,False,2.6167,2.7071,HGT_GNN_compatible_link_prediction_baseline,351
+Ecuador,Visa,False,2.6166,2.701,HGT_GNN_compatible_link_prediction_baseline,352
+German DR,Budweiser,False,2.6163,2.6968,HGT_GNN_compatible_link_prediction_baseline,353
+Ukraine,Vivo,False,2.6163,2.6569,HGT_GNN_compatible_link_prediction_baseline,353
+Iran,Visa,False,2.6163,2.7007,HGT_GNN_compatible_link_prediction_baseline,353
+Colombia,Hisense,False,2.6159,2.6901,HGT_GNN_compatible_link_prediction_baseline,354
+Australia,Hisense,False,2.6158,2.69,HGT_GNN_compatible_link_prediction_baseline,355
+Honduras,Coca-Cola,False,2.6156,2.6912,HGT_GNN_compatible_link_prediction_baseline,356
+France,Mengniu,False,2.6154,2.6557,HGT_GNN_compatible_link_prediction_baseline,357
+France,McDonald's,False,2.6154,2.6597,HGT_GNN_compatible_link_prediction_baseline,357
+Honduras,Budweiser,False,2.6148,2.6952,HGT_GNN_compatible_link_prediction_baseline,358
+Indonesia,Vivo,False,2.6148,2.6553,HGT_GNN_compatible_link_prediction_baseline,358
+Egypt,Qatar Airways,False,2.6147,2.6935,HGT_GNN_compatible_link_prediction_baseline,359
+Mexico,Hisense,False,2.6141,2.6883,HGT_GNN_compatible_link_prediction_baseline,360
+Wales,Qatar Airways,False,2.6139,2.6926,HGT_GNN_compatible_link_prediction_baseline,361
+Kuwait,Hisense,True,2.6139,2.688,HGT_GNN_compatible_link_prediction_baseline,361
+El Salvador,Hisense,False,2.6139,2.688,HGT_GNN_compatible_link_prediction_baseline,361
+Northern Ireland,Coca-Cola,False,2.6137,2.6892,HGT_GNN_compatible_link_prediction_baseline,362
+Norway,Coca-Cola,False,2.6137,2.6893,HGT_GNN_compatible_link_prediction_baseline,362
+Hungary,Mengniu,False,2.6136,2.6538,HGT_GNN_compatible_link_prediction_baseline,363
+Hungary,McDonald's,False,2.6136,2.6579,HGT_GNN_compatible_link_prediction_baseline,363
+Ghana,Qatar Airways,False,2.6136,2.6924,HGT_GNN_compatible_link_prediction_baseline,363
+Chile,Qatar Airways,False,2.6133,2.6921,HGT_GNN_compatible_link_prediction_baseline,364
+Egypt,Visa,False,2.6131,2.6974,HGT_GNN_compatible_link_prediction_baseline,365
+Norway,Budweiser,False,2.6129,2.6933,HGT_GNN_compatible_link_prediction_baseline,366
+Northern Ireland,Budweiser,False,2.6128,2.6932,HGT_GNN_compatible_link_prediction_baseline,367
+Wales,Visa,False,2.6122,2.6965,HGT_GNN_compatible_link_prediction_baseline,368
+Ghana,Visa,False,2.612,2.6962,HGT_GNN_compatible_link_prediction_baseline,369
+England,Qatar Airways,False,2.612,2.6908,HGT_GNN_compatible_link_prediction_baseline,369
+Bulgaria,Qatar Airways,False,2.6118,2.6905,HGT_GNN_compatible_link_prediction_baseline,370
+Netherlands,Mengniu,False,2.6117,2.6519,HGT_GNN_compatible_link_prediction_baseline,371
+Chile,Visa,False,2.6117,2.696,HGT_GNN_compatible_link_prediction_baseline,371
+Netherlands,McDonald's,False,2.6117,2.656,HGT_GNN_compatible_link_prediction_baseline,371
+Scotland,Hisense,False,2.6108,2.6849,HGT_GNN_compatible_link_prediction_baseline,372
+England,Visa,False,2.6104,2.6947,HGT_GNN_compatible_link_prediction_baseline,373
+Bulgaria,Visa,True,2.6102,2.6944,HGT_GNN_compatible_link_prediction_baseline,374
+United States,Coca-Cola,False,2.6098,2.6853,HGT_GNN_compatible_link_prediction_baseline,375
+Ukraine,Mengniu,False,2.6092,2.6494,HGT_GNN_compatible_link_prediction_baseline,376
+Ukraine,McDonald's,False,2.6092,2.6535,HGT_GNN_compatible_link_prediction_baseline,376
+United States,Budweiser,False,2.609,2.6892,HGT_GNN_compatible_link_prediction_baseline,377
+Serbia,Coca-Cola,False,2.6089,2.6844,HGT_GNN_compatible_link_prediction_baseline,378
+Uruguay,Coca-Cola,False,2.6084,2.6838,HGT_GNN_compatible_link_prediction_baseline,379
+Denmark,Vivo,False,2.6083,2.6488,HGT_GNN_compatible_link_prediction_baseline,380
+Serbia,Budweiser,False,2.6081,2.6883,HGT_GNN_compatible_link_prediction_baseline,381
+DR Congo,Hyundai,True,2.6079,2.698,HGT_GNN_compatible_link_prediction_baseline,382
+Greece,Hisense,False,2.6078,2.6817,HGT_GNN_compatible_link_prediction_baseline,383
+Indonesia,McDonald's,False,2.6077,2.652,HGT_GNN_compatible_link_prediction_baseline,384
+Indonesia,Mengniu,False,2.6077,2.6479,HGT_GNN_compatible_link_prediction_baseline,384
+Uruguay,Budweiser,False,2.6076,2.6878,HGT_GNN_compatible_link_prediction_baseline,385
+Romania,Coca-Cola,False,2.6076,2.683,HGT_GNN_compatible_link_prediction_baseline,385
+Russia,Vivo,False,2.6076,2.6481,HGT_GNN_compatible_link_prediction_baseline,385
+Spain,Vivo,False,2.6073,2.6478,HGT_GNN_compatible_link_prediction_baseline,386
+Romania,Budweiser,False,2.6068,2.687,HGT_GNN_compatible_link_prediction_baseline,387
+Portugal,Coca-Cola,False,2.6063,2.6816,HGT_GNN_compatible_link_prediction_baseline,388
+Saudi Arabia,Vivo,False,2.6063,2.6467,HGT_GNN_compatible_link_prediction_baseline,388
+Algeria,Hisense,False,2.6061,2.68,HGT_GNN_compatible_link_prediction_baseline,389
+Germany,Vivo,False,2.6056,2.6461,HGT_GNN_compatible_link_prediction_baseline,390
+Portugal,Budweiser,False,2.6055,2.6856,HGT_GNN_compatible_link_prediction_baseline,391
+Canada,Hisense,False,2.604,2.6779,HGT_GNN_compatible_link_prediction_baseline,392
+Ecuador,Coca-Cola,False,2.6039,2.6792,HGT_GNN_compatible_link_prediction_baseline,393
+Morocco,Hisense,False,2.6038,2.6777,HGT_GNN_compatible_link_prediction_baseline,394
+Iran,Coca-Cola,False,2.6037,2.6789,HGT_GNN_compatible_link_prediction_baseline,395
+Slovenia,Adidas,False,2.6033,2.6907,HGT_GNN_compatible_link_prediction_baseline,396
+German DR,Hisense,False,2.6032,2.677,HGT_GNN_compatible_link_prediction_baseline,397
+Ecuador,Budweiser,False,2.6031,2.6831,HGT_GNN_compatible_link_prediction_baseline,398
+Iran,Budweiser,False,2.6028,2.6829,HGT_GNN_compatible_link_prediction_baseline,399
+Honduras,Hisense,False,2.6016,2.6755,HGT_GNN_compatible_link_prediction_baseline,400
+Denmark,Mengniu,False,2.6013,2.6414,HGT_GNN_compatible_link_prediction_baseline,401
+Denmark,McDonald's,False,2.6013,2.6454,HGT_GNN_compatible_link_prediction_baseline,401
+Russia,Mengniu,False,2.6006,2.6406,HGT_GNN_compatible_link_prediction_baseline,402
+Russia,McDonald's,False,2.6006,2.6447,HGT_GNN_compatible_link_prediction_baseline,402
+Egypt,Coca-Cola,False,2.6004,2.6756,HGT_GNN_compatible_link_prediction_baseline,403
+Spain,McDonald's,False,2.6003,2.6444,HGT_GNN_compatible_link_prediction_baseline,404
+Spain,Mengniu,False,2.6003,2.6403,HGT_GNN_compatible_link_prediction_baseline,404
+Norway,Hisense,False,2.5998,2.6735,HGT_GNN_compatible_link_prediction_baseline,405
+Northern Ireland,Hisense,True,2.5997,2.6735,HGT_GNN_compatible_link_prediction_baseline,406
+Egypt,Budweiser,False,2.5996,2.6795,HGT_GNN_compatible_link_prediction_baseline,407
+Wales,Coca-Cola,True,2.5996,2.6747,HGT_GNN_compatible_link_prediction_baseline,407
+Ghana,Coca-Cola,False,2.5993,2.6745,HGT_GNN_compatible_link_prediction_baseline,408
+Saudi Arabia,McDonald's,False,2.5992,2.6433,HGT_GNN_compatible_link_prediction_baseline,409
+Saudi Arabia,Mengniu,False,2.5992,2.6393,HGT_GNN_compatible_link_prediction_baseline,409
+Chile,Coca-Cola,False,2.5991,2.6742,HGT_GNN_compatible_link_prediction_baseline,410
+Wales,Budweiser,False,2.5988,2.6787,HGT_GNN_compatible_link_prediction_baseline,411
+Germany,Mengniu,False,2.5986,2.6386,HGT_GNN_compatible_link_prediction_baseline,412
+Germany,McDonald's,False,2.5986,2.6427,HGT_GNN_compatible_link_prediction_baseline,412
+Ghana,Budweiser,False,2.5985,2.6784,HGT_GNN_compatible_link_prediction_baseline,413
+Haiti,Adidas,False,2.5985,2.6857,HGT_GNN_compatible_link_prediction_baseline,413
+Chile,Budweiser,False,2.5982,2.6781,HGT_GNN_compatible_link_prediction_baseline,414
+England,Coca-Cola,False,2.5978,2.6729,HGT_GNN_compatible_link_prediction_baseline,415
+China,Vivo,False,2.5978,2.6381,HGT_GNN_compatible_link_prediction_baseline,415
+Bulgaria,Coca-Cola,False,2.5975,2.6726,HGT_GNN_compatible_link_prediction_baseline,416
+Costa Rica,Vivo,False,2.5972,2.6375,HGT_GNN_compatible_link_prediction_baseline,417
+England,Budweiser,False,2.597,2.6768,HGT_GNN_compatible_link_prediction_baseline,418
+Japan,Vivo,False,2.5968,2.637,HGT_GNN_compatible_link_prediction_baseline,419
+Bulgaria,Budweiser,False,2.5967,2.6766,HGT_GNN_compatible_link_prediction_baseline,420
+United States,Hisense,False,2.5959,2.6695,HGT_GNN_compatible_link_prediction_baseline,421
+Serbia,Hisense,False,2.595,2.6686,HGT_GNN_compatible_link_prediction_baseline,422
+Uruguay,Hisense,False,2.5945,2.6681,HGT_GNN_compatible_link_prediction_baseline,423
+Slovakia,Adidas,False,2.5945,2.6816,HGT_GNN_compatible_link_prediction_baseline,423
+Czech Republic,Adidas,False,2.5939,2.6809,HGT_GNN_compatible_link_prediction_baseline,424
+Italy,Vivo,False,2.5938,2.634,HGT_GNN_compatible_link_prediction_baseline,425
+Romania,Hisense,False,2.5937,2.6673,HGT_GNN_compatible_link_prediction_baseline,426
+Republic of Ireland,Qatar Airways,False,2.5935,2.6717,HGT_GNN_compatible_link_prediction_baseline,427
+Portugal,Hisense,False,2.5923,2.6659,HGT_GNN_compatible_link_prediction_baseline,428
+Republic of Ireland,Visa,False,2.5919,2.6755,HGT_GNN_compatible_link_prediction_baseline,429
+Switzerland,Vivo,False,2.5911,2.6313,HGT_GNN_compatible_link_prediction_baseline,430
+China,Mengniu,False,2.5908,2.6307,HGT_GNN_compatible_link_prediction_baseline,431
+Angola,Adidas,False,2.5908,2.6777,HGT_GNN_compatible_link_prediction_baseline,431
+China,McDonald's,False,2.5908,2.6347,HGT_GNN_compatible_link_prediction_baseline,431
+Costa Rica,Mengniu,False,2.5901,2.63,HGT_GNN_compatible_link_prediction_baseline,432
+Costa Rica,McDonald's,False,2.5901,2.6341,HGT_GNN_compatible_link_prediction_baseline,432
+Ecuador,Hisense,False,2.5899,2.6634,HGT_GNN_compatible_link_prediction_baseline,433
+Japan,Mengniu,False,2.5897,2.6296,HGT_GNN_compatible_link_prediction_baseline,434
+Japan,McDonald's,False,2.5897,2.6337,HGT_GNN_compatible_link_prediction_baseline,434
+Iran,Hisense,False,2.5897,2.6632,HGT_GNN_compatible_link_prediction_baseline,434
+Italy,Mengniu,False,2.5868,2.6266,HGT_GNN_compatible_link_prediction_baseline,435
+Italy,McDonald's,False,2.5868,2.6306,HGT_GNN_compatible_link_prediction_baseline,435
+Egypt,Hisense,False,2.5865,2.6598,HGT_GNN_compatible_link_prediction_baseline,436
+Austria,Hyundai,False,2.5858,2.6751,HGT_GNN_compatible_link_prediction_baseline,437
+Wales,Hisense,False,2.5856,2.659,HGT_GNN_compatible_link_prediction_baseline,438
+Ghana,Hisense,False,2.5853,2.6587,HGT_GNN_compatible_link_prediction_baseline,439
+Chile,Hisense,True,2.5851,2.6584,HGT_GNN_compatible_link_prediction_baseline,440
+DR Congo,Qatar Airways,False,2.5848,2.6627,HGT_GNN_compatible_link_prediction_baseline,441
+Switzerland,Mengniu,False,2.5841,2.6239,HGT_GNN_compatible_link_prediction_baseline,442
+Switzerland,McDonald's,False,2.5841,2.6279,HGT_GNN_compatible_link_prediction_baseline,442
+England,Hisense,False,2.5838,2.6571,HGT_GNN_compatible_link_prediction_baseline,443
+Bulgaria,Hisense,False,2.5836,2.6569,HGT_GNN_compatible_link_prediction_baseline,444
+DR Congo,Visa,False,2.5831,2.6665,HGT_GNN_compatible_link_prediction_baseline,445
+Senegal,Vivo,False,2.583,2.623,HGT_GNN_compatible_link_prediction_baseline,446
+New Zealand,Vivo,False,2.5825,2.6226,HGT_GNN_compatible_link_prediction_baseline,447
+Sweden,Vivo,False,2.5818,2.6218,HGT_GNN_compatible_link_prediction_baseline,448
+Trinidad and Tobago,Adidas,False,2.5797,2.6663,HGT_GNN_compatible_link_prediction_baseline,449
+Republic of Ireland,Coca-Cola,False,2.5792,2.6538,HGT_GNN_compatible_link_prediction_baseline,450
+Turkey,Vivo,False,2.5792,2.6192,HGT_GNN_compatible_link_prediction_baseline,450
+Republic of Ireland,Budweiser,False,2.5784,2.6577,HGT_GNN_compatible_link_prediction_baseline,451
+Senegal,McDonald's,False,2.5759,2.6196,HGT_GNN_compatible_link_prediction_baseline,452
+Senegal,Mengniu,False,2.5759,2.6156,HGT_GNN_compatible_link_prediction_baseline,452
+New Zealand,McDonald's,True,2.5755,2.6192,HGT_GNN_compatible_link_prediction_baseline,453
+New Zealand,Mengniu,False,2.5755,2.6152,HGT_GNN_compatible_link_prediction_baseline,453
+Sweden,Mengniu,False,2.5747,2.6144,HGT_GNN_compatible_link_prediction_baseline,454
+Sweden,McDonald's,False,2.5747,2.6184,HGT_GNN_compatible_link_prediction_baseline,454
+Turkey,Mengniu,False,2.5722,2.6118,HGT_GNN_compatible_link_prediction_baseline,455
+Turkey,McDonald's,False,2.5722,2.6158,HGT_GNN_compatible_link_prediction_baseline,455
+Slovenia,Hyundai,False,2.5713,2.6601,HGT_GNN_compatible_link_prediction_baseline,456
+Cameroon,Vivo,False,2.5706,2.6105,HGT_GNN_compatible_link_prediction_baseline,457
+DR Congo,Coca-Cola,False,2.5705,2.6448,HGT_GNN_compatible_link_prediction_baseline,458
+DR Congo,Budweiser,False,2.5697,2.6487,HGT_GNN_compatible_link_prediction_baseline,459
+South Korea,Vivo,False,2.5697,2.6096,HGT_GNN_compatible_link_prediction_baseline,459
+Croatia,Vivo,False,2.5666,2.6064,HGT_GNN_compatible_link_prediction_baseline,460
+Belgium,Vivo,False,2.5664,2.6063,HGT_GNN_compatible_link_prediction_baseline,461
+Haiti,Hyundai,False,2.5664,2.6551,HGT_GNN_compatible_link_prediction_baseline,461
+Republic of Ireland,Hisense,True,2.5653,2.6381,HGT_GNN_compatible_link_prediction_baseline,462
+Nigeria,Vivo,False,2.5651,2.6049,HGT_GNN_compatible_link_prediction_baseline,463
+Cameroon,McDonald's,False,2.5635,2.607,HGT_GNN_compatible_link_prediction_baseline,464
+Cameroon,Mengniu,False,2.5635,2.603,HGT_GNN_compatible_link_prediction_baseline,464
+Yugoslavia,Vivo,False,2.5628,2.6026,HGT_GNN_compatible_link_prediction_baseline,465
+South Korea,Mengniu,False,2.5627,2.6021,HGT_GNN_compatible_link_prediction_baseline,466
+Austria,Qatar Airways,False,2.5627,2.6399,HGT_GNN_compatible_link_prediction_baseline,466
+South Korea,McDonald's,False,2.5627,2.6061,HGT_GNN_compatible_link_prediction_baseline,466
+Slovakia,Hyundai,False,2.5625,2.651,HGT_GNN_compatible_link_prediction_baseline,467
+Czech Republic,Hyundai,False,2.5618,2.6503,HGT_GNN_compatible_link_prediction_baseline,468
+Austria,Visa,False,2.561,2.6437,HGT_GNN_compatible_link_prediction_baseline,469
+South Africa,Vivo,False,2.5599,2.5996,HGT_GNN_compatible_link_prediction_baseline,470
+Paraguay,Vivo,False,2.5597,2.5994,HGT_GNN_compatible_link_prediction_baseline,471
+Croatia,McDonald's,False,2.5596,2.603,HGT_GNN_compatible_link_prediction_baseline,472
+Croatia,Mengniu,False,2.5595,2.599,HGT_GNN_compatible_link_prediction_baseline,473
+Belgium,McDonald's,False,2.5594,2.6028,HGT_GNN_compatible_link_prediction_baseline,474
+Belgium,Mengniu,False,2.5594,2.5988,HGT_GNN_compatible_link_prediction_baseline,474
+Angola,Hyundai,False,2.5587,2.6471,HGT_GNN_compatible_link_prediction_baseline,475
+Nigeria,McDonald's,False,2.5581,2.6014,HGT_GNN_compatible_link_prediction_baseline,476
+Nigeria,Mengniu,False,2.558,2.5974,HGT_GNN_compatible_link_prediction_baseline,477
+DR Congo,Hisense,False,2.5565,2.629,HGT_GNN_compatible_link_prediction_baseline,478
+Yugoslavia,Mengniu,False,2.5558,2.5951,HGT_GNN_compatible_link_prediction_baseline,479
+Yugoslavia,McDonald's,False,2.5558,2.5991,HGT_GNN_compatible_link_prediction_baseline,479
+Iraq,Adidas,False,2.5548,2.6406,HGT_GNN_compatible_link_prediction_baseline,480
+South Africa,Mengniu,False,2.5529,2.5922,HGT_GNN_compatible_link_prediction_baseline,481
+South Africa,McDonald's,False,2.5529,2.5962,HGT_GNN_compatible_link_prediction_baseline,481
+Bosnia and Herzegovina,Vivo,False,2.5528,2.5924,HGT_GNN_compatible_link_prediction_baseline,482
+Paraguay,McDonald's,False,2.5526,2.5959,HGT_GNN_compatible_link_prediction_baseline,483
+Paraguay,Mengniu,False,2.5526,2.592,HGT_GNN_compatible_link_prediction_baseline,483
+Ivory Coast,Vivo,False,2.552,2.5916,HGT_GNN_compatible_link_prediction_baseline,484
+Iceland,Vivo,False,2.5499,2.5894,HGT_GNN_compatible_link_prediction_baseline,485
+Austria,Coca-Cola,False,2.5484,2.6221,HGT_GNN_compatible_link_prediction_baseline,486
+Slovenia,Qatar Airways,False,2.5481,2.6249,HGT_GNN_compatible_link_prediction_baseline,487
+Czechoslovakia,Vivo,False,2.5479,2.5875,HGT_GNN_compatible_link_prediction_baseline,488
+Trinidad and Tobago,Hyundai,False,2.5476,2.6357,HGT_GNN_compatible_link_prediction_baseline,489
+Austria,Budweiser,False,2.5476,2.6259,HGT_GNN_compatible_link_prediction_baseline,489
+Panama,Vivo,False,2.5473,2.5868,HGT_GNN_compatible_link_prediction_baseline,490
+Jamaica,Vivo,True,2.5466,2.5861,HGT_GNN_compatible_link_prediction_baseline,491
+Slovenia,Visa,False,2.5465,2.6287,HGT_GNN_compatible_link_prediction_baseline,492
+United Arab Emirates,Vivo,False,2.5462,2.5857,HGT_GNN_compatible_link_prediction_baseline,493
+Bosnia and Herzegovina,McDonald's,False,2.5458,2.589,HGT_GNN_compatible_link_prediction_baseline,494
+Bosnia and Herzegovina,Mengniu,False,2.5458,2.585,HGT_GNN_compatible_link_prediction_baseline,494
+Ivory Coast,McDonald's,True,2.545,2.5881,HGT_GNN_compatible_link_prediction_baseline,495
+Ivory Coast,Mengniu,False,2.545,2.5842,HGT_GNN_compatible_link_prediction_baseline,495
+Haiti,Qatar Airways,False,2.5433,2.6199,HGT_GNN_compatible_link_prediction_baseline,496
+Iceland,McDonald's,False,2.5428,2.586,HGT_GNN_compatible_link_prediction_baseline,497
+Iceland,Mengniu,False,2.5428,2.582,HGT_GNN_compatible_link_prediction_baseline,497
+Tunisia,Vivo,False,2.5424,2.5819,HGT_GNN_compatible_link_prediction_baseline,498
+Peru,Vivo,False,2.5421,2.5815,HGT_GNN_compatible_link_prediction_baseline,499
+Haiti,Visa,False,2.5416,2.6237,HGT_GNN_compatible_link_prediction_baseline,500
+Czechoslovakia,Mengniu,False,2.5409,2.58,HGT_GNN_compatible_link_prediction_baseline,501
+Czechoslovakia,McDonald's,False,2.5409,2.584,HGT_GNN_compatible_link_prediction_baseline,501
+Panama,Mengniu,False,2.5403,2.5794,HGT_GNN_compatible_link_prediction_baseline,502
+Panama,McDonald's,False,2.5403,2.5834,HGT_GNN_compatible_link_prediction_baseline,502
+North Korea,Vivo,False,2.54,2.5794,HGT_GNN_compatible_link_prediction_baseline,503
+Jamaica,Mengniu,False,2.5396,2.5787,HGT_GNN_compatible_link_prediction_baseline,504
+Jamaica,McDonald's,False,2.5396,2.5827,HGT_GNN_compatible_link_prediction_baseline,504
+Slovakia,Qatar Airways,False,2.5393,2.6159,HGT_GNN_compatible_link_prediction_baseline,505
+United Arab Emirates,McDonald's,False,2.5392,2.5822,HGT_GNN_compatible_link_prediction_baseline,506
+United Arab Emirates,Mengniu,False,2.5392,2.5783,HGT_GNN_compatible_link_prediction_baseline,506
+Czech Republic,Qatar Airways,False,2.5387,2.6152,HGT_GNN_compatible_link_prediction_baseline,507
+Bolivia,Adidas,False,2.5381,2.6234,HGT_GNN_compatible_link_prediction_baseline,508
+Poland,Vivo,False,2.5378,2.5772,HGT_GNN_compatible_link_prediction_baseline,509
+Slovakia,Visa,False,2.5377,2.6196,HGT_GNN_compatible_link_prediction_baseline,510
+Czech Republic,Visa,False,2.537,2.6189,HGT_GNN_compatible_link_prediction_baseline,511
+Colombia,Vivo,False,2.5369,2.5762,HGT_GNN_compatible_link_prediction_baseline,512
+Australia,Vivo,False,2.5367,2.5761,HGT_GNN_compatible_link_prediction_baseline,513
+Angola,Qatar Airways,False,2.5356,2.612,HGT_GNN_compatible_link_prediction_baseline,514
+Tunisia,McDonald's,False,2.5354,2.5784,HGT_GNN_compatible_link_prediction_baseline,515
+Tunisia,Mengniu,False,2.5354,2.5745,HGT_GNN_compatible_link_prediction_baseline,515
+Mexico,Vivo,True,2.5351,2.5744,HGT_GNN_compatible_link_prediction_baseline,516
+Peru,Mengniu,False,2.535,2.5741,HGT_GNN_compatible_link_prediction_baseline,517
+Peru,McDonald's,False,2.535,2.578,HGT_GNN_compatible_link_prediction_baseline,517
+El Salvador,Vivo,False,2.5348,2.5742,HGT_GNN_compatible_link_prediction_baseline,518
+Kuwait,Vivo,False,2.5348,2.5742,HGT_GNN_compatible_link_prediction_baseline,518
+Austria,Hisense,False,2.5344,2.6063,HGT_GNN_compatible_link_prediction_baseline,519
+Angola,Visa,False,2.5339,2.6157,HGT_GNN_compatible_link_prediction_baseline,520
+Slovenia,Coca-Cola,False,2.5338,2.6071,HGT_GNN_compatible_link_prediction_baseline,521
+Slovenia,Budweiser,False,2.533,2.6109,HGT_GNN_compatible_link_prediction_baseline,522
+North Korea,McDonald's,False,2.533,2.5759,HGT_GNN_compatible_link_prediction_baseline,522
+North Korea,Mengniu,False,2.533,2.572,HGT_GNN_compatible_link_prediction_baseline,522
+Scotland,Vivo,False,2.5317,2.571,HGT_GNN_compatible_link_prediction_baseline,523
+Poland,McDonald's,False,2.5308,2.5737,HGT_GNN_compatible_link_prediction_baseline,524
+Poland,Mengniu,False,2.5308,2.5698,HGT_GNN_compatible_link_prediction_baseline,524
+Colombia,McDonald's,False,2.5299,2.5728,HGT_GNN_compatible_link_prediction_baseline,525
+Colombia,Mengniu,True,2.5298,2.5688,HGT_GNN_compatible_link_prediction_baseline,526
+Australia,Mengniu,True,2.5297,2.5687,HGT_GNN_compatible_link_prediction_baseline,527
+Australia,McDonald's,False,2.5297,2.5726,HGT_GNN_compatible_link_prediction_baseline,527
+Haiti,Coca-Cola,False,2.529,2.6021,HGT_GNN_compatible_link_prediction_baseline,528
+Greece,Vivo,False,2.5287,2.5679,HGT_GNN_compatible_link_prediction_baseline,529
+Haiti,Budweiser,False,2.5282,2.6059,HGT_GNN_compatible_link_prediction_baseline,530
+Mexico,Mengniu,False,2.5281,2.567,HGT_GNN_compatible_link_prediction_baseline,531
+Mexico,McDonald's,False,2.5281,2.571,HGT_GNN_compatible_link_prediction_baseline,531
+Kuwait,Mengniu,False,2.5278,2.5667,HGT_GNN_compatible_link_prediction_baseline,532
+El Salvador,Mengniu,False,2.5278,2.5667,HGT_GNN_compatible_link_prediction_baseline,532
+El Salvador,McDonald's,False,2.5278,2.5707,HGT_GNN_compatible_link_prediction_baseline,532
+Kuwait,McDonald's,False,2.5278,2.5707,HGT_GNN_compatible_link_prediction_baseline,532
+Algeria,Vivo,False,2.527,2.5663,HGT_GNN_compatible_link_prediction_baseline,533
+Slovakia,Coca-Cola,False,2.525,2.598,HGT_GNN_compatible_link_prediction_baseline,534
+Canada,Vivo,False,2.5249,2.5641,HGT_GNN_compatible_link_prediction_baseline,535
+Morocco,Vivo,False,2.5248,2.5639,HGT_GNN_compatible_link_prediction_baseline,536
+Scotland,Mengniu,False,2.5247,2.5636,HGT_GNN_compatible_link_prediction_baseline,537
+Scotland,McDonald's,False,2.5247,2.5675,HGT_GNN_compatible_link_prediction_baseline,537
+Trinidad and Tobago,Qatar Airways,False,2.5245,2.6006,HGT_GNN_compatible_link_prediction_baseline,538
+Czech Republic,Coca-Cola,False,2.5244,2.5974,HGT_GNN_compatible_link_prediction_baseline,539
+Slovakia,Budweiser,False,2.5242,2.6018,HGT_GNN_compatible_link_prediction_baseline,540
+German DR,Vivo,False,2.5241,2.5633,HGT_GNN_compatible_link_prediction_baseline,541
+Czech Republic,Budweiser,False,2.5236,2.6012,HGT_GNN_compatible_link_prediction_baseline,542
+Trinidad and Tobago,Visa,False,2.5229,2.6043,HGT_GNN_compatible_link_prediction_baseline,543
+Iraq,Hyundai,False,2.5228,2.6099,HGT_GNN_compatible_link_prediction_baseline,544
+Honduras,Vivo,False,2.5226,2.5617,HGT_GNN_compatible_link_prediction_baseline,545
+Greece,Mengniu,False,2.5217,2.5605,HGT_GNN_compatible_link_prediction_baseline,546
+Greece,McDonald's,False,2.5217,2.5645,HGT_GNN_compatible_link_prediction_baseline,546
+Angola,Coca-Cola,True,2.5213,2.5942,HGT_GNN_compatible_link_prediction_baseline,547
+Northern Ireland,Vivo,False,2.5207,2.5598,HGT_GNN_compatible_link_prediction_baseline,548
+Norway,Vivo,False,2.5207,2.5598,HGT_GNN_compatible_link_prediction_baseline,548
+Angola,Budweiser,False,2.5205,2.598,HGT_GNN_compatible_link_prediction_baseline,549
+Algeria,Mengniu,False,2.52,2.5588,HGT_GNN_compatible_link_prediction_baseline,550
+Algeria,McDonald's,False,2.52,2.5628,HGT_GNN_compatible_link_prediction_baseline,550
+Slovenia,Hisense,False,2.5199,2.5914,HGT_GNN_compatible_link_prediction_baseline,551
+Canada,Mengniu,False,2.5179,2.5567,HGT_GNN_compatible_link_prediction_baseline,552
+Canada,McDonald's,False,2.5179,2.5606,HGT_GNN_compatible_link_prediction_baseline,552
+Morocco,McDonald's,False,2.5177,2.5604,HGT_GNN_compatible_link_prediction_baseline,553
+Morocco,Mengniu,False,2.5177,2.5565,HGT_GNN_compatible_link_prediction_baseline,553
+German DR,McDonald's,False,2.5171,2.5598,HGT_GNN_compatible_link_prediction_baseline,554
+German DR,Mengniu,False,2.5171,2.5559,HGT_GNN_compatible_link_prediction_baseline,554
+United States,Vivo,False,2.5168,2.5559,HGT_GNN_compatible_link_prediction_baseline,555
+Serbia,Vivo,True,2.5159,2.555,HGT_GNN_compatible_link_prediction_baseline,556
+Honduras,Mengniu,False,2.5156,2.5543,HGT_GNN_compatible_link_prediction_baseline,557
+Honduras,McDonald's,False,2.5156,2.5582,HGT_GNN_compatible_link_prediction_baseline,557
+Uruguay,Vivo,True,2.5154,2.5545,HGT_GNN_compatible_link_prediction_baseline,558
+Haiti,Hisense,False,2.515,2.5864,HGT_GNN_compatible_link_prediction_baseline,559
+Romania,Vivo,False,2.5146,2.5536,HGT_GNN_compatible_link_prediction_baseline,560
+Norway,McDonald's,True,2.5137,2.5563,HGT_GNN_compatible_link_prediction_baseline,561
+Norway,Mengniu,False,2.5137,2.5524,HGT_GNN_compatible_link_prediction_baseline,561
+Northern Ireland,Mengniu,False,2.5136,2.5523,HGT_GNN_compatible_link_prediction_baseline,562
+Northern Ireland,McDonald's,False,2.5136,2.5563,HGT_GNN_compatible_link_prediction_baseline,562
+Portugal,Vivo,False,2.5133,2.5523,HGT_GNN_compatible_link_prediction_baseline,563
+Slovakia,Hisense,False,2.5111,2.5823,HGT_GNN_compatible_link_prediction_baseline,564
+Ecuador,Vivo,False,2.5109,2.5499,HGT_GNN_compatible_link_prediction_baseline,565
+Iran,Vivo,False,2.5106,2.5496,HGT_GNN_compatible_link_prediction_baseline,566
+Czech Republic,Hisense,False,2.5104,2.5817,HGT_GNN_compatible_link_prediction_baseline,567
+Trinidad and Tobago,Coca-Cola,False,2.5102,2.5828,HGT_GNN_compatible_link_prediction_baseline,568
+United States,McDonald's,False,2.5098,2.5524,HGT_GNN_compatible_link_prediction_baseline,569
+United States,Mengniu,True,2.5098,2.5484,HGT_GNN_compatible_link_prediction_baseline,569
+Trinidad and Tobago,Budweiser,False,2.5094,2.5866,HGT_GNN_compatible_link_prediction_baseline,570
+Serbia,McDonald's,False,2.5089,2.5514,HGT_GNN_compatible_link_prediction_baseline,571
+Serbia,Mengniu,False,2.5089,2.5475,HGT_GNN_compatible_link_prediction_baseline,571
+Uruguay,McDonald's,False,2.5084,2.5509,HGT_GNN_compatible_link_prediction_baseline,572
+Uruguay,Mengniu,False,2.5084,2.547,HGT_GNN_compatible_link_prediction_baseline,572
+Romania,Mengniu,False,2.5076,2.5462,HGT_GNN_compatible_link_prediction_baseline,573
+Romania,McDonald's,False,2.5076,2.5501,HGT_GNN_compatible_link_prediction_baseline,573
+Egypt,Vivo,False,2.5074,2.5463,HGT_GNN_compatible_link_prediction_baseline,574
+Angola,Hisense,False,2.5073,2.5785,HGT_GNN_compatible_link_prediction_baseline,575
+Wales,Vivo,False,2.5066,2.5455,HGT_GNN_compatible_link_prediction_baseline,576
+Ghana,Vivo,True,2.5063,2.5452,HGT_GNN_compatible_link_prediction_baseline,577
+Portugal,McDonald's,False,2.5062,2.5488,HGT_GNN_compatible_link_prediction_baseline,578
+Portugal,Mengniu,True,2.5062,2.5448,HGT_GNN_compatible_link_prediction_baseline,578
+Chile,Vivo,False,2.5061,2.5449,HGT_GNN_compatible_link_prediction_baseline,579
+Bolivia,Hyundai,False,2.5061,2.5927,HGT_GNN_compatible_link_prediction_baseline,579
+England,Vivo,False,2.5048,2.5436,HGT_GNN_compatible_link_prediction_baseline,580
+Bulgaria,Vivo,False,2.5045,2.5434,HGT_GNN_compatible_link_prediction_baseline,581
+Ecuador,McDonald's,True,2.5039,2.5464,HGT_GNN_compatible_link_prediction_baseline,582
+Ecuador,Mengniu,False,2.5039,2.5424,HGT_GNN_compatible_link_prediction_baseline,582
+Iran,McDonald's,False,2.5036,2.5461,HGT_GNN_compatible_link_prediction_baseline,583
+Iran,Mengniu,False,2.5036,2.5422,HGT_GNN_compatible_link_prediction_baseline,583
+Egypt,Mengniu,False,2.5004,2.5389,HGT_GNN_compatible_link_prediction_baseline,584
+Egypt,McDonald's,False,2.5004,2.5428,HGT_GNN_compatible_link_prediction_baseline,584
+Iraq,Qatar Airways,False,2.4996,2.575,HGT_GNN_compatible_link_prediction_baseline,585
+Wales,Mengniu,False,2.4995,2.538,HGT_GNN_compatible_link_prediction_baseline,586
+Wales,McDonald's,False,2.4995,2.5419,HGT_GNN_compatible_link_prediction_baseline,586
+Ghana,McDonald's,False,2.4993,2.5417,HGT_GNN_compatible_link_prediction_baseline,587
+Ghana,Mengniu,False,2.4993,2.5378,HGT_GNN_compatible_link_prediction_baseline,587
+Chile,Mengniu,False,2.499,2.5375,HGT_GNN_compatible_link_prediction_baseline,588
+Chile,McDonald's,False,2.499,2.5414,HGT_GNN_compatible_link_prediction_baseline,588
+Iraq,Visa,False,2.498,2.5786,HGT_GNN_compatible_link_prediction_baseline,589
+England,Mengniu,False,2.4977,2.5362,HGT_GNN_compatible_link_prediction_baseline,590
+England,McDonald's,True,2.4977,2.5401,HGT_GNN_compatible_link_prediction_baseline,590
+Bulgaria,Mengniu,False,2.4975,2.536,HGT_GNN_compatible_link_prediction_baseline,591
+Bulgaria,McDonald's,False,2.4975,2.5399,HGT_GNN_compatible_link_prediction_baseline,591
+Togo,Adidas,False,2.4968,2.5806,HGT_GNN_compatible_link_prediction_baseline,592
+Trinidad and Tobago,Hisense,False,2.4962,2.5671,HGT_GNN_compatible_link_prediction_baseline,593
+Republic of Ireland,Vivo,False,2.4862,2.5248,HGT_GNN_compatible_link_prediction_baseline,594
+Iraq,Coca-Cola,False,2.4854,2.5572,HGT_GNN_compatible_link_prediction_baseline,595
+Iraq,Budweiser,False,2.4845,2.5609,HGT_GNN_compatible_link_prediction_baseline,596
+Bolivia,Qatar Airways,False,2.483,2.5578,HGT_GNN_compatible_link_prediction_baseline,597
+Qatar,Adidas,False,2.4829,2.5663,HGT_GNN_compatible_link_prediction_baseline,598
+Bolivia,Visa,False,2.4813,2.5614,HGT_GNN_compatible_link_prediction_baseline,599
+Republic of Ireland,Mengniu,False,2.4792,2.5174,HGT_GNN_compatible_link_prediction_baseline,600
+Republic of Ireland,McDonald's,False,2.4792,2.5213,HGT_GNN_compatible_link_prediction_baseline,600
+DR Congo,Vivo,False,2.4775,2.5159,HGT_GNN_compatible_link_prediction_baseline,601
+Iraq,Hisense,False,2.4714,2.5415,HGT_GNN_compatible_link_prediction_baseline,602
+DR Congo,Mengniu,False,2.4704,2.5085,HGT_GNN_compatible_link_prediction_baseline,603
+DR Congo,McDonald's,False,2.4704,2.5123,HGT_GNN_compatible_link_prediction_baseline,603
+Bolivia,Coca-Cola,False,2.4687,2.54,HGT_GNN_compatible_link_prediction_baseline,604
+Bolivia,Budweiser,False,2.4679,2.5437,HGT_GNN_compatible_link_prediction_baseline,605
+Togo,Hyundai,False,2.4648,2.5499,HGT_GNN_compatible_link_prediction_baseline,606
+Austria,Vivo,False,2.4554,2.4935,HGT_GNN_compatible_link_prediction_baseline,607
+Bolivia,Hisense,True,2.4547,2.5244,HGT_GNN_compatible_link_prediction_baseline,608
+Qatar,Hyundai,False,2.4509,2.5355,HGT_GNN_compatible_link_prediction_baseline,609
+Austria,Mengniu,False,2.4483,2.486,HGT_GNN_compatible_link_prediction_baseline,610
+Austria,McDonald's,True,2.4483,2.4899,HGT_GNN_compatible_link_prediction_baseline,610
+Togo,Qatar Airways,False,2.4416,2.5152,HGT_GNN_compatible_link_prediction_baseline,611
+Slovenia,Vivo,True,2.4408,2.4787,HGT_GNN_compatible_link_prediction_baseline,612
+Togo,Visa,False,2.44,2.5187,HGT_GNN_compatible_link_prediction_baseline,613
+Haiti,Vivo,False,2.436,2.4738,HGT_GNN_compatible_link_prediction_baseline,614
+Cuba,Adidas,False,2.4352,2.517,HGT_GNN_compatible_link_prediction_baseline,615
+Slovenia,Mengniu,False,2.4338,2.4713,HGT_GNN_compatible_link_prediction_baseline,616
+Slovenia,McDonald's,False,2.4338,2.4751,HGT_GNN_compatible_link_prediction_baseline,616
+Slovakia,Vivo,False,2.432,2.4698,HGT_GNN_compatible_link_prediction_baseline,617
+Czech Republic,Vivo,False,2.4314,2.4691,HGT_GNN_compatible_link_prediction_baseline,618
+Haiti,McDonald's,False,2.429,2.4702,HGT_GNN_compatible_link_prediction_baseline,619
+Haiti,Mengniu,True,2.429,2.4664,HGT_GNN_compatible_link_prediction_baseline,619
+Angola,Vivo,False,2.4283,2.466,HGT_GNN_compatible_link_prediction_baseline,620
+Qatar,Qatar Airways,False,2.4277,2.5009,HGT_GNN_compatible_link_prediction_baseline,621
+Togo,Coca-Cola,False,2.4273,2.4975,HGT_GNN_compatible_link_prediction_baseline,622
+Togo,Budweiser,False,2.4265,2.5011,HGT_GNN_compatible_link_prediction_baseline,623
+Qatar,Visa,False,2.4261,2.5044,HGT_GNN_compatible_link_prediction_baseline,624
+Slovakia,Mengniu,False,2.425,2.4623,HGT_GNN_compatible_link_prediction_baseline,625
+Slovakia,McDonald's,True,2.425,2.4661,HGT_GNN_compatible_link_prediction_baseline,625
+Czech Republic,Mengniu,True,2.4244,2.4617,HGT_GNN_compatible_link_prediction_baseline,626
+Czech Republic,McDonald's,False,2.4244,2.4655,HGT_GNN_compatible_link_prediction_baseline,626
+Angola,McDonald's,False,2.4212,2.4623,HGT_GNN_compatible_link_prediction_baseline,627
+Angola,Mengniu,False,2.4212,2.4585,HGT_GNN_compatible_link_prediction_baseline,627
+Trinidad and Tobago,Vivo,False,2.4172,2.4547,HGT_GNN_compatible_link_prediction_baseline,628
+Qatar,Coca-Cola,False,2.4135,2.4832,HGT_GNN_compatible_link_prediction_baseline,629
+Togo,Hisense,False,2.4134,2.4818,HGT_GNN_compatible_link_prediction_baseline,630
+Qatar,Budweiser,False,2.4126,2.4868,HGT_GNN_compatible_link_prediction_baseline,631
+Trinidad and Tobago,McDonald's,False,2.4102,2.4511,HGT_GNN_compatible_link_prediction_baseline,632
+Trinidad and Tobago,Mengniu,True,2.4102,2.4473,HGT_GNN_compatible_link_prediction_baseline,632
+Cuba,Hyundai,False,2.4032,2.4862,HGT_GNN_compatible_link_prediction_baseline,633
+Qatar,Hisense,False,2.3995,2.4676,HGT_GNN_compatible_link_prediction_baseline,634
+Iraq,Vivo,False,2.3923,2.4295,HGT_GNN_compatible_link_prediction_baseline,635
+Israel,Adidas,False,2.3914,2.4716,HGT_GNN_compatible_link_prediction_baseline,636
+Iraq,McDonald's,True,2.3853,2.4258,HGT_GNN_compatible_link_prediction_baseline,637
+Iraq,Mengniu,False,2.3853,2.422,HGT_GNN_compatible_link_prediction_baseline,637
+Cuba,Qatar Airways,False,2.38,2.4518,HGT_GNN_compatible_link_prediction_baseline,638
+Cuba,Visa,False,2.3784,2.4552,HGT_GNN_compatible_link_prediction_baseline,639
+Bolivia,Vivo,False,2.3757,2.4125,HGT_GNN_compatible_link_prediction_baseline,640
+Bolivia,Mengniu,False,2.3686,2.4051,HGT_GNN_compatible_link_prediction_baseline,641
+Bolivia,McDonald's,False,2.3686,2.4088,HGT_GNN_compatible_link_prediction_baseline,641
+Cuba,Coca-Cola,False,2.3658,2.4342,HGT_GNN_compatible_link_prediction_baseline,642
+Cuba,Budweiser,False,2.3649,2.4377,HGT_GNN_compatible_link_prediction_baseline,643
+Israel,Hyundai,False,2.3593,2.4408,HGT_GNN_compatible_link_prediction_baseline,644
+Cuba,Hisense,False,2.3518,2.4185,HGT_GNN_compatible_link_prediction_baseline,645
+Israel,Qatar Airways,False,2.3362,2.4066,HGT_GNN_compatible_link_prediction_baseline,646
+Israel,Visa,False,2.3345,2.4099,HGT_GNN_compatible_link_prediction_baseline,647
+Togo,Vivo,True,2.3343,2.3705,HGT_GNN_compatible_link_prediction_baseline,648
+Togo,Mengniu,False,2.3273,2.3631,HGT_GNN_compatible_link_prediction_baseline,649
+Togo,McDonald's,False,2.3273,2.3668,HGT_GNN_compatible_link_prediction_baseline,649
+Israel,Coca-Cola,False,2.3219,2.389,HGT_GNN_compatible_link_prediction_baseline,650
+Israel,Budweiser,True,2.3211,2.3924,HGT_GNN_compatible_link_prediction_baseline,651
+Qatar,Vivo,True,2.3204,2.3564,HGT_GNN_compatible_link_prediction_baseline,652
+Qatar,Mengniu,False,2.3134,2.349,HGT_GNN_compatible_link_prediction_baseline,653
+Qatar,McDonald's,False,2.3134,2.3526,HGT_GNN_compatible_link_prediction_baseline,653
+Israel,Hisense,False,2.3079,2.3734,HGT_GNN_compatible_link_prediction_baseline,654
+Cuba,Vivo,False,2.2728,2.308,HGT_GNN_compatible_link_prediction_baseline,655
+Cuba,McDonald's,False,2.2657,2.3042,HGT_GNN_compatible_link_prediction_baseline,656
+Cuba,Mengniu,True,2.2657,2.3006,HGT_GNN_compatible_link_prediction_baseline,656
+Israel,Vivo,False,2.2289,2.2635,HGT_GNN_compatible_link_prediction_baseline,657
+Israel,Mengniu,False,2.2219,2.2561,HGT_GNN_compatible_link_prediction_baseline,658
+Israel,McDonald's,False,2.2219,2.2595,HGT_GNN_compatible_link_prediction_baseline,658

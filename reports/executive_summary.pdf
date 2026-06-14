@@ -12,7 +12,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 5 0 obj
-<< /Length 1956 >>
+<< /Length 1963 >>
 stream
 BT
 /F1 17 Tf
@@ -21,7 +21,7 @@ BT
 (WorldCupROI Executive Summary) Tj
 0 -21 Td
 /F1 10 Tf
-(Panel rows: 1,928) Tj
+(Panel rows: 1,944) Tj
 0 -21 Td
 /F1 10 Tf
 (Teams: 82) Tj
@@ -30,10 +30,10 @@ BT
 (Sponsors: 10) Tj
 0 -21 Td
 /F1 10 Tf
-(Average predicted ROI: 3.869x) Tj
+(Average predicted ROI: 3.695x) Tj
 0 -21 Td
 /F1 10 Tf
-(Average FanScore: 0.504) Tj
+(Average FanScore: 0.520) Tj
 0 -21 Td
 /F1 10 Tf
 () Tj
@@ -93,22 +93,22 @@ BT
 (Deep Analysis Extensions) Tj
 0 -21 Td
 /F1 10 Tf
-(**Dynamic ROI trend:** future cycle forecast ranges from 3.94x to 3.96x.) Tj
+(**Dynamic ROI trend:** future cycle forecast ranges from 3.72x to 3.73x.) Tj
 0 -21 Td
 /F1 10 Tf
-(**Sentiment and event impact:** largest observed average ROI delta is 0.51x.) Tj
+(**Sentiment and event impact:** largest observed average ROI delta is -0.03x.) Tj
 0 -21 Td
 /F1 10 Tf
-(**Resource optimization:** top risk-adjusted mix is Coca-Cola with 100M budget and media x1.) Tj
+(**Resource optimization:** top risk-adjusted mix is Adidas with 100M budget and media x1.0.) Tj
 0 -21 Td
 /F1 10 Tf
 (**Extreme scenarios:** widest risk interval is 0.74x across injury, sentiment, policy, and v) Tj
 0 -21 Td
 /F1 10 Tf
-(**Commercial decision score:** top integrated score opportunity is Hungary x Adidas.) Tj
+(**Commercial decision score:** top integrated score opportunity is Brazil x Adidas.) Tj
 0 -21 Td
 /F1 10 Tf
-(Landing Recommendation) Tj
+(Causal + Decision Intelligence) Tj
 0 -21 Td
 ET
 endstream
@@ -123,5 +123,5 @@ xref
 0000000311 00000 n 
 trailer << /Size 6 /Root 1 0 R >>
 startxref
-2319
+2326
 %%EOF

@@ -26,6 +26,14 @@ REQUIRED_FILES = {
     "algorithm_strategy": REPORT_DIR / "algorithm_strategy.md",
     "roi_model_card": REPORT_DIR / "sponsor_roi_model_card.json",
     "match_model_card": REPORT_DIR / "match_outcome_model_card.json",
+    "sponsor_optimization": REPORT_DIR / "sponsor_optimization_report.md",
+    "causal_inference": REPORT_DIR / "causal_inference_report.md",
+    "temporal_modeling": REPORT_DIR / "temporal_modeling_report.md",
+    "funnel_behavior": REPORT_DIR / "funnel_behavior_modeling_report.md",
+    "graph_learning": REPORT_DIR / "graph_learning_report.md",
+    "counterfactual_engine": REPORT_DIR / "counterfactual_engine_report.md",
+    "tail_risk": REPORT_DIR / "tail_risk_analysis_report.md",
+    "decision_intelligence_brief": REPORT_DIR / "decision_intelligence_brief.md",
 }
 
 
