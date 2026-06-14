@@ -179,7 +179,7 @@ def polish(fig: go.Figure, height: int = 430) -> go.Figure:
 
 
 @st.cache_data
-def load_data():
+def load_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame | None, pd.DataFrame | None, pd.DataFrame | None, pd.DataFrame | None]:
     roi_path = DATA_DIR / "roi_predictions.csv"
     panel_path = DATA_DIR / "panel_dataset.csv"
     roi = pd.read_csv(roi_path) if roi_path.exists() else pd.read_csv(DATA_DIR / "modeling_dataset.csv")
@@ -190,30 +190,11 @@ def load_data():
     uncertainty = pd.read_csv(DATA_DIR / "roi_uncertainty.csv") if (DATA_DIR / "roi_uncertainty.csv").exists() else None
     scenarios = pd.read_csv(DATA_DIR / "scenario_recommendations.csv") if (DATA_DIR / "scenario_recommendations.csv").exists() else None
     network = pd.read_csv(REPORT_DIR / "sponsor_influence_scores.csv") if (REPORT_DIR / "sponsor_influence_scores.csv").exists() else None
-    future_roi = pd.read_csv(REPORT_DIR / "future_roi_forecast.csv") if (REPORT_DIR / "future_roi_forecast.csv").exists() else None
-    sentiment_events = pd.read_csv(REPORT_DIR / "sentiment_event_roi_impact.csv") if (REPORT_DIR / "sentiment_event_roi_impact.csv").exists() else None
-    resource_mix = pd.read_csv(REPORT_DIR / "resource_optimization_top_budget_mix.csv") if (REPORT_DIR / "resource_optimization_top_budget_mix.csv").exists() else None
-    graph_attention = pd.read_csv(REPORT_DIR / "graph_attention_roi_contributions.csv") if (REPORT_DIR / "graph_attention_roi_contributions.csv").exists() else None
-    extreme = pd.read_csv(REPORT_DIR / "extreme_scenario_roi_risk.csv") if (REPORT_DIR / "extreme_scenario_roi_risk.csv").exists() else None
-    commercial = pd.read_csv(DATA_DIR / "commercial_decision_metrics.csv") if (DATA_DIR / "commercial_decision_metrics.csv").exists() else None
-    return roi, panel, ab, uncertainty, scenarios, network, future_roi, sentiment_events, resource_mix, graph_attention, extreme, commercial
+    return roi, panel, ab, uncertainty, scenarios, network
 
 
 st.set_page_config(page_title="Sports Sponsorship Intelligence", page_icon="ROI", layout="wide")
-(
-    roi_df,
-    panel_df,
-    ab_df,
-    uncertainty_df,
-    scenarios_df,
-    network_df,
-    future_roi_df,
-    sentiment_events_df,
-    resource_mix_df,
-    graph_attention_df,
-    extreme_df,
-    commercial_df,
-) = load_data()
+roi_df, panel_df, ab_df, uncertainty_df, scenarios_df, network_df = load_data()
 
 st.markdown(
     """
@@ -368,34 +349,6 @@ with tabs[2]:
         with st.expander("Risk export / 风险导出"):
             download_module("Risk", uncertainty_df, "worldcuproi_risk")
 
-    col_future, col_sentiment = st.columns(2)
-    if future_roi_df is not None and not future_roi_df.empty:
-        future_fig = px.line(
-            future_roi_df,
-            x="cycle",
-            y="forecast_roi",
-            markers=True,
-            title="Future World Cup Cycle ROI Forecast",
-            hover_data=["trend_slope_per_cycle", "forecast_note"],
-        )
-        future_fig.update_traces(line=dict(color=COLORS["green"], width=4), marker=dict(size=10, color=COLORS["orange"]))
-        col_future.plotly_chart(polish(future_fig), use_container_width=True)
-        with col_future.expander("Future ROI export"):
-            download_module("Future ROI Trend", future_roi_df, "worldcuproi_future_roi")
-    if sentiment_events_df is not None and not sentiment_events_df.empty:
-        sentiment_fig = px.bar(
-            sentiment_events_df,
-            x="event_type",
-            y="avg_roi_delta",
-            color="avg_roi_delta",
-            color_continuous_scale=[COLORS["red"], COLORS["gold"], COLORS["green"]],
-            hover_data=["stage", "avg_attention_sentiment", "avg_conversion", "samples"],
-            title="Key Event Sentiment Impact on ROI",
-        )
-        col_sentiment.plotly_chart(polish(sentiment_fig), use_container_width=True)
-        with col_sentiment.expander("Sentiment event export"):
-            download_module("Sentiment Event Impact", sentiment_events_df, "worldcuproi_sentiment_events")
-
 with tabs[3]:
     st.subheader("Simulate: Weather, Venue, and Stage Impact")
     heat = view.groupby(["weather", "stage"], as_index=False).agg(avg_roi=("predicted_roi", "mean"), avg_momentum=("commercial_momentum", "mean"), matches=("match_id", "count"))
@@ -413,33 +366,6 @@ with tabs[3]:
     st.plotly_chart(polish(heatmap), use_container_width=True)
     weather_scatter = px.scatter(view, x="temperature_c", y="predicted_roi", color="result_for_team", size="sponsor_power_index", hover_data=["team", "opponent", "weather", "stage"], title="Temperature, Venue Context, and Sponsor ROI")
     st.plotly_chart(polish(weather_scatter), use_container_width=True)
-    col_budget, col_extreme = st.columns(2)
-    if resource_mix_df is not None and not resource_mix_df.empty:
-        budget_fig = px.scatter(
-            resource_mix_df,
-            x="budget_m",
-            y="risk_adjusted_roi",
-            size="media_multiplier",
-            color="sponsor",
-            hover_data=["expected_roi", "risk_penalty", "recommendation"],
-            title="Budget x Media Optimization: Risk-Adjusted ROI",
-        )
-        col_budget.plotly_chart(polish(budget_fig), use_container_width=True)
-        with col_budget.expander("Resource optimization export"):
-            download_module("Resource Optimization", resource_mix_df, "worldcuproi_resource_mix")
-    if extreme_df is not None and not extreme_df.empty:
-        extreme_top = extreme_df.sort_values("scenario_roi", ascending=False).head(160)
-        extreme_fig = px.box(
-            extreme_top,
-            x="extreme_scenario",
-            y="scenario_roi",
-            color="extreme_scenario",
-            points=False,
-            title="Extreme Scenario ROI Stress Test",
-        )
-        col_extreme.plotly_chart(polish(extreme_fig), use_container_width=True)
-        with col_extreme.expander("Extreme scenario export"):
-            download_module("Extreme Scenario", extreme_df, "worldcuproi_extreme_scenarios")
 
 with tabs[4]:
     st.subheader(tr("recommend_title"))
@@ -484,38 +410,3 @@ with tabs[4]:
             download_module("Network", network_view, "worldcuproi_network")
     else:
         st.info("Run `python src/graph_analysis.py` to generate network outputs.")
-    st.divider()
-    st.subheader("Deep Decision Layer: Commercial Score and Graph Attention")
-    col_score, col_attention = st.columns(2)
-    if commercial_df is not None and not commercial_df.empty:
-        commercial_view = commercial_df.sort_values("commercial_decision_score", ascending=False).head(20).copy()
-        commercial_view["pair"] = commercial_view["team"].astype(str) + " x " + commercial_view["sponsor"].astype(str)
-        score_fig = px.bar(
-            commercial_view,
-            x="commercial_decision_score",
-            y="pair",
-            orientation="h",
-            color="commercial_decision_score",
-            color_continuous_scale=[COLORS["blue"], COLORS["green"], COLORS["orange"]],
-            title="Integrated Commercial Decision Score",
-            hover_data=["media_value_index", "fan_conversion_rate", "social_spread_index", "brand_influence_score"],
-        )
-        col_score.plotly_chart(polish(score_fig), use_container_width=True)
-        with col_score.expander("Commercial score export"):
-            download_module("Commercial Decision Score", commercial_df, "worldcuproi_commercial_score")
-    if graph_attention_df is not None and not graph_attention_df.empty:
-        attention_view = graph_attention_df.sort_values("attention_roi_contribution", ascending=False).head(18).copy()
-        attention_view["node_label"] = attention_view["node"].astype(str).str.replace("sponsor:", "", regex=False)
-        attention_fig = px.bar(
-            attention_view,
-            x="attention_roi_contribution",
-            y="node_label",
-            orientation="h",
-            color="attention_roi_contribution",
-            color_continuous_scale=[COLORS["blue"], COLORS["green"], COLORS["orange"]],
-            title="Graph Attention ROI Contribution",
-            hover_data=["gat_attention_score", "node_importance_score", "avg_roi"],
-        )
-        col_attention.plotly_chart(polish(attention_fig), use_container_width=True)
-        with col_attention.expander("Graph attention export"):
-            download_module("Graph Attention", graph_attention_df, "worldcuproi_graph_attention")
