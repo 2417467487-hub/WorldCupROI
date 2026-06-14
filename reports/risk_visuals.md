@@ -24,16 +24,16 @@
 
 | match_id | team_a | team_b | stage | risk_level | conformal_interval_width |
 | --- | --- | --- | --- | --- | --- |
-| 488 | Bulgaria | Greece | group_or_knockout | medium | 0.5550 |
-| 513 | Bulgaria | Italy | group_or_knockout | medium | 0.5420 |
-| 664 | Sweden | Paraguay | group_or_knockout | medium | 0.5400 |
-| 360 | Italy | Germany | tournament | medium | 0.5370 |
-| 204 | Israel | Uruguay | tournament | medium | 0.5370 |
+| 334 | Poland | Peru | tournament | medium | 0.5600 |
+| 502 | Spain | Switzerland | group_or_knockout | medium | 0.5450 |
+| 537 | France | Saudi Arabia | group_or_knockout | medium | 0.5440 |
+| 475 | Argentina | Greece | group_or_knockout | medium | 0.5380 |
+| 322 | Brazil | Scotland | tournament | medium | 0.5360 |
 
 ## Strategy Risk Summary
 
 | strategy_type | avg_roi_lift | avg_risk | avg_ci_width |
 | --- | --- | --- | --- |
-| aggressive | 0.1940 | 0.4840 | 0.6230 |
-| balanced | 0.0420 | 0.3240 | 0.4670 |
-| conservative | -0.0410 | 0.3140 | 0.4530 |
+| aggressive | 0.1940 | 0.4910 | 0.6270 |
+| balanced | 0.0420 | 0.3310 | 0.4720 |
+| conservative | -0.0410 | 0.3210 | 0.4580 |

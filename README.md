@@ -48,6 +48,7 @@ WorldCupROI is a reproducible sports sponsorship analytics project with four lay
 | Data intelligence | Separates real historical data, real text data, and proxy/mock commercial data | Makes data boundaries visible before decisions |
 | ML modeling | Trains match outcome and sponsor ROI models with validation outputs | Converts sports and attention signals into measurable ROI forecasts |
 | Risk and explainability | Adds SHAP-style drivers, conformal intervals, Monte Carlo risk, and scenario lift | Turns point estimates into defensible decisions |
+| Decision intelligence | Adds optimization, causal evidence, counterfactuals, tail risk, temporal behavior, and graph learning | Moves from ROI prediction to sponsor portfolio decisions |
 | Product dashboard | Discover -> Explain -> Predict -> Simulate -> Recommend | Makes the work usable by analysts and business reviewers |
 
 ## Results Showcase
@@ -129,6 +130,58 @@ WorldCupROI is a reproducible sports sponsorship analytics project with four lay
 
 **Business takeaway:** Use central sponsors and teams as anchor partnerships for campaign portfolios.
 
+## Decision Intelligence Showcase
+
+### Sponsor Optimization Under Budget Constraints
+
+![Sponsor Optimization Under Budget Constraints](assets/figures/decision_sponsor_optimization.png)
+
+**What it shows:** Compares expected portfolio ROI and risk-adjusted ROI under different sponsorship budget caps.
+
+**Why it matters:** The platform moves from ranking sponsors to optimizing a portfolio under budget and risk constraints.
+
+**Business takeaway:** Use the risk-adjusted curve to decide when extra budget still creates defensible sponsor value.
+
+### Correlation vs Causal Evidence
+
+![Correlation vs Causal Evidence](assets/figures/decision_causal_effects.png)
+
+**What it shows:** Separates raw correlation from residualized causal-effect evidence for exposure, attention, and player signals.
+
+**Why it matters:** High association does not prove causal lift; decision reviews need both views side by side.
+
+**Business takeaway:** Treat causal evidence as a guardrail before increasing spend on media exposure or player-led campaigns.
+
+### Fan Funnel Decay Paths
+
+![Fan Funnel Decay Paths](assets/figures/decision_funnel_decay.png)
+
+**What it shows:** Tracks Exposure -> Attention -> Engagement -> Conversion -> ROI for top sponsor-team paths.
+
+**Why it matters:** ROI failure can happen at any funnel step, not only at the final conversion stage.
+
+**Business takeaway:** Fix the weakest funnel transition before scaling paid media or activation budget.
+
+### Graph Learning Future Sponsor ROI
+
+![Graph Learning Future Sponsor ROI](assets/figures/decision_graph_learning.png)
+
+**What it shows:** Ranks future sponsor-team links using graph-learning compatible link prediction scores.
+
+**Why it matters:** Graph learning turns relationship data into future partnership discovery.
+
+**Business takeaway:** Use top predicted links as candidates for sponsor outreach and portfolio expansion.
+
+### Counterfactual and Tail-Risk Decisions
+
+![Counterfactual and Tail-Risk Decisions](assets/figures/decision_counterfactual_tail_risk.png)
+
+**What it shows:** Combines counterfactual ROI changes with tail-risk sensitive sponsor rankings.
+
+**Why it matters:** Decision quality depends on downside behavior, not only average ROI.
+
+**Business takeaway:** Prefer sponsors that remain attractive after player absence, media shock, budget change, and worst-case ROI tests.
+
 ## Problem
 
 Most football analytics projects stop at predicting who wins. Sponsorship decisions need more: media exposure, fan attention, brand fit, player availability, commercial momentum, downside risk, and an explanation a non-technical stakeholder can trust.
@@ -156,6 +209,10 @@ Tournament sponsorship budgets are committed before all outcomes are known. A hi
 | Explainable ROI modeling | SHAP-style feature contributions and grouped driver reports |
 | Risk-aware decisions | Conformal intervals, bootstrap intervals, Monte Carlo risk, scenario ranking |
 | Graph intelligence | NetworkX centrality plus reproducible GCN/GraphSAGE-style baseline scores |
+| Decision optimization | Budget-constrained sponsor portfolio engine with Bayesian/RL-style baselines |
+| Causal decision support | Residualized causal-effect estimates that separate association from decision evidence |
+| Counterfactual and tail risk | SCM-compatible stress tests and worst-case ROI ranking |
+| Graph learning | Link prediction for future sponsor-team ROI opportunities |
 | Productized workflow | Dashboard pages: Discover -> Explain -> Predict -> Simulate -> Recommend |
 
 ## Research Questions

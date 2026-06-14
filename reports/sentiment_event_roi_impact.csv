@@ -1,5 +1,4 @@
 event_type,stage,avg_roi_delta,avg_roi,avg_attention_sentiment,avg_conversion,samples
-baseline_attention,tournament,-0.0866,3.8524,0.2901,0.1375,718
-positive_sentiment_spike,group_or_knockout,0.0111,3.9566,0.4611,0.1466,150
-positive_sentiment_spike,tournament,0.508,4.447,0.5584,0.1325,2
-stage_attention_spike,group_or_knockout,-0.0781,3.8674,0.3946,0.1452,1058
+baseline_attention,tournament,-0.0542,3.6528,0.2835,0.1339,720
+positive_sentiment_spike,group_or_knockout,-0.0333,3.7292,0.4625,0.1406,178
+stage_attention_spike,group_or_knockout,-0.0436,3.7189,0.3851,0.138,1046

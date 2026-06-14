@@ -1,8 +1,8 @@
 feature_group,importance_sum,top_feature,feature_count
-team_strength,1.3094,recent_goal_diff_delta,3
-player_influence,1.263057,core_rating_diff,4
-coach_context,0.350086,coach_exp_diff,1
-venue_weather,0.281839,host_advantage_a,4
-media_attention,0.264938,media_reposts_k,4
-injury_availability,0.250007,availability_diff,4
-text_sentiment,0.064143,news_sentiment_score,1
+team_strength,1.342046,recent_goal_diff_delta,3
+player_influence,1.283871,core_rating_diff,4
+injury_availability,0.412217,availability_diff,4
+coach_context,0.362964,coach_exp_diff,1
+venue_weather,0.266856,host_advantage_a,4
+media_attention,0.247709,time_decay_attention,4
+text_sentiment,0.056928,news_sentiment_score,1

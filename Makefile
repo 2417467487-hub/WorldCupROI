@@ -15,6 +15,7 @@ assets:
 	$(PYTHON) scripts/generate_readme_assets.py
 	$(PYTHON) scripts/generate_model_visuals.py
 	$(PYTHON) scripts/generate_academic_figures.py
+	$(PYTHON) scripts/generate_decision_intelligence_figures.py
 	$(PYTHON) scripts/generate_showcase_media.py
 	node scripts/capture_static_platform_gif.js
 	node scripts/capture_static_preview_gifs.js

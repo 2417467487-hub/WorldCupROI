@@ -12,8 +12,8 @@
 
 | Metric | Value |
 |---|---:|
-| accuracy | 0.5566 |
-| log_loss | 0.9780 |
+| accuracy | 0.5023 |
+| log_loss | 1.0097 |
 
 ## Notes
 

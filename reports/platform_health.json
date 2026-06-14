@@ -6,42 +6,42 @@
       "artifact": "modeling_dataset",
       "path": "data\\modeling_dataset.csv",
       "exists": true,
-      "size_kb": 793.28,
-      "rows": 964
+      "size_kb": 796.17,
+      "rows": 972
     },
     {
       "artifact": "roi_predictions",
       "path": "data\\roi_predictions.csv",
       "exists": true,
-      "size_kb": 801.67,
-      "rows": 964
+      "size_kb": 805.56,
+      "rows": 972
     },
     {
       "artifact": "panel_dataset",
       "path": "data\\panel_dataset.csv",
       "exists": true,
-      "size_kb": 381.11,
-      "rows": 1928
+      "size_kb": 384.79,
+      "rows": 1944
     },
     {
       "artifact": "scenario_recommendations",
       "path": "data\\scenario_recommendations.csv",
       "exists": true,
-      "size_kb": 161.9,
+      "size_kb": 162.5,
       "rows": 600
     },
     {
       "artifact": "roi_uncertainty",
       "path": "data\\roi_uncertainty.csv",
       "exists": true,
-      "size_kb": 95.11,
-      "rows": 964
+      "size_kb": 96.01,
+      "rows": 972
     },
     {
       "artifact": "static_dashboard",
       "path": "dashboard\\panel_dashboard.html",
       "exists": true,
-      "size_kb": 929.49,
+      "size_kb": 930.32,
       "rows": null
     },
     {
@@ -62,7 +62,7 @@
       "artifact": "demo_video",
       "path": "assets\\videos\\worldcuproi_demo.mp4",
       "exists": true,
-      "size_kb": 598.49,
+      "size_kb": 600.48,
       "rows": null
     },
     {
@@ -84,6 +84,62 @@
       "path": "reports\\match_outcome_model_card.json",
       "exists": true,
       "size_kb": 1.0,
+      "rows": null
+    },
+    {
+      "artifact": "sponsor_optimization",
+      "path": "reports\\sponsor_optimization_report.md",
+      "exists": true,
+      "size_kb": 2.97,
+      "rows": null
+    },
+    {
+      "artifact": "causal_inference",
+      "path": "reports\\causal_inference_report.md",
+      "exists": true,
+      "size_kb": 2.12,
+      "rows": null
+    },
+    {
+      "artifact": "temporal_modeling",
+      "path": "reports\\temporal_modeling_report.md",
+      "exists": true,
+      "size_kb": 1.22,
+      "rows": null
+    },
+    {
+      "artifact": "funnel_behavior",
+      "path": "reports\\funnel_behavior_modeling_report.md",
+      "exists": true,
+      "size_kb": 2.66,
+      "rows": null
+    },
+    {
+      "artifact": "graph_learning",
+      "path": "reports\\graph_learning_report.md",
+      "exists": true,
+      "size_kb": 2.09,
+      "rows": null
+    },
+    {
+      "artifact": "counterfactual_engine",
+      "path": "reports\\counterfactual_engine_report.md",
+      "exists": true,
+      "size_kb": 0.75,
+      "rows": null
+    },
+    {
+      "artifact": "tail_risk",
+      "path": "reports\\tail_risk_analysis_report.md",
+      "exists": true,
+      "size_kb": 1.42,
+      "rows": null
+    },
+    {
+      "artifact": "decision_intelligence_brief",
+      "path": "reports\\decision_intelligence_brief.md",
+      "exists": true,
+      "size_kb": 1.57,
       "rows": null
     }
   ]

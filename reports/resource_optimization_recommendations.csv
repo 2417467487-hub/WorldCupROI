@@ -1,161 +1,161 @@
 sponsor,budget_m,media_multiplier,expected_roi,risk_adjusted_roi,risk_penalty,recommendation
-Adidas,10,0.8,0.4026,0.2793,0.3063,test_or_hold
-Adidas,10,1.0,0.4183,0.2902,0.3063,test_or_hold
-Adidas,10,1.25,0.4044,0.259,0.3596,test_or_hold
-Adidas,10,1.5,0.4225,0.2706,0.3596,test_or_hold
-Adidas,25,0.8,0.8902,0.6175,0.3063,test_or_hold
-Adidas,25,1.0,0.925,0.6416,0.3063,test_or_hold
-Adidas,25,1.25,0.8941,0.5726,0.3596,test_or_hold
-Adidas,25,1.5,0.9343,0.5983,0.3596,test_or_hold
-Adidas,50,0.8,1.4687,1.0188,0.3063,test_or_hold
-Adidas,50,1.0,1.5262,1.0587,0.3063,test_or_hold
-Adidas,50,1.25,1.4753,0.9447,0.3596,test_or_hold
-Adidas,50,1.5,1.5415,0.9872,0.3596,test_or_hold
-Adidas,100,0.8,2.0892,1.4492,0.3063,test_or_hold
-Adidas,100,1.0,2.1709,1.5059,0.3063,test_or_hold
-Adidas,100,1.25,2.0985,1.3438,0.3596,test_or_hold
-Adidas,100,1.5,2.1928,1.4042,0.3596,test_or_hold
-Budweiser,10,0.8,0.4502,0.3123,0.3063,test_or_hold
-Budweiser,10,1.0,0.4679,0.3246,0.3063,test_or_hold
-Budweiser,10,1.25,0.4524,0.2897,0.3596,test_or_hold
-Budweiser,10,1.5,0.4729,0.3028,0.3596,test_or_hold
-Budweiser,25,0.8,0.9771,0.6778,0.3063,test_or_hold
-Budweiser,25,1.0,1.0156,0.7045,0.3063,test_or_hold
-Budweiser,25,1.25,0.982,0.6289,0.3596,test_or_hold
-Budweiser,25,1.5,1.0264,0.6573,0.3596,test_or_hold
-Budweiser,50,0.8,1.5695,1.0887,0.3063,test_or_hold
-Budweiser,50,1.0,1.6313,1.1316,0.3063,test_or_hold
-Budweiser,50,1.25,1.5774,1.0101,0.3596,test_or_hold
-Budweiser,50,1.5,1.6487,1.0558,0.3596,test_or_hold
-Budweiser,100,0.8,2.1465,1.489,0.3063,test_or_hold
-Budweiser,100,1.0,2.2311,1.5476,0.3063,test_or_hold
-Budweiser,100,1.25,2.1573,1.3815,0.3596,test_or_hold
-Budweiser,100,1.5,2.2549,1.444,0.3596,test_or_hold
-Coca-Cola,10,0.8,0.44,0.3052,0.3063,test_or_hold
-Coca-Cola,10,1.0,0.4571,0.3171,0.3063,test_or_hold
-Coca-Cola,10,1.25,0.4418,0.2829,0.3596,test_or_hold
-Coca-Cola,10,1.5,0.4615,0.2956,0.3596,test_or_hold
-Coca-Cola,25,0.8,0.964,0.6687,0.3063,test_or_hold
-Coca-Cola,25,1.0,1.0016,0.6948,0.3063,test_or_hold
-Coca-Cola,25,1.25,0.968,0.6199,0.3596,test_or_hold
-Coca-Cola,25,1.5,1.0114,0.6477,0.3596,test_or_hold
-Coca-Cola,50,0.8,1.5699,1.089,0.3063,test_or_hold
-Coca-Cola,50,1.0,1.631,1.1314,0.3063,test_or_hold
-Coca-Cola,50,1.25,1.5763,1.0095,0.3596,test_or_hold
-Coca-Cola,50,1.5,1.6469,1.0547,0.3596,test_or_hold
-Coca-Cola,100,0.8,2.1898,1.519,0.3063,test_or_hold
-Coca-Cola,100,1.0,2.2751,1.5782,0.3063,test_or_hold
-Coca-Cola,100,1.25,2.1989,1.4081,0.3596,test_or_hold
-Coca-Cola,100,1.5,2.2973,1.4712,0.3596,test_or_hold
-Hisense,10,0.8,0.407,0.2823,0.3063,test_or_hold
-Hisense,10,1.0,0.423,0.2934,0.3063,test_or_hold
-Hisense,10,1.25,0.409,0.2619,0.3596,test_or_hold
-Hisense,10,1.5,0.4274,0.2737,0.3596,test_or_hold
-Hisense,25,0.8,0.8949,0.6208,0.3063,test_or_hold
-Hisense,25,1.0,0.9301,0.6452,0.3063,test_or_hold
-Hisense,25,1.25,0.8993,0.5759,0.3596,test_or_hold
-Hisense,25,1.5,0.9398,0.6019,0.3596,test_or_hold
-Hisense,50,0.8,1.4647,1.016,0.3063,test_or_hold
-Hisense,50,1.0,1.5223,1.056,0.3063,test_or_hold
-Hisense,50,1.25,1.4718,0.9425,0.3596,test_or_hold
-Hisense,50,1.5,1.5382,0.9851,0.3596,test_or_hold
-Hisense,100,0.8,2.0585,1.4279,0.3063,test_or_hold
-Hisense,100,1.0,2.1394,1.484,0.3063,test_or_hold
-Hisense,100,1.25,2.0684,1.3246,0.3596,test_or_hold
-Hisense,100,1.5,2.1618,1.3844,0.3596,test_or_hold
-Hyundai,10,0.8,0.4458,0.3092,0.3063,test_or_hold
-Hyundai,10,1.0,0.4633,0.3214,0.3063,test_or_hold
-Hyundai,10,1.25,0.4479,0.2869,0.3596,test_or_hold
-Hyundai,10,1.5,0.4681,0.2998,0.3596,test_or_hold
-Hyundai,25,0.8,0.972,0.6742,0.3063,test_or_hold
-Hyundai,25,1.0,1.0101,0.7007,0.3063,test_or_hold
-Hyundai,25,1.25,0.9766,0.6254,0.3596,test_or_hold
-Hyundai,25,1.5,1.0207,0.6536,0.3596,test_or_hold
-Hyundai,50,0.8,1.5714,1.09,0.3063,test_or_hold
-Hyundai,50,1.0,1.6331,1.1328,0.3063,test_or_hold
-Hyundai,50,1.25,1.5789,1.0111,0.3596,test_or_hold
-Hyundai,50,1.5,1.6501,1.0567,0.3596,test_or_hold
-Hyundai,100,0.8,2.169,1.5046,0.3063,test_or_hold
-Hyundai,100,1.0,2.2542,1.5637,0.3063,test_or_hold
-Hyundai,100,1.25,2.1794,1.3957,0.3596,test_or_hold
-Hyundai,100,1.5,2.2777,1.4586,0.3596,test_or_hold
-McDonald's,10,0.8,0.5116,0.3549,0.3063,test_or_hold
-McDonald's,10,1.0,0.5322,0.3692,0.3063,test_or_hold
-McDonald's,10,1.25,0.5151,0.3299,0.3596,test_or_hold
-McDonald's,10,1.5,0.5389,0.3451,0.3596,test_or_hold
-McDonald's,25,0.8,1.0688,0.7414,0.3063,test_or_hold
-McDonald's,25,1.0,1.1119,0.7713,0.3063,test_or_hold
-McDonald's,25,1.25,1.0761,0.6891,0.3596,test_or_hold
-McDonald's,25,1.5,1.1258,0.721,0.3596,test_or_hold
-McDonald's,50,0.8,1.6284,1.1296,0.3063,test_or_hold
-McDonald's,50,1.0,1.694,1.175,0.3063,test_or_hold
-McDonald's,50,1.25,1.6395,1.0499,0.3596,test_or_hold
-McDonald's,50,1.5,1.7152,1.0984,0.3596,test_or_hold
-McDonald's,100,0.8,2.0747,1.4392,0.3063,test_or_hold
-McDonald's,100,1.0,2.1582,1.4971,0.3063,test_or_hold
-McDonald's,100,1.25,2.0889,1.3377,0.3596,test_or_hold
-McDonald's,100,1.5,2.1853,1.3994,0.3596,test_or_hold
-Mengniu,10,0.8,0.5531,0.3837,0.3063,test_or_hold
-Mengniu,10,1.0,0.5755,0.3992,0.3063,test_or_hold
-Mengniu,10,1.25,0.5572,0.3568,0.3596,test_or_hold
-Mengniu,10,1.5,0.583,0.3734,0.3596,test_or_hold
-Mengniu,25,0.8,1.1334,0.7862,0.3063,test_or_hold
-Mengniu,25,1.0,1.1793,0.8181,0.3063,test_or_hold
-Mengniu,25,1.25,1.1418,0.7312,0.3596,test_or_hold
-Mengniu,25,1.5,1.1948,0.7651,0.3596,test_or_hold
-Mengniu,50,0.8,1.6831,1.1675,0.3063,test_or_hold
-Mengniu,50,1.0,1.7513,1.2149,0.3063,test_or_hold
-Mengniu,50,1.25,1.6955,1.0858,0.3596,test_or_hold
-Mengniu,50,1.5,1.7743,1.1362,0.3596,test_or_hold
-Mengniu,100,0.8,2.0791,1.4422,0.3063,test_or_hold
-Mengniu,100,1.0,2.1633,1.5006,0.3063,test_or_hold
-Mengniu,100,1.25,2.0944,1.3412,0.3596,test_or_hold
-Mengniu,100,1.5,2.1916,1.4035,0.3596,test_or_hold
-Qatar Airways,10,0.8,0.4134,0.2868,0.3063,test_or_hold
-Qatar Airways,10,1.0,0.4296,0.298,0.3063,test_or_hold
-Qatar Airways,10,1.25,0.4153,0.266,0.3596,test_or_hold
-Qatar Airways,10,1.5,0.434,0.2779,0.3596,test_or_hold
-Qatar Airways,25,0.8,0.9077,0.6297,0.3063,test_or_hold
-Qatar Airways,25,1.0,0.9433,0.6544,0.3063,test_or_hold
-Qatar Airways,25,1.25,0.9119,0.584,0.3596,test_or_hold
-Qatar Airways,25,1.5,0.953,0.6103,0.3596,test_or_hold
-Qatar Airways,50,0.8,1.4826,1.0285,0.3063,test_or_hold
-Qatar Airways,50,1.0,1.5407,1.0688,0.3063,test_or_hold
-Qatar Airways,50,1.25,1.4895,0.9539,0.3596,test_or_hold
-Qatar Airways,50,1.5,1.5566,0.9968,0.3596,test_or_hold
-Qatar Airways,100,0.8,2.0773,1.441,0.3063,test_or_hold
-Qatar Airways,100,1.0,2.1587,1.4974,0.3063,test_or_hold
-Qatar Airways,100,1.25,2.0869,1.3364,0.3596,test_or_hold
-Qatar Airways,100,1.5,2.1809,1.3966,0.3596,test_or_hold
-Visa,10,0.8,0.4084,0.2833,0.3063,test_or_hold
-Visa,10,1.0,0.4245,0.2945,0.3063,test_or_hold
-Visa,10,1.25,0.4105,0.2629,0.3596,test_or_hold
-Visa,10,1.5,0.4291,0.2748,0.3596,test_or_hold
-Visa,25,0.8,0.8968,0.6221,0.3063,test_or_hold
-Visa,25,1.0,0.9322,0.6466,0.3063,test_or_hold
-Visa,25,1.25,0.9015,0.5773,0.3596,test_or_hold
-Visa,25,1.5,0.9424,0.6035,0.3596,test_or_hold
-Visa,50,0.8,1.465,1.0162,0.3063,test_or_hold
-Visa,50,1.0,1.5228,1.0564,0.3063,test_or_hold
-Visa,50,1.25,1.4727,0.9431,0.3596,test_or_hold
-Visa,50,1.5,1.5395,0.9859,0.3596,test_or_hold
-Visa,100,0.8,2.053,1.4241,0.3063,test_or_hold
-Visa,100,1.0,2.1342,1.4804,0.3063,test_or_hold
-Visa,100,1.25,2.0639,1.3217,0.3596,test_or_hold
-Visa,100,1.5,2.1575,1.3816,0.3596,test_or_hold
-Vivo,10,0.8,0.5368,0.3724,0.3063,test_or_hold
-Vivo,10,1.0,0.5583,0.3873,0.3063,test_or_hold
-Vivo,10,1.25,0.5403,0.346,0.3596,test_or_hold
-Vivo,10,1.5,0.5652,0.362,0.3596,test_or_hold
-Vivo,25,0.8,1.1114,0.771,0.3063,test_or_hold
-Vivo,25,1.0,1.156,0.8019,0.3063,test_or_hold
-Vivo,25,1.25,1.1188,0.7165,0.3596,test_or_hold
-Vivo,25,1.5,1.1703,0.7494,0.3596,test_or_hold
-Vivo,50,0.8,1.6731,1.1606,0.3063,test_or_hold
-Vivo,50,1.0,1.7403,1.2072,0.3063,test_or_hold
-Vivo,50,1.25,1.6842,1.0785,0.3596,test_or_hold
-Vivo,50,1.5,1.7617,1.1282,0.3596,test_or_hold
-Vivo,100,0.8,2.1005,1.457,0.3063,test_or_hold
-Vivo,100,1.0,2.1848,1.5155,0.3063,test_or_hold
-Vivo,100,1.25,2.1144,1.354,0.3596,test_or_hold
-Vivo,100,1.5,2.2117,1.4164,0.3596,test_or_hold
+Adidas,10,0.8,0.4499,0.3127,0.305,test_or_hold
+Adidas,10,1.0,0.4676,0.325,0.305,test_or_hold
+Adidas,10,1.25,0.4523,0.2904,0.358,test_or_hold
+Adidas,10,1.5,0.4727,0.3034,0.358,test_or_hold
+Adidas,25,0.8,0.9766,0.6787,0.305,test_or_hold
+Adidas,25,1.0,1.0149,0.7054,0.305,test_or_hold
+Adidas,25,1.25,0.9816,0.6302,0.358,test_or_hold
+Adidas,25,1.5,1.0259,0.6586,0.358,test_or_hold
+Adidas,50,0.8,1.5687,1.0903,0.305,test_or_hold
+Adidas,50,1.0,1.6302,1.133,0.305,test_or_hold
+Adidas,50,1.25,1.5768,1.0123,0.358,test_or_hold
+Adidas,50,1.5,1.6479,1.0579,0.358,test_or_hold
+Adidas,100,0.8,2.1453,1.4911,0.305,test_or_hold
+Adidas,100,1.0,2.2295,1.5496,0.305,test_or_hold
+Adidas,100,1.25,2.1565,1.3845,0.358,test_or_hold
+Adidas,100,1.5,2.2537,1.4469,0.358,test_or_hold
+Budweiser,10,0.8,0.402,0.2794,0.305,test_or_hold
+Budweiser,10,1.0,0.4179,0.2904,0.305,test_or_hold
+Budweiser,10,1.25,0.4043,0.2596,0.358,test_or_hold
+Budweiser,10,1.5,0.4226,0.2713,0.358,test_or_hold
+Budweiser,25,0.8,0.8798,0.6115,0.305,test_or_hold
+Budweiser,25,1.0,0.9145,0.6356,0.305,test_or_hold
+Budweiser,25,1.25,0.8848,0.568,0.358,test_or_hold
+Budweiser,25,1.5,0.9248,0.5937,0.358,test_or_hold
+Budweiser,50,0.8,1.43,0.9939,0.305,test_or_hold
+Budweiser,50,1.0,1.4864,1.0331,0.305,test_or_hold
+Budweiser,50,1.25,1.4381,0.9232,0.358,test_or_hold
+Budweiser,50,1.5,1.5032,0.965,0.358,test_or_hold
+Budweiser,100,0.8,1.9893,1.3827,0.305,test_or_hold
+Budweiser,100,1.0,2.0678,1.4372,0.305,test_or_hold
+Budweiser,100,1.25,2.0005,1.2843,0.358,test_or_hold
+Budweiser,100,1.5,2.0911,1.3425,0.358,test_or_hold
+Coca-Cola,10,0.8,0.4101,0.2851,0.305,test_or_hold
+Coca-Cola,10,1.0,0.4262,0.2962,0.305,test_or_hold
+Coca-Cola,10,1.25,0.4122,0.2647,0.358,test_or_hold
+Coca-Cola,10,1.5,0.4308,0.2766,0.358,test_or_hold
+Coca-Cola,25,0.8,0.8958,0.6226,0.305,test_or_hold
+Coca-Cola,25,1.0,0.9309,0.647,0.305,test_or_hold
+Coca-Cola,25,1.25,0.9004,0.5781,0.358,test_or_hold
+Coca-Cola,25,1.5,0.941,0.6041,0.358,test_or_hold
+Coca-Cola,50,0.8,1.4521,1.0093,0.305,test_or_hold
+Coca-Cola,50,1.0,1.509,1.0488,0.305,test_or_hold
+Coca-Cola,50,1.25,1.4595,0.937,0.358,test_or_hold
+Coca-Cola,50,1.5,1.5252,0.9792,0.358,test_or_hold
+Coca-Cola,100,0.8,2.0119,1.3984,0.305,test_or_hold
+Coca-Cola,100,1.0,2.0908,1.4532,0.305,test_or_hold
+Coca-Cola,100,1.25,2.0223,1.2983,0.358,test_or_hold
+Coca-Cola,100,1.5,2.1133,1.3567,0.358,test_or_hold
+Hisense,10,0.8,0.4019,0.2793,0.305,test_or_hold
+Hisense,10,1.0,0.4177,0.2903,0.305,test_or_hold
+Hisense,10,1.25,0.404,0.2594,0.358,test_or_hold
+Hisense,10,1.5,0.4222,0.2711,0.358,test_or_hold
+Hisense,25,0.8,0.8791,0.611,0.305,test_or_hold
+Hisense,25,1.0,0.9136,0.635,0.305,test_or_hold
+Hisense,25,1.25,0.8837,0.5673,0.358,test_or_hold
+Hisense,25,1.5,0.9235,0.5929,0.358,test_or_hold
+Hisense,50,0.8,1.4278,0.9924,0.305,test_or_hold
+Hisense,50,1.0,1.4838,1.0313,0.305,test_or_hold
+Hisense,50,1.25,1.4353,0.9214,0.358,test_or_hold
+Hisense,50,1.5,1.4999,0.963,0.358,test_or_hold
+Hisense,100,0.8,1.9841,1.379,0.305,test_or_hold
+Hisense,100,1.0,2.0619,1.4331,0.305,test_or_hold
+Hisense,100,1.25,1.9945,1.2805,0.358,test_or_hold
+Hisense,100,1.5,2.0843,1.3382,0.358,test_or_hold
+Hyundai,10,0.8,0.3941,0.2739,0.305,test_or_hold
+Hyundai,10,1.0,0.4096,0.2847,0.305,test_or_hold
+Hyundai,10,1.25,0.3963,0.2544,0.358,test_or_hold
+Hyundai,10,1.5,0.4143,0.266,0.358,test_or_hold
+Hyundai,25,0.8,0.8673,0.6028,0.305,test_or_hold
+Hyundai,25,1.0,0.9016,0.6266,0.305,test_or_hold
+Hyundai,25,1.25,0.8723,0.56,0.358,test_or_hold
+Hyundai,25,1.5,0.9118,0.5854,0.358,test_or_hold
+Hyundai,50,0.8,1.4216,0.988,0.305,test_or_hold
+Hyundai,50,1.0,1.4777,1.027,0.305,test_or_hold
+Hyundai,50,1.25,1.4297,0.9179,0.358,test_or_hold
+Hyundai,50,1.5,1.4945,0.9595,0.358,test_or_hold
+Hyundai,100,0.8,2.002,1.3915,0.305,test_or_hold
+Hyundai,100,1.0,2.081,1.4464,0.305,test_or_hold
+Hyundai,100,1.25,2.0134,1.2926,0.358,test_or_hold
+Hyundai,100,1.5,2.1047,1.3512,0.358,test_or_hold
+McDonald's,10,0.8,0.4666,0.3243,0.305,test_or_hold
+McDonald's,10,1.0,0.4854,0.3374,0.305,test_or_hold
+McDonald's,10,1.25,0.4701,0.3018,0.358,test_or_hold
+McDonald's,10,1.5,0.4919,0.3158,0.358,test_or_hold
+McDonald's,25,0.8,0.985,0.6846,0.305,test_or_hold
+McDonald's,25,1.0,1.0247,0.7122,0.305,test_or_hold
+McDonald's,25,1.25,0.9924,0.6371,0.358,test_or_hold
+McDonald's,25,1.5,1.0383,0.6666,0.358,test_or_hold
+McDonald's,50,0.8,1.5219,1.0578,0.305,test_or_hold
+McDonald's,50,1.0,1.5833,1.1005,0.305,test_or_hold
+McDonald's,50,1.25,1.5334,0.9844,0.358,test_or_hold
+McDonald's,50,1.5,1.6043,1.03,0.358,test_or_hold
+McDonald's,100,0.8,1.9742,1.3721,0.305,test_or_hold
+McDonald's,100,1.0,2.0538,1.4275,0.305,test_or_hold
+McDonald's,100,1.25,1.9891,1.277,0.358,test_or_hold
+McDonald's,100,1.5,2.0811,1.3361,0.358,test_or_hold
+Mengniu,10,0.8,0.5013,0.3484,0.305,test_or_hold
+Mengniu,10,1.0,0.5217,0.3626,0.305,test_or_hold
+Mengniu,10,1.25,0.5055,0.3245,0.358,test_or_hold
+Mengniu,10,1.5,0.529,0.3396,0.358,test_or_hold
+Mengniu,25,0.8,1.0441,0.7257,0.305,test_or_hold
+Mengniu,25,1.0,1.0866,0.7552,0.305,test_or_hold
+Mengniu,25,1.25,1.0527,0.6759,0.358,test_or_hold
+Mengniu,25,1.5,1.1018,0.7073,0.358,test_or_hold
+Mengniu,50,0.8,1.5841,1.101,0.305,test_or_hold
+Mengniu,50,1.0,1.6485,1.1458,0.305,test_or_hold
+Mengniu,50,1.25,1.5972,1.0254,0.358,test_or_hold
+Mengniu,50,1.5,1.6716,1.0732,0.358,test_or_hold
+Mengniu,100,0.8,2.0078,1.3955,0.305,test_or_hold
+Mengniu,100,1.0,2.0895,1.4523,0.305,test_or_hold
+Mengniu,100,1.25,2.0244,1.2997,0.358,test_or_hold
+Mengniu,100,1.5,2.1187,1.3602,0.358,test_or_hold
+Qatar Airways,10,0.8,0.4247,0.2952,0.305,test_or_hold
+Qatar Airways,10,1.0,0.4414,0.3068,0.305,test_or_hold
+Qatar Airways,10,1.25,0.427,0.2741,0.358,test_or_hold
+Qatar Airways,10,1.5,0.4462,0.2865,0.358,test_or_hold
+Qatar Airways,25,0.8,0.924,0.6422,0.305,test_or_hold
+Qatar Airways,25,1.0,0.9604,0.6675,0.305,test_or_hold
+Qatar Airways,25,1.25,0.929,0.5964,0.358,test_or_hold
+Qatar Airways,25,1.5,0.9709,0.6233,0.358,test_or_hold
+Qatar Airways,50,0.8,1.4895,1.0353,0.305,test_or_hold
+Qatar Airways,50,1.0,1.5481,1.076,0.305,test_or_hold
+Qatar Airways,50,1.25,1.4975,0.9614,0.358,test_or_hold
+Qatar Airways,50,1.5,1.5651,1.0048,0.358,test_or_hold
+Qatar Airways,100,0.8,2.0474,1.423,0.305,test_or_hold
+Qatar Airways,100,1.0,2.1278,1.4789,0.305,test_or_hold
+Qatar Airways,100,1.25,2.0584,1.3215,0.358,test_or_hold
+Qatar Airways,100,1.5,2.1513,1.3811,0.358,test_or_hold
+Visa,10,0.8,0.3961,0.2753,0.305,test_or_hold
+Visa,10,1.0,0.4117,0.2862,0.305,test_or_hold
+Visa,10,1.25,0.3983,0.2557,0.358,test_or_hold
+Visa,10,1.5,0.4163,0.2673,0.358,test_or_hold
+Visa,25,0.8,0.8696,0.6044,0.305,test_or_hold
+Visa,25,1.0,0.9039,0.6282,0.305,test_or_hold
+Visa,25,1.25,0.8744,0.5614,0.358,test_or_hold
+Visa,25,1.5,0.914,0.5868,0.358,test_or_hold
+Visa,50,0.8,1.42,0.9869,0.305,test_or_hold
+Visa,50,1.0,1.4759,1.0258,0.305,test_or_hold
+Visa,50,1.25,1.4278,0.9167,0.358,test_or_hold
+Visa,50,1.5,1.4923,0.9581,0.358,test_or_hold
+Visa,100,0.8,1.9887,1.3822,0.305,test_or_hold
+Visa,100,1.0,2.0669,1.4366,0.305,test_or_hold
+Visa,100,1.25,1.9996,1.2838,0.358,test_or_hold
+Visa,100,1.5,2.09,1.3418,0.358,test_or_hold
+Vivo,10,0.8,0.5105,0.3548,0.305,test_or_hold
+Vivo,10,1.0,0.5311,0.3692,0.305,test_or_hold
+Vivo,10,1.25,0.5144,0.3303,0.358,test_or_hold
+Vivo,10,1.5,0.5383,0.3456,0.358,test_or_hold
+Vivo,25,0.8,1.0613,0.7376,0.305,test_or_hold
+Vivo,25,1.0,1.1042,0.7675,0.305,test_or_hold
+Vivo,25,1.25,1.0695,0.6866,0.358,test_or_hold
+Vivo,25,1.5,1.1191,0.7185,0.358,test_or_hold
+Vivo,50,0.8,1.6064,1.1165,0.305,test_or_hold
+Vivo,50,1.0,1.6714,1.1617,0.305,test_or_hold
+Vivo,50,1.25,1.6189,1.0393,0.358,test_or_hold
+Vivo,50,1.5,1.6939,1.0875,0.358,test_or_hold
+Vivo,100,0.8,2.0302,1.4111,0.305,test_or_hold
+Vivo,100,1.0,2.1123,1.4681,0.305,test_or_hold
+Vivo,100,1.25,2.046,1.3135,0.358,test_or_hold
+Vivo,100,1.5,2.1408,1.3744,0.358,test_or_hold

@@ -4,10 +4,10 @@ This experiment compares baseline sponsor ROI with three counterfactual conditio
 
 | scenario | avg_predicted_roi | avg_roi_delta | avg_roi_lift_pct |
 | --- | --- | --- | --- |
-| A_baseline | 4.060 | 0.000 | 0.000 |
-| B_core_player_absent | 3.970 | -0.089 | -2.178 |
-| C_sponsor_upgrade | 3.815 | -0.245 | -6.045 |
-| D_media_cooling | 3.852 | -0.207 | -5.135 |
+| A_baseline | 3.871 | 0.000 | 0.000 |
+| B_core_player_absent | 3.718 | -0.152 | -3.912 |
+| C_sponsor_upgrade | 3.735 | -0.136 | -3.515 |
+| D_media_cooling | 3.633 | -0.238 | -6.155 |
 
 ## Research Interpretation
 

@@ -1,83 +1,83 @@
 team,sponsor,sponsor_category,sponsor_spend_m,ad_exposure_m,brand_heat_index,paid_media_share,brand_fit,activation_quality,historical_sports_presence,data_origin
-Brazil,Adidas,apparel,33.15,1420.0,1.0,0.369,0.809,0.916,0.861,real_sponsor_names_with_proxy_commercial_metrics
-Germany,Coca-Cola,beverage,29.19,1660.0,1.0,0.286,0.859,0.907,0.902,real_sponsor_names_with_proxy_commercial_metrics
-Italy,Visa,finance,33.4,1470.0,1.0,0.316,0.761,0.842,0.918,real_sponsor_names_with_proxy_commercial_metrics
-Argentina,Hyundai,automotive,30.74,1520.0,1.0,0.338,0.813,0.936,0.851,real_sponsor_names_with_proxy_commercial_metrics
-France,Qatar Airways,airline,31.34,1560.0,1.0,0.647,0.801,0.881,0.647,real_sponsor_names_with_proxy_commercial_metrics
-Netherlands,Hisense,technology,32.27,1590.0,1.0,0.505,0.811,0.856,0.664,real_sponsor_names_with_proxy_commercial_metrics
-Spain,Budweiser,beverage,27.85,1520.0,1.0,0.321,0.724,0.933,0.612,real_sponsor_names_with_proxy_commercial_metrics
-England,McDonald's,restaurant,20.29,74.13,0.517,0.758,0.819,0.654,0.569,real_sponsor_names_with_proxy_commercial_metrics
-Portugal,Mengniu,consumer_goods,17.76,59.99,0.368,0.468,0.8,0.643,0.574,real_sponsor_names_with_proxy_commercial_metrics
-Uruguay,Vivo,technology,19.75,76.46,0.542,0.306,0.797,0.741,0.63,real_sponsor_names_with_proxy_commercial_metrics
-Hungary,Adidas,apparel,33.47,1420.0,1.0,0.501,0.712,0.937,0.887,real_sponsor_names_with_proxy_commercial_metrics
-Poland,Coca-Cola,beverage,28.97,1660.0,1.0,0.581,0.749,0.899,0.847,real_sponsor_names_with_proxy_commercial_metrics
-Belgium,Visa,finance,26.85,1470.0,1.0,0.538,0.72,0.914,0.914,real_sponsor_names_with_proxy_commercial_metrics
-Russia,Hyundai,automotive,26.07,1520.0,1.0,0.245,0.69,0.874,0.885,real_sponsor_names_with_proxy_commercial_metrics
-Yugoslavia,Qatar Airways,airline,27.75,1560.0,1.0,0.779,0.762,0.877,0.666,real_sponsor_names_with_proxy_commercial_metrics
-Croatia,Hisense,technology,28.53,1590.0,1.0,0.267,0.792,0.927,0.587,real_sponsor_names_with_proxy_commercial_metrics
-Sweden,Budweiser,beverage,26.29,1520.0,1.0,0.625,0.705,0.91,0.618,real_sponsor_names_with_proxy_commercial_metrics
-Austria,McDonald's,restaurant,21.71,77.28,0.55,0.451,0.702,0.72,0.649,real_sponsor_names_with_proxy_commercial_metrics
-Turkey,Mengniu,consumer_goods,18.0,60.85,0.377,0.48,0.714,0.662,0.611,real_sponsor_names_with_proxy_commercial_metrics
-Colombia,Vivo,technology,18.25,73.14,0.507,0.422,0.764,0.653,0.613,real_sponsor_names_with_proxy_commercial_metrics
-Switzerland,Adidas,apparel,31.4,1420.0,1.0,0.14,0.774,0.888,0.845,real_sponsor_names_with_proxy_commercial_metrics
-Denmark,Coca-Cola,beverage,33.85,1660.0,1.0,0.685,0.715,0.895,0.825,real_sponsor_names_with_proxy_commercial_metrics
-Czechoslovakia,Visa,finance,31.09,1470.0,1.0,0.557,0.715,0.89,0.868,real_sponsor_names_with_proxy_commercial_metrics
-Mexico,Hyundai,automotive,28.5,1520.0,1.0,0.636,0.712,0.897,0.88,real_sponsor_names_with_proxy_commercial_metrics
-Romania,Qatar Airways,airline,29.58,1560.0,1.0,0.365,0.75,0.938,0.645,real_sponsor_names_with_proxy_commercial_metrics
-Chile,Hisense,technology,27.36,1590.0,1.0,0.243,0.681,0.911,0.656,real_sponsor_names_with_proxy_commercial_metrics
-Senegal,Budweiser,beverage,31.49,1520.0,1.0,0.344,0.754,0.934,0.653,real_sponsor_names_with_proxy_commercial_metrics
-Ecuador,McDonald's,restaurant,16.55,66.18,0.433,0.554,0.689,0.657,0.645,real_sponsor_names_with_proxy_commercial_metrics
-Ghana,Mengniu,consumer_goods,23.07,63.81,0.408,0.27,0.715,0.668,0.644,real_sponsor_names_with_proxy_commercial_metrics
-United States,Vivo,technology,22.58,68.24,0.455,0.416,0.676,0.652,0.654,real_sponsor_names_with_proxy_commercial_metrics
-Japan,Adidas,apparel,29.47,1420.0,1.0,0.558,0.648,0.855,0.917,real_sponsor_names_with_proxy_commercial_metrics
-Nigeria,Coca-Cola,beverage,26.63,1660.0,1.0,0.555,0.744,0.906,0.879,real_sponsor_names_with_proxy_commercial_metrics
-Costa Rica,Visa,finance,31.23,1470.0,1.0,0.397,0.677,0.885,0.896,real_sponsor_names_with_proxy_commercial_metrics
-Paraguay,Hyundai,automotive,26.2,1520.0,1.0,0.401,0.667,0.921,0.802,real_sponsor_names_with_proxy_commercial_metrics
-Ukraine,Qatar Airways,airline,32.62,1560.0,1.0,0.507,0.637,0.92,0.635,real_sponsor_names_with_proxy_commercial_metrics
-Peru,Hisense,technology,33.45,1590.0,1.0,0.314,0.647,0.931,0.617,real_sponsor_names_with_proxy_commercial_metrics
-Ivory Coast,Budweiser,beverage,26.15,1520.0,1.0,0.237,0.659,0.897,0.579,real_sponsor_names_with_proxy_commercial_metrics
-South Korea,McDonald's,restaurant,25.44,80.72,0.587,0.49,0.67,0.723,0.661,real_sponsor_names_with_proxy_commercial_metrics
-Morocco,Mengniu,consumer_goods,19.44,62.12,0.391,0.28,0.668,0.598,0.65,real_sponsor_names_with_proxy_commercial_metrics
-Serbia,Vivo,technology,23.55,77.75,0.555,0.452,0.729,0.727,0.578,real_sponsor_names_with_proxy_commercial_metrics
-German DR,Adidas,apparel,33.59,1420.0,1.0,0.443,0.653,0.937,0.841,real_sponsor_names_with_proxy_commercial_metrics
-Cameroon,Coca-Cola,beverage,31.97,1660.0,1.0,0.241,0.693,0.92,0.885,real_sponsor_names_with_proxy_commercial_metrics
-Saudi Arabia,Visa,finance,27.16,1470.0,1.0,0.611,0.648,0.864,0.904,real_sponsor_names_with_proxy_commercial_metrics
-Australia,Hyundai,automotive,29.32,1520.0,1.0,0.218,0.705,0.903,0.913,real_sponsor_names_with_proxy_commercial_metrics
-Northern Ireland,Qatar Airways,airline,29.2,1560.0,1.0,0.318,0.682,0.856,0.62,real_sponsor_names_with_proxy_commercial_metrics
-Algeria,Hisense,technology,30.28,1590.0,1.0,0.679,0.66,0.889,0.626,real_sponsor_names_with_proxy_commercial_metrics
-Scotland,Budweiser,beverage,26.35,1520.0,1.0,0.459,0.686,0.905,0.601,real_sponsor_names_with_proxy_commercial_metrics
-Norway,McDonald's,restaurant,20.44,68.0,0.453,0.453,0.651,0.632,0.639,real_sponsor_names_with_proxy_commercial_metrics
-Bosnia and Herzegovina,Mengniu,consumer_goods,16.77,64.43,0.415,0.419,0.615,0.658,0.619,real_sponsor_names_with_proxy_commercial_metrics
-Cuba,Vivo,technology,18.81,74.54,0.521,0.309,0.682,0.673,0.556,real_sponsor_names_with_proxy_commercial_metrics
-Jamaica,Adidas,apparel,33.24,1420.0,1.0,0.445,0.601,0.904,0.813,real_sponsor_names_with_proxy_commercial_metrics
-Czech Republic,Coca-Cola,beverage,28.08,1660.0,1.0,0.457,0.72,0.846,0.838,real_sponsor_names_with_proxy_commercial_metrics
-Iran,Visa,finance,29.04,1470.0,1.0,0.165,0.637,0.935,0.918,real_sponsor_names_with_proxy_commercial_metrics
-Tunisia,Hyundai,automotive,28.75,1520.0,1.0,0.7,0.649,0.867,0.833,real_sponsor_names_with_proxy_commercial_metrics
-South Africa,Qatar Airways,airline,33.39,1560.0,1.0,0.304,0.668,0.929,0.558,real_sponsor_names_with_proxy_commercial_metrics
-Bulgaria,Hisense,technology,33.88,1590.0,1.0,0.2,0.675,0.918,0.633,real_sponsor_names_with_proxy_commercial_metrics
-Greece,Budweiser,beverage,30.87,1520.0,1.0,0.603,0.686,0.866,0.554,real_sponsor_names_with_proxy_commercial_metrics
-Republic of Ireland,McDonald's,restaurant,22.06,77.85,0.556,0.61,0.646,0.669,0.593,real_sponsor_names_with_proxy_commercial_metrics
-Slovakia,Mengniu,consumer_goods,15.95,62.18,0.391,0.258,0.642,0.626,0.565,real_sponsor_names_with_proxy_commercial_metrics
-Slovenia,Vivo,technology,14.76,59.17,0.36,0.203,0.658,0.571,0.553,real_sponsor_names_with_proxy_commercial_metrics
-North Korea,Adidas,apparel,26.45,1420.0,1.0,0.274,0.656,0.915,0.861,real_sponsor_names_with_proxy_commercial_metrics
-Wales,Coca-Cola,beverage,33.92,1660.0,1.0,0.324,0.631,0.878,0.858,real_sponsor_names_with_proxy_commercial_metrics
-Honduras,Visa,finance,28.19,1470.0,1.0,0.46,0.538,0.906,0.82,real_sponsor_names_with_proxy_commercial_metrics
-Egypt,Hyundai,automotive,30.54,1520.0,1.0,0.558,0.597,0.912,0.85,real_sponsor_names_with_proxy_commercial_metrics
-Bolivia,Qatar Airways,airline,32.63,1560.0,1.0,0.397,0.575,0.859,0.621,real_sponsor_names_with_proxy_commercial_metrics
-Canada,Hisense,technology,28.16,1590.0,1.0,0.586,0.646,0.897,0.559,real_sponsor_names_with_proxy_commercial_metrics
-El Salvador,Budweiser,beverage,33.75,1520.0,1.0,0.547,0.582,0.92,0.654,real_sponsor_names_with_proxy_commercial_metrics
-New Zealand,McDonald's,restaurant,20.14,63.89,0.409,0.46,0.556,0.654,0.629,real_sponsor_names_with_proxy_commercial_metrics
-China,Mengniu,consumer_goods,22.33,66.05,0.432,0.329,0.58,0.661,0.607,real_sponsor_names_with_proxy_commercial_metrics
-Angola,Vivo,technology,18.09,72.51,0.5,0.399,0.538,0.708,0.616,real_sponsor_names_with_proxy_commercial_metrics
-Iceland,Adidas,apparel,32.31,1420.0,1.0,0.229,0.583,0.936,0.914,real_sponsor_names_with_proxy_commercial_metrics
-Haiti,Coca-Cola,beverage,32.91,1660.0,1.0,0.378,0.561,0.904,0.889,real_sponsor_names_with_proxy_commercial_metrics
-DR Congo,Visa,finance,33.01,1470.0,1.0,0.563,0.521,0.896,0.811,real_sponsor_names_with_proxy_commercial_metrics
-Iraq,Hyundai,automotive,29.12,1520.0,1.0,0.425,0.596,0.858,0.816,real_sponsor_names_with_proxy_commercial_metrics
-Panama,Qatar Airways,airline,30.79,1560.0,1.0,0.348,0.609,0.938,0.597,real_sponsor_names_with_proxy_commercial_metrics
-Kuwait,Hisense,technology,27.08,1590.0,1.0,0.514,0.628,0.865,0.575,real_sponsor_names_with_proxy_commercial_metrics
-Israel,Budweiser,beverage,29.1,1520.0,1.0,0.2,0.524,0.881,0.598,real_sponsor_names_with_proxy_commercial_metrics
-Qatar,McDonald's,restaurant,21.61,73.65,0.512,0.065,0.619,0.704,0.571,real_sponsor_names_with_proxy_commercial_metrics
-Trinidad and Tobago,Mengniu,consumer_goods,22.28,69.91,0.473,0.575,0.531,0.623,0.622,real_sponsor_names_with_proxy_commercial_metrics
-Togo,Vivo,technology,18.08,76.7,0.544,0.502,0.56,0.661,0.579,real_sponsor_names_with_proxy_commercial_metrics
-United Arab Emirates,Adidas,apparel,28.56,1420.0,1.0,0.29,0.554,0.935,0.829,real_sponsor_names_with_proxy_commercial_metrics
-Indonesia,Coca-Cola,beverage,32.51,1660.0,1.0,0.345,0.569,0.881,0.852,real_sponsor_names_with_proxy_commercial_metrics
+Brazil,Adidas,apparel,26.5,510.0,1.0,0.511,0.815,0.918,0.839,real_sponsor_names_with_proxy_commercial_metrics
+Germany,Coca-Cola,beverage,28.14,200.0,1.0,0.391,0.841,0.863,0.825,real_sponsor_names_with_proxy_commercial_metrics
+Italy,Visa,finance,30.86,360.0,1.0,0.503,0.817,0.877,0.807,real_sponsor_names_with_proxy_commercial_metrics
+Argentina,Hyundai,automotive,33.96,470.0,1.0,0.193,0.745,0.879,0.806,real_sponsor_names_with_proxy_commercial_metrics
+France,Qatar Airways,airline,27.11,340.0,1.0,0.197,0.824,0.865,0.641,real_sponsor_names_with_proxy_commercial_metrics
+Netherlands,Hisense,technology,28.93,200.0,1.0,0.559,0.843,0.933,0.573,real_sponsor_names_with_proxy_commercial_metrics
+Spain,Budweiser,beverage,28.79,340.0,1.0,0.103,0.743,0.877,0.601,real_sponsor_names_with_proxy_commercial_metrics
+England,McDonald's,restaurant,25.07,76.0,0.537,0.407,0.766,0.656,0.57,real_sponsor_names_with_proxy_commercial_metrics
+Portugal,Mengniu,consumer_goods,23.42,67.78,0.45,0.449,0.755,0.61,0.633,real_sponsor_names_with_proxy_commercial_metrics
+Uruguay,Vivo,technology,21.56,68.11,0.454,0.192,0.744,0.632,0.606,real_sponsor_names_with_proxy_commercial_metrics
+Hungary,Adidas,apparel,26.96,510.0,1.0,0.515,0.697,0.871,0.825,real_sponsor_names_with_proxy_commercial_metrics
+Poland,Coca-Cola,beverage,33.35,200.0,1.0,0.194,0.757,0.846,0.913,real_sponsor_names_with_proxy_commercial_metrics
+Belgium,Visa,finance,27.71,360.0,1.0,0.471,0.713,0.904,0.81,real_sponsor_names_with_proxy_commercial_metrics
+Russia,Hyundai,automotive,27.7,470.0,1.0,0.418,0.778,0.856,0.868,real_sponsor_names_with_proxy_commercial_metrics
+Yugoslavia,Qatar Airways,airline,28.84,340.0,1.0,0.231,0.685,0.845,0.658,real_sponsor_names_with_proxy_commercial_metrics
+Croatia,Hisense,technology,32.46,200.0,1.0,0.672,0.696,0.93,0.569,real_sponsor_names_with_proxy_commercial_metrics
+Sweden,Budweiser,beverage,33.21,340.0,1.0,0.524,0.694,0.916,0.59,real_sponsor_names_with_proxy_commercial_metrics
+Austria,McDonald's,restaurant,18.2,61.03,0.379,0.346,0.745,0.652,0.65,real_sponsor_names_with_proxy_commercial_metrics
+Colombia,Mengniu,consumer_goods,19.52,67.97,0.452,0.803,0.688,0.649,0.667,real_sponsor_names_with_proxy_commercial_metrics
+Mexico,Vivo,technology,20.36,72.09,0.496,0.427,0.748,0.634,0.615,real_sponsor_names_with_proxy_commercial_metrics
+Denmark,Adidas,apparel,32.05,510.0,1.0,0.223,0.735,0.923,0.912,real_sponsor_names_with_proxy_commercial_metrics
+Czechoslovakia,Coca-Cola,beverage,27.51,200.0,1.0,0.348,0.724,0.904,0.835,real_sponsor_names_with_proxy_commercial_metrics
+Switzerland,Visa,finance,32.62,360.0,1.0,0.604,0.698,0.924,0.879,real_sponsor_names_with_proxy_commercial_metrics
+Turkey,Hyundai,automotive,28.74,470.0,1.0,0.46,0.733,0.841,0.803,real_sponsor_names_with_proxy_commercial_metrics
+Romania,Qatar Airways,airline,31.16,340.0,1.0,0.453,0.771,0.857,0.642,real_sponsor_names_with_proxy_commercial_metrics
+Chile,Hisense,technology,28.57,200.0,1.0,0.443,0.74,0.851,0.645,real_sponsor_names_with_proxy_commercial_metrics
+Senegal,Budweiser,beverage,26.73,340.0,1.0,0.452,0.769,0.929,0.629,real_sponsor_names_with_proxy_commercial_metrics
+Ecuador,McDonald's,restaurant,24.14,71.35,0.488,0.64,0.708,0.664,0.61,real_sponsor_names_with_proxy_commercial_metrics
+United States,Mengniu,consumer_goods,19.54,70.66,0.481,0.192,0.677,0.645,0.645,real_sponsor_names_with_proxy_commercial_metrics
+Ghana,Vivo,technology,18.56,68.92,0.462,0.21,0.704,0.692,0.651,real_sponsor_names_with_proxy_commercial_metrics
+Japan,Adidas,apparel,26.51,510.0,1.0,0.433,0.685,0.929,0.873,real_sponsor_names_with_proxy_commercial_metrics
+Nigeria,Coca-Cola,beverage,27.28,200.0,1.0,0.497,0.727,0.856,0.872,real_sponsor_names_with_proxy_commercial_metrics
+Costa Rica,Visa,finance,28.23,360.0,1.0,0.392,0.668,0.893,0.86,real_sponsor_names_with_proxy_commercial_metrics
+Paraguay,Hyundai,automotive,29.15,470.0,1.0,0.602,0.645,0.902,0.844,real_sponsor_names_with_proxy_commercial_metrics
+Ukraine,Qatar Airways,airline,29.32,340.0,1.0,0.318,0.719,0.866,0.627,real_sponsor_names_with_proxy_commercial_metrics
+South Korea,Hisense,technology,27.58,200.0,1.0,0.304,0.743,0.851,0.581,real_sponsor_names_with_proxy_commercial_metrics
+Peru,Budweiser,beverage,26.06,340.0,1.0,0.128,0.717,0.895,0.639,real_sponsor_names_with_proxy_commercial_metrics
+Ivory Coast,McDonald's,restaurant,22.15,73.96,0.515,0.634,0.643,0.704,0.638,real_sponsor_names_with_proxy_commercial_metrics
+Australia,Mengniu,consumer_goods,22.65,65.37,0.425,0.431,0.671,0.635,0.658,real_sponsor_names_with_proxy_commercial_metrics
+Serbia,Vivo,technology,21.9,69.06,0.464,0.51,0.666,0.71,0.613,real_sponsor_names_with_proxy_commercial_metrics
+Scotland,Adidas,apparel,28.08,510.0,1.0,0.48,0.681,0.84,0.902,real_sponsor_names_with_proxy_commercial_metrics
+Morocco,Coca-Cola,beverage,27.12,200.0,1.0,0.613,0.622,0.927,0.855,real_sponsor_names_with_proxy_commercial_metrics
+German DR,Visa,finance,32.18,360.0,1.0,0.444,0.68,0.845,0.836,real_sponsor_names_with_proxy_commercial_metrics
+Cameroon,Hyundai,automotive,31.3,470.0,1.0,0.384,0.633,0.913,0.877,real_sponsor_names_with_proxy_commercial_metrics
+Saudi Arabia,Qatar Airways,airline,26.92,340.0,1.0,0.324,0.699,0.934,0.622,real_sponsor_names_with_proxy_commercial_metrics
+Northern Ireland,Hisense,technology,31.44,200.0,1.0,0.506,0.657,0.926,0.611,real_sponsor_names_with_proxy_commercial_metrics
+Algeria,Budweiser,beverage,26.04,340.0,1.0,0.304,0.655,0.894,0.552,real_sponsor_names_with_proxy_commercial_metrics
+Norway,McDonald's,restaurant,23.5,65.01,0.421,0.4,0.683,0.622,0.605,real_sponsor_names_with_proxy_commercial_metrics
+Cuba,Mengniu,consumer_goods,19.78,73.57,0.511,0.427,0.626,0.653,0.609,real_sponsor_names_with_proxy_commercial_metrics
+Jamaica,Vivo,technology,20.24,71.64,0.491,0.295,0.61,0.692,0.605,real_sponsor_names_with_proxy_commercial_metrics
+Iran,Adidas,apparel,30.78,510.0,1.0,0.311,0.62,0.853,0.887,real_sponsor_names_with_proxy_commercial_metrics
+Tunisia,Coca-Cola,beverage,31.38,200.0,1.0,0.424,0.692,0.927,0.83,real_sponsor_names_with_proxy_commercial_metrics
+Bulgaria,Visa,finance,32.25,360.0,1.0,0.306,0.634,0.841,0.804,real_sponsor_names_with_proxy_commercial_metrics
+South Africa,Hyundai,automotive,29.92,470.0,1.0,0.394,0.626,0.895,0.825,real_sponsor_names_with_proxy_commercial_metrics
+Greece,Qatar Airways,airline,29.82,340.0,1.0,0.489,0.635,0.912,0.566,real_sponsor_names_with_proxy_commercial_metrics
+Republic of Ireland,Hisense,technology,31.73,200.0,1.0,0.554,0.651,0.844,0.646,real_sponsor_names_with_proxy_commercial_metrics
+Bosnia and Herzegovina,Budweiser,beverage,31.82,340.0,1.0,0.364,0.628,0.853,0.594,real_sponsor_names_with_proxy_commercial_metrics
+Slovakia,McDonald's,restaurant,19.55,63.55,0.406,0.422,0.649,0.624,0.644,real_sponsor_names_with_proxy_commercial_metrics
+Czech Republic,Mengniu,consumer_goods,17.25,73.44,0.51,0.174,0.633,0.704,0.653,real_sponsor_names_with_proxy_commercial_metrics
+Slovenia,Vivo,technology,22.17,76.75,0.545,0.648,0.588,0.673,0.582,real_sponsor_names_with_proxy_commercial_metrics
+North Korea,Adidas,apparel,29.14,510.0,1.0,0.658,0.649,0.88,0.851,real_sponsor_names_with_proxy_commercial_metrics
+Wales,Coca-Cola,beverage,33.88,200.0,1.0,0.497,0.649,0.915,0.881,real_sponsor_names_with_proxy_commercial_metrics
+Honduras,Visa,finance,29.59,360.0,1.0,0.597,0.556,0.936,0.83,real_sponsor_names_with_proxy_commercial_metrics
+Egypt,Hyundai,automotive,27.85,470.0,1.0,0.244,0.638,0.926,0.84,real_sponsor_names_with_proxy_commercial_metrics
+Canada,Qatar Airways,airline,30.48,340.0,1.0,0.164,0.581,0.858,0.584,real_sponsor_names_with_proxy_commercial_metrics
+Bolivia,Hisense,technology,27.7,200.0,1.0,0.383,0.637,0.928,0.649,real_sponsor_names_with_proxy_commercial_metrics
+El Salvador,Budweiser,beverage,30.69,340.0,1.0,0.316,0.623,0.918,0.658,real_sponsor_names_with_proxy_commercial_metrics
+New Zealand,McDonald's,restaurant,19.23,67.37,0.446,0.382,0.614,0.703,0.571,real_sponsor_names_with_proxy_commercial_metrics
+Haiti,Mengniu,consumer_goods,19.09,80.82,0.588,0.658,0.529,0.732,0.638,real_sponsor_names_with_proxy_commercial_metrics
+Qatar,Vivo,technology,20.64,62.39,0.394,0.294,0.612,0.645,0.647,real_sponsor_names_with_proxy_commercial_metrics
+China,Adidas,apparel,32.38,510.0,1.0,0.182,0.585,0.895,0.822,real_sponsor_names_with_proxy_commercial_metrics
+Angola,Coca-Cola,beverage,33.65,200.0,1.0,0.567,0.615,0.9,0.808,real_sponsor_names_with_proxy_commercial_metrics
+Iceland,Visa,finance,26.72,360.0,1.0,0.381,0.618,0.842,0.893,real_sponsor_names_with_proxy_commercial_metrics
+DR Congo,Hyundai,automotive,28.43,470.0,1.0,0.403,0.625,0.903,0.803,real_sponsor_names_with_proxy_commercial_metrics
+Panama,Qatar Airways,airline,27.22,340.0,1.0,0.338,0.607,0.911,0.64,real_sponsor_names_with_proxy_commercial_metrics
+Kuwait,Hisense,technology,29.15,200.0,1.0,0.258,0.534,0.859,0.658,real_sponsor_names_with_proxy_commercial_metrics
+Israel,Budweiser,beverage,28.76,340.0,1.0,0.533,0.566,0.863,0.594,real_sponsor_names_with_proxy_commercial_metrics
+Iraq,McDonald's,restaurant,21.52,70.14,0.475,0.346,0.539,0.706,0.64,real_sponsor_names_with_proxy_commercial_metrics
+Trinidad and Tobago,Mengniu,consumer_goods,22.12,67.99,0.453,0.298,0.603,0.706,0.596,real_sponsor_names_with_proxy_commercial_metrics
+Togo,Vivo,technology,20.76,66.58,0.438,0.358,0.628,0.626,0.552,real_sponsor_names_with_proxy_commercial_metrics
+United Arab Emirates,Adidas,apparel,33.47,510.0,1.0,0.421,0.596,0.845,0.887,real_sponsor_names_with_proxy_commercial_metrics
+Indonesia,Coca-Cola,beverage,27.26,200.0,1.0,0.665,0.552,0.877,0.881,real_sponsor_names_with_proxy_commercial_metrics

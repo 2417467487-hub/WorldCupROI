@@ -1,247 +1,247 @@
 source,connected_teams,player_commercial_influence,avg_influence,pagerank,betweenness,closeness
-Spain team_attack_unit,1,10.417,10.417,0.000842,0.0,0.006563
-Uruguay team_attack_unit,1,8.684,8.684,0.000678,0.0,0.006563
-Argentina team_defense_unit,1,8.479,8.479,0.000739,0.0,0.006563
-Switzerland team_attack_unit,1,8.226,8.226,0.000765,0.0,0.007326
-Brazil team_midfield_unit,1,8.108,8.108,0.000752,0.0,0.007326
-Denmark team_defense_unit,1,7.995,7.995,0.000695,0.0,0.007326
-Croatia team_midfield_unit,1,7.929,7.929,0.000688,0.0,0.006563
-Austria team_attack_unit,1,7.539,7.539,0.000797,0.0,0.006563
-Germany team_midfield_unit,1,7.469,7.469,0.000714,0.0,0.007326
-Hungary team_defense_unit,1,7.461,7.461,0.000704,0.0,0.007326
-France team_midfield_unit,1,7.457,7.457,0.000686,0.0,0.006563
-Uruguay team_defense_unit,1,7.331,7.331,0.000589,0.0,0.006563
-Belgium team_midfield_unit,1,7.159,7.159,0.000587,0.0,0.006563
-Paraguay team_attack_unit,1,7.153,7.153,0.000778,0.0,0.006563
-Belgium team_attack_unit,1,6.727,6.727,0.000558,0.0,0.006563
-France team_defense_unit,1,6.641,6.641,0.000622,0.0,0.006563
-Scotland team_attack_unit,1,6.412,6.412,0.000626,0.0,0.006563
-England team_midfield_unit,1,6.381,6.381,0.000641,0.0,0.006563
-Morocco team_defense_unit,1,6.358,6.358,0.000793,0.0,0.006563
-Mexico team_midfield_unit,1,6.094,6.094,0.000657,0.0,0.006563
-Costa Rica team_attack_unit,1,6.036,6.036,0.000612,0.0,0.006563
-Brazil team_attack_unit,1,5.968,5.968,0.000582,0.0,0.007326
-Chile team_attack_unit,1,5.948,5.948,0.000615,0.0,0.006563
-Italy team_defense_unit,1,5.844,5.844,0.000728,0.0,0.006563
-Costa Rica team_defense_unit,1,5.717,5.717,0.000585,0.0,0.006563
-Peru team_midfield_unit,1,5.654,5.654,0.000628,0.0,0.006563
-Serbia team_attack_unit,1,5.55,5.55,0.000619,0.0,0.006563
-England team_attack_unit,1,5.528,5.528,0.00057,0.0,0.006563
-Ecuador team_midfield_unit,1,5.457,5.457,0.000631,0.0,0.006563
-Serbia team_defense_unit,1,5.37,5.37,0.000603,0.0,0.006563
-Turkey team_attack_unit,1,5.336,5.336,0.000565,0.0,0.006563
-Denmark team_midfield_unit,1,5.311,5.311,0.000498,0.0,0.007326
-Hungary team_attack_unit,1,5.188,5.188,0.000522,0.0,0.007326
-Algeria team_attack_unit,1,5.136,5.136,0.000659,0.0,0.006563
-Japan team_attack_unit,1,5.111,5.111,0.000725,0.0,0.007326
-Switzerland team_defense_unit,1,5.107,5.107,0.000516,0.0,0.007326
-Poland team_attack_unit,1,5.047,5.047,0.000588,0.0,0.007326
-Turkey team_midfield_unit,1,4.996,4.996,0.000536,0.0,0.006563
-Cameroon team_defense_unit,1,4.934,4.934,0.0007,0.0,0.007326
-Scotland team_midfield_unit,1,4.918,4.918,0.000505,0.0,0.006563
-Germany team_defense_unit,1,4.916,4.916,0.000506,0.0,0.007326
-Republic of Ireland team_midfield_unit,1,4.881,4.881,0.000675,0.0,0.006563
-Belgium team_defense_unit,1,4.857,4.857,0.000433,0.0,0.006563
-Senegal team_attack_unit,1,4.844,4.844,0.000756,0.0,0.006563
-Poland team_defense_unit,1,4.839,4.839,0.000568,0.0,0.007326
-Bulgaria team_attack_unit,1,4.767,4.767,0.000765,0.0,0.006563
-German DR team_defense_unit,1,4.731,4.731,0.000627,0.0,0.007326
-Russia team_attack_unit,1,4.642,4.642,0.000542,0.0,0.006563
-Croatia team_attack_unit,1,4.606,4.606,0.000444,0.0,0.006563
-South Korea team_defense_unit,1,4.601,4.601,0.000591,0.0,0.006563
-Argentina team_midfield_unit,1,4.566,4.566,0.000448,0.0,0.006563
-Saudi Arabia team_defense_unit,1,4.558,4.558,0.000648,0.0,0.006563
-Chile team_defense_unit,1,4.545,4.545,0.000495,0.0,0.006563
-Russia team_midfield_unit,1,4.531,4.531,0.000532,0.0,0.006563
-Netherlands team_midfield_unit,1,4.528,4.528,0.000555,0.0,0.006563
-Croatia team_defense_unit,1,4.491,4.491,0.000436,0.0,0.006563
-United States team_defense_unit,1,4.483,4.483,0.000598,0.0,0.006563
-Czechoslovakia team_midfield_unit,1,4.482,4.482,0.000571,0.0,0.006563
-Northern Ireland team_attack_unit,1,4.435,4.435,0.000673,0.0,0.006563
-Spain team_midfield_unit,1,4.415,4.415,0.000419,0.0,0.006563
-Sweden team_defense_unit,1,4.411,4.411,0.000547,0.0,0.006563
-Portugal team_defense_unit,1,4.343,4.343,0.000594,0.0,0.006563
-Netherlands team_defense_unit,1,4.308,4.308,0.000533,0.0,0.006563
-Turkey team_defense_unit,1,4.185,4.185,0.000466,0.0,0.006563
-Sweden team_midfield_unit,1,4.181,4.181,0.000524,0.0,0.006563
-Yugoslavia team_midfield_unit,1,4.177,4.177,0.000641,0.0,0.006563
-South Korea team_midfield_unit,1,4.174,4.174,0.000547,0.0,0.006563
-Tunisia team_attack_unit,1,4.143,4.143,0.000577,0.0,0.006563
-Scotland team_defense_unit,1,4.052,4.052,0.000435,0.0,0.006563
-Colombia team_defense_unit,1,4.022,4.022,0.00069,0.0,0.006563
-Peru team_defense_unit,1,4.013,4.013,0.000477,0.0,0.006563
-Uruguay team_midfield_unit,1,3.892,3.892,0.000363,0.0,0.006563
-Denmark team_attack_unit,1,3.835,3.835,0.000389,0.0,0.007326
-Mexico team_defense_unit,1,3.831,3.831,0.000453,0.0,0.006563
-South Africa team_midfield_unit,1,3.823,3.823,0.000556,0.0,0.006563
-Tunisia team_defense_unit,1,3.819,3.819,0.00054,0.0,0.006563
-Austria team_midfield_unit,1,3.725,3.725,0.000448,0.0,0.006563
-Argentina team_attack_unit,1,3.708,3.708,0.000384,0.0,0.006563
-Greece team_attack_unit,1,3.706,3.706,0.000658,0.0,0.006563
-Iran team_midfield_unit,1,3.688,3.688,0.000539,0.0,0.006563
-Ecuador team_defense_unit,1,3.686,3.686,0.000461,0.0,0.006563
-Norway team_midfield_unit,1,3.673,3.673,0.000602,0.0,0.006563
-Republic of Ireland team_defense_unit,1,3.668,3.668,0.000534,0.0,0.006563
-Portugal team_midfield_unit,1,3.647,3.647,0.000516,0.0,0.006563
-Chile team_midfield_unit,1,3.636,3.636,0.000418,0.0,0.006563
-Romania team_midfield_unit,1,3.584,3.584,0.000614,0.0,0.006563
-Czechoslovakia team_defense_unit,1,3.566,3.566,0.000476,0.0,0.006563
-Russia team_defense_unit,1,3.507,3.507,0.000436,0.0,0.006563
-Paraguay team_defense_unit,1,3.485,3.485,0.000434,0.0,0.006563
-Czech Republic team_attack_unit,1,3.455,3.455,0.000626,0.0,0.007326
-Sweden team_attack_unit,1,3.434,3.434,0.00045,0.0,0.006563
-Slovakia team_attack_unit,1,3.431,3.431,0.000668,0.0,0.006563
-German DR team_midfield_unit,1,3.423,3.423,0.000483,0.0,0.007326
-Iran team_defense_unit,1,3.366,3.366,0.000502,0.0,0.006563
-Mexico team_attack_unit,1,3.356,3.356,0.00041,0.0,0.006563
-Wales team_defense_unit,1,3.322,3.322,0.000618,0.0,0.007326
-Algeria team_defense_unit,1,3.307,3.307,0.000462,0.0,0.006563
-Norway team_attack_unit,1,3.298,3.298,0.000551,0.0,0.006563
-United States team_midfield_unit,1,3.295,3.295,0.000468,0.0,0.006563
-Bosnia and Herzegovina team_midfield_unit,1,3.278,3.278,0.000596,0.0,0.006563
-Ecuador team_attack_unit,1,3.259,3.259,0.00042,0.0,0.006563
-Ghana team_midfield_unit,1,3.258,3.258,0.000563,0.0,0.006563
-South Africa team_defense_unit,1,3.258,3.258,0.000489,0.0,0.006563
-Spain team_defense_unit,1,3.256,3.256,0.000337,0.0,0.006563
-Slovenia team_defense_unit,1,3.247,3.247,0.000562,0.0,0.006563
-Peru team_attack_unit,1,3.247,3.247,0.000406,0.0,0.006563
-Jamaica team_defense_unit,1,3.226,3.226,0.000562,0.0,0.007326
-Saudi Arabia team_midfield_unit,1,3.209,3.209,0.000488,0.0,0.006563
-Czechoslovakia team_attack_unit,1,3.165,3.165,0.000435,0.0,0.006563
-Canada team_midfield_unit,1,3.156,3.156,0.000558,0.0,0.006563
-Slovenia team_attack_unit,1,3.153,3.153,0.000549,0.0,0.006563
-Germany team_attack_unit,1,3.08,3.08,0.000357,0.0,0.007326
-Nigeria team_attack_unit,1,3.065,3.065,0.000546,0.0,0.007326
-Jamaica team_midfield_unit,1,3.025,3.025,0.000534,0.0,0.007326
-Netherlands team_attack_unit,1,3.024,3.024,0.000407,0.0,0.006563
-Yugoslavia team_defense_unit,1,3.01,3.01,0.000492,0.0,0.006563
-United States team_attack_unit,1,3.01,3.01,0.000437,0.0,0.006563
-South Africa team_attack_unit,1,2.989,2.989,0.000458,0.0,0.006563
-Ukraine team_midfield_unit,1,2.925,2.925,0.000631,0.0,0.006563
-Egypt team_defense_unit,1,2.866,2.866,0.000603,0.0,0.006563
-New Zealand team_defense_unit,1,2.84,2.84,0.000536,0.0,0.006563
-Togo team_defense_unit,1,2.816,2.816,0.000597,0.0,0.006563
-Ghana team_attack_unit,1,2.798,2.798,0.000499,0.0,0.006563
-Canada team_attack_unit,1,2.794,2.794,0.000507,0.0,0.006563
-England team_defense_unit,1,2.794,2.794,0.000341,0.0,0.006563
-Bosnia and Herzegovina team_attack_unit,1,2.793,2.793,0.000524,0.0,0.006563
-North Korea team_midfield_unit,1,2.791,2.791,0.00057,0.0,0.007326
-Poland team_midfield_unit,1,2.79,2.79,0.000373,0.0,0.007326
-China team_defense_unit,1,2.742,2.742,0.000528,0.0,0.006563
-Ivory Coast team_midfield_unit,1,2.728,2.728,0.000558,0.0,0.006563
-Costa Rica team_midfield_unit,1,2.724,2.724,0.000335,0.0,0.006563
-Hungary team_midfield_unit,1,2.704,2.704,0.000324,0.0,0.007326
-Cameroon team_attack_unit,1,2.639,2.639,0.000424,0.0,0.007326
-France team_attack_unit,1,2.626,2.626,0.000311,0.0,0.006563
-Northern Ireland team_defense_unit,1,2.622,2.622,0.000442,0.0,0.006563
-Iran team_attack_unit,1,2.595,2.595,0.000411,0.0,0.006563
-Honduras team_attack_unit,1,2.59,2.59,0.000623,0.0,0.006563
-North Korea team_attack_unit,1,2.581,2.581,0.000535,0.0,0.007326
-Czech Republic team_defense_unit,1,2.567,2.567,0.000493,0.0,0.007326
-Australia team_midfield_unit,1,2.56,2.56,0.000504,0.0,0.006563
-Italy team_midfield_unit,1,2.535,2.535,0.000377,0.0,0.006563
-Romania team_defense_unit,1,2.51,2.51,0.000462,0.0,0.006563
-Portugal team_attack_unit,1,2.509,2.509,0.000389,0.0,0.006563
-Bolivia team_midfield_unit,1,2.492,2.492,0.000619,0.0,0.006563
-Haiti team_midfield_unit,1,2.491,2.491,0.000535,0.0,0.007326
-Italy team_attack_unit,1,2.46,2.46,0.000369,0.0,0.006563
-Morocco team_attack_unit,1,2.426,2.426,0.000369,0.0,0.006563
-Greece team_defense_unit,1,2.423,2.423,0.000467,0.0,0.006563
-Serbia team_midfield_unit,1,2.366,2.366,0.000326,0.0,0.006563
-DR Congo team_attack_unit,1,2.345,2.345,0.000537,0.0,0.006563
-German DR team_attack_unit,1,2.342,2.342,0.000365,0.0,0.007326
-DR Congo team_midfield_unit,1,2.333,2.333,0.000534,0.0,0.006563
-South Korea team_attack_unit,1,2.319,2.319,0.000351,0.0,0.006563
-Panama team_midfield_unit,1,2.311,2.311,0.000692,0.0,0.006563
-United Arab Emirates team_defense_unit,1,2.294,2.294,0.000542,0.0,0.007326
-Algeria team_midfield_unit,1,2.292,2.292,0.000353,0.0,0.006563
-New Zealand team_midfield_unit,1,2.287,2.287,0.000452,0.0,0.006563
-El Salvador team_defense_unit,1,2.283,2.283,0.000511,0.0,0.006563
-Australia team_defense_unit,1,2.276,2.276,0.00046,0.0,0.006563
-Cuba team_attack_unit,1,2.274,2.274,0.000492,0.0,0.006563
-China team_midfield_unit,1,2.26,2.26,0.000454,0.0,0.006563
-Nigeria team_defense_unit,1,2.25,2.25,0.000429,0.0,0.007326
-Nigeria team_midfield_unit,1,2.221,2.221,0.000425,0.0,0.007326
-Morocco team_midfield_unit,1,2.217,2.217,0.000347,0.0,0.006563
-Bulgaria team_defense_unit,1,2.2,2.2,0.000411,0.0,0.006563
-United Arab Emirates team_attack_unit,1,2.175,2.175,0.000519,0.0,0.007326
-Iceland team_attack_unit,1,2.154,2.154,0.000524,0.0,0.007326
-Japan team_midfield_unit,1,2.151,2.151,0.000368,0.0,0.007326
-Egypt team_midfield_unit,1,2.149,2.149,0.000479,0.0,0.006563
-El Salvador team_attack_unit,1,2.125,2.125,0.000484,0.0,0.006563
-Tunisia team_midfield_unit,1,2.119,2.119,0.000347,0.0,0.006563
-China team_attack_unit,1,2.102,2.102,0.00043,0.0,0.006563
-Haiti team_attack_unit,1,2.085,2.085,0.000466,0.0,0.007326
-Switzerland team_midfield_unit,1,2.078,2.078,0.000274,0.0,0.007326
-Iraq team_midfield_unit,1,2.073,2.073,0.000509,0.0,0.006563
-Kuwait team_attack_unit,1,2.065,2.065,0.000591,0.0,0.006563
-Japan team_defense_unit,1,2.06,2.06,0.000357,0.0,0.007326
-Cuba team_midfield_unit,1,2.035,2.035,0.000451,0.0,0.006563
-Paraguay team_midfield_unit,1,2.03,2.03,0.000298,0.0,0.006563
-Ivory Coast team_defense_unit,1,2.023,2.023,0.000442,0.0,0.006563
-Angola team_midfield_unit,1,2.015,2.015,0.00061,0.0,0.006563
-New Zealand team_attack_unit,1,2.011,2.011,0.000411,0.0,0.006563
-Northern Ireland team_midfield_unit,1,2.011,2.011,0.000364,0.0,0.006563
-Iceland team_defense_unit,1,1.993,1.993,0.000492,0.0,0.007326
-Slovakia team_midfield_unit,1,1.95,1.95,0.000426,0.0,0.006563
-Cameroon team_midfield_unit,1,1.934,1.934,0.00034,0.0,0.007326
-Colombia team_midfield_unit,1,1.922,1.922,0.000386,0.0,0.006563
-Israel team_attack_unit,1,1.891,1.891,0.000542,0.0,0.006563
-Austria team_defense_unit,1,1.861,1.861,0.000278,0.0,0.006563
-Australia team_attack_unit,1,1.843,1.843,0.000393,0.0,0.006563
-Yugoslavia team_attack_unit,1,1.841,1.841,0.000343,0.0,0.006563
-Ghana team_defense_unit,1,1.836,1.836,0.000365,0.0,0.006563
-Wales team_midfield_unit,1,1.813,1.813,0.000386,0.0,0.007326
-Romania team_attack_unit,1,1.813,1.813,0.000364,0.0,0.006563
-Cuba team_defense_unit,1,1.811,1.811,0.000413,0.0,0.006563
-Wales team_attack_unit,1,1.809,1.809,0.000386,0.0,0.007326
-Senegal team_midfield_unit,1,1.758,1.758,0.000343,0.0,0.006563
-Togo team_midfield_unit,1,1.738,1.738,0.00041,0.0,0.006563
-Saudi Arabia team_attack_unit,1,1.736,1.736,0.000313,0.0,0.006563
-Qatar team_defense_unit,1,1.73,1.73,0.000522,0.0,0.006563
-Iraq team_attack_unit,1,1.727,1.727,0.000442,0.0,0.006563
-Trinidad and Tobago team_midfield_unit,1,1.693,1.693,0.00049,0.0,0.006563
-Senegal team_defense_unit,1,1.667,1.667,0.000331,0.0,0.006563
-Ukraine team_attack_unit,1,1.618,1.618,0.000397,0.0,0.006563
-Bolivia team_defense_unit,1,1.567,1.567,0.000429,0.0,0.006563
-Ivory Coast team_attack_unit,1,1.549,1.549,0.000364,0.0,0.006563
-Colombia team_attack_unit,1,1.546,1.546,0.000331,0.0,0.006563
-Trinidad and Tobago team_attack_unit,1,1.54,1.54,0.000456,0.0,0.006563
-Canada team_defense_unit,1,1.536,1.536,0.000327,0.0,0.006563
-Slovenia team_midfield_unit,1,1.51,1.51,0.000319,0.0,0.006563
-Haiti team_defense_unit,1,1.495,1.495,0.000364,0.0,0.007326
-Brazil team_defense_unit,1,1.494,1.494,0.000226,0.0,0.007326
-Togo team_attack_unit,1,1.47,1.47,0.000363,0.0,0.006563
-Jamaica team_attack_unit,1,1.459,1.459,0.000313,0.0,0.007326
-Honduras team_midfield_unit,1,1.432,1.432,0.000392,0.0,0.006563
-El Salvador team_midfield_unit,1,1.425,1.425,0.00036,0.0,0.006563
-Republic of Ireland team_attack_unit,1,1.269,1.269,0.000255,0.0,0.006563
-Bosnia and Herzegovina team_defense_unit,1,1.267,1.267,0.000296,0.0,0.006563
-Ukraine team_defense_unit,1,1.253,1.253,0.000332,0.0,0.006563
-Israel team_midfield_unit,1,1.251,1.251,0.000395,0.0,0.006563
-Iraq team_defense_unit,1,1.216,1.216,0.000343,0.0,0.006563
-Indonesia team_attack_unit,1,1.207,1.207,0.000423,0.0,0.007326
-Norway team_defense_unit,1,1.192,1.192,0.000268,0.0,0.006563
-Indonesia team_defense_unit,1,1.185,1.185,0.000417,0.0,0.007326
-Greece team_midfield_unit,1,1.125,1.125,0.000275,0.0,0.006563
-Slovakia team_defense_unit,1,1.082,1.082,0.000284,0.0,0.006563
-Qatar team_midfield_unit,1,1.077,1.077,0.000366,0.0,0.006563
-Czech Republic team_midfield_unit,1,1.066,1.066,0.000267,0.0,0.007326
-Trinidad and Tobago team_defense_unit,1,0.997,0.997,0.000333,0.0,0.006563
-Israel team_defense_unit,1,0.978,0.978,0.000332,0.0,0.006563
-Iceland team_midfield_unit,1,0.926,0.926,0.000286,0.0,0.007326
-Angola team_attack_unit,1,0.919,0.919,0.000337,0.0,0.006563
-Kuwait team_defense_unit,1,0.905,0.905,0.000319,0.0,0.006563
-Honduras team_defense_unit,1,0.891,0.891,0.000285,0.0,0.006563
-Indonesia team_midfield_unit,1,0.889,0.889,0.00034,0.0,0.007326
-DR Congo team_defense_unit,1,0.863,0.863,0.000265,0.0,0.006563
-Egypt team_attack_unit,1,0.859,0.859,0.000256,0.0,0.006563
-Panama team_defense_unit,1,0.858,0.858,0.000325,0.0,0.006563
-Bulgaria team_midfield_unit,1,0.848,0.848,0.000224,0.0,0.006563
-Qatar team_attack_unit,1,0.809,0.809,0.000302,0.0,0.006563
-North Korea team_defense_unit,1,0.795,0.795,0.000239,0.0,0.007326
-United Arab Emirates team_midfield_unit,1,0.793,0.793,0.000258,0.0,0.007326
-Bolivia team_attack_unit,1,0.791,0.791,0.00027,0.0,0.006563
-Kuwait team_midfield_unit,1,0.734,0.734,0.000279,0.0,0.006563
-Angola team_defense_unit,1,0.703,0.703,0.000283,0.0,0.006563
-Panama team_attack_unit,1,0.318,0.318,0.000188,0.0,0.006563
+Switzerland team_defense_unit,1,8.396,8.396,0.000644,0.0,0.006526
+Germany team_defense_unit,1,8.364,8.364,0.000753,0.0,0.007284
+Brazil team_attack_unit,1,8.21,8.21,0.000694,0.0,0.007284
+Russia team_defense_unit,1,8.072,8.072,0.00072,0.0,0.006526
+Sweden team_attack_unit,1,8.013,8.013,0.000679,0.0,0.006526
+Brazil team_midfield_unit,1,7.952,7.952,0.000676,0.0,0.007284
+Colombia team_midfield_unit,1,7.73,7.73,0.000737,0.0,0.006526
+Denmark team_defense_unit,1,7.171,7.171,0.000678,0.0,0.007284
+England team_defense_unit,1,7.14,7.14,0.000686,0.0,0.006526
+Netherlands team_defense_unit,1,7.114,7.114,0.000607,0.0,0.006526
+Switzerland team_midfield_unit,1,7.11,7.11,0.000562,0.0,0.006526
+Mexico team_defense_unit,1,6.994,6.994,0.000697,0.0,0.006526
+Saudi Arabia team_attack_unit,1,6.878,6.878,0.000608,0.0,0.006526
+Portugal team_defense_unit,1,6.815,6.815,0.000728,0.0,0.006526
+Uruguay team_defense_unit,1,6.799,6.799,0.000704,0.0,0.006526
+Senegal team_defense_unit,1,6.694,6.694,0.000637,0.0,0.006526
+Japan team_attack_unit,1,6.623,6.623,0.000871,0.0,0.007284
+Bulgaria team_midfield_unit,1,6.51,6.51,0.000771,0.0,0.006526
+Sweden team_defense_unit,1,6.448,6.448,0.000567,0.0,0.006526
+Hungary team_attack_unit,1,6.442,6.442,0.000663,0.0,0.007284
+South Korea team_attack_unit,1,6.352,6.352,0.000737,0.0,0.006526
+Senegal team_attack_unit,1,6.255,6.255,0.000602,0.0,0.006526
+Argentina team_midfield_unit,1,6.221,6.221,0.000627,0.0,0.006526
+Spain team_defense_unit,1,6.219,6.219,0.000591,0.0,0.006526
+Austria team_attack_unit,1,6.141,6.141,0.000652,0.0,0.006526
+Australia team_defense_unit,1,6.023,6.023,0.000686,0.0,0.006526
+United States team_defense_unit,1,5.9,5.9,0.000603,0.0,0.006526
+Ukraine team_attack_unit,1,5.8,5.8,0.000703,0.0,0.006526
+United States team_attack_unit,1,5.788,5.788,0.000594,0.0,0.006526
+Russia team_midfield_unit,1,5.722,5.722,0.000541,0.0,0.006526
+Netherlands team_attack_unit,1,5.663,5.663,0.000505,0.0,0.006526
+Paraguay team_midfield_unit,1,5.659,5.659,0.000576,0.0,0.006526
+Netherlands team_midfield_unit,1,5.614,5.614,0.000502,0.0,0.006526
+Greece team_midfield_unit,1,5.576,5.576,0.000681,0.0,0.006526
+Czechoslovakia team_defense_unit,1,5.561,5.561,0.000539,0.0,0.007284
+Yugoslavia team_defense_unit,1,5.559,5.559,0.000557,0.0,0.006526
+Hungary team_defense_unit,1,5.552,5.552,0.000586,0.0,0.007284
+Czechoslovakia team_attack_unit,1,5.496,5.496,0.000534,0.0,0.007284
+Paraguay team_defense_unit,1,5.37,5.37,0.000552,0.0,0.006526
+Argentina team_defense_unit,1,5.224,5.224,0.000543,0.0,0.006526
+Cameroon team_attack_unit,1,5.211,5.211,0.000704,0.0,0.006526
+Colombia team_defense_unit,1,5.133,5.133,0.000525,0.0,0.006526
+Czechoslovakia team_midfield_unit,1,5.131,5.131,0.000505,0.0,0.007284
+Germany team_attack_unit,1,5.09,5.09,0.0005,0.0,0.007284
+Saudi Arabia team_defense_unit,1,5.012,5.012,0.000472,0.0,0.006526
+Saudi Arabia team_midfield_unit,1,5.0,5.0,0.000471,0.0,0.006526
+Northern Ireland team_attack_unit,1,4.927,4.927,0.000703,0.0,0.006526
+Yugoslavia team_midfield_unit,1,4.921,4.921,0.000506,0.0,0.006526
+Spain team_attack_unit,1,4.877,4.877,0.000487,0.0,0.006526
+Poland team_defense_unit,1,4.844,4.844,0.000616,0.0,0.007284
+Iran team_attack_unit,1,4.841,4.841,0.000623,0.0,0.007284
+Italy team_midfield_unit,1,4.833,4.833,0.000578,0.0,0.006526
+Spain team_midfield_unit,1,4.811,4.811,0.000482,0.0,0.006526
+Nigeria team_midfield_unit,1,4.706,4.706,0.000715,0.0,0.007284
+Romania team_attack_unit,1,4.588,4.588,0.000556,0.0,0.006526
+Austria team_defense_unit,1,4.521,4.521,0.000508,0.0,0.006526
+Ecuador team_attack_unit,1,4.469,4.469,0.000675,0.0,0.006526
+Romania team_midfield_unit,1,4.457,4.457,0.000543,0.0,0.006526
+Serbia team_attack_unit,1,4.434,4.434,0.000637,0.0,0.006526
+Yugoslavia team_attack_unit,1,4.431,4.431,0.000466,0.0,0.006526
+England team_attack_unit,1,4.414,4.414,0.000465,0.0,0.006526
+Chile team_attack_unit,1,4.391,4.391,0.000675,0.0,0.006526
+Denmark team_midfield_unit,1,4.317,4.317,0.000451,0.0,0.007284
+Ghana team_attack_unit,1,4.24,4.24,0.000684,0.0,0.006526
+Italy team_defense_unit,1,4.221,4.221,0.000518,0.0,0.006526
+Switzerland team_attack_unit,1,4.211,4.211,0.000376,0.0,0.006526
+Mexico team_attack_unit,1,4.116,4.116,0.000454,0.0,0.006526
+Denmark team_attack_unit,1,4.106,4.106,0.000434,0.0,0.007284
+England team_midfield_unit,1,4.082,4.082,0.000438,0.0,0.006526
+Ivory Coast team_midfield_unit,1,4.046,4.046,0.00061,0.0,0.006526
+Iran team_midfield_unit,1,4.033,4.033,0.000537,0.0,0.007284
+Poland team_midfield_unit,1,4.02,4.02,0.000529,0.0,0.007284
+Belgium team_midfield_unit,1,4.011,4.011,0.000569,0.0,0.006526
+Ukraine team_defense_unit,1,3.993,3.993,0.000518,0.0,0.006526
+France team_midfield_unit,1,3.974,3.974,0.000534,0.0,0.006526
+Tunisia team_attack_unit,1,3.949,3.949,0.000533,0.0,0.007284
+Uruguay team_attack_unit,1,3.941,3.941,0.000453,0.0,0.006526
+Peru team_defense_unit,1,3.875,3.875,0.000536,0.0,0.006526
+Norway team_midfield_unit,1,3.847,3.847,0.000764,0.0,0.006526
+Tunisia team_midfield_unit,1,3.838,3.838,0.000521,0.0,0.007284
+France team_attack_unit,1,3.832,3.832,0.000519,0.0,0.006526
+Australia team_midfield_unit,1,3.829,3.829,0.000475,0.0,0.006526
+El Salvador team_attack_unit,1,3.798,3.798,0.000692,0.0,0.006526
+German DR team_attack_unit,1,3.792,3.792,0.000718,0.0,0.006526
+Costa Rica team_defense_unit,1,3.783,3.783,0.00058,0.0,0.006526
+Scotland team_attack_unit,1,3.746,3.746,0.000647,0.0,0.007284
+Portugal team_midfield_unit,1,3.719,3.719,0.000446,0.0,0.006526
+Turkey team_midfield_unit,1,3.703,3.703,0.000616,0.0,0.006526
+Mexico team_midfield_unit,1,3.684,3.684,0.000418,0.0,0.006526
+South Africa team_midfield_unit,1,3.656,3.656,0.000574,0.0,0.006526
+Paraguay team_attack_unit,1,3.62,3.62,0.000407,0.0,0.006526
+Czech Republic team_attack_unit,1,3.596,3.596,0.000557,0.0,0.006526
+Ivory Coast team_defense_unit,1,3.547,3.547,0.000548,0.0,0.006526
+Peru team_attack_unit,1,3.446,3.446,0.000489,0.0,0.006526
+Bosnia and Herzegovina team_defense_unit,1,3.413,3.413,0.000571,0.0,0.006526
+Czech Republic team_defense_unit,1,3.403,3.403,0.000533,0.0,0.006526
+Belgium team_attack_unit,1,3.397,3.397,0.000498,0.0,0.006526
+Uruguay team_midfield_unit,1,3.38,3.38,0.000404,0.0,0.006526
+Austria team_midfield_unit,1,3.376,3.376,0.000406,0.0,0.006526
+Bosnia and Herzegovina team_attack_unit,1,3.351,3.351,0.000562,0.0,0.006526
+Slovenia team_midfield_unit,1,3.342,3.342,0.00055,0.0,0.006526
+South Africa team_defense_unit,1,3.339,3.339,0.000533,0.0,0.006526
+South Korea team_midfield_unit,1,3.331,3.331,0.000438,0.0,0.006526
+Honduras team_defense_unit,1,3.33,3.33,0.000642,0.0,0.006526
+Serbia team_midfield_unit,1,3.33,3.33,0.000505,0.0,0.006526
+Bolivia team_attack_unit,1,3.322,3.322,0.000642,0.0,0.006526
+Republic of Ireland team_midfield_unit,1,3.311,3.311,0.000662,0.0,0.006526
+Slovakia team_defense_unit,1,3.257,3.257,0.000567,0.0,0.006526
+Argentina team_attack_unit,1,3.151,3.151,0.00037,0.0,0.006526
+Tunisia team_defense_unit,1,3.123,3.123,0.000444,0.0,0.007284
+Peru team_midfield_unit,1,3.072,3.072,0.000447,0.0,0.006526
+Sweden team_midfield_unit,1,3.062,3.062,0.000325,0.0,0.006526
+Italy team_attack_unit,1,3.054,3.054,0.000405,0.0,0.006526
+Germany team_midfield_unit,1,3.039,3.039,0.000342,0.0,0.007284
+Northern Ireland team_midfield_unit,1,2.99,2.99,0.000469,0.0,0.006526
+Greece team_attack_unit,1,2.979,2.979,0.000414,0.0,0.006526
+Costa Rica team_attack_unit,1,2.961,2.961,0.000477,0.0,0.006526
+United States team_midfield_unit,1,2.958,2.958,0.000356,0.0,0.006526
+Morocco team_defense_unit,1,2.954,2.954,0.00053,0.0,0.007284
+Slovenia team_defense_unit,1,2.939,2.939,0.000496,0.0,0.006526
+Romania team_defense_unit,1,2.89,2.89,0.00039,0.0,0.006526
+Portugal team_attack_unit,1,2.879,2.879,0.000369,0.0,0.006526
+Cameroon team_midfield_unit,1,2.869,2.869,0.000436,0.0,0.006526
+Algeria team_defense_unit,1,2.844,2.844,0.000505,0.0,0.006526
+Slovakia team_attack_unit,1,2.838,2.838,0.000507,0.0,0.006526
+France team_defense_unit,1,2.805,2.805,0.000408,0.0,0.006526
+Algeria team_attack_unit,1,2.766,2.766,0.000494,0.0,0.006526
+Jamaica team_attack_unit,1,2.749,2.749,0.000623,0.0,0.006526
+Qatar team_midfield_unit,1,2.746,2.746,0.00061,0.0,0.006526
+Nigeria team_attack_unit,1,2.715,2.715,0.000458,0.0,0.007284
+Iceland team_defense_unit,1,2.689,2.689,0.000591,0.0,0.006526
+Senegal team_midfield_unit,1,2.677,2.677,0.000319,0.0,0.006526
+Morocco team_midfield_unit,1,2.674,2.674,0.00049,0.0,0.007284
+Greece team_defense_unit,1,2.667,2.667,0.000382,0.0,0.006526
+Australia team_attack_unit,1,2.663,2.663,0.000363,0.0,0.006526
+Russia team_attack_unit,1,2.58,2.58,0.000303,0.0,0.006526
+Bulgaria team_attack_unit,1,2.496,2.496,0.000361,0.0,0.006526
+North Korea team_attack_unit,1,2.475,2.475,0.000534,0.0,0.007284
+Ghana team_defense_unit,1,2.466,2.466,0.000442,0.0,0.006526
+China team_midfield_unit,1,2.435,2.435,0.000671,0.0,0.007284
+Poland team_attack_unit,1,2.434,2.434,0.000363,0.0,0.007284
+Bulgaria team_defense_unit,1,2.433,2.433,0.000355,0.0,0.006526
+Belgium team_defense_unit,1,2.42,2.42,0.000386,0.0,0.006526
+South Korea team_defense_unit,1,2.411,2.411,0.000346,0.0,0.006526
+Colombia team_attack_unit,1,2.351,2.351,0.000299,0.0,0.006526
+Wales team_midfield_unit,1,2.306,2.306,0.000543,0.0,0.007284
+Ecuador team_midfield_unit,1,2.289,2.289,0.000398,0.0,0.006526
+Ecuador team_defense_unit,1,2.248,2.248,0.000392,0.0,0.006526
+Slovenia team_attack_unit,1,2.239,2.239,0.000404,0.0,0.006526
+Chile team_defense_unit,1,2.232,2.232,0.000396,0.0,0.006526
+Egypt team_defense_unit,1,2.204,2.204,0.000507,0.0,0.006526
+Hungary team_midfield_unit,1,2.168,2.168,0.000294,0.0,0.007284
+Haiti team_attack_unit,1,2.165,2.165,0.000635,0.0,0.006526
+Turkey team_defense_unit,1,2.145,2.145,0.000402,0.0,0.006526
+Costa Rica team_midfield_unit,1,2.14,2.14,0.000375,0.0,0.006526
+Cuba team_attack_unit,1,2.127,2.127,0.000506,0.0,0.006526
+Algeria team_midfield_unit,1,2.126,2.126,0.000405,0.0,0.006526
+Iran team_defense_unit,1,2.09,2.09,0.00033,0.0,0.007284
+Trinidad and Tobago team_defense_unit,1,2.078,2.078,0.000554,0.0,0.006526
+Kuwait team_midfield_unit,1,2.078,2.078,0.000511,0.0,0.006526
+Angola team_defense_unit,1,2.063,2.063,0.000548,0.0,0.007284
+Czech Republic team_midfield_unit,1,2.061,2.061,0.000365,0.0,0.006526
+Scotland team_midfield_unit,1,2.038,2.038,0.000401,0.0,0.007284
+Morocco team_attack_unit,1,2.037,2.037,0.000399,0.0,0.007284
+Chile team_midfield_unit,1,2.035,2.035,0.00037,0.0,0.006526
+Bolivia team_defense_unit,1,1.997,1.997,0.000429,0.0,0.006526
+Canada team_attack_unit,1,1.987,1.987,0.000462,0.0,0.006526
+Turkey team_attack_unit,1,1.969,1.969,0.000378,0.0,0.006526
+Panama team_attack_unit,1,1.968,1.968,0.000566,0.0,0.006526
+Serbia team_defense_unit,1,1.911,1.911,0.000335,0.0,0.006526
+Qatar team_defense_unit,1,1.889,1.889,0.000453,0.0,0.006526
+Japan team_defense_unit,1,1.889,1.889,0.000325,0.0,0.007284
+Honduras team_attack_unit,1,1.88,1.88,0.000409,0.0,0.006526
+Cameroon team_defense_unit,1,1.869,1.869,0.000321,0.0,0.006526
+Egypt team_midfield_unit,1,1.85,1.85,0.000443,0.0,0.006526
+DR Congo team_defense_unit,1,1.843,1.843,0.000504,0.0,0.006526
+Canada team_midfield_unit,1,1.842,1.842,0.000436,0.0,0.006526
+Togo team_attack_unit,1,1.841,1.841,0.000518,0.0,0.006526
+El Salvador team_defense_unit,1,1.805,1.805,0.000385,0.0,0.006526
+North Korea team_defense_unit,1,1.794,1.794,0.000417,0.0,0.007284
+Slovakia team_midfield_unit,1,1.789,1.789,0.000359,0.0,0.006526
+Canada team_defense_unit,1,1.749,1.749,0.00042,0.0,0.006526
+Kuwait team_defense_unit,1,1.736,1.736,0.000444,0.0,0.006526
+Croatia team_midfield_unit,1,1.72,1.72,0.000436,0.0,0.006526
+Republic of Ireland team_defense_unit,1,1.719,1.719,0.000395,0.0,0.006526
+Croatia team_defense_unit,1,1.715,1.715,0.000435,0.0,0.006526
+DR Congo team_midfield_unit,1,1.713,1.713,0.000476,0.0,0.006526
+South Africa team_attack_unit,1,1.709,1.709,0.000325,0.0,0.006526
+Scotland team_defense_unit,1,1.698,1.698,0.000352,0.0,0.007284
+Cuba team_midfield_unit,1,1.695,1.695,0.000425,0.0,0.006526
+Ivory Coast team_attack_unit,1,1.66,1.66,0.000314,0.0,0.006526
+Brazil team_defense_unit,1,1.652,1.652,0.000225,0.0,0.007284
+Wales team_defense_unit,1,1.642,1.642,0.000418,0.0,0.007284
+Norway team_defense_unit,1,1.63,1.63,0.000385,0.0,0.006526
+Croatia team_attack_unit,1,1.621,1.621,0.000417,0.0,0.006526
+Iceland team_attack_unit,1,1.62,1.62,0.000399,0.0,0.006526
+North Korea team_midfield_unit,1,1.615,1.615,0.000386,0.0,0.007284
+United Arab Emirates team_defense_unit,1,1.604,1.604,0.000502,0.0,0.007284
+New Zealand team_defense_unit,1,1.582,1.582,0.00047,0.0,0.006526
+Iraq team_attack_unit,1,1.557,1.557,0.000486,0.0,0.006526
+Northern Ireland team_defense_unit,1,1.543,1.543,0.000294,0.0,0.006526
+Ghana team_midfield_unit,1,1.48,1.48,0.000308,0.0,0.006526
+Cuba team_defense_unit,1,1.47,1.47,0.000383,0.0,0.006526
+Trinidad and Tobago team_attack_unit,1,1.456,1.456,0.00042,0.0,0.006526
+Jamaica team_defense_unit,1,1.443,1.443,0.000378,0.0,0.006526
+Japan team_midfield_unit,1,1.443,1.443,0.000273,0.0,0.007284
+Ukraine team_midfield_unit,1,1.433,1.433,0.000254,0.0,0.006526
+New Zealand team_attack_unit,1,1.418,1.418,0.000432,0.0,0.006526
+Togo team_midfield_unit,1,1.383,1.383,0.000416,0.0,0.006526
+Angola team_midfield_unit,1,1.382,1.382,0.000402,0.0,0.007284
+Egypt team_attack_unit,1,1.373,1.373,0.000356,0.0,0.006526
+Kuwait team_attack_unit,1,1.37,1.37,0.000373,0.0,0.006526
+German DR team_defense_unit,1,1.328,1.328,0.000321,0.0,0.006526
+Honduras team_midfield_unit,1,1.309,1.309,0.000317,0.0,0.006526
+Bosnia and Herzegovina team_midfield_unit,1,1.307,1.307,0.000285,0.0,0.006526
+Indonesia team_defense_unit,1,1.275,1.275,0.000467,0.0,0.007284
+Iraq team_midfield_unit,1,1.271,1.271,0.000417,0.0,0.006526
+Nigeria team_defense_unit,1,1.271,1.271,0.000271,0.0,0.007284
+Wales team_attack_unit,1,1.27,1.27,0.000347,0.0,0.007284
+El Salvador team_midfield_unit,1,1.247,1.247,0.000299,0.0,0.006526
+German DR team_midfield_unit,1,1.226,1.226,0.000304,0.0,0.006526
+Bolivia team_midfield_unit,1,1.217,1.217,0.000303,0.0,0.006526
+Iceland team_midfield_unit,1,1.206,1.206,0.000324,0.0,0.006526
+Jamaica team_midfield_unit,1,1.173,1.173,0.000327,0.0,0.006526
+Israel team_defense_unit,1,1.167,1.167,0.000452,0.0,0.006526
+Republic of Ireland team_attack_unit,1,1.147,1.147,0.000299,0.0,0.006526
+Panama team_defense_unit,1,1.129,1.129,0.00037,0.0,0.006526
+United Arab Emirates team_midfield_unit,1,1.104,1.104,0.000379,0.0,0.007284
+Indonesia team_midfield_unit,1,1.041,1.041,0.000401,0.0,0.007284
+New Zealand team_midfield_unit,1,1.014,1.014,0.000339,0.0,0.006526
+Angola team_attack_unit,1,0.965,0.965,0.000313,0.0,0.007284
+Iraq team_defense_unit,1,0.958,0.958,0.00034,0.0,0.006526
+Haiti team_midfield_unit,1,0.941,0.941,0.000336,0.0,0.006526
+China team_defense_unit,1,0.924,0.924,0.000321,0.0,0.007284
+Qatar team_attack_unit,1,0.905,0.905,0.000273,0.0,0.006526
+Togo team_defense_unit,1,0.904,0.904,0.000309,0.0,0.006526
+Trinidad and Tobago team_midfield_unit,1,0.838,0.838,0.000287,0.0,0.006526
+United Arab Emirates team_attack_unit,1,0.831,0.831,0.000311,0.0,0.007284
+Israel team_attack_unit,1,0.785,0.785,0.000339,0.0,0.006526
+DR Congo team_attack_unit,1,0.689,0.689,0.000255,0.0,0.006526
+Israel team_midfield_unit,1,0.681,0.681,0.000308,0.0,0.006526
+Panama team_midfield_unit,1,0.641,0.641,0.000256,0.0,0.006526
+Haiti team_defense_unit,1,0.638,0.638,0.000263,0.0,0.006526
+Indonesia team_attack_unit,1,0.623,0.623,0.000283,0.0,0.007284
+Norway team_attack_unit,1,0.593,0.593,0.000208,0.0,0.006526
+China team_attack_unit,1,0.551,0.551,0.000235,0.0,0.007284

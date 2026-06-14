@@ -1,9 +1,9 @@
 feature_group,importance_sum,top_feature,feature_count
-sponsor_activation,0.492464,a_sponsor_spend_m,8
-team_strength,0.175457,team_a_strength,2
-business_intelligence_indices,0.129332,commercial_momentum_score,6
-media_attention,0.12327,fan_score,6
-player_influence,0.087321,a_core_market_value_m,5
-text_sentiment,0.034823,text_signal_score,2
-venue_weather,0.01929,host_advantage_a,1
-injury_availability,0.011607,a_avg_injury_risk,2
+sponsor_activation,0.303772,a_ad_exposure_m,8
+media_attention,0.143641,fan_score,6
+team_strength,0.139618,team_a_strength,2
+business_intelligence_indices,0.11758,commercial_momentum_score,6
+player_influence,0.067991,a_core_market_value_m,5
+venue_weather,0.020297,host_advantage_a,1
+injury_availability,0.017669,a_avg_availability_score,2
+text_sentiment,0.015947,news_sentiment_score,2

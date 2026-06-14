@@ -1,0 +1,5 @@
+budget_cap_m,allocated_budget_m,expected_portfolio_roi,risk_score,risk_adjusted_roi,sponsor_count
+25.0,25.0,4.1407,0.3424,3.9524,1
+50.0,50.0,4.079,0.3387,3.8928,2
+100.0,99.89,4.0337,0.3381,3.8478,2
+150.0,146.875,4.0012,0.3397,3.8144,3

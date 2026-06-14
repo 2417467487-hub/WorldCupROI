@@ -1,161 +1,161 @@
 match_id,team_a,team_b,sponsor,scenario,predicted_roi,roi_delta_vs_baseline,roi_lift_pct
-903,England,Iran,McDonald's,A_baseline,3.955,0.0,0.0
-903,England,Iran,McDonald's,B_core_player_absent,3.844,-0.111,-2.81
-903,England,Iran,McDonald's,C_sponsor_upgrade,3.756,-0.199,-5.04
-903,England,Iran,McDonald's,D_media_cooling,3.681,-0.274,-6.93
-910,Spain,Costa Rica,Budweiser,A_baseline,4.362,0.0,0.0
-910,Spain,Costa Rica,Budweiser,B_core_player_absent,4.263,-0.099,-2.26
-910,Spain,Costa Rica,Budweiser,C_sponsor_upgrade,4.13,-0.231,-5.3
-910,Spain,Costa Rica,Budweiser,D_media_cooling,4.141,-0.22,-5.05
-956,Portugal,Switzerland,Mengniu,A_baseline,3.509,0.0,0.0
-956,Portugal,Switzerland,Mengniu,B_core_player_absent,3.429,-0.08,-2.28
-956,Portugal,Switzerland,Mengniu,C_sponsor_upgrade,3.328,-0.18,-5.14
-956,Portugal,Switzerland,Mengniu,D_media_cooling,3.322,-0.187,-5.33
-833,Brazil,Germany,Adidas,A_baseline,4.427,0.0,0.0
-833,Brazil,Germany,Adidas,B_core_player_absent,4.319,-0.107,-2.42
-833,Brazil,Germany,Adidas,C_sponsor_upgrade,4.143,-0.284,-6.41
-833,Brazil,Germany,Adidas,D_media_cooling,4.2,-0.226,-5.11
-863,Belgium,Tunisia,Visa,A_baseline,4.41,0.0,0.0
-863,Belgium,Tunisia,Visa,B_core_player_absent,4.305,-0.106,-2.4
-863,Belgium,Tunisia,Visa,C_sponsor_upgrade,4.182,-0.229,-5.19
-863,Belgium,Tunisia,Visa,D_media_cooling,4.185,-0.226,-5.12
-866,England,Panama,McDonald's,A_baseline,3.805,0.0,0.0
-866,England,Panama,McDonald's,B_core_player_absent,3.701,-0.104,-2.74
-866,England,Panama,McDonald's,C_sponsor_upgrade,3.606,-0.199,-5.24
-866,England,Panama,McDonald's,D_media_cooling,3.584,-0.221,-5.8
-885,France,Argentina,Qatar Airways,A_baseline,4.265,0.0,0.0
-885,France,Argentina,Qatar Airways,B_core_player_absent,4.165,-0.099,-2.33
-885,France,Argentina,Qatar Airways,C_sponsor_upgrade,3.99,-0.275,-6.44
-885,France,Argentina,Qatar Airways,D_media_cooling,4.053,-0.212,-4.97
-964,Argentina,France,Hyundai,A_baseline,4.321,0.0,0.0
-964,Argentina,France,Hyundai,B_core_player_absent,4.209,-0.112,-2.59
-964,Argentina,France,Hyundai,C_sponsor_upgrade,4.063,-0.257,-5.95
-964,Argentina,France,Hyundai,D_media_cooling,4.104,-0.217,-5.02
-942,Costa Rica,Germany,Visa,A_baseline,3.806,0.0,0.0
-942,Costa Rica,Germany,Visa,B_core_player_absent,3.741,-0.065,-1.7
-942,Costa Rica,Germany,Visa,C_sponsor_upgrade,3.536,-0.27,-7.1
-942,Costa Rica,Germany,Visa,D_media_cooling,3.629,-0.177,-4.66
-929,Cameroon,Serbia,Coca-Cola,A_baseline,3.828,0.0,0.0
-929,Cameroon,Serbia,Coca-Cola,B_core_player_absent,3.771,-0.057,-1.49
-929,Cameroon,Serbia,Coca-Cola,C_sponsor_upgrade,3.555,-0.273,-7.14
-929,Cameroon,Serbia,Coca-Cola,D_media_cooling,3.645,-0.183,-4.78
-798,Switzerland,France,Adidas,A_baseline,4.124,0.0,0.0
-798,Switzerland,France,Adidas,B_core_player_absent,4.027,-0.097,-2.36
-798,Switzerland,France,Adidas,C_sponsor_upgrade,3.852,-0.272,-6.6
-798,Switzerland,France,Adidas,D_media_cooling,3.901,-0.223,-5.41
-900,France,Croatia,Qatar Airways,A_baseline,4.313,0.0,0.0
-900,France,Croatia,Qatar Airways,B_core_player_absent,4.215,-0.099,-2.28
-900,France,Croatia,Qatar Airways,C_sponsor_upgrade,4.039,-0.275,-6.37
-900,France,Croatia,Qatar Airways,D_media_cooling,4.103,-0.21,-4.87
-840,Portugal,Spain,Mengniu,A_baseline,3.511,0.0,0.0
-840,Portugal,Spain,Mengniu,B_core_player_absent,3.431,-0.079,-2.26
-840,Portugal,Spain,Mengniu,C_sponsor_upgrade,3.33,-0.18,-5.13
-840,Portugal,Spain,Mengniu,D_media_cooling,3.324,-0.187,-5.32
-739,Portugal,North Korea,Mengniu,A_baseline,3.554,0.0,0.0
-739,Portugal,North Korea,Mengniu,B_core_player_absent,3.472,-0.081,-2.29
-739,Portugal,North Korea,Mengniu,C_sponsor_upgrade,3.373,-0.18,-5.07
-739,Portugal,North Korea,Mengniu,D_media_cooling,3.348,-0.206,-5.79
-928,Croatia,Canada,Hisense,A_baseline,4.334,0.0,0.0
-928,Croatia,Canada,Hisense,B_core_player_absent,4.223,-0.111,-2.56
-928,Croatia,Canada,Hisense,C_sponsor_upgrade,4.096,-0.238,-5.49
-928,Croatia,Canada,Hisense,D_media_cooling,4.108,-0.226,-5.2
-908,France,Australia,Qatar Airways,A_baseline,4.401,0.0,0.0
-908,France,Australia,Qatar Airways,B_core_player_absent,4.301,-0.1,-2.28
-908,France,Australia,Qatar Airways,C_sponsor_upgrade,4.126,-0.275,-6.24
-908,France,Australia,Qatar Airways,D_media_cooling,4.174,-0.228,-5.17
-954,Brazil,South Korea,Adidas,A_baseline,4.387,0.0,0.0
-954,Brazil,South Korea,Adidas,B_core_player_absent,4.282,-0.105,-2.39
-954,Brazil,South Korea,Adidas,C_sponsor_upgrade,4.103,-0.284,-6.46
-954,Brazil,South Korea,Adidas,D_media_cooling,4.175,-0.212,-4.83
-945,Serbia,Switzerland,Vivo,A_baseline,3.307,0.0,0.0
-945,Serbia,Switzerland,Vivo,B_core_player_absent,3.231,-0.077,-2.32
-945,Serbia,Switzerland,Vivo,C_sponsor_upgrade,3.084,-0.224,-6.76
-945,Serbia,Switzerland,Vivo,D_media_cooling,3.113,-0.195,-5.89
-916,Portugal,Ghana,Mengniu,A_baseline,3.535,0.0,0.0
-916,Portugal,Ghana,Mengniu,B_core_player_absent,3.454,-0.081,-2.28
-916,Portugal,Ghana,Mengniu,C_sponsor_upgrade,3.354,-0.18,-5.1
-916,Portugal,Ghana,Mengniu,D_media_cooling,3.336,-0.199,-5.63
-931,South Korea,Ghana,McDonald's,A_baseline,3.322,0.0,0.0
-931,South Korea,Ghana,McDonald's,B_core_player_absent,3.264,-0.058,-1.74
-931,South Korea,Ghana,McDonald's,C_sponsor_upgrade,3.084,-0.238,-7.16
-931,South Korea,Ghana,McDonald's,D_media_cooling,3.122,-0.201,-6.04
-582,Germany,Saudi Arabia,Coca-Cola,A_baseline,4.652,0.0,0.0
-582,Germany,Saudi Arabia,Coca-Cola,B_core_player_absent,4.523,-0.129,-2.76
-582,Germany,Saudi Arabia,Coca-Cola,C_sponsor_upgrade,4.398,-0.254,-5.46
-582,Germany,Saudi Arabia,Coca-Cola,D_media_cooling,4.431,-0.22,-4.74
-776,Spain,Netherlands,Budweiser,A_baseline,4.251,0.0,0.0
-776,Spain,Netherlands,Budweiser,B_core_player_absent,4.154,-0.097,-2.27
-776,Spain,Netherlands,Budweiser,C_sponsor_upgrade,4.02,-0.231,-5.44
-776,Spain,Netherlands,Budweiser,D_media_cooling,4.04,-0.211,-4.96
-803,South Korea,Algeria,McDonald's,A_baseline,3.257,0.0,0.0
-803,South Korea,Algeria,McDonald's,B_core_player_absent,3.201,-0.056,-1.71
-803,South Korea,Algeria,McDonald's,C_sponsor_upgrade,3.019,-0.238,-7.3
-803,South Korea,Algeria,McDonald's,D_media_cooling,3.072,-0.185,-5.67
-312,Hungary,El Salvador,Adidas,A_baseline,4.447,0.0,0.0
-312,Hungary,El Salvador,Adidas,B_core_player_absent,4.352,-0.095,-2.15
-312,Hungary,El Salvador,Adidas,C_sponsor_upgrade,4.168,-0.279,-6.28
-312,Hungary,El Salvador,Adidas,D_media_cooling,4.162,-0.286,-6.42
-890,Belgium,Japan,Visa,A_baseline,4.311,0.0,0.0
-890,Belgium,Japan,Visa,B_core_player_absent,4.207,-0.103,-2.4
-890,Belgium,Japan,Visa,C_sponsor_upgrade,4.082,-0.229,-5.31
-890,Belgium,Japan,Visa,D_media_cooling,4.098,-0.212,-4.93
-837,Russia,Saudi Arabia,Hyundai,A_baseline,4.505,0.0,0.0
-837,Russia,Saudi Arabia,Hyundai,B_core_player_absent,4.401,-0.104,-2.31
-837,Russia,Saudi Arabia,Hyundai,C_sponsor_upgrade,4.272,-0.234,-5.18
-837,Russia,Saudi Arabia,Hyundai,D_media_cooling,4.275,-0.23,-5.11
-951,France,Poland,Qatar Airways,A_baseline,4.277,0.0,0.0
-951,France,Poland,Qatar Airways,B_core_player_absent,4.18,-0.097,-2.27
-951,France,Poland,Qatar Airways,C_sponsor_upgrade,4.002,-0.275,-6.42
-951,France,Poland,Qatar Airways,D_media_cooling,4.074,-0.202,-4.73
-949,Netherlands,United States,Hisense,A_baseline,4.171,0.0,0.0
-949,Netherlands,United States,Hisense,B_core_player_absent,4.084,-0.088,-2.1
-949,Netherlands,United States,Hisense,C_sponsor_upgrade,3.88,-0.291,-6.97
-949,Netherlands,United States,Hisense,D_media_cooling,3.979,-0.193,-4.62
-958,Netherlands,Argentina,Hisense,A_baseline,4.157,0.0,0.0
-958,Netherlands,Argentina,Hisense,B_core_player_absent,4.07,-0.088,-2.11
-958,Netherlands,Argentina,Hisense,C_sponsor_upgrade,3.867,-0.291,-7.0
-958,Netherlands,Argentina,Hisense,D_media_cooling,3.963,-0.194,-4.67
-917,Qatar,Senegal,McDonald's,A_baseline,3.093,0.0,0.0
-917,Qatar,Senegal,McDonald's,B_core_player_absent,3.064,-0.03,-0.96
-917,Qatar,Senegal,McDonald's,C_sponsor_upgrade,2.884,-0.209,-6.76
-917,Qatar,Senegal,McDonald's,D_media_cooling,2.904,-0.189,-6.12
-621,Costa Rica,Brazil,Visa,A_baseline,3.784,0.0,0.0
-621,Costa Rica,Brazil,Visa,B_core_player_absent,3.719,-0.065,-1.71
-621,Costa Rica,Brazil,Visa,C_sponsor_upgrade,3.513,-0.27,-7.14
-621,Costa Rica,Brazil,Visa,D_media_cooling,3.601,-0.183,-4.83
-806,Brazil,Cameroon,Adidas,A_baseline,4.379,0.0,0.0
-806,Brazil,Cameroon,Adidas,B_core_player_absent,4.277,-0.101,-2.31
-806,Brazil,Cameroon,Adidas,C_sponsor_upgrade,4.095,-0.284,-6.48
-806,Brazil,Cameroon,Adidas,D_media_cooling,4.193,-0.186,-4.24
-812,Japan,Colombia,Adidas,A_baseline,3.914,0.0,0.0
-812,Japan,Colombia,Adidas,B_core_player_absent,3.844,-0.07,-1.78
-812,Japan,Colombia,Adidas,C_sponsor_upgrade,3.65,-0.264,-6.75
-812,Japan,Colombia,Adidas,D_media_cooling,3.729,-0.185,-4.72
-816,Nigeria,Argentina,Coca-Cola,A_baseline,3.805,0.0,0.0
-816,Nigeria,Argentina,Coca-Cola,B_core_player_absent,3.761,-0.044,-1.15
-816,Nigeria,Argentina,Coca-Cola,C_sponsor_upgrade,3.575,-0.229,-6.02
-816,Nigeria,Argentina,Coca-Cola,D_media_cooling,3.641,-0.164,-4.3
-790,Australia,Netherlands,Hyundai,A_baseline,3.746,0.0,0.0
-790,Australia,Netherlands,Hyundai,B_core_player_absent,3.697,-0.049,-1.31
-790,Australia,Netherlands,Hyundai,C_sponsor_upgrade,3.496,-0.25,-6.68
-790,Australia,Netherlands,Hyundai,D_media_cooling,3.562,-0.185,-4.93
-645,Germany,Costa Rica,Coca-Cola,A_baseline,4.642,0.0,0.0
-645,Germany,Costa Rica,Coca-Cola,B_core_player_absent,4.516,-0.126,-2.72
-645,Germany,Costa Rica,Coca-Cola,C_sponsor_upgrade,4.388,-0.254,-5.47
-645,Germany,Costa Rica,Coca-Cola,D_media_cooling,4.436,-0.206,-4.44
-665,Argentina,Serbia,Hyundai,A_baseline,4.33,0.0,0.0
-665,Argentina,Serbia,Hyundai,B_core_player_absent,4.22,-0.11,-2.54
-665,Argentina,Serbia,Hyundai,C_sponsor_upgrade,4.073,-0.257,-5.94
-665,Argentina,Serbia,Hyundai,D_media_cooling,4.122,-0.208,-4.8
-871,Spain,Morocco,Budweiser,A_baseline,4.326,0.0,0.0
-871,Spain,Morocco,Budweiser,B_core_player_absent,4.23,-0.096,-2.22
-871,Spain,Morocco,Budweiser,C_sponsor_upgrade,4.095,-0.231,-5.34
-871,Spain,Morocco,Budweiser,D_media_cooling,4.114,-0.213,-4.92
-853,Russia,Egypt,Hyundai,A_baseline,4.415,0.0,0.0
-853,Russia,Egypt,Hyundai,B_core_player_absent,4.316,-0.1,-2.25
-853,Russia,Egypt,Hyundai,C_sponsor_upgrade,4.182,-0.234,-5.29
-853,Russia,Egypt,Hyundai,D_media_cooling,4.221,-0.194,-4.39
-896,Russia,Croatia,Hyundai,A_baseline,4.446,0.0,0.0
-896,Russia,Croatia,Hyundai,B_core_player_absent,4.343,-0.103,-2.31
-896,Russia,Croatia,Hyundai,C_sponsor_upgrade,4.212,-0.234,-5.25
-896,Russia,Croatia,Hyundai,D_media_cooling,4.226,-0.22,-4.95
+903,England,Iran,McDonald's,A_baseline,3.618,0.0,0.0
+903,England,Iran,McDonald's,B_core_player_absent,3.464,-0.153,-4.23
+903,England,Iran,McDonald's,C_sponsor_upgrade,3.49,-0.127,-3.52
+903,England,Iran,McDonald's,D_media_cooling,3.376,-0.241,-6.67
+910,Spain,Costa Rica,Budweiser,A_baseline,4.136,0.0,0.0
+910,Spain,Costa Rica,Budweiser,B_core_player_absent,3.962,-0.173,-4.19
+910,Spain,Costa Rica,Budweiser,C_sponsor_upgrade,3.992,-0.144,-3.47
+910,Spain,Costa Rica,Budweiser,D_media_cooling,3.859,-0.277,-6.7
+956,Portugal,Switzerland,Mengniu,A_baseline,3.556,0.0,0.0
+956,Portugal,Switzerland,Mengniu,B_core_player_absent,3.405,-0.151,-4.25
+956,Portugal,Switzerland,Mengniu,C_sponsor_upgrade,3.437,-0.119,-3.35
+956,Portugal,Switzerland,Mengniu,D_media_cooling,3.322,-0.234,-6.57
+833,Brazil,Germany,Adidas,A_baseline,4.541,0.0,0.0
+833,Brazil,Germany,Adidas,B_core_player_absent,4.344,-0.197,-4.33
+833,Brazil,Germany,Adidas,C_sponsor_upgrade,4.411,-0.13,-2.85
+833,Brazil,Germany,Adidas,D_media_cooling,4.266,-0.275,-6.06
+866,England,Panama,McDonald's,A_baseline,3.662,0.0,0.0
+866,England,Panama,McDonald's,B_core_player_absent,3.51,-0.152,-4.16
+866,England,Panama,McDonald's,C_sponsor_upgrade,3.535,-0.127,-3.48
+866,England,Panama,McDonald's,D_media_cooling,3.42,-0.242,-6.61
+885,France,Argentina,Qatar Airways,A_baseline,4.104,0.0,0.0
+885,France,Argentina,Qatar Airways,B_core_player_absent,3.926,-0.178,-4.33
+885,France,Argentina,Qatar Airways,C_sponsor_upgrade,3.968,-0.136,-3.31
+885,France,Argentina,Qatar Airways,D_media_cooling,3.856,-0.248,-6.03
+863,Belgium,Tunisia,Visa,A_baseline,3.948,0.0,0.0
+863,Belgium,Tunisia,Visa,B_core_player_absent,3.831,-0.117,-2.96
+863,Belgium,Tunisia,Visa,C_sponsor_upgrade,3.811,-0.136,-3.46
+863,Belgium,Tunisia,Visa,D_media_cooling,3.723,-0.225,-5.7
+964,Argentina,France,Hyundai,A_baseline,4.081,0.0,0.0
+964,Argentina,France,Hyundai,B_core_player_absent,3.905,-0.175,-4.3
+964,Argentina,France,Hyundai,C_sponsor_upgrade,3.903,-0.177,-4.34
+964,Argentina,France,Hyundai,D_media_cooling,3.831,-0.249,-6.11
+942,Costa Rica,Germany,Visa,A_baseline,3.633,0.0,0.0
+942,Costa Rica,Germany,Visa,B_core_player_absent,3.507,-0.127,-3.48
+942,Costa Rica,Germany,Visa,C_sponsor_upgrade,3.494,-0.14,-3.85
+942,Costa Rica,Germany,Visa,D_media_cooling,3.418,-0.216,-5.94
+929,Cameroon,Serbia,Hyundai,A_baseline,3.898,0.0,0.0
+929,Cameroon,Serbia,Hyundai,B_core_player_absent,3.766,-0.131,-3.37
+929,Cameroon,Serbia,Hyundai,C_sponsor_upgrade,3.744,-0.154,-3.96
+929,Cameroon,Serbia,Hyundai,D_media_cooling,3.645,-0.252,-6.48
+798,Switzerland,France,Visa,A_baseline,3.965,0.0,0.0
+798,Switzerland,France,Visa,B_core_player_absent,3.8,-0.165,-4.17
+798,Switzerland,France,Visa,C_sponsor_upgrade,3.806,-0.16,-4.03
+798,Switzerland,France,Visa,D_media_cooling,3.705,-0.26,-6.56
+968,United States,Paraguay,Mengniu,A_baseline,3.464,0.0,0.0
+968,United States,Paraguay,Mengniu,B_core_player_absent,3.325,-0.139,-4.02
+968,United States,Paraguay,Mengniu,C_sponsor_upgrade,3.365,-0.1,-2.87
+968,United States,Paraguay,Mengniu,D_media_cooling,3.247,-0.218,-6.28
+900,France,Croatia,Qatar Airways,A_baseline,4.245,0.0,0.0
+900,France,Croatia,Qatar Airways,B_core_player_absent,4.059,-0.186,-4.38
+900,France,Croatia,Qatar Airways,C_sponsor_upgrade,4.109,-0.136,-3.2
+900,France,Croatia,Qatar Airways,D_media_cooling,3.95,-0.295,-6.96
+840,Portugal,Spain,Mengniu,A_baseline,3.59,0.0,0.0
+840,Portugal,Spain,Mengniu,B_core_player_absent,3.437,-0.153,-4.27
+840,Portugal,Spain,Mengniu,C_sponsor_upgrade,3.471,-0.119,-3.32
+840,Portugal,Spain,Mengniu,D_media_cooling,3.34,-0.25,-6.97
+739,Portugal,North Korea,Mengniu,A_baseline,3.642,0.0,0.0
+739,Portugal,North Korea,Mengniu,B_core_player_absent,3.491,-0.152,-4.16
+739,Portugal,North Korea,Mengniu,C_sponsor_upgrade,3.523,-0.119,-3.27
+739,Portugal,North Korea,Mengniu,D_media_cooling,3.4,-0.242,-6.65
+954,Brazil,South Korea,Adidas,A_baseline,4.437,0.0,0.0
+954,Brazil,South Korea,Adidas,B_core_player_absent,4.246,-0.191,-4.3
+954,Brazil,South Korea,Adidas,C_sponsor_upgrade,4.307,-0.13,-2.92
+954,Brazil,South Korea,Adidas,D_media_cooling,4.19,-0.247,-5.57
+908,France,Australia,Qatar Airways,A_baseline,4.033,0.0,0.0
+908,France,Australia,Qatar Airways,B_core_player_absent,3.861,-0.172,-4.27
+908,France,Australia,Qatar Airways,C_sponsor_upgrade,3.897,-0.136,-3.37
+908,France,Australia,Qatar Airways,D_media_cooling,3.811,-0.222,-5.51
+916,Portugal,Ghana,Mengniu,A_baseline,3.639,0.0,0.0
+916,Portugal,Ghana,Mengniu,B_core_player_absent,3.488,-0.152,-4.17
+916,Portugal,Ghana,Mengniu,C_sponsor_upgrade,3.52,-0.119,-3.27
+916,Portugal,Ghana,Mengniu,D_media_cooling,3.396,-0.244,-6.69
+931,South Korea,Ghana,Hisense,A_baseline,3.751,0.0,0.0
+931,South Korea,Ghana,Hisense,B_core_player_absent,3.614,-0.137,-3.64
+931,South Korea,Ghana,Hisense,C_sponsor_upgrade,3.612,-0.139,-3.71
+931,South Korea,Ghana,Hisense,D_media_cooling,3.489,-0.262,-6.99
+945,Serbia,Switzerland,Vivo,A_baseline,3.332,0.0,0.0
+945,Serbia,Switzerland,Vivo,B_core_player_absent,3.216,-0.115,-3.46
+945,Serbia,Switzerland,Vivo,C_sponsor_upgrade,3.22,-0.111,-3.34
+945,Serbia,Switzerland,Vivo,D_media_cooling,3.113,-0.219,-6.56
+928,Croatia,Canada,Hisense,A_baseline,3.576,0.0,0.0
+928,Croatia,Canada,Hisense,B_core_player_absent,3.471,-0.105,-2.93
+928,Croatia,Canada,Hisense,C_sponsor_upgrade,3.417,-0.159,-4.44
+928,Croatia,Canada,Hisense,D_media_cooling,3.396,-0.18,-5.04
+582,Germany,Saudi Arabia,Coca-Cola,A_baseline,4.041,0.0,0.0
+582,Germany,Saudi Arabia,Coca-Cola,B_core_player_absent,3.875,-0.166,-4.12
+582,Germany,Saudi Arabia,Coca-Cola,C_sponsor_upgrade,3.9,-0.141,-3.5
+582,Germany,Saudi Arabia,Coca-Cola,D_media_cooling,3.819,-0.222,-5.49
+776,Spain,Netherlands,Budweiser,A_baseline,3.987,0.0,0.0
+776,Spain,Netherlands,Budweiser,B_core_player_absent,3.822,-0.165,-4.13
+776,Spain,Netherlands,Budweiser,C_sponsor_upgrade,3.843,-0.144,-3.6
+776,Spain,Netherlands,Budweiser,D_media_cooling,3.748,-0.238,-5.98
+803,South Korea,Algeria,Hisense,A_baseline,3.771,0.0,0.0
+803,South Korea,Algeria,Hisense,B_core_player_absent,3.634,-0.137,-3.63
+803,South Korea,Algeria,Hisense,C_sponsor_upgrade,3.631,-0.139,-3.69
+803,South Korea,Algeria,Hisense,D_media_cooling,3.507,-0.264,-7.0
+312,Hungary,El Salvador,Adidas,A_baseline,4.303,0.0,0.0
+312,Hungary,El Salvador,Adidas,B_core_player_absent,4.129,-0.174,-4.04
+312,Hungary,El Salvador,Adidas,C_sponsor_upgrade,4.168,-0.135,-3.13
+312,Hungary,El Salvador,Adidas,D_media_cooling,4.05,-0.252,-5.86
+837,Russia,Saudi Arabia,Hyundai,A_baseline,4.278,0.0,0.0
+837,Russia,Saudi Arabia,Hyundai,B_core_player_absent,4.104,-0.174,-4.07
+837,Russia,Saudi Arabia,Hyundai,C_sponsor_upgrade,4.139,-0.14,-3.26
+837,Russia,Saudi Arabia,Hyundai,D_media_cooling,4.01,-0.269,-6.28
+890,Belgium,Japan,Visa,A_baseline,3.832,0.0,0.0
+890,Belgium,Japan,Visa,B_core_player_absent,3.722,-0.111,-2.88
+890,Belgium,Japan,Visa,C_sponsor_upgrade,3.696,-0.136,-3.56
+890,Belgium,Japan,Visa,D_media_cooling,3.635,-0.197,-5.15
+949,Netherlands,United States,Hisense,A_baseline,4.083,0.0,0.0
+949,Netherlands,United States,Hisense,B_core_player_absent,3.901,-0.182,-4.45
+949,Netherlands,United States,Hisense,C_sponsor_upgrade,3.942,-0.141,-3.45
+949,Netherlands,United States,Hisense,D_media_cooling,3.833,-0.25,-6.12
+958,Netherlands,Argentina,Hisense,A_baseline,4.004,0.0,0.0
+958,Netherlands,Argentina,Hisense,B_core_player_absent,3.824,-0.18,-4.49
+958,Netherlands,Argentina,Hisense,C_sponsor_upgrade,3.863,-0.141,-3.52
+958,Netherlands,Argentina,Hisense,D_media_cooling,3.765,-0.24,-5.98
+951,France,Poland,Qatar Airways,A_baseline,4.079,0.0,0.0
+951,France,Poland,Qatar Airways,B_core_player_absent,3.901,-0.177,-4.35
+951,France,Poland,Qatar Airways,C_sponsor_upgrade,3.943,-0.136,-3.33
+951,France,Poland,Qatar Airways,D_media_cooling,3.826,-0.253,-6.2
+917,Qatar,Senegal,Vivo,A_baseline,3.049,0.0,0.0
+917,Qatar,Senegal,Vivo,B_core_player_absent,2.963,-0.086,-2.83
+917,Qatar,Senegal,Vivo,C_sponsor_upgrade,2.944,-0.105,-3.45
+917,Qatar,Senegal,Vivo,D_media_cooling,2.837,-0.211,-6.93
+621,Costa Rica,Brazil,Visa,A_baseline,3.688,0.0,0.0
+621,Costa Rica,Brazil,Visa,B_core_player_absent,3.561,-0.127,-3.43
+621,Costa Rica,Brazil,Visa,C_sponsor_upgrade,3.548,-0.14,-3.79
+621,Costa Rica,Brazil,Visa,D_media_cooling,3.465,-0.223,-6.04
+806,Brazil,Cameroon,Adidas,A_baseline,4.45,0.0,0.0
+806,Brazil,Cameroon,Adidas,B_core_player_absent,4.264,-0.187,-4.19
+806,Brazil,Cameroon,Adidas,C_sponsor_upgrade,4.321,-0.13,-2.91
+806,Brazil,Cameroon,Adidas,D_media_cooling,4.221,-0.229,-5.15
+790,Australia,Netherlands,Mengniu,A_baseline,3.211,0.0,0.0
+790,Australia,Netherlands,Mengniu,B_core_player_absent,3.088,-0.123,-3.83
+790,Australia,Netherlands,Mengniu,C_sponsor_upgrade,3.096,-0.115,-3.59
+790,Australia,Netherlands,Mengniu,D_media_cooling,2.995,-0.216,-6.73
+816,Nigeria,Argentina,Coca-Cola,A_baseline,3.547,0.0,0.0
+816,Nigeria,Argentina,Coca-Cola,B_core_player_absent,3.416,-0.131,-3.69
+816,Nigeria,Argentina,Coca-Cola,C_sponsor_upgrade,3.409,-0.137,-3.87
+816,Nigeria,Argentina,Coca-Cola,D_media_cooling,3.337,-0.209,-5.9
+812,Japan,Colombia,Adidas,A_baseline,3.995,0.0,0.0
+812,Japan,Colombia,Adidas,B_core_player_absent,3.87,-0.125,-3.13
+812,Japan,Colombia,Adidas,C_sponsor_upgrade,3.866,-0.129,-3.23
+812,Japan,Colombia,Adidas,D_media_cooling,3.744,-0.251,-6.27
+966,South Korea,Czech Republic,Hisense,A_baseline,3.563,0.0,0.0
+966,South Korea,Czech Republic,Hisense,B_core_player_absent,3.438,-0.125,-3.51
+966,South Korea,Czech Republic,Hisense,C_sponsor_upgrade,3.423,-0.139,-3.91
+966,South Korea,Czech Republic,Hisense,D_media_cooling,3.359,-0.204,-5.72
+665,Argentina,Serbia,Hyundai,A_baseline,4.045,0.0,0.0
+665,Argentina,Serbia,Hyundai,B_core_player_absent,3.876,-0.17,-4.19
+665,Argentina,Serbia,Hyundai,C_sponsor_upgrade,3.868,-0.177,-4.38
+665,Argentina,Serbia,Hyundai,D_media_cooling,3.819,-0.226,-5.58
+645,Germany,Costa Rica,Coca-Cola,A_baseline,4.064,0.0,0.0
+645,Germany,Costa Rica,Coca-Cola,B_core_player_absent,3.899,-0.165,-4.05
+645,Germany,Costa Rica,Coca-Cola,C_sponsor_upgrade,3.922,-0.141,-3.48
+645,Germany,Costa Rica,Coca-Cola,D_media_cooling,3.847,-0.216,-5.32
+871,Spain,Morocco,Budweiser,A_baseline,3.987,0.0,0.0
+871,Spain,Morocco,Budweiser,B_core_player_absent,3.824,-0.163,-4.09
+871,Spain,Morocco,Budweiser,C_sponsor_upgrade,3.843,-0.144,-3.6
+871,Spain,Morocco,Budweiser,D_media_cooling,3.753,-0.234,-5.86

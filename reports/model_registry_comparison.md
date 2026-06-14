@@ -6,13 +6,13 @@ The platform keeps dependency-free fallback models runnable while documenting op
 
 | task | model | status | primary_metric | score | secondary_metric | secondary_score | notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| match_outcome | Centroid classifier | trained | accuracy | 0.5566 | log_loss | 0.978 | dependency-free baseline |
-| sponsor_roi | Ridge regression | trained | r2 | 0.8779 | mae | 0.1184 | dependency-free baseline |
-| match_outcome | Logistic Regression | trained | accuracy | 0.5472 | package | sklearn | optional benchmark |
-| match_outcome | Random Forest | trained | accuracy | 0.5236 | package | sklearn | optional benchmark |
-| match_outcome | MLP | trained | accuracy | 0.5425 | package | sklearn | optional benchmark |
-| sponsor_roi | Random Forest | trained | r2 | 0.8729 | mae | 0.1216 | optional benchmark |
-| sponsor_roi | MLP | trained | r2 | -1.2917 | mae | 0.4781 | optional benchmark |
+| match_outcome | Centroid classifier | trained | accuracy | 0.5023 | log_loss | 1.0097 | dependency-free baseline |
+| sponsor_roi | Ridge regression | trained | r2 | 0.8478 | mae | 0.1165 | dependency-free baseline |
+| match_outcome | Logistic Regression | trained | accuracy | 0.5399 | package | sklearn | optional benchmark |
+| match_outcome | Random Forest | trained | accuracy | 0.5211 | package | sklearn | optional benchmark |
+| match_outcome | MLP | trained | accuracy | 0.4836 | package | sklearn | optional benchmark |
+| sponsor_roi | Random Forest | trained | r2 | 0.8186 | mae | 0.1249 | optional benchmark |
+| sponsor_roi | MLP | trained | r2 | -3.7307 | mae | 0.6281 | optional benchmark |
 | tabular classification + regression | XGBoost | available |  |  |  |  | install `xgboost` to enable full benchmark |
 | tabular classification + regression | LightGBM | available |  |  |  |  | install `lightgbm` to enable full benchmark |
 | categorical tabular modeling | CatBoost | available |  |  |  |  | install `catboost` to enable full benchmark |
