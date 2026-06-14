@@ -1,8 +1,0 @@
-<svg width="1280" height="560" viewBox="0 0 1280 560" xmlns="http://www.w3.org/2000/svg">
-<rect width="1280" height="560" fill="#ffffff"/>
-<text x="64" y="72" font-family="Arial" font-size="34" font-weight="700" fill="#111827">Temporal ROI Dynamics</text>
-<text x="64" y="106" font-family="Arial" font-size="17" fill="#4b5563">Stage-aware ROI movement across tournament phases.</text>
-<rect x="120" y="150" width="980" height="280" fill="#ffffff" stroke="#d1d5db"/>
-<circle cx="120.0" cy="430.0" r="6" fill="#0072B2"/>
-<text x="120" y="482" font-family="Arial" font-size="15" fill="#4b5563">Upgrade path: time-aware GNN or temporal transformer over match-stage sequences.</text>
-</svg>

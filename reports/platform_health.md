@@ -10,10 +10,10 @@
 | panel_dataset | True | 381.11 | 1928 | `data\panel_dataset.csv` |
 | scenario_recommendations | True | 161.9 | 600 | `data\scenario_recommendations.csv` |
 | roi_uncertainty | True | 95.11 | 964 | `data\roi_uncertainty.csv` |
-| static_dashboard | True | 1034.98 |  | `dashboard\panel_dashboard.html` |
-| streamlit_app | True | 25.64 |  | `dashboard\app.py` |
+| static_dashboard | True | 929.49 |  | `dashboard\panel_dashboard.html` |
+| streamlit_app | True | 19.85 |  | `dashboard\app.py` |
 | readme_hero | True | 95.84 |  | `assets\images\readme_hero.png` |
-| demo_video | True | 600.48 |  | `assets\videos\worldcuproi_demo.mp4` |
+| demo_video | True | 598.49 |  | `assets\videos\worldcuproi_demo.mp4` |
 | algorithm_strategy | True | 2.21 |  | `reports\algorithm_strategy.md` |
 | roi_model_card | True | 1.36 |  | `reports\sponsor_roi_model_card.json` |
 | match_model_card | True | 1.0 |  | `reports\match_outcome_model_card.json` |

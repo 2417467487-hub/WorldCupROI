@@ -25,10 +25,6 @@ def ensure_data() -> None:
         from user_behavior_analysis import main as run_user
 
         run_user()
-    if not (REPORT_DIR / "deep_analysis_landing_report.md").exists():
-        from deep_analysis_extensions import main as run_deep_analysis
-
-        run_deep_analysis()
 
 
 def top_records(df: pd.DataFrame, sort_col: str, n: int = 120) -> list[dict]:
@@ -42,12 +38,6 @@ def build_dashboard() -> str:
     personas = pd.read_csv(REPORT_DIR / "user_personas.csv") if (REPORT_DIR / "user_personas.csv").exists() else pd.DataFrame()
     sponsor_influence = pd.read_csv(REPORT_DIR / "sponsor_influence_scores.csv") if (REPORT_DIR / "sponsor_influence_scores.csv").exists() else pd.DataFrame()
     uncertainty = pd.read_csv(DATA_DIR / "roi_uncertainty.csv") if (DATA_DIR / "roi_uncertainty.csv").exists() else pd.DataFrame()
-    future_roi = pd.read_csv(REPORT_DIR / "future_roi_forecast.csv") if (REPORT_DIR / "future_roi_forecast.csv").exists() else pd.DataFrame()
-    sentiment_events = pd.read_csv(REPORT_DIR / "sentiment_event_roi_impact.csv") if (REPORT_DIR / "sentiment_event_roi_impact.csv").exists() else pd.DataFrame()
-    resource_mix = pd.read_csv(REPORT_DIR / "resource_optimization_top_budget_mix.csv") if (REPORT_DIR / "resource_optimization_top_budget_mix.csv").exists() else pd.DataFrame()
-    graph_attention = pd.read_csv(REPORT_DIR / "graph_attention_roi_contributions.csv") if (REPORT_DIR / "graph_attention_roi_contributions.csv").exists() else pd.DataFrame()
-    extreme = pd.read_csv(REPORT_DIR / "extreme_scenario_roi_risk.csv") if (REPORT_DIR / "extreme_scenario_roi_risk.csv").exists() else pd.DataFrame()
-    commercial = pd.read_csv(DATA_DIR / "commercial_decision_metrics.csv") if (DATA_DIR / "commercial_decision_metrics.csv").exists() else pd.DataFrame()
 
     payload = {
         "panel": top_records(panel, "predicted_roi", 700),
@@ -56,12 +46,6 @@ def build_dashboard() -> str:
         "personas": top_records(personas, "avg_conversion_proxy", 80) if not personas.empty else [],
         "sponsorInfluence": top_records(sponsor_influence, "sponsor_influence", 80) if not sponsor_influence.empty else [],
         "uncertainty": top_records(uncertainty, "roi_mean", 160) if not uncertainty.empty else [],
-        "futureRoi": future_roi.round(4).to_dict(orient="records"),
-        "sentimentEvents": sentiment_events.round(4).to_dict(orient="records"),
-        "resourceMix": top_records(resource_mix, "risk_adjusted_roi", 80) if not resource_mix.empty else [],
-        "graphAttention": top_records(graph_attention, "attention_roi_contribution", 80) if not graph_attention.empty else [],
-        "extreme": top_records(extreme, "scenario_roi", 160) if not extreme.empty else [],
-        "commercial": top_records(commercial, "commercial_decision_score", 160) if not commercial.empty else [],
         "teams": sorted(panel["team"].dropna().unique().tolist()),
         "sponsors": sorted(panel["sponsor"].dropna().unique().tolist()),
     }
@@ -342,25 +326,16 @@ def build_dashboard() -> str:
       <div class="grid">
         <div class="card"><h2>ROI Confidence Interval</h2><p class="note">Conformal-style interval bands around sponsor ROI estimates.</p><div id="intervalPlot" class="plot"></div></div>
         <div class="card"><h2>Top Predicted ROI</h2><p class="note">Highest ROI opportunities after current filters.</p><div id="topRoiPlot" class="plot"></div></div>
-        <div class="card"><h2>Future Event ROI Trend</h2><p class="note">Planning forecast across upcoming World Cup cycles.</p><div id="futurePlot" class="plot"></div></div>
-        <div class="card"><h2>Sentiment Event Impact</h2><p class="note">Attention and sentiment shocks mapped to sponsor ROI movement.</p><div id="sentimentPlot" class="plot"></div></div>
       </div>
     </section>
     <section class="view" id="simulate">
       <div class="grid">
         <div class="card"><h2>Scenario ROI Lift</h2><p class="note">Distribution of ROI lift across sponsor strategy scenarios.</p><div id="scenarioPlot" class="plot"></div></div>
         <div class="card"><h2>Risk vs ROI</h2><p class="note">Trade-off between scenario risk score and expected sponsor ROI.</p><div id="riskPlot" class="plot"></div></div>
-        <div class="card"><h2>Budget x Media Optimization</h2><p class="note">Risk-adjusted ROI under sponsor budget and media multiplier choices.</p><div id="budgetPlot" class="plot"></div></div>
-        <div class="card"><h2>Extreme Scenario Stress Test</h2><p class="note">Key player injury, sentiment crisis, policy change, and viral upside intervals.</p><div id="extremePlot" class="plot"></div></div>
       </div>
     </section>
     <section class="view" id="recommend">
       <div class="card"><h2>Recommended Sponsor Actions</h2><p class="note">Ranked strategy actions with confidence intervals and risk labels.</p><table id="recommendTable"></table><div class="takeaway">Business takeaway: prioritize high-lift strategies only when interval width and risk score stay within a reviewable range.</div></div>
-      <div class="grid">
-        <div class="card"><h2>Integrated Commercial Decision Score</h2><p class="note">ROI, media value, fan conversion, social spread, and brand influence combined.</p><div id="commercialPlot" class="plot"></div></div>
-        <div class="card"><h2>Graph Attention ROI Contribution</h2><p class="note">Interpretable graph contribution from sponsor-team-player relationships.</p><div id="attentionPlot" class="plot"></div></div>
-      </div>
-      <div class="card"><h2>Resource Allocation Recommendations</h2><p class="note">Top budget and media activation combinations ranked by risk-adjusted ROI.</p><table id="resourceTable"></table><div class="takeaway">Business takeaway: scale spend only where media sensitivity, commercial score, and downside risk agree.</div></div>
     </section>
   </main>
   <script>
@@ -420,22 +395,11 @@ def build_dashboard() -> str:
       Plotly.react('intervalPlot',[{{x:u.map(d=>d.match_id),y:u.map(d=>d.roi_ci_high),mode:'lines',line:{{width:0}},showlegend:false,hoverinfo:'skip'}},{{x:u.map(d=>d.match_id),y:u.map(d=>d.roi_ci_low),mode:'lines',fill:'tonexty',fillcolor:'rgba(0,114,178,.18)',line:{{width:0}},name:'ROI interval'}},{{x:u.map(d=>d.match_id),y:u.map(d=>d.roi_mean),mode:'lines+markers',name:'ROI mean',line:{{color:'#0072B2',width:2.4}},marker:{{color:'#E69F00',size:6}}}}],academicLayout('ROI Prediction Interval / Conformal Signal','Match ID','Sponsor ROI'),config);
       const top=[...rows].sort((a,b)=>b.predicted_roi-a.predicted_roi).slice(0,15);
       Plotly.react('topRoiPlot',[{{x:top.map(d=>d.predicted_roi),y:top.map(d=>d.team),type:'bar',orientation:'h',name:'Predicted ROI',marker:{{color:'#E69F00',line:{{color:'#ffffff',width:1}}}}}}],academicLayout('Top Predicted ROI','Predicted sponsor ROI','Team'),config);
-      Plotly.react('futurePlot',[{{x:source.futureRoi.map(d=>d.cycle),y:source.futureRoi.map(d=>d.forecast_roi),mode:'lines+markers',name:'Forecast ROI',line:{{color:'#009E73',width:3}},marker:{{size:10,color:'#E69F00',line:{{color:'#ffffff',width:1}}}}}}],academicLayout('Future World Cup Cycle ROI Forecast','Cycle','Forecast sponsor ROI'),config);
-      Plotly.react('sentimentPlot',[{{x:source.sentimentEvents.map(d=>d.event_type),y:source.sentimentEvents.map(d=>d.avg_roi_delta),type:'bar',name:'Avg ROI delta',marker:{{color:source.sentimentEvents.map(d=>d.avg_roi_delta),colorscale:[[0,'#D55E00'],[.5,'#F2C75C'],[1,'#009E73']],line:{{color:'#ffffff',width:1}}}},text:source.sentimentEvents.map(d=>`n=${{d.samples}}`)}}],academicLayout('Key Event Sentiment Impact on ROI','Event type','Average ROI delta'),config);
       Plotly.react('scenarioPlot',[{{x:scenarios.map(d=>d.scenario),y:scenarios.map(d=>d.roi_lift),type:'box',name:'ROI lift',boxpoints:false,marker:{{color:'#009E73'}}}}],academicLayout('Scenario ROI Lift Distribution','Scenario','ROI lift'),config);
       Plotly.react('riskPlot',[{{x:scenarios.map(d=>d.risk_score),y:scenarios.map(d=>d.scenario_roi),mode:'markers',type:'scatter',name:'Scenario',text:scenarios.map(d=>d.strategy_recommendation),marker:{{size:11,color:scenarios.map(d=>d.roi_lift),colorscale:[[0,'#D55E00'],[.5,'#F2C75C'],[1,'#009E73']],showscale:true,colorbar:{{title:'ROI lift'}},line:{{color:'#ffffff',width:1}}}}}}],academicLayout('Risk vs Scenario ROI','Risk score','Scenario ROI'),config);
-      Plotly.react('budgetPlot',[{{x:source.resourceMix.map(d=>d.budget_m),y:source.resourceMix.map(d=>d.risk_adjusted_roi),mode:'markers',type:'scatter',name:'Budget mix',text:source.resourceMix.map(d=>`${{d.sponsor}} · media x${{d.media_multiplier}}`),marker:{{size:source.resourceMix.map(d=>8+Number(d.media_multiplier||1)*5),color:source.resourceMix.map(d=>d.media_multiplier),colorscale:[[0,'#0072B2'],[.5,'#009E73'],[1,'#E69F00']],showscale:true,colorbar:{{title:'Media x'}},line:{{color:'#ffffff',width:1}}}}}}],academicLayout('Budget and Media Sensitivity','Budget, USD millions','Risk-adjusted ROI'),config);
-      const ex=source.extreme.slice(0,80);
-      Plotly.react('extremePlot',[{{x:ex.map(d=>d.extreme_scenario),y:ex.map(d=>d.roi_ci_high),mode:'markers',marker:{{color:'rgba(0,0,0,0)'}},showlegend:false,hoverinfo:'skip'}},{{x:ex.map(d=>d.extreme_scenario),y:ex.map(d=>d.roi_ci_low),type:'box',name:'Risk interval',boxpoints:false,marker:{{color:'#0072B2'}}}},{{x:ex.map(d=>d.extreme_scenario),y:ex.map(d=>d.scenario_roi),type:'box',name:'Scenario ROI',boxpoints:false,marker:{{color:'#E69F00'}}}}],academicLayout('Extreme Scenario ROI and Risk Intervals','Extreme scenario','ROI'),config);
       const rec=[...scenarios].sort((a,b)=>b.roi_lift-a.roi_lift).slice(0,18);
       const cols=['strategy_type','scenario','team_a','team_b','scenario_roi','roi_lift','risk_level','roi_ci_low','roi_ci_high','strategy_recommendation'];
       $('recommendTable').innerHTML=`<thead><tr>${{cols.map(c=>`<th>${{c}}</th>`).join('')}}</tr></thead><tbody>${{rec.map(r=>`<tr>${{cols.map(c=>`<td>${{typeof r[c]==='number'?fmt(r[c],3):r[c]}}</td>`).join('')}}</tr>`).join('')}}</tbody>`;
-      const commercial=source.commercial.slice(0,15);
-      Plotly.react('commercialPlot',[{{x:commercial.map(d=>d.commercial_decision_score),y:commercial.map(d=>`${{d.team}} x ${{d.sponsor}}`),type:'bar',orientation:'h',name:'Decision score',marker:{{color:'#009E73',line:{{color:'#ffffff',width:1}}}}}}],academicLayout('Integrated Commercial Decision Score','Composite score','Team x Sponsor'),config);
-      Plotly.react('attentionPlot',[{{x:source.graphAttention.slice(0,14).map(d=>d.attention_roi_contribution),y:source.graphAttention.slice(0,14).map(d=>d.node.replace('sponsor:','')),type:'bar',orientation:'h',name:'Attention contribution',marker:{{color:'#0072B2',line:{{color:'#ffffff',width:1}}}}}}],academicLayout('Graph Attention ROI Contribution','Contribution score','Sponsor node'),config);
-      const mix=source.resourceMix.slice(0,12);
-      const mixCols=['sponsor','budget_m','media_multiplier','expected_roi','risk_adjusted_roi','risk_penalty','recommendation'];
-      $('resourceTable').innerHTML=`<thead><tr>${{mixCols.map(c=>`<th>${{c}}</th>`).join('')}}</tr></thead><tbody>${{mix.map(r=>`<tr>${{mixCols.map(c=>`<td>${{typeof r[c]==='number'?fmt(r[c],3):r[c]}}</td>`).join('')}}</tr>`).join('')}}</tbody>`;
     }}
     ['team','sponsor','strategy','search'].forEach(id=>$(id).addEventListener('input',render));
     document.querySelectorAll('.navbtn').forEach(b=>b.addEventListener('click',()=>{{document.querySelectorAll('.navbtn').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));b.classList.add('active');$(b.dataset.tab).classList.add('active');setTimeout(render,60);}}));
