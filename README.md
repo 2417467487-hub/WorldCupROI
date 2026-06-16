@@ -14,6 +14,7 @@ WorldCupROI blends match performance, media attention, fan behavior, sponsor inv
 
 | Link | Target |
 |---|---|
+| Website | [Open WorldCupROI in browser](https://2417467487-hub.github.io/WorldCupROI/) |
 | Live Demo | `make dashboard` |
 | Static Dashboard | [dashboard/panel_dashboard.html](dashboard/panel_dashboard.html) |
 | Executive Summary | [reports/executive_summary.pdf](reports/executive_summary.pdf) |
