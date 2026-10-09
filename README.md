@@ -23,22 +23,30 @@ WorldCupROI blends match performance, media attention, fan behavior, sponsor inv
 | Model Card | [reports/model_card.md](reports/model_card.md) |
 | Deployment Guide | [docs/deployment.md](docs/deployment.md) |
 
+## Start here: a reproducible portfolio case
+
+**Question.** Can match context and attention signals support a transparent sponsorship decision demo, including uncertainty rather than only a point prediction?
+
+**What is implemented.** A deterministic data and modeling pipeline, match-outcome and sponsor-ROI baselines, prediction intervals, scenario reports, and two dashboard views. See the [one-page case study](docs/portfolio_case_study.md) for the data flow, evaluation artifacts, and a short reproduction path.
+
+**Evidence boundary.** Match outcomes come from historical results, but sponsor spend, conversion, and ROI targets are constructed proxy/demo variables. ROI metrics therefore measure fit to a **proxy target**, not real commercial return. The platform health score below checks expected artifacts; it is not a model-quality score. See the [data card](reports/data_card.md) and [model card](reports/model_card.md).
+
 ### Platform Hero Overview
 
 ![WorldCupROI platform hero overview](assets/gifs/platform_hero_overview.gif?v=20260608-hero-overview)
 
-**Core result snapshot**
+**Committed report snapshot.** Values below match the model, conformal, and uncertainty reports in this repository; rerunning the pipeline can create a different snapshot if inputs or code change.
 
 | Area | Current value |
 |---|---:|
-| Platform health score | 100 / 100 |
-| Match accuracy | 0.5566 |
-| Match log loss | 0.9780 |
-| Sponsor ROI MAE | 0.1177 |
-| Sponsor ROI R2 | 0.8838 |
-| Match conformal coverage | 0.9021 |
-| ROI interval coverage | 0.8814 |
-| Average Monte Carlo std | 0.1320 |
+| Artifact health score (not model quality) | 100 / 100 |
+| Match accuracy | 0.5023 |
+| Match log loss | 1.0097 |
+| Sponsor ROI proxy MAE | 0.1165 |
+| Sponsor ROI proxy R2 | 0.8478 |
+| Match conformal coverage | 0.9231 |
+| ROI proxy interval coverage | 0.8564 |
+| Average Monte Carlo std | 0.133 |
 
 ## 10-Second Overview
 
@@ -66,10 +74,10 @@ WorldCupROI is a reproducible sports sponsorship analytics project with four lay
 
 | Task | Model | Metric | Value |
 |---|---|---|---:|
-| Match outcome | Centroid classifier | Accuracy | 0.5566 |
-| Match outcome | Centroid classifier | Log loss | 0.9780 |
-| Sponsor ROI | Ridge regression | MAE | 0.1177 |
-| Sponsor ROI | Ridge regression | R2 | 0.8838 |
+| Match outcome | Centroid classifier | Accuracy | 0.5023 |
+| Match outcome | Centroid classifier | Log loss | 1.0097 |
+| Sponsor ROI proxy | Ridge regression | MAE | 0.1165 |
+| Sponsor ROI proxy | Ridge regression | R2 | 0.8478 |
 
 ### ROI Feature Importance / SHAP
 
@@ -280,12 +288,12 @@ The ROI explanation layer is designed for business review: it connects model out
 
 | Reliability layer | Output | Current value |
 |---|---|---:|
-| Match conformal prediction | Coverage rate | 0.9021 |
-| Match conformal prediction | Average set size | 2.3814 |
-| ROI conformal prediction | Coverage rate | 0.8557 |
-| ROI conformal prediction | Average interval width | 0.4745 |
-| Monte Carlo risk | Average std | 0.1320 |
-| Monte Carlo risk | Medium-risk cases | 119 |
+| Match conformal prediction | Coverage rate | 0.9231 |
+| Match conformal prediction | Average set size | 2.441 |
+| ROI proxy conformal prediction | Coverage rate | 0.8564 |
+| ROI proxy conformal prediction | Average interval width | 0.4555 |
+| Monte Carlo risk | Average std | 0.133 |
+| Monte Carlo risk | Medium-risk cases | 118 |
 
 Risk artifacts:
 
